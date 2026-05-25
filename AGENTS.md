@@ -56,7 +56,7 @@ Each agent has defined inputs, outputs, and responsibilities. Update this file w
   "summary": str
 }
 ```
-**Model:** Claude Opus or Sonnet
+**Model:** Gemini 2.5 Pro
 **No Bright Data.**
 
 ---
@@ -79,7 +79,7 @@ Each agent has defined inputs, outputs, and responsibilities. Update this file w
   "suggested_sources": [str]      # which evidence tiers to prioritize
 }
 ```
-**Model:** Claude Opus
+**Model:** Gemini 2.5 Pro (or Claude via personal Max account)
 
 ---
 
@@ -107,7 +107,7 @@ Each agent has defined inputs, outputs, and responsibilities. Update this file w
   "budget_remaining_after": float
 }
 ```
-**Model:** Claude Sonnet
+**Model:** Gemini 2.5 Pro
 **Requires Budget Controller approval before Scraper Coordinator executes.**
 
 ---
@@ -136,7 +136,7 @@ Each agent has defined inputs, outputs, and responsibilities. Update this file w
   "total_actual_cost": float
 }
 ```
-**Uses:** Bright Data SDK + Gemini 1.5 Flash (for extraction)
+**Uses:** Bright Data SDK + Gemini 2.5 Flash (for extraction)
 **Every API call goes through Budget Controller.**
 
 ---
@@ -181,4 +181,4 @@ budget.report()              # → full spend report for deliverables
   "recommendations": [str]
 }
 ```
-**Model:** Claude Opus
+**Model:** Gemini 2.5 Pro (or Claude via personal Max account)
