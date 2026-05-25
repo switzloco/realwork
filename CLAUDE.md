@@ -15,7 +15,7 @@ This project is built across two environments:
 | Environment | Tool | Primary Role |
 |-------------|------|-------------|
 | Cloud | Claude Code (web) | Architecture, agent logic, documentation, code review |
-| Local | Google Antigravity (Gemini) | Firebase, Bright Data integration, local testing, UI |
+| Local | Google Antigravity (Gemini) | Bright Data integration, local testing, UI |
 
 ### Coordination Rules
 - **README.md** is the source of truth for architecture decisions. Update it when the design changes.
@@ -51,7 +51,8 @@ realwork/
 
 ## Tech Stack
 - Python for orchestration and ETL
-- Claude API (Opus/Sonnet) for reasoning agents
-- Gemini 1.5 Flash for cheap HTML/PDF parsing
+- Gemini 2.5 Pro for reasoning agents (Stage 1 analysis, Stage 2 planning)
+- Gemini 2.5 Flash for cheap HTML/PDF parsing
+- Claude via personal Max account (optional, Stage 3 synthesis only)
 - Bright Data SDK for web scraping
-- Firebase for storage
+- SQLite for storage (single file, zero cost, portable)
