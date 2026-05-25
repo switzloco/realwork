@@ -61,7 +61,7 @@ The top-level controller. Runs the pipeline sequentially (Stage 1 → 2 → 3), 
 
 #### 3. Red Flag Analyst Agent (Stage 1)
 **Role:** The detective brain. Takes the clean project table and reasons about each project's fraud likelihood.
-- **Model: Claude Opus or Sonnet** — needs strong reasoning over mixed structured/unstructured data
+- **Model: Gemini 2.5 Pro** — strong reasoning over mixed structured/unstructured data, low cost
 - Analyzes each project against fraud indicators:
   - Unusually high cost relative to project scope or comparable projects
   - Awardees with no prior public contract history
@@ -82,7 +82,7 @@ The top-level controller. Runs the pipeline sequentially (Stage 1 → 2 → 3), 
   - **Investigation feasibility** (can we find corroborating evidence online? Is the recipient a searchable entity?)
   - **Dollar magnitude** (bigger = more impactful finding, more hackathon points)
 - Produces a ranked list of 3-5 projects with a 1-paragraph investigation brief per project
-- **Model: Claude Opus** — this is the highest-leverage reasoning in the whole pipeline. Worth spending on the best model here.
+- **Model: Gemini 2.5 Pro** — highest-leverage reasoning in the pipeline, keeps costs in Google ecosystem.
 
 #### 5. Investigation Planner Agent (Stage 2)
 **Role:** For each target project, plans the specific scraping strategy based on its unique red flags.
@@ -111,7 +111,7 @@ The top-level controller. Runs the pipeline sequentially (Stage 1 → 2 → 3), 
   - **Scraping Browser** for JS-heavy sites (county permit portals, Google Maps)
   - **SERP API** for news/public records searches about the entity
 - Parses raw results into structured evidence records
-- Uses Gemini 1.5 Flash for cheap extraction from messy HTML/PDFs
+- Uses Gemini 2.5 Flash for cheap extraction from messy HTML/PDFs
 - **Every API call goes through the Budget Controller** — no exceptions
 - Spawns sub-scrapers for parallel evidence gathering when budget allows
 
@@ -130,7 +130,7 @@ The top-level controller. Runs the pipeline sequentially (Stage 1 → 2 → 3), 
   budget.reserve(amt)  # reserves amount, returns approval/denial
   budget.record(call)  # logs completed API call with actual cost
   ```
-- **Implementation:** Simple Python class backed by a JSON file or Firebase doc. No LLM needed — this is deterministic logic.
+- **Implementation:** Simple Python class backed by SQLite. No LLM needed — this is deterministic logic.
 - **Cost estimation:** Bright Data pricing varies by product:
   - Web Scraper API: ~$0.50-2.00 per page
   - Scraping Browser: ~$2.00-5.00 per session
@@ -147,7 +147,7 @@ The top-level controller. Runs the pipeline sequentially (Stage 1 → 2 → 3), 
   - For FLAGGED projects: the specific fraud indicators confirmed
   - For CLEARED projects: the specific evidence that exonerates
 - Produces the final report with all projects, budget spent, methodology description
-- **Model: Claude Opus** — the writeup quality matters for the hackathon submission
+- **Model: Gemini 2.5 Pro** (default) or **Claude via personal Max account** (optional, for higher-quality prose)
 
 ---
 
@@ -257,11 +257,18 @@ Each project gets a log entry:
 |-----------|------|-------|
 | Pipeline orchestration | Python | Coordinates agents and data flow |
 | ETL | Python / pandas | Data cleaning, no LLM needed |
-| Red Flag Analyst | Claude API (Opus/Sonnet) | Core reasoning engine |
-| Ranking Agent | Claude API (Opus) | Highest-leverage reasoning step |
-| Investigation Planner | Claude API (Sonnet) | Plan generation |
+| Red Flag Analyst | Gemini 2.5 Pro | Core reasoning engine — bulk analysis |
+| Ranking Agent | Gemini 2.5 Pro | Highest-leverage reasoning step |
+| Investigation Planner | Gemini 2.5 Pro | Plan generation |
 | Scraper Coordinator | Python + Bright Data SDK | API orchestration |
-| Data Extraction | Gemini 1.5 Flash | Cheap parsing of HTML/PDFs |
+| Data Extraction | Gemini 2.5 Flash | Cheap parsing of HTML/PDFs |
 | Budget Controller | Python (deterministic) | JSON ledger, no LLM |
-| Synthesis Agent | Claude API (Opus) | Final report generation |
-| Storage | Firebase | Project records, evidence, logs |
+| Synthesis Agent | Claude (optional) | Final report polish — via personal account |
+| Storage | SQLite | Local DB, zero cost, easy to query |
+
+### LLM Cost Strategy
+
+- **Primary model: Gemini 2.5 Pro** — handles all Stage 1 analysis and Stage 2 planning. Free tier or low cost through Google AI Studio / Vertex AI.
+- **Extraction model: Gemini 2.5 Flash** — cheap bulk parsing of scraped HTML/PDFs into structured data.
+- **Optional polish: Claude** — if you want higher-quality writing for the final Stage 3 synthesis report, route it through a personal Claude Max ($20/mo) account. This is low volume (a few reports total), so it fits within normal usage. Not required — Gemini 2.5 Pro can handle synthesis too.
+- **Anthropic API budget: $0 for hackathon.** Keep it free. If you add Claude later for synthesis, it's through the personal account, not paid API credits.
