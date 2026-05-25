@@ -270,7 +270,16 @@ Each project gets a log entry:
 
 ### LLM Cost Strategy
 
-- **Primary model: Gemini 2.5 Pro** — handles all Stage 1 analysis and Stage 2 planning. Free tier or low cost through Google AI Studio / Vertex AI.
+**Hard cap: $60 Gemini spend for this project.**
+
+- **Primary model: Gemini 2.5 Pro** — handles all Stage 1 analysis and Stage 2 planning.
 - **Extraction model: Gemini 2.5 Flash** — cheap bulk parsing of scraped HTML/PDFs into structured data.
-- **Optional polish: Claude** — if you want higher-quality writing for the final Stage 3 synthesis report, route it through a personal Claude Max ($20/mo) account. This is low volume (a few reports total), so it fits within normal usage. Not required — Gemini 2.5 Pro can handle synthesis too.
-- **Anthropic API budget: $0 for hackathon.** Keep it free. If you add Claude later for synthesis, it's through the personal account, not paid API credits.
+- **Optional polish: Claude** — if you want higher-quality writing for the final Stage 3 synthesis report, route it through a personal Claude Max ($20/mo) account. Low volume, fits within normal usage. Not required.
+- **Anthropic API budget: $0.**
+
+**Estimated Gemini costs for a full run:**
+- Google AI Studio free tier: 25 RPM / 1500 RPD for Gemini 2.5 Pro — likely covers the entire hackathon for Stage 1 (we make ~16 calls per full pipeline run)
+- If paying (Vertex AI): Gemini 2.5 Pro is ~$1.25/1M input tokens, ~$10/1M output tokens. A full Stage 1 run with 200 projects is roughly $0.50-2.00 total.
+- Search Validator with grounding: ~$0.10-0.50 per target validated (5 targets = $0.50-2.50)
+- **Realistic total for the hackathon: $5-15 even with dozens of iterative runs.** Well under the $60 cap.
+- If you stay on Google AI Studio's free tier and run during off-peak, this may cost $0.
