@@ -153,13 +153,15 @@ The top-level controller. Runs the pipeline sequentially (Stage 1 → 2 → 3), 
 
 ## Stage 1: Target Selection (Detail)
 
-**No Bright Data spend in this stage.** All data comes from public APIs/CSVs.
+**No Bright Data spend in this stage.** All data comes from public APIs/CSVs + Gemini's grounded search.
 
 ```
-CA Open Data Portal → ETL Agent → Clean Project Table → Red Flag Analyst → Scored Projects → Ranking Agent → Top 3-5 Targets
+CA Open Data Portal → ETL Agent → Clean Project Table → Red Flag Analyst → Scored Projects → Ranking Agent → Top 5 Targets → Search Validator → Final Targets
 ```
 
 The Red Flag Analyst processes projects in batches. For a dataset of, say, 500 infrastructure grants, we'd batch them ~50 at a time with category-level context ("the median construction grant in 2024 was $X, typical duration is Y months"). This gives the model a baseline for spotting statistical outliers without having to hold the entire dataset in context.
+
+**Search Validator (Stage 1.5):** Before spending any Bright Data budget, the Ranking Agent's shortlist goes through Gemini 2.5 Pro with Google Search grounding enabled. For each target, it searches the web to check if red flags have innocent explanations (e.g., a project that looks suspicious is actually well-documented publicly but just had missing fields in the state database). This eliminates false positives at zero scraping cost. Targets are re-classified as INVESTIGATE, DEPRIORITIZE, or CLEAR — only INVESTIGATE targets proceed to Stage 2.
 
 **Critical output:** Each target project gets a brief that the Investigation Planner can act on:
 ```
