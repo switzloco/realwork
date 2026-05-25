@@ -7,6 +7,7 @@ Projects are batched to stay within context limits.
 import json
 import os
 import textwrap
+import time
 from typing import Any
 
 import google.generativeai as genai
@@ -123,12 +124,15 @@ def run(projects: list[dict]) -> list[dict]:
     batches = [projects[i:i+BATCH_SIZE] for i in range(0, len(projects), BATCH_SIZE)]
 
     for i, batch in enumerate(batches):
-        print(f"  Analyzing batch {i+1}/{len(batches)} ({len(batch)} projects)...")
+        print(f"  Analyzing batch {i+1}/{len(batches)} ({len(batch)} projects)...", flush=True)
         prompt = _build_batch_prompt(batch)
 
         response = model.generate_content(prompt)
         assessments = _parse_response(response.text)
         all_assessments.extend(assessments)
+        
+        if i < len(batches) - 1:
+            time.sleep(5)
 
     print(f"  Assessed {len(all_assessments)} projects")
     _save_assessments(all_assessments)
