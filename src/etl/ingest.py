@@ -33,15 +33,15 @@ TARGET_CATEGORIES = {
 FIELD_MAP = {
     # Maps possible source column names → our normalized field names
     # Add mappings here as you discover the actual CA dataset schema
-    "project_name":    ["project_name", "project title", "grant name", "award name"],
-    "recipient_name":  ["applicant_name", "recipient", "grantee", "organization"],
-    "recipient_type":  ["entity_type", "applicant type", "org type"],
-    "award_amount":    ["award_amount", "amount", "total award", "grant amount", "funding amount"],
-    "award_date":      ["award_date", "date awarded", "approval date"],
+    "project_name":    ["project_name", "project title", "projecttitle", "grant name", "award name"],
+    "recipient_name":  ["applicant_name", "recipient", "recipientname", "grantee", "organization"],
+    "recipient_type":  ["entity_type", "applicant type", "recipienttype", "org type"],
+    "award_amount":    ["award_amount", "amount", "total award", "totalawardamount", "grant amount", "funding amount"],
+    "award_date":      ["award_date", "date awarded", "projectstartdate", "approval date"],
     "category":        ["category", "program area", "fund type", "project type"],
-    "description":     ["project_description", "description", "project summary", "abstract"],
-    "location":        ["project_location", "county", "city", "address", "location"],
-    "funding_source":  ["funding_source", "fund source", "program", "agency"],
+    "description":     ["project_description", "description", "projectabstract", "project summary", "abstract"],
+    "location":        ["project_location", "county", "countiesserved", "geographiclocationserved", "city", "address", "location"],
+    "funding_source":  ["funding_source", "fund source", "agencydept", "program", "agency"],
     "contract_type":   ["contract_type", "award type", "procurement type"],
 }
 
@@ -129,9 +129,9 @@ def run(source: str = "auto") -> list[dict]:
     records = [r for r in records if _is_target_category(r)]
     records = [r for r in records if r.get("award_amount", 0) > 0]
 
-    # Sort by award amount descending, keep top 10% or 200 records
+    # Sort by award amount descending, keep top 40 records to avoid API limits
     records.sort(key=lambda r: r.get("award_amount", 0), reverse=True)
-    top_n = max(50, len(records) // 10)
+    top_n = min(40, len(records))
     records = records[:top_n]
 
     print(f"  Filtered to {len(records)} target records (top {top_n} by amount)")

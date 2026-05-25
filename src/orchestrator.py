@@ -4,6 +4,9 @@ Runs Stage 1 (ETL → Red Flag Analyst → Ranking).
 Stage 2 (Investigation) and Stage 3 (Synthesis) stubs are here, not yet implemented.
 """
 
+from dotenv import load_dotenv
+load_dotenv()
+
 import argparse
 import json
 from rich.console import Console
@@ -11,7 +14,8 @@ from rich.table import Table
 
 from src.db import init_db
 from src.budget import BudgetController
-from src import etl, analysis
+from src.etl import ingest
+from src.analysis import red_flag_analyst, ranking_agent
 
 console = Console()
 budget  = BudgetController()
@@ -21,13 +25,13 @@ def run_stage1(source: str = "auto") -> list[dict]:
     console.rule("[bold blue]Stage 1: Target Selection")
 
     console.print("\n[bold]ETL Agent[/bold] — loading CA grant data")
-    projects = etl.ingest.run(source=source)
+    projects = ingest.run(source=source)
 
     console.print(f"\n[bold]Red Flag Analyst[/bold] — analyzing {len(projects)} projects")
-    assessments = analysis.red_flag_analyst.run(projects)
+    assessments = red_flag_analyst.run(projects)
 
     console.print(f"\n[bold]Ranking Agent[/bold] — selecting top targets")
-    rankings = analysis.ranking_agent.run(assessments)
+    rankings = ranking_agent.run(assessments)
 
     _print_rankings(rankings)
     return rankings
