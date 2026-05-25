@@ -1,6 +1,6 @@
 """
 Orchestrator — main pipeline controller.
-Runs Stage 1 (ETL → Red Flag Analyst → Ranking).
+Runs Stage 1 (ETL → Red Flag Analyst → Ranking → Search Validation).
 Stage 2 (Investigation) and Stage 3 (Synthesis) stubs are here, not yet implemented.
 """
 
@@ -21,7 +21,7 @@ console = Console()
 budget  = BudgetController()
 
 
-def run_stage1(source: str = "auto") -> list[dict]:
+def run_stage1(source: str = "auto", skip_validation: bool = False) -> list[dict]:
     console.rule("[bold blue]Stage 1: Target Selection")
 
     console.print("\n[bold]ETL Agent[/bold] — loading CA grant data")
@@ -34,6 +34,13 @@ def run_stage1(source: str = "auto") -> list[dict]:
     rankings = ranking_agent.run(assessments)
 
     _print_rankings(rankings)
+
+    if not skip_validation:
+        console.print(f"\n[bold]Search Validator[/bold] — grounded web search to eliminate false positives")
+        validated = analysis.search_validator.run(rankings)
+        _print_validated(validated)
+        return validated
+
     return rankings
 
 
@@ -54,7 +61,7 @@ def _print_rankings(rankings: list[dict]) -> None:
         console.print("[red]No targets selected.[/red]")
         return
 
-    table = Table(title="Investigation Targets")
+    table = Table(title="Investigation Targets (Pre-Validation)")
     table.add_column("Rank", style="bold")
     table.add_column("Project ID")
     table.add_column("Score")
@@ -70,17 +77,44 @@ def _print_rankings(rankings: list[dict]) -> None:
     console.print(table)
 
 
+def _print_validated(validated: list[dict]) -> None:
+    if not validated:
+        console.print("[red]All targets cleared by search validation.[/red]")
+        return
+
+    table = Table(title="Validated Targets (Post-Search)")
+    table.add_column("Rank", style="bold")
+    table.add_column("Project ID")
+    table.add_column("Recommendation", style="bold")
+    table.add_column("Flags Remaining")
+    table.add_column("Reasoning")
+
+    for v in validated:
+        rec = v.get("recommendation", "?")
+        style = "green" if rec == "INVESTIGATE" else "yellow"
+        table.add_row(
+            str(v.get("validated_rank", "?")),
+            v["project_id"],
+            f"[{style}]{rec}[/{style}]",
+            str(len(v.get("red_flags_remaining", []))),
+            v.get("reasoning", "")[:80],
+        )
+    console.print(table)
+
+
 def main():
     parser = argparse.ArgumentParser(description="RealWork fraud detection pipeline")
     parser.add_argument("--stage", choices=["1", "2", "3", "all"], default="1")
     parser.add_argument("--source", choices=["api", "csv", "auto"], default="auto",
                         help="Data source for ETL (auto tries API then CSV)")
+    parser.add_argument("--skip-validation", action="store_true",
+                        help="Skip the search validation step in Stage 1")
     args = parser.parse_args()
 
     init_db()
 
     if args.stage in ("1", "all"):
-        rankings = run_stage1(source=args.source)
+        rankings = run_stage1(source=args.source, skip_validation=args.skip_validation)
 
     if args.stage in ("2", "all"):
         # Load rankings from DB if not running from stage 1 this session
