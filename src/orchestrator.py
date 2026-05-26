@@ -9,6 +9,7 @@ load_dotenv()
 
 import argparse
 import json
+from datetime import datetime, timezone
 from rich.console import Console
 from rich.table import Table
 
@@ -16,6 +17,9 @@ from src.db import init_db
 from src.budget import BudgetController
 from src.etl import ingest
 from src.analysis import red_flag_analyst, ranking_agent, search_validator
+from src.investigation import planner, scraper_coordinator
+from src.synthesis import synthesis_agent
+
 
 console = Console()
 budget  = BudgetController()
@@ -46,14 +50,56 @@ def run_stage1(source: str = "auto", skip_validation: bool = False) -> list[dict
 
 def run_stage2(rankings: list[dict]) -> None:
     console.rule("[bold yellow]Stage 2: Evidence Gathering")
-    console.print("[dim]Not yet implemented — coming next[/dim]")
-    # TODO: Investigation Planner + Scraper Coordinator
+    if not rankings:
+        console.print("[red]No ranked targets available to investigate.[/red]")
+        return
+
+    console.print(f"Investigating {len(rankings)} targets sequentially...")
+    from src.db import get_conn
+    
+    for r in rankings:
+        pid = r["project_id"]
+        console.print(f"\n[bold underline yellow]Starting Investigation: {pid}[/bold underline yellow]")
+        
+        # 1. Update status to INVESTIGATING in investigation_log
+        with get_conn() as conn:
+            conn.execute("""
+                INSERT OR REPLACE INTO investigation_log (project_id, status, updated_at)
+                VALUES (?, 'INVESTIGATING', ?)
+            """, (pid, datetime.now(timezone.utc).isoformat()))
+            
+        # 2. Get current budget status
+        b_status = budget.status()
+        if b_status["zone"] == "HARD_STOP":
+            console.print("[red]Hard budget stop reached! Skipping remaining investigations.[/red]")
+            break
+            
+        # 3. Invoke Investigation Planner
+        try:
+            plan = planner.run(pid, b_status)
+            if not plan.get("steps"):
+                console.print(f"[yellow]No scraping steps planned for {pid}. Skipping.[/yellow]")
+                continue
+        except Exception as e:
+            console.print(f"[red]Error planning investigation for {pid}: {e}[/red]")
+            continue
+            
+        # 4. Invoke Scraper Coordinator
+        try:
+            results = scraper_coordinator.run(plan)
+            console.print(f"[green][SUCCESS] Completed evidence gathering for {pid}. Total spent: ${results.get('total_actual_cost', 0.0):.2f}[/green]")
+        except Exception as e:
+            console.print(f"[red]Error gathering evidence for {pid}: {e}[/red]")
+            continue
 
 
 def run_stage3() -> None:
-    console.rule("[bold green]Stage 3: Synthesis")
-    console.print("[dim]Not yet implemented — coming after Stage 2[/dim]")
-    # TODO: Synthesis Agent
+    console.rule("[bold green]Stage 3: Synthesis & Reporting")
+    try:
+        synthesis_agent.run()
+    except Exception as e:
+        console.print(f"[red]Error during Stage 3 Synthesis: {e}[/red]")
+
 
 
 def _print_rankings(rankings: list[dict]) -> None:
