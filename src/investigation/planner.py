@@ -23,10 +23,14 @@ SYSTEM_PROMPT = textwrap.dedent("""
     
     You must output a list of 2 to 4 scraping steps to investigate this project.
     For each step, recommend the best Bright Data product:
-    - "serp_api": For search engine queries (e.g., verifying if the business exists, looking up news, finding websites).
+    - "serp_api": PREFERRED. For search engine queries. Use this for most steps — verifying if the business exists,
+      finding news articles, checking for lawsuits/complaints, finding company websites, contractor license lookups.
       The target_url should be a google search query URL, e.g., "https://www.google.com/search?q=..."
-    - "scraper_api": For structured portals (e.g., Secretary of State registries, licensing boards like CSLB, SAM.gov).
-    - "scraping_browser": For JS-heavy, dynamic websites (e.g., local permit databases, LinkedIn company pages, Google Maps Street View).
+      Use quoted search terms for exact entity name matches, e.g., "https://www.google.com/search?q=%22Acme+LLC%22+Sacramento+contractor"
+    - "scraper_api": For structured government portals ONLY (e.g., SAM.gov, USAspending.gov).
+      NOTE: CA Secretary of State and CSLB block automated scraping. Use serp_api to search those instead:
+      e.g., "https://www.google.com/search?q=%22Company+Name%22+site:bizfileonline.sos.ca.gov"
+    - "scraping_browser": AVOID. Not available. Will fall back to a SERP search automatically.
     
     Estimate a realistic cost in USD for each step:
     - serp_api: $0.50 - $1.00 per query
@@ -48,7 +52,7 @@ SYSTEM_PROMPT = textwrap.dedent("""
           "source": str,              // e.g. "CA Secretary of State", "LinkedIn", "Google Search"
           "target_url": str,          // URL to scrape/search
           "bright_data_product": "scraper_api" | "scraping_browser" | "serp_api",
-          "search_params": dict,      // e.g. {"q": "Teknol Inc California"} or empty
+          "search_params": dict,      // e.g. {"q": "Acme Corp California"} or empty
           "estimated_cost": float,
           "rationale": str            // why this source matters for this project
         }

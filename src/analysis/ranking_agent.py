@@ -15,7 +15,7 @@ from src.db import get_conn
 genai.configure(api_key=os.environ["GEMINI_API_KEY"])
 MODEL = "gemini-2.5-pro"
 
-TARGET_COUNT = int(os.getenv("TARGET_COUNT", "5"))
+TARGET_COUNT = int(os.getenv("TARGET_COUNT", "50"))
 
 SYSTEM_PROMPT = textwrap.dedent("""
     You are the chief investigator on a public fraud task force.

@@ -127,14 +127,14 @@ def run(source: str = "auto") -> list[dict]:
     # Filter to target categories and private recipients only (not gov-to-gov grants)
     records = df.to_dict("records")
     records = [r for r in records if _is_target_category(r)]
-    records = [r for r in records if 100_000 <= r.get("award_amount", 0) <= 1_500_000]
+    records = [r for r in records if 50_000 <= r.get("award_amount", 0) <= 5_000_000]
 
-    # Sort by award amount descending, keep up to 40 records to avoid API limits
+    # Sort by award amount descending, keep up to 200 records to avoid API limits
     records.sort(key=lambda r: r.get("award_amount", 0), reverse=True)
-    top_n = min(40, len(records))
+    top_n = min(200, len(records))
     records = records[:top_n]
 
-    print(f"  Filtered to {len(records)} target records ($100k-$1.5M tier, max 40)")
+    print(f"  Filtered to {len(records)} target records ($50k-$5M tier, max 200)")
 
     projects = []
     with get_conn() as conn:
