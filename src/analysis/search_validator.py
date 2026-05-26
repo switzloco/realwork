@@ -82,14 +82,15 @@ def _parse_response(text: str) -> dict:
     return json.loads(text.strip())
 
 
+from google.generativeai import protos
+
 def validate_target(ranking: dict, project: dict, flags: list[dict]) -> dict:
     """Validate a single target using grounded search."""
-    google_search_tool = Tool(google_search={})
-
+    search_tool = protos.Tool(google_search=protos.Tool.GoogleSearch())
     model = genai.GenerativeModel(
         model_name=MODEL,
         system_instruction=SYSTEM_PROMPT,
-        tools=[google_search_tool],
+        tools=[search_tool],
     )
 
     prompt = _build_prompt(ranking, project, flags)
@@ -126,11 +127,11 @@ def run(rankings: list[dict]) -> list[dict]:
         result["project_id"] = pid
 
         if result.get("recommendation") == "CLEAR":
-            print(f"    → CLEARED: {result.get('reasoning', '')[:80]}")
+            print(f"    -> CLEARED: {result.get('reasoning', '')[:80]}")
         elif result.get("recommendation") == "DEPRIORITIZE":
-            print(f"    → DEPRIORITIZED: {result.get('reasoning', '')[:80]}")
+            print(f"    -> DEPRIORITIZED: {result.get('reasoning', '')[:80]}")
         else:
-            print(f"    → INVESTIGATE: {result.get('reasoning', '')[:80]}")
+            print(f"    -> INVESTIGATE: {result.get('reasoning', '')[:80]}")
 
         validated.append(result)
 
