@@ -49,6 +49,11 @@ realwork/
 - Sequential investigation: finish one project before starting the next.
 - All findings must be framed as "anomalies warranting investigation," not accusations.
 
+## Legal & Safety Rules
+- **Language:** Never say "fraud" as a conclusion. Use "anomaly," "warrants investigation," "discrepancy." The tool identifies candidates for investigation — it does not make legal determinations.
+- **Public repos:** Anonymize or redact real entity names in any findings committed to GitHub. Show real names only in live demos or private reports. You can de-anonymize later with legal counsel.
+- **If a real finding surfaces:** Do NOT contact the entity, the awarding agency, or the press. The California False Claims Act (qui tam) rewards filing under seal before public disclosure. The correct path is: find a qui tam attorney (they work on contingency, 15-30% of recovery). Filing first preserves the whistleblower's position.
+
 ## Tech Stack
 - Python for orchestration and ETL
 - Gemini 2.5 Pro for reasoning agents (Stage 1 analysis, Stage 2 planning)
