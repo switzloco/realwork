@@ -68,28 +68,53 @@ HIGH. This is a perfect demo case — your tool caught a real, verifiable anomal
 - **No contractor's license. No construction capabilities. No evidence it operates a physical childcare facility.**
 - Website is teknol.xyz
 
-**About JM3 Holdings LLC (another NCMR recipient, same day, same amount):**
+**About JM3 Holdings LLC (another NCMR recipient, same date field):**
 - Registered in Merced, CA
 - Evidence links it to operating a day care center — which would make it a legitimate NCMR recipient
-- Received the same $1.5M on the same date (2021-08-01)
+- Has the same "2021-08-01" date in the award_date field (see below)
 
-### What it means
+**Critical update — the "2021-08-01" date is NOT an award date:**
+- The NCMR program requires applicants to have "at least one child care facility in operation **on or before August 01, 2021**"
+- The program was enacted July 23, 2021. Applications were due January 31, 2023. Awardees notified September 2022.
+- The date "2021-08-01" in the grant database is almost certainly the **eligibility cutoff date** stored in the award_date field, not the date money was awarded
+- This means the "multiple grants on the same day" pattern is a data quality issue, not evidence of suspicious batch processing
+
+**Child care facility license search:**
+- No license found for "Teknol Inc," "Rahul Beri," or address "1050 Park Ave, San Jose" via web searches of the CA CCLD facility database
+- The CCLD search tool (ccld.dss.ca.gov) blocks automated access — **a manual browser search is needed to confirm**
+- Rahul Beri does have childcare sector involvement: board member at Silicon Valley 4 Kids (youth programs nonprofit), founded PREto3 (childcare SaaS)
+
+**The grants dataset HAS a disbursement field:**
+- Field called `totalAwardUsed` — the amount actually spent/disbursed
+- It exists alongside `totalAwardAmount` in the data.ca.gov schema
+- Our ETL doesn't capture it yet — we could query the API to check if Teknol's $1.5M was actually disbursed
+
+### What it means (updated assessment)
 
 There are a few possibilities, ranked by likelihood:
 
-1. **Teknol is building childcare software, not childcare buildings.** Its connection to childcare is through apps (PREto3, Avo Kids), not physical facilities. If the NCMR grant was awarded based on Teknol's childcare software credentials rather than actual plans to build/renovate a licensed facility, that's a misuse of the program. The grant is explicitly for physical construction.
+1. **Teknol is legitimately building or renovating a child care facility** and we haven't found evidence yet. Rahul Beri has real childcare sector ties (nonprofit board, childcare software). It's plausible he's opening a physical facility with Teknol as the entity. NCMR eligibility requires having an operating facility before Aug 2021, but we can't search CCLD automatically to verify. **This is now a stronger possibility than initially assessed.**
 
-2. **Teknol is legitimately building or renovating a child care facility** that we haven't found evidence of yet. Maybe Rahul Beri is opening a physical daycare center and Teknol is the corporate entity. This is possible but there's zero public evidence of it — no permits, no CSLB license, no construction activity.
+2. **Teknol applied based on childcare software credentials, not a physical facility.** If they don't operate a licensed facility, they wouldn't meet NCMR eligibility requirements. The grant is explicitly for physical construction of childcare facilities.
 
-3. **Data error.** Less likely here because unlike the Berkeley case, the recipient name, amount, date, and program all line up consistently. This doesn't look like a scrambled record.
+3. **The grant was awarded but never disbursed.** Checking `totalAwardUsed` in the dataset would resolve this quickly.
 
 ### What makes this interesting
-- A software/marketing company getting the maximum possible grant ($1.5M) for physical construction it has no apparent capability to perform
-- Multiple NCMR grants of exactly $1.5M awarded on the same date to different entities with identical vague descriptions
-- The company's connection to childcare is real but it's through *software*, not *facilities*
+- A digital marketing/software company receiving the maximum possible grant ($1.5M) for physical childcare facility construction
+- No contractor's license, no CSLB record, no evidence of construction capability
+- But real childcare sector connections through software and nonprofits
+- **Still no evidence of a licensed childcare facility** — the critical piece
+
+### What we still don't know
+- Does the CCLD database have a facility licensed to Teknol or Beri? (requires manual browser search)
+- Was the $1.5M actually disbursed? (requires querying `totalAwardUsed` from data.ca.gov API)
+- What did Teknol's NCMR application say they'd build? (requires public records request to DSS)
 
 ### Hackathon value
-VERY HIGH. This is the kind of finding that makes judges lean forward. A tech company getting a $1.5M construction grant because it has childcare *software* connections, not childcare *building* capabilities.
+HIGH — but frame carefully. The anomaly is real (software company + construction grant), the investigation process is compelling, but the explanation may be innocent. This is actually a *better* demo than "we found fraud" because it shows the tool's nuance: flag, investigate, and present the evidence for humans to decide.
+
+### Honest assessment
+The Teknol case got weaker with the date correction. It's still an anomaly worth investigating, but "multiple $1.5M grants on the same suspicious day" was a data artifact, not a fraud pattern. The core question — does a software company have a licensed childcare facility? — is still unanswered and still worth asking.
 
 ---
 
@@ -108,10 +133,10 @@ VERY HIGH. This is the kind of finding that makes judges lean forward. A tech co
 6. **Do NOT contact Teknol, Rahul Beri, DSS, or any press.** If this is a real misuse of funds, the California False Claims Act (qui tam) lets you file a claim under seal and receive 15-30% of any recovered funds. Public disclosure before filing forfeits that position.
 
 7. **Next investigation steps** (if you want to pursue this):
-   - Search the CA Community Care Licensing database for any facility licensed to Teknol Inc or Rahul Beri
+   - **[DO THIS FIRST — 2 minutes]** Manually search https://www.ccld.dss.ca.gov/carefacilitysearch/ for "Teknol" and "Beri" — this tells you whether they operate a licensed facility. If yes, the case is probably clean. If no, it gets very interesting.
+   - **[DO THIS SECOND — 5 minutes]** Have Antigravity query the data.ca.gov API for Teknol's record and check the `totalAwardUsed` field. If it's $0 or empty, the grant may never have been disbursed.
    - Pull the actual NCMR grant application (public records request to DSS) to see what Teknol claimed they'd build
-   - Check if $1.5M was actually disbursed or just awarded
-   - Look at ALL NCMR recipients from 2021-08-01 — the pattern of identical $1.5M/same-date grants is worth mapping
+   - The "same date" pattern is likely just the eligibility cutoff date (2021-08-01) stored in the wrong field — not suspicious
 
 8. **Talk to a qui tam attorney** if step 7 turns up more smoke. They work on contingency (you pay nothing upfront). Google "California qui tam attorney" or "False Claims Act whistleblower lawyer." Initial consultations are typically free. The attorney will tell you whether there's enough for a case and handle the filing.
 
