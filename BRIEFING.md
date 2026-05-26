@@ -93,28 +93,29 @@ HIGH. This is a perfect demo case — your tool caught a real, verifiable anomal
 
 There are a few possibilities, ranked by likelihood:
 
-1. **Teknol is legitimately building or renovating a child care facility** and we haven't found evidence yet. Rahul Beri has real childcare sector ties (nonprofit board, childcare software). It's plausible he's opening a physical facility with Teknol as the entity. NCMR eligibility requires having an operating facility before Aug 2021, but we can't search CCLD automatically to verify. **This is now a stronger possibility than initially assessed.**
+### RESOLVED — Teknol operates a real childcare facility
 
-2. **Teknol applied based on childcare software credentials, not a physical facility.** If they don't operate a licensed facility, they wouldn't meet NCMR eligibility requirements. The grant is explicitly for physical construction of childcare facilities.
+**Manual CCLD search confirmed:** Teknol Inc is the licensee of **"Laurel Play Gardens"**, an infant center at 1050 Park Ave, San Jose, CA 95126.
+- Licensed 12/1/2023, capacity 14, facility type: Infant Center
+- Owners: **Aakriti Beri and Rahul Beri** (Rahul is Teknol's CEO)
+- 8 state visits since October 2023, most recent 05/20/2026
+- One complaint investigated (child left unattended allegation) — **unsubstantiated** after video review showed proper supervision
+- Staff on site during inspection: site supervisor + 2 teacher assistants + 7 infants
 
-3. **The grant was awarded but never disbursed.** Checking `totalAwardUsed` in the dataset would resolve this quickly.
+**Timeline makes sense:** Grant awarded ~2022 → construction/renovation → facility licensed December 2023 → operating since.
 
-### What makes this interesting
-- A digital marketing/software company receiving the maximum possible grant ($1.5M) for physical childcare facility construction
-- No contractor's license, no CSLB record, no evidence of construction capability
-- But real childcare sector connections through software and nonprofits
-- **Still no evidence of a licensed childcare facility** — the critical piece
+**However — the disbursement data is still anomalous:**
+- `TotalAwardAmount`: $1,500,000
+- `MatchingFundingAmount`: $150,000
+- `TotalAwardUsed`: **null**
 
-### What we still don't know
-- Does the CCLD database have a facility licensed to Teknol or Beri? (requires manual browser search)
-- Was the $1.5M actually disbursed? (requires querying `totalAwardUsed` from data.ca.gov API)
-- What did Teknol's NCMR application say they'd build? (requires public records request to DSS)
+After nearly 5 years and a facility that's been open since 2023, the state's database has zero visibility into how much of the $1.5M was actually spent. Either the money was never disbursed, or the tracking is completely broken. Both are concerning — not about Teknol specifically, but about systemic accountability.
+
+### Final assessment
+**Teknol is NOT a fraud case.** The initial flags were reasonable (software company + construction grant), the investigation was thorough, and the resolution is clean. This is the pipeline working exactly as designed: flag → investigate → resolve.
 
 ### Hackathon value
-HIGH — but frame carefully. The anomaly is real (software company + construction grant), the investigation process is compelling, but the explanation may be innocent. This is actually a *better* demo than "we found fraud" because it shows the tool's nuance: flag, investigate, and present the evidence for humans to decide.
-
-### Honest assessment
-The Teknol case got weaker with the date correction. It's still an anomaly worth investigating, but "multiple $1.5M grants on the same suspicious day" was a data artifact, not a fraud pattern. The core question — does a software company have a licensed childcare facility? — is still unanswered and still worth asking.
+VERY HIGH — not as a fraud finding, but as a complete investigation arc. Flag, investigate, resolve. Plus the `TotalAwardUsed: null` discovery points to a systemic accountability gap that may be the bigger story.
 
 ---
 
@@ -122,30 +123,39 @@ The Teknol case got weaker with the date correction. It's still an anomaly worth
 
 ### For the hackathon (by May 30):
 
-1. **Don't change the evidence.** What you have is already strong. Both cases are verified with real sources.
-2. **Record the demo video** showing the pipeline finding these anomalies. The narrative arc is: "We fed in 11,698 grant records, the AI flagged 40, we investigated 22, cleared 14, and found 2 that are genuinely concerning."
-3. **Use the Berkeley case** to show the tool catches data integrity failures.
-4. **Use the Teknol case** to show the tool catches potential misuse of grant programs.
-5. **Anonymize in the GitHub repo.** Use "[Entity A]" and "[Entity B]" in any findings pushed publicly. Show real names only in the live demo.
+1. **Lead with the investigation arc**, not "we found fraud." The story is: 11,698 records → AI flags 40 → investigate 22 → clear 15 → 1 confirmed data integrity failure (Berkeley) → 1 complete flag-to-resolution cycle (Teknol) → systemic accountability gap discovered (null disbursements)
+2. **The `TotalAwardUsed: null` finding may be the biggest story.** Query the ENTIRE dataset for how many grants have null disbursement tracking. If it's thousands of records and billions of dollars with no spend visibility, that's a headline.
+3. **Anonymize in the GitHub repo.** Use "[Entity A]" and "[Entity B]" in any findings pushed publicly. Show real names only in the live demo.
 
-### For real life (after the hackathon):
+### For finding real fraud — strategic pivot:
 
-6. **Do NOT contact Teknol, Rahul Beri, DSS, or any press.** If this is a real misuse of funds, the California False Claims Act (qui tam) lets you file a claim under seal and receive 15-30% of any recovered funds. Public disclosure before filing forfeits that position.
+4. **We may be looking in the wrong category.** Infrastructure/construction grants to cities and known entities are heavily monitored. The fraud is more likely in:
+   - **Grants to private entities** (LLCs, sole proprietors) with weak oversight
+   - **Smaller, less-monitored programs** where nobody's watching
+   - **Entities that don't exist at all** — not "software company doing construction" but "company that literally has no presence anywhere"
+   - **Grants where TotalAwardUsed is null AND the recipient has no web/registry footprint** — that's the intersection of "money untracked" and "entity unverifiable"
 
-7. **Next investigation steps** (if you want to pursue this):
-   - **[DO THIS FIRST — 2 minutes]** Manually search https://www.ccld.dss.ca.gov/carefacilitysearch/ for "Teknol" and "Beri" — this tells you whether they operate a licensed facility. If yes, the case is probably clean. If no, it gets very interesting.
-   - **[DO THIS SECOND — 5 minutes]** Have Antigravity query the data.ca.gov API for Teknol's record and check the `totalAwardUsed` field. If it's $0 or empty, the grant may never have been disbursed.
-   - Pull the actual NCMR grant application (public records request to DSS) to see what Teknol claimed they'd build
-   - The "same date" pattern is likely just the eligibility cutoff date (2021-08-01) stored in the wrong field — not suspicious
+5. **The systemic angle might be worth more than any single case.** If you can show that X% of California grants have zero disbursement tracking, that's a finding that affects billions, not millions. The tool becomes "we audited California's grant accountability and found a black hole."
 
-8. **Talk to a qui tam attorney** if step 7 turns up more smoke. They work on contingency (you pay nothing upfront). Google "California qui tam attorney" or "False Claims Act whistleblower lawyer." Initial consultations are typically free. The attorney will tell you whether there's enough for a case and handle the filing.
+6. **Bright Data + CCLD:** Yes, Web Unlocker or Scraping Browser could automate the CCLD facility search. That would let you batch-verify whether NCMR recipients actually have licensed facilities — a much more powerful check than doing it one at a time in a browser.
 
-9. **Keep your name clean.** Your tool identifies anomalies. You are not accusing anyone of fraud. You are flagging discrepancies that warrant investigation by qualified authorities. This framing protects you legally and is also just accurate — you don't know the full story yet.
+### Next investigation moves:
+
+7. **[HIGH PRIORITY] Query the full dataset for TotalAwardUsed = null.** How many grants? What's the total dollar value? This is free (just API calls to data.ca.gov).
+8. **[HIGH PRIORITY] Look for grants to entities with ZERO web presence.** Run SERP searches for the recipient names of flagged projects. If Google returns nothing — no website, no business listing, no LinkedIn, no news — that's a much stronger fraud signal than "wrong industry."
+9. **[MEDIUM] Cross-reference recipients against SoS business registry.** Grants to entities with "Suspended" or "Forfeited" status = immediate red flag.
+10. **[MEDIUM] Automate CCLD checks via Bright Data** for all NCMR recipients — verify they have actual licensed facilities.
+
+### Legal guidance (unchanged):
+- If you find something real: qui tam attorney first, no public disclosure
+- Frame everything as "anomalies warranting investigation"
+- Keep your name clean — you built a tool, you didn't make accusations
 
 ---
 
 ## Budget Status
-- **Bright Data spent:** $41.50 of $250 (GREEN zone)
+- **Bright Data spent:** $41.50 of $250 (GREEN zone) — **$208 remaining**
 - **Projects investigated:** 22
 - **Gemini API cost:** estimated $5-15 total
 - **Total project cost so far:** ~$50-60
+- **Plenty of budget for a strategic pivot**
