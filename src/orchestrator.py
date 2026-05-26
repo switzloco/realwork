@@ -15,7 +15,7 @@ from rich.table import Table
 from src.db import init_db
 from src.budget import BudgetController
 from src.etl import ingest
-from src.analysis import red_flag_analyst, ranking_agent
+from src.analysis import red_flag_analyst, ranking_agent, search_validator
 
 console = Console()
 budget  = BudgetController()
@@ -37,7 +37,7 @@ def run_stage1(source: str = "auto", skip_validation: bool = False) -> list[dict
 
     if not skip_validation:
         console.print(f"\n[bold]Search Validator[/bold] — grounded web search to eliminate false positives")
-        validated = analysis.search_validator.run(rankings)
+        validated = search_validator.run(rankings)
         _print_validated(validated)
         return validated
 
