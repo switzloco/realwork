@@ -81,7 +81,7 @@ def _scrape_serp(query: str) -> tuple[str, float]:
     }
     payload = {
         "zone": BRIGHT_DATA_SERP_ZONE,
-        "url": f"https://www.google.com/search?q={quote_plus(query)}",
+        "url": f"https://www.google.com/search?q={quote_plus(query)}&brd_json=1",
         "format": "json",
     }
 
