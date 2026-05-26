@@ -90,7 +90,33 @@ def _scrape_serp(query: str) -> tuple[str, float]:
         r = requests.post(url, headers=headers, json=payload, timeout=30)
         if r.status_code == 200:
             console.print("    [green][OK] SERP API response received[/green]")
-            return r.text, 0.50
+            # Try to extract just the organic results from Bright Data's JSON wrapper
+            try:
+                data = r.json()
+                if isinstance(data, dict):
+                    # Check if body is in data
+                    body_val = data.get("body")
+                    if isinstance(body_val, str):
+                        try:
+                            # Try to parse the body string as JSON
+                            body_data = json.loads(body_val)
+                            if isinstance(body_data, dict) and "organic" in body_data:
+                                return json.dumps(body_data["organic"], indent=2), 0.50
+                        except Exception:
+                            pass
+                    
+                    # If not parsed, check if organic is in data directly
+                    if "organic" in data:
+                        return json.dumps(data["organic"], indent=2), 0.50
+                    
+                    # Fallback to body_val if it exists
+                    if body_val:
+                        return str(body_val)[:20000], 0.50
+                
+                # Otherwise return the full response
+                return r.text[:20000], 0.50
+            except (json.JSONDecodeError, ValueError):
+                return r.text[:20000], 0.50
         else:
             console.print(f"    [red][FAIL] SERP API returned {r.status_code}: {r.text[:200]}[/red]")
             return "", 0.0
@@ -152,8 +178,13 @@ def _fetch_page(url: str, product: str) -> tuple[str, float]:
         return _scrape_unlocker(url)
 
     elif product == "scraping_browser":
-        console.print("    [yellow][SKIP] Scraping Browser not yet implemented. Recording as empty.[/yellow]")
-        return "", 0.0
+        # Scraping Browser not available — fall back to SERP search for the entity
+        console.print("    [yellow][FALLBACK] Scraping Browser unavailable. Falling back to SERP search.[/yellow]")
+        # Extract a useful search query from the URL
+        from urllib.parse import urlparse
+        domain = urlparse(url).netloc
+        # Use the URL as context for a search query
+        return _scrape_serp(f"site:{domain} OR {url}")
 
     else:
         console.print(f"    [yellow][SKIP] Unknown product '{product}'. Recording as empty.[/yellow]")
