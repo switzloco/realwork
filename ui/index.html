@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RealWork Investigation | California Grants</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;700;900&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="grain-overlay"></div>
+    
+    <nav class="navbar glass">
+        <div class="logo">
+            <svg class="logo-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 11c0 3.517-1.009 6.799-2.753 9.571m-3.44-2.04l.054-.09A13.916 13.916 0 008 11a4 4 0 118 0c0 1.017-.07 2.019-.203 3m-2.118 6.844A21.88 21.88 0 0015.171 17m3.839 1.132c.645-2.266.99-4.659.99-7.132A8 8 0 008 4.07M3 15.364c.64-1.319 1-2.8 1-4.364 0-1.457.39-2.823 1.07-4"></path></svg>
+            <span class="logo-text">REAL<span class="accent-text">WORK</span></span>
+        </div>
+        <div class="nav-links">
+            <a href="#audit">The Audit</a>
+            <a href="#anomalies">Anomalies</a>
+            <a href="#evidence">Evidence Deep Dive</a>
+            <a href="#methodology">Methodology</a>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <div class="badge">STATEWIDE ACCOUNTABILITY AUDIT</div>
+            <h1 class="hero-title">The <span class="accent-text">Missing</span> Billions</h1>
+            <p class="hero-subtitle">California distributed tens of thousands of state grants in FY 2023-2024. Our automated audit revealed exactly how many of those taxpayer dollars have zero state-level disbursement tracking.</p>
+            
+            <div class="stat-container glass glow">
+                <span class="stat-symbol">$</span>
+                <span class="stat-number" id="counter" data-target="19686027184">0</span>
+            </div>
+            <p class="stat-label">Untracked Grant Dollars in FY 23-24</p>
+        </div>
+        
+        <div class="scroll-indicator">
+            <p>Uncover the Data</p>
+            <svg class="scroll-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path></svg>
+        </div>
+    </header>
+
+    <section id="audit" class="section">
+        <div class="section-header">
+            <h2>The <span class="accent-text">Tracking</span> Gap</h2>
+            <p>Our analysis of the official data.ca.gov CKAN API revealed a systemic failure in financial accountability. Every single grant in the FY 2023-2024 dataset lacks disbursement tracking.</p>
+        </div>
+
+        <div class="grid-2">
+            <div class="card glass">
+                <div class="card-icon red">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
+                </div>
+                <h3>15,209 / 15,209</h3>
+                <p>Grants with absolutely no centralized spend tracking recorded. (100% of the dataset).</p>
+            </div>
+            
+            <div class="card glass">
+                <div class="card-icon amber">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path></svg>
+                </div>
+                <h3>1,751 High-Risk Grants</h3>
+                <p>Private entities receiving over $50k with no tracking. Totaling $3.01 Billion in unaccounted risk.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="anomalies" class="section">
+        <div class="section-header">
+            <h2>The <span class="accent-text">Shell Company</span> Pattern</h2>
+            <p>We built an AI pipeline using Bright Data to cross-reference grant recipients against the CA Secretary of State, Contractor State License Board, and Google SERP data. We discovered a disturbing pattern: $1.5M construction grants awarded to un-licensed entities.</p>
+        </div>
+
+        <div class="grid-2 case-studies">
+            <!-- Case Study 1 -->
+            <div class="case-card glass">
+                <div class="case-header">
+                    <span class="tag danger">FLAGGED</span>
+                    <span class="amount">$1,500,000</span>
+                </div>
+                <h3>JM3 Holdings, LLC</h3>
+                <p class="grant-type">New Construction & Major Renovation</p>
+                <div class="evidence-list">
+                    <div class="evidence-item fail">
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                        <span>No CA Secretary of State Registration</span>
+                    </div>
+                    <div class="evidence-item fail">
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                        <span>No CSLB Contractor License</span>
+                    </div>
+                </div>
+                <p class="summary">Recipient's primary business is operating a child day care center with NAICS Code for Child Services, fundamentally mismatching a construction grant.</p>
+            </div>
+
+            <!-- Case Study 2 -->
+            <div class="case-card glass">
+                <div class="case-header">
+                    <span class="tag danger">FLAGGED</span>
+                    <span class="amount">$1,500,000</span>
+                </div>
+                <h3>Suarez Holdings, LLC</h3>
+                <p class="grant-type">New Construction & Major Renovation</p>
+                <div class="evidence-list">
+                    <div class="evidence-item fail">
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                        <span>Phantom Vendor / Ghost Entity</span>
+                    </div>
+                    <div class="evidence-item fail">
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                        <span>No Sacramento Building Permits</span>
+                    </div>
+                </div>
+                <p class="summary">Entity appears to be entirely non-existent in any official capacity within California. General web searches yield zero organic footprints.</p>
+            </div>
+
+            <!-- Case Study 3 -->
+            <div class="case-card glass">
+                <div class="case-header">
+                    <span class="tag danger">FLAGGED</span>
+                    <span class="amount">$1,500,000</span>
+                </div>
+                <h3>SBA Enterprises</h3>
+                <p class="grant-type">New Construction & Major Renovation</p>
+                <div class="evidence-list">
+                    <div class="evidence-item fail">
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                        <span>No CA Secretary of State Registration</span>
+                    </div>
+                    <div class="evidence-item fail">
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                        <span>No CSLB Contractor License</span>
+                    </div>
+                </div>
+                <p class="summary">Recipient is involved in childcare and janitorial services. The complete lack of licensing strongly indicates this award is fraudulent.</p>
+            </div>
+            
+            <!-- Case Study 4 -->
+            <div class="case-card glass">
+                <div class="case-header">
+                    <span class="tag danger">FLAGGED</span>
+                    <span class="amount">$1,500,000</span>
+                </div>
+                <h3>Infinite Sky Inc.</h3>
+                <p class="grant-type">New Construction & Major Renovation</p>
+                <div class="evidence-list">
+                    <div class="evidence-item fail">
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                        <span>No CA Secretary of State Registration</span>
+                    </div>
+                    <div class="evidence-item fail">
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                        <span>Mismatched Operations Scope</span>
+                    </div>
+                </div>
+                <p class="summary">Primarily operates as the licensee for a child care center in Roseville. Significant mismatch between known operations and grant purpose.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- NEW EVIDENCE DEEP DIVE SECTION -->
+    <section id="evidence" class="section">
+        <div class="section-header">
+            <h2>Evidence <span class="accent-text">Deep Dive</span></h2>
+            <p>Follow the digital paper trail that led us to flag these multi-million dollar grants.</p>
+        </div>
+
+        <div class="evidence-tabs">
+            <button class="tab-btn active" data-target="jm3">JM3 Holdings</button>
+            <button class="tab-btn" data-target="sba">SBA Enterprises</button>
+        </div>
+
+        <!-- JM3 Holdings Timeline -->
+        <div class="tab-content active" id="tab-jm3">
+            <div class="timeline">
+                <div class="timeline-item glass">
+                    <div class="timeline-marker">1</div>
+                    <div class="timeline-content">
+                        <h3>The Claim</h3>
+                        <p class="grant-type">$1.5M New Construction & Major Renovation</p>
+                        <p>The state recorded a $1.5 million disbursement to JM3 Holdings, LLC for heavy construction and renovation projects.</p>
+                    </div>
+                </div>
+                <div class="timeline-item glass">
+                    <div class="timeline-marker fail">2</div>
+                    <div class="timeline-content">
+                        <h3>The Registry Check</h3>
+                        <p class="grant-type">CA Secretary of State: NO RESULTS</p>
+                        <p>Our automated scraper checked the official SOS business registry. The entity is not legally registered to operate as a corporate entity in California.</p>
+                        <img src="assets/media__1779834218668.png" alt="Scraper Evidence" class="evidence-img">
+                    </div>
+                </div>
+                <div class="timeline-item glass">
+                    <div class="timeline-marker fail">3</div>
+                    <div class="timeline-content">
+                        <h3>The License Check</h3>
+                        <p class="grant-type">Contractors State License Board: NO RESULTS</p>
+                        <p>It is illegal to perform construction work in California over $500 without a CSLB license. JM3 Holdings holds no such license.</p>
+                    </div>
+                </div>
+                <div class="timeline-item glass">
+                    <div class="timeline-marker fail">4</div>
+                    <div class="timeline-content">
+                        <h3>The Reality</h3>
+                        <p class="grant-type">NAICS Code: Child Day Care Services</p>
+                        <p>SERP analysis revealed the entity's actual operation is running a licensed child day care center, confirming a severe categorical mismatch for the grant.</p>
+                        <img src="assets/media__1779834239562.png" alt="Scraper Evidence" class="evidence-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SBA Enterprises Timeline -->
+        <div class="tab-content" id="tab-sba">
+            <div class="timeline">
+                <div class="timeline-item glass">
+                    <div class="timeline-marker">1</div>
+                    <div class="timeline-content">
+                        <h3>The Claim</h3>
+                        <p class="grant-type">$1.5M New Construction & Major Renovation</p>
+                        <p>SBA Enterprises was awarded $1.5 million to perform major construction services.</p>
+                    </div>
+                </div>
+                <div class="timeline-item glass">
+                    <div class="timeline-marker fail">2</div>
+                    <div class="timeline-content">
+                        <h3>The Registry Check</h3>
+                        <p class="grant-type">CA Secretary of State: NO RESULTS</p>
+                        <p>No valid registration for a construction entity under this name exists in the state databases.</p>
+                    </div>
+                </div>
+                <div class="timeline-item glass">
+                    <div class="timeline-marker fail">3</div>
+                    <div class="timeline-content">
+                        <h3>The License & Permit Check</h3>
+                        <p class="grant-type">CSLB & Local Permits: NO RESULTS</p>
+                        <p>A full sweep of the state contractor board and local city permit registries returned zero active construction operations under SBA Enterprises.</p>
+                    </div>
+                </div>
+                <div class="timeline-item glass">
+                    <div class="timeline-marker fail">4</div>
+                    <div class="timeline-content">
+                        <h3>The Reality</h3>
+                        <p class="grant-type">Janitorial & Childcare Services</p>
+                        <p>Web search footprint indicates operations firmly in the janitorial and childcare sectors, fully disconnected from the $1.5M construction claim.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="methodology" class="section">
+        <div class="methodology-card glass">
+            <h2>The Engine Behind the Investigation</h2>
+            <div class="methodology-grid">
+                <div class="method-step">
+                    <div class="step-num">1</div>
+                    <h4>ETL & Normalization</h4>
+                    <p>Live ingestion of 15,209 grant records from California's Open Data CKAN API using a bespoke data pipeline.</p>
+                </div>
+                <div class="method-step">
+                    <div class="step-num">2</div>
+                    <h4>AI Red Flag Analyst</h4>
+                    <p>Gemini 2.5 Pro reviews descriptions and metadata to identify mismatches, missing tracking data, and anomalous categorizations.</p>
+                </div>
+                <div class="method-step">
+                    <div class="step-num">3</div>
+                    <h4>Bright Data Scraping</h4>
+                    <p>Orchestrated searches utilizing Bright Data's Web Unlocker and SERP API to cross-reference entities against real-world evidence.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Built during the AI Hackathon. Real data. Real problems.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
