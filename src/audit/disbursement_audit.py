@@ -23,6 +23,9 @@ from datetime import datetime
 
 import pandas as pd
 import requests
+from dotenv import load_dotenv
+
+load_dotenv()
 
 from src.db import get_conn, init_db
 
