@@ -1,0 +1,444 @@
+{
+  "sos": {
+    "general": {
+      "search_engine": "google",
+      "query": "\"JM3 Holdings, LLC\" site:bizfileonline.sos.ca.gov",
+      "results_cnt": 0,
+      "search_time": 0.34,
+      "language": "en-IN",
+      "country": "India",
+      "country_code": "IN",
+      "location": "United States",
+      "gl": "IN",
+      "mobile": false,
+      "basic_view": false,
+      "search_type": "text",
+      "empty": true,
+      "page_title": "\"JM3 Holdings, LLC\" site:bizfileonline.sos.ca.gov - Google Search",
+      "timestamp": "2026-05-27T03:21:34.866Z"
+    },
+    "input": {
+      "original_url": "https://www.google.com/search?q=%22JM3+Holdings%2C+LLC%22+site%3Abizfileonline.sos.ca.gov&brd_json=1",
+      "request_id": "hl_0e82968a_43zezb56x6h"
+    },
+    "navigation": [
+      {
+        "title": "AI Mode",
+        "href": "https://www.google.com/search?q=JM3+Holdings,+LLC+site:bizfileonline.sos.ca.gov&sca_esv=2c211be4597a0b90&hl=en&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3tR7kVu8a3MULVA9bsoO0mCRDL_TmJOT9lTB_DhOz5rRYENyR3cxrh76YoJ8GgVppX24VBQ4EmZmnLtSMCThEcqVNBRLZrLpU_fbYhuFiyog28uGkbxBt66hrrnqMs1jiOTR5Gq55H5qxDY6cZqUxLNnA7_b3kxGqTGfWvidNsZhy6wiLg&aep=1&ntc=1&sa=X&ved=2ahUKEwjzs9TewdiUAxXE9QIHHanWH6EQ2J8OegQIEBAD"
+      },
+      {
+        "title": "Images",
+        "href": "https://www.google.com/search?sca_esv=2c211be4597a0b90&hl=en&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3tR7kVu8a3MULVA9bsoO0mCRDL_TmJOT9lTB_DhOz5rRYENyR3cxrh76YoJ8GgVppX24VBQ4EmZmnLtSMCThEcqVNBRLZrLpU_fbYhuFiyog28uGkbxBt66hrrnqMs1jiOTR5Gq55H5qxDY6cZqUxLNnA7_b3kxGqTGfWvidNsZhy6wiLg&q=JM3+Holdings,+LLC+site:bizfileonline.sos.ca.gov&sa=X&ved=2ahUKEwjzs9TewdiUAxXE9QIHHanWH6EQtKgLegQIFhAB"
+      },
+      {
+        "title": "Forums",
+        "href": "https://www.google.com/search?sca_esv=2c211be4597a0b90&hl=en&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3tR7kVu8a3MULVA9bsoO0mCRDL_TmJOT9lTB_DhOz5rRYENyR3cxrh76YoJ8GgVppX24VBQ4EmZmnLtSMCThEcqVNBRLZrLpU_fbYhuFiyog28uGkbxBt66hrrnqMs1jiOTR5Gq55H5qxDY6cZqUxLNnA7_b3kxGqTGfWvidNsZhy6wiLg&q=JM3+Holdings,+LLC+site:bizfileonline.sos.ca.gov&sa=X&ved=2ahUKEwjzs9TewdiUAxXE9QIHHanWH6EQs6gLegQIEhAB"
+      },
+      {
+        "title": "Videos",
+        "href": "https://www.google.com/search?sca_esv=2c211be4597a0b90&hl=en&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3tR7kVu8a3MULVA9bsoO0mCRDL_TmJOT9lTB_DhOz5rRYENyR3cxrh76YoJ8GgVppX24VBQ4EmZmnLtSMCThEcqVNBRLZrLpU_fbYhuFiyog28uGkbxBt66hrrnqMs1jiOTR5Gq55H5qxDY6cZqUxLNnA7_b3kxGqTGfWvidNsZhy6wiLg&q=JM3+Holdings,+LLC+site:bizfileonline.sos.ca.gov&sa=X&ved=2ahUKEwjzs9TewdiUAxXE9QIHHanWH6EQtKgLegQIExAB"
+      },
+      {
+        "title": "News",
+        "href": "https://www.google.com/search?sca_esv=2c211be4597a0b90&hl=en&q=JM3+Holdings,+LLC+site:bizfileonline.sos.ca.gov&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3tR7kVu8a3MULVA9bsoO0mCRDL_TmJOT9lTB_DhOz5rRYENyR3cxrh76YoJ8GgVppX24VBQ4EmZmnLtSMCThEcqVNBRLZrLpU_fbYhuFiyog28uGkbxBt66hrrnqMs1jiOTR5Gq55H5qxDY6cZqUxLNnA7_b3kxGqTGfWvidNsZhy6wiLg&sa=X&ved=2ahUKEwjzs9TewdiUAxXE9QIHHanWH6EQ0pQJegQIFRAB"
+      },
+      {
+        "title": "Shopping",
+        "href": "https://www.google.com/search?sca_esv=2c211be4597a0b90&hl=en&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3tR7kVu8a3MULVA9bsoO0mCRDL_TmJOT9lTB_DhOz5rRYENyR3cxrh76YoJ8GgVppX24VBQ4EmZmnLtSMCThEcqVNBRLZrLpU_fbYhuFiyog28uGkbxBt66hrrnqMs1jiOTR5Gq55H5qxDY6cZqUxLNnA7_b3kxGqTGfWvidNsZhy6wiLg&q=JM3+Holdings,+LLC+site:bizfileonline.sos.ca.gov&ved=1t:220175&ictx=111"
+      },
+      {
+        "title": "Short videos",
+        "href": "https://www.google.com/search?sca_esv=2c211be4597a0b90&hl=en&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3tR7kVu8a3MULVA9bsoO0mCRDL_TmJOT9lTB_DhOz5rRYENyR3cxrh76YoJ8GgVppX24VBQ4EmZmnLtSMCThEcqVNBRLZrLpU_fbYhuFiyog28uGkbxBt66hrrnqMs1jiOTR5Gq55H5qxDY6cZqUxLNnA7_b3kxGqTGfWvidNsZhy6wiLg&q=JM3+Holdings,+LLC+site:bizfileonline.sos.ca.gov&sa=X&ved=2ahUKEwjzs9TewdiUAxXE9QIHHanWH6EQs6gLegQIGhAB"
+      },
+      {
+        "title": "Maps",
+        "href": "https://maps.google.com/maps?sca_esv=2c211be4597a0b90&hl=en&output=search&q=JM3+Holdings,+LLC+site:bizfileonline.sos.ca.gov&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3tR7kVu8a3MULVA9bsoO0mCRDL_TmJOT9lTB_DhOz5rRYENyR3cxrh76YoJ8GgVppX24VBQ4EmZmnLtSMCThEcqVNBRLZrLpU_fbYhuFiyog28uGkbxBt66hrrnqMs1jiOTR5Gq55H5qxDY6cZqUxLNnA7_b3kxGqTGfWvidNsZhy6wiLg&entry=mc&ved=1t:200715&ictx=111"
+      },
+      {
+        "title": "Web",
+        "href": "https://www.google.com/search?sca_esv=2c211be4597a0b90&hl=en&udm=web&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3tR7kVu8a3MULVA9bsoO0mCRDL_TmJOT9lTB_DhOz5rRYENyR3cxrh76YoJ8GgVppX24VBQ4EmZmnLtSMCThEcqVNBRLZrLpU_fbYhuFiyog28uGkbxBt66hrrnqMs1jiOTR5Gq55H5qxDY6cZqUxLNnA7_b3kxGqTGfWvidNsZhy6wiLg&q=JM3+Holdings,+LLC+site:bizfileonline.sos.ca.gov&sa=X&ved=2ahUKEwjzs9TewdiUAxXE9QIHHanWH6EQs6gLegQIHBAB"
+      },
+      {
+        "title": "Books",
+        "href": "https://www.google.com/search?sca_esv=2c211be4597a0b90&hl=en&q=JM3+Holdings,+LLC+site:bizfileonline.sos.ca.gov&udm=36&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3tR7kVu8a3MULVA9bsoO0mCRDL_TmJOT9lTB_DhOz5rRYENyR3cxrh76YoJ8GgVppX24VBQ4EmZmnLtSMCThEcqVNBRLZrLpU_fbYhuFiyog28uGkbxBt66hrrnqMs1jiOTR5Gq55H5qxDY6cZqUxLNnA7_b3kxGqTGfWvidNsZhy6wiLg&sa=X&ved=2ahUKEwjzs9TewdiUAxXE9QIHHanWH6EQ0pQJegQIGRAB"
+      }
+    ]
+  },
+  "cslb": {
+    "general": {
+      "search_engine": "google",
+      "query": "\"JM3 Holdings, LLC\" site:cslb.ca.gov",
+      "results_cnt": 0,
+      "search_time": 0.23,
+      "language": "en-TH",
+      "country": "Thailand",
+      "country_code": "TH",
+      "location": "United States",
+      "gl": "TH",
+      "mobile": false,
+      "basic_view": false,
+      "search_type": "text",
+      "empty": true,
+      "page_title": "\"JM3 Holdings, LLC\" site:cslb.ca.gov - Google Search",
+      "timestamp": "2026-05-27T03:21:37.704Z"
+    },
+    "input": {
+      "original_url": "https://www.google.com/search?q=%22JM3+Holdings%2C+LLC%22+site%3Acslb.ca.gov&brd_json=1",
+      "request_id": "hl_0e82968a_s9prkjs8qx9"
+    },
+    "navigation": [
+      {
+        "title": "AI Mode",
+        "href": "https://www.google.com/search?q=JM3+Holdings,+LLC+site:cslb.ca.gov&sca_esv=2c211be4597a0b90&hl=en&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3tR7kVu8a3MULVA9bsoO0mCRDL_TmJOT9lTB_DhOz5rRYENyR3cxrh76YoJ8GgVppX24VBQ4EmZmnLtSMCThEcqVNBRLZrLpU_fbYhuFiyog28uGkbxBt66hrrnqMs1jiOTR5Gq55H5qxDY6cZqUxLNnA7_b3kxGqTGfWvidNsZhy6wiLg&aep=1&ntc=1&sa=X&ved=2ahUKEwi3hu7fwdiUAxX0T2cHHV3WBNAQ2J8OegQIEBAD"
+      },
+      {
+        "title": "Images",
+        "href": "https://www.google.com/search?sca_esv=2c211be4597a0b90&hl=en&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3tR7kVu8a3MULVA9bsoO0mCRDL_TmJOT9lTB_DhOz5rRYENyR3cxrh76YoJ8GgVppX24VBQ4EmZmnLtSMCThEcqVNBRLZrLpU_fbYhuFiyog28uGkbxBt66hrrnqMs1jiOTR5Gq55H5qxDY6cZqUxLNnA7_b3kxGqTGfWvidNsZhy6wiLg&q=JM3+Holdings,+LLC+site:cslb.ca.gov&sa=X&ved=2ahUKEwi3hu7fwdiUAxX0T2cHHV3WBNAQtKgLegQIFhAB"
+      },
+      {
+        "title": "Forums",
+        "href": "https://www.google.com/search?sca_esv=2c211be4597a0b90&hl=en&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3tR7kVu8a3MULVA9bsoO0mCRDL_TmJOT9lTB_DhOz5rRYENyR3cxrh76YoJ8GgVppX24VBQ4EmZmnLtSMCThEcqVNBRLZrLpU_fbYhuFiyog28uGkbxBt66hrrnqMs1jiOTR5Gq55H5qxDY6cZqUxLNnA7_b3kxGqTGfWvidNsZhy6wiLg&q=JM3+Holdings,+LLC+site:cslb.ca.gov&sa=X&ved=2ahUKEwi3hu7fwdiUAxX0T2cHHV3WBNAQs6gLegQIFRAB"
+      },
+      {
+        "title": "Videos",
+        "href": "https://www.google.com/search?sca_esv=2c211be4597a0b90&hl=en&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3tR7kVu8a3MULVA9bsoO0mCRDL_TmJOT9lTB_DhOz5rRYENyR3cxrh76YoJ8GgVppX24VBQ4EmZmnLtSMCThEcqVNBRLZrLpU_fbYhuFiyog28uGkbxBt66hrrnqMs1jiOTR5Gq55H5qxDY6cZqUxLNnA7_b3kxGqTGfWvidNsZhy6wiLg&q=JM3+Holdings,+LLC+site:cslb.ca.gov&sa=X&ved=2ahUKEwi3hu7fwdiUAxX0T2cHHV3WBNAQtKgLegQIFBAB"
+      },
+      {
+        "title": "News",
+        "href": "https://www.google.com/search?sca_esv=2c211be4597a0b90&hl=en&q=JM3+Holdings,+LLC+site:cslb.ca.gov&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3tR7kVu8a3MULVA9bsoO0mCRDL_TmJOT9lTB_DhOz5rRYENyR3cxrh76YoJ8GgVppX24VBQ4EmZmnLtSMCThEcqVNBRLZrLpU_fbYhuFiyog28uGkbxBt66hrrnqMs1jiOTR5Gq55H5qxDY6cZqUxLNnA7_b3kxGqTGfWvidNsZhy6wiLg&sa=X&ved=2ahUKEwi3hu7fwdiUAxX0T2cHHV3WBNAQ0pQJegQIExAB"
+      },
+      {
+        "title": "Shopping",
+        "href": "https://www.google.com/search?sca_esv=2c211be4597a0b90&hl=en&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3tR7kVu8a3MULVA9bsoO0mCRDL_TmJOT9lTB_DhOz5rRYENyR3cxrh76YoJ8GgVppX24VBQ4EmZmnLtSMCThEcqVNBRLZrLpU_fbYhuFiyog28uGkbxBt66hrrnqMs1jiOTR5Gq55H5qxDY6cZqUxLNnA7_b3kxGqTGfWvidNsZhy6wiLg&q=JM3+Holdings,+LLC+site:cslb.ca.gov&ved=1t:220175&ictx=111"
+      },
+      {
+        "title": "Short videos",
+        "href": "https://www.google.com/search?sca_esv=2c211be4597a0b90&hl=en&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3tR7kVu8a3MULVA9bsoO0mCRDL_TmJOT9lTB_DhOz5rRYENyR3cxrh76YoJ8GgVppX24VBQ4EmZmnLtSMCThEcqVNBRLZrLpU_fbYhuFiyog28uGkbxBt66hrrnqMs1jiOTR5Gq55H5qxDY6cZqUxLNnA7_b3kxGqTGfWvidNsZhy6wiLg&q=JM3+Holdings,+LLC+site:cslb.ca.gov&sa=X&ved=2ahUKEwi3hu7fwdiUAxX0T2cHHV3WBNAQs6gLegQIGRAB"
+      },
+      {
+        "title": "Maps",
+        "href": "https://maps.google.com/maps?sca_esv=2c211be4597a0b90&hl=en&output=search&q=JM3+Holdings,+LLC+site:cslb.ca.gov&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3tR7kVu8a3MULVA9bsoO0mCRDL_TmJOT9lTB_DhOz5rRYENyR3cxrh76YoJ8GgVppX24VBQ4EmZmnLtSMCThEcqVNBRLZrLpU_fbYhuFiyog28uGkbxBt66hrrnqMs1jiOTR5Gq55H5qxDY6cZqUxLNnA7_b3kxGqTGfWvidNsZhy6wiLg&entry=mc&ved=1t:200715&ictx=111"
+      },
+      {
+        "title": "Web",
+        "href": "https://www.google.com/search?sca_esv=2c211be4597a0b90&hl=en&udm=web&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3tR7kVu8a3MULVA9bsoO0mCRDL_TmJOT9lTB_DhOz5rRYENyR3cxrh76YoJ8GgVppX24VBQ4EmZmnLtSMCThEcqVNBRLZrLpU_fbYhuFiyog28uGkbxBt66hrrnqMs1jiOTR5Gq55H5qxDY6cZqUxLNnA7_b3kxGqTGfWvidNsZhy6wiLg&q=JM3+Holdings,+LLC+site:cslb.ca.gov&sa=X&ved=2ahUKEwi3hu7fwdiUAxX0T2cHHV3WBNAQs6gLegQIHBAB"
+      },
+      {
+        "title": "Books",
+        "href": "https://www.google.com/search?sca_esv=2c211be4597a0b90&hl=en&q=JM3+Holdings,+LLC+site:cslb.ca.gov&udm=36&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3tR7kVu8a3MULVA9bsoO0mCRDL_TmJOT9lTB_DhOz5rRYENyR3cxrh76YoJ8GgVppX24VBQ4EmZmnLtSMCThEcqVNBRLZrLpU_fbYhuFiyog28uGkbxBt66hrrnqMs1jiOTR5Gq55H5qxDY6cZqUxLNnA7_b3kxGqTGfWvidNsZhy6wiLg&sa=X&ved=2ahUKEwi3hu7fwdiUAxX0T2cHHV3WBNAQ0pQJegQIGhAB"
+      }
+    ]
+  },
+  "permit": [
+    {
+      "link": "https://www.ccld.dss.ca.gov/carefacilitysearch/FacDetail/243810073",
+      "source": "California State Portal | CA.gov",
+      "display_link": "https://www.ccld.dss.ca.gov \u203a carefacilitysearch \u203a FacDetail",
+      "title": "Facility Detail - Social Services - Community Care Facility search",
+      "description": "MERCED, CA 95348. Licensee Name: JM3 HOLDINGS LLC. Phone: (209) 489-2008. Facility Number: 243810073. Facility Capacity: 98. Facility Type: DAY CARE CENTER.Read more",
+      "snippet_highlighted_words": [
+        "MERCED",
+        "CA",
+        "JM3 HOLDINGS LLC"
+      ],
+      "rank": 1,
+      "global_rank": 1
+    },
+    {
+      "link": "https://www.cityofmerced.gov/business-and-development/building-permits/building-permit-applications",
+      "source": "City of Merced, CA (.gov)",
+      "display_link": "https://www.cityofmerced.gov \u203a building-permit-applic...",
+      "title": "Building Permit Applications | City of Merced, CA",
+      "description": "Apply for all building permits, including uploading plans and documents \u00b7 Paying Fees \u00b7 Tracking permit, plan review and inspection status \u00b7 Permit issuance ...Read more",
+      "snippet_highlighted_words": [
+        "Apply for all building permits"
+      ],
+      "extensions": [
+        {
+          "type": "missing",
+          "text": "JM3",
+          "rank": 1
+        },
+        {
+          "type": "missing",
+          "text": "Holdings,",
+          "rank": 2
+        },
+        {
+          "type": "missing",
+          "text": "LLC",
+          "rank": 3
+        }
+      ],
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAt1BMVEVHcEzlpSPoqw3nxxLuqQbtrBrzzwvsrB7//s4CDI/VnDLtrB34wgD/wADttkPsoirvvFDqoSvquATTmzXvv1nwxGPyyW/ppxW+jEa+jETXnjEADZHvrxvyyW7ppxMAApH//s6Xcl/0bVT//9IFGY7/+8rzznYAFo8mKYjpqSH98rn11YaQbWJgTnd1W2/ujDbzc0/66KbwfkHxhkP4tAepflSfd1u3iEtFQX4HG43tfErtt0aheVYXgMhyAAAAG3RSTlMAsDMFhn0Tl3h4pl8nabfNlvVF7MDN22e+iu8BLdRXAAAA6UlEQVQokZ3SaVPCMBAG4FZ6CFRFRFE36aahTY/0oIJX9f//LqXMwNgkjMN+fWbn3c3Gsv5d3sUJnLrn4t3tyGhB1c2NaCO/MZlXIt+Y5rUB1qZWr9zhJtCi/5ki59zW4htmH13HG09jTgb1lpAX7mvwFaEmIW2bRn0IP4sxz/NQFEJNLSHGd5KHhZRiaG6VxhCRUAhayGHqpIYe6aqg9HrYepXtkSXMUTJPohsfUF3UgQPO1D2PqMxjTY640GCK0fZ3FcbuFXzE6rvERIp29TC04DmqADBhrJVff7/KaPo07uuyr9lyf5gf1JQcz7uxHx8AAAAASUVORK5CYII=",
+      "rank": 2,
+      "global_rank": 2
+    },
+    {
+      "link": "https://www.countyofmerced.com/2051/Start-your-Business",
+      "source": "Merced County",
+      "display_link": "https://www.countyofmerced.com \u203a Start-your-Business",
+      "title": "Start Your Business | Merced County, CA - Official Website",
+      "description": "Temporary permits are available to those whose sales activity will last no longer than 30 days, such as Christmas Tree Sales or sales at craft fairs, etc. 7.Read more",
+      "snippet_highlighted_words": [
+        "permits"
+      ],
+      "extensions": [
+        {
+          "type": "missing",
+          "text": "JM3",
+          "rank": 1
+        },
+        {
+          "type": "missing",
+          "text": "Holdings,",
+          "rank": 2
+        }
+      ],
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAgVBMVEXW1tbm5ubUyc3t7e3////+/v7ZucH18PLkz9Xz7O7dxMvy6+vu4+bq4ePbucPp19y/g5XIpKzUucDk19rLn6v29fbSp63Ik57q2t+kQmjgyc6nS3G/gpnAiZzIlaXRnrShSGXVrrvSpra3aYiwi5OwgI29maTGrrPOu77a0NPJur6MPH2sAAAAi0lEQVR4AV3KBRKEQAwEwCDDCu7uzv//d67MSpKuECmPqMozRJp+DwymP6K9gYsTSBN/wCz7D+C4LsMPCM8Pwl9gEYvFG+4VCWPWD8BNeZbFb4COPCoyi+ENQFnVTZQBL2i7hveONRQMuIHsx6EaBDOkK0NbIS0WXm3FMRBbj41pnhd/XbdN3Wk/iK5X9AlyzO52ygAAAABJRU5ErkJggg==",
+      "rank": 3,
+      "global_rank": 3
+    },
+    {
+      "link": "https://web2.co.merced.ca.us/pdfs/commissionarchive/2015/10-14/item_b_cup15_013.pdf",
+      "source": "merced.ca.us",
+      "display_link": "https://web2.co.merced.ca.us \u203a commissionarchive",
+      "title": "Item B CUP15-013 - web2 | Merced County",
+      "description": "A Conditional Use Permit Application must be consistent with the provisions of the General. Plan, compatible with the neighborhood and ...Read more",
+      "snippet_highlighted_words": [
+        "Permit"
+      ],
+      "extensions": [
+        {
+          "inline": true,
+          "type": "text",
+          "text": "14 Oct 2015",
+          "rank": 1
+        }
+      ],
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAgVBMVEXW1tbm5ubUyc3t7e3////+/v7ZucH18PLkz9Xz7O7dxMvy6+vu4+bq4ePbucPp19y/g5XIpKzUucDk19rLn6v29fbSp63Ik57q2t+kQmjgyc6nS3G/gpnAiZzIlaXRnrShSGXVrrvSpra3aYiwi5OwgI29maTGrrPOu77a0NPJur6MPH2sAAAAi0lEQVR4AV3KBRKEQAwEwCDDCu7uzv//d67MSpKuECmPqMozRJp+DwymP6K9gYsTSBN/wCz7D+C4LsMPCM8Pwl9gEYvFG+4VCWPWD8BNeZbFb4COPCoyi+ENQFnVTZQBL2i7hveONRQMuIHsx6EaBDOkK0NbIS0WXm3FMRBbj41pnhd/XbdN3Wk/iK5X9AlyzO52ygAAAABJRU5ErkJggg==",
+      "rank": 4,
+      "global_rank": 4
+    },
+    {
+      "link": "https://cityofmerced.legistar.com/LegislationDetail.aspx?ID=7159295&GUID=1EBABB7B-BB12-4B42-80A6-5A36FF19C1E8&Options=&Search=",
+      "source": "Granicus",
+      "display_link": "https://cityofmerced.legistar.com \u203a LegislationDetail",
+      "title": "CITY OF MERCED - File #: 25-163",
+      "description": "SUBJECT: Adoption of a Modified Resolution Authorizing the Previously Approved Homekey+ Grant Application with Up Holdings California, LLC and ...Read more",
+      "snippet_highlighted_words": [
+        "Holdings California",
+        "LLC"
+      ],
+      "extensions": [
+        {
+          "inline": true,
+          "type": "text",
+          "text": "20 Feb 2025",
+          "rank": 1
+        }
+      ],
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACIElEQVR4AUXTBaotRxQF0HWqq++T2NO4u7sHieNRLD6qZAgfiSsSReMj+I7Erzz3rhSXhg+s9r3bqgJg7cUbdAvEhtXI5WEDV0drTqY6iPCP8Ht1StFd8O4pEDB+/gYOJbMeita9srGki6YM+oLDGOgiW8Rf+AY7F7x3SoyeqHceieYSz2hdI5nIFiJb10xLaJFdIBzErE7IOh9gJ0aP3EBxl+yRaGzJQrKntVitR+NI6sMzZUuyGgObwnq6wJcxuuvGOdnrUhlrzFeiNTHrB6dsxt0oWuFexf3Rln+FeYOq+DZGd9x4r3C3RpaMpcJC+cRWlKWfToLJqzco+0RyB1qt+chlR9iL4S03vhIxDQ80VfgKf5kpdEJjRTIrE40iC+fWuzG88cZ3hB1JRJgTjlX7VcgWtOUpjcuqEg3yVKkOJZfF8Pq+IIQwh2OR7fdP85zk8iqkQkN1GNlFkrNa18bw2htfEXI1mGL6CjGPI7N4XnJl1WlkUZLWCcmCxmIMr7nxXtzdl4xB55PpI7dI5tVgdaTzsHCdRieVrek1tWBO8Xofnhdggh8c2TRA0cruieQ+yb/VedVc9W0Mr7oR7sIjwhZC2KsWsS7ODaRqS7Ic07WN8qcv+wKBZ3ANJlgQ03BXBYpwgWS/P5Y1PlTsBPQlCQ/hXozRCYMKDqdBFiR/Vd+q4eWTJwTQlwSKVTyMqzEH/eP/U/3WT+eyfOYE+B+IcbBgP5qOCwAAAABJRU5ErkJggg==",
+      "rank": 5,
+      "global_rank": 5
+    },
+    {
+      "link": "https://www.govtech.com/podcasts/civic-innovators/rewriting-the-rules-inside-merced-countys-permitting-overhaul",
+      "source": "govtech.com",
+      "display_link": "https://www.govtech.com \u203a podcasts \u203a civic-innovators",
+      "title": "Rewriting the Rules: Inside Merced County's Permitting ...",
+      "description": "Rewriting the Rules: Inside Merced County's Permitting Overhaul \u00b7 Merced County went all-in on modernization, and it's paying off.Read more",
+      "snippet_highlighted_words": [
+        "Merced County went all-in on modernization"
+      ],
+      "extensions": [
+        {
+          "inline": true,
+          "type": "text",
+          "text": "15 Oct 2025",
+          "rank": 1
+        }
+      ],
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAb1BMVEX2hjz2gjL2hDf2fij4vp33nGb+9vH//Pv1fCT849f////++PT2gTD1fST86+L4sov3llv74NH60Lr5upj85Nb2kFD1dxD1cwD2hTn2iED98en4rYP6wqT3o3L2jUn6ya/72MX3nmr1dgv3p3n72smgMcMzAAAA30lEQVR4AaXRVWLEMAxF0UQyKC/MUBjc/xqrcqg49/eYHfyx8GsiNl8qWeflK+QI8QYT4ZA42cXUZFlelFWyg0kNrYQTbjYoMeI2B+qub+B6mZ93GIGKu8nfxc4DU5zPlArgPpHJ13itnqN9RTwULXQD+zjsoBNR7Ehti5OkmJ/2Nhxa4PAVBgxk/YAv8Ag4fIFDoJQ1+xgQn2wffTFzbAfiCBmL4plojtwgl7NDxeKA+nKZK1/haj3UiZIDtEOyegXtwPrvlUc5e3gtfDTVwaqppinPTRuSJKFg3fhVak9jURPLte71cQAAAABJRU5ErkJggg==",
+      "rank": 6,
+      "global_rank": 6
+    },
+    {
+      "link": "https://online.encodeplus.com/regs/mercedcounty-ca/doc-viewer.aspx?secid=1480",
+      "source": "enCodePlus",
+      "display_link": "https://online.encodeplus.com \u203a regs \u203a doc-viewer",
+      "title": "Unified Development Ordinance - Title 18: Zoning Code",
+      "description": "18.14.020 \u2013 Commercial Land Uses and Permit Requirements. Table 2-5 Commercial Zone Allowed Uses and Permit Requirements. Table 2-5 indicates the uses ...Read more",
+      "snippet_highlighted_words": [
+        "Permit",
+        "Permit"
+      ],
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAArlBMVEVHcEwmLzsVKDwAGz0oMjtgUjd5YDSBZTR8YzQ3OjkIDkEfLTs2OjmRbjLppiX/tiH/tCLRmCm7jCsiLjsoMju0hS38sSP6sCP7sSL6sCMgLjtgUTb0rSP6sCP7sSP6sCP8siL6sCP6sCP6sCMXKjv6sCP7syINJzs+PjkbIj0dJjwpMjsmLj4kLzspMjseLjspMjspMjspMjspMjspMjvQlyn7sCP7sCP6sCPcoCe0W7lWAAAAOnRSTlMADmml0Ov627V4JcP//////+pTlv/////ZKOP//IuvcTlQ6qFglwr//xU7HwdNhvejuZ6yWP/A0BeJc1BBMAAAAT1JREFUeAFt0QWWg1AMBdDU3YO7VHCod/8bG37waV8V7okAUKfXHwxH48l0Nof/mS+Wq/Vms82z3u27dkBus+UFCs/zotQyWVG3QidayzZU1Y5e2qIy3TBNS7MLdchcFMiOUMaioxOwnDmaZ0ITUS8I+pcNmef7fg8CH/KPH1bbUKEGC0SMYsQEUkSMycLzmk0EyDCKPJRj7B9wJiOhv9zQajkC9PDQw/iAeXGPdh0ztCpMoQdXDEvsr9hIiWEWhTlCjnArKxvEWYUyysASjRmaTVvCtEfoKWymUeEV7t4BQyiTsEqxxpBt61V4ePDUN8M4DjBZoNtCj67Fpjt0jxCHkDYIA7pFT4CwGhVCEyoVXif4lXnxzATt/Uv9R6GC+nraz6/aHS/U+W7/qY034Csnp2b4FUt7vsSn01T+AXXOLVjdeGezAAAAAElFTkSuQmCC",
+      "rank": 7,
+      "global_rank": 7
+    },
+    {
+      "link": "https://symbium.com/",
+      "source": "Symbium",
+      "display_link": "https://symbium.com",
+      "title": "Symbium: Accelerated Permitting with Compliance Checks",
+      "description": "Check permit eligibility and submit code-compliant applications in minutes. Symbium automates permitting for homeowners, contractors, and municipalities.",
+      "snippet_highlighted_words": [
+        "permit",
+        "permitting"
+      ],
+      "icon": "data:image/png;base64,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",
+      "rank": 8,
+      "global_rank": 8
+    },
+    {
+      "link": "https://19january2021snapshot.epa.gov/uic/uic-class-i-permit-no-ca10500001-hilmar-cheese-company_.html",
+      "source": "U.S. Environmental Protection Agency (.gov)",
+      "display_link": "https://19january2021snapshot.epa.gov \u203a uic \u203a uic-class-i...",
+      "title": "UIC Class I Permit No. CA10500001: Hilmar Cheese ...",
+      "description": "Contains final nonhazardous waste injection control permit no. CA10500001 issued to Hilmar Cheese Company for class I wells W-1 through W-4, Hilmar, California.Read more",
+      "snippet_highlighted_words": [
+        "permit",
+        "California"
+      ],
+      "extensions": [
+        {
+          "type": "missing",
+          "text": "JM3",
+          "rank": 1
+        },
+        {
+          "type": "missing",
+          "text": "Holdings,",
+          "rank": 2
+        },
+        {
+          "type": "missing",
+          "text": "LLC",
+          "rank": 3
+        }
+      ],
+      "rank": 9,
+      "global_rank": 9
+    },
+    {
+      "link": "https://www.mercedfirst.com/permitting",
+      "source": "Merced Economic Development",
+      "display_link": "https://www.mercedfirst.com \u203a permitting",
+      "title": "Permitting | Merced Econ. Dev.",
+      "description": "The City's One-Stop Permit Center, incorporating Planning, Engineering and Inspection Services, is available to assist you with all development permits.Read more",
+      "snippet_highlighted_words": [
+        "available to assist you with all development permits"
+      ],
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAA51BMVEX///////7+/v7+/////fj789/14qPo1azgtWaFeWfIXzz/9Njo2rQZHF/XW0/4tnf///aPfGYAHnPaZVf2dzjm2LYyJF0bK3X5ZkglIXI0OGzZblD4bU/wbzwuH1wvLXTerCDptxbsuEHyqnCFblkdHHZfT2HnsBXvz2H13onsnjD57MzZy6ttWlvyuhnnsR7y1no1MHNKP2nmsiDx1nDJtovlqwD15Zj//9757KruzWv//uv//9b9+8b56b9NQFz257Pl3MQ+MF5gS0p2YVcAAHDa3dKsiD6FaUzgy4jz15PjrADv04MZS5ObAAABKklEQVR4AX2RBWIDIRQF34fG3d2FbNzd3e5/nq7Ul3RwBgffEDGAq5kMAt4sIP5KWqx4NZPBZicQ5Lw5nC6OF7g9Xh+XWsb9gWAo7JJLRKKxUNwHGeQPJJKpdMZlElCJZHP5QjFTguk6BH+5Ui2ImlJvgLEflggcTU+u1e4UFaVLnPhPydSJiV5/ILrd7rAB+vM4b6N+ri/Gk+lsbjG/0qKa6A/GynK1hllaNrl+R5NbgJmkuuzAkJzo5x1Vdvtcv6BJqyphwEi/FsMum2vl88PlUvtTZrzD130jh2P1dF5NJpOfT9rQWM8v1+PxeJtMlNp8q3dZAH4fj8eP8ViItspDRYix3lUE8BwPpIgiqfLxv+xI5eeynb+oXWJAwPYhpDzmUPG/+d9kAO/wPjnn109gFwAAAABJRU5ErkJggg==",
+      "rank": 10,
+      "global_rank": 10
+    }
+  ],
+  "opencorporates": {
+    "general": {
+      "search_engine": "google",
+      "query": "\"JM3 Holdings, LLC\" California site:opencorporates.com",
+      "results_cnt": 0,
+      "search_time": 0.32,
+      "language": "en",
+      "country_code": "US",
+      "location": "United States",
+      "gl": "US",
+      "mobile": false,
+      "basic_view": false,
+      "search_type": "text",
+      "empty": true,
+      "page_title": "\"JM3 Holdings, LLC\" California site:opencorporates.com - Google Search",
+      "timestamp": "2026-05-27T03:21:42.721Z"
+    },
+    "input": {
+      "original_url": "https://www.google.com/search?q=%22JM3+Holdings%2C+LLC%22+California+site%3Aopencorporates.com&brd_json=1",
+      "request_id": "hl_0e82968a_ablkhc6db8j"
+    },
+    "navigation": [
+      {
+        "title": "AI Mode",
+        "href": "https://www.google.com/search?q=JM3+Holdings,+LLC+California+site:opencorporates.com&sca_esv=2c211be4597a0b90&hl=en&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3ppPEReeCOS7s1VbbZz2TLutTM8bcskdZ5Z5EWAFJPjTghF9mS0qmGrv36U8kfuC6phFf8U1aWAryveA6Pgbo-LgeOXpHJIRgaqNDLrfQLUS_xlm4HrWDdkym5AUCV48EoPD-DXiIpJbrFnY5NIwBfttjrgitsfSrfhUgsz5uB0tNTYszg&aep=1&ntc=1&sa=X&ved=2ahUKEwiFzq7iwdiUAxXo38kDHVCuFNsQ2J8OegQIEBAD"
+      },
+      {
+        "title": "Images",
+        "href": "https://www.google.com/search?sca_esv=2c211be4597a0b90&hl=en&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3ppPEReeCOS7s1VbbZz2TLutTM8bcskdZ5Z5EWAFJPjTghF9mS0qmGrv36U8kfuC6phFf8U1aWAryveA6Pgbo-LgeOXpHJIRgaqNDLrfQLUS_xlm4HrWDdkym5AUCV48EoPD-DXiIpJbrFnY5NIwBfttjrgitsfSrfhUgsz5uB0tNTYszg&q=JM3+Holdings,+LLC+California+site:opencorporates.com&sa=X&ved=2ahUKEwiFzq7iwdiUAxXo38kDHVCuFNsQtKgLegQIFhAB"
+      },
+      {
+        "title": "News",
+        "href": "https://www.google.com/search?sca_esv=2c211be4597a0b90&hl=en&q=JM3+Holdings,+LLC+California+site:opencorporates.com&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3ppPEReeCOS7s1VbbZz2TLutTM8bcskdZ5Z5EWAFJPjTghF9mS0qmGrv36U8kfuC6phFf8U1aWAryveA6Pgbo-LgeOXpHJIRgaqNDLrfQLUS_xlm4HrWDdkym5AUCV48EoPD-DXiIpJbrFnY5NIwBfttjrgitsfSrfhUgsz5uB0tNTYszg&sa=X&ved=2ahUKEwiFzq7iwdiUAxXo38kDHVCuFNsQ0pQJegQIFBAB"
+      },
+      {
+        "title": "Videos",
+        "href": "https://www.google.com/search?sca_esv=2c211be4597a0b90&hl=en&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3ppPEReeCOS7s1VbbZz2TLutTM8bcskdZ5Z5EWAFJPjTghF9mS0qmGrv36U8kfuC6phFf8U1aWAryveA6Pgbo-LgeOXpHJIRgaqNDLrfQLUS_xlm4HrWDdkym5AUCV48EoPD-DXiIpJbrFnY5NIwBfttjrgitsfSrfhUgsz5uB0tNTYszg&q=JM3+Holdings,+LLC+California+site:opencorporates.com&sa=X&ved=2ahUKEwiFzq7iwdiUAxXo38kDHVCuFNsQtKgLegQIFRAB"
+      },
+      {
+        "title": "Forums",
+        "href": "https://www.google.com/search?sca_esv=2c211be4597a0b90&hl=en&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3ppPEReeCOS7s1VbbZz2TLutTM8bcskdZ5Z5EWAFJPjTghF9mS0qmGrv36U8kfuC6phFf8U1aWAryveA6Pgbo-LgeOXpHJIRgaqNDLrfQLUS_xlm4HrWDdkym5AUCV48EoPD-DXiIpJbrFnY5NIwBfttjrgitsfSrfhUgsz5uB0tNTYszg&q=JM3+Holdings,+LLC+California+site:opencorporates.com&sa=X&ved=2ahUKEwiFzq7iwdiUAxXo38kDHVCuFNsQs6gLegQIExAB"
+      },
+      {
+        "title": "Shopping",
+        "href": "https://www.google.com/search?sca_esv=2c211be4597a0b90&hl=en&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3ppPEReeCOS7s1VbbZz2TLutTM8bcskdZ5Z5EWAFJPjTghF9mS0qmGrv36U8kfuC6phFf8U1aWAryveA6Pgbo-LgeOXpHJIRgaqNDLrfQLUS_xlm4HrWDdkym5AUCV48EoPD-DXiIpJbrFnY5NIwBfttjrgitsfSrfhUgsz5uB0tNTYszg&q=JM3+Holdings,+LLC+California+site:opencorporates.com&ved=1t:220175&ictx=111"
+      },
+      {
+        "title": "Short videos",
+        "href": "https://www.google.com/search?sca_esv=2c211be4597a0b90&hl=en&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3ppPEReeCOS7s1VbbZz2TLutTM8bcskdZ5Z5EWAFJPjTghF9mS0qmGrv36U8kfuC6phFf8U1aWAryveA6Pgbo-LgeOXpHJIRgaqNDLrfQLUS_xlm4HrWDdkym5AUCV48EoPD-DXiIpJbrFnY5NIwBfttjrgitsfSrfhUgsz5uB0tNTYszg&q=JM3+Holdings,+LLC+California+site:opencorporates.com&sa=X&ved=2ahUKEwiFzq7iwdiUAxXo38kDHVCuFNsQs6gLegQIGhAB"
+      },
+      {
+        "title": "Maps",
+        "href": "https://maps.google.com/maps?sca_esv=2c211be4597a0b90&hl=en&output=search&q=JM3+Holdings,+LLC+California+site:opencorporates.com&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3ppPEReeCOS7s1VbbZz2TLutTM8bcskdZ5Z5EWAFJPjTghF9mS0qmGrv36U8kfuC6phFf8U1aWAryveA6Pgbo-LgeOXpHJIRgaqNDLrfQLUS_xlm4HrWDdkym5AUCV48EoPD-DXiIpJbrFnY5NIwBfttjrgitsfSrfhUgsz5uB0tNTYszg&entry=mc&ved=1t:200715&ictx=111"
+      },
+      {
+        "title": "Web",
+        "href": "https://www.google.com/search?sca_esv=2c211be4597a0b90&hl=en&udm=web&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3ppPEReeCOS7s1VbbZz2TLutTM8bcskdZ5Z5EWAFJPjTghF9mS0qmGrv36U8kfuC6phFf8U1aWAryveA6Pgbo-LgeOXpHJIRgaqNDLrfQLUS_xlm4HrWDdkym5AUCV48EoPD-DXiIpJbrFnY5NIwBfttjrgitsfSrfhUgsz5uB0tNTYszg&q=JM3+Holdings,+LLC+California+site:opencorporates.com&sa=X&ved=2ahUKEwiFzq7iwdiUAxXo38kDHVCuFNsQs6gLegQIGxAB"
+      },
+      {
+        "title": "Books",
+        "href": "https://www.google.com/search?sca_esv=2c211be4597a0b90&hl=en&q=JM3+Holdings,+LLC+California+site:opencorporates.com&udm=36&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3ppPEReeCOS7s1VbbZz2TLutTM8bcskdZ5Z5EWAFJPjTghF9mS0qmGrv36U8kfuC6phFf8U1aWAryveA6Pgbo-LgeOXpHJIRgaqNDLrfQLUS_xlm4HrWDdkym5AUCV48EoPD-DXiIpJbrFnY5NIwBfttjrgitsfSrfhUgsz5uB0tNTYszg&sa=X&ved=2ahUKEwiFzq7iwdiUAxXo38kDHVCuFNsQ0pQJegQIGRAB"
+      }
+    ]
+  },
+  "general": [
+    {
+      "link": "https://www.ccld.dss.ca.gov/carefacilitysearch/FacDetail/243810073",
+      "source": "California State Portal | CA.gov",
+      "display_link": "https://www.ccld.dss.ca.gov \u203a carefacilitysearch \u203a FacDetail",
+      "title": "Facility Detail - Social Services - Community Care Facility search",
+      "description": "MERCED, CA 95348. Licensee Name: JM3 HOLDINGS LLC. Phone: (209) 489-2008. Facility Number: 243810073. Facility Capacity: 98. Facility Type: DAY CARE CENTER.Read more",
+      "snippet_highlighted_words": [
+        "MERCED",
+        "CA",
+        "JM3 HOLDINGS LLC"
+      ],
+      "extensions": [
+        {
+          "type": "missing",
+          "text": "(daycare",
+          "rank": 1
+        },
+        {
+          "type": "must_include",
+          "text": "(daycare",
+          "link": "https://www.google.com/search?sca_esv=2c211be4597a0b90&hl=en&q=%22JM3+Holdings,+LLC%22+Merced+California+%22(daycare%22+OR+childcare+OR+janitorial+OR+construction)&sa=X&ved=2ahUKEwjnjs7jwdiUAxWjDrkGHWpDADMQ5t4CegQIHhAB",
+          "rank": 2
+        }
+      ],
+      "rank": 1,
+      "global_rank": 1
+    },
+    {
+      "link": "https://www.cdss.ca.gov/inforesources/child-care-and-development/contractor-resources/general-child-care-and-development-cctr-expansion/fy-24-25",
+      "source": "California Department of Social Services (.gov)",
+      "display_link": "https://www.cdss.ca.gov \u203a ... \u203a FY 24-25",
+      "title": "Request for Applications: FY 24-25",
+      "description": "Proposed Award CCTR RFA FY 2024-2025 ; JM3 Holdings LLC, $3,196,743 ; Joyful Learning Educational Development Center, $1,901,564 ; Kidango, Inc. $20,940,683.Read more",
+      "snippet_highlighted_words": [
+        "JM3 Holdings LLC"
+      ],
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACyklEQVR4AbWXA8wdQRRGp7Zt27btNqzbOLWtoLZtM6ht27Zta3ummZdMXtb7vy85uauL3eEKr/r7928qwzDSQkFowflMC9rJZ7DpIbUIKoLlJ1Bf7D44Dm51Gr8D2IFQ2E/inLCMIM/gl+FT+P7GrPKSODH0x/EONrCI8xF6u02eGdZClInk9zAp3STPy8MXHIL9gG2qT5TEZtThWlFsT9gMX5TbQDfJK+Bw2SbxLcwMKOihKfPBFMjvNLwy8dAGi8RvYB2HJSCaiIQI3N6ql3N9HMQLkhzfZMSYA/MgTfjN3Fw8atHWy+XEo56rBs0cEsWHclATyspk2OLYa1rotZxnCDnE5qSfxZvfxmTXmmkE56dtkseELjz3Tvm/xezBPjGJLXPG/l8xJwtN8v+BbpAXBkp47mGoRyvqhBUQG+aCG/0kXgrplNLi7Z9rc8JEzl/pTYNZCyX1NoZhHueGeQJbHsw0Xfv0CWC95vhUJgw6cRHnpcCOsbg5VCsgC5d2Ys+ofvAB2oTWCq6dNHxKBh9rdsNkCS6AjSeQPIasnCeHFQaKWAEOQ640nIhIAaiqiwLKBPn8UgLaW/cBy8Qx1CK0PeAKecVuGF61KaCydDaCq70MlgROW+xgypskrxrwraW+c3gEEsuAceViY/HgNjXe9QLqc/2F4V+noUloRMmA0dQnfWhSxFvoaPIVasp1wk+bY2pDnPCAibk5EvvHxOk1dJQLjUBhk9Mq7CuNp9A3jGtqGl8M+WzHtNWQkjsh6MNhUhEh6cvye4sivqj2K+tns+PlYbkVf+PQlp/UylcJ0kJSSKxIojYh5bCD4LVyq+GliJaqUzpKtf0huVhJOD5gMUr2eP1s+YJONrpUUXWFF6mNaBfsY/gRBUVsEn6klt7OsAXu+ch9H3bg21oEkVz/ZTFQHLppv+KP9F2Odr0nl0pBtv/7PxP9A2+ZRUTtrOZRAAAAAElFTkSuQmCC",
+      "rank": 2,
+      "global_rank": 2
+    }
+  ]
+}

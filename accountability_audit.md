@@ -1,5 +1,5 @@
 # California Grants Accountability Audit
-*Generated: 2026-05-27 00:03 UTC*
+*Generated: 2026-05-27 03:25 UTC*
 
 ## Dataset Summary
 - **Total grant records:** 15,209
