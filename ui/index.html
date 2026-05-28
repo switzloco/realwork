@@ -75,19 +75,19 @@
 
     <section id="anomalies" class="section">
         <div class="section-header">
-            <h2>The <span class="accent-text">Shell Company</span> Pattern</h2>
-            <p>We built an AI pipeline using Bright Data to cross-reference grant recipients against the CA Secretary of State, Contractor State License Board, and Google SERP data. We discovered a disturbing pattern: $1.5M construction grants awarded to un-licensed entities.</p>
+            <h2>The <span class="accent-text">AI Judge</span> vs. Human Error</h2>
+            <p>Our initial scan flagged hundreds of grants for missing Secretary of State registrations. But not all missing paperwork is fraud. We deployed our <b>Gemini 2.5 Pro Search Validator</b> to filter out bureaucratic "Compliance Failures" from actual "Phantom Construction" theft.</p>
         </div>
 
         <div class="grid-2 case-studies">
             <!-- Case Study 1 -->
             <div class="case-card glass">
                 <div class="case-header">
-                    <span class="tag danger">>99% PROBABILITY</span>
-                    <span class="amount">$2,999,658</span>
+                    <span class="tag danger">TRUE FRAUD: PHANTOM CONSTRUCTION</span>
+                    <span class="amount">$1,500,000</span>
                 </div>
-                <h3>Olyns, Inc. DBA Olyns Tech</h3>
-                <p class="grant-type">Major Equipment & Recycling Grant</p>
+                <h3>Infinite Sky Inc.</h3>
+                <p class="grant-type">New Construction & Major Renovation</p>
                 <div class="evidence-list">
                     <div class="evidence-item fail">
                         <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
@@ -95,73 +95,73 @@
                     </div>
                     <div class="evidence-item fail">
                         <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
-                        <span>Unregistered "Doing Business As" Entity</span>
+                        <span>Zero physical footprint for construction</span>
                     </div>
                 </div>
-                <p class="summary">The state awarded nearly $3 million to this specific "DBA" corporate entity. However, no such entity exists in the Secretary of State's business registry. The funds were disbursed to an unregistered, legally non-existent shell.</p>
+                <p class="summary">Gemini verified the complete absence of a public footprint for a $1.5M construction project in Placer County. No building permits. No CSLB contractors. The recipient cannot be tied to the location or work described.</p>
             </div>
 
             <!-- Case Study 2 -->
             <div class="case-card glass">
                 <div class="case-header">
-                    <span class="tag danger">>99% PROBABILITY</span>
-                    <span class="amount">$1,375,000</span>
+                    <span class="tag danger">TRUE FRAUD: INELIGIBLE ENTITY</span>
+                    <span class="amount">$1,500,000</span>
                 </div>
-                <h3>U.S. Rubber Recycling #7</h3>
-                <p class="grant-type">Major Equipment Grant</p>
+                <h3>Suarez Holdings, LLC</h3>
+                <p class="grant-type">New Construction & Major Renovation</p>
                 <div class="evidence-list">
                     <div class="evidence-item fail">
                         <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
-                        <span>No CA Secretary of State Registration</span>
+                        <span>FTB Forfeited Status</span>
                     </div>
                     <div class="evidence-item fail">
                         <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
-                        <span>Subsidiary Shell Game Pattern</span>
+                        <span>Ineligible for state funds</span>
                     </div>
                 </div>
-                <p class="summary">A classic "Subsidiary Shell Game". While the parent company exists, "Entity #7" has zero legal registration and zero organic web footprint. State auditors approved the grant based on the parent's name, but disbursed funds to an unverified shell.</p>
+                <p class="summary">Gemini cross-referenced the entity and found it is an FTB Forfeited LLC, making it legally ineligible to receive state grants. Furthermore, it is the wrong entity type for a public school facility funding program.</p>
             </div>
 
             <!-- Case Study 3 -->
             <div class="case-card glass">
                 <div class="case-header">
-                    <span class="tag danger">>95% PROBABILITY</span>
-                    <span class="amount">$725,985</span>
+                    <span class="tag success">CLEARED: FALSE POSITIVE</span>
+                    <span class="amount">$1,500,000</span>
                 </div>
-                <h3>Creekside Dairy (San Joaquin)</h3>
-                <p class="grant-type">Mechanical Separator Construction</p>
+                <h3>JM3 Holdings, LLC</h3>
+                <p class="grant-type">New Construction & Major Renovation</p>
                 <div class="evidence-list">
-                    <div class="evidence-item fail">
-                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
-                        <span>No CA Secretary of State Registration</span>
+                    <div class="evidence-item success">
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                        <span>Legitimate State Grant Program</span>
                     </div>
-                    <div class="evidence-item fail">
-                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
-                        <span>No verifiable facility location</span>
+                    <div class="evidence-item success">
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                        <span>Verified by AI Grounding</span>
                     </div>
                 </div>
-                <p class="summary">Awarded $725K for heavy agricultural construction. Our automated check against the state registry confirmed this exact business entity does not exist legally in California, and web searches reveal no verifiable physical dairy farm matching this name in San Joaquin.</p>
+                <p class="summary">Our dumb scraper flagged this because it lacked an obvious permit footprint. However, our Gemini LLM Judge realized it was a fully documented, legitimate grant from a state agency and cleared it.</p>
             </div>
             
             <!-- Case Study 4 -->
             <div class="case-card glass">
                 <div class="case-header">
-                    <span class="tag danger">>95% PROBABILITY</span>
-                    <span class="amount">$350,000</span>
+                    <span class="tag warning">COMPLIANCE FAILURE</span>
+                    <span class="amount">$725,985</span>
                 </div>
-                <h3>Nurturing Seed Farm LLC</h3>
-                <p class="grant-type">Agricultural Infrastructure</p>
+                <h3>Creekside Dairy</h3>
+                <p class="grant-type">Mechanical Separator Construction</p>
                 <div class="evidence-list">
-                    <div class="evidence-item fail">
-                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                    <div class="evidence-item warning">
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
                         <span>No CA Secretary of State Registration</span>
                     </div>
-                    <div class="evidence-item fail">
-                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
-                        <span>Confirmed Ghost Entity</span>
+                    <div class="evidence-item success">
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                        <span>Verified Real-World Farm</span>
                     </div>
                 </div>
-                <p class="summary">Despite being listed as an LLC receiving a massive infrastructure grant, this entity fails the state registry check and has exactly zero organic web presence. It only exists on the grant ledger.</p>
+                <p class="summary">A strict database check flagged this as a ghost entity. Our Gemini Validator checked Google Maps and verified it is a real farm in Escalon, CA. This is a bureaucratic failure, not a heist.</p>
             </div>
         </div>
     </section>
@@ -169,72 +169,78 @@
     <!-- NEW EVIDENCE DEEP DIVE SECTION -->
     <section id="evidence" class="section">
         <div class="section-header">
-            <h2>Evidence <span class="accent-text">Deep Dive</span></h2>
-            <p>Follow the digital paper trail that led us to flag these multi-million dollar grants.</p>
+            <h2>The Validator <span class="accent-text">Deep Dive</span></h2>
+            <p>See exactly how our LLM pipeline differentiates between bad paperwork and actual theft.</p>
         </div>
 
         <div class="evidence-tabs">
-            <button class="tab-btn active" data-target="olyns">Olyns DBA Tech</button>
-            <button class="tab-btn" data-target="rubber">U.S. Rubber #7</button>
+            <button class="tab-btn active" data-target="infinite">Infinite Sky</button>
+            <button class="tab-btn" data-target="suarez">Suarez Holdings</button>
+            <button class="tab-btn" data-target="jm3">JM3 Holdings</button>
             <button class="tab-btn" data-target="creekside">Creekside Dairy</button>
-            <button class="tab-btn" data-target="nurturing">Nurturing Seed LLC</button>
         </div>
 
-        <!-- Olyns Timeline -->
-        <div class="tab-content active" id="tab-olyns">
+        <!-- Infinite Sky Timeline -->
+        <div class="tab-content active" id="tab-infinite">
             <div class="timeline">
                 <div class="timeline-item glass">
-                    <div class="timeline-marker">1</div>
+                    <div class="timeline-marker fail">1</div>
                     <div class="timeline-content">
                         <h3>The Claim</h3>
-                        <p class="grant-type">$2,999,658 Major Equipment Grant</p>
-                        <p>The state recorded a $3 million disbursement to "Olyns, Inc. Doing Business in California as Olyns Tech." for major equipment acquisition.</p>
+                        <p class="grant-type">$1.5M New Construction & Major Renovation</p>
+                        <p>Infinite Sky Inc. was awarded $1.5 million for child care facility construction in Placer County.</p>
                     </div>
                 </div>
                 <div class="timeline-item glass">
                     <div class="timeline-marker fail">2</div>
                     <div class="timeline-content">
-                        <h3>The Registry Check</h3>
-                        <p class="grant-type">CA Secretary of State: NO RESULTS</p>
-                        <p>Our automated scraper checked the official SOS business registry. The entity "Olyns, Inc. Doing Business in California as Olyns Tech." is completely unregistered.</p>
-                    </div>
-                </div>
-                <div class="timeline-item glass">
-                    <div class="timeline-marker fail">3</div>
-                    <div class="timeline-content">
-                        <h3>The Vulnerability</h3>
-                        <p class="grant-type">Unverified DBA Status</p>
-                        <p>A "Doing Business As" (DBA) registration is a legal requirement. Disbursing $3 million to a legally non-existent DBA name means the funds cannot be properly tracked or audited to a single corporate tax ID.</p>
+                        <h3>The AI Verdict: TRUE FRAUD</h3>
+                        <p class="grant-type">Zero Construction Footprint</p>
+                        <p>Gemini checked the SERP footprint. While a corporation exists, there are no news articles, government announcements, or publicly accessible construction permits for a $1.5M project in Placer County.</p>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- U.S. Rubber #7 Timeline -->
-        <div class="tab-content" id="tab-rubber">
+        <!-- Suarez Holdings Timeline -->
+        <div class="tab-content" id="tab-suarez">
             <div class="timeline">
                 <div class="timeline-item glass">
-                    <div class="timeline-marker">1</div>
+                    <div class="timeline-marker fail">1</div>
                     <div class="timeline-content">
                         <h3>The Claim</h3>
-                        <p class="grant-type">$1,375,000 Major Equipment Grant</p>
-                        <p>A $1.375 million grant was awarded to a corporate entity identified as "U. S. Rubber Recycling #7".</p>
+                        <p class="grant-type">$1.5M New Construction & Major Renovation</p>
+                        <p>Suarez Holdings, LLC was awarded $1.5 million for child care facility construction.</p>
                     </div>
                 </div>
                 <div class="timeline-item glass">
                     <div class="timeline-marker fail">2</div>
                     <div class="timeline-content">
-                        <h3>The Registry Check</h3>
-                        <p class="grant-type">CA Secretary of State: NO RESULTS</p>
-                        <p>No valid registration for "U.S. Rubber Recycling #7" exists in the state databases.</p>
+                        <h3>The AI Verdict: TRUE FRAUD</h3>
+                        <p class="grant-type">Ineligible Entity</p>
+                        <p>Gemini cross-referencing discovered Suarez Holdings, LLC is an "FTB Forfeited" entity, making it legally ineligible to receive state funds. This discrepancy strongly suggests either significant data error or potential fraud.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- JM3 Holdings Timeline -->
+        <div class="tab-content" id="tab-jm3">
+            <div class="timeline">
+                <div class="timeline-item glass">
+                    <div class="timeline-marker">1</div>
+                    <div class="timeline-content">
+                        <h3>The Scraper Warning</h3>
+                        <p class="grant-type">Missing Permits</p>
+                        <p>Our hardcoded scraper initially flagged JM3 Holdings because it lacked obvious building permits for its $1.5M grant.</p>
                     </div>
                 </div>
                 <div class="timeline-item glass">
-                    <div class="timeline-marker fail">3</div>
+                    <div class="timeline-marker success">2</div>
                     <div class="timeline-content">
-                        <h3>The Reality</h3>
-                        <p class="grant-type">The Subsidiary Shell Game</p>
-                        <p>While U.S. Rubber Recycling is a real parent company, "Entity #7" is an unregistered shell with zero digital footprint. State auditors approved the grant based on the parent company's name, but the $1.3M was funneled into a legally unaccountable subsidiary.</p>
+                        <h3>The AI Verdict: CLEARED</h3>
+                        <p class="grant-type">Legitimate Program</p>
+                        <p>The LLM Validator used Google Search Grounding to read the actual grant documentation, realizing it was a legitimate, publicly documented grant from a state agency. The LLM overruled the scraper, saving investigators hours of wasted time.</p>
                     </div>
                 </div>
             </div>
@@ -244,57 +250,19 @@
         <div class="tab-content" id="tab-creekside">
             <div class="timeline">
                 <div class="timeline-item glass">
-                    <div class="timeline-marker">1</div>
+                    <div class="timeline-marker fail">1</div>
                     <div class="timeline-content">
-                        <h3>The Claim</h3>
-                        <p class="grant-type">$725,985 Heavy Construction Grant</p>
-                        <p>Creekside Dairy (San Joaquin) was awarded $725K for a "Mechanical Separator Project".</p>
+                        <h3>The Scraper Warning</h3>
+                        <p class="grant-type">No Secretary of State Record</p>
+                        <p>Our database script searched for "Creekside Dairy (San Joaquin)" and found zero matches, assuming it was a ghost entity.</p>
                     </div>
                 </div>
                 <div class="timeline-item glass">
-                    <div class="timeline-marker fail">2</div>
+                    <div class="timeline-marker warning">2</div>
                     <div class="timeline-content">
-                        <h3>The Registry Check</h3>
-                        <p class="grant-type">CA Secretary of State: NO RESULTS</p>
-                        <p>No valid corporate registration exists in the SOS database for this entity name.</p>
-                    </div>
-                </div>
-                <div class="timeline-item glass">
-                    <div class="timeline-marker fail">3</div>
-                    <div class="timeline-content">
-                        <h3>The Reality</h3>
-                        <p class="grant-type">Missing Verification</p>
-                        <p>Web searches reveal no verifiable physical dairy farm matching this exact name in San Joaquin County. Without SOS registration, the state has no legal proof the entity receiving $725,000 actually exists.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Nurturing Seed Farm LLC Timeline -->
-        <div class="tab-content" id="tab-nurturing">
-            <div class="timeline">
-                <div class="timeline-item glass">
-                    <div class="timeline-marker">1</div>
-                    <div class="timeline-content">
-                        <h3>The Claim</h3>
-                        <p class="grant-type">$350,000 Agricultural Infrastructure</p>
-                        <p>Nurturing Seed Farm LLC was awarded a massive grant for an expansion plan.</p>
-                    </div>
-                </div>
-                <div class="timeline-item glass">
-                    <div class="timeline-marker fail">2</div>
-                    <div class="timeline-content">
-                        <h3>The Registry Check</h3>
-                        <p class="grant-type">CA Secretary of State: NO RESULTS</p>
-                        <p>Despite bearing an "LLC" suffix, no valid LLC registration exists in the SOS database.</p>
-                    </div>
-                </div>
-                <div class="timeline-item glass">
-                    <div class="timeline-marker fail">3</div>
-                    <div class="timeline-content">
-                        <h3>The Reality</h3>
-                        <p class="grant-type">Ghost Entity</p>
-                        <p>Our Bright Data SERP blast returned zero non-grant related results. This is a pure Ghost Entity—it exists nowhere on the internet and nowhere in California corporate records, yet successfully absorbed $350,000 of state money.</p>
+                        <h3>The AI Verdict: COMPLIANCE FAILURE</h3>
+                        <p class="grant-type">Real Farm, Bad Paperwork</p>
+                        <p>Gemini looked at the top Google Maps results and realized Creekside Dairy is a real, operational farm in Escalon. The state simply failed to enforce SOS registration compliance before handing over $725K. Sloppy, but not an organized heist.</p>
                     </div>
                 </div>
             </div>
