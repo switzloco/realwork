@@ -1,0 +1,603 @@
+{
+  "sos": {
+    "general": {
+      "search_engine": "google",
+      "query": "\"SBA Enterprises\" site:bizfileonline.sos.ca.gov",
+      "results_cnt": 0,
+      "search_time": 0.25,
+      "language": "en-NG",
+      "country": "Nigeria",
+      "country_code": "NG",
+      "location": "United States",
+      "gl": "NG",
+      "mobile": false,
+      "basic_view": false,
+      "search_type": "text",
+      "empty": true,
+      "page_title": "\"SBA Enterprises\" site:bizfileonline.sos.ca.gov - Google Search",
+      "timestamp": "2026-05-27T03:21:59.153Z"
+    },
+    "input": {
+      "original_url": "https://www.google.com/search?q=%22SBA+Enterprises%22+site%3Abizfileonline.sos.ca.gov&brd_json=1",
+      "request_id": "hl_0e82968a_2wc9sqaxo2l"
+    },
+    "navigation": [
+      {
+        "title": "AI Mode",
+        "href": "https://www.google.com/search?q=SBA+Enterprises+site:bizfileonline.sos.ca.gov&sca_esv=2c211be4597a0b90&hl=en&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3jljrY5CkLlk8Dq3IvwBz-R5R-93bnJN-gfJetFY0A5M6NANLPFEQzj1dcFq3LKKBdCYbzdhWbgGF5JoIWe-TGxPVFGWXwy2UX1aT3rNf61snKitSuqGGanD85NHIJIOYEJhJN_sU4cmcYajw5wFPfZNmY6_5PLFuxghnTZ1Im42qDAQ_A&aep=1&ntc=1&sa=X&ved=2ahUKEwjXsu3pwdiUAxXW0gIHHfpSM_EQ2J8OegQIEBAD"
+      },
+      {
+        "title": "Images",
+        "href": "https://www.google.com/search?sca_esv=2c211be4597a0b90&hl=en&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3jljrY5CkLlk8Dq3IvwBz-R5R-93bnJN-gfJetFY0A5M6NANLPFEQzj1dcFq3LKKBdCYbzdhWbgGF5JoIWe-TGxPVFGWXwy2UX1aT3rNf61snKitSuqGGanD85NHIJIOYEJhJN_sU4cmcYajw5wFPfZNmY6_5PLFuxghnTZ1Im42qDAQ_A&q=SBA+Enterprises+site:bizfileonline.sos.ca.gov&sa=X&ved=2ahUKEwjXsu3pwdiUAxXW0gIHHfpSM_EQtKgLegQIFhAB"
+      },
+      {
+        "title": "Videos",
+        "href": "https://www.google.com/search?sca_esv=2c211be4597a0b90&hl=en&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3jljrY5CkLlk8Dq3IvwBz-R5R-93bnJN-gfJetFY0A5M6NANLPFEQzj1dcFq3LKKBdCYbzdhWbgGF5JoIWe-TGxPVFGWXwy2UX1aT3rNf61snKitSuqGGanD85NHIJIOYEJhJN_sU4cmcYajw5wFPfZNmY6_5PLFuxghnTZ1Im42qDAQ_A&q=SBA+Enterprises+site:bizfileonline.sos.ca.gov&sa=X&ved=2ahUKEwjXsu3pwdiUAxXW0gIHHfpSM_EQtKgLegQIFRAB"
+      },
+      {
+        "title": "News",
+        "href": "https://www.google.com/search?sca_esv=2c211be4597a0b90&hl=en&q=SBA+Enterprises+site:bizfileonline.sos.ca.gov&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3jljrY5CkLlk8Dq3IvwBz-R5R-93bnJN-gfJetFY0A5M6NANLPFEQzj1dcFq3LKKBdCYbzdhWbgGF5JoIWe-TGxPVFGWXwy2UX1aT3rNf61snKitSuqGGanD85NHIJIOYEJhJN_sU4cmcYajw5wFPfZNmY6_5PLFuxghnTZ1Im42qDAQ_A&sa=X&ved=2ahUKEwjXsu3pwdiUAxXW0gIHHfpSM_EQ0pQJegQIExAB"
+      },
+      {
+        "title": "Forums",
+        "href": "https://www.google.com/search?sca_esv=2c211be4597a0b90&hl=en&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3jljrY5CkLlk8Dq3IvwBz-R5R-93bnJN-gfJetFY0A5M6NANLPFEQzj1dcFq3LKKBdCYbzdhWbgGF5JoIWe-TGxPVFGWXwy2UX1aT3rNf61snKitSuqGGanD85NHIJIOYEJhJN_sU4cmcYajw5wFPfZNmY6_5PLFuxghnTZ1Im42qDAQ_A&q=SBA+Enterprises+site:bizfileonline.sos.ca.gov&sa=X&ved=2ahUKEwjXsu3pwdiUAxXW0gIHHfpSM_EQs6gLegQIEhAB"
+      },
+      {
+        "title": "Maps",
+        "href": "https://maps.google.com/maps?sca_esv=2c211be4597a0b90&hl=en&output=search&q=SBA+Enterprises+site:bizfileonline.sos.ca.gov&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3jljrY5CkLlk8Dq3IvwBz-R5R-93bnJN-gfJetFY0A5M6NANLPFEQzj1dcFq3LKKBdCYbzdhWbgGF5JoIWe-TGxPVFGWXwy2UX1aT3rNf61snKitSuqGGanD85NHIJIOYEJhJN_sU4cmcYajw5wFPfZNmY6_5PLFuxghnTZ1Im42qDAQ_A&entry=mc&ved=1t:200715&ictx=111"
+      },
+      {
+        "title": "Short videos",
+        "href": "https://www.google.com/search?sca_esv=2c211be4597a0b90&hl=en&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3jljrY5CkLlk8Dq3IvwBz-R5R-93bnJN-gfJetFY0A5M6NANLPFEQzj1dcFq3LKKBdCYbzdhWbgGF5JoIWe-TGxPVFGWXwy2UX1aT3rNf61snKitSuqGGanD85NHIJIOYEJhJN_sU4cmcYajw5wFPfZNmY6_5PLFuxghnTZ1Im42qDAQ_A&q=SBA+Enterprises+site:bizfileonline.sos.ca.gov&sa=X&ved=2ahUKEwjXsu3pwdiUAxXW0gIHHfpSM_EQs6gLegQIGxAB"
+      },
+      {
+        "title": "Web",
+        "href": "https://www.google.com/search?sca_esv=2c211be4597a0b90&hl=en&udm=web&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3jljrY5CkLlk8Dq3IvwBz-R5R-93bnJN-gfJetFY0A5M6NANLPFEQzj1dcFq3LKKBdCYbzdhWbgGF5JoIWe-TGxPVFGWXwy2UX1aT3rNf61snKitSuqGGanD85NHIJIOYEJhJN_sU4cmcYajw5wFPfZNmY6_5PLFuxghnTZ1Im42qDAQ_A&q=SBA+Enterprises+site:bizfileonline.sos.ca.gov&sa=X&ved=2ahUKEwjXsu3pwdiUAxXW0gIHHfpSM_EQs6gLegQIGhAB"
+      },
+      {
+        "title": "Books",
+        "href": "https://www.google.com/search?sca_esv=2c211be4597a0b90&hl=en&q=SBA+Enterprises+site:bizfileonline.sos.ca.gov&udm=36&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3jljrY5CkLlk8Dq3IvwBz-R5R-93bnJN-gfJetFY0A5M6NANLPFEQzj1dcFq3LKKBdCYbzdhWbgGF5JoIWe-TGxPVFGWXwy2UX1aT3rNf61snKitSuqGGanD85NHIJIOYEJhJN_sU4cmcYajw5wFPfZNmY6_5PLFuxghnTZ1Im42qDAQ_A&sa=X&ved=2ahUKEwjXsu3pwdiUAxXW0gIHHfpSM_EQ0pQJegQIGRAB"
+      },
+      {
+        "title": "Finance",
+        "href": "https://www.google.com/finance?sca_esv=2c211be4597a0b90&hl=en&output=search&q=SBA+Enterprises+site:bizfileonline.sos.ca.gov&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3jljrY5CkLlk8Dq3IvwBz-R5R-93bnJN-gfJetFY0A5M6NANLPFEQzj1dcFq3LKKBdCYbzdhWbgGF5JoIWe-TGxPVFGWXwy2UX1aT3rNf61snKitSuqGGanD85NHIJIOYEJhJN_sU4cmcYajw5wFPfZNmY6_5PLFuxghnTZ1Im42qDAQ_A&sa=X&ved=2ahUKEwjXsu3pwdiUAxXW0gIHHfpSM_EQ0pQJegQIHBAB"
+      }
+    ]
+  },
+  "cslb": [
+    {
+      "link": "https://www.cslb.ca.gov/Resources/GuidesAndPublications/2025/2025_CSLB_Law_Book.pdf",
+      "source": "CSLB (.gov)",
+      "display_link": "https://www.cslb.ca.gov \u203a 2025_CSLB_Law_Book",
+      "title": "California Contractors License Law & Reference Book - CSLB",
+      "description": "... (SBA) does not make direct loans, but it does guarantee repayment of a loan. For more information, visit www.sba.gov. Short-Term. The ...Read more",
+      "snippet_highlighted_words": [
+        "SBA) does not make direct loans"
+      ],
+      "extensions": [
+        {
+          "inline": true,
+          "type": "text",
+          "text": "Dec 31, 2024",
+          "rank": 1
+        },
+        {
+          "type": "missing",
+          "text": "Enterprises",
+          "rank": 2
+        },
+        {
+          "type": "must_include",
+          "text": "Enterprises",
+          "link": "https://www.google.com/search?sca_esv=2c211be4597a0b90&hl=en&q=SBA+%22Enterprises%22+site:cslb.ca.gov&sa=X&ved=2ahUKEwj-sKXrwdiUAxUng4kEHVsxOxsQ5t4CegQINBAB",
+          "rank": 3
+        }
+      ],
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAA0lBMVEVHcEwVGBwAAQUAACR5fIj0rT/aolcAAggAAABianrFnW2hhWqpnZf9rhe5h0IAAAbUqHP0qzj0qzmSckvjoDv6ri9EOzHqqk2tgUgDBRfDkUsABxFueojOl034qh1pXlQFBQzvrE6VckoAAATbnUUBAQLhpljrpTJzbWZDQEDUmEM6PkJSTUcICA8AAAJyZ1vTlS+NjY2bm5uEhYby8vL19fXMzM3w8fGkpKTi4+MAAADf3t+6u7vV1dWPj4/4+fmkpKTm5uaAeHTIycn7/Px2dnbnSGSOAAAARnRSTlMACg4GI+WWGQMVTzYl/60sXu/2Vtz/ep6YUp4gG7T/gEfBgCbHPn/la2fIRTNlNnHBTz946veL2HfCE5muv4z8n+FEr/+RiPiG4QAAAXZJREFUeAFiGCSAkYkZpxwLoDWiSkwYhq7JSoLWHamQtUB1pLjL/a+0lGn5XuS5P76B8LOw2WoDJuzw3Z7w5IpFSZIV8NKRVE0X6p7Q0EzLNp0+P+ipFnrSDUeu4PmBN7Ykk3A15dtwRFArdBuqFWmToBZV1HwXtSXTDy2hEVq1Yl+1nota8nSiTmYKLw3iP8ViT7UCaIyTsTng5a46nYFfZUubpAAjwdbCXuZruuv8ekI+d1kW3Oqquiso/MSBvznF4aSaSJ9XE7eIHSV9f+U6AHId+JkRMWSEyZzScjFb0nK1Xmy2a/QotWq6JU9cukvm8/U+ORxPZ3KMAtZ/dyRgFtRPLzRZ7a+3EQno/XigVTyjOwow9GyyvdJTti/P17S46fvbjrCGLto0dbwBiY/lvSzLk06Px527uj1WA+yuJNnE2RSR60YTVyDRhDjOLN1UbTp+zjgOA7TZILThAAMQArb4SouCYFPNBLP3kPydO2YT+efzAYm8Kxw94yf3AAAAAElFTkSuQmCC",
+      "rank": 1,
+      "global_rank": 1
+    },
+    {
+      "link": "https://www.cslb.ca.gov/Resources/BoardPackets/6_11_2013_board_mtg.pdf",
+      "source": "CSLB (.gov)",
+      "display_link": "https://www.cslb.ca.gov \u203a 6_11_2013_board_mtg",
+      "title": "CONTRACTORS STATE LICENSE BOARD Board Meeting",
+      "description": "Business owners will also be educated on construction accounting and financial management, estimating and bidding on public works projects, ...Read more",
+      "extensions": [
+        {
+          "inline": true,
+          "type": "text",
+          "text": "Jun 11, 2013",
+          "rank": 1
+        }
+      ],
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAA0lBMVEVHcEwVGBwAAQUAACR5fIj0rT/aolcAAggAAABianrFnW2hhWqpnZf9rhe5h0IAAAbUqHP0qzj0qzmSckvjoDv6ri9EOzHqqk2tgUgDBRfDkUsABxFueojOl034qh1pXlQFBQzvrE6VckoAAATbnUUBAQLhpljrpTJzbWZDQEDUmEM6PkJSTUcICA8AAAJyZ1vTlS+NjY2bm5uEhYby8vL19fXMzM3w8fGkpKTi4+MAAADf3t+6u7vV1dWPj4/4+fmkpKTm5uaAeHTIycn7/Px2dnbnSGSOAAAARnRSTlMACg4GI+WWGQMVTzYl/60sXu/2Vtz/ep6YUp4gG7T/gEfBgCbHPn/la2fIRTNlNnHBTz946veL2HfCE5muv4z8n+FEr/+RiPiG4QAAAXZJREFUeAFiGCSAkYkZpxwLoDWiSkwYhq7JSoLWHamQtUB1pLjL/a+0lGn5XuS5P76B8LOw2WoDJuzw3Z7w5IpFSZIV8NKRVE0X6p7Q0EzLNp0+P+ipFnrSDUeu4PmBN7Ykk3A15dtwRFArdBuqFWmToBZV1HwXtSXTDy2hEVq1Yl+1nota8nSiTmYKLw3iP8ViT7UCaIyTsTng5a46nYFfZUubpAAjwdbCXuZruuv8ekI+d1kW3Oqquiso/MSBvznF4aSaSJ9XE7eIHSV9f+U6AHId+JkRMWSEyZzScjFb0nK1Xmy2a/QotWq6JU9cukvm8/U+ORxPZ3KMAtZ/dyRgFtRPLzRZ7a+3EQno/XigVTyjOwow9GyyvdJTti/P17S46fvbjrCGLto0dbwBiY/lvSzLk06Px527uj1WA+yuJNnE2RSR60YTVyDRhDjOLN1UbTp+zjgOA7TZILThAAMQArb4SouCYFPNBLP3kPydO2YT+efzAYm8Kxw94yf3AAAAAElFTkSuQmCC",
+      "rank": 2,
+      "global_rank": 2
+    },
+    {
+      "link": "https://www.cslb.ca.gov/Resources/BoardPackets/BoardMeetingPacket2015061819.pdf",
+      "source": "CSLB (.gov)",
+      "display_link": "https://www.cslb.ca.gov \u203a BoardPackets \u203a Board...",
+      "title": "CONTRACTORS STATE LICENSE BOARD Board Meeting",
+      "description": "SBA Luncheon. May 21,201511:30 am. Location: Gold Coast Hotel and. Casino Las Vegas, 4000 West. Flamingo Road, Las Vegas, NV. 89103. Un ted ...Read more",
+      "snippet_highlighted_words": [
+        "SBA"
+      ],
+      "extensions": [
+        {
+          "inline": true,
+          "type": "text",
+          "text": "Jun 18, 2015",
+          "rank": 1
+        },
+        {
+          "type": "missing",
+          "text": "Enterprises",
+          "rank": 2
+        },
+        {
+          "type": "must_include",
+          "text": "Enterprises",
+          "link": "https://www.google.com/search?sca_esv=2c211be4597a0b90&hl=en&q=SBA+%22Enterprises%22+site:cslb.ca.gov&sa=X&ved=2ahUKEwj-sKXrwdiUAxUng4kEHVsxOxsQ5t4CegQIMxAB",
+          "rank": 3
+        }
+      ],
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAA0lBMVEVHcEwVGBwAAQUAACR5fIj0rT/aolcAAggAAABianrFnW2hhWqpnZf9rhe5h0IAAAbUqHP0qzj0qzmSckvjoDv6ri9EOzHqqk2tgUgDBRfDkUsABxFueojOl034qh1pXlQFBQzvrE6VckoAAATbnUUBAQLhpljrpTJzbWZDQEDUmEM6PkJSTUcICA8AAAJyZ1vTlS+NjY2bm5uEhYby8vL19fXMzM3w8fGkpKTi4+MAAADf3t+6u7vV1dWPj4/4+fmkpKTm5uaAeHTIycn7/Px2dnbnSGSOAAAARnRSTlMACg4GI+WWGQMVTzYl/60sXu/2Vtz/ep6YUp4gG7T/gEfBgCbHPn/la2fIRTNlNnHBTz946veL2HfCE5muv4z8n+FEr/+RiPiG4QAAAXZJREFUeAFiGCSAkYkZpxwLoDWiSkwYhq7JSoLWHamQtUB1pLjL/a+0lGn5XuS5P76B8LOw2WoDJuzw3Z7w5IpFSZIV8NKRVE0X6p7Q0EzLNp0+P+ipFnrSDUeu4PmBN7Ykk3A15dtwRFArdBuqFWmToBZV1HwXtSXTDy2hEVq1Yl+1nota8nSiTmYKLw3iP8ViT7UCaIyTsTng5a46nYFfZUubpAAjwdbCXuZruuv8ekI+d1kW3Oqquiso/MSBvznF4aSaSJ9XE7eIHSV9f+U6AHId+JkRMWSEyZzScjFb0nK1Xmy2a/QotWq6JU9cukvm8/U+ORxPZ3KMAtZ/dyRgFtRPLzRZ7a+3EQno/XigVTyjOwow9GyyvdJTti/P17S46fvbjrCGLto0dbwBiY/lvSzLk06Px527uj1WA+yuJNnE2RSR60YTVyDRhDjOLN1UbTp+zjgOA7TZILThAAMQArb4SouCYFPNBLP3kPydO2YT+efzAYm8Kxw94yf3AAAAAElFTkSuQmCC",
+      "rank": 3,
+      "global_rank": 3
+    },
+    {
+      "link": "https://www.cslb.ca.gov/Resources/BoardPackets/2023/June_22,_2023_WebVersion.pdf",
+      "source": "CSLB (.gov)",
+      "display_link": "https://www.cslb.ca.gov \u203a BoardPackets \u203a June_2...",
+      "title": "CSLB Quarterly Board Meeting \u2014 June 22-23, 2023",
+      "description": "Barriers include SBA not allowing 20% ownership as part of a loan and obstacles qualifying for insurance. Registrar Fogt suggested the Board ...Read more",
+      "snippet_highlighted_words": [
+        "SBA"
+      ],
+      "extensions": [
+        {
+          "inline": true,
+          "type": "text",
+          "text": "Jun 22, 2023",
+          "rank": 1
+        },
+        {
+          "type": "missing",
+          "text": "Enterprises",
+          "rank": 2
+        },
+        {
+          "type": "must_include",
+          "text": "Enterprises",
+          "link": "https://www.google.com/search?sca_esv=2c211be4597a0b90&hl=en&q=SBA+%22Enterprises%22+site:cslb.ca.gov&sa=X&ved=2ahUKEwj-sKXrwdiUAxUng4kEHVsxOxsQ5t4CegQIMhAB",
+          "rank": 3
+        }
+      ],
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAA0lBMVEVHcEwVGBwAAQUAACR5fIj0rT/aolcAAggAAABianrFnW2hhWqpnZf9rhe5h0IAAAbUqHP0qzj0qzmSckvjoDv6ri9EOzHqqk2tgUgDBRfDkUsABxFueojOl034qh1pXlQFBQzvrE6VckoAAATbnUUBAQLhpljrpTJzbWZDQEDUmEM6PkJSTUcICA8AAAJyZ1vTlS+NjY2bm5uEhYby8vL19fXMzM3w8fGkpKTi4+MAAADf3t+6u7vV1dWPj4/4+fmkpKTm5uaAeHTIycn7/Px2dnbnSGSOAAAARnRSTlMACg4GI+WWGQMVTzYl/60sXu/2Vtz/ep6YUp4gG7T/gEfBgCbHPn/la2fIRTNlNnHBTz946veL2HfCE5muv4z8n+FEr/+RiPiG4QAAAXZJREFUeAFiGCSAkYkZpxwLoDWiSkwYhq7JSoLWHamQtUB1pLjL/a+0lGn5XuS5P76B8LOw2WoDJuzw3Z7w5IpFSZIV8NKRVE0X6p7Q0EzLNp0+P+ipFnrSDUeu4PmBN7Ykk3A15dtwRFArdBuqFWmToBZV1HwXtSXTDy2hEVq1Yl+1nota8nSiTmYKLw3iP8ViT7UCaIyTsTng5a46nYFfZUubpAAjwdbCXuZruuv8ekI+d1kW3Oqquiso/MSBvznF4aSaSJ9XE7eIHSV9f+U6AHId+JkRMWSEyZzScjFb0nK1Xmy2a/QotWq6JU9cukvm8/U+ORxPZ3KMAtZ/dyRgFtRPLzRZ7a+3EQno/XigVTyjOwow9GyyvdJTti/P17S46fvbjrCGLto0dbwBiY/lvSzLk06Px527uj1WA+yuJNnE2RSR60YTVyDRhDjOLN1UbTp+zjgOA7TZILThAAMQArb4SouCYFPNBLP3kPydO2YT+efzAYm8Kxw94yf3AAAAAElFTkSuQmCC",
+      "rank": 4,
+      "global_rank": 4
+    },
+    {
+      "link": "https://www.cslb.ca.gov/Resources/Newsletters/ContractorNewsletter2001Spring.pdf",
+      "source": "CSLB (.gov)",
+      "display_link": "https://www.cslb.ca.gov \u203a Resources \u203a Newsletters",
+      "title": "Another Successful Year for Contractor Education Seminars",
+      "description": "For a listing of seminars and services offered by the U.S. Small Business. Association SCORE (Service Corp of. Retired Executives) log on to www.sba.gov and ...Read more",
+      "snippet_highlighted_words": [
+        "sba"
+      ],
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAA0lBMVEVHcEwVGBwAAQUAACR5fIj0rT/aolcAAggAAABianrFnW2hhWqpnZf9rhe5h0IAAAbUqHP0qzj0qzmSckvjoDv6ri9EOzHqqk2tgUgDBRfDkUsABxFueojOl034qh1pXlQFBQzvrE6VckoAAATbnUUBAQLhpljrpTJzbWZDQEDUmEM6PkJSTUcICA8AAAJyZ1vTlS+NjY2bm5uEhYby8vL19fXMzM3w8fGkpKTi4+MAAADf3t+6u7vV1dWPj4/4+fmkpKTm5uaAeHTIycn7/Px2dnbnSGSOAAAARnRSTlMACg4GI+WWGQMVTzYl/60sXu/2Vtz/ep6YUp4gG7T/gEfBgCbHPn/la2fIRTNlNnHBTz946veL2HfCE5muv4z8n+FEr/+RiPiG4QAAAXZJREFUeAFiGCSAkYkZpxwLoDWiSkwYhq7JSoLWHamQtUB1pLjL/a+0lGn5XuS5P76B8LOw2WoDJuzw3Z7w5IpFSZIV8NKRVE0X6p7Q0EzLNp0+P+ipFnrSDUeu4PmBN7Ykk3A15dtwRFArdBuqFWmToBZV1HwXtSXTDy2hEVq1Yl+1nota8nSiTmYKLw3iP8ViT7UCaIyTsTng5a46nYFfZUubpAAjwdbCXuZruuv8ekI+d1kW3Oqquiso/MSBvznF4aSaSJ9XE7eIHSV9f+U6AHId+JkRMWSEyZzScjFb0nK1Xmy2a/QotWq6JU9cukvm8/U+ORxPZ3KMAtZ/dyRgFtRPLzRZ7a+3EQno/XigVTyjOwow9GyyvdJTti/P17S46fvbjrCGLto0dbwBiY/lvSzLk06Px527uj1WA+yuJNnE2RSR60YTVyDRhDjOLN1UbTp+zjgOA7TZILThAAMQArb4SouCYFPNBLP3kPydO2YT+efzAYm8Kxw94yf3AAAAAElFTkSuQmCC",
+      "rank": 5,
+      "global_rank": 5
+    },
+    {
+      "link": "https://www.cslb.ca.gov/Resources/Newsletters/Archives/1980/1990-Spring.pdf",
+      "source": "CSLB (.gov)",
+      "display_link": "https://www.cslb.ca.gov \u203a Archives \u203a 1990-Spring",
+      "title": "Contractor",
+      "description": "I found it to be an excellent work on the subject of real estate construction, and a necessary tool for all disaster victims with significant real estate damage ...Read more",
+      "extensions": [
+        {
+          "inline": true,
+          "type": "text",
+          "text": "8 pages",
+          "rank": 1
+        }
+      ],
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAA0lBMVEVHcEwVGBwAAQUAACR5fIj0rT/aolcAAggAAABianrFnW2hhWqpnZf9rhe5h0IAAAbUqHP0qzj0qzmSckvjoDv6ri9EOzHqqk2tgUgDBRfDkUsABxFueojOl034qh1pXlQFBQzvrE6VckoAAATbnUUBAQLhpljrpTJzbWZDQEDUmEM6PkJSTUcICA8AAAJyZ1vTlS+NjY2bm5uEhYby8vL19fXMzM3w8fGkpKTi4+MAAADf3t+6u7vV1dWPj4/4+fmkpKTm5uaAeHTIycn7/Px2dnbnSGSOAAAARnRSTlMACg4GI+WWGQMVTzYl/60sXu/2Vtz/ep6YUp4gG7T/gEfBgCbHPn/la2fIRTNlNnHBTz946veL2HfCE5muv4z8n+FEr/+RiPiG4QAAAXZJREFUeAFiGCSAkYkZpxwLoDWiSkwYhq7JSoLWHamQtUB1pLjL/a+0lGn5XuS5P76B8LOw2WoDJuzw3Z7w5IpFSZIV8NKRVE0X6p7Q0EzLNp0+P+ipFnrSDUeu4PmBN7Ykk3A15dtwRFArdBuqFWmToBZV1HwXtSXTDy2hEVq1Yl+1nota8nSiTmYKLw3iP8ViT7UCaIyTsTng5a46nYFfZUubpAAjwdbCXuZruuv8ekI+d1kW3Oqquiso/MSBvznF4aSaSJ9XE7eIHSV9f+U6AHId+JkRMWSEyZzScjFb0nK1Xmy2a/QotWq6JU9cukvm8/U+ORxPZ3KMAtZ/dyRgFtRPLzRZ7a+3EQno/XigVTyjOwow9GyyvdJTti/P17S46fvbjrCGLto0dbwBiY/lvSzLk06Px527uj1WA+yuJNnE2RSR60YTVyDRhDjOLN1UbTp+zjgOA7TZILThAAMQArb4SouCYFPNBLP3kPydO2YT+efzAYm8Kxw94yf3AAAAAElFTkSuQmCC",
+      "rank": 6,
+      "global_rank": 6
+    },
+    {
+      "link": "https://www.cslb.ca.gov/Resources/GuidesAndPublications/LawReferenceBook2017.pdf",
+      "source": "CSLB (.gov)",
+      "display_link": "https://www.cslb.ca.gov \u203a GuidesAndPublications",
+      "title": "Califor nia Contractors Li cense Law & Referenc e Book - CSLB",
+      "description": "This book is an official publication of the State of California. It may not be reproduced in whole or in part without the express permission of the ...Read more",
+      "extensions": [
+        {
+          "inline": true,
+          "type": "text",
+          "text": "1,168 pages",
+          "rank": 1
+        },
+        {
+          "type": "missing",
+          "text": "Enterprises",
+          "rank": 2
+        },
+        {
+          "type": "must_include",
+          "text": "Enterprises",
+          "link": "https://www.google.com/search?sca_esv=2c211be4597a0b90&hl=en&q=SBA+%22Enterprises%22+site:cslb.ca.gov&sa=X&ved=2ahUKEwj-sKXrwdiUAxUng4kEHVsxOxsQ5t4CegQIMRAB",
+          "rank": 3
+        }
+      ],
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAA0lBMVEVHcEwVGBwAAQUAACR5fIj0rT/aolcAAggAAABianrFnW2hhWqpnZf9rhe5h0IAAAbUqHP0qzj0qzmSckvjoDv6ri9EOzHqqk2tgUgDBRfDkUsABxFueojOl034qh1pXlQFBQzvrE6VckoAAATbnUUBAQLhpljrpTJzbWZDQEDUmEM6PkJSTUcICA8AAAJyZ1vTlS+NjY2bm5uEhYby8vL19fXMzM3w8fGkpKTi4+MAAADf3t+6u7vV1dWPj4/4+fmkpKTm5uaAeHTIycn7/Px2dnbnSGSOAAAARnRSTlMACg4GI+WWGQMVTzYl/60sXu/2Vtz/ep6YUp4gG7T/gEfBgCbHPn/la2fIRTNlNnHBTz946veL2HfCE5muv4z8n+FEr/+RiPiG4QAAAXZJREFUeAFiGCSAkYkZpxwLoDWiSkwYhq7JSoLWHamQtUB1pLjL/a+0lGn5XuS5P76B8LOw2WoDJuzw3Z7w5IpFSZIV8NKRVE0X6p7Q0EzLNp0+P+ipFnrSDUeu4PmBN7Ykk3A15dtwRFArdBuqFWmToBZV1HwXtSXTDy2hEVq1Yl+1nota8nSiTmYKLw3iP8ViT7UCaIyTsTng5a46nYFfZUubpAAjwdbCXuZruuv8ekI+d1kW3Oqquiso/MSBvznF4aSaSJ9XE7eIHSV9f+U6AHId+JkRMWSEyZzScjFb0nK1Xmy2a/QotWq6JU9cukvm8/U+ORxPZ3KMAtZ/dyRgFtRPLzRZ7a+3EQno/XigVTyjOwow9GyyvdJTti/P17S46fvbjrCGLto0dbwBiY/lvSzLk06Px527uj1WA+yuJNnE2RSR60YTVyDRhDjOLN1UbTp+zjgOA7TZILThAAMQArb4SouCYFPNBLP3kPydO2YT+efzAYm8Kxw94yf3AAAAAElFTkSuQmCC",
+      "rank": 7,
+      "global_rank": 7
+    }
+  ],
+  "permit": [
+    {
+      "link": "https://www.indeed.com/q-previous-teacher-l-sacramento,-ca-jobs.html",
+      "source": "Indeed",
+      "display_link": "https://www.indeed.com \u203a q-previous-teacher-l-sacramen...",
+      "title": "Previous Teacher Jobs, Employment in Sacramento, CA",
+      "description": "Associate teacher permit or higher, OR, be qualified to obtain one. You will be responsible for encouraging children's intellectual, psychological, and physical ...",
+      "snippet_highlighted_words": [
+        "permit"
+      ],
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAflBMVEUAAAD///////////////////////////////////////////////+/zuZvkMZQd7pAa7Sgtdnv8/gAOptgg8AgUqcgU6evweCAnc0QRqF/nc3v8vhwkMcwXq3f5vLP2uz////f5/JfhMB/nM0wX66AnM1PeLqPqdOftdrv8/mN6/jEAAAAIXRSTlMAEGCfz+//XyCQj98w/////////////////////////6AQ1BAWAAABD0lEQVR4AYWThRZCIQxAR+11h939/z+oHECHGNd4sbvR8IJxIRWikiJiEBInCl+IGHxYim+kfnqGARkpkj/jRVnVVdMaIw/yi7qr+7IaxolXg7n4dDZfGHEojGFG4/q3XK3RsSE9jV3+SqevC6ToRrbmdjc84m3ddeOOCAkAQ8Oo6++7BzURFANuB3DQ/8dOgwTuWjjpAnjW8YEKAqS5KU0dLVyoIEGZYdnOr8veH4YCN+5vWGGBVtxc68IXFFLqrus8QYH8LUjY/hYE8N9CBEz9FBhA8ksQZLmpQJeblAiFxNtyoZCxYNMvu252CzY+2fa3fVU84/nfg0NgyXs8YeATb0lUJTGEML61x5+T7DuGyRy8BcS3+wAAAABJRU5ErkJggg==",
+      "rank": 1,
+      "global_rank": 1
+    },
+    {
+      "link": "https://www.ziprecruiter.com/Jobs/Nurture-Teacher/-in-Sacramento,CA",
+      "source": "ZipRecruiter",
+      "display_link": "https://www.ziprecruiter.com \u203a ... \u203a Nurture Teacher Jobs",
+      "title": "$29-$73/hr Nurture Teacher Jobs in Sacramento, CA",
+      "description": "Browse 60 SACRAMENTO, CA ... permit or ... Quick apply. Forever Friends Early Learning Center ... SBA Enterprises \u00b7 Preschool Teacher \u00b7 Elk Grove ...",
+      "snippet_highlighted_words": [
+        "SACRAMENTO",
+        "CA",
+        "permit",
+        "SBA Enterprises"
+      ],
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAPFBMVEVHcEwAIyUAIyUBIyUAIyUAISUAGiMCJSUbYzcgbztH4mNF22EAAh4AESEqi0Q1rFBAzVwtlkg6vVYZWzR6wT5nAAAAA3RSTlMATNwp31ooAAAAwklEQVR4Aa3TQRKDIAwFUEWJKAmEcP+7Vh3itEFd9a+cPP8iAwzD6KbbuHG3+THj4PTTQ4vXiRsmtSW0LKrThbBuLSvcYTzzX8QLA1qklGNLTvSL3nPRZmLwBiUoVvHPGKRvVsXaI4uisMGZhPnUjVmo2xMxcIwcEM2erV23rbaWQQ+EOSOB75EolMycSyCySGmfryJryZzIYkQiLAUJMaJB5Ap7fS9BZYsLwvHHMQe7ih64HnRDN3/raRr3eqlfn8MHhzkTceQ2NrIAAAAASUVORK5CYII=",
+      "rank": 2,
+      "global_rank": 2
+    },
+    {
+      "link": "https://www.simplyhired.com/q-childcare-provider-l-elk-grove,-ca-jobs.html?q=childcare-provider&l=elk-grove%2C-ca",
+      "source": "SimplyHired",
+      "display_link": "https://www.simplyhired.com \u203a q-childcare-provider-l-el...",
+      "title": "childcare provider jobs in elk grove, ca",
+      "description": "ChildCare Careers \u2014Sacramento, CA ... ECE Teacher Child Development Permit Required. Learning Jungle USA \u2014West Sacramento, CA ... SBA Enterprises \u2014Elk Grove, CA3.",
+      "snippet_highlighted_words": [
+        "Sacramento",
+        "CA",
+        "Permit",
+        "Sacramento",
+        "CA",
+        "SBA Enterprises"
+      ],
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAExklEQVR4AcWXA4ycWxiGN3Zt27Z1bRvh7bC2raC221WN3HVtrT2ztker4f/cOZnc2Uzdrt7kR3iefHi/73gBTYGNQAkNpxLXmTT1wvVjpuFlBjYKgCLeUZLdgXjqQEUCQOINsltslEZnoj16k+jlvkSqDxM35zCp6/wo8rtFVVI2ktXGe0jy4g0qjc3mtvw4Z/sv4GxHOZc7ywjqIeNGHzn3B8gJH64k8eMlFGz0xpKez7vqtQC5NxM5O2oVR5rN5HRbOWc7KbjSXUFwbyU3Byh5MERF+EgVcWNUaMYpyftzA+aniXUDYEgp5Pz4tRxyHn6slRzvdgoXQFe5MwJyVwQGKQgf4QQYq0Y7UU3mZBXFf6zBlpBee4Anay5y2Hn4kZZyBMDpdnLOdVZwbfoawmceIFZ5gKjvNhAxZhZxo1UIgKxpsyiYpsS06iCS2fL+AGZdBZembXIDHBURaK/g6SIfKnPLkGx28WAtNVJy4R6ab1ahHa9yR8B84xk4HO8PIMLv038xh1vIXAAtZZwfsgSjtoCXqeKZhowfV1M4eyfWpMza14AuOR/vPgtrAJzfC8OWYkov4qWSJKoTMrAV6eumCyoLDJwbs5rDzWU1KeigJGr9RaymKupSXq9yutuKExxq+o9nEXZV8eDPXRSGRmN7OUjd+UDh41RXHTT3bMPLXeSEDppNxF/bKTh3D0uRvn4AkEB75hGney/giBPCu52nEd3oK+fBUDXxP26k+EQotiJdHQMAkkMiKzSWy9M2crqNTFjxi044TCmckMy/t1BxPVy0Z50BuFWeU0bU5isEjF3hcsKecm72d1uxywnHK8n+ZAGmk4HChOoUwB0NU2ohmt1B3Pt8AzcHql6w4qypago/mUP1+Rt1DuAhc6GeXP+7xPy2jYiRapGCGiueocbw12oc2YX1BuCWtdRE/qFAEqYvqAH4cBa6j9VYAu7WHsCgLcSYXvzG7Shvky+a8Up3CkzL92OPT62dEWUERHFu7BoCv9tJRa6O16nkVJjYB8j+aB7lp4KQKqvfvwYsxirCt/7LqW7zxDQUdkzIL3swpBTwMjnMVnKWH0MzVkHp9rNgteFwOAgPD2f79u1s2bKFsLAwqqur3w5Al5SH78Al/49i9zC6Onkd2mO3MGrysZSasJaVU6nNI2f7ReInzSXtq+VY0vIQCgwMZOrUqQwaNEg8jB49mj179mCz2d4MgCQRt/86x9qpOOI82D0LnEYkFpLgUYu59+l6nny1gadTl4g2JHaUghz1LrBY0el1/PLLLwwePJhhw4aJhyFDhjBlyhTi4+Pfrgbs1VaebbrK8fZqkQLPlaybQhiR04oVPBisdPmAEyBv6WGEUlNTmTZtGkOHDnUDiGf48OGEhIS8fRfYzTYST9zFf9hyMQtEBF6+lIoIjJCTM2s3WO0Ul5Tw7bffekRAwEyYMIHIyMh39AEJdIl5PF55nqsT13Ch5yynFStcS2lfsZQqiRg7G813ayg9EuC+G/j4+DBmzBh3DQiAdevWYTabXwogvY0NV+brKbidQPqp26TsCSR9bwD5Prcw3I3Dkl/msQNaLBaCg4NZtGgRs2fPxtvbG4PB8MqLSRH1JLvd7q78V6io8S+njX09/w8wfxxokQ71iQAAAABJRU5ErkJggg==",
+      "rank": 3,
+      "global_rank": 3
+    },
+    {
+      "link": "https://www.indeed.com/q-child-career-l-sacramento,-ca-jobs.html",
+      "source": "Indeed",
+      "display_link": "https://www.indeed.com \u203a q-child-career-l-sacramento,-c...",
+      "title": "Child Career Jobs, Employment in Sacramento, CA",
+      "description": "Child career jobs in Sacramento, CA. Child Care ... CDA Degree or a Permit. Lead Toddler Teacher ... SBA Enterprises. Elk Grove, CA 95758. $18 - $21 an ...",
+      "snippet_highlighted_words": [
+        "Sacramento",
+        "CA",
+        "Permit",
+        "SBA Enterprises"
+      ],
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAflBMVEUAAAD///////////////////////////////////////////////+/zuZvkMZQd7pAa7Sgtdnv8/gAOptgg8AgUqcgU6evweCAnc0QRqF/nc3v8vhwkMcwXq3f5vLP2uz////f5/JfhMB/nM0wX66AnM1PeLqPqdOftdrv8/mN6/jEAAAAIXRSTlMAEGCfz+//XyCQj98w/////////////////////////6AQ1BAWAAABD0lEQVR4AYWThRZCIQxAR+11h939/z+oHECHGNd4sbvR8IJxIRWikiJiEBInCl+IGHxYim+kfnqGARkpkj/jRVnVVdMaIw/yi7qr+7IaxolXg7n4dDZfGHEojGFG4/q3XK3RsSE9jV3+SqevC6ToRrbmdjc84m3ddeOOCAkAQ8Oo6++7BzURFANuB3DQ/8dOgwTuWjjpAnjW8YEKAqS5KU0dLVyoIEGZYdnOr8veH4YCN+5vWGGBVtxc68IXFFLqrus8QYH8LUjY/hYE8N9CBEz9FBhA8ksQZLmpQJeblAiFxNtyoZCxYNMvu252CzY+2fa3fVU84/nfg0NgyXs8YeATb0lUJTGEML61x5+T7DuGyRy8BcS3+wAAAABJRU5ErkJggg==",
+      "rank": 4,
+      "global_rank": 4
+    },
+    {
+      "link": "https://www.ziprecruiter.com/Jobs/Game-Design-Teacher/-in-Sacramento,CA",
+      "source": "ZipRecruiter",
+      "display_link": "https://www.ziprecruiter.com \u203a Jobs \u203a -in-Sacramento,CA",
+      "title": "$51-$60/hr Game Design Teacher Jobs in Sacramento, CA",
+      "description": "Previous experience as a Preschool Teacher * At least 12 ECE Units * Associate teacher permit or ... ... SBA Enterprises \u00b7 Preschool Teacher \u00b7 Elk ...Read more",
+      "snippet_highlighted_words": [
+        "permit",
+        "SBA Enterprises"
+      ],
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAPFBMVEVHcEwAIyUAIyUBIyUAIyUAISUAGiMCJSUbYzcgbztH4mNF22EAAh4AESEqi0Q1rFBAzVwtlkg6vVYZWzR6wT5nAAAAA3RSTlMATNwp31ooAAAAwklEQVR4Aa3TQRKDIAwFUEWJKAmEcP+7Vh3itEFd9a+cPP8iAwzD6KbbuHG3+THj4PTTQ4vXiRsmtSW0LKrThbBuLSvcYTzzX8QLA1qklGNLTvSL3nPRZmLwBiUoVvHPGKRvVsXaI4uisMGZhPnUjVmo2xMxcIwcEM2erV23rbaWQQ+EOSOB75EolMycSyCySGmfryJryZzIYkQiLAUJMaJB5Ap7fS9BZYsLwvHHMQe7ih64HnRDN3/raRr3eqlfn8MHhzkTceQ2NrIAAAAASUVORK5CYII=",
+      "rank": 5,
+      "global_rank": 5
+    },
+    {
+      "link": "https://www.simplyhired.com/search?q=childcare+careers&l=davis%2C+ca",
+      "source": "SimplyHired",
+      "display_link": "https://www.simplyhired.com \u203a search",
+      "title": "childcare careers jobs in davis, ca",
+      "description": "ECE Teacher Child Development Permit Required. Learning Jungle USA \u2014Sacramento, CA. $23 - $27 an hour; Part-time; Classroom; CPR Certification; Preschool ...",
+      "snippet_highlighted_words": [
+        "Permit",
+        "Sacramento",
+        "CA"
+      ],
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAExklEQVR4AcWXA4ycWxiGN3Zt27Z1bRvh7bC2raC221WN3HVtrT2ztker4f/cOZnc2Uzdrt7kR3iefHi/73gBTYGNQAkNpxLXmTT1wvVjpuFlBjYKgCLeUZLdgXjqQEUCQOINsltslEZnoj16k+jlvkSqDxM35zCp6/wo8rtFVVI2ktXGe0jy4g0qjc3mtvw4Z/sv4GxHOZc7ywjqIeNGHzn3B8gJH64k8eMlFGz0xpKez7vqtQC5NxM5O2oVR5rN5HRbOWc7KbjSXUFwbyU3Byh5MERF+EgVcWNUaMYpyftzA+aniXUDYEgp5Pz4tRxyHn6slRzvdgoXQFe5MwJyVwQGKQgf4QQYq0Y7UU3mZBXFf6zBlpBee4Anay5y2Hn4kZZyBMDpdnLOdVZwbfoawmceIFZ5gKjvNhAxZhZxo1UIgKxpsyiYpsS06iCS2fL+AGZdBZembXIDHBURaK/g6SIfKnPLkGx28WAtNVJy4R6ab1ahHa9yR8B84xk4HO8PIMLv038xh1vIXAAtZZwfsgSjtoCXqeKZhowfV1M4eyfWpMza14AuOR/vPgtrAJzfC8OWYkov4qWSJKoTMrAV6eumCyoLDJwbs5rDzWU1KeigJGr9RaymKupSXq9yutuKExxq+o9nEXZV8eDPXRSGRmN7OUjd+UDh41RXHTT3bMPLXeSEDppNxF/bKTh3D0uRvn4AkEB75hGney/giBPCu52nEd3oK+fBUDXxP26k+EQotiJdHQMAkkMiKzSWy9M2crqNTFjxi044TCmckMy/t1BxPVy0Z50BuFWeU0bU5isEjF3hcsKecm72d1uxywnHK8n+ZAGmk4HChOoUwB0NU2ohmt1B3Pt8AzcHql6w4qypago/mUP1+Rt1DuAhc6GeXP+7xPy2jYiRapGCGiueocbw12oc2YX1BuCWtdRE/qFAEqYvqAH4cBa6j9VYAu7WHsCgLcSYXvzG7Shvky+a8Up3CkzL92OPT62dEWUERHFu7BoCv9tJRa6O16nkVJjYB8j+aB7lp4KQKqvfvwYsxirCt/7LqW7zxDQUdkzIL3swpBTwMjnMVnKWH0MzVkHp9rNgteFwOAgPD2f79u1s2bKFsLAwqqur3w5Al5SH78Al/49i9zC6Onkd2mO3MGrysZSasJaVU6nNI2f7ReInzSXtq+VY0vIQCgwMZOrUqQwaNEg8jB49mj179mCz2d4MgCQRt/86x9qpOOI82D0LnEYkFpLgUYu59+l6nny1gadTl4g2JHaUghz1LrBY0el1/PLLLwwePJhhw4aJhyFDhjBlyhTi4+Pfrgbs1VaebbrK8fZqkQLPlaybQhiR04oVPBisdPmAEyBv6WGEUlNTmTZtGkOHDnUDiGf48OGEhIS8fRfYzTYST9zFf9hyMQtEBF6+lIoIjJCTM2s3WO0Ul5Tw7bffekRAwEyYMIHIyMh39AEJdIl5PF55nqsT13Ch5yynFStcS2lfsZQqiRg7G813ayg9EuC+G/j4+DBmzBh3DQiAdevWYTabXwogvY0NV+brKbidQPqp26TsCSR9bwD5Prcw3I3Dkl/msQNaLBaCg4NZtGgRs2fPxtvbG4PB8MqLSRH1JLvd7q78V6io8S+njX09/w8wfxxokQ71iQAAAABJRU5ErkJggg==",
+      "rank": 6,
+      "global_rank": 6
+    },
+    {
+      "link": "https://www.glassdoor.com/Job/elk-grove-ca-daycare-teacher-jobs-SRCH_IL.0,12_IC1147183_KO13,28.htm",
+      "source": "Glassdoor",
+      "display_link": "https://www.glassdoor.com \u203a Job \u203a elk-grove-ca-daycar...",
+      "title": "74 daycare teacher Jobs in Elk Grove, CA, March 2026",
+      "description": "Sacramento, CA. $20.00 - $24.00 Per Hour (Employer provided). Easy Apply. Associate teacher permit or higher, OR, be qualified to obtain one. Strong ...",
+      "snippet_highlighted_words": [
+        "Sacramento",
+        "CA",
+        "permit"
+      ],
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAYFBMVEX////8/v33/PrU7+XE6Nrh9O3x+vfs+PN+zq4lrXkvsoBqx6O+59Z2y6kOpmwAoWMTq3OJ07ZKuo0AomTM7OC45NK14tFcwZqn3smc2sIbrXYqsX2v4c06tYZUv5U/tohXSID7AAAApElEQVR4Ac3SRQKDQBAAway7Dq7/f2XcPafQRwpYXS0ghF4bJpTxVy6k0sbiF+h8CDE9V2xl9iHSVzMiOYDE10+KstpWMlZWZe1Dza+QO7VLN41WysMd1mGXb9vtfOARAeCA8CuGcMRddxPqus5vsek7pbrO8JulDFU7bpFVw64C3a4dDypE+3zbWjcCTOwpig4C6BI9x17Nkrza7pIy/Pl6/LsNfZYMoaxng94AAAAASUVORK5CYII=",
+      "rank": 7,
+      "global_rank": 7
+    },
+    {
+      "link": "https://www.indeed.com/q-child-care-worker-l-rancho-cordova,-ca-jobs.html",
+      "source": "Indeed",
+      "display_link": "https://www.indeed.com \u203a q-child-care-worker-l-rancho-...",
+      "title": "Child care worker jobs in Rancho Cordova, CA",
+      "description": "A permit issued by the Commission on Teacher Credentialing authorizing ... Preschool Teacher. Easily apply. SBA Enterprises. Elk Grove, CA 95758. $18 - $21 ...Read more",
+      "snippet_highlighted_words": [
+        "permit",
+        "SBA Enterprises",
+        "CA"
+      ],
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAflBMVEUAAAD///////////////////////////////////////////////+/zuZvkMZQd7pAa7Sgtdnv8/gAOptgg8AgUqcgU6evweCAnc0QRqF/nc3v8vhwkMcwXq3f5vLP2uz////f5/JfhMB/nM0wX66AnM1PeLqPqdOftdrv8/mN6/jEAAAAIXRSTlMAEGCfz+//XyCQj98w/////////////////////////6AQ1BAWAAABD0lEQVR4AYWThRZCIQxAR+11h939/z+oHECHGNd4sbvR8IJxIRWikiJiEBInCl+IGHxYim+kfnqGARkpkj/jRVnVVdMaIw/yi7qr+7IaxolXg7n4dDZfGHEojGFG4/q3XK3RsSE9jV3+SqevC6ToRrbmdjc84m3ddeOOCAkAQ8Oo6++7BzURFANuB3DQ/8dOgwTuWjjpAnjW8YEKAqS5KU0dLVyoIEGZYdnOr8veH4YCN+5vWGGBVtxc68IXFFLqrus8QYH8LUjY/hYE8N9CBEz9FBhA8ksQZLmpQJeblAiFxNtyoZCxYNMvu252CzY+2fa3fVU84/nfg0NgyXs8YeATb0lUJTGEML61x5+T7DuGyRy8BcS3+wAAAABJRU5ErkJggg==",
+      "rank": 8,
+      "global_rank": 8
+    },
+    {
+      "link": "https://www.ziprecruiter.com/Jobs/Flexible-Schedule-Preschool-Teacher/-in-Sacramento,CA",
+      "source": "ZipRecruiter",
+      "display_link": "https://www.ziprecruiter.com \u203a Jobs \u203a -in-Sacramento,CA",
+      "title": "Flexible Schedule Preschool Teacher Jobs in Sacramento, CA",
+      "description": "Browse 60 SACRAMENTO, CA ... permit or ... Quick apply. Forever Friends Early Learning Center ... SBA Enterprises \u00b7 Preschool Teacher \u00b7 Elk Grove ...",
+      "snippet_highlighted_words": [
+        "SACRAMENTO",
+        "CA",
+        "permit",
+        "SBA Enterprises"
+      ],
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAPFBMVEVHcEwAIyUAIyUBIyUAIyUAISUAGiMCJSUbYzcgbztH4mNF22EAAh4AESEqi0Q1rFBAzVwtlkg6vVYZWzR6wT5nAAAAA3RSTlMATNwp31ooAAAAwklEQVR4Aa3TQRKDIAwFUEWJKAmEcP+7Vh3itEFd9a+cPP8iAwzD6KbbuHG3+THj4PTTQ4vXiRsmtSW0LKrThbBuLSvcYTzzX8QLA1qklGNLTvSL3nPRZmLwBiUoVvHPGKRvVsXaI4uisMGZhPnUjVmo2xMxcIwcEM2erV23rbaWQQ+EOSOB75EolMycSyCySGmfryJryZzIYkQiLAUJMaJB5Ap7fS9BZYsLwvHHMQe7ih64HnRDN3/raRr3eqlfn8MHhzkTceQ2NrIAAAAASUVORK5CYII=",
+      "rank": 9,
+      "global_rank": 9
+    },
+    {
+      "link": "https://www.glassdoor.com/Job/lodi-daycare-teacher-jobs-SRCH_IL.0,4_IC1147536_KO5,20.htm",
+      "source": "Glassdoor",
+      "display_link": "https://www.glassdoor.com \u203a Job \u203a lodi-daycare-teacher...",
+      "title": "34 daycare teacher Jobs in Lodi, CA, April 2026",
+      "description": "... California, Tots Of Love Child Development Center, llc, SBA Enterprises, Catalyst Family Inc., Merryhill School, KinderCare Education, San Juan Unified ...",
+      "snippet_highlighted_words": [
+        "California",
+        "SBA Enterprises"
+      ],
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAYFBMVEX////8/v33/PrU7+XE6Nrh9O3x+vfs+PN+zq4lrXkvsoBqx6O+59Z2y6kOpmwAoWMTq3OJ07ZKuo0AomTM7OC45NK14tFcwZqn3smc2sIbrXYqsX2v4c06tYZUv5U/tohXSID7AAAApElEQVR4Ac3SRQKDQBAAway7Dq7/f2XcPafQRwpYXS0ghF4bJpTxVy6k0sbiF+h8CDE9V2xl9iHSVzMiOYDE10+KstpWMlZWZe1Dza+QO7VLN41WysMd1mGXb9vtfOARAeCA8CuGcMRddxPqus5vsek7pbrO8JulDFU7bpFVw64C3a4dDypE+3zbWjcCTOwpig4C6BI9x17Nkrza7pIy/Pl6/LsNfZYMoaxng94AAAAASUVORK5CYII=",
+      "rank": 10,
+      "global_rank": 10
+    }
+  ],
+  "opencorporates": {
+    "general": {
+      "search_engine": "google",
+      "query": "\"SBA Enterprises\" California site:opencorporates.com",
+      "results_cnt": 0,
+      "search_time": 0.31,
+      "language": "en-MY",
+      "country": "Malaysia",
+      "country_code": "MY",
+      "location": "United States",
+      "gl": "MY",
+      "mobile": false,
+      "basic_view": false,
+      "search_type": "text",
+      "empty": true,
+      "page_title": "\"SBA Enterprises\" California site:opencorporates.com - Google Search",
+      "timestamp": "2026-05-27T03:22:06.760Z"
+    },
+    "input": {
+      "original_url": "https://www.google.com/search?q=%22SBA+Enterprises%22+California+site%3Aopencorporates.com&brd_json=1",
+      "request_id": "hl_0e82968a_152b5ubvprl"
+    },
+    "navigation": [
+      {
+        "title": "Images",
+        "href": "https://www.google.com/search?sca_esv=2c211be4597a0b90&hl=en&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3jljrY5CkLlk8Dq3IvwBz-R5R-93bnJN-gfJetFY0A5MQaA9mhTzYrXdh-kf2CQirmjoWZGMYa7yCnkJVasc4rk5gdJp9fYRWUISM6o39hx3aoSToYvSDM72k3WKkDDljFS9ZkrVrBjDyM-UtxSYMe-agzaPhrXnoRN4-owfKUG5En7N6A&q=SBA+Enterprises+California+site:opencorporates.com&sa=X&ved=2ahUKEwj0kc3twdiUAxXQWXADHaGcKjYQtKgLegQIFhAB"
+      },
+      {
+        "title": "Videos",
+        "href": "https://www.google.com/search?sca_esv=2c211be4597a0b90&hl=en&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3jljrY5CkLlk8Dq3IvwBz-R5R-93bnJN-gfJetFY0A5MQaA9mhTzYrXdh-kf2CQirmjoWZGMYa7yCnkJVasc4rk5gdJp9fYRWUISM6o39hx3aoSToYvSDM72k3WKkDDljFS9ZkrVrBjDyM-UtxSYMe-agzaPhrXnoRN4-owfKUG5En7N6A&q=SBA+Enterprises+California+site:opencorporates.com&sa=X&ved=2ahUKEwj0kc3twdiUAxXQWXADHaGcKjYQtKgLegQIFRAB"
+      },
+      {
+        "title": "News",
+        "href": "https://www.google.com/search?sca_esv=2c211be4597a0b90&hl=en&q=SBA+Enterprises+California+site:opencorporates.com&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3jljrY5CkLlk8Dq3IvwBz-R5R-93bnJN-gfJetFY0A5MQaA9mhTzYrXdh-kf2CQirmjoWZGMYa7yCnkJVasc4rk5gdJp9fYRWUISM6o39hx3aoSToYvSDM72k3WKkDDljFS9ZkrVrBjDyM-UtxSYMe-agzaPhrXnoRN4-owfKUG5En7N6A&sa=X&ved=2ahUKEwj0kc3twdiUAxXQWXADHaGcKjYQ0pQJegQIExAB"
+      },
+      {
+        "title": "Forums",
+        "href": "https://www.google.com/search?sca_esv=2c211be4597a0b90&hl=en&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3jljrY5CkLlk8Dq3IvwBz-R5R-93bnJN-gfJetFY0A5MQaA9mhTzYrXdh-kf2CQirmjoWZGMYa7yCnkJVasc4rk5gdJp9fYRWUISM6o39hx3aoSToYvSDM72k3WKkDDljFS9ZkrVrBjDyM-UtxSYMe-agzaPhrXnoRN4-owfKUG5En7N6A&q=SBA+Enterprises+California+site:opencorporates.com&sa=X&ved=2ahUKEwj0kc3twdiUAxXQWXADHaGcKjYQs6gLegQIFBAB"
+      },
+      {
+        "title": "Shopping",
+        "href": "https://www.google.com/search?sca_esv=2c211be4597a0b90&hl=en&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3jljrY5CkLlk8Dq3IvwBz-R5R-93bnJN-gfJetFY0A5MQaA9mhTzYrXdh-kf2CQirmjoWZGMYa7yCnkJVasc4rk5gdJp9fYRWUISM6o39hx3aoSToYvSDM72k3WKkDDljFS9ZkrVrBjDyM-UtxSYMe-agzaPhrXnoRN4-owfKUG5En7N6A&q=SBA+Enterprises+California+site:opencorporates.com&ved=1t:220175&ictx=111"
+      },
+      {
+        "title": "Maps",
+        "href": "https://maps.google.com/maps?sca_esv=2c211be4597a0b90&hl=en&output=search&q=SBA+Enterprises+California+site:opencorporates.com&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3jljrY5CkLlk8Dq3IvwBz-R5R-93bnJN-gfJetFY0A5MQaA9mhTzYrXdh-kf2CQirmjoWZGMYa7yCnkJVasc4rk5gdJp9fYRWUISM6o39hx3aoSToYvSDM72k3WKkDDljFS9ZkrVrBjDyM-UtxSYMe-agzaPhrXnoRN4-owfKUG5En7N6A&entry=mc&ved=1t:200715&ictx=111"
+      },
+      {
+        "title": "Short videos",
+        "href": "https://www.google.com/search?sca_esv=2c211be4597a0b90&hl=en&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3jljrY5CkLlk8Dq3IvwBz-R5R-93bnJN-gfJetFY0A5MQaA9mhTzYrXdh-kf2CQirmjoWZGMYa7yCnkJVasc4rk5gdJp9fYRWUISM6o39hx3aoSToYvSDM72k3WKkDDljFS9ZkrVrBjDyM-UtxSYMe-agzaPhrXnoRN4-owfKUG5En7N6A&q=SBA+Enterprises+California+site:opencorporates.com&sa=X&ved=2ahUKEwj0kc3twdiUAxXQWXADHaGcKjYQs6gLegQIGhAB"
+      },
+      {
+        "title": "Web",
+        "href": "https://www.google.com/search?sca_esv=2c211be4597a0b90&hl=en&udm=web&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3jljrY5CkLlk8Dq3IvwBz-R5R-93bnJN-gfJetFY0A5MQaA9mhTzYrXdh-kf2CQirmjoWZGMYa7yCnkJVasc4rk5gdJp9fYRWUISM6o39hx3aoSToYvSDM72k3WKkDDljFS9ZkrVrBjDyM-UtxSYMe-agzaPhrXnoRN4-owfKUG5En7N6A&q=SBA+Enterprises+California+site:opencorporates.com&sa=X&ved=2ahUKEwj0kc3twdiUAxXQWXADHaGcKjYQs6gLegQIGxAB"
+      },
+      {
+        "title": "Books",
+        "href": "https://www.google.com/search?sca_esv=2c211be4597a0b90&hl=en&q=SBA+Enterprises+California+site:opencorporates.com&udm=36&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3jljrY5CkLlk8Dq3IvwBz-R5R-93bnJN-gfJetFY0A5MQaA9mhTzYrXdh-kf2CQirmjoWZGMYa7yCnkJVasc4rk5gdJp9fYRWUISM6o39hx3aoSToYvSDM72k3WKkDDljFS9ZkrVrBjDyM-UtxSYMe-agzaPhrXnoRN4-owfKUG5En7N6A&sa=X&ved=2ahUKEwj0kc3twdiUAxXQWXADHaGcKjYQ0pQJegQIHBAB"
+      }
+    ]
+  },
+  "general": [
+    {
+      "link": "https://www.mapquest.com/us/california/sba-enterprises-414392919",
+      "source": "MapQuest",
+      "display_link": "https://www.mapquest.com \u203a ... \u203a California \u203a Elk Grove",
+      "title": "Sba Enterprises - Elk Grove",
+      "description": "Sba Enterprises in Elk Grove, CA has been serving the local community for over 30 years, providing a safe and nurturing environment for children to learn and ...Read more",
+      "snippet_highlighted_words": [
+        "Sba Enterprises",
+        "CA"
+      ],
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAANlBMVEVHcEw/t2A/t2A/t2A/t2A/t2BAt2A/t2A/t2A1tVlRvnCQ06H2/Pjc8eFjw3yt3rn///9+zZJXL+fBAAAACXRSTlMAdcz/ymUP1uJFygvdAAAAuElEQVR4AY2SCwoFIQhFLasZ+9r+N/uKcBIQeId/B2+igsJ5xBDBIi21Ccl2B3+tuAc/HrHiXlS8yc6UZNuJNTIpE+lk3QuV2jqprm4mEQ3mOukmh0/NOUtl5oHHAkSpW+/COLVOCmky1wVvypEeJLRx7TkXPp8eRObK62031FAcQtASexv4EcBpuXu+MgJ4LTVehmBIn+74Wu3KyPhk8Jnsldors+119pn8f2D2aWprOiEGxODg8gPIJwuQ5QTPAAAAAABJRU5ErkJggg==",
+      "rank": 1,
+      "global_rank": 1
+    },
+    {
+      "link": "https://www.ziprecruiter.com/c/SBA-Enterprises/Job/Preschool-Teacher/-in-Elk-Grove,CA?jid=4f7edde1284d6a58",
+      "source": "ZipRecruiter",
+      "display_link": "https://www.ziprecruiter.com \u203a SBA-Enterprises \u203a",
+      "title": "Preschool Teacher Job in Elk Grove, CA at SBA Enterprises",
+      "description": "Easy 1-Click Apply (SBA ENTERPRISES) Preschool Teacher job in Elk Grove, CA. View job description, responsibilities and qualifications. See if you qualify!",
+      "snippet_highlighted_words": [
+        "SBA ENTERPRISES",
+        "CA"
+      ],
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAPFBMVEVHcEwAIyUAIyUBIyUAIyUAISUAGiMCJSUbYzcgbztH4mNF22EAAh4AESEqi0Q1rFBAzVwtlkg6vVYZWzR6wT5nAAAAA3RSTlMATNwp31ooAAAAwklEQVR4Aa3TQRKDIAwFUEWJKAmEcP+7Vh3itEFd9a+cPP8iAwzD6KbbuHG3+THj4PTTQ4vXiRsmtSW0LKrThbBuLSvcYTzzX8QLA1qklGNLTvSL3nPRZmLwBiUoVvHPGKRvVsXaI4uisMGZhPnUjVmo2xMxcIwcEM2erV23rbaWQQ+EOSOB75EolMycSyCySGmfryJryZzIYkQiLAUJMaJB5Ap7fS9BZYsLwvHHMQe7ih64HnRDN3/raRr3eqlfn8MHhzkTceQ2NrIAAAAASUVORK5CYII=",
+      "rank": 2,
+      "global_rank": 2
+    },
+    {
+      "link": "https://www.indeed.com/q-child-career-l-sacramento,-ca-jobs.html",
+      "source": "Indeed",
+      "display_link": "https://www.indeed.com \u203a q-child-career-l-sacramento,-c...",
+      "title": "Child Career Jobs, Employment in Sacramento, CA",
+      "description": "Easily apply. Multiple openings. Company logo. ChildCare Careers. Sacramento, CA ... SBA Enterprises. Elk Grove, CA 95758. $18 - $21 an ... CaliforniaAll jobs ...",
+      "snippet_highlighted_words": [
+        "ChildCare",
+        "Sacramento",
+        "CA",
+        "SBA Enterprises"
+      ],
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAflBMVEUAAAD///////////////////////////////////////////////+/zuZvkMZQd7pAa7Sgtdnv8/gAOptgg8AgUqcgU6evweCAnc0QRqF/nc3v8vhwkMcwXq3f5vLP2uz////f5/JfhMB/nM0wX66AnM1PeLqPqdOftdrv8/mN6/jEAAAAIXRSTlMAEGCfz+//XyCQj98w/////////////////////////6AQ1BAWAAABD0lEQVR4AYWThRZCIQxAR+11h939/z+oHECHGNd4sbvR8IJxIRWikiJiEBInCl+IGHxYim+kfnqGARkpkj/jRVnVVdMaIw/yi7qr+7IaxolXg7n4dDZfGHEojGFG4/q3XK3RsSE9jV3+SqevC6ToRrbmdjc84m3ddeOOCAkAQ8Oo6++7BzURFANuB3DQ/8dOgwTuWjjpAnjW8YEKAqS5KU0dLVyoIEGZYdnOr8veH4YCN+5vWGGBVtxc68IXFFLqrus8QYH8LUjY/hYE8N9CBEz9FBhA8ksQZLmpQJeblAiFxNtyoZCxYNMvu252CzY+2fa3fVU84/nfg0NgyXs8YeATb0lUJTGEML61x5+T7DuGyRy8BcS3+wAAAABJRU5ErkJggg==",
+      "rank": 3,
+      "global_rank": 3
+    },
+    {
+      "link": "https://lensa.com/job-v1/sba-enterprises/elk-grove-ca/preschool-teacher/0f712c635c1a1c4046879528af3fb489",
+      "source": "Lensa",
+      "display_link": "https://lensa.com \u203a ... \u203a Elk Grove, CA",
+      "title": "Preschool Teacher job in Elk Grove at SBA Enterprises",
+      "description": "SBA Enterprises is currently looking for a Preschool Teacher near Elk Grove ... Salary: $120,000 - $150,000 per year A bit about us: Our services include ...",
+      "snippet_highlighted_words": [
+        "SBA Enterprises"
+      ],
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAAoElEQVR4Ae2WAQaAMBSGg67UAYIgdJQOsnsUsCvsGgF2hiBBvbT44dmTbYmHbwO/z/u9saob+6Lcx7QawgKNJByyjrACDAotcQCDSGa3GjIxvArfCPdoRoUq/FZI5BOiFAmTPqQTyivOIAT4ilNVOq8tQlmH/Hpp9OEDKqT1Lj2hJ5ZwIwsnBDCHOF7Is2f405QRGqYGSaVeBlZKwesuwQn1If4zP7PfTQAAAABJRU5ErkJggg==",
+      "rank": 4,
+      "global_rank": 4
+    },
+    {
+      "link": "https://www.simplyhired.com/q-childcare-provider-l-elk-grove,-ca-jobs.html?q=childcare-provider&l=elk-grove%2C-ca",
+      "source": "SimplyHired",
+      "display_link": "https://www.simplyhired.com \u203a q-childcare-provider-l-el...",
+      "title": "childcare provider jobs in elk grove, ca",
+      "description": "SBA Enterprises \u2014Elk Grove, CA3. $18 - $21 an hour; Full-time; Preschool; Communication skills; Teaching; Paid time off; Employee discount. Quick Apply. 4d ...",
+      "snippet_highlighted_words": [
+        "SBA Enterprises",
+        "CA"
+      ],
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAExklEQVR4AcWXA4ycWxiGN3Zt27Z1bRvh7bC2raC221WN3HVtrT2ztker4f/cOZnc2Uzdrt7kR3iefHi/73gBTYGNQAkNpxLXmTT1wvVjpuFlBjYKgCLeUZLdgXjqQEUCQOINsltslEZnoj16k+jlvkSqDxM35zCp6/wo8rtFVVI2ktXGe0jy4g0qjc3mtvw4Z/sv4GxHOZc7ywjqIeNGHzn3B8gJH64k8eMlFGz0xpKez7vqtQC5NxM5O2oVR5rN5HRbOWc7KbjSXUFwbyU3Byh5MERF+EgVcWNUaMYpyftzA+aniXUDYEgp5Pz4tRxyHn6slRzvdgoXQFe5MwJyVwQGKQgf4QQYq0Y7UU3mZBXFf6zBlpBee4Anay5y2Hn4kZZyBMDpdnLOdVZwbfoawmceIFZ5gKjvNhAxZhZxo1UIgKxpsyiYpsS06iCS2fL+AGZdBZembXIDHBURaK/g6SIfKnPLkGx28WAtNVJy4R6ab1ahHa9yR8B84xk4HO8PIMLv038xh1vIXAAtZZwfsgSjtoCXqeKZhowfV1M4eyfWpMza14AuOR/vPgtrAJzfC8OWYkov4qWSJKoTMrAV6eumCyoLDJwbs5rDzWU1KeigJGr9RaymKupSXq9yutuKExxq+o9nEXZV8eDPXRSGRmN7OUjd+UDh41RXHTT3bMPLXeSEDppNxF/bKTh3D0uRvn4AkEB75hGney/giBPCu52nEd3oK+fBUDXxP26k+EQotiJdHQMAkkMiKzSWy9M2crqNTFjxi044TCmckMy/t1BxPVy0Z50BuFWeU0bU5isEjF3hcsKecm72d1uxywnHK8n+ZAGmk4HChOoUwB0NU2ohmt1B3Pt8AzcHql6w4qypago/mUP1+Rt1DuAhc6GeXP+7xPy2jYiRapGCGiueocbw12oc2YX1BuCWtdRE/qFAEqYvqAH4cBa6j9VYAu7WHsCgLcSYXvzG7Shvky+a8Up3CkzL92OPT62dEWUERHFu7BoCv9tJRa6O16nkVJjYB8j+aB7lp4KQKqvfvwYsxirCt/7LqW7zxDQUdkzIL3swpBTwMjnMVnKWH0MzVkHp9rNgteFwOAgPD2f79u1s2bKFsLAwqqur3w5Al5SH78Al/49i9zC6Onkd2mO3MGrysZSasJaVU6nNI2f7ReInzSXtq+VY0vIQCgwMZOrUqQwaNEg8jB49mj179mCz2d4MgCQRt/86x9qpOOI82D0LnEYkFpLgUYu59+l6nny1gadTl4g2JHaUghz1LrBY0el1/PLLLwwePJhhw4aJhyFDhjBlyhTi4+Pfrgbs1VaebbrK8fZqkQLPlaybQhiR04oVPBisdPmAEyBv6WGEUlNTmTZtGkOHDnUDiGf48OGEhIS8fRfYzTYST9zFf9hyMQtEBF6+lIoIjJCTM2s3WO0Ul5Tw7bffekRAwEyYMIHIyMh39AEJdIl5PF55nqsT13Ch5yynFStcS2lfsZQqiRg7G813ayg9EuC+G/j4+DBmzBh3DQiAdevWYTabXwogvY0NV+brKbidQPqp26TsCSR9bwD5Prcw3I3Dkl/msQNaLBaCg4NZtGgRs2fPxtvbG4PB8MqLSRH1JLvd7q78V6io8S+njX09/w8wfxxokQ71iQAAAABJRU5ErkJggg==",
+      "rank": 5,
+      "global_rank": 5
+    },
+    {
+      "link": "https://www.talent.com/view?id=d1721e8b078e",
+      "source": "Talent.com",
+      "display_link": "https://www.talent.com \u203a ... \u203a Preschool Teacher",
+      "title": "Preschool Teacher \u2013 The Learning Experience - Sacramento",
+      "description": "SBA Enterprises \u2022 Elk Grove, CA, United States. Full-time +1. Job Description Job Description Benefits : \u2022 Competitive salary \u2022 Employee discounts ...",
+      "snippet_highlighted_words": [
+        "SBA Enterprises",
+        "CA"
+      ],
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAWlBMVEVHcExwKnuFTpVqJHZmHXJnHnNrJHhpI3f3Iyv2LTP2Ky/2Ky//ZjlqJHdvKnt4OYT2ICf2HyZyL332LzX2OD55OoOISpBzL33EoMRsJXd9PoZzMYBxL3x5OYPssSGXAAAAHnRSTlMADh3D/84tHzHN+/cH8f7f0v/l/w8/DkwItCkHk1rTU8KoAAAAe0lEQVR4AdXQtQHAMBAEwZeZmaH/Ms0gjoyTbnQHGLQALkXVJrrxtWgCzrId13Vsb42a7/tBeMYonkRrXCW3Rzud2HsMJiEcssU+JS8QKn5zvCz6JTdWtTarm7Zt2dppC7+uOzbmPvvtqZNF1EkiFL3KxlOr5H2fF7AYAcCzChkp5Fa+AAAAAElFTkSuQmCC",
+      "rank": 6,
+      "global_rank": 6
+    },
+    {
+      "link": "https://cacfp.dss.ca.gov/Centers/PartialCounty?countyName=Sacramento",
+      "source": "California State Portal | CA.gov",
+      "display_link": "https://cacfp.dss.ca.gov \u203a Centers \u203a PartialCounty \u203a count...",
+      "title": "CACFP Sites Sacramento County",
+      "description": "8401 JACKSON RD, SACRAMENTO, 95826, 916-453-1482, Emergency Shelter (HOM). SBA ENTERPRISES, GOLDEN VALLEY ACADEMY, 7725 SHELDON ROAD, ELK GROVE, 95758, 916-689- ...Read more",
+      "snippet_highlighted_words": [
+        "SACRAMENTO",
+        "SBA ENTERPRISES"
+      ],
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACxElEQVR4AcTWA6hoWRSA4TW2bdu2bdszYWzbtm3btm3btp7fel+1q9Oue7p4qL548B9sRGYOUzHcrhcPTatzDgsMi4DF+Znk/KEdsC7ZcFFPA+bmEnrxMxsQHdiYrCzWk4DTyeJTfiOZmagsQ9KLC0mepVs/4YS8TvI7qxFFcgTRMD1ZTMBeJFt0J2BifiV5mNGIYmSS3YhiJP4kWYggi1G7GjAuP5BcRVT2IJmWKF4i2ZRgc5J7iK4EDMenJFcSNfryDVGcX78Rnq+COh3wJMlTRI2LSFYmWJ/khOrfyWLsrgScSvINwxOVbUleIZiA5FaiYQuSh4nOBqxMFlMSlf3IYjyC3/mOqJxPchKTM0JnAnqRrFP/E1xEVq/+JpIoJmITTucvsuGt1gAuIrmaqAxPFjsQbEUyIXPxElnjJ77huLaAhUh+ITowFwsSTE1yB5eSDOBqduZikpeJzvwD35KsRHTCV2TDdkTDOiQXdyZge5KPu7Em3MZoRGUTkr06E/BH/eO1WJ4sTiA6MC0vMF1rAFuR/Ei0YXR6kxxFdFpLwDskRxNteKReF3oaMANZzE602Jjk5R/OnDKYnOfpxeusTzAC9/A/rzIOc3INUWzLVdFYp78nWoxK8g8jO3likufZlEd4i+AbPmcLHqE/85PMQ5DcHS52HcmdRItnSWYvF7iTn4jK3iTR8CHHcSlnEiQThgs+TXIO0YGdSLZsXPRZXiDYji94meRBouFGbmFuXuZqXiaaT3ZZy3Y6OZ1w0mHcwcEkizE6+5OcQF/WJJidZAOCP0lWIaIxXf5KVBYleZwoAVksxDYkv9KLcwl2IulLchFR3EsSRLjonGTxPDMyAYeSPEk0AtbgOIYjWJUTGbQwtGC3B+I2uM8RWA4ih3AACFfhqMGmUq9zQrgo9oXWaFuBeDoQG4HEae2Age4dD7wDACvyc8z7XZZbAAAAAElFTkSuQmCC",
+      "rank": 7,
+      "global_rank": 7
+    },
+    {
+      "link": "https://www.adzuna.com/details/5713363857",
+      "source": "Adzuna",
+      "display_link": "https://www.adzuna.com \u203a Teaching Jobs",
+      "title": "Preschool Teacher Job in Sacramento, CA",
+      "description": "Cadence Education. Carmichael, California, 95608. Preschool Teacher. $18.00 - $21.00 per hour. SBA Enterprises. CA - Elk Grove 95758. Substitute Preschool ...",
+      "snippet_highlighted_words": [
+        "California",
+        "SBA Enterprises",
+        "CA"
+      ],
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAaVBMVEX////1+vbJ4szY6tre7N8AjgAAlCAAkxlAo0ygzaUIlSMVlyofmTG42byJwY8jmjRarWTB3cQrnTscmC94un89okpgsGlRqVulz6ozn0L7/fsAkhWy1raRxZdrtHNJp1Tq9OuZyp9/vYakQHDZAAAA60lEQVR4AbSNQXaDMAwFvyG1ggQxIGoAA4Xc/5Atj/ThJGXZ2c6XBv+PSVJzKi8flq6ZOZMsuVB28ra4Oeu4xBlVrfJuq+b66bdiq7Z76fVWfxAqgNrxELs0OLFt6diFChXzGLlBHE3bumCngOocyUn4kRnFJpi1jqTmX9gxVjJMEg63kHS/ASsr1limlhPsJMwF7spPl8Vj5hwZ9NrigPS+t8lRh3TrHnhlswVJwgpcczKRTEjLTfppARqRG2K8SGn2fiva45lelJqx6HzIpTcvcvCUq7CohhnvJCVZS9yk+JPhki7fY6ADAAAlIA0MKeFG/gAAAABJRU5ErkJggg==",
+      "rank": 8,
+      "global_rank": 8
+    },
+    {
+      "link": "https://www.jobsparx.com/Career/83664362/Spectrum-Center-Schools-and-Programs-Education-Program-Director-5-000-Relocation-Bonus-San-Francisco-Ca",
+      "source": "JobSparx",
+      "display_link": "https://www.jobsparx.com \u203a ... \u203a 95814 \u203a Professional",
+      "title": "Spectrum Center Schools and Programs",
+      "description": "SBA Enterprises. Sign in to Save Job. Elk Grove, CA 95758 \u2022 (10.7 miles) ... Sacramento, California. Our mission is to provide a nurturing and engaging ...Read more",
+      "snippet_highlighted_words": [
+        "SBA Enterprises",
+        "Sacramento",
+        "California"
+      ],
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAM1BMVEVHcEys3kus3kus30us3kus3kus3kus3kus3kus3kus3kus3kus3kus3kuu4Eys3kus3kt4f9BkAAAAEXRSTlMALCUUXIX/R9/KkqXuuAt1OeUxiP4AAAC2SURBVHgBfZJRDoQgEEOrCCCAcP/TbhRqs5D4/pomM50CPtn2AV7MMYB1Aw8SXOcATroGnTh0ugXN3D0/ZOhb6ZZbXVQXHip11UJFKHQbDteJeMmadWrhYHdKoYXkoJvQnvF/JLp3LRYTge6GiBnjFGrl1D0LUU0srldcz3bIpUPNsjYoTWZBJClMGcPXfioqu1iaLdC5ZnqTPGJLLJ8oagz0D/yUvAKNnl1u3lBtp+KlpU7EFz8k5AtIOZOOAwAAAABJRU5ErkJggg==",
+      "rank": 9,
+      "global_rank": 9
+    },
+    {
+      "link": "https://www.indeed.com/q-babysitting-l-cameron-park,-ca-jobs.html",
+      "source": "Indeed",
+      "display_link": "https://www.indeed.com \u203a q-babysitting-l-cameron-park,...",
+      "title": "Babysitting Jobs, Employment in Cameron Park, CA",
+      "description": "Preschool Teacher. Easily apply. SBA Enterprises. Elk Grove, CA 95758.Read more",
+      "snippet_highlighted_words": [
+        "SBA Enterprises",
+        "CA"
+      ],
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAflBMVEUAAAD///////////////////////////////////////////////+/zuZvkMZQd7pAa7Sgtdnv8/gAOptgg8AgUqcgU6evweCAnc0QRqF/nc3v8vhwkMcwXq3f5vLP2uz////f5/JfhMB/nM0wX66AnM1PeLqPqdOftdrv8/mN6/jEAAAAIXRSTlMAEGCfz+//XyCQj98w/////////////////////////6AQ1BAWAAABD0lEQVR4AYWThRZCIQxAR+11h939/z+oHECHGNd4sbvR8IJxIRWikiJiEBInCl+IGHxYim+kfnqGARkpkj/jRVnVVdMaIw/yi7qr+7IaxolXg7n4dDZfGHEojGFG4/q3XK3RsSE9jV3+SqevC6ToRrbmdjc84m3ddeOOCAkAQ8Oo6++7BzURFANuB3DQ/8dOgwTuWjjpAnjW8YEKAqS5KU0dLVyoIEGZYdnOr8veH4YCN+5vWGGBVtxc68IXFFLqrus8QYH8LUjY/hYE8N9CBEz9FBhA8ksQZLmpQJeblAiFxNtyoZCxYNMvu252CzY+2fa3fVU84/nfg0NgyXs8YeATb0lUJTGEML61x5+T7DuGyRy8BcS3+wAAAABJRU5ErkJggg==",
+      "rank": 10,
+      "global_rank": 10
+    }
+  ]
+}

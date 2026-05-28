@@ -1,0 +1,58 @@
+# Project RealWork
+
+**Environment:** Built in Google Antigravity
+**Mission:** Automate the California False Claims Act (CFCA) oversight.
+**Objective:** Identify, expose, and legally challenge government fraud, waste, and corporate hypocrisy using autonomous AI agents.
+**Endgame:** Secure whistleblower payouts under seal, while generating packaged "Hit Kits" for independent journalists to force public accountability.
+
+---
+
+## 1. Hackathon Context: Lablab.ai "Web Data UNLOCKED"
+**ATTENTION CODING AGENTS:** This repository is being developed for the Lablab.ai Web Data UNLOCKED Hackathon (May 25–31, 2026). 
+* **Mandatory Integration:** To be eligible for the $5,000 prize pool, the architecture **MUST** utilize Bright Data's enterprise web data infrastructure (e.g., Web Unlocker, SERP API, Web Scraper API, or their MCP). 
+* **Do NOT** attempt to mock the scraping data or swap Bright Data for a generic/free web request library (like standard `requests` or `BeautifulSoup` alone) for the reality-check phase, as this will result in disqualification. We have $250 in API credits to burn for this event.
+
+---
+
+## 2. The Core Architecture
+
+RealWork decouples the development environment from the production data pipeline to minimize runtime overhead and operational costs.
+
+* **Development IDE:** Google Antigravity (Powered by Gemini 3.5 Flash / 3.1 Pro for workspace orchestration)
+* **Pipeline Inference Engine:** Gemma (Lightweight open model optimized for high-throughput, low-cost structural data classification)
+* **Backend:** Firebase
+* **Data Ingestion (Ground Truth):** California Open Data Portal (Free state APIs)
+* **Data Validation (Reality Check):** Bright Data Scraping Proxies (Hackathon Sponsor Requirement)
+
+---
+
+## 3. The Target Vectors
+
+Depending on the data schema, the pipeline routes targets to one of two forensic analysis tracks:
+
+### Track A: Ghost Projects (Infrastructure/Physical)
+* **The Fraud:** Entities taking money for physical projects without doing the work.
+* **The Ground Truth:** CA Grants Portal (High-dollar physical/environmental grants).
+* **The Reality Check:** Scrape Google Maps and LinkedIn via Bright Data. Flag multi-million dollar recipients with residential addresses, empty lots, and zero employees.
+
+### Track B: Executive Bloat (Homelessness/Services)
+* **The Fraud:** Non-profits taking service/housing grants and masking the funds in overhead and executive salary spikes.
+* **The Ground Truth:** CA Grants Portal (Homelessness and outreach grants).
+* **The Reality Check:** Scrape ProPublica API / Form 990 tax returns via Bright Data. Flag entities where state funding increases perfectly correlate with sudden spikes in administrative overhead and CEO pay.
+
+---
+
+## 4. The Endgame: Strike Protocol
+
+When a high-probability fraud is identified, RealWork executes a two-pronged strike.
+
+### Route A: The Legal Strike (The Payout)
+* Retain a *qui tam* attorney to file a lawsuit under the CFCA.
+* **Status:** Filed *Under Seal*. Operators remain 100% anonymous. Successful recovery yields a 15% to 33% whistleblower payout.
+
+### Route B: The Media Drop (The "Hit Kit")
+* Generate a sterile "Hit Kit" (State receipt + Bright Data reality check + Gemma summary).
+* **Action:** Securely and anonymously drop the Hit Kit to independent investigators to force an immediate public investigation.
+
+---
+**Status:** Initializing Ground Truth ingestion...
