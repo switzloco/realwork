@@ -1,81 +1,219 @@
-# Hackathon Submission Copy
-## Web Data UNLOCKED — lablab.ai (May 25-30, 2026)
+# RealWork — Hackathon Submission
+
+**Track:** Bright Data "Web Data UNLOCKED" Hackathon, May 2026
+**Team:** RealWork (Nick Switzer + dual-AI agent build: Claude Code in cloud, Google Antigravity local)
+**Repo:** https://github.com/switzloco/realwork
 
 ---
 
-## Project Title
-**RealWork: AI-Driven Ghost Infrastructure Detection**
+## What it is
+
+A multi-stage autonomous forensic accountant for California public spending.
+The pipeline scans state grant awards, IRS Form 990 filings, and DGS
+purchase orders in parallel. It flags anomalies, verifies them against
+external public records via Bright Data, and produces transparent audit
+reports that frame every finding as "warrants investigation" — never as
+fraud accusations.
+
+## The findings
+
+### 1. The $36 billion accountability gap
+
+California's Grant Information Act (AB-132, Government Code §8333)
+mandates that grantmakers track post-award disbursement of state grants.
+We pulled both available fiscal years (FY 22-23 and FY 23-24) from
+data.ca.gov's CKAN API: **26,907 grant records totaling $36.5 billion.**
+**100% of those records have the `totalAwardUsed` disbursement field
+empty.** Nobody — not the state, not federal regulators — has a
+centralized record of whether any of that money was actually spent as
+awarded.
+
+This is the systemic story. It's the data, not an accusation. Anyone
+can re-run our `disbursement_audit.py` script and reproduce the
+finding. It would take the California State Auditor about ten minutes
+to verify.
+
+### 2. The lead case: Panini Time
+
+Our DGS purchase order scan covered 50,000 records totaling $30.15
+billion. One vendor surfaced as the textbook split-contract pattern:
+
+- **Panini Time:** 12 purchase orders at *exactly* $49,950 each (the
+  state's competitive-bidding threshold is $50,000)
+- **100% single-buyer concentration** (Cal Fire / Department of
+  Forestry and Fire Protection issued every one)
+- **4 contracts in a single 7-day window**
+- Total value of the just-under cluster: $599,300
+- Total lifetime value of this vendor-buyer relationship: $2.88M
+
+The factual pattern matches the 2019 federal prosecution of three
+Caltrans procurement officials (USA v. Yong, Miller, Opp — 49-78 month
+sentences, $3M restitution). California State Contracting Manual
+explicitly prohibits "splitting purchases" to evade bidding thresholds.
+
+The charitable explanation exists: emergency fire-response procurement
+during the Robbers Fire (the actual PO description). Whether this is
+benign emergency procurement or something else is a question for the
+State Auditor — not a question we can answer from public records. **We
+surface the pattern; oversight bodies determine intent.**
+
+Five additional vendors exhibit similar but smaller versions of the
+pattern: McKesson Medical (28 POs to Correctional Health Care), Falcon
+Fuels (13 POs to Cal Fire), Progressive Medical (3 POs at exactly
+$4,999 within 3 days), Airgas (6 POs to Air Resources Board), and
+Prison Industry Authority.
+
+### 3. The nonprofit overhead pattern
+
+We pulled IRS Form 990 filings for 500 California nonprofit state-grant
+recipients via the ProPublica Nonprofit Explorer API. After EIN-match
+sanity validation (drops the wrong-EIN false positive where a tiny
+local chapter gets matched against a national org's name), **36
+organizations survived as HIGH PRIORITY anomalies.** Highlights:
+
+- **Finish First Academy:** $4.75M in CA state grants. Form 990
+  reports $556K in total revenue (an 8.5× gap). Officer comp grew 77%
+  YoY, total expenses grew 190% YoY.
+- **Land Together:** $338K officer compensation at a $1.34M-expense
+  org (25% of expenses — sector median is 8-10%). Officer comp up 55%
+  YoY. State grants 2.3× reported revenue.
+- **Veterans Transition Center of California:** $722K officer
+  compensation, $1.6M state grants.
+- **Golden Gate National Parks Conservancy:** Officer compensation
+  more than doubled YoY, from $900K to **$2.07 million** for a single
+  officer.
+- **Community Action Partnership of Kern:** Officer comp went from
+  $451K to $2.05M YoY — a 355% jump.
+- **CityServe Network:** Total expenses jumped 384% YoY ($6.7M → $32.5M).
+
+Every number above comes from a publicly-filed Form 990. We are
+calling out the numbers — not making accusations. Sector medians,
+threshold comparisons, and YoY deltas are public-records analysis,
+not legal conclusions.
+
+## What we built (technical)
+
+Six-stage pipeline:
+
+1. **Multi-source ETL.** CA Grants Portal (26K records), DGS POs (50K),
+   ProPublica 990s (500 nonprofits). Normalized into SQLite.
+
+2. **Heuristic flagging.** Just-under-threshold PO clusters,
+   repeating exact amounts, buyer-vendor concentration, nonprofit
+   overhead ratios, exec-comp YoY spikes, state-grant-vs-reported-
+   revenue gaps.
+
+3. **Bright Data verification.** Web Unlocker for SPA-protected sites
+   (bizfileonline.sos.ca.gov, ccld.dss.ca.gov, ProPublica, SAM.gov).
+   SERP API for 5-variant queries on 1,751 entities. Scraping Browser
+   available for client-rendered downloads. Hard budget cap at $250
+   with JSONL cost ledger.
+
+4. **LLM synthesis.** Gemini 2.5 Pro distinguishes real anomalies
+   from data quality issues and DBA-trap false positives.
+
+5. **Validation pass.** EIN-match sanity checking drops false positives
+   (e.g., MADD flagged when our scanner matched a tiny local chapter
+   against the national org's name). 102 of 104 nonprofit flags
+   survived; 36 reached HIGH priority.
+
+6. **Transparent reporting.** Auto-generated markdown reports per round.
+   Every finding cites public records. Dead-end log documents what was
+   cleared so future investigators don't repeat work. The audit trail
+   is itself a deliverable.
+
+## Bright Data integration
+
+Bright Data is core to the project, not a bolt-on:
+
+- **Web Unlocker** defeats anti-bot protection on the CA Secretary of
+  State search (`bizfileonline.sos.ca.gov`), the CCLD childcare
+  facility licensing search (`ccld.dss.ca.gov`), SAM.gov debarment
+  search, ProPublica's PDF storage, and OpenCorporates.
+- **SERP API** runs 5 variant queries per entity (existence,
+  litigation, enforcement, LinkedIn, business directories) across the
+  1,751-entity high-risk list. Would be impossible at this scale with
+  direct Google requests.
+- **Scraping Browser** for open.fiscal.ca.gov SPA downloads (script
+  ready, awaiting browser-zone provisioning for full-run).
+
+Total spend: well under the $250 budget with hard caps and audit
+ledger. Auditable down to the cent.
+
+## Why this matters
+
+**For technical judges:** A real implementation of autonomous forensic
+AI pipelines with budget controls, multi-stage verification, and honest
+false-positive rejection. The pipeline cleared every individual Round 1
+fraud hypothesis — that's the methodology working correctly, not
+failing.
+
+**For civic-tech judges:** California spent $36 billion in state grants
+over two fiscal years with no centralized record of disbursement. We
+proved that gap exists and surfaced specific cases that warrant
+follow-up — without making accusations. This is the kind of tool a
+State Auditor, an investigative journalist, or a qui tam attorney could
+pick up tomorrow.
+
+**For impact judges:** The 2019 Caltrans prosecution returned $3M in
+restitution on a fact pattern very similar to what we surfaced in
+current 2024-2025 DGS data. We didn't find that exact case again — we
+found multiple new ones with the same signature, plus a separate
+nonprofit overhead pattern across 36 organizations.
+
+## What we explicitly don't claim
+
+- We do not claim fraud has been proven
+- We do not claim any individual entity has acted illegally
+- We do not use "fraud" as a conclusion — only as a pattern label
+- We do not name small businesses as fraud cases in the UI
+- We do not bypass the qui tam process (file under seal first)
+
+The path to actual recovery is the California False Claims Act qui tam
+process. Our role is to surface candidates and reduce the cost of
+investigation — not to make legal determinations.
+
+## What's next
+
+Three parallel tracks:
+
+1. **Responsible disclosure** to the California State Auditor with the
+   validated findings and the underlying data.
+2. **Qui tam attorney consultation** on the strongest patterns (Panini
+   Time, the multi-flag Track B cases). Attorneys work on contingency;
+   the consultation is free.
+3. **Open-source the pipeline** as a state-grant audit toolkit. The
+   same code runs on Texas, Florida, New York with minor adaptations.
+
+## Key files in the repo
+
+| File | What it is |
+|------|------------|
+| `PITCH_PREP.md` | Single-doc team-leader briefing, NotebookLM-ready |
+| `RESULTS_SO_FAR.md` | Current state of findings |
+| `WHERE_FRAUD_HIDES.md` | Why we pivoted from grants-only to multi-source |
+| `ROUND1_WRAPUP.md` | Honest accounting of what's publishable |
+| `ROUND2_PLAN.md` | Strategic pivot plan |
+| `ROUND3_RUNBOOK.md` | How to run the three new attack surfaces |
+| `ROUND4_RUNBOOK.md` | How to validate the leads |
+| `accountability_audit.md` | The $36B systemic finding |
+| `data/dgs/po_anomalies.md` | The DGS scan output |
+| `data/dgs/split_contract_report.md` | The Panini Time deep dive |
+| `data/track_b/overhead_report.md` | The Track B scan output |
+| `data/track_b/validated_report.md` | The 36 HIGH priority validated cases |
+| `src/audit/disbursement_audit.py` | Reproduces the $36B finding |
+| `src/dgs/purchase_orders.py` + `split_contract_deepdive.py` | DGS analysis |
+| `src/track_b/overhead_audit.py` + `validate_flags.py` | Nonprofit analysis |
+| `src/bright_data/*.py` | Bright Data integration layer |
+| `ui/index.html` | Public-facing demo site |
 
 ---
 
-## Short Description (tweet-length)
-A multi-agent AI pipeline that analyzes California state grant data to identify likely fraud, then deploys Bright Data to gather corroborating evidence — surfacing ghost projects where public money was awarded but no real work exists.
+**Built across two AI agents working from the same repo:** Claude Code
+in the cloud for architecture, planning, and tool design. Google
+Antigravity locally for execution against live APIs and Bright Data
+calls. They synced via git on shared contracts. Two AI agents
+collaborating on a forensic accountability project is itself part of
+the story.
 
----
-
-## Long Description
-
-Every year, billions in public infrastructure funds are awarded to companies that do little or no actual work. The fraud is hiding in plain sight — in public grant databases, business registries, contractor license records, and permit portals — but connecting those dots across hostile, fragmented government websites has been technically impossible. Until now.
-
-**RealWork** is a multi-agent AI pipeline that inverts the traditional approach to fraud detection: instead of scraping everything and hoping to find something, the AI picks the targets first, then Bright Data gathers the evidence.
-
-### How It Works
-
-**Stage 1: AI-Driven Target Selection (no scraping)**
-We ingest California state infrastructure grant data from the CA Open Data Portal and run it through a multi-agent analysis pipeline powered by Gemini 2.5 Pro. The Red Flag Analyst agent scores each project against a battery of fraud indicators — unusually high costs relative to scope, sole-source awards, vague deliverables, timing anomalies, geographic mismatches, and entities with no prior public contract history. A Ranking Agent then produces a prioritized shortlist of 3-5 projects most worth investigating, scored on fraud probability, investigation feasibility, and dollar magnitude.
-
-**Stage 2: Evidence Gathering with Bright Data**
-For each target project, an Investigation Planner agent designs a custom scraping strategy based on that project's specific red flags. A central Budget Controller (deterministic Python, not AI) gates every Bright Data API call and enforces a hard spend cap. The Scraper Coordinator then deploys Bright Data across a creative range of sources:
-
-- **CA Secretary of State** — is the entity active? When did it incorporate? (Web Scraper API)
-- **CA Contractors State License Board** — valid license? Claimed employees? Workers' comp? (Web Scraper API)
-- **SAM.gov** — federal registration status (Web Unlocker)
-- **LinkedIn** — does this company actually have employees? (Web Scraper API)
-- **Google Maps / Street View** — is there actual construction at the stated project address? (Scraping Browser)
-- **County permit portals** — did anyone pull a permit for a multi-million dollar project? (Scraping Browser)
-- **SERP API** — news, lawsuits, complaints about the entity (SERP API)
-- **Court records, campaign finance databases, subcontractor trails** — the paper trail (Web Unlocker)
-
-Every API call is logged with source, cost, and finding. Investigations are sequential: finish Project #1 before starting #2. If a project comes up clean, we document why and move on — a well-evidenced clearance is valuable output too.
-
-**Stage 3: Structured Findings**
-A Synthesis agent produces a forensic report for each project: evidence summary, conclusion (FLAGGED / CLEARED / INCONCLUSIVE), confidence level, and supporting sources. The final output is a complete investigation log — suitable for submission to a government oversight body, a journalist, or a qui tam attorney.
-
-### Why This Matters
-
-The California False Claims Act allows private citizens to file fraud claims on behalf of the state and receive a portion of recovered funds. Our pipeline is designed to surface the cases most worth pursuing — and to do it at a scale no human investigator could match. One well-documented ghost project at $5M+ is worth far more than a thousand weak signals.
-
-### Why Bright Data
-
-The hardest part of this investigation isn't analysis — it's data access. California's county permit portals, contractor license databases, and business registries are fragmented, JavaScript-heavy, and actively hostile to scrapers. Without Bright Data's proxy infrastructure and Scraping Browser, most of these sources are effectively inaccessible to an automated agent. Bright Data is what makes the "reality check" layer of this pipeline possible.
-
-### Tracks
-- **Track 2: Finance & Market Intelligence** — alternative data pipeline identifying financial anomalies in public contract awards
-- **Track 3: Security & Compliance** — AI agents that investigate risk indicators and return structured compliance assessments autonomously
-
----
-
-## Technology Tags
-`Gemini 2.5 Pro` `Bright Data` `Web Scraper API` `Scraping Browser` `SERP API` `Web Unlocker` `Python` `SQLite` `Multi-Agent` `Civic Tech` `Fraud Detection` `Public Accountability`
-
----
-
-## Judging Criteria Notes (internal — do not submit)
-
-**Application of Technology:** Multi-agent pipeline with 8 specialized agents. Bright Data's full stack — Web Scraper API, Scraping Browser, SERP API, Web Unlocker — each matched to the right source type. Budget Controller enforces responsible spend.
-
-**Presentation:** The investigation log IS the demo. Show the pipeline running against a real grant record. The "FLAGGED / CLEARED" output is compelling and easy to understand. Lean into the civic narrative.
-
-**Business Value:** Government oversight bodies, inspector generals, investigative journalism organizations, qui tam attorneys, and civic tech nonprofits are all real potential customers. Scales to any state's grant data.
-
-**Originality:** Nobody is doing AI-driven civic fraud detection with Bright Data. The AI-first-then-scrape inversion is novel. The budget controller as a first-class component shows production maturity.
-
----
-
-## What to Have Ready for Submission
-
-- [ ] Public GitHub repo (clean README, clear setup instructions)
-- [ ] Demo video (3 min): show the pipeline running, highlight the agent architecture, show a real finding
-- [ ] Slide deck: problem → approach → agent architecture → demo → business case
-- [ ] Cover image: something that visually conveys "finding the ghost in the machine"
-- [ ] Application URL: even a simple hosted output or Streamlit dashboard counts
+Real data. Real public records. Real accountability.

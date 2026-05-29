@@ -3,47 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RealWork Investigation | California Grants</title>
-    
-    <!-- Google Fonts -->
+    <title>RealWork — California's Missing Billions</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;700;900&display=swap" rel="stylesheet">
-    
-    <!-- Custom CSS -->
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="grain-overlay"></div>
-    
+
     <nav class="navbar glass">
         <div class="logo">
             <svg class="logo-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 11c0 3.517-1.009 6.799-2.753 9.571m-3.44-2.04l.054-.09A13.916 13.916 0 008 11a4 4 0 118 0c0 1.017-.07 2.019-.203 3m-2.118 6.844A21.88 21.88 0 0015.171 17m3.839 1.132c.645-2.266.99-4.659.99-7.132A8 8 0 008 4.07M3 15.364c.64-1.319 1-2.8 1-4.364 0-1.457.39-2.823 1.07-4"></path></svg>
             <span class="logo-text">REAL<span class="accent-text">WORK</span></span>
         </div>
         <div class="nav-links">
-            <a href="#audit">The Audit</a>
-            <a href="#anomalies">Anomalies</a>
-            <a href="#evidence">Evidence Deep Dive</a>
+            <a href="#audit">The Gap</a>
+            <a href="#lead">Lead Case</a>
+            <a href="#patterns">Patterns</a>
             <a href="#methodology">Methodology</a>
         </div>
     </nav>
 
     <header class="hero">
         <div class="hero-content">
-            <div class="badge">STATEWIDE ACCOUNTABILITY AUDIT</div>
+            <div class="badge">CALIFORNIA STATE SPENDING AUDIT</div>
             <h1 class="hero-title">The <span class="accent-text">Missing</span> Billions</h1>
-            <p class="hero-subtitle">California distributed tens of thousands of state grants in FY 2023-2024. Our automated audit revealed exactly how many of those taxpayer dollars have zero state-level disbursement tracking.</p>
-            
+            <p class="hero-subtitle">California awarded $36 billion in state grants across two fiscal years. We scanned every record. <strong>100% of those awards have zero centralized disbursement tracking.</strong> Then we cross-referenced 50,000 purchase orders and 500 nonprofit tax filings. Here's what we found.</p>
+
             <div class="stat-container glass glow">
                 <span class="stat-symbol">$</span>
-                <span class="stat-number" id="counter" data-target="19686027184">0</span>
+                <span class="stat-number" id="counter" data-target="36585412711">0</span>
             </div>
-            <p class="stat-label">Untracked Grant Dollars in FY 23-24</p>
+            <p class="stat-label">Grant dollars with no state-level spend visibility (FY 22-23 + 23-24)</p>
         </div>
-        
+
         <div class="scroll-indicator">
-            <p>Uncover the Data</p>
+            <p>See the patterns</p>
             <svg class="scroll-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path></svg>
         </div>
     </header>
@@ -51,7 +49,7 @@
     <section id="audit" class="section">
         <div class="section-header">
             <h2>The <span class="accent-text">Tracking</span> Gap</h2>
-            <p>Our analysis of the official data.ca.gov CKAN API revealed a systemic failure in financial accountability. Every single grant in the FY 2023-2024 dataset lacks disbursement tracking.</p>
+            <p>California's Grant Information Act (AB-132, Gov Code §8333) requires the state to track post-award disbursement. We pulled both available fiscal years from data.ca.gov's CKAN API. The field is empty for every single record.</p>
         </div>
 
         <div class="grid-2">
@@ -59,258 +57,281 @@
                 <div class="card-icon red">
                     <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
                 </div>
-                <h3>15,209 / 15,209</h3>
-                <p>Grants with absolutely no centralized spend tracking recorded. (100% of the dataset).</p>
+                <h3>26,907 / 26,907</h3>
+                <p>Grant records across FY 22-23 + FY 23-24 with no centralized spend tracking populated. <strong>100%</strong> of both datasets.</p>
             </div>
-            
+
             <div class="card glass">
                 <div class="card-icon amber">
                     <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path></svg>
                 </div>
-                <h3>1,751 High-Risk Grants</h3>
-                <p>Private entities receiving over $50k with no tracking. Totaling $3.01 Billion in unaccounted risk.</p>
+                <h3>$36.5 Billion</h3>
+                <p>Total award value with zero state-level disbursement record. Nobody knows whether the money was spent as awarded.</p>
             </div>
         </div>
     </section>
 
-    <section id="anomalies" class="section">
+    <section id="lead" class="section">
         <div class="section-header">
-            <h2>The <span class="accent-text">AI Judge</span> vs. Human Error</h2>
-            <p>Our initial scan flagged hundreds of grants for missing Secretary of State registrations. But not all missing paperwork is fraud. We deployed our <b>Gemini 2.5 Pro Search Validator</b> to filter out bureaucratic "Compliance Failures" from actual "Phantom Construction" theft.</p>
+            <h2>The <span class="accent-text">Lead</span> Case</h2>
+            <p>Beyond the systemic gap, our DGS purchase order scan surfaced a pattern that matches the textbook signature of the 2019 Caltrans bid-rigging prosecution. We are not making accusations. We are pointing at public records.</p>
+        </div>
+
+        <div class="case-card glass" style="border-color: rgba(255,80,80,0.4);">
+            <div class="case-header">
+                <span class="tag danger">PATTERN MATCH — WARRANTS INVESTIGATION</span>
+                <span class="amount">$599,300</span>
+            </div>
+            <h3>The $49,950 Pattern</h3>
+            <p class="grant-type">12 purchase orders at exactly $49,950 each — $50 below the competitive-bidding threshold</p>
+
+            <div class="evidence-list">
+                <div class="evidence-item fail">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                    <span><strong>100%</strong> single-buyer concentration (Cal Fire issued every one)</span>
+                </div>
+                <div class="evidence-item fail">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                    <span>4 contracts issued within a single 7-day window</span>
+                </div>
+                <div class="evidence-item fail">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                    <span>All 12 amounts identical to the dollar, not approximate</span>
+                </div>
+                <div class="evidence-item warning">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
+                    <span>Possible charitable explanation: emergency procurement during active wildfire response</span>
+                </div>
+            </div>
+            <p class="summary">
+                California's State Contracting Manual prohibits "splitting purchases" to evade competitive bidding. Public Contract Code §§ 10301-10340 require formal bidding above $50,000. The 2019 prosecution of three Caltrans procurement officials (USA v. Yong, Miller, Opp — 49-78 month sentences, $3M restitution) was built on this exact factual pattern. Whether this case is benign emergency procurement or something else is a question for the State Auditor — not a question we can answer from public records. We surface the pattern; oversight bodies determine intent.
+            </p>
+        </div>
+
+        <div style="margin-top: 2rem;">
+            <h3 style="text-align: center; font-family: 'Outfit', sans-serif; font-weight: 700; margin-bottom: 1.5rem; color: rgba(255,255,255,0.85);">Five more vendors with the same pattern</h3>
+            <div class="grid-2 case-studies">
+
+                <div class="case-card glass">
+                    <div class="case-header">
+                        <span class="tag warning">REPEATED THRESHOLD-EDGE POs</span>
+                        <span class="amount">28 POs</span>
+                    </div>
+                    <h3>McKesson Medical-Surgical</h3>
+                    <p class="grant-type">$4,943-$4,957 to Correctional Health Care Services — 93% buyer concentration</p>
+                    <p class="summary">28 purchase orders clustered just under the $5,000 micro-purchase threshold, 93% to a single buyer, repeating "medical supplies" description. Plausible legitimate explanation: recurring supply orders. The pattern still warrants surface review.</p>
+                </div>
+
+                <div class="case-card glass">
+                    <div class="case-header">
+                        <span class="tag warning">FUEL ORDERS AT THRESHOLD</span>
+                        <span class="amount">13 POs</span>
+                    </div>
+                    <h3>Falcon Fuels Inc</h3>
+                    <p class="grant-type">~$4,999 to Cal Fire (85% concentration) — "fuel for dept vehicles"</p>
+                    <p class="summary">13 fuel purchase orders just under the $5K threshold, same buyer, same description. Could be emergency fuel during fire response, could be the same pattern as Panini Time at smaller dollar amounts. Worth a closer look.</p>
+                </div>
+
+                <div class="case-card glass">
+                    <div class="case-header">
+                        <span class="tag danger">IDENTICAL AMOUNTS IN 3 DAYS</span>
+                        <span class="amount">3 × $4,999</span>
+                    </div>
+                    <h3>Progressive Medical, Inc.</h3>
+                    <p class="grant-type">3 POs at exactly $4,999 within 3 days — single buyer, identical scope</p>
+                    <p class="summary">3 purchase orders at precisely $4,999 issued over a 3-day window, 100% to Correctional Health Care, all with description "negative pressure wound therapy rental." The exact-amount-plus-tight-timing combination is the strongest split-contract signature we found at this threshold.</p>
+                </div>
+
+                <div class="case-card glass">
+                    <div class="case-header">
+                        <span class="tag warning">CYLINDER RENTAL CLUSTER</span>
+                        <span class="amount">6 POs</span>
+                    </div>
+                    <h3>Airgas USA LLC</h3>
+                    <p class="grant-type">6 POs at ~$4,999 to Air Resources Board — "cylinder rental"</p>
+                    <p class="summary">3 contracts in a single 7-day window, all at the threshold edge, same description. Pattern matches but vendor itself is large and reputable — likely benign procurement habit rather than intentional avoidance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="patterns" class="section">
+        <div class="section-header">
+            <h2>The <span class="accent-text">Nonprofit</span> Overhead Pattern</h2>
+            <p>We cross-referenced 500 nonprofit state-grant recipients against their publicly-filed IRS Form 990 returns via ProPublica. 36 organizations survived sanity-check validation with significant financial anomalies. Every number below comes from a publicly available 990 filing.</p>
         </div>
 
         <div class="grid-2 case-studies">
-            <!-- Case Study 1 -->
+
             <div class="case-card glass">
                 <div class="case-header">
-                    <span class="tag warning">INITIALLY FLAGGED — CLEARED ON VERIFICATION</span>
-                    <span class="amount">$1,500,000</span>
+                    <span class="tag danger">$4.75M STATE / $556K REVENUE</span>
+                    <span class="amount">$4,750,157</span>
                 </div>
-                <h3>[Construction LLC A]</h3>
-                <p class="grant-type">New Construction & Major Renovation</p>
+                <h3>Finish First Academy</h3>
+                <p class="grant-type">State grants 8.5× reported total revenue</p>
                 <div class="evidence-list">
-                    <div class="evidence-item warning">
-                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
-                        <span>Geographic mismatch (Van Nuys registration, Placer County project)</span>
+                    <div class="evidence-item fail">
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                        <span>Form 990 reports $556K total revenue against $4.75M in state grants</span>
                     </div>
-                    <div class="evidence-item success">
-                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-                        <span>Active CSLB General Engineering & Building license</span>
+                    <div class="evidence-item fail">
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                        <span>Officer compensation grew 77% YoY ($56K → $100K)</span>
+                    </div>
+                    <div class="evidence-item fail">
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                        <span>Total expenses grew 190% YoY ($210K → $609K)</span>
                     </div>
                 </div>
-                <p class="summary">First-pass SERP suggested a phantom recipient. Manual verification against the Contractors State License Board confirmed an active, licensed General Building Contractor. Geographic mismatch alone is not a fraud indicator — contractors routinely work statewide. The pipeline correctly retracted the flag.</p>
+                <p class="summary">An organization reporting $556K in revenue received $4.75M in state grants. Officer compensation and total expenses both spiked sharply in the same year. Charitable explanations exist (multi-year grants disbursed over time, fiscal sponsorship arrangements). The pattern itself warrants verification by an entity with subpoena authority.</p>
             </div>
 
-            <!-- Case Study 2 -->
             <div class="case-card glass">
                 <div class="case-header">
-                    <span class="tag warning">WARRANTS INVESTIGATION — UNVERIFIED</span>
-                    <span class="amount">$1,500,000</span>
+                    <span class="tag danger">$338K OFFICER COMP, 25% OF EXPENSES</span>
+                    <span class="amount">$4,456,234</span>
                 </div>
-                <h3>[Holdings LLC B]</h3>
-                <p class="grant-type">New Construction & Major Renovation</p>
+                <h3>Land Together</h3>
+                <p class="grant-type">$338K officer compensation at a $1.34M-expense organization</p>
                 <div class="evidence-list">
-                    <div class="evidence-item warning">
-                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
-                        <span>No verifiable public footprint matching grant location</span>
+                    <div class="evidence-item fail">
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                        <span>25.2% of total expenses going to one officer</span>
                     </div>
-                    <div class="evidence-item warning">
-                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
-                        <span>State business registry inconclusive due to access barriers</span>
+                    <div class="evidence-item fail">
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                        <span>Officer comp grew 55% YoY ($218K → $338K)</span>
+                    </div>
+                    <div class="evidence-item fail">
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                        <span>$4.46M in CA grants against $1.93M reported revenue</span>
                     </div>
                 </div>
-                <p class="summary">Open-source searches surface no record of this entity operating in the named sector or location. State business databases blocked our automated checks, preventing a high-confidence conclusion. This anomaly remains <em>unresolved</em> and warrants follow-up by a body with direct database access (State Auditor or Department of Justice).</p>
+                <p class="summary">Sector median for officer compensation as a share of expenses is roughly 8-10%. Land Together's 25% ratio is more than 2.5x sector norm. The org also received $4.46M in state grants while reporting $1.93M total revenue. Multiple flags surviving validation simultaneously is the strongest signal in our Track B audit.</p>
             </div>
 
-            <!-- Case Study 3 -->
             <div class="case-card glass">
                 <div class="case-header">
-                    <span class="tag success">CLEARED: FALSE POSITIVE</span>
-                    <span class="amount">$1,500,000</span>
+                    <span class="tag danger">$722K OFFICER COMPENSATION</span>
+                    <span class="amount">$1,634,722</span>
                 </div>
-                <h3>JM3 Holdings, LLC</h3>
-                <p class="grant-type">New Construction & Major Renovation</p>
+                <h3>Veterans Transition Center of California</h3>
+                <p class="grant-type">$722K officer comp, year-over-year spike, $1.6M state grants</p>
                 <div class="evidence-list">
-                    <div class="evidence-item success">
-                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-                        <span>Legitimate State Grant Program</span>
+                    <div class="evidence-item fail">
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                        <span>$722,477 officer compensation</span>
                     </div>
-                    <div class="evidence-item success">
-                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-                        <span>Verified by AI Grounding</span>
+                    <div class="evidence-item fail">
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                        <span>YoY spike during state-funding year</span>
                     </div>
                 </div>
-                <p class="summary">Our dumb scraper flagged this because it lacked an obvious permit footprint. However, our Gemini LLM Judge realized it was a fully documented, legitimate grant from a state agency and cleared it.</p>
+                <p class="summary">Triple-flag: HIGH_OFFICER_COMP_SMALL_ORG, HIGH_OFFICER_COMP_RATIO, OFFICER_COMP_YoY_SPIKE. The signature pattern is state grants flowing in and executive compensation spiking the same fiscal year. Every flag survived our wrong-EIN sanity check.</p>
             </div>
-            
-            <!-- Case Study 4 -->
+
             <div class="case-card glass">
                 <div class="case-header">
-                    <span class="tag warning">COMPLIANCE FAILURE</span>
-                    <span class="amount">$725,985</span>
+                    <span class="tag danger">$2.07M FOR ONE OFFICER</span>
+                    <span class="amount">$4,549,765</span>
                 </div>
-                <h3>Creekside Dairy</h3>
-                <p class="grant-type">Mechanical Separator Construction</p>
+                <h3>Golden Gate National Parks Conservancy</h3>
+                <p class="grant-type">Officer compensation more than doubled in one year</p>
                 <div class="evidence-list">
-                    <div class="evidence-item warning">
-                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
-                        <span>No CA Secretary of State Registration</span>
-                    </div>
-                    <div class="evidence-item success">
-                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-                        <span>Verified Real-World Farm</span>
+                    <div class="evidence-item fail">
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                        <span>Officer compensation: $900,777 → <strong>$2,071,526</strong> (+130%)</span>
                     </div>
                 </div>
-                <p class="summary">A strict database check flagged this as a ghost entity. Our Gemini Validator checked Google Maps and verified it is a real farm in Escalon, CA. This is a bureaucratic failure, not a heist.</p>
+                <p class="summary">A large, well-known nonprofit. The 990 filing shows compensation to a single officer of $2.07M in 2023, up from $900K the prior year. May be entirely lawful — large public-facing nonprofit CEOs sometimes earn at this level — but a $1.17M YoY increase coinciding with $4.5M in state grants is exactly the pattern Track B is designed to detect.</p>
             </div>
-        </div>
-    </section>
 
-    <!-- NEW EVIDENCE DEEP DIVE SECTION -->
-    <section id="evidence" class="section">
-        <div class="section-header">
-            <h2>The Validator <span class="accent-text">Deep Dive</span></h2>
-            <p>See exactly how our LLM pipeline differentiates between bad paperwork and actual theft.</p>
-        </div>
+            <div class="case-card glass">
+                <div class="case-header">
+                    <span class="tag danger">EXPENSES GREW 5×</span>
+                    <span class="amount">$2,395,659</span>
+                </div>
+                <h3>CityServe Network</h3>
+                <p class="grant-type">Total expenses jumped 384% YoY ($6.7M → $32.5M)</p>
+                <p class="summary">An organization that spent $6.7 million in one fiscal year and $32.5 million the next. Some growth is plausible — large grants do scale organizations — but a 5× increase in a single year warrants verification of where the money went.</p>
+            </div>
 
-        <div class="evidence-tabs">
-            <button class="tab-btn active" data-target="infinite">Infinite Sky</button>
-            <button class="tab-btn" data-target="suarez">Suarez Holdings</button>
-            <button class="tab-btn" data-target="jm3">JM3 Holdings</button>
-            <button class="tab-btn" data-target="creekside">Creekside Dairy</button>
-        </div>
-
-        <!-- Construction LLC A Timeline -->
-        <div class="tab-content active" id="tab-infinite">
-            <div class="timeline">
-                <div class="timeline-item glass">
-                    <div class="timeline-marker">1</div>
-                    <div class="timeline-content">
-                        <h3>The Claim</h3>
-                        <p class="grant-type">$1.5M New Construction & Major Renovation</p>
-                        <p>A construction LLC was awarded $1.5 million for a child care facility in Placer County.</p>
-                    </div>
+            <div class="case-card glass">
+                <div class="case-header">
+                    <span class="tag danger">+355% OFFICER COMP YoY</span>
+                    <span class="amount">$2,725,000</span>
                 </div>
-                <div class="timeline-item glass">
-                    <div class="timeline-marker">2</div>
-                    <div class="timeline-content">
-                        <h3>First-Pass SERP: Possible Phantom</h3>
-                        <p class="grant-type">No location-matched footprint</p>
-                        <p>SERP found no news, permits, or public footprint for a $1.5M project in Placer County. The recipient's registered address was in Van Nuys — hundreds of miles away.</p>
-                    </div>
-                </div>
-                <div class="timeline-item glass">
-                    <div class="timeline-marker success">3</div>
-                    <div class="timeline-content">
-                        <h3>Verification: CLEARED</h3>
-                        <p class="grant-type">Active CSLB Contractor License</p>
-                        <p>Direct check of the Contractors State License Board confirmed an active General Engineering and Building Contractor license. Geographic mismatch alone is not a fraud indicator — contractors routinely work statewide. The pipeline correctly retracted the flag.</p>
-                    </div>
-                </div>
+                <h3>Community Action Partnership of Kern</h3>
+                <p class="grant-type">Officer compensation: $451K → $2.05M YoY</p>
+                <p class="summary">$451,111 to $2,053,022 in officer compensation in a single fiscal year. This is the largest YoY officer-compensation spike in our entire validated dataset. The org received $2.7M in state grants in the same period.</p>
             </div>
         </div>
 
-        <!-- Holdings LLC B Timeline -->
-        <div class="tab-content" id="tab-suarez">
-            <div class="timeline">
-                <div class="timeline-item glass">
-                    <div class="timeline-marker">1</div>
-                    <div class="timeline-content">
-                        <h3>The Claim</h3>
-                        <p class="grant-type">$1.5M New Construction & Major Renovation</p>
-                        <p>A holdings LLC was awarded $1.5 million for child care facility construction.</p>
-                    </div>
-                </div>
-                <div class="timeline-item glass">
-                    <div class="timeline-marker">2</div>
-                    <div class="timeline-content">
-                        <h3>First-Pass SERP: Possible Phantom</h3>
-                        <p class="grant-type">No public footprint matching the named sector</p>
-                        <p>Open-source searches surfaced no evidence of this entity operating in construction in the named location. An LLM-grounded search suggested "FTB Forfeited" status, but the underlying database returned no verifiable confirmation.</p>
-                    </div>
-                </div>
-                <div class="timeline-item glass">
-                    <div class="timeline-marker warning">3</div>
-                    <div class="timeline-content">
-                        <h3>Verification: INCONCLUSIVE — WARRANTS INVESTIGATION</h3>
-                        <p class="grant-type">State databases blocked automated access</p>
-                        <p>The CA Secretary of State search and Franchise Tax Board status lookup blocked automated verification. The LLM's "FTB Forfeited" claim could not be confirmed against authoritative records, so we are not naming it as a finding. This anomaly remains unresolved and warrants follow-up by an entity with direct database access (State Auditor or DOJ).</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- JM3 Holdings Timeline -->
-        <div class="tab-content" id="tab-jm3">
-            <div class="timeline">
-                <div class="timeline-item glass">
-                    <div class="timeline-marker">1</div>
-                    <div class="timeline-content">
-                        <h3>The Scraper Warning</h3>
-                        <p class="grant-type">Missing Permits</p>
-                        <p>Our hardcoded scraper initially flagged JM3 Holdings because it lacked obvious building permits for its $1.5M grant.</p>
-                    </div>
-                </div>
-                <div class="timeline-item glass">
-                    <div class="timeline-marker success">2</div>
-                    <div class="timeline-content">
-                        <h3>The AI Verdict: CLEARED</h3>
-                        <p class="grant-type">Legitimate Program</p>
-                        <p>The LLM Validator used Google Search Grounding to read the actual grant documentation, realizing it was a legitimate, publicly documented grant from a state agency. The LLM overruled the scraper, saving investigators hours of wasted time.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Creekside Dairy Timeline -->
-        <div class="tab-content" id="tab-creekside">
-            <div class="timeline">
-                <div class="timeline-item glass">
-                    <div class="timeline-marker fail">1</div>
-                    <div class="timeline-content">
-                        <h3>The Scraper Warning</h3>
-                        <p class="grant-type">No Secretary of State Record</p>
-                        <p>Our database script searched for "Creekside Dairy (San Joaquin)" and found zero matches, assuming it was a ghost entity.</p>
-                    </div>
-                </div>
-                <div class="timeline-item glass">
-                    <div class="timeline-marker warning">2</div>
-                    <div class="timeline-content">
-                        <h3>The AI Verdict: COMPLIANCE FAILURE</h3>
-                        <p class="grant-type">Real Farm, Bad Paperwork</p>
-                        <p>Gemini looked at the top Google Maps results and realized Creekside Dairy is a real, operational farm in Escalon. The state simply failed to enforce SOS registration compliance before handing over $725K. Sloppy, but not an organized heist.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
+        <p style="text-align: center; margin-top: 2rem; color: rgba(255,255,255,0.7); max-width: 800px; margin-left: auto; margin-right: auto;">
+            <strong>30 more validated anomalies</strong> are in <code>data/track_b/validated_report.md</code> in the repo. Every flag references a public 990 filing. The pipeline that surfaced them is reproducible.
+        </p>
     </section>
 
     <section id="methodology" class="section">
+        <div class="section-header">
+            <h2>The <span class="accent-text">Pipeline</span></h2>
+            <p>A multi-agent forensic audit pipeline. ETL → analysis → external verification → synthesis, with budget controls, caching, and a hard kill switch. Built with Bright Data, Gemini, and ProPublica.</p>
+        </div>
+
         <div class="methodology-card glass">
-            <h2>The Engine Behind the Investigation</h2>
             <div class="methodology-grid">
                 <div class="method-step">
                     <div class="step-num">1</div>
-                    <h4>ETL & Normalization</h4>
-                    <p>Live ingestion of 15,209 grant records from California's Open Data CKAN API using a bespoke data pipeline.</p>
+                    <h4>Multi-Source ETL</h4>
+                    <p>26,907 grant records (CA Grants Portal), 50,000 purchase orders (DGS), 500 nonprofit 990s (ProPublica). All normalized, deduplicated, persisted to SQLite.</p>
                 </div>
                 <div class="method-step">
                     <div class="step-num">2</div>
-                    <h4>AI Red Flag Analyst</h4>
-                    <p>Gemini 2.5 Pro reviews descriptions and metadata to identify mismatches, missing tracking data, and anomalous categorizations.</p>
+                    <h4>Heuristic Flagging</h4>
+                    <p>Per-source anomaly detection: just-under-threshold PO clusters, repeating exact amounts, buyer-vendor concentration, nonprofit overhead ratios, exec-comp YoY spikes.</p>
                 </div>
                 <div class="method-step">
                     <div class="step-num">3</div>
-                    <h4>Bright Data Scraping</h4>
-                    <p>Orchestrated searches utilizing Bright Data's Web Unlocker and SERP API to cross-reference entities against real-world evidence.</p>
+                    <h4>Bright Data Verification</h4>
+                    <p>Web Unlocker bypasses anti-bot on bizfileonline.sos.ca.gov, CCLD, ProPublica, SAM.gov. SERP API runs 5-variant queries across all flagged entities. Hard budget cap.</p>
+                </div>
+                <div class="method-step">
+                    <div class="step-num">4</div>
+                    <h4>LLM Synthesis</h4>
+                    <p>Gemini 2.5 Pro distinguishes real anomalies from data quality issues and DBA-trap false positives. Cleared cases get CLEARED with reasoning; survivors get WARRANTS INVESTIGATION.</p>
+                </div>
+                <div class="method-step">
+                    <div class="step-num">5</div>
+                    <h4>Validation Pass</h4>
+                    <p>EIN-match sanity checks drop false positives (e.g., MADD flagged when we matched a $5K-revenue local chapter, not the national org). 102 of 104 nonprofit flags survived; 36 reached HIGH priority.</p>
+                </div>
+                <div class="method-step">
+                    <div class="step-num">6</div>
+                    <h4>Transparent Reporting</h4>
+                    <p>Auto-generated markdown reports per round. Every finding cites public records. Dead-end log documents what was cleared, so future investigators don't repeat our work.</p>
                 </div>
             </div>
+        </div>
+
+        <div class="methodology-card glass" style="margin-top: 2rem;">
+            <h2>What We Explicitly Do <span class="accent-text">Not</span> Claim</h2>
+            <ul style="text-align: left; max-width: 720px; margin: 1rem auto; line-height: 2; color: rgba(255,255,255,0.85); list-style: none; padding: 0;">
+                <li>✕ &nbsp; We do not claim fraud has been proven</li>
+                <li>✕ &nbsp; We do not claim any individual entity has acted illegally</li>
+                <li>✕ &nbsp; We do not use "fraud" as a conclusion — only as a pattern label</li>
+                <li>✓ &nbsp; We surface patterns present in public records</li>
+                <li>✓ &nbsp; We frame every finding as "anomaly warranting investigation"</li>
+                <li>✓ &nbsp; We publish the methodology so anyone can verify or extend it</li>
+            </ul>
+            <p style="text-align: center; margin-top: 1.5rem; color: rgba(255,255,255,0.7);">
+                The path to actual recovery is the California False Claims Act qui tam process (file under seal before public disclosure). Our role is to surface candidates, not to make legal determinations.
+            </p>
         </div>
     </section>
 
     <footer>
-        <p>Built during the AI Hackathon. Real data. Real problems.</p>
+        <p>RealWork — Built during the Bright Data "Web Data UNLOCKED" Hackathon, May 2026. Real data. Real public records. Real accountability.</p>
     </footer>
 
     <script src="script.js"></script>

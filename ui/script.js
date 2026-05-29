@@ -74,20 +74,18 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // Evidence Tabs Logic
+    // Evidence Tabs Logic (if present)
     const tabBtns = document.querySelectorAll('.tab-btn');
     const tabContents = document.querySelectorAll('.tab-content');
 
     tabBtns.forEach(btn => {
         btn.addEventListener('click', () => {
-            // Remove active class from all
             tabBtns.forEach(b => b.classList.remove('active'));
             tabContents.forEach(c => c.classList.remove('active'));
-
-            // Add active class to clicked
             btn.classList.add('active');
             const targetId = `tab-${btn.getAttribute('data-target')}`;
-            document.getElementById(targetId).classList.add('active');
+            const target = document.getElementById(targetId);
+            if (target) target.classList.add('active');
         });
     });
 });
