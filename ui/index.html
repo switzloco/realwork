@@ -83,43 +83,43 @@
             <!-- Case Study 1 -->
             <div class="case-card glass">
                 <div class="case-header">
-                    <span class="tag danger">TRUE FRAUD: PHANTOM CONSTRUCTION</span>
+                    <span class="tag warning">INITIALLY FLAGGED — CLEARED ON VERIFICATION</span>
                     <span class="amount">$1,500,000</span>
                 </div>
-                <h3>Infinite Sky Inc.</h3>
+                <h3>[Construction LLC A]</h3>
                 <p class="grant-type">New Construction & Major Renovation</p>
                 <div class="evidence-list">
-                    <div class="evidence-item fail">
-                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
-                        <span>No CA Secretary of State Registration</span>
+                    <div class="evidence-item warning">
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
+                        <span>Geographic mismatch (Van Nuys registration, Placer County project)</span>
                     </div>
-                    <div class="evidence-item fail">
-                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
-                        <span>Zero physical footprint for construction</span>
+                    <div class="evidence-item success">
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                        <span>Active CSLB General Engineering & Building license</span>
                     </div>
                 </div>
-                <p class="summary">Gemini verified the complete absence of a public footprint for a $1.5M construction project in Placer County. No building permits. No CSLB contractors. The recipient cannot be tied to the location or work described.</p>
+                <p class="summary">First-pass SERP suggested a phantom recipient. Manual verification against the Contractors State License Board confirmed an active, licensed General Building Contractor. Geographic mismatch alone is not a fraud indicator — contractors routinely work statewide. The pipeline correctly retracted the flag.</p>
             </div>
 
             <!-- Case Study 2 -->
             <div class="case-card glass">
                 <div class="case-header">
-                    <span class="tag danger">TRUE FRAUD: INELIGIBLE ENTITY</span>
+                    <span class="tag warning">WARRANTS INVESTIGATION — UNVERIFIED</span>
                     <span class="amount">$1,500,000</span>
                 </div>
-                <h3>Suarez Holdings, LLC</h3>
+                <h3>[Holdings LLC B]</h3>
                 <p class="grant-type">New Construction & Major Renovation</p>
                 <div class="evidence-list">
-                    <div class="evidence-item fail">
-                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
-                        <span>FTB Forfeited Status</span>
+                    <div class="evidence-item warning">
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
+                        <span>No verifiable public footprint matching grant location</span>
                     </div>
-                    <div class="evidence-item fail">
-                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
-                        <span>Ineligible for state funds</span>
+                    <div class="evidence-item warning">
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
+                        <span>State business registry inconclusive due to access barriers</span>
                     </div>
                 </div>
-                <p class="summary">Gemini cross-referenced the entity and found it is an FTB Forfeited LLC, making it legally ineligible to receive state grants. Furthermore, it is the wrong entity type for a public school facility funding program.</p>
+                <p class="summary">Open-source searches surface no record of this entity operating in the named sector or location. State business databases blocked our automated checks, preventing a high-confidence conclusion. This anomaly remains <em>unresolved</em> and warrants follow-up by a body with direct database access (State Auditor or Department of Justice).</p>
             </div>
 
             <!-- Case Study 3 -->
@@ -180,45 +180,61 @@
             <button class="tab-btn" data-target="creekside">Creekside Dairy</button>
         </div>
 
-        <!-- Infinite Sky Timeline -->
+        <!-- Construction LLC A Timeline -->
         <div class="tab-content active" id="tab-infinite">
             <div class="timeline">
                 <div class="timeline-item glass">
-                    <div class="timeline-marker fail">1</div>
+                    <div class="timeline-marker">1</div>
                     <div class="timeline-content">
                         <h3>The Claim</h3>
                         <p class="grant-type">$1.5M New Construction & Major Renovation</p>
-                        <p>Infinite Sky Inc. was awarded $1.5 million for child care facility construction in Placer County.</p>
+                        <p>A construction LLC was awarded $1.5 million for a child care facility in Placer County.</p>
                     </div>
                 </div>
                 <div class="timeline-item glass">
-                    <div class="timeline-marker fail">2</div>
+                    <div class="timeline-marker">2</div>
                     <div class="timeline-content">
-                        <h3>The AI Verdict: TRUE FRAUD</h3>
-                        <p class="grant-type">Zero Construction Footprint</p>
-                        <p>Gemini checked the SERP footprint. While a corporation exists, there are no news articles, government announcements, or publicly accessible construction permits for a $1.5M project in Placer County.</p>
+                        <h3>First-Pass SERP: Possible Phantom</h3>
+                        <p class="grant-type">No location-matched footprint</p>
+                        <p>SERP found no news, permits, or public footprint for a $1.5M project in Placer County. The recipient's registered address was in Van Nuys — hundreds of miles away.</p>
+                    </div>
+                </div>
+                <div class="timeline-item glass">
+                    <div class="timeline-marker success">3</div>
+                    <div class="timeline-content">
+                        <h3>Verification: CLEARED</h3>
+                        <p class="grant-type">Active CSLB Contractor License</p>
+                        <p>Direct check of the Contractors State License Board confirmed an active General Engineering and Building Contractor license. Geographic mismatch alone is not a fraud indicator — contractors routinely work statewide. The pipeline correctly retracted the flag.</p>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- Suarez Holdings Timeline -->
+        <!-- Holdings LLC B Timeline -->
         <div class="tab-content" id="tab-suarez">
             <div class="timeline">
                 <div class="timeline-item glass">
-                    <div class="timeline-marker fail">1</div>
+                    <div class="timeline-marker">1</div>
                     <div class="timeline-content">
                         <h3>The Claim</h3>
                         <p class="grant-type">$1.5M New Construction & Major Renovation</p>
-                        <p>Suarez Holdings, LLC was awarded $1.5 million for child care facility construction.</p>
+                        <p>A holdings LLC was awarded $1.5 million for child care facility construction.</p>
                     </div>
                 </div>
                 <div class="timeline-item glass">
-                    <div class="timeline-marker fail">2</div>
+                    <div class="timeline-marker">2</div>
                     <div class="timeline-content">
-                        <h3>The AI Verdict: TRUE FRAUD</h3>
-                        <p class="grant-type">Ineligible Entity</p>
-                        <p>Gemini cross-referencing discovered Suarez Holdings, LLC is an "FTB Forfeited" entity, making it legally ineligible to receive state funds. This discrepancy strongly suggests either significant data error or potential fraud.</p>
+                        <h3>First-Pass SERP: Possible Phantom</h3>
+                        <p class="grant-type">No public footprint matching the named sector</p>
+                        <p>Open-source searches surfaced no evidence of this entity operating in construction in the named location. An LLM-grounded search suggested "FTB Forfeited" status, but the underlying database returned no verifiable confirmation.</p>
+                    </div>
+                </div>
+                <div class="timeline-item glass">
+                    <div class="timeline-marker warning">3</div>
+                    <div class="timeline-content">
+                        <h3>Verification: INCONCLUSIVE — WARRANTS INVESTIGATION</h3>
+                        <p class="grant-type">State databases blocked automated access</p>
+                        <p>The CA Secretary of State search and Franchise Tax Board status lookup blocked automated verification. The LLM's "FTB Forfeited" claim could not be confirmed against authoritative records, so we are not naming it as a finding. This anomaly remains unresolved and warrants follow-up by an entity with direct database access (State Auditor or DOJ).</p>
                     </div>
                 </div>
             </div>
