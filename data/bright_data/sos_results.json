@@ -1,5 +1,5 @@
 {
-  "spent_usd": 0.0,
+  "spent_usd": 0.1965,
   "budget_cap": 20.0,
   "entities": [
     {
@@ -7,1235 +7,1179 @@
       "award_amount": 236966824.0,
       "recipient_type": "Business",
       "search_term": "BHE Renewables",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=BHE+Renewables",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "Robert Bosch Semiconductor LLC",
       "award_amount": 235000000.0,
       "recipient_type": "Business",
       "search_term": "Robert Bosch Semiconductor",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Robert+Bosch+Semiconductor",
-      "status": "ACTIVE",
-      "all_statuses": [
-        "ACTIVE"
-      ],
-      "entity_number": null,
-      "registration_date": null
+      "source": "sos_api",
+      "status": "NO_RESPONSE",
+      "error": "http 400"
     },
     {
       "recipient": "Sparkz Inc.",
       "award_amount": 177725118.0,
       "recipient_type": "Business",
       "search_term": "Sparkz",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Sparkz",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "Applied Materials, Inc.",
       "award_amount": 156000000.0,
       "recipient_type": "Business",
       "search_term": "Applied Materials",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Applied+Materials",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "Lam Research Corp",
       "award_amount": 137000000.0,
       "recipient_type": "Business",
       "search_term": "Lam Research",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Lam+Research",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "PSGM3, LLC (Pacific Steel Group)",
       "award_amount": 118483412.0,
       "recipient_type": "Business",
       "search_term": "PSGM3 Pacific Steel Group",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=PSGM3+Pacific+Steel+Group",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "Element Lancaster 1 LLC",
       "award_amount": 118483412.0,
       "recipient_type": "Business",
       "search_term": "Element Lancaster 1",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Element+Lancaster+1",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "Figure AI Inc.",
       "award_amount": 117771409.0,
       "recipient_type": "Business",
       "search_term": "Figure AI",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Figure+AI",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "Archer Aviation, Inc.",
       "award_amount": 117250000.0,
       "recipient_type": "Business",
       "search_term": "Archer Aviation",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Archer+Aviation",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "Joby Aero, Inc.",
       "award_amount": 100623218.0,
       "recipient_type": "Business",
       "search_term": "Joby Aero",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Joby+Aero",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "44049 Sierra Hwy Propco LLC",
       "award_amount": 84665662.0,
       "recipient_type": "Business",
       "search_term": "44049 Sierra Hwy Propco",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=44049+Sierra+Hwy+Propco",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "Harbinger Motors Inc.",
       "award_amount": 64153481.0,
       "recipient_type": "Business",
       "search_term": "Harbinger Motors",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Harbinger+Motors",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "Toro Energy of California AA, LLC",
       "award_amount": 48500000.0,
       "recipient_type": "Business",
       "search_term": "Toro Energy of California AA",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Toro+Energy+of+California+AA",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "Infinera Corporation",
       "award_amount": 46000000.0,
       "recipient_type": "Business",
       "search_term": "Infinera Corporation",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Infinera+Corporation",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "Maclay Investments, LLC",
       "award_amount": 44497670.0,
       "recipient_type": "Business",
       "search_term": "Maclay Investments",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Maclay+Investments",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "rPlanet Earth Los Angeles, LLC",
       "award_amount": 42550000.0,
       "recipient_type": "Business",
       "search_term": "rPlanet Earth Los Angeles",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=rPlanet+Earth+Los+Angeles",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "Napa Pueblo LLC",
       "award_amount": 28178650.0,
       "recipient_type": "Business",
       "search_term": "Napa Pueblo",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Napa+Pueblo",
-      "status": "ACTIVE",
-      "all_statuses": [
-        "ACTIVE"
-      ],
-      "entity_number": null,
-      "registration_date": null
+      "source": "sos_api",
+      "status": "NO_RESPONSE",
+      "error": "http 400"
     },
     {
       "recipient": "Electrochemistry Foundry, Inc.\u200b",
       "award_amount": 28000000.0,
       "recipient_type": "Business",
       "search_term": "Electrochemistry Foundry",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Electrochemistry+Foundry",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "525 Water Street LP",
       "award_amount": 26780431.0,
       "recipient_type": "Business",
       "search_term": "525 Water Street",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=525+Water+Street",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "AggrePlex of Modesto LLC",
       "award_amount": 26522315.0,
       "recipient_type": "Business",
       "search_term": "AggrePlex of Modesto",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=AggrePlex+of+Modesto",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "A to be determined Limited Partnership",
       "award_amount": 26112880.0,
       "recipient_type": "Business",
       "search_term": "A to be determined Limited Partnership",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=A+to+be+determined+Limited+Partnership",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "Signet Central Coast, LLC",
       "award_amount": 25000000.0,
       "recipient_type": "Business",
       "search_term": "Signet Central Coast",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Signet+Central+Coast",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "Bakersfield Renewable Fuels, LLC",
       "award_amount": 23696000.0,
       "recipient_type": "Business",
       "search_term": "Bakersfield Renewable Fuels",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Bakersfield+Renewable+Fuels",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "Lam Research Corporation",
       "award_amount": 23600000.0,
       "recipient_type": "Business",
       "search_term": "Lam Research Corporation",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Lam+Research+Corporation",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "Intuitive Surgical, Inc.",
       "award_amount": 23500000.0,
       "recipient_type": "Business",
       "search_term": "Intuitive Surgical",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Intuitive+Surgical",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "Greg Kelley",
       "award_amount": 23500000.0,
       "recipient_type": "Business",
       "search_term": "Greg Kelley",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Greg+Kelley",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "H2B2 USA, LLC",
       "award_amount": 23300000.0,
       "recipient_type": "Business",
       "search_term": "H2B2 USA",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=H2B2+USA",
-      "status": "ACTIVE",
-      "all_statuses": [
-        "ACTIVE"
-      ],
-      "entity_number": null,
-      "registration_date": null
+      "source": "sos_api",
+      "status": "NO_RESPONSE",
+      "error": "http 400"
     },
     {
       "recipient": "Mango Materials, Inc.",
       "award_amount": 23065760.0,
       "recipient_type": "Business",
       "search_term": "Mango Materials",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Mango+Materials",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "Joby Aero, Inc",
       "award_amount": 22704008.0,
       "recipient_type": "Business",
       "search_term": "Joby Aero",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Joby+Aero",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "Biofuels Coyote Canyon BioGas, LLC",
       "award_amount": 22649688.0,
       "recipient_type": "Business",
       "search_term": "Biofuels Coyote Canyon BioGas",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Biofuels+Coyote+Canyon+BioGas",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "CalBioGas Fresno, LLC",
       "award_amount": 21358784.0,
       "recipient_type": "Business",
       "search_term": "CalBioGas Fresno",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=CalBioGas+Fresno",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "Imperial Manor Skilled Nursing, Inc",
       "award_amount": 19518209.0,
       "recipient_type": "Business",
       "search_term": "Imperial Manor Skilled Nursing",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Imperial+Manor+Skilled+Nursing",
-      "status": "ACTIVE",
-      "all_statuses": [
-        "ACTIVE"
-      ],
-      "entity_number": null,
-      "registration_date": null
+      "source": "sos_api",
+      "status": "NO_RESPONSE",
+      "error": "http 400"
     },
     {
       "recipient": "Brian Waters",
       "award_amount": 18000000.0,
       "recipient_type": "Business",
       "search_term": "Brian Waters",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Brian+Waters",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "Tandem PV, Inc.",
       "award_amount": 17500000.0,
       "recipient_type": "Business",
       "search_term": "Tandem PV",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Tandem+PV",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "Trojan Battery Company, LLC",
       "award_amount": 16500000.0,
       "recipient_type": "Business",
       "search_term": "Trojan Battery Company",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Trojan+Battery+Company",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "All Weather Architectural Aluminum Inc.",
       "award_amount": 14700000.0,
       "recipient_type": "Business",
       "search_term": "All Weather Architectural Aluminum",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=All+Weather+Architectural+Aluminum",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "6799 Skyway LP",
       "award_amount": 13905414.0,
       "recipient_type": "Business",
       "search_term": "6799 Skyway",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=6799+Skyway",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "439 S 4th St LLC",
       "award_amount": 13826271.0,
       "recipient_type": "Business",
       "search_term": "439 S 4th St",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=439+S+4th+St",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "SANCO Services, L.P.",
       "award_amount": 13613115.0,
       "recipient_type": "Business",
       "search_term": "SANCO Services L P",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=SANCO+Services+L+P",
-      "status": "ACTIVE",
-      "all_statuses": [
-        "ACTIVE"
-      ],
-      "entity_number": null,
-      "registration_date": null
+      "source": "sos_api",
+      "status": "NO_RESPONSE",
+      "error": "http 400"
     },
     {
       "recipient": "Redwood Quality Management Company, Inc.",
       "award_amount": 13505638.0,
       "recipient_type": "Business",
       "search_term": "Redwood Quality Management Company",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Redwood+Quality+Management+Company",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "HieFo Corporation",
       "award_amount": 13500000.0,
       "recipient_type": "Business",
       "search_term": "HieFo Corporation",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=HieFo+Corporation",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "Saggio Hills Lot 3, LP",
       "award_amount": 13448206.0,
       "recipient_type": "Business",
       "search_term": "Saggio Hills Lot 3",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Saggio+Hills+Lot+3",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "Good Samaritan Hospital, A California Limited Partnership",
       "award_amount": 13340186.0,
       "recipient_type": "Business",
       "search_term": "Good Samaritan Hospital A California Limited Partnership",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Good+Samaritan+Hospital+A+California+Limited+Partnership",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "233 N 2nd LP",
       "award_amount": 13292809.0,
       "recipient_type": "Business",
       "search_term": "233 N 2nd",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=233+N+2nd",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "Rincell Corporation",
       "award_amount": 13209100.0,
       "recipient_type": "Business",
       "search_term": "Rincell Corporation",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Rincell+Corporation",
-      "status": "ACTIVE",
-      "all_statuses": [
-        "ACTIVE"
-      ],
-      "entity_number": null,
-      "registration_date": null
+      "source": "sos_api",
+      "status": "NO_RESPONSE",
+      "error": "http 400"
     },
     {
       "recipient": "PacifiCorp",
       "award_amount": 12372528.0,
       "recipient_type": "Business",
       "search_term": "PacifiCorp",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=PacifiCorp",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "5E Boron Americas LLC",
       "award_amount": 11473423.0,
       "recipient_type": "Business",
       "search_term": "5E Boron Americas",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=5E+Boron+Americas",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "California Legacy Well Services, LLC",
       "award_amount": 7555327.0,
       "recipient_type": "Business",
       "search_term": "California Legacy Well Services",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=California+Legacy+Well+Services",
-      "status": "ACTIVE",
-      "all_statuses": [
-        "ACTIVE"
-      ],
-      "entity_number": null,
-      "registration_date": null
+      "source": "sos_api",
+      "status": "NO_RESPONSE",
+      "error": "http 400"
     },
     {
       "recipient": "Tule Basin Water Foundation",
       "award_amount": 6718264.0,
       "recipient_type": "Business",
       "search_term": "Tule Basin Water Foundation",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Tule+Basin+Water+Foundation",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "Watershed Conservation Authority",
       "award_amount": 5773492.0,
       "recipient_type": "Other Legal Entity",
       "search_term": "Watershed Conservation Authority",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Watershed+Conservation+Authority",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "1431 & 1433 Huntington Drive LLC",
       "award_amount": 2990000.0,
       "recipient_type": "Other Legal Entity",
-      "search_term": "1431 1433 Huntington Drive",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=1431+1433+Huntington+Drive",
+      "search_term": "1431 & 1433 Huntington Drive",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "Alta Planning & Design",
       "award_amount": 2563215.0,
       "recipient_type": "Business",
-      "search_term": "Alta Planning Design",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Alta+Planning+Design",
+      "search_term": "Alta Planning & Design",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "Rejoule Inc",
       "award_amount": 2500000.0,
       "recipient_type": "Business",
       "search_term": "Rejoule",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Rejoule",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "Electric Power Research Institute, Inc",
       "award_amount": 2000000.0,
       "recipient_type": "Business",
       "search_term": "Electric Power Research Institute",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Electric+Power+Research+Institute",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "Sharp Grossmont Hospital Family Medicine Residency Program",
       "award_amount": 2000000.0,
       "recipient_type": "Business",
       "search_term": "Sharp Grossmont Hospital Family Medicine Residency Program",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Sharp+Grossmont+Hospital+Family+Medicine+Residency+Program",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "Brisa Ranch LLC",
       "award_amount": 1994069.0,
       "recipient_type": "Business",
       "search_term": "Brisa Ranch",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Brisa+Ranch",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "McBain Associates",
       "award_amount": 1752000.0,
       "recipient_type": "Business",
       "search_term": "McBain Associates",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=McBain+Associates",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "Raul & Family Farms Inc.",
       "award_amount": 1494708.0,
       "recipient_type": "Business",
-      "search_term": "Raul Family Farms",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Raul+Family+Farms",
+      "search_term": "Raul & Family Farms",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "Horizon Water & Environment",
       "award_amount": 1400000.0,
       "recipient_type": "Business",
-      "search_term": "Horizon Water Environment",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Horizon+Water+Environment",
-      "status": "ACTIVE",
-      "all_statuses": [
-        "ACTIVE"
-      ],
-      "entity_number": null,
-      "registration_date": null
+      "search_term": "Horizon Water & Environment",
+      "source": "sos_api",
+      "status": "NO_RESPONSE",
+      "error": "http 400"
     },
     {
       "recipient": "Thomas J. Koolhaus dba River Oak Dairy",
       "award_amount": 1250000.0,
       "recipient_type": "Business",
       "search_term": "Thomas J Koolhaus dba River Oak Dairy",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Thomas+J+Koolhaus+dba+River+Oak+Dairy",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "Westwood Farms, LLC.",
       "award_amount": 1250000.0,
       "recipient_type": "Business",
       "search_term": "Westwood Farms",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Westwood+Farms",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "The Manuel L. and Adelia M Soares Revocable Family Trust",
       "award_amount": 1249995.0,
       "recipient_type": "Business",
       "search_term": "The Manuel L and Adelia M Soares Revocable Family Trust",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=The+Manuel+L+and+Adelia+M+Soares+Revocable+Family+Trust",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "California State Coastal Conservancy",
       "award_amount": 1000000.0,
       "recipient_type": "Business",
       "search_term": "California State Coastal Conservancy",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=California+State+Coastal+Conservancy",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "3800 WEST SIXTH STREET, LLC",
       "award_amount": 999541.0,
       "recipient_type": "Business",
       "search_term": "3800 WEST SIXTH STREET",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=3800+WEST+SIXTH+STREET",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "HARRISON PACIFIC LLC",
       "award_amount": 996411.0,
       "recipient_type": "Business",
       "search_term": "HARRISON PACIFIC",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=HARRISON+PACIFIC",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "BEACHCOM, LLC",
       "award_amount": 960213.0,
       "recipient_type": "Business",
       "search_term": "BEACHCOM",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=BEACHCOM",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "Napa Recycling & Waste Services, LLC",
       "award_amount": 913700.0,
       "recipient_type": "Business",
-      "search_term": "Napa Recycling Waste Services",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Napa+Recycling+Waste+Services",
+      "search_term": "Napa Recycling & Waste Services",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "GREENWHICH RETAIL INC.",
       "award_amount": 912722.0,
       "recipient_type": "Business",
       "search_term": "GREENWHICH RETAIL",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=GREENWHICH+RETAIL",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "Adventist Health Tulare Family Medicine Residency Program",
       "award_amount": 900000.0,
       "recipient_type": "Business",
       "search_term": "Adventist Health Tulare Family Medicine Residency Program",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Adventist+Health+Tulare+Family+Medicine+Residency+Program",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "St. Joseph's Medical Center Stockton Internal Medicine Residency Program",
       "award_amount": 900000.0,
       "recipient_type": "Business",
       "search_term": "St Joseph s Medical Center Stockton Internal Medicine Residency Program",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=St+Joseph+s+Medical+Center+Stockton+Internal+Medicine+Residency+Program",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "Central Neighborhood Health Foundation Family Medicine Residency Program",
       "award_amount": 800645.0,
       "recipient_type": "Business",
       "search_term": "Central Neighborhood Health Foundation Family Medicine Residency Program",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Central+Neighborhood+Health+Foundation+Family+Medicine+Residency+Program",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "McClelland's Dairy",
       "award_amount": 750000.0,
       "recipient_type": "Business",
       "search_term": "McClelland s Dairy",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=McClelland+s+Dairy",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "Medeiros Dairy Inc",
       "award_amount": 750000.0,
       "recipient_type": "Business",
       "search_term": "Medeiros Dairy",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Medeiros+Dairy",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "Solo Dairy",
       "award_amount": 749995.0,
       "recipient_type": "Business",
       "search_term": "Solo Dairy",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Solo+Dairy",
-      "status": "ACTIVE",
-      "all_statuses": [
-        "ACTIVE"
-      ],
-      "entity_number": null,
-      "registration_date": null
+      "source": "sos_api",
+      "status": "NO_RESPONSE",
+      "error": "http 400"
     },
     {
       "recipient": "Flatland Dairy",
       "award_amount": 749995.0,
       "recipient_type": "Business",
       "search_term": "Flatland Dairy",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Flatland+Dairy",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "Maddox Dairy LLC",
       "award_amount": 749995.0,
       "recipient_type": "Business",
       "search_term": "Maddox Dairy",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Maddox+Dairy",
-      "status": "ACTIVE",
-      "all_statuses": [
-        "ACTIVE"
-      ],
-      "entity_number": null,
-      "registration_date": null
+      "source": "sos_api",
+      "status": "NO_RESPONSE",
+      "error": "http 400"
     },
     {
       "recipient": "Dragt Dairy Farm DBA Milk Maid Dairy",
       "award_amount": 749995.0,
       "recipient_type": "Business",
       "search_term": "Dragt Dairy Farm DBA Milk Maid Dairy",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Dragt+Dairy+Farm+DBA+Milk+Maid+Dairy",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "Lamax Nguyen and Mike Nguyen, A General Partnership",
       "award_amount": 626400.0,
       "recipient_type": "Other Legal Entity",
       "search_term": "Lamax Nguyen and Mike Nguyen A General Partnership",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Lamax+Nguyen+and+Mike+Nguyen+A+General+Partnership",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "Rio Bravo Family Medicine Residency Program",
       "award_amount": 625000.0,
       "recipient_type": "Business",
       "search_term": "Rio Bravo Family Medicine Residency Program",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Rio+Bravo+Family+Medicine+Residency+Program",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "Arrowhead Regional Medical Center Family Medicine Residency Program",
       "award_amount": 625000.0,
       "recipient_type": "Business",
       "search_term": "Arrowhead Regional Medical Center Family Medicine Residency Program",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Arrowhead+Regional+Medical+Center+Family+Medicine+Residency+Program",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "Emanate Health Family Medicine Residency Program",
       "award_amount": 625000.0,
       "recipient_type": "Business",
       "search_term": "Emanate Health Family Medicine Residency Program",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Emanate+Health+Family+Medicine+Residency+Program",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "Contra Costa County Family Medicine Residency Program",
       "award_amount": 625000.0,
       "recipient_type": "Business",
       "search_term": "Contra Costa County Family Medicine Residency Program",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Contra+Costa+County+Family+Medicine+Residency+Program",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "Loma Linda - Inland Empire Consortium for Healthcare Education, Family Medicine Residency Program",
       "award_amount": 625000.0,
       "recipient_type": "Business",
       "search_term": "Loma Linda Inland Empire Consortium for Healthcare Education Family Medicine Residency Program",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Loma+Linda+Inland+Empire+Consortium+for+Healthcare+Education+Family+Medicine+Residency+Program",
-      "status": "ACTIVE",
-      "all_statuses": [
-        "ACTIVE"
-      ],
-      "entity_number": null,
-      "registration_date": null
+      "source": "sos_api",
+      "status": "NO_RESPONSE",
+      "error": "http 400"
     },
     {
       "recipient": "Adventist Health Hanford Family Medicine Residency Program",
       "award_amount": 625000.0,
       "recipient_type": "Business",
       "search_term": "Adventist Health Hanford Family Medicine Residency Program",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Adventist+Health+Hanford+Family+Medicine+Residency+Program",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "Arrowhead Regional Medical Center Internal Medicine Program",
       "award_amount": 625000.0,
       "recipient_type": "Business",
       "search_term": "Arrowhead Regional Medical Center Internal Medicine Program",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Arrowhead+Regional+Medical+Center+Internal+Medicine+Program",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "Loma Linda - Inland Empire Consortium for Healthcare Education, OB/GYN Residency Program",
       "award_amount": 625000.0,
       "recipient_type": "Business",
       "search_term": "Loma Linda Inland Empire Consortium for Healthcare Education OB GYN Residency Program",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Loma+Linda+Inland+Empire+Consortium+for+Healthcare+Education+OB+GYN+Residency+Program",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "Martin Luther King Jr. Community Hospital Internal Medicine Residency Program",
       "award_amount": 625000.0,
       "recipient_type": "Business",
       "search_term": "Martin Luther King Jr Community Hospital Internal Medicine Residency Program",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Martin+Luther+King+Jr+Community+Hospital+Internal+Medicine+Residency+Program",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "Loma Linda University Medical Center - Murrieta Family Medicine Residency Program",
       "award_amount": 625000.0,
       "recipient_type": "Business",
       "search_term": "Loma Linda University Medical Center Murrieta Family Medicine Residency Program",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Loma+Linda+University+Medical+Center+Murrieta+Family+Medicine+Residency+Program",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "Mercy Medical Center Merced Family Medicine Residency Program",
       "award_amount": 625000.0,
       "recipient_type": "Business",
       "search_term": "Mercy Medical Center Merced Family Medicine Residency Program",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Mercy+Medical+Center+Merced+Family+Medicine+Residency+Program",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "Valley Family Medicine Residency of Modesto",
       "award_amount": 625000.0,
       "recipient_type": "Business",
       "search_term": "Valley Family Medicine Residency of Modesto",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Valley+Family+Medicine+Residency+of+Modesto",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "Centinela Hospital Medical Center Internal Medicine Residency Program",
       "award_amount": 625000.0,
       "recipient_type": "Business",
       "search_term": "Centinela Hospital Medical Center Internal Medicine Residency Program",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Centinela+Hospital+Medical+Center+Internal+Medicine+Residency+Program",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "Loma Linda - Inland Empire Consortium for Healthcare Education, Pediatrics Residency Program",
       "award_amount": 625000.0,
       "recipient_type": "Business",
       "search_term": "Loma Linda Inland Empire Consortium for Healthcare Education Pediatrics Residency Program",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Loma+Linda+Inland+Empire+Consortium+for+Healthcare+Education+Pediatrics+Residency+Program",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "California Hospital Medical Center Family Medicine Residency Program",
       "award_amount": 625000.0,
       "recipient_type": "Business",
       "search_term": "California Hospital Medical Center Family Medicine Residency Program",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=California+Hospital+Medical+Center+Family+Medicine+Residency+Program",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "Charles R Drew University of Medicine and Science, Internal Medicine Residency Program",
       "award_amount": 625000.0,
       "recipient_type": "Business",
       "search_term": "Charles R Drew University of Medicine and Science Internal Medicine Residency Program",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Charles+R+Drew+University+of+Medicine+and+Science+Internal+Medicine+Residency+Program",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "San Joaquin General Hospital Family Medicine Residency Program",
       "award_amount": 625000.0,
       "recipient_type": "Business",
       "search_term": "San Joaquin General Hospital Family Medicine Residency Program",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=San+Joaquin+General+Hospital+Family+Medicine+Residency+Program",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "Scripps Mercy Hospital, Chula Vista FM Residency Program",
       "award_amount": 625000.0,
       "recipient_type": "Business",
       "search_term": "Scripps Mercy Hospital Chula Vista FM Residency Program",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Scripps+Mercy+Hospital+Chula+Vista+FM+Residency+Program",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "Natividad Medical Center Family Medicine Residency Program",
       "award_amount": 625000.0,
       "recipient_type": "Business",
       "search_term": "Natividad Medical Center Family Medicine Residency Program",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Natividad+Medical+Center+Family+Medicine+Residency+Program",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "5775 W ADAMS LLC",
       "award_amount": 551970.0,
       "recipient_type": "Business",
       "search_term": "5775 W ADAMS",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=5775+W+ADAMS",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "Russian River Utility",
       "award_amount": 512765.0,
       "recipient_type": "Business",
       "search_term": "Russian River Utility",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Russian+River+Utility",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "Valley Health Team Family Medicine Residency Program",
       "award_amount": 500000.0,
       "recipient_type": "Business",
       "search_term": "Valley Health Team Family Medicine Residency Program",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Valley+Health+Team+Family+Medicine+Residency+Program",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "Loma Linda University Health Education Consortium - Internal Medicine Program",
       "award_amount": 500000.0,
       "recipient_type": "Business",
       "search_term": "Loma Linda University Health Education Consortium Internal Medicine Program",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Loma+Linda+University+Health+Education+Consortium+Internal+Medicine+Program",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "North East Medical Services Internal Medicine Residency Program",
       "award_amount": 500000.0,
       "recipient_type": "Business",
       "search_term": "North East Medical Services Internal Medicine Residency Program",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=North+East+Medical+Services+Internal+Medicine+Residency+Program",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "UHS Southern California Medical Education Consortium Family Medicine Residency Program",
       "award_amount": 500000.0,
       "recipient_type": "Business",
       "search_term": "UHS Southern California Medical Education Consortium Family Medicine Residency Program",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=UHS+Southern+California+Medical+Education+Consortium+Family+Medicine+Residency+Program",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "Loma Linda University Pediatric Primary Care Track",
       "award_amount": 500000.0,
       "recipient_type": "Business",
       "search_term": "Loma Linda University Pediatric Primary Care Track",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Loma+Linda+University+Pediatric+Primary+Care+Track",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "Family Health Centers of San Diego Family Medicine Residency Program",
       "award_amount": 500000.0,
       "recipient_type": "Business",
       "search_term": "Family Health Centers of San Diego Family Medicine Residency Program",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Family+Health+Centers+of+San+Diego+Family+Medicine+Residency+Program",
-      "status": "ACTIVE",
-      "all_statuses": [
-        "ACTIVE"
-      ],
-      "entity_number": null,
-      "registration_date": null
+      "source": "sos_api",
+      "status": "NO_RESPONSE",
+      "error": "http 400"
     },
     {
       "recipient": "Los Angeles Community College District",
       "award_amount": 499994.0,
       "recipient_type": "Other Legal Entity",
       "search_term": "Los Angeles Community College District",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Los+Angeles+Community+College+District",
-      "status": "ACTIVE",
-      "all_statuses": [
-        "ACTIVE"
-      ],
-      "entity_number": null,
-      "registration_date": null
+      "source": "sos_api",
+      "status": "NO_RESPONSE",
+      "error": "http 400"
     },
     {
       "recipient": "Golden State Water Company",
       "award_amount": 470859.0,
       "recipient_type": "Business",
       "search_term": "Golden State Water Company",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Golden+State+Water+Company",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "Cazadero Water Company, Inc.",
       "award_amount": 431954.0,
       "recipient_type": "Business",
       "search_term": "Cazadero Water Company",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Cazadero+Water+Company",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "LifeLong Medical Care Family Medicine Residency Program",
       "award_amount": 375000.0,
       "recipient_type": "Business",
       "search_term": "LifeLong Medical Care Family Medicine Residency Program",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=LifeLong+Medical+Care+Family+Medicine+Residency+Program",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "AltaMed Family Medicine Residency Program",
       "award_amount": 375000.0,
       "recipient_type": "Business",
       "search_term": "AltaMed Family Medicine Residency Program",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=AltaMed+Family+Medicine+Residency+Program",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "Santa Rosa Family Medicine Residency Program",
       "award_amount": 375000.0,
       "recipient_type": "Business",
       "search_term": "Santa Rosa Family Medicine Residency Program",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Santa+Rosa+Family+Medicine+Residency+Program",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "NEW SEASON COMMUNITY DEVELOPMENT CORPORATION",
       "award_amount": 316715.0,
       "recipient_type": "Business",
       "search_term": "NEW SEASON COMMUNITY DEVELOPMENT CORPORATION",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=NEW+SEASON+COMMUNITY+DEVELOPMENT+CORPORATION",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "Paul Zerbe, Soil Health Lab LLC",
       "award_amount": 301589.0,
       "recipient_type": "Business",
       "search_term": "Paul Zerbe Soil Health Lab",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Paul+Zerbe+Soil+Health+Lab",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "616 IMPERIAL, LLC",
       "award_amount": 292876.0,
       "recipient_type": "Business",
       "search_term": "616 IMPERIAL",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=616+IMPERIAL",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "MEHREEN PROPERTIES, LLC",
       "award_amount": 288671.0,
       "recipient_type": "Business",
       "search_term": "MEHREEN PROPERTIES",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=MEHREEN+PROPERTIES",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "Thompson Land Management, LLC.",
       "award_amount": 270451.0,
       "recipient_type": "Business",
       "search_term": "Thompson Land Management",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Thompson+Land+Management",
-      "status": "ACTIVE",
-      "all_statuses": [
-        "ACTIVE"
-      ],
-      "entity_number": null,
-      "registration_date": null
+      "source": "sos_api",
+      "status": "NO_RESPONSE",
+      "error": "http 400"
     },
     {
       "recipient": "BREITBARD PROPERTIES, LLC",
       "award_amount": 260291.0,
       "recipient_type": "Business",
       "search_term": "BREITBARD PROPERTIES",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=BREITBARD+PROPERTIES",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "San Ysidro Health Internal Medicine Residency Program",
       "award_amount": 250000.0,
       "recipient_type": "Business",
       "search_term": "San Ysidro Health Internal Medicine Residency Program",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=San+Ysidro+Health+Internal+Medicine+Residency+Program",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "Sherman Produce Market",
       "award_amount": 250000.0,
       "recipient_type": "Business",
       "search_term": "Sherman Produce Market",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Sherman+Produce+Market",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "Shasta Community Health Center Family Medicine Residency Training Program",
       "award_amount": 250000.0,
       "recipient_type": "Business",
       "search_term": "Shasta Community Health Center Family Medicine Residency Training Program",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Shasta+Community+Health+Center+Family+Medicine+Residency+Training+Program",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "McCall Dairy",
       "award_amount": 242570.0,
       "recipient_type": "Business",
       "search_term": "McCall Dairy",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=McCall+Dairy",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "LEXLUX ASSOCIATES, LP",
       "award_amount": 222621.0,
       "recipient_type": "Business",
       "search_term": "LEXLUX ASSOCIATES",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=LEXLUX+ASSOCIATES",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "PARAMOUNT STATION, INC.",
       "award_amount": 209753.0,
       "recipient_type": "Business",
       "search_term": "PARAMOUNT STATION",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=PARAMOUNT+STATION",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "TEND THE GARDEN, INC.",
       "award_amount": 201467.0,
       "recipient_type": "Business",
       "search_term": "TEND THE GARDEN",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=TEND+THE+GARDEN",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "El Dorado Coalition for Overdose Prevention and Education (COPE)",
       "award_amount": 200000.0,
       "recipient_type": "Business",
       "search_term": "El Dorado Coalition for Overdose Prevention and Education COPE",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=El+Dorado+Coalition+for+Overdose+Prevention+and+Education+COPE",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "CMW WELDING",
       "award_amount": 198409.0,
       "recipient_type": "Business",
       "search_term": "CMW WELDING",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=CMW+WELDING",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "Catherine Howard",
       "award_amount": 177611.0,
       "recipient_type": "Business",
       "search_term": "Catherine Howard",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Catherine+Howard",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "Yery Olivares",
       "award_amount": 177611.0,
       "recipient_type": "Business",
       "search_term": "Yery Olivares",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Yery+Olivares",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "Tate Hill",
       "award_amount": 177611.0,
       "recipient_type": "Business",
       "search_term": "Tate Hill",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Tate+Hill",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "Liset Puentas",
       "award_amount": 177611.0,
       "recipient_type": "Business",
       "search_term": "Liset Puentas",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Liset+Puentas",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     },
     {
       "recipient": "Chris Call",
       "award_amount": 177611.0,
       "recipient_type": "Business",
       "search_term": "Chris Call",
-      "search_url": "https://opencorporates.com/companies/us_ca?q=Chris+Call",
+      "source": "sos_api",
       "status": "NO_RESPONSE",
-      "details": []
+      "error": "http 400"
     }
   ]
 }

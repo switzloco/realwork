@@ -63,3 +63,137 @@
 {"type": "unlock", "url": "https://opencorporates.com/companies/us_ca?q=rPlanet+Earth+Los+Angeles", "error": "HTTPSConnectionPool(host='api.brightdata.com', port=443): Read timed out. (read timeout=60)", "cost": 0}
 {"type": "unlock", "url": "https://opencorporates.com/companies/us_ca?q=Napa+Pueblo", "status": 200, "size": 20198, "cost": 0.0015}
 {"type": "unlock", "url": "https://opencorporates.com/companies/us_ca?q=Electrochemistry+Foundry", "error": "HTTPSConnectionPool(host='api.brightdata.com', port=443): Read timed out. (read timeout=60)", "cost": 0}
+{"type": "sos_api", "name": "Suarez Holdings", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Suarez Holdings", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "unlock", "url": "https://opencorporates.com/companies/us_ca?q=Suarez+Holdings", "error": "HTTPSConnectionPool(host='api.brightdata.com', port=443): Read timed out. (read timeout=60)", "cost": 0}
+{"type": "sos_api", "name": "BHE Renewables", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Robert Bosch Semiconductor", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Sparkz", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Applied Materials", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Lam Research", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "PSGM3 Pacific Steel Group", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Element Lancaster 1", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Figure AI", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Archer Aviation", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Joby Aero", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "44049 Sierra Hwy Propco", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Harbinger Motors", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Toro Energy of California AA", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Infinera Corporation", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Maclay Investments", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "rPlanet Earth Los Angeles", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Napa Pueblo", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Electrochemistry Foundry", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "525 Water Street", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "AggrePlex of Modesto", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "A to be determined Limited Partnership", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Signet Central Coast", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Bakersfield Renewable Fuels", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Lam Research Corporation", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Intuitive Surgical", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Greg Kelley", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "H2B2 USA", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Mango Materials", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Joby Aero", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Biofuels Coyote Canyon BioGas", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "CalBioGas Fresno", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Imperial Manor Skilled Nursing", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Brian Waters", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Tandem PV", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Trojan Battery Company", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "All Weather Architectural Aluminum", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "6799 Skyway", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "439 S 4th St", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "SANCO Services L P", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Redwood Quality Management Company", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "HieFo Corporation", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Saggio Hills Lot 3", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Good Samaritan Hospital A California Limited Partnership", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "233 N 2nd", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Rincell Corporation", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "PacifiCorp", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "5E Boron Americas", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "California Legacy Well Services", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Tule Basin Water Foundation", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Watershed Conservation Authority", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "1431 & 1433 Huntington Drive", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Alta Planning & Design", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Rejoule", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Electric Power Research Institute", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Sharp Grossmont Hospital Family Medicine Residency Program", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Brisa Ranch", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "McBain Associates", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Raul & Family Farms", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Horizon Water & Environment", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Thomas J Koolhaus dba River Oak Dairy", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Westwood Farms", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "The Manuel L and Adelia M Soares Revocable Family Trust", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "California State Coastal Conservancy", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "3800 WEST SIXTH STREET", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "HARRISON PACIFIC", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "BEACHCOM", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Napa Recycling & Waste Services", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "GREENWHICH RETAIL", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Adventist Health Tulare Family Medicine Residency Program", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "St Joseph s Medical Center Stockton Internal Medicine Residency Program", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Central Neighborhood Health Foundation Family Medicine Residency Program", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "McClelland s Dairy", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Medeiros Dairy", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Solo Dairy", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Flatland Dairy", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Maddox Dairy", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Dragt Dairy Farm DBA Milk Maid Dairy", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Lamax Nguyen and Mike Nguyen A General Partnership", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Rio Bravo Family Medicine Residency Program", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Arrowhead Regional Medical Center Family Medicine Residency Program", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Emanate Health Family Medicine Residency Program", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Contra Costa County Family Medicine Residency Program", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Loma Linda Inland Empire Consortium for Healthcare Education Family Medicine Residency Program", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Adventist Health Hanford Family Medicine Residency Program", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Arrowhead Regional Medical Center Internal Medicine Program", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Loma Linda Inland Empire Consortium for Healthcare Education OB GYN Residency Program", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Martin Luther King Jr Community Hospital Internal Medicine Residency Program", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Loma Linda University Medical Center Murrieta Family Medicine Residency Program", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Mercy Medical Center Merced Family Medicine Residency Program", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Valley Family Medicine Residency of Modesto", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Centinela Hospital Medical Center Internal Medicine Residency Program", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Loma Linda Inland Empire Consortium for Healthcare Education Pediatrics Residency Program", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "California Hospital Medical Center Family Medicine Residency Program", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Charles R Drew University of Medicine and Science Internal Medicine Residency Program", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "San Joaquin General Hospital Family Medicine Residency Program", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Scripps Mercy Hospital Chula Vista FM Residency Program", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Natividad Medical Center Family Medicine Residency Program", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "5775 W ADAMS", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Russian River Utility", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Valley Health Team Family Medicine Residency Program", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Loma Linda University Health Education Consortium Internal Medicine Program", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "North East Medical Services Internal Medicine Residency Program", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "UHS Southern California Medical Education Consortium Family Medicine Residency Program", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Loma Linda University Pediatric Primary Care Track", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Family Health Centers of San Diego Family Medicine Residency Program", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Los Angeles Community College District", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Golden State Water Company", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Cazadero Water Company", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "LifeLong Medical Care Family Medicine Residency Program", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "AltaMed Family Medicine Residency Program", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Santa Rosa Family Medicine Residency Program", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "NEW SEASON COMMUNITY DEVELOPMENT CORPORATION", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Paul Zerbe Soil Health Lab", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "616 IMPERIAL", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "MEHREEN PROPERTIES", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Thompson Land Management", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "BREITBARD PROPERTIES", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "San Ysidro Health Internal Medicine Residency Program", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Sherman Produce Market", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Shasta Community Health Center Family Medicine Residency Training Program", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "McCall Dairy", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "LEXLUX ASSOCIATES", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "PARAMOUNT STATION", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "TEND THE GARDEN", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "El Dorado Coalition for Overdose Prevention and Education COPE", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "CMW WELDING", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Catherine Howard", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Yery Olivares", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Tate Hill", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Liset Puentas", "status": 400, "size": 332, "cost": 0.0015}
+{"type": "sos_api", "name": "Chris Call", "status": 400, "size": 332, "cost": 0.0015}

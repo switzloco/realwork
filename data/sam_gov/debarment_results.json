@@ -1,0 +1,3849 @@
+{
+  "checked": 640,
+  "debarred_count": 0,
+  "possible_count": 0,
+  "debarred": [],
+  "possible_debarment": [],
+  "all_results": [
+    {
+      "name": "University of Southern California",
+      "amount": 600000000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Stanford Health Care (SHC)",
+      "amount": 460000000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Providence St. Joseph Health (Providence)",
+      "amount": 365000000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Stanford University",
+      "amount": 319000000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "BHE Renewables, LLC",
+      "amount": 236966824.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Robert Bosch Semiconductor LLC",
+      "amount": 235000000.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Sparkz Inc.",
+      "amount": 177725118.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Applied Materials, Inc.",
+      "amount": 156000000.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Tarzana Treatment Centers, Inc.",
+      "amount": 145180517.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Lam Research Corp",
+      "amount": 137000000.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "PSGM3, LLC (Pacific Steel Group)",
+      "amount": 118483412.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Element Lancaster 1 LLC",
+      "amount": 118483412.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Figure AI Inc.",
+      "amount": 117771409.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Archer Aviation, Inc.",
+      "amount": 117250000.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Joby Aero, Inc.",
+      "amount": 100623218.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "44049 Sierra Hwy Propco LLC",
+      "amount": 84665662.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Harbinger Motors Inc.",
+      "amount": 64153481.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Special Service for Groups, Inc.",
+      "amount": 54364924.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Toro Energy of California AA, LLC",
+      "amount": 48500000.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Infinera Corporation",
+      "amount": 46000000.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Maclay Investments, LLC",
+      "amount": 44497670.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "rPlanet Earth Los Angeles, LLC",
+      "amount": 42550000.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Homeboy Industries",
+      "amount": 32069771.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Napa Pueblo LLC",
+      "amount": 28178650.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Electrochemistry Foundry, Inc.\u200b",
+      "amount": 28000000.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "525 Water Street LP",
+      "amount": 26780431.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "AggrePlex of Modesto LLC",
+      "amount": 26522315.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "A to be determined Limited Partnership",
+      "amount": 26112880.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Signet Central Coast, LLC",
+      "amount": 25000000.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Bakersfield Renewable Fuels, LLC",
+      "amount": 23696000.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Lam Research Corporation",
+      "amount": 23600000.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Intuitive Surgical, Inc.",
+      "amount": 23500000.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Greg Kelley",
+      "amount": 23500000.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "H2B2 USA, LLC",
+      "amount": 23300000.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Mango Materials, Inc.",
+      "amount": 23065760.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Joby Aero, Inc",
+      "amount": 22704008.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Biofuels Coyote Canyon BioGas, LLC",
+      "amount": 22649688.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "CalBioGas Fresno, LLC",
+      "amount": 21358784.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Imperial Manor Skilled Nursing, Inc",
+      "amount": 19518209.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Asian American Drug Abuse Program, Inc. (AADAP)",
+      "amount": 19498098.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Brian Waters",
+      "amount": 18000000.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Tandem PV, Inc.",
+      "amount": 17500000.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Trojan Battery Company, LLC",
+      "amount": 16500000.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "All Weather Architectural Aluminum Inc.",
+      "amount": 14700000.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "6799 Skyway LP",
+      "amount": 13905414.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "439 S 4th St LLC",
+      "amount": 13826271.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "SANCO Services, L.P.",
+      "amount": 13613115.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Redwood Quality Management Company, Inc.",
+      "amount": 13505638.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "HieFo Corporation",
+      "amount": 13500000.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Saggio Hills Lot 3, LP",
+      "amount": 13448206.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Good Samaritan Hospital, A California Limited Partnership",
+      "amount": 13340186.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "233 N 2nd LP",
+      "amount": 13292809.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Rincell Corporation",
+      "amount": 13209100.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Trout Unlimited, Inc.",
+      "amount": 12566497.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "PacifiCorp",
+      "amount": 12372528.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Big Sur Land Trust",
+      "amount": 12064653.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "St. John's Community Health",
+      "amount": 11500000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "5E Boron Americas LLC",
+      "amount": 11473423.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "California Waterfowl Association",
+      "amount": 8732887.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "California Legacy Well Services, LLC",
+      "amount": 7555327.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Tule Basin Water Foundation",
+      "amount": 6718264.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "The Happier Life Project",
+      "amount": 6412325.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Watershed Conservation Authority",
+      "amount": 5773492.0,
+      "recipient_type": "Other Legal Entity",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Defy Ventures",
+      "amount": 5249999.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "TreePeople",
+      "amount": 4966521.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Finish First Academy",
+      "amount": 4750157.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Save the Redwoods League",
+      "amount": 4550000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Golden Gate National Parks Conservancy",
+      "amount": 4549765.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "United Way California Capital Region",
+      "amount": 4500000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Restoring Citizens Program",
+      "amount": 4500000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Mariposa Women and Family Center",
+      "amount": 4500000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Healthy Community Forum for the Greater Sacramento Region dba Community HealthWorks",
+      "amount": 4500000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Family Assistance Program",
+      "amount": 4500000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Contra Costa Interfaith Transitional Housing dba Hope Solutions",
+      "amount": 4500000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Catholic Charities of Santa Clara County",
+      "amount": 4500000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Epidaurus dba Amity Foundation",
+      "amount": 4499999.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Friends Outside",
+      "amount": 4497349.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "WestCare California, Inc.",
+      "amount": 4490964.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Homies Unidos, Inc.",
+      "amount": 4485000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "National Alliance on Mental Illness San Diego and Imperial Counties",
+      "amount": 4470000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Land Together",
+      "amount": 4456234.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Restorative Partners Inc.",
+      "amount": 4410000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Project Rebound at California State University, East Bay",
+      "amount": 4377397.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "The TransLatin@ Coalition",
+      "amount": 4360000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Operation New Hope",
+      "amount": 4289089.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Chances 4 Change, Inc.",
+      "amount": 4024688.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Upper Mokelumne Watershed Authority",
+      "amount": 3986000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Inland Southern California 211+",
+      "amount": 3980456.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "The Gemma Project",
+      "amount": 3760845.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Salmonid Restoration Federation",
+      "amount": 3755988.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "University Enterprises Corporation at CSUSB",
+      "amount": 3662169.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "God's Pantry",
+      "amount": 3629300.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "South Yuba River Citizens League",
+      "amount": 3522011.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Oswit Land Trust",
+      "amount": 3480000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Time for Change Foundation",
+      "amount": 3438491.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "The Roman Catholic Archbishop of Los Angeles, A Corporation Sole",
+      "amount": 3262292.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Vista Community Clinic",
+      "amount": 3077000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Social and Environmental Entrepreneurs (SEE)",
+      "amount": 3014540.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "1431 & 1433 Huntington Drive LLC",
+      "amount": 2990000.0,
+      "recipient_type": "Other Legal Entity",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Goodwill of Silicon Valley",
+      "amount": 2836173.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Project Heart, Inc.",
+      "amount": 2784077.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Smith River Alliance",
+      "amount": 2734659.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Community Action Partnership of Kern",
+      "amount": 2725000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Transitions Mental Health Association",
+      "amount": 2569600.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Alta Planning & Design",
+      "amount": 2563215.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Rejoule Inc",
+      "amount": 2500000.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Joy Trissal",
+      "amount": 2439800.0,
+      "recipient_type": "Individual",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Sanctuary Forest",
+      "amount": 2436000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Scott River Watershed Council",
+      "amount": 2413702.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "CityServe Network",
+      "amount": 2395659.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Center For Living And Learning (CLL)",
+      "amount": 2335822.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Fresno Resiliency Center",
+      "amount": 2317633.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Bakersfield American Indian Health Project",
+      "amount": 2249967.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "BIGA Impact",
+      "amount": 2227866.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "MADD",
+      "amount": 2209800.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Family Dynamics Resource Center",
+      "amount": 2167204.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Salmon River Restoration Council",
+      "amount": 2049991.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "True North Housing Alliance, Inc.",
+      "amount": 2011039.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Electric Power Research Institute, Inc",
+      "amount": 2000000.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Sharp Grossmont Hospital Family Medicine Residency Program",
+      "amount": 2000000.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Saba Grocers Initiative",
+      "amount": 2000000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "North Coast Growers Association",
+      "amount": 2000000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Del Norte and Tribal Lands Community Food Council",
+      "amount": 1999975.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Brisa Ranch LLC",
+      "amount": 1994069.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Community Legal Services in East Palo Alto",
+      "amount": 1935779.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Truckee River Watershed Council",
+      "amount": 1889959.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Ventana Wildlife Society",
+      "amount": 1792010.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Center for Future Global Leaders",
+      "amount": 1762500.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "McBain Associates",
+      "amount": 1752000.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Shasta College Foundation",
+      "amount": 1647558.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Veterans Transition Center of California",
+      "amount": 1634722.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "American Canyon Community and Parks Foundation",
+      "amount": 1614000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Sonoma Land Trust",
+      "amount": 1611700.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "ManifestWorks",
+      "amount": 1594818.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Friends of San Diego Wildlife Refuges, Inc.",
+      "amount": 1518800.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Two Feathers Native American Family Services",
+      "amount": 1500000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Raul & Family Farms Inc.",
+      "amount": 1494708.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Turn 2 U Inc.: Doing Business As: The Last Mile",
+      "amount": 1426194.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Greater Los Angeles Agency on Deafness Inc.",
+      "amount": 1401493.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Horizon Water & Environment",
+      "amount": 1400000.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "California Emerging Technology Fund",
+      "amount": 1372208.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Tahoe Food Hub",
+      "amount": 1352557.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Fresno Economic Opportunities Commission",
+      "amount": 1318652.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Peninsula Open Space Trust",
+      "amount": 1300415.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Peer Voices United",
+      "amount": 1266002.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Thomas J. Koolhaus dba River Oak Dairy",
+      "amount": 1250000.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Westwood Farms, LLC.",
+      "amount": 1250000.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "The Manuel L. and Adelia M Soares Revocable Family Trust",
+      "amount": 1249995.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Ventura County Resource Conservation District",
+      "amount": 1249780.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Eel River Watershed Improvement Group (ERWIG)",
+      "amount": 1248376.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "ABLE Charter",
+      "amount": 1228680.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Indigenous Futures Society",
+      "amount": 1217016.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Earth Island Institute",
+      "amount": 1161193.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Indigenous Justice",
+      "amount": 1150000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Madera Coalition for Community Justice",
+      "amount": 1149675.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Mid Klamath Watershed Council",
+      "amount": 1127568.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Lake County Land Trust",
+      "amount": 1118867.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Los Angeles LGBT Center",
+      "amount": 1097591.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Foothill House of Hospitality dba Hospitality House",
+      "amount": 1096541.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Pathway to Kinship",
+      "amount": 1082100.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Sunday Friends Foundation",
+      "amount": 1061648.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "HUMBOLDT STATE UNIVERSITY SPONSORED PROGRAMS FOUNDATION",
+      "amount": 1051680.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "LOS ANGELES PERFORMANCE PRACTICE",
+      "amount": 1015600.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "San Diego Regional Fire Foundation",
+      "amount": 1012950.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "California State Coastal Conservancy",
+      "amount": 1000000.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "UC Santa Cruz - Dr. Darryl Wong",
+      "amount": 1000000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Center for Urban and Rural Environmental Stewardship",
+      "amount": 1000000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "UC Davis - Dr. Ian Grettenberger",
+      "amount": 1000000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "3800 WEST SIXTH STREET, LLC",
+      "amount": 999541.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "HARRISON PACIFIC LLC",
+      "amount": 996411.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Save California Salmon",
+      "amount": 988680.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Community Outreach Academy",
+      "amount": 965681.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "BEACHCOM, LLC",
+      "amount": 960213.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Stockton Historical Maritime Museum",
+      "amount": 950000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "T.D.D Supportive Living, Inc.",
+      "amount": 945062.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Girls Athletic Leadership School Los Angeles",
+      "amount": 935884.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Napa Recycling & Waste Services, LLC",
+      "amount": 913700.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "GREENWHICH RETAIL INC.",
+      "amount": 912722.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Adventist Health Tulare Family Medicine Residency Program",
+      "amount": 900000.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "St. Joseph's Medical Center Stockton Internal Medicine Residency Program",
+      "amount": 900000.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Unbound Stockton Community School",
+      "amount": 900000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Five Keys Schools and Programs",
+      "amount": 873686.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Alliance Marine - Innovation and Technology 6-12 Complex",
+      "amount": 873585.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Ducks Unlimited",
+      "amount": 859632.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Caliber: ChangeMakers Academy",
+      "amount": 850391.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "ALLIANCE FOR CALIFORNIA TRADITIONAL ARTS",
+      "amount": 850015.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "EmpowHer Institute",
+      "amount": 846308.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "MLIFE dba MLIFE Foundation",
+      "amount": 834660.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "ReEvolution",
+      "amount": 830716.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Gold Ridge Resource Conservation District",
+      "amount": 829942.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "CALIFORNIA ASIAN PACIFIC CHAMBER OF COMMERCE",
+      "amount": 821000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Central Neighborhood Health Foundation Family Medicine Residency Program",
+      "amount": 800645.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Scholarship Prep San Bernardino County",
+      "amount": 800000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Polytechnic Academy",
+      "amount": 800000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "California Republic Leadership Academy Yorba Linda",
+      "amount": 800000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "League of California Community Foundations",
+      "amount": 800000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Digital Equity West",
+      "amount": 793081.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Albert Einstein Academies",
+      "amount": 768906.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "McClelland's Dairy",
+      "amount": 750000.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Medeiros Dairy Inc",
+      "amount": 750000.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Solo Dairy",
+      "amount": 749995.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Flatland Dairy",
+      "amount": 749995.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Maddox Dairy LLC",
+      "amount": 749995.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Dragt Dairy Farm DBA Milk Maid Dairy",
+      "amount": 749995.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Animo Pat Brown",
+      "amount": 742278.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "University of California, Davis",
+      "amount": 741236.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Ventana Wilderness Alliance",
+      "amount": 731586.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Kala Institute",
+      "amount": 721250.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Prison of Peace",
+      "amount": 719844.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Self Determination Initiative",
+      "amount": 719841.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Paws For Life K9 Rescue",
+      "amount": 719841.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Antelope Valley Boots on The Ground Alliance",
+      "amount": 719539.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "ARTS ORANGE COUNTY",
+      "amount": 719250.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Envisioning Justice Solutions, Inc",
+      "amount": 718064.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Root & Rebound",
+      "amount": 717426.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Jesse's Place Organization",
+      "amount": 713257.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "EveryoneOn",
+      "amount": 712531.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Critical Insight",
+      "amount": 690584.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Method Summit Academy",
+      "amount": 690000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Tree's House Soul 4 Sole",
+      "amount": 688214.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Alliance Collins Family College-Ready High",
+      "amount": 669272.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Legacy LA Youth Development Corporation",
+      "amount": 650646.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Social Good Fund",
+      "amount": 647517.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Orange County Coastkeeper",
+      "amount": 628039.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Lamax Nguyen and Mike Nguyen, A General Partnership",
+      "amount": 626400.0,
+      "recipient_type": "Other Legal Entity",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Rio Bravo Family Medicine Residency Program",
+      "amount": 625000.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Arrowhead Regional Medical Center Family Medicine Residency Program",
+      "amount": 625000.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Emanate Health Family Medicine Residency Program",
+      "amount": 625000.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Contra Costa County Family Medicine Residency Program",
+      "amount": 625000.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Loma Linda - Inland Empire Consortium for Healthcare Education, Family Medicine Residency Program",
+      "amount": 625000.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Adventist Health Hanford Family Medicine Residency Program",
+      "amount": 625000.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Arrowhead Regional Medical Center Internal Medicine Program",
+      "amount": 625000.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Loma Linda - Inland Empire Consortium for Healthcare Education, OB/GYN Residency Program",
+      "amount": 625000.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Martin Luther King Jr. Community Hospital Internal Medicine Residency Program",
+      "amount": 625000.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Loma Linda University Medical Center - Murrieta Family Medicine Residency Program",
+      "amount": 625000.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Mercy Medical Center Merced Family Medicine Residency Program",
+      "amount": 625000.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Valley Family Medicine Residency of Modesto",
+      "amount": 625000.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Centinela Hospital Medical Center Internal Medicine Residency Program",
+      "amount": 625000.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Loma Linda - Inland Empire Consortium for Healthcare Education, Pediatrics Residency Program",
+      "amount": 625000.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "California Hospital Medical Center Family Medicine Residency Program",
+      "amount": 625000.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Charles R Drew University of Medicine and Science, Internal Medicine Residency Program",
+      "amount": 625000.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "San Joaquin General Hospital Family Medicine Residency Program",
+      "amount": 625000.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Scripps Mercy Hospital, Chula Vista FM Residency Program",
+      "amount": 625000.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Natividad Medical Center Family Medicine Residency Program",
+      "amount": 625000.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Aspire Langston Hughes Academy",
+      "amount": 624775.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Earth Team",
+      "amount": 623466.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Animo Inglewood Charter High",
+      "amount": 614395.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Alliance Gertz-Ressler Richard Merkin 6-12 Complex",
+      "amount": 607793.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Citizens of the World Charter School Mar Vista",
+      "amount": 606781.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Alliance Ouchi-O'Donovan 6-12 Complex",
+      "amount": 606750.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Semillas Sociedad Civil",
+      "amount": 600000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Citizens of the World Charter School Silver Lake",
+      "amount": 596128.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Klamath River Renewal Corporation",
+      "amount": 582915.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Creek Lands Conservation",
+      "amount": 582511.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Almond Acres Charter Academy",
+      "amount": 582485.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Victims of Injustice DBA Life Support Alliance",
+      "amount": 577886.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "After Life Initiative",
+      "amount": 573331.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Alliance Renee and Meyer Luskin Academy High",
+      "amount": 561976.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Citizens of the World Charter School East Valley",
+      "amount": 561245.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "5775 W ADAMS LLC",
+      "amount": 551970.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Alliance Marc & Eva Stern Math and Science",
+      "amount": 550603.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Yu Ming Charter School",
+      "amount": 550000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Aspire Richmond Ca. College Preparatory Academy",
+      "amount": 545912.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Literacy for Environmental Justice",
+      "amount": 545685.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "MOUSSA MATAR",
+      "amount": 541251.0,
+      "recipient_type": "Individual",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "California School of the Arts - San Gabriel Valley",
+      "amount": 541095.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Red Ladder Theatre Company",
+      "amount": 540479.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Animo South Los Angeles Charter",
+      "amount": 528082.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "YES Nature to Neighborhoods",
+      "amount": 519553.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Russian River Utility",
+      "amount": 512765.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "College Preparatory Middle",
+      "amount": 508432.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Valley Health Team Family Medicine Residency Program",
+      "amount": 500000.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Loma Linda University Health Education Consortium - Internal Medicine Program",
+      "amount": 500000.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "North East Medical Services Internal Medicine Residency Program",
+      "amount": 500000.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "UHS Southern California Medical Education Consortium Family Medicine Residency Program",
+      "amount": 500000.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Loma Linda University Pediatric Primary Care Track",
+      "amount": 500000.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Family Health Centers of San Diego Family Medicine Residency Program",
+      "amount": 500000.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "United for Justice, Inc",
+      "amount": 500000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "The Sac EJ Coalition",
+      "amount": 500000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "SLO Climate Coalition",
+      "amount": 500000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Rose Foundation for Communities and the Environment",
+      "amount": 500000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Social and Environmental EntrepreneursCalifornians for Pesticide Reform",
+      "amount": 500000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "OneOC_2Tech",
+      "amount": 500000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Marie Harrison Community Foundation Inc.",
+      "amount": 500000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Leadership Counsel for Justice and Accountability",
+      "amount": 500000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Lifers Leaving A Legacy",
+      "amount": 500000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Little Manila Foundation",
+      "amount": 500000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Greenaction for Health and Environmental Justice",
+      "amount": 500000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Climate Resolve",
+      "amount": 500000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Climate First Replacing Oil & Gas",
+      "amount": 500000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Center on Race, Poverty and the Environment",
+      "amount": 500000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Central California Asthma Collaborative_1Focus",
+      "amount": 500000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Central California Asthma Collaborative_2Tech",
+      "amount": 500000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Bayview Concerned Citizens",
+      "amount": 500000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Restore 180",
+      "amount": 500000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Ocean Discovery Institute",
+      "amount": 500000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Alliance for Community Empowerment, Inc.",
+      "amount": 500000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Latitude High School (Education for Change)",
+      "amount": 500000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Social Advocates for Youth, San Diego, Inc.",
+      "amount": 500000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "R.M Pyles Boys Camp",
+      "amount": 500000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Boys & Girls Clubs of San Francisco",
+      "amount": 500000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Newport Bay Naturalist & Friends",
+      "amount": 500000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Multi-Ethnic Collaborative of Community Agencies",
+      "amount": 500000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Mono Lake Foundation",
+      "amount": 500000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Trybe, Inc.",
+      "amount": 500000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Aim High for High School",
+      "amount": 500000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "San Diego Canyonlands, Inc",
+      "amount": 500000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Jewish Big Brothers Big Sisters of Los Angeles and the Foundation for Camp Bob Waldorf",
+      "amount": 500000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Watts Labor Community Action Committee",
+      "amount": 500000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Outdoor Outreach",
+      "amount": 500000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Lao Family Community Development, Inc.",
+      "amount": 499999.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Los Angeles Community College District",
+      "amount": 499994.0,
+      "recipient_type": "Other Legal Entity",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "West Oakland Environmental Indicators Project",
+      "amount": 499992.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "San Leandro 2050",
+      "amount": 499990.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Sequoia Riverlands Trust",
+      "amount": 499809.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Coastal Quest_Rise South City",
+      "amount": 499793.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Central Coast Alliance United for a Sustainable Economy (CAUSE)",
+      "amount": 499760.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Rodeo Citizens Association (RCA)",
+      "amount": 499529.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Owens Valley Indian Water Commission",
+      "amount": 498960.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Center for Land-Based Learning",
+      "amount": 498737.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Binational of Central California",
+      "amount": 498615.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Higher Ground Neighborhood Development Corp.",
+      "amount": 498495.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Enterprise for Youth",
+      "amount": 498429.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Bella Mente Montessori Academy",
+      "amount": 498408.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Breathe Southern California",
+      "amount": 496617.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Aspire Richmond Technology Academy",
+      "amount": 496381.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "The Urban Association of Forestry and Fire Professionals, Inc. DBA the Forestry and Fire Recruitment Program",
+      "amount": 493415.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "ARISE High",
+      "amount": 491037.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Happy Trails for Kids",
+      "amount": 485250.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Animo Florence-Firestone Charter Middle",
+      "amount": 484936.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Alliance Ted K. Tajima High",
+      "amount": 482703.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Aspire East Palo Alto Charter",
+      "amount": 473631.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Kounkuey Design Initiative",
+      "amount": 473107.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Mule Deer Foundation",
+      "amount": 472490.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Aspire Pacific Academy",
+      "amount": 472069.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "KERN DANCE ALLIANCE",
+      "amount": 471000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Arts In Action Community Charter",
+      "amount": 470869.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Golden State Water Company",
+      "amount": 470859.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "CHAMPS - Charter HS of Arts-Multimedia & Performing",
+      "amount": 468296.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "San Luis Obispo Beaver Brigade",
+      "amount": 455132.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Deaf Counseling, Advocacy and Referral Agency",
+      "amount": 454955.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Aspire Golden State College Preparatory Academy",
+      "amount": 453113.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Active San Gabriel Valley",
+      "amount": 447876.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "City Language Immersion Charter",
+      "amount": 446050.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Multicultural Education for Resource Issues Threatening Oceans Foundation Inc. DBA MERITO Foundation Inc.",
+      "amount": 444490.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Animo Watts College Preparatory Academy",
+      "amount": 444058.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "The Student Conservation Association",
+      "amount": 443131.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Alliance Cindy and Bill Simon Technology Academy High",
+      "amount": 439587.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Delhi Center",
+      "amount": 436835.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Groundwork San Diego - Chollas Creek",
+      "amount": 435264.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "UNIDOS Network Inc",
+      "amount": 431982.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Cazadero Water Company, Inc.",
+      "amount": 431954.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Citizens of the World Charter School West Valley",
+      "amount": 430787.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Preserving the Culture for All",
+      "amount": 426850.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Central California Family Crisis Center, Inc.",
+      "amount": 426127.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Animo James B. Taylor Charter Middle",
+      "amount": 424902.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Project Avary",
+      "amount": 422587.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Prison Arts Collective (Pac): Curatorial Workshop",
+      "amount": 422524.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Bay View Academy",
+      "amount": 420010.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "La Cl\u00ednica de La Raza",
+      "amount": 418990.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "The Vitality Project",
+      "amount": 418598.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "OLD GLOBE THEATRE",
+      "amount": 416104.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "California Creative Learning Academy",
+      "amount": 409734.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Animo Mae Jemison Charter Middle",
+      "amount": 408517.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Community Nature Connection",
+      "amount": 407655.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Academia Moderna",
+      "amount": 405755.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Sustainable Solano",
+      "amount": 404380.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Aspire Vanguard College Preparatory Academy",
+      "amount": 403521.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Loma Linda University Health",
+      "amount": 403200.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Alliance Margaret M. Bloomfield Technology Academy High",
+      "amount": 403148.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Resource Conservation District of Tehama County",
+      "amount": 400000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "IQAir Foundation_CCAEJ",
+      "amount": 400000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Clean Water Fund",
+      "amount": 400000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Aspire University Charter",
+      "amount": 397442.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "CHICO ECONOMIC PLANNING CORPORATION DBA CHICOSTART",
+      "amount": 393921.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Central City Value",
+      "amount": 393501.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Aspire Lionel Wilson College Preparatory Academy",
+      "amount": 393391.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Georgia Institute of Technology",
+      "amount": 388215.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Geeks Without Frontiers",
+      "amount": 387726.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Alliance Judy Ivie Burton Technology Academy High",
+      "amount": 387051.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Alliance Leichtman-Levine Family Foundation Environmental Science High",
+      "amount": 382971.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Aspire APEX Academy",
+      "amount": 382570.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Aspire Benjamin Holt College Preparatory Academy",
+      "amount": 379706.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Alliance Piera Barbaglia Shaheen Health Services Academy",
+      "amount": 378768.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Alliance College-Ready Middle Academy 4",
+      "amount": 375055.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "LifeLong Medical Care Family Medicine Residency Program",
+      "amount": 375000.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "AltaMed Family Medicine Residency Program",
+      "amount": 375000.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Santa Rosa Family Medicine Residency Program",
+      "amount": 375000.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Camino Nuevo Charter Academy",
+      "amount": 371263.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "ARTS COLLABORATIVE OF NEVADA COUNTY",
+      "amount": 370500.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Aspire Port City Academy",
+      "amount": 368804.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Bay Area Technology",
+      "amount": 367453.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Audubon Canyon Ranch",
+      "amount": 367249.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Animo Ellen Ochoa Charter Middle",
+      "amount": 363634.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Alliance Virgil Roberts Leadership Academy",
+      "amount": 362027.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Alliance Kory Hunter Middle",
+      "amount": 362027.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Alliance College-Ready Middle Academy 12",
+      "amount": 362027.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Aspire Arts & Sciences Academy",
+      "amount": 359480.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Alliance Patti And Peter Neuwirth Leadership Academy",
+      "amount": 359111.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "JACK DOELCHER",
+      "amount": 357960.0,
+      "recipient_type": "Individual",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Adventure Risk Challenge",
+      "amount": 357500.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Tuolumne River Preservation Trust",
+      "amount": 355639.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Aspire Benjamin Holt Middle",
+      "amount": 354645.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Animo Ralph Bunche Charter High",
+      "amount": 348296.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Animo Jefferson Charter Middle",
+      "amount": 348296.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Wind Youth Services, Inc.",
+      "amount": 344274.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Aspire Alexander Twilight Secondary Academy",
+      "amount": 340384.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Black Tech Link",
+      "amount": 338264.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "BALBIR SANDHU",
+      "amount": 337045.0,
+      "recipient_type": "Individual",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Aspire Alexander Twilight College Preparatory Academy",
+      "amount": 336651.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Aspire Monarch Academy",
+      "amount": 334483.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Nature Collective",
+      "amount": 333903.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Camino Nuevo High #2",
+      "amount": 330878.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Anahuacalmecac International University Preparatory of North America",
+      "amount": 329462.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Clipped In for Life",
+      "amount": 328796.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Eden Housing, Inc.",
+      "amount": 325478.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Arcata House Partnership",
+      "amount": 321753.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "ARTS COUNCIL SANTA CRUZ COUNTY",
+      "amount": 320250.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Aspire Centennial College Preparatory Academy",
+      "amount": 319743.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Arts in Action Community Middle",
+      "amount": 319693.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "NEW SEASON COMMUNITY DEVELOPMENT CORPORATION",
+      "amount": 316715.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "East Bay Asian Local Development Corporation (EBALDC)",
+      "amount": 315183.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Alliance Susan and Eric Smidt Technology High",
+      "amount": 309950.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Greater Farallones Association",
+      "amount": 308968.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Booker T. Washington Community Service Center",
+      "amount": 308862.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Amador Tuolumne Community Action Agency",
+      "amount": 308546.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Ballington Academy for the Arts and Sciences",
+      "amount": 305862.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "NorCal Services for Deaf",
+      "amount": 305581.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Paul Zerbe, Soil Health Lab LLC",
+      "amount": 301589.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "TEATRO NAGUAL INC",
+      "amount": 300000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Social and Environmental Entrepreneurs_Central Valley Air Quality Coalition",
+      "amount": 300000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Physicians for Social Responsibility-Los Angeles_1",
+      "amount": 300000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Olimpico Learning",
+      "amount": 300000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Just Cities Institute",
+      "amount": 300000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Empower You Edutainment",
+      "amount": 300000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Community Climate Solutions",
+      "amount": 300000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Community Initiatives_CA Safe Schools",
+      "amount": 300000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Central California Environmental Justice Network",
+      "amount": 300000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Building Resilient Communities",
+      "amount": 300000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Catholic Charities of the Diocese of Stockton",
+      "amount": 300000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "The Black Neighborhood",
+      "amount": 300000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "RYSE, Inc",
+      "amount": 300000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "OneOC_1Edu",
+      "amount": 299997.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Communities for a Better Environment",
+      "amount": 299989.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Valley Vision Inc.",
+      "amount": 299800.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Baypoint Preparatory Academy - San Diego",
+      "amount": 295772.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "A Place Called Home",
+      "amount": 295744.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Elkhorn Slough Foundation",
+      "amount": 295735.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Sacramento Native American Health Center, Inc.",
+      "amount": 295380.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "The Open Door Network",
+      "amount": 294725.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "B. Roberto Cruz Leadership Academy",
+      "amount": 294124.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "616 IMPERIAL, LLC",
+      "amount": 292876.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Coalition for Clean Air",
+      "amount": 291685.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "MEHREEN PROPERTIES, LLC",
+      "amount": 288671.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "The Watershed Project",
+      "amount": 287750.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "ACE Esperanza Middle",
+      "amount": 287450.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Blue Oak Charter",
+      "amount": 285480.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Sierra Foothill Conservancy",
+      "amount": 283153.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Morro Coast Audubon Society",
+      "amount": 282442.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Chula Vista Learning Community Charter",
+      "amount": 281970.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "North Coast Opportunities, Inc.",
+      "amount": 280486.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Aspire Stockton 6-12 Secondary Academy",
+      "amount": 279878.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Resources for the Future",
+      "amount": 279166.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Sustainable Economic Enterprises of Los Angeles dba Food Access Los Angeles (SEE-LA;FALA)",
+      "amount": 276159.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Teapot Gardens",
+      "amount": 273051.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Friends of the Los Angeles River",
+      "amount": 272422.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "The Salvation Army",
+      "amount": 271674.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Southern California Mountains Foundation > Urban Conservation Corps of the Inland Empire",
+      "amount": 271086.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Foodwhat Incorporated",
+      "amount": 270518.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Thompson Land Management, LLC.",
+      "amount": 270451.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Academia Avance Charter",
+      "amount": 270015.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "The Land Conservancy of San Luis Obispo County",
+      "amount": 267872.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Alliance College-Ready Middle Academy 8",
+      "amount": 266218.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Redwood Community Services, Inc.",
+      "amount": 264971.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Aspen Ridge Public",
+      "amount": 262256.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Heart & Soul Design Communications Center",
+      "amount": 262180.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "BIPOC Support Foundation",
+      "amount": 261475.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "San Joaquin River Parkway & Conservation Trust",
+      "amount": 261044.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "BREITBARD PROPERTIES, LLC",
+      "amount": 260291.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Alliance Jack H. Skirball Middle",
+      "amount": 260063.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "GREGORY KELISKY",
+      "amount": 258383.0,
+      "recipient_type": "Individual",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Aspire Titan Academy",
+      "amount": 258031.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "American Indian Public Charter School II",
+      "amount": 257511.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "ASIAN, Inc.",
+      "amount": 253027.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Aspire Junior Collegiate Academy",
+      "amount": 251770.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Clovis Global Academy",
+      "amount": 251725.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Aspire Capitol Heights Academy",
+      "amount": 251241.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Girls Athletic Leadership Schools Los Angeles",
+      "amount": 250105.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "College Bridge Academy",
+      "amount": 250021.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "San Ysidro Health Internal Medicine Residency Program",
+      "amount": 250000.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Sherman Produce Market",
+      "amount": 250000.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Shasta Community Health Center Family Medicine Residency Training Program",
+      "amount": 250000.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Alpine Watershed Group",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "R-NOW",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Sacramento Splash",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Yeshiva Ketana of Los Angeles - Vantage Ave.",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Yeshiva Ohr Elchonon Chabad, West Coast Talmudical Seminary",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Yeshiva Gedolah of Los Angeles",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Yeshiva Ketana of Los Angeles - Laurel Canyon",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Vedic Educational and Devotional Academy",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Valley Iraninan Jewish Inc. (VIJC)",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Valley Presbyterian Hospital",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Valley Iranian Jewish Center Inc., dba Eretz Synagogue Cultural Center",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "United Sikh Mission",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Union of Orthodox Jewish Congregations of America",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Union Rescue Mission - Los Angeles",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Touro University, dba Touro College Los Angeles (TCLA)",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Torah Academy of Los Angeles",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Tikvah - Etta & Lazear Israel Center for The Developmentally Disabled, dba ETTA",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "The Rock Church - Elk Grove",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Temple Solel of Northern San Diego County, Inc.",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Temple Beth El and Center",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Temple Beth Ohr of La Mirada",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Temple Judea of West San Fernando Valley",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Temple Ahavat Shalom",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Temple Beth Ami",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Stockton Hindu Cultural and Community Center",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "St. John Vianney Church",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "St. Joachim School - Costa Mesa",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "St. Jerome",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "St. Joachim",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "St. Antony Monastery",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "St. Bonaventure High School",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Sri Guru Ravidass Sabha Sacramento California",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Sri Siddhi Vinayaka Temple Santa Clarita",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Sri Guru Nanak Sikh Temple Yuba City Corporation",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Silicon Valley Academy Project",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "South Bay United Pentecostal Church",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Sikh Temple of Riverside",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Sikh Study Circle, Inc.",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Sikh Gurdwara of Los Angeles Inc.",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Sikh Gurdwara of Los Banos",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Sikh Center San Francisco Bay Area",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Sikh Cultural Society of The High Desert",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Sikh Center of Pacific Coast Selma Inc.",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Sikh Center Porterville",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Sikh Center of Orange County",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Shuvah Beverlywood",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Siddhi Vinayaka Cultural Center Inc. ?\" (Fremont)",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Siddhi Vinayaka Cultural Center Inc. ?\" (Sacramento)",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Shri Guru Ravidas Sabha Bay Area California (Union City)",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Shri Guru Ravidass Sabha Central Valley California (Fresno)",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Shomrei Torah Synagogue - 7355",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Shomrei Torah Synagogue - 7353",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Shalom Institute Camp and Conference Center - Malibu",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Shalhevet High School",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Sephardic Union",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Shaarey Zedek Synagogue and Yeshiva",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "School of The Epiphany",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Sephardic Jewish Community & Brotherhood of Los Angeles",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Santa Barbara Hillel",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Santa Rosa Bible Church",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "San Fernando Valley Hebrew High School, dba Valley Torah High School - Chandler Blvd.",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "San Diego Jewish Academy",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Samuel A. Fryer Yavneh Academy",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "San Carlos School of The Diocese of Monterey Parish & School Operating Corp - Church St.",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Saint Stephen Catholic Parish",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Saiva Siddhantha Ashram",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Saint John Baotist Coptic Orthodox Church",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Saint George The New Martyr ?\" S. Estudillo Ave.",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Saint George The New Martyr ?\" S. Santa Fe",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Sacramento Zoroastrian Association",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Saint Abanoub And Saint Anthony Coptic Orthodox Church",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Saint Andrew's School",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Sacramento LGBT Community Center",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Sacramento Bhartiya Sabha",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Prospect Sierra School - Tapscott Ave.",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Renaissance Parent of Success",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Prospect Sierra School - Avis Dr.",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Pastor of Our Lady of Grace Parish in El Cajon, CA, A Corporation Sole, dba Our Lady of Grace",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Pacific Coast Khalsa Diwan Society Sikh Temple",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Palisades Jewish Early Childhood Center",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Pacific Coast Khalsa Diwan Society Sikh Gurdwara Sahib Stockton",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Our Lady of the Pillar ?\" N. Western Ave.",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Our Lady of Peace School",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Oshman Family Jewish Community Center",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Nur Al-Huda Academy",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Nankana Sahib Foundation",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Muslim Society of Central California",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Nanaksar Darbar Langar Mata Sahib Kaur Ji Inc.",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Mto Shahmaghsoudi School of Islamic Sufism Global Inc.",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Milken Community School ?\" Zeldin's Way",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Mosque and Islamic Center of San Francisco Waqf",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Mesivta of Greater Los Angeles",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Milken Community School - Mulholland Dr.",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "MEM",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Masjid Al Aqabah",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Marjaree Mason Center, Inc.",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Mandir",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Maranatha Chapel",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Kinder Shuvah",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Khalsa Care Foundation",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Judaic Studies of Century City Inc. - W. Pico Blvd.",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Judaic Studies of Century City Inc. - Alcot St.",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Jewish Learning Exchange",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Jewish Student Center",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Jewish Federation of San Diego County",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Jewish Community Free Clinic",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Jewish Community of Ojai",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Jewish Community Center of The East Bay",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Jain Center of Northern California",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Islamic Circle of North America",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Islamic Center of Manteca",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Inland Valley Islamic Society",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Holy Trinity Catholic Church",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Holy Trinity Catholic Parish Center",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Holy Angels School",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Holy Coptic Martyrs Coptic Orthodox Church",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Hillel Hebrew Academy ?\" S. Doheny Dr.",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Hillel Hebrew Academy ?\" W. Olympic Blvd.",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Guru Nanak Sat Sangat of California - 8132",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Gurdwara Singh Sabha Buena Park Inc.",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Guru Granth Sahib Foundation - D St.",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Friends of Chabad Lubavitch, San Diego",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Gindi Maimonides Academy ?\" Los Angeles",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "First Presbyterian Church of Hayward, dba South Hayward Parish",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Faithbyworx Church",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "David & Margaret Home Inc.",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Cornerstone Missionary Baptist Church",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Darulislam Masjid",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Congregation Kol Shofar",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Congregation Bnai Sholom of Contra Costa County",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Congregation B'Nai B'Rith",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Congregation Beth Am - San Diego",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Congregation Am Tikvah",
+      "amount": 250000.0,
+      "recipient_type": "",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "TRINH HOANG",
+      "amount": 245239.0,
+      "recipient_type": "Individual",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "McCall Dairy",
+      "amount": 242570.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "TERRY RIDER",
+      "amount": 237156.0,
+      "recipient_type": "Individual",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "LEXLUX ASSOCIATES, LP",
+      "amount": 222621.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "PARAMOUNT STATION, INC.",
+      "amount": 209753.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "KULWANT SINGH",
+      "amount": 207756.0,
+      "recipient_type": "Individual",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "TEND THE GARDEN, INC.",
+      "amount": 201467.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "El Dorado Coalition for Overdose Prevention and Education (COPE)",
+      "amount": 200000.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "CMW WELDING",
+      "amount": 198409.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "JING JIANG",
+      "amount": 187203.0,
+      "recipient_type": "Individual",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Catherine Howard",
+      "amount": 177611.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Yery Olivares",
+      "amount": 177611.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Tate Hill",
+      "amount": 177611.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Liset Puentas",
+      "amount": 177611.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    },
+    {
+      "name": "Chris Call",
+      "amount": 177611.0,
+      "recipient_type": "Business",
+      "status": "NO_RESPONSE"
+    }
+  ]
+}
