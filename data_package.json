@@ -1,0 +1,1 @@
+{"help": "https://data.ca.gov/api/3/action/help_show?name=package_show", "error": {"__type": "Authorization Error", "message": "Access denied: User  not authorized to read package 482166c0-00b6-4547-8c24-5afaf9cb0c7c"}, "success": false}
