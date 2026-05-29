@@ -406,10 +406,10 @@ def main():
         print(f"  -> {status}")
         if result.get("verdict") == "POSSIBLE_MARKUP_FRAUD":
             for group in result.get("flagged_unit_groups", []):
-                print(f"     ⚠️  {group['unit']}: "
+                print(f"     [FLAG] {group['unit']}: "
                       f"${group['median_implied_unit_price']:.2f}/unit vs "
                       f"market ~${group['market_reference']['median_market_price']:.2f} "
-                      f"= {group['markup_factor']}× markup")
+                      f"= {group['markup_factor']}x markup")
         elif result.get("status") == "NO_QTY_EXTRACTABLE":
             print(f"     Sample descriptions:")
             for d in result.get("sample_descriptions", [])[:3]:
