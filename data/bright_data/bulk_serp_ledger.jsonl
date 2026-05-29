@@ -703,3 +703,703 @@
 {"type": "serp", "query": "\"Chris Call\" (indicted OR convicted OR debarred)", "status": 200, "results": 9, "cost": 0.005}
 {"type": "serp", "query": "\"Chris Call\" linkedin", "status": 200, "results": 10, "cost": 0.005}
 {"type": "serp", "query": "\"Chris Call\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 2, "cost": 0.005}
+{"type": "serp", "query": "\"BHE Renewables, LLC\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"BHE Renewables, LLC\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"BHE Renewables, LLC\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"BHE Renewables, LLC\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"BHE Renewables, LLC\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"Robert Bosch Semiconductor LLC\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Robert Bosch Semiconductor LLC\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Robert Bosch Semiconductor LLC\" (indicted OR convicted OR debarred)", "status": 200, "results": 5, "cost": 0.005}
+{"type": "serp", "query": "\"Robert Bosch Semiconductor LLC\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Robert Bosch Semiconductor LLC\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"Sparkz Inc.\" California", "status": 200, "results": 7, "cost": 0.005}
+{"type": "serp", "query": "\"Sparkz Inc.\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 9, "cost": 0.005}
+{"type": "serp", "query": "\"Sparkz Inc.\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Sparkz Inc.\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Sparkz Inc.\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Applied Materials, Inc.\" California", "status": 200, "results": 9, "cost": 0.005}
+{"type": "serp", "query": "\"Applied Materials, Inc.\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Applied Materials, Inc.\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Applied Materials, Inc.\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Applied Materials, Inc.\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Lam Research Corp\" California", "status": 200, "results": 9, "cost": 0.005}
+{"type": "serp", "query": "\"Lam Research Corp\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Lam Research Corp\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Lam Research Corp\" linkedin", "status": 200, "results": 7, "cost": 0.005}
+{"type": "serp", "query": "\"Lam Research Corp\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"PSGM3, LLC (Pacific Steel Group)\" California", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"PSGM3, LLC (Pacific Steel Group)\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"PSGM3, LLC (Pacific Steel Group)\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"PSGM3, LLC (Pacific Steel Group)\" linkedin", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"PSGM3, LLC (Pacific Steel Group)\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 0, "cost": 0.005}
+{"type": "serp", "query": "\"Element Lancaster 1 LLC\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Element Lancaster 1 LLC\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Element Lancaster 1 LLC\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Element Lancaster 1 LLC\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Element Lancaster 1 LLC\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Figure AI Inc.\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Figure AI Inc.\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Figure AI Inc.\" (indicted OR convicted OR debarred)", "status": 200, "results": 7, "cost": 0.005}
+{"type": "serp", "query": "\"Figure AI Inc.\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Figure AI Inc.\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"Archer Aviation, Inc.\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Archer Aviation, Inc.\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Archer Aviation, Inc.\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Archer Aviation, Inc.\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Archer Aviation, Inc.\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"Joby Aero, Inc.\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Joby Aero, Inc.\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Joby Aero, Inc.\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Joby Aero, Inc.\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Joby Aero, Inc.\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 2, "cost": 0.005}
+{"type": "serp", "query": "\"44049 Sierra Hwy Propco LLC\" California", "status": 200, "results": 6, "cost": 0.005}
+{"type": "serp", "query": "\"44049 Sierra Hwy Propco LLC\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"44049 Sierra Hwy Propco LLC\" (indicted OR convicted OR debarred)", "status": 200, "results": 7, "cost": 0.005}
+{"type": "serp", "query": "\"44049 Sierra Hwy Propco LLC\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"44049 Sierra Hwy Propco LLC\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 0, "cost": 0.005}
+{"type": "serp", "query": "\"Harbinger Motors Inc.\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Harbinger Motors Inc.\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Harbinger Motors Inc.\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Harbinger Motors Inc.\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Harbinger Motors Inc.\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 2, "cost": 0.005}
+{"type": "serp", "query": "\"Toro Energy of California AA, LLC\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Toro Energy of California AA, LLC\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 2, "cost": 0.005}
+{"type": "serp", "query": "\"Toro Energy of California AA, LLC\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Toro Energy of California AA, LLC\" linkedin", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"Toro Energy of California AA, LLC\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Infinera Corporation\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Infinera Corporation\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Infinera Corporation\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Infinera Corporation\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Infinera Corporation\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 2, "cost": 0.005}
+{"type": "serp", "query": "\"Maclay Investments, LLC\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Maclay Investments, LLC\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 7, "cost": 0.005}
+{"type": "serp", "query": "\"Maclay Investments, LLC\" (indicted OR convicted OR debarred)", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"Maclay Investments, LLC\" linkedin", "status": 200, "results": 3, "cost": 0.005}
+{"type": "serp", "query": "\"Maclay Investments, LLC\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 5, "cost": 0.005}
+{"type": "serp", "query": "\"rPlanet Earth Los Angeles, LLC\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"rPlanet Earth Los Angeles, LLC\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"rPlanet Earth Los Angeles, LLC\" (indicted OR convicted OR debarred)", "status": 200, "results": 4, "cost": 0.005}
+{"type": "serp", "query": "\"rPlanet Earth Los Angeles, LLC\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"rPlanet Earth Los Angeles, LLC\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Napa Pueblo LLC\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Napa Pueblo LLC\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 4, "cost": 0.005}
+{"type": "serp", "query": "\"Napa Pueblo LLC\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Napa Pueblo LLC\" linkedin", "status": 200, "results": 2, "cost": 0.005}
+{"type": "serp", "query": "\"Napa Pueblo LLC\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Electrochemistry Foundry, Inc.\u200b\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Electrochemistry Foundry, Inc.\u200b\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Electrochemistry Foundry, Inc.\u200b\" (indicted OR convicted OR debarred)", "status": 200, "results": 9, "cost": 0.005}
+{"type": "serp", "query": "\"Electrochemistry Foundry, Inc.\u200b\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Electrochemistry Foundry, Inc.\u200b\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 0, "cost": 0.005}
+{"type": "serp", "query": "\"525 Water Street LP\" California", "status": 200, "results": 8, "cost": 0.005}
+{"type": "serp", "query": "\"525 Water Street LP\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"525 Water Street LP\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"525 Water Street LP\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"525 Water Street LP\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"AggrePlex of Modesto LLC\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"AggrePlex of Modesto LLC\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"AggrePlex of Modesto LLC\" (indicted OR convicted OR debarred)", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"AggrePlex of Modesto LLC\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"AggrePlex of Modesto LLC\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 0, "cost": 0.005}
+{"type": "serp", "query": "\"A to be determined Limited Partnership\" California", "status": 200, "results": 9, "cost": 0.005}
+{"type": "serp", "query": "\"A to be determined Limited Partnership\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 2, "cost": 0.005}
+{"type": "serp", "query": "\"A to be determined Limited Partnership\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"A to be determined Limited Partnership\" linkedin", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"A to be determined Limited Partnership\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Signet Central Coast, LLC\" California", "status": 200, "results": 2, "cost": 0.005}
+{"type": "serp", "query": "\"Signet Central Coast, LLC\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Signet Central Coast, LLC\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Signet Central Coast, LLC\" linkedin", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"Signet Central Coast, LLC\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Bakersfield Renewable Fuels, LLC\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Bakersfield Renewable Fuels, LLC\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Bakersfield Renewable Fuels, LLC\" (indicted OR convicted OR debarred)", "status": 200, "results": 3, "cost": 0.005}
+{"type": "serp", "query": "\"Bakersfield Renewable Fuels, LLC\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Bakersfield Renewable Fuels, LLC\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 8, "cost": 0.005}
+{"type": "serp", "query": "\"Lam Research Corporation\" California", "status": 200, "results": 0, "cost": 0.005}
+{"type": "serp", "query": "\"Lam Research Corporation\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Lam Research Corporation\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Lam Research Corporation\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Lam Research Corporation\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Intuitive Surgical, Inc.\" California", "status": 200, "results": 9, "cost": 0.005}
+{"type": "serp", "query": "\"Intuitive Surgical, Inc.\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Intuitive Surgical, Inc.\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Intuitive Surgical, Inc.\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Intuitive Surgical, Inc.\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 4, "cost": 0.005}
+{"type": "serp", "query": "\"Greg Kelley\" California", "status": 200, "results": 9, "cost": 0.005}
+{"type": "serp", "query": "\"Greg Kelley\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Greg Kelley\" (indicted OR convicted OR debarred)", "status": 200, "results": 9, "cost": 0.005}
+{"type": "serp", "query": "\"Greg Kelley\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Greg Kelley\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 4, "cost": 0.005}
+{"type": "serp", "query": "\"H2B2 USA, LLC\" California", "status": 200, "results": 6, "cost": 0.005}
+{"type": "serp", "query": "\"H2B2 USA, LLC\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"H2B2 USA, LLC\" (indicted OR convicted OR debarred)", "status": 200, "results": 2, "cost": 0.005}
+{"type": "serp", "query": "\"H2B2 USA, LLC\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"H2B2 USA, LLC\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 0, "cost": 0.005}
+{"type": "serp", "query": "\"Mango Materials, Inc.\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Mango Materials, Inc.\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 7, "cost": 0.005}
+{"type": "serp", "query": "\"Mango Materials, Inc.\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Mango Materials, Inc.\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Mango Materials, Inc.\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Joby Aero, Inc\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Joby Aero, Inc\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Joby Aero, Inc\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Joby Aero, Inc\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Joby Aero, Inc\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 2, "cost": 0.005}
+{"type": "serp", "query": "\"Biofuels Coyote Canyon BioGas, LLC\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Biofuels Coyote Canyon BioGas, LLC\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 4, "cost": 0.005}
+{"type": "serp", "query": "\"Biofuels Coyote Canyon BioGas, LLC\" (indicted OR convicted OR debarred)", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"Biofuels Coyote Canyon BioGas, LLC\" linkedin", "status": 200, "results": 9, "cost": 0.005}
+{"type": "serp", "query": "\"Biofuels Coyote Canyon BioGas, LLC\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 0, "cost": 0.005}
+{"type": "serp", "query": "\"CalBioGas Fresno, LLC\" California", "status": 200, "results": 7, "cost": 0.005}
+{"type": "serp", "query": "\"CalBioGas Fresno, LLC\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 0, "cost": 0.005}
+{"type": "serp", "query": "\"CalBioGas Fresno, LLC\" (indicted OR convicted OR debarred)", "status": 200, "results": 2, "cost": 0.005}
+{"type": "serp", "query": "\"CalBioGas Fresno, LLC\" linkedin", "status": 200, "results": 0, "cost": 0.005}
+{"type": "serp", "query": "\"CalBioGas Fresno, LLC\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"Imperial Manor Skilled Nursing, Inc\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Imperial Manor Skilled Nursing, Inc\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 3, "cost": 0.005}
+{"type": "serp", "query": "\"Imperial Manor Skilled Nursing, Inc\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Imperial Manor Skilled Nursing, Inc\" linkedin", "status": 200, "results": 3, "cost": 0.005}
+{"type": "serp", "query": "\"Imperial Manor Skilled Nursing, Inc\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 0, "cost": 0.005}
+{"type": "serp", "query": "\"Brian Waters\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Brian Waters\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Brian Waters\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Brian Waters\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Brian Waters\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 9, "cost": 0.005}
+{"type": "serp", "query": "\"Tandem PV, Inc.\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Tandem PV, Inc.\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Tandem PV, Inc.\" (indicted OR convicted OR debarred)", "status": 200, "results": 2, "cost": 0.005}
+{"type": "serp", "query": "\"Tandem PV, Inc.\" linkedin", "status": 200, "results": 8, "cost": 0.005}
+{"type": "serp", "query": "\"Tandem PV, Inc.\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 2, "cost": 0.005}
+{"type": "serp", "query": "\"Trojan Battery Company, LLC\" California", "status": 200, "results": 9, "cost": 0.005}
+{"type": "serp", "query": "\"Trojan Battery Company, LLC\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Trojan Battery Company, LLC\" (indicted OR convicted OR debarred)", "status": 200, "results": 9, "cost": 0.005}
+{"type": "serp", "query": "\"Trojan Battery Company, LLC\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Trojan Battery Company, LLC\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"All Weather Architectural Aluminum Inc.\" California", "status": 200, "results": 9, "cost": 0.005}
+{"type": "serp", "query": "\"All Weather Architectural Aluminum Inc.\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 0, "cost": 0.005}
+{"type": "serp", "query": "\"All Weather Architectural Aluminum Inc.\" (indicted OR convicted OR debarred)", "status": 200, "results": 0, "cost": 0.005}
+{"type": "serp", "query": "\"All Weather Architectural Aluminum Inc.\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"All Weather Architectural Aluminum Inc.\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"6799 Skyway LP\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"6799 Skyway LP\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 9, "cost": 0.005}
+{"type": "serp", "query": "\"6799 Skyway LP\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"6799 Skyway LP\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"6799 Skyway LP\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 0, "cost": 0.005}
+{"type": "serp", "query": "\"439 S 4th St LLC\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"439 S 4th St LLC\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"439 S 4th St LLC\" (indicted OR convicted OR debarred)", "status": 200, "results": 9, "cost": 0.005}
+{"type": "serp", "query": "\"439 S 4th St LLC\" linkedin", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"439 S 4th St LLC\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"SANCO Services, L.P.\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"SANCO Services, L.P.\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 7, "cost": 0.005}
+{"type": "serp", "query": "\"SANCO Services, L.P.\" (indicted OR convicted OR debarred)", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"SANCO Services, L.P.\" linkedin", "status": 200, "results": 2, "cost": 0.005}
+{"type": "serp", "query": "\"SANCO Services, L.P.\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Redwood Quality Management Company, Inc.\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Redwood Quality Management Company, Inc.\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Redwood Quality Management Company, Inc.\" (indicted OR convicted OR debarred)", "status": 200, "results": 3, "cost": 0.005}
+{"type": "serp", "query": "\"Redwood Quality Management Company, Inc.\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Redwood Quality Management Company, Inc.\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"HieFo Corporation\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"HieFo Corporation\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"HieFo Corporation\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"HieFo Corporation\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"HieFo Corporation\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 0, "cost": 0.005}
+{"type": "serp", "query": "\"Saggio Hills Lot 3, LP\" California", "status": 200, "results": 9, "cost": 0.005}
+{"type": "serp", "query": "\"Saggio Hills Lot 3, LP\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"Saggio Hills Lot 3, LP\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Saggio Hills Lot 3, LP\" linkedin", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"Saggio Hills Lot 3, LP\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 0, "cost": 0.005}
+{"type": "serp", "query": "\"Good Samaritan Hospital, A California Limited Partnership\" California", "status": 200, "results": 9, "cost": 0.005}
+{"type": "serp", "query": "\"Good Samaritan Hospital, A California Limited Partnership\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Good Samaritan Hospital, A California Limited Partnership\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Good Samaritan Hospital, A California Limited Partnership\" linkedin", "status": 200, "results": 7, "cost": 0.005}
+{"type": "serp", "query": "\"Good Samaritan Hospital, A California Limited Partnership\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 2, "cost": 0.005}
+{"type": "serp", "query": "\"233 N 2nd LP\" California", "status": 200, "results": 4, "cost": 0.005}
+{"type": "serp", "query": "\"233 N 2nd LP\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"233 N 2nd LP\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"233 N 2nd LP\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"233 N 2nd LP\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 0, "cost": 0.005}
+{"type": "serp", "query": "\"Rincell Corporation\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Rincell Corporation\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 4, "cost": 0.005}
+{"type": "serp", "query": "\"Rincell Corporation\" (indicted OR convicted OR debarred)", "status": 200, "results": 9, "cost": 0.005}
+{"type": "serp", "query": "\"Rincell Corporation\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Rincell Corporation\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 0, "cost": 0.005}
+{"type": "serp", "query": "\"PacifiCorp\" California", "status": 200, "results": 7, "cost": 0.005}
+{"type": "serp", "query": "\"PacifiCorp\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 9, "cost": 0.005}
+{"type": "serp", "query": "\"PacifiCorp\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"PacifiCorp\" linkedin", "status": 200, "results": 7, "cost": 0.005}
+{"type": "serp", "query": "\"PacifiCorp\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"5E Boron Americas LLC\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"5E Boron Americas LLC\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"5E Boron Americas LLC\" (indicted OR convicted OR debarred)", "status": 200, "results": 6, "cost": 0.005}
+{"type": "serp", "query": "\"5E Boron Americas LLC\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"5E Boron Americas LLC\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 3, "cost": 0.005}
+{"type": "serp", "query": "\"California Legacy Well Services, LLC\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"California Legacy Well Services, LLC\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"California Legacy Well Services, LLC\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"California Legacy Well Services, LLC\" linkedin", "status": 200, "results": 5, "cost": 0.005}
+{"type": "serp", "query": "\"California Legacy Well Services, LLC\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 0, "cost": 0.005}
+{"type": "serp", "query": "\"Tule Basin Water Foundation\" California", "status": 200, "results": 7, "cost": 0.005}
+{"type": "serp", "query": "\"Tule Basin Water Foundation\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Tule Basin Water Foundation\" (indicted OR convicted OR debarred)", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"Tule Basin Water Foundation\" linkedin", "status": 200, "results": 9, "cost": 0.005}
+{"type": "serp", "query": "\"Tule Basin Water Foundation\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 7, "cost": 0.005}
+{"type": "serp", "query": "\"Watershed Conservation Authority\" California", "status": 200, "results": 7, "cost": 0.005}
+{"type": "serp", "query": "\"Watershed Conservation Authority\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 9, "cost": 0.005}
+{"type": "serp", "query": "\"Watershed Conservation Authority\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Watershed Conservation Authority\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Watershed Conservation Authority\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 9, "cost": 0.005}
+{"type": "serp", "query": "\"1431 & 1433 Huntington Drive LLC\" California", "status": 200, "results": 7, "cost": 0.005}
+{"type": "serp", "query": "\"1431 & 1433 Huntington Drive LLC\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"1431 & 1433 Huntington Drive LLC\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"1431 & 1433 Huntington Drive LLC\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"1431 & 1433 Huntington Drive LLC\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 0, "cost": 0.005}
+{"type": "serp", "query": "\"Alta Planning & Design\" California", "status": 200, "results": 9, "cost": 0.005}
+{"type": "serp", "query": "\"Alta Planning & Design\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Alta Planning & Design\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Alta Planning & Design\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Alta Planning & Design\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 4, "cost": 0.005}
+{"type": "serp", "query": "\"Rejoule Inc\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Rejoule Inc\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 9, "cost": 0.005}
+{"type": "serp", "query": "\"Rejoule Inc\" (indicted OR convicted OR debarred)", "status": 200, "results": 9, "cost": 0.005}
+{"type": "serp", "query": "\"Rejoule Inc\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Rejoule Inc\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 0, "cost": 0.005}
+{"type": "serp", "query": "\"Joy Trissal\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Joy Trissal\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 3, "cost": 0.005}
+{"type": "serp", "query": "\"Joy Trissal\" (indicted OR convicted OR debarred)", "status": 200, "results": 8, "cost": 0.005}
+{"type": "serp", "query": "\"Joy Trissal\" linkedin", "status": 200, "results": 2, "cost": 0.005}
+{"type": "serp", "query": "\"Joy Trissal\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 0, "cost": 0.005}
+{"type": "serp", "query": "\"Electric Power Research Institute, Inc\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Electric Power Research Institute, Inc\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Electric Power Research Institute, Inc\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Electric Power Research Institute, Inc\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Electric Power Research Institute, Inc\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"Sharp Grossmont Hospital Family Medicine Residency Program\" California", "status": 200, "results": 4, "cost": 0.005}
+{"type": "serp", "query": "\"Sharp Grossmont Hospital Family Medicine Residency Program\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"Sharp Grossmont Hospital Family Medicine Residency Program\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Sharp Grossmont Hospital Family Medicine Residency Program\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Sharp Grossmont Hospital Family Medicine Residency Program\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 0, "cost": 0.005}
+{"type": "serp", "query": "\"Brisa Ranch LLC\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Brisa Ranch LLC\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 2, "cost": 0.005}
+{"type": "serp", "query": "\"Brisa Ranch LLC\" (indicted OR convicted OR debarred)", "status": 200, "results": 2, "cost": 0.005}
+{"type": "serp", "query": "\"Brisa Ranch LLC\" linkedin", "status": 200, "results": 5, "cost": 0.005}
+{"type": "serp", "query": "\"Brisa Ranch LLC\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"McBain Associates\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"McBain Associates\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"McBain Associates\" (indicted OR convicted OR debarred)", "status": 200, "results": 8, "cost": 0.005}
+{"type": "serp", "query": "\"McBain Associates\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"McBain Associates\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Raul & Family Farms Inc.\" California", "status": 200, "results": 8, "cost": 0.005}
+{"type": "serp", "query": "\"Raul & Family Farms Inc.\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Raul & Family Farms Inc.\" (indicted OR convicted OR debarred)", "status": 200, "results": 0, "cost": 0.005}
+{"type": "serp", "query": "\"Raul & Family Farms Inc.\" linkedin", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"Raul & Family Farms Inc.\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Horizon Water & Environment\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Horizon Water & Environment\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Horizon Water & Environment\" (indicted OR convicted OR debarred)", "status": 200, "results": 3, "cost": 0.005}
+{"type": "serp", "query": "\"Horizon Water & Environment\" linkedin", "status": 200, "results": 7, "cost": 0.005}
+{"type": "serp", "query": "\"Horizon Water & Environment\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Thomas J. Koolhaus dba River Oak Dairy\" California", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"Thomas J. Koolhaus dba River Oak Dairy\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Thomas J. Koolhaus dba River Oak Dairy\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Thomas J. Koolhaus dba River Oak Dairy\" linkedin", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"Thomas J. Koolhaus dba River Oak Dairy\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 0, "cost": 0.005}
+{"type": "serp", "query": "\"Westwood Farms, LLC.\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Westwood Farms, LLC.\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 4, "cost": 0.005}
+{"type": "serp", "query": "\"Westwood Farms, LLC.\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Westwood Farms, LLC.\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Westwood Farms, LLC.\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"The Manuel L. and Adelia M Soares Revocable Family Trust\" California", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"The Manuel L. and Adelia M Soares Revocable Family Trust\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"The Manuel L. and Adelia M Soares Revocable Family Trust\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"The Manuel L. and Adelia M Soares Revocable Family Trust\" linkedin", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"The Manuel L. and Adelia M Soares Revocable Family Trust\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 0, "cost": 0.005}
+{"type": "serp", "query": "\"California State Coastal Conservancy\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"California State Coastal Conservancy\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"California State Coastal Conservancy\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"California State Coastal Conservancy\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"California State Coastal Conservancy\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"3800 WEST SIXTH STREET, LLC\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"3800 WEST SIXTH STREET, LLC\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"3800 WEST SIXTH STREET, LLC\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"3800 WEST SIXTH STREET, LLC\" linkedin", "status": 200, "results": 4, "cost": 0.005}
+{"type": "serp", "query": "\"3800 WEST SIXTH STREET, LLC\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 0, "cost": 0.005}
+{"type": "serp", "query": "\"HARRISON PACIFIC LLC\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"HARRISON PACIFIC LLC\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 2, "cost": 0.005}
+{"type": "serp", "query": "\"HARRISON PACIFIC LLC\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"HARRISON PACIFIC LLC\" linkedin", "status": 200, "results": 3, "cost": 0.005}
+{"type": "serp", "query": "\"HARRISON PACIFIC LLC\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"BEACHCOM, LLC\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"BEACHCOM, LLC\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 2, "cost": 0.005}
+{"type": "serp", "query": "\"BEACHCOM, LLC\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"BEACHCOM, LLC\" linkedin", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"BEACHCOM, LLC\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Napa Recycling & Waste Services, LLC\" California", "status": 200, "results": 9, "cost": 0.005}
+{"type": "serp", "query": "\"Napa Recycling & Waste Services, LLC\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Napa Recycling & Waste Services, LLC\" (indicted OR convicted OR debarred)", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"Napa Recycling & Waste Services, LLC\" linkedin", "status": 200, "results": 6, "cost": 0.005}
+{"type": "serp", "query": "\"Napa Recycling & Waste Services, LLC\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"GREENWHICH RETAIL INC.\" California", "status": 200, "results": 0, "cost": 0.005}
+{"type": "serp", "query": "\"GREENWHICH RETAIL INC.\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 0, "cost": 0.005}
+{"type": "serp", "query": "\"GREENWHICH RETAIL INC.\" (indicted OR convicted OR debarred)", "status": 200, "results": 0, "cost": 0.005}
+{"type": "serp", "query": "\"GREENWHICH RETAIL INC.\" linkedin", "status": 200, "results": 0, "cost": 0.005}
+{"type": "serp", "query": "\"GREENWHICH RETAIL INC.\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 0, "cost": 0.005}
+{"type": "serp", "query": "\"Adventist Health Tulare Family Medicine Residency Program\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Adventist Health Tulare Family Medicine Residency Program\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 2, "cost": 0.005}
+{"type": "serp", "query": "\"Adventist Health Tulare Family Medicine Residency Program\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Adventist Health Tulare Family Medicine Residency Program\" linkedin", "status": 200, "results": 6, "cost": 0.005}
+{"type": "serp", "query": "\"Adventist Health Tulare Family Medicine Residency Program\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 0, "cost": 0.005}
+{"type": "serp", "query": "\"St. Joseph's Medical Center Stockton Internal Medicine Residency Program\" California", "status": 200, "results": 9, "cost": 0.005}
+{"type": "serp", "query": "\"St. Joseph's Medical Center Stockton Internal Medicine Residency Program\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 0, "cost": 0.005}
+{"type": "serp", "query": "\"St. Joseph's Medical Center Stockton Internal Medicine Residency Program\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"St. Joseph's Medical Center Stockton Internal Medicine Residency Program\" linkedin", "status": 200, "results": 0, "cost": 0.005}
+{"type": "serp", "query": "\"St. Joseph's Medical Center Stockton Internal Medicine Residency Program\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 0, "cost": 0.005}
+{"type": "serp", "query": "\"Central Neighborhood Health Foundation Family Medicine Residency Program\" California", "status": 200, "results": 0, "cost": 0.005}
+{"type": "serp", "query": "\"Central Neighborhood Health Foundation Family Medicine Residency Program\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Central Neighborhood Health Foundation Family Medicine Residency Program\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Central Neighborhood Health Foundation Family Medicine Residency Program\" linkedin", "status": 200, "results": 0, "cost": 0.005}
+{"type": "serp", "query": "\"Central Neighborhood Health Foundation Family Medicine Residency Program\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"McClelland's Dairy\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"McClelland's Dairy\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"McClelland's Dairy\" (indicted OR convicted OR debarred)", "status": 200, "results": 4, "cost": 0.005}
+{"type": "serp", "query": "\"McClelland's Dairy\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"McClelland's Dairy\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Medeiros Dairy Inc\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Medeiros Dairy Inc\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"Medeiros Dairy Inc\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Medeiros Dairy Inc\" linkedin", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"Medeiros Dairy Inc\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Solo Dairy\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Solo Dairy\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 9, "cost": 0.005}
+{"type": "serp", "query": "\"Solo Dairy\" (indicted OR convicted OR debarred)", "status": 200, "results": 9, "cost": 0.005}
+{"type": "serp", "query": "\"Solo Dairy\" linkedin", "status": 200, "results": 8, "cost": 0.005}
+{"type": "serp", "query": "\"Solo Dairy\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Flatland Dairy\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Flatland Dairy\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 2, "cost": 0.005}
+{"type": "serp", "query": "\"Flatland Dairy\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Flatland Dairy\" linkedin", "status": 200, "results": 6, "cost": 0.005}
+{"type": "serp", "query": "\"Flatland Dairy\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Maddox Dairy LLC\" California", "status": 200, "results": 9, "cost": 0.005}
+{"type": "serp", "query": "\"Maddox Dairy LLC\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 3, "cost": 0.005}
+{"type": "serp", "query": "\"Maddox Dairy LLC\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Maddox Dairy LLC\" linkedin", "status": 200, "results": 5, "cost": 0.005}
+{"type": "serp", "query": "\"Maddox Dairy LLC\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"Dragt Dairy Farm DBA Milk Maid Dairy\" California", "status": 200, "results": 2, "cost": 0.005}
+{"type": "serp", "query": "\"Dragt Dairy Farm DBA Milk Maid Dairy\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Dragt Dairy Farm DBA Milk Maid Dairy\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Dragt Dairy Farm DBA Milk Maid Dairy\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Dragt Dairy Farm DBA Milk Maid Dairy\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 3, "cost": 0.005}
+{"type": "serp", "query": "\"Lamax Nguyen and Mike Nguyen, A General Partnership\" California", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"Lamax Nguyen and Mike Nguyen, A General Partnership\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Lamax Nguyen and Mike Nguyen, A General Partnership\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Lamax Nguyen and Mike Nguyen, A General Partnership\" linkedin", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"Lamax Nguyen and Mike Nguyen, A General Partnership\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 2, "cost": 0.005}
+{"type": "serp", "query": "\"Rio Bravo Family Medicine Residency Program\" California", "status": 200, "results": 8, "cost": 0.005}
+{"type": "serp", "query": "\"Rio Bravo Family Medicine Residency Program\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Rio Bravo Family Medicine Residency Program\" (indicted OR convicted OR debarred)", "status": 200, "results": 3, "cost": 0.005}
+{"type": "serp", "query": "\"Rio Bravo Family Medicine Residency Program\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Rio Bravo Family Medicine Residency Program\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"Arrowhead Regional Medical Center Family Medicine Residency Program\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Arrowhead Regional Medical Center Family Medicine Residency Program\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Arrowhead Regional Medical Center Family Medicine Residency Program\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Arrowhead Regional Medical Center Family Medicine Residency Program\" linkedin", "status": 200, "results": 6, "cost": 0.005}
+{"type": "serp", "query": "\"Arrowhead Regional Medical Center Family Medicine Residency Program\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"Emanate Health Family Medicine Residency Program\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Emanate Health Family Medicine Residency Program\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Emanate Health Family Medicine Residency Program\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Emanate Health Family Medicine Residency Program\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Emanate Health Family Medicine Residency Program\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 0, "cost": 0.005}
+{"type": "serp", "query": "\"Contra Costa County Family Medicine Residency Program\" California", "status": 200, "results": 3, "cost": 0.005}
+{"type": "serp", "query": "\"Contra Costa County Family Medicine Residency Program\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"Contra Costa County Family Medicine Residency Program\" (indicted OR convicted OR debarred)", "status": 200, "results": 0, "cost": 0.005}
+{"type": "serp", "query": "\"Contra Costa County Family Medicine Residency Program\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Contra Costa County Family Medicine Residency Program\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 0, "cost": 0.005}
+{"type": "serp", "query": "\"Loma Linda - Inland Empire Consortium for Healthcare Education, Family Medicine Residency Program\" California", "status": 200, "results": 5, "cost": 0.005}
+{"type": "serp", "query": "\"Loma Linda - Inland Empire Consortium for Healthcare Education, Family Medicine Residency Program\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Loma Linda - Inland Empire Consortium for Healthcare Education, Family Medicine Residency Program\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Loma Linda - Inland Empire Consortium for Healthcare Education, Family Medicine Residency Program\" linkedin", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"Loma Linda - Inland Empire Consortium for Healthcare Education, Family Medicine Residency Program\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 0, "cost": 0.005}
+{"type": "serp", "query": "\"Adventist Health Hanford Family Medicine Residency Program\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Adventist Health Hanford Family Medicine Residency Program\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 5, "cost": 0.005}
+{"type": "serp", "query": "\"Adventist Health Hanford Family Medicine Residency Program\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Adventist Health Hanford Family Medicine Residency Program\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Adventist Health Hanford Family Medicine Residency Program\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 0, "cost": 0.005}
+{"type": "serp", "query": "\"Arrowhead Regional Medical Center Internal Medicine Program\" California", "status": 200, "results": 2, "cost": 0.005}
+{"type": "serp", "query": "\"Arrowhead Regional Medical Center Internal Medicine Program\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"Arrowhead Regional Medical Center Internal Medicine Program\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Arrowhead Regional Medical Center Internal Medicine Program\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Arrowhead Regional Medical Center Internal Medicine Program\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Loma Linda - Inland Empire Consortium for Healthcare Education, OB/GYN Residency Program\" California", "status": 200, "results": 2, "cost": 0.005}
+{"type": "serp", "query": "\"Loma Linda - Inland Empire Consortium for Healthcare Education, OB/GYN Residency Program\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 0, "cost": 0.005}
+{"type": "serp", "query": "\"Loma Linda - Inland Empire Consortium for Healthcare Education, OB/GYN Residency Program\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Loma Linda - Inland Empire Consortium for Healthcare Education, OB/GYN Residency Program\" linkedin", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"Loma Linda - Inland Empire Consortium for Healthcare Education, OB/GYN Residency Program\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 0, "cost": 0.005}
+{"type": "serp", "query": "\"Martin Luther King Jr. Community Hospital Internal Medicine Residency Program\" California", "status": 200, "results": 4, "cost": 0.005}
+{"type": "serp", "query": "\"Martin Luther King Jr. Community Hospital Internal Medicine Residency Program\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Martin Luther King Jr. Community Hospital Internal Medicine Residency Program\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Martin Luther King Jr. Community Hospital Internal Medicine Residency Program\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Martin Luther King Jr. Community Hospital Internal Medicine Residency Program\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 4, "cost": 0.005}
+{"type": "serp", "query": "\"Loma Linda University Medical Center - Murrieta Family Medicine Residency Program\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Loma Linda University Medical Center - Murrieta Family Medicine Residency Program\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 2, "cost": 0.005}
+{"type": "serp", "query": "\"Loma Linda University Medical Center - Murrieta Family Medicine Residency Program\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Loma Linda University Medical Center - Murrieta Family Medicine Residency Program\" linkedin", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"Loma Linda University Medical Center - Murrieta Family Medicine Residency Program\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 0, "cost": 0.005}
+{"type": "serp", "query": "\"Mercy Medical Center Merced Family Medicine Residency Program\" California", "status": 200, "results": 8, "cost": 0.005}
+{"type": "serp", "query": "\"Mercy Medical Center Merced Family Medicine Residency Program\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Mercy Medical Center Merced Family Medicine Residency Program\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Mercy Medical Center Merced Family Medicine Residency Program\" linkedin", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"Mercy Medical Center Merced Family Medicine Residency Program\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"Valley Family Medicine Residency of Modesto\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Valley Family Medicine Residency of Modesto\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Valley Family Medicine Residency of Modesto\" (indicted OR convicted OR debarred)", "status": 200, "results": 9, "cost": 0.005}
+{"type": "serp", "query": "\"Valley Family Medicine Residency of Modesto\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Valley Family Medicine Residency of Modesto\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"Centinela Hospital Medical Center Internal Medicine Residency Program\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Centinela Hospital Medical Center Internal Medicine Residency Program\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Centinela Hospital Medical Center Internal Medicine Residency Program\" (indicted OR convicted OR debarred)", "status": 200, "results": 0, "cost": 0.005}
+{"type": "serp", "query": "\"Centinela Hospital Medical Center Internal Medicine Residency Program\" linkedin", "status": 200, "results": 5, "cost": 0.005}
+{"type": "serp", "query": "\"Centinela Hospital Medical Center Internal Medicine Residency Program\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"Loma Linda - Inland Empire Consortium for Healthcare Education, Pediatrics Residency Program\" California", "status": 200, "results": 2, "cost": 0.005}
+{"type": "serp", "query": "\"Loma Linda - Inland Empire Consortium for Healthcare Education, Pediatrics Residency Program\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Loma Linda - Inland Empire Consortium for Healthcare Education, Pediatrics Residency Program\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Loma Linda - Inland Empire Consortium for Healthcare Education, Pediatrics Residency Program\" linkedin", "status": 200, "results": 2, "cost": 0.005}
+{"type": "serp", "query": "\"Loma Linda - Inland Empire Consortium for Healthcare Education, Pediatrics Residency Program\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 0, "cost": 0.005}
+{"type": "serp", "query": "\"California Hospital Medical Center Family Medicine Residency Program\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"California Hospital Medical Center Family Medicine Residency Program\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 2, "cost": 0.005}
+{"type": "serp", "query": "\"California Hospital Medical Center Family Medicine Residency Program\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"California Hospital Medical Center Family Medicine Residency Program\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"California Hospital Medical Center Family Medicine Residency Program\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Charles R Drew University of Medicine and Science, Internal Medicine Residency Program\" California", "status": 200, "results": 4, "cost": 0.005}
+{"type": "serp", "query": "\"Charles R Drew University of Medicine and Science, Internal Medicine Residency Program\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"Charles R Drew University of Medicine and Science, Internal Medicine Residency Program\" (indicted OR convicted OR debarred)", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"Charles R Drew University of Medicine and Science, Internal Medicine Residency Program\" linkedin", "status": 200, "results": 3, "cost": 0.005}
+{"type": "serp", "query": "\"Charles R Drew University of Medicine and Science, Internal Medicine Residency Program\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"San Joaquin General Hospital Family Medicine Residency Program\" California", "status": 200, "results": 7, "cost": 0.005}
+{"type": "serp", "query": "\"San Joaquin General Hospital Family Medicine Residency Program\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"San Joaquin General Hospital Family Medicine Residency Program\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"San Joaquin General Hospital Family Medicine Residency Program\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"San Joaquin General Hospital Family Medicine Residency Program\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 0, "cost": 0.005}
+{"type": "serp", "query": "\"Scripps Mercy Hospital, Chula Vista FM Residency Program\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Scripps Mercy Hospital, Chula Vista FM Residency Program\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Scripps Mercy Hospital, Chula Vista FM Residency Program\" (indicted OR convicted OR debarred)", "status": 200, "results": 0, "cost": 0.005}
+{"type": "serp", "query": "\"Scripps Mercy Hospital, Chula Vista FM Residency Program\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Scripps Mercy Hospital, Chula Vista FM Residency Program\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 0, "cost": 0.005}
+{"type": "serp", "query": "\"Natividad Medical Center Family Medicine Residency Program\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Natividad Medical Center Family Medicine Residency Program\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 2, "cost": 0.005}
+{"type": "serp", "query": "\"Natividad Medical Center Family Medicine Residency Program\" (indicted OR convicted OR debarred)", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"Natividad Medical Center Family Medicine Residency Program\" linkedin", "status": 200, "results": 7, "cost": 0.005}
+{"type": "serp", "query": "\"Natividad Medical Center Family Medicine Residency Program\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 0, "cost": 0.005}
+{"type": "serp", "query": "\"5775 W ADAMS LLC\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"5775 W ADAMS LLC\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 3, "cost": 0.005}
+{"type": "serp", "query": "\"5775 W ADAMS LLC\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"5775 W ADAMS LLC\" linkedin", "status": 200, "results": 3, "cost": 0.005}
+{"type": "serp", "query": "\"5775 W ADAMS LLC\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"MOUSSA MATAR\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"MOUSSA MATAR\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"MOUSSA MATAR\" (indicted OR convicted OR debarred)", "status": 200, "results": 2, "cost": 0.005}
+{"type": "serp", "query": "\"MOUSSA MATAR\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"MOUSSA MATAR\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"Russian River Utility\" California", "status": 200, "results": 7, "cost": 0.005}
+{"type": "serp", "query": "\"Russian River Utility\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Russian River Utility\" (indicted OR convicted OR debarred)", "status": 200, "results": 3, "cost": 0.005}
+{"type": "serp", "query": "\"Russian River Utility\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Russian River Utility\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Valley Health Team Family Medicine Residency Program\" California", "status": 200, "results": 9, "cost": 0.005}
+{"type": "serp", "query": "\"Valley Health Team Family Medicine Residency Program\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Valley Health Team Family Medicine Residency Program\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Valley Health Team Family Medicine Residency Program\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Valley Health Team Family Medicine Residency Program\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Loma Linda University Health Education Consortium - Internal Medicine Program\" California", "status": 200, "results": 2, "cost": 0.005}
+{"type": "serp", "query": "\"Loma Linda University Health Education Consortium - Internal Medicine Program\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"Loma Linda University Health Education Consortium - Internal Medicine Program\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Loma Linda University Health Education Consortium - Internal Medicine Program\" linkedin", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"Loma Linda University Health Education Consortium - Internal Medicine Program\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"North East Medical Services Internal Medicine Residency Program\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"North East Medical Services Internal Medicine Residency Program\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"North East Medical Services Internal Medicine Residency Program\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"North East Medical Services Internal Medicine Residency Program\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"North East Medical Services Internal Medicine Residency Program\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"UHS Southern California Medical Education Consortium Family Medicine Residency Program\" California", "status": 200, "results": 3, "cost": 0.005}
+{"type": "serp", "query": "\"UHS Southern California Medical Education Consortium Family Medicine Residency Program\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"UHS Southern California Medical Education Consortium Family Medicine Residency Program\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"UHS Southern California Medical Education Consortium Family Medicine Residency Program\" linkedin", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"UHS Southern California Medical Education Consortium Family Medicine Residency Program\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 0, "cost": 0.005}
+{"type": "serp", "query": "\"Loma Linda University Pediatric Primary Care Track\" California", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"Loma Linda University Pediatric Primary Care Track\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 0, "cost": 0.005}
+{"type": "serp", "query": "\"Loma Linda University Pediatric Primary Care Track\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Loma Linda University Pediatric Primary Care Track\" linkedin", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"Loma Linda University Pediatric Primary Care Track\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 3, "cost": 0.005}
+{"type": "serp", "query": "\"Family Health Centers of San Diego Family Medicine Residency Program\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Family Health Centers of San Diego Family Medicine Residency Program\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 3, "cost": 0.005}
+{"type": "serp", "query": "\"Family Health Centers of San Diego Family Medicine Residency Program\" (indicted OR convicted OR debarred)", "status": 200, "results": 9, "cost": 0.005}
+{"type": "serp", "query": "\"Family Health Centers of San Diego Family Medicine Residency Program\" linkedin", "status": 200, "results": 3, "cost": 0.005}
+{"type": "serp", "query": "\"Family Health Centers of San Diego Family Medicine Residency Program\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"Los Angeles Community College District\" California", "status": 200, "results": 7, "cost": 0.005}
+{"type": "serp", "query": "\"Los Angeles Community College District\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Los Angeles Community College District\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Los Angeles Community College District\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Los Angeles Community College District\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "error": "HTTPSConnectionPool(host='api.brightdata.com', port=443): Read timed out. (read timeout=45)", "cost": 0}
+{"type": "serp", "query": "\"Golden State Water Company\" California", "status": 200, "results": 6, "cost": 0.005}
+{"type": "serp", "query": "\"Golden State Water Company\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Golden State Water Company\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Golden State Water Company\" linkedin", "status": 200, "results": 9, "cost": 0.005}
+{"type": "serp", "query": "\"Golden State Water Company\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 7, "cost": 0.005}
+{"type": "serp", "query": "\"Cazadero Water Company, Inc.\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Cazadero Water Company, Inc.\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Cazadero Water Company, Inc.\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Cazadero Water Company, Inc.\" linkedin", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"Cazadero Water Company, Inc.\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"LifeLong Medical Care Family Medicine Residency Program\" California", "status": 200, "results": 9, "cost": 0.005}
+{"type": "serp", "query": "\"LifeLong Medical Care Family Medicine Residency Program\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 7, "cost": 0.005}
+{"type": "serp", "query": "\"LifeLong Medical Care Family Medicine Residency Program\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"LifeLong Medical Care Family Medicine Residency Program\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"LifeLong Medical Care Family Medicine Residency Program\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"AltaMed Family Medicine Residency Program\" California", "status": 200, "results": 0, "cost": 0.005}
+{"type": "serp", "query": "\"AltaMed Family Medicine Residency Program\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"AltaMed Family Medicine Residency Program\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"AltaMed Family Medicine Residency Program\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"AltaMed Family Medicine Residency Program\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 0, "cost": 0.005}
+{"type": "serp", "query": "\"Santa Rosa Family Medicine Residency Program\" California", "error": "HTTPSConnectionPool(host='api.brightdata.com', port=443): Read timed out. (read timeout=45)", "cost": 0}
+{"type": "serp", "query": "\"Santa Rosa Family Medicine Residency Program\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Santa Rosa Family Medicine Residency Program\" (indicted OR convicted OR debarred)", "status": 200, "results": 3, "cost": 0.005}
+{"type": "serp", "query": "\"Santa Rosa Family Medicine Residency Program\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Santa Rosa Family Medicine Residency Program\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 2, "cost": 0.005}
+{"type": "serp", "query": "\"JACK DOELCHER\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"JACK DOELCHER\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"JACK DOELCHER\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"JACK DOELCHER\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"JACK DOELCHER\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"BALBIR SANDHU\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"BALBIR SANDHU\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"BALBIR SANDHU\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"BALBIR SANDHU\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"BALBIR SANDHU\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"NEW SEASON COMMUNITY DEVELOPMENT CORPORATION\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"NEW SEASON COMMUNITY DEVELOPMENT CORPORATION\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"NEW SEASON COMMUNITY DEVELOPMENT CORPORATION\" (indicted OR convicted OR debarred)", "status": 200, "results": 5, "cost": 0.005}
+{"type": "serp", "query": "\"NEW SEASON COMMUNITY DEVELOPMENT CORPORATION\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"NEW SEASON COMMUNITY DEVELOPMENT CORPORATION\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Paul Zerbe, Soil Health Lab LLC\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Paul Zerbe, Soil Health Lab LLC\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 2, "cost": 0.005}
+{"type": "serp", "query": "\"Paul Zerbe, Soil Health Lab LLC\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Paul Zerbe, Soil Health Lab LLC\" linkedin", "status": 200, "results": 2, "cost": 0.005}
+{"type": "serp", "query": "\"Paul Zerbe, Soil Health Lab LLC\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 0, "cost": 0.005}
+{"type": "serp", "query": "\"616 IMPERIAL, LLC\" California", "status": 200, "results": 8, "cost": 0.005}
+{"type": "serp", "query": "\"616 IMPERIAL, LLC\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"616 IMPERIAL, LLC\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"616 IMPERIAL, LLC\" linkedin", "status": 200, "results": 0, "cost": 0.005}
+{"type": "serp", "query": "\"616 IMPERIAL, LLC\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"MEHREEN PROPERTIES, LLC\" California", "status": 200, "results": 5, "cost": 0.005}
+{"type": "serp", "query": "\"MEHREEN PROPERTIES, LLC\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"MEHREEN PROPERTIES, LLC\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"MEHREEN PROPERTIES, LLC\" linkedin", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"MEHREEN PROPERTIES, LLC\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"Thompson Land Management, LLC.\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Thompson Land Management, LLC.\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 5, "cost": 0.005}
+{"type": "serp", "query": "\"Thompson Land Management, LLC.\" (indicted OR convicted OR debarred)", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"Thompson Land Management, LLC.\" linkedin", "status": 200, "results": 9, "cost": 0.005}
+{"type": "serp", "query": "\"Thompson Land Management, LLC.\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"BREITBARD PROPERTIES, LLC\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"BREITBARD PROPERTIES, LLC\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 5, "cost": 0.005}
+{"type": "serp", "query": "\"BREITBARD PROPERTIES, LLC\" (indicted OR convicted OR debarred)", "status": 200, "results": 0, "cost": 0.005}
+{"type": "serp", "query": "\"BREITBARD PROPERTIES, LLC\" linkedin", "status": 200, "results": 4, "cost": 0.005}
+{"type": "serp", "query": "\"BREITBARD PROPERTIES, LLC\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 0, "cost": 0.005}
+{"type": "serp", "query": "\"GREGORY KELISKY\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"GREGORY KELISKY\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 3, "cost": 0.005}
+{"type": "serp", "query": "\"GREGORY KELISKY\" (indicted OR convicted OR debarred)", "status": 200, "results": 7, "cost": 0.005}
+{"type": "serp", "query": "\"GREGORY KELISKY\" linkedin", "status": 200, "results": 5, "cost": 0.005}
+{"type": "serp", "query": "\"GREGORY KELISKY\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 0, "cost": 0.005}
+{"type": "serp", "query": "\"San Ysidro Health Internal Medicine Residency Program\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"San Ysidro Health Internal Medicine Residency Program\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 0, "cost": 0.005}
+{"type": "serp", "query": "\"San Ysidro Health Internal Medicine Residency Program\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"San Ysidro Health Internal Medicine Residency Program\" linkedin", "status": 200, "results": 6, "cost": 0.005}
+{"type": "serp", "query": "\"San Ysidro Health Internal Medicine Residency Program\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 2, "cost": 0.005}
+{"type": "serp", "query": "\"Sherman Produce Market\" California", "status": 200, "results": 9, "cost": 0.005}
+{"type": "serp", "query": "\"Sherman Produce Market\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 7, "cost": 0.005}
+{"type": "serp", "query": "\"Sherman Produce Market\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Sherman Produce Market\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Sherman Produce Market\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 0, "cost": 0.005}
+{"type": "serp", "query": "\"Shasta Community Health Center Family Medicine Residency Training Program\" California", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"Shasta Community Health Center Family Medicine Residency Training Program\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Shasta Community Health Center Family Medicine Residency Training Program\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Shasta Community Health Center Family Medicine Residency Training Program\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Shasta Community Health Center Family Medicine Residency Training Program\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 0, "cost": 0.005}
+{"type": "serp", "query": "\"TRINH HOANG\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"TRINH HOANG\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"TRINH HOANG\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"TRINH HOANG\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"TRINH HOANG\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 4, "cost": 0.005}
+{"type": "serp", "query": "\"McCall Dairy\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"McCall Dairy\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"McCall Dairy\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"McCall Dairy\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"McCall Dairy\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"TERRY RIDER\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"TERRY RIDER\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"TERRY RIDER\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"TERRY RIDER\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"TERRY RIDER\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 2, "cost": 0.005}
+{"type": "serp", "query": "\"LEXLUX ASSOCIATES, LP\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"LEXLUX ASSOCIATES, LP\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 9, "cost": 0.005}
+{"type": "serp", "query": "\"LEXLUX ASSOCIATES, LP\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"LEXLUX ASSOCIATES, LP\" linkedin", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"LEXLUX ASSOCIATES, LP\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 0, "cost": 0.005}
+{"type": "serp", "query": "\"PARAMOUNT STATION, INC.\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"PARAMOUNT STATION, INC.\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 8, "cost": 0.005}
+{"type": "serp", "query": "\"PARAMOUNT STATION, INC.\" (indicted OR convicted OR debarred)", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"PARAMOUNT STATION, INC.\" linkedin", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"PARAMOUNT STATION, INC.\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"KULWANT SINGH\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"KULWANT SINGH\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"KULWANT SINGH\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"KULWANT SINGH\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"KULWANT SINGH\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"TEND THE GARDEN, INC.\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"TEND THE GARDEN, INC.\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 8, "cost": 0.005}
+{"type": "serp", "query": "\"TEND THE GARDEN, INC.\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"TEND THE GARDEN, INC.\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"TEND THE GARDEN, INC.\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"El Dorado Coalition for Overdose Prevention and Education (COPE)\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"El Dorado Coalition for Overdose Prevention and Education (COPE)\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"El Dorado Coalition for Overdose Prevention and Education (COPE)\" (indicted OR convicted OR debarred)", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"El Dorado Coalition for Overdose Prevention and Education (COPE)\" linkedin", "status": 200, "results": 8, "cost": 0.005}
+{"type": "serp", "query": "\"El Dorado Coalition for Overdose Prevention and Education (COPE)\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 0, "cost": 0.005}
+{"type": "serp", "query": "\"CMW WELDING\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"CMW WELDING\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"CMW WELDING\" (indicted OR convicted OR debarred)", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"CMW WELDING\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"CMW WELDING\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"JING JIANG\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"JING JIANG\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"JING JIANG\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"JING JIANG\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"JING JIANG\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 2, "cost": 0.005}
+{"type": "serp", "query": "\"Catherine Howard\" California", "status": 200, "results": 9, "cost": 0.005}
+{"type": "serp", "query": "\"Catherine Howard\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Catherine Howard\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Catherine Howard\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Catherine Howard\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 1, "cost": 0.005}
+{"type": "serp", "query": "\"Yery Olivares\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Yery Olivares\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Yery Olivares\" (indicted OR convicted OR debarred)", "status": 200, "results": 3, "cost": 0.005}
+{"type": "serp", "query": "\"Yery Olivares\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Yery Olivares\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 0, "cost": 0.005}
+{"type": "serp", "query": "\"Tate Hill\" California", "status": 200, "results": 9, "cost": 0.005}
+{"type": "serp", "query": "\"Tate Hill\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Tate Hill\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Tate Hill\" linkedin", "status": 200, "results": 9, "cost": 0.005}
+{"type": "serp", "query": "\"Tate Hill\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 2, "cost": 0.005}
+{"type": "serp", "query": "\"Liset Puentas\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Liset Puentas\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Liset Puentas\" (indicted OR convicted OR debarred)", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Liset Puentas\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Liset Puentas\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 0, "cost": 0.005}
+{"type": "serp", "query": "\"Chris Call\" California", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Chris Call\" (lawsuit OR settlement OR \"false claims\")", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Chris Call\" (indicted OR convicted OR debarred)", "status": 200, "results": 9, "cost": 0.005}
+{"type": "serp", "query": "\"Chris Call\" linkedin", "status": 200, "results": 10, "cost": 0.005}
+{"type": "serp", "query": "\"Chris Call\" (site:bbb.org OR site:dnb.com OR site:opencorporates.com)", "status": 200, "results": 2, "cost": 0.005}
