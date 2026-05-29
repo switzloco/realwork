@@ -154,7 +154,8 @@ def main():
             results.append(entry)
 
             tag = cls["classification"]
-            print(f"[{i}/{len(entities)}] {name[:40]:40s} -> {tag} ({cls['total_organic']} hits) | {client.report()}")
+            safe_name = name.encode('ascii', 'ignore').decode('ascii')
+            print(f"[{i}/{len(entities)}] {safe_name[:40]:40s} -> {tag} ({cls['total_organic']} hits) | {client.report()}")
 
             if i % 10 == 0:
                 _write(output_path, results, client)
