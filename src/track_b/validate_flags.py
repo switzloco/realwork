@@ -98,6 +98,8 @@ def validate_entry(entry: dict, pp: ProPublicaClient) -> dict:
         elif ftype in ("HIGH_OFFICER_COMP_SMALL_ORG",
                        "HIGH_OFFICER_COMP_RATIO",
                        "MGMT_OVERHEAD_YOY_SPIKE",
+                       "OFFICER_COMP_YOY_SPIKE",
+                       "TOTAL_EXPENSES_YOY_SPIKE",
                        "LOW_PROGRAM_RATIO",
                        "HIGH_MGMT_OVERHEAD"):
             # These survive validation by default — they're real even if
@@ -105,6 +107,22 @@ def validate_entry(entry: dict, pp: ProPublicaClient) -> dict:
             surviving_flags.append(flag)
         else:
             surviving_flags.append(flag)
+
+    # Cross-cut rule: $0 officer comp + STATE_FUNDING_EXCEEDS_REVENUE flag
+    # is the classic wrong-EIN signature (we matched a tiny chapter that
+    # reports nothing). Drop those even if they passed the per-flag check.
+    officer_comp = entry.get("latest_officer_comp") or 0
+    if officer_comp == 0 and revenue == 0 and not any(
+        f["type"] in ("HIGH_OFFICER_COMP_SMALL_ORG", "HIGH_OFFICER_COMP_RATIO",
+                      "OFFICER_COMP_YOY_SPIKE", "TOTAL_EXPENSES_YOY_SPIKE")
+        for f in surviving_flags
+    ):
+        # All remaining flags depend on revenue/expenses data that's missing
+        for f in surviving_flags:
+            rejected_flags.append({**f, "reject_reason":
+                                   "officer_comp=$0 and revenue=$0 — likely "
+                                   "wrong EIN match (matched empty/dormant org)"})
+        surviving_flags = []
 
     # If all flags rejected, the validation is REJECTED
     if not surviving_flags:
