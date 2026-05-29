@@ -1,0 +1,82 @@
+{
+  "analyzed": 10,
+  "summary": [
+    {
+      "name": "Mariposa Women and Family Center",
+      "ein": 953626580,
+      "state_grants": 4500000.0,
+      "verdict": "?",
+      "score": 0,
+      "transactions_count": 0
+    },
+    {
+      "name": "Land Together",
+      "ein": 463998218,
+      "state_grants": 4456234.0,
+      "verdict": "?",
+      "score": 0,
+      "transactions_count": 0
+    },
+    {
+      "name": "Restorative Partners Inc.",
+      "ein": 474825349,
+      "state_grants": 4410000.0,
+      "verdict": "?",
+      "score": 0,
+      "transactions_count": 0
+    },
+    {
+      "name": "Operation New Hope",
+      "ein": 953655541,
+      "state_grants": 4289089.0,
+      "verdict": "?",
+      "score": 0,
+      "transactions_count": 0
+    },
+    {
+      "name": "Family Dynamics Resource Center",
+      "ein": 900633321,
+      "state_grants": 2167204.0,
+      "verdict": "?",
+      "score": 0,
+      "transactions_count": 0
+    },
+    {
+      "name": "Center for Future Global Leaders",
+      "ein": 204140314,
+      "state_grants": 1762500.0,
+      "verdict": "?",
+      "score": 0,
+      "transactions_count": 0
+    },
+    {
+      "name": "Veterans Transition Center of California",
+      "ein": 770431413,
+      "state_grants": 1634722.0,
+      "verdict": "?",
+      "score": 0,
+      "transactions_count": 0
+    },
+    {
+      "name": "ManifestWorks",
+      "ein": 475485332,
+      "state_grants": 1594818.0,
+      "verdict": "?",
+      "score": 0,
+      "transactions_count": 0
+    },
+    {
+      "name": "Peer Voices United",
+      "verdict": "FETCH_FAIL",
+      "ein": 873791488
+    },
+    {
+      "name": "Lake County Land Trust",
+      "ein": 680332712,
+      "state_grants": 1118867.0,
+      "verdict": "?",
+      "score": 0,
+      "transactions_count": 0
+    }
+  ]
+}
