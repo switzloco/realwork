@@ -132,7 +132,7 @@ def main():
             results.append(entry)
 
             alert = "  ⚠️" if verdict == "NO_LICENSE_FOUND" else ""
-            print(f"[{i}/{len(grants)}] {name[:40]:40s} → {verdict}{alert} | {client.report()}")
+            print(f"[{i}/{len(grants)}] {name[:40]:40s} -> {verdict}{alert} | {client.report()}")
 
             time.sleep(args.delay)
             if i % 10 == 0:

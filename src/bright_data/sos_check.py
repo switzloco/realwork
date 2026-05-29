@@ -128,17 +128,32 @@ def main():
         for i, entity in enumerate(entities, 1):
             name = entity["recipient"]
             search_term = clean_for_search(name)
-            search_url = f"https://bizfileonline.sos.ca.gov/search/business?SearchType=NUMBER_OR_NAME&SearchCriteria={quote_plus(search_term)}&SearchSubType=ALL"
+            search_url = f"https://opencorporates.com/companies/us_ca?q={quote_plus(search_term)}"
 
-            resp = client.unlock(search_url, render_js=True)
-            parsed = parse_status_from_html(resp.get("html", "") or "")
+            html = ""
+            try:
+                resp = client.session.post(
+                    "https://api.brightdata.com/request", 
+                    json={"zone": "realwork_unlocker", "url": search_url, "format": "json"}, 
+                    timeout=60
+                )
+                if resp.ok:
+                    try:
+                        html = resp.json().get("body", "")
+                    except: pass
+            except Exception as e:
+                print(f"    [Error fetching {search_term[:20]}]: {e}")
+            
+            parsed = parse_status_from_html(html)
 
             entry = {**entity, "search_term": search_term, "search_url": search_url, **parsed}
             results.append(entry)
 
             tag = parsed["status"]
             alert = "  ⚠️" if tag in ("SUSPENDED", "FORFEITED") else ""
-            print(f"[{i}/{len(entities)}] {name[:40]:40s} → {tag}{alert} | {client.report()}")
+            
+            safe_name = name.encode('ascii', 'ignore').decode('ascii')
+            print(f"[{i}/{len(entities)}] {safe_name[:40]:40s} -> {tag}{alert} | {client.report()}")
 
             time.sleep(args.delay)
             if i % 10 == 0:

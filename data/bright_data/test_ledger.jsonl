@@ -1,0 +1,4 @@
+{"type": "unlock", "url": "https://bizfileonline.sos.ca.gov/search/business?SearchType=NUMBER_OR_NAME&SearchCriteria=Sparkz&SearchSubType=ALL", "status": 200, "size": 0, "cost": 0.0015}
+{"type": "unlock", "url": "https://data.ca.gov/api/3/action/package_show?id=vendor-transactions", "status": 200, "size": 187, "cost": 0.0015}
+{"type": "serp", "query": "\"Sparkz\" site:opencorporates.com/companies/us_ca", "status": 200, "results": 0, "cost": 0.005}
+{"type": "unlock", "url": "https://opencorporates.com/companies/us_ca?q=Sparkz", "status": 200, "size": 0, "cost": 0.0015}

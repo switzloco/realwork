@@ -154,7 +154,7 @@ def main():
             results.append(entry)
 
             tag = cls["classification"]
-            print(f"[{i}/{len(entities)}] {name[:40]:40s} → {tag} ({cls['total_organic']} hits) | {client.report()}")
+            print(f"[{i}/{len(entities)}] {name[:40]:40s} -> {tag} ({cls['total_organic']} hits) | {client.report()}")
 
             if i % 10 == 0:
                 _write(output_path, results, client)
@@ -192,7 +192,8 @@ def _print_summary(results: list, client):
     if flagged:
         print(f"\n  FLAGGED entities (litigation/enforcement hits):")
         for r in flagged[:20]:
-            print(f"    {r['recipient'][:40]:40s} ${r['award_amount']:>12,.0f}  {r['classification']}")
+            safe_name = r["recipient"].encode('ascii', 'ignore').decode('ascii')
+            print(f"    {safe_name[:40]:40s} ${r['award_amount']:>12,.0f}  {r['classification']}")
 
     ghosts = [r for r in results if r.get("classification") == "GHOST"]
     if ghosts:
