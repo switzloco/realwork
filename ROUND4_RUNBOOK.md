@@ -104,6 +104,10 @@ immediate publishable finding. The pipeline either confirms the headline
 ## Suggested Order
 
 ```bash
+# 0. ALWAYS RUN FIRST — check if the press already wrote about our lead
+#    vendors. If yes, cite or back off. If no, the finding is novel.
+python -m src.dgs.lead_news_check --budget 1   # ~$0.10, 1 min
+
 # Fast and free, biggest payoff potential
 python -m src.sam_gov.debarment_check --top 1000              # 5-10 min
 
