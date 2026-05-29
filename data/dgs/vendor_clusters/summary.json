@@ -1,0 +1,40 @@
+{
+  "clusters": [
+    {
+      "anchor_vendor": "Airgas USA LLC",
+      "buyer": "Air Resources Board",
+      "co_vendor_count": 24,
+      "address_overlaps": 0
+    },
+    {
+      "anchor_vendor": "Falcon Fuels Inc",
+      "buyer": "Forestry and Fire Protection, Department of",
+      "co_vendor_count": 1,
+      "address_overlaps": 0
+    },
+    {
+      "anchor_vendor": "McKesson Medical - Surgical Minnesota Su",
+      "buyer": "Correctional Health Care Services",
+      "co_vendor_count": 7,
+      "address_overlaps": 0
+    },
+    {
+      "anchor_vendor": "Panini Time",
+      "buyer": "Forestry and Fire Protection, Department of",
+      "co_vendor_count": 0,
+      "address_overlaps": 0
+    },
+    {
+      "anchor_vendor": "Prison Industry Authority",
+      "buyer": "Correctional Health Care Services",
+      "co_vendor_count": 7,
+      "address_overlaps": 0
+    },
+    {
+      "anchor_vendor": "Progressive Medical, Inc.",
+      "buyer": "Correctional Health Care Services",
+      "co_vendor_count": 6,
+      "address_overlaps": 0
+    }
+  ]
+}

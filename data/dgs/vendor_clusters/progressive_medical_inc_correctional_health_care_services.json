@@ -1,0 +1,154 @@
+{
+  "anchor_vendor": "Progressive Medical, Inc.",
+  "buyer": "Correctional Health Care Services",
+  "threshold": 4999,
+  "co_vendors": [
+    {
+      "vendor": "Patterson Dental",
+      "po_count": 6,
+      "total_value": 29994.0,
+      "min_amount": 4999.0,
+      "max_amount": 4999.0
+    },
+    {
+      "vendor": "American Medical Service Co.",
+      "po_count": 4,
+      "total_value": 19996.0,
+      "min_amount": 4999.0,
+      "max_amount": 4999.0
+    },
+    {
+      "vendor": "Sharp Electronics Corporation",
+      "po_count": 3,
+      "total_value": 14974.949999999999,
+      "min_amount": 4983.74,
+      "max_amount": 4998.98
+    },
+    {
+      "vendor": "Dental Health Products, Inc.",
+      "po_count": 3,
+      "total_value": 14827.53,
+      "min_amount": 4926.56,
+      "max_amount": 4974.38
+    },
+    {
+      "vendor": "Chester Public Utilities District",
+      "po_count": 2,
+      "total_value": 9800.0,
+      "min_amount": 4900.0,
+      "max_amount": 4900.0
+    },
+    {
+      "vendor": "Smile Business Products, Inc",
+      "po_count": 2,
+      "total_value": 9998.0,
+      "min_amount": 4999.0,
+      "max_amount": 4999.0
+    }
+  ],
+  "enrichment": {
+    "Progressive Medical, Inc.": [
+      {
+        "title": "Progressive Medical, Inc. | National Medical Device Sales ...",
+        "snippet": "Progressive Medical, Inc. is a leading specialty medical products sales, marketing, and distribution company.",
+        "url": "https://www.progressivemedinc.com/"
+      },
+      {
+        "title": "Progressive Medical, Inc. (PMI)",
+        "snippet": "Progressive Medical, Inc. (PMI) is a national specialty medical products sales and distribution company. We provide clinicians with innovative products ...Read more",
+        "url": "https://www.linkedin.com/company/progressive-medical-inc"
+      },
+      {
+        "title": "Progressive Medical Inc",
+        "snippet": "Manufacturer Address. Progressive Medical Inc, 997 Horan Dr, Fenton MO 63026-2401 \u00b7 Manufacturer Parent Company (2017). Progressive Medical Inc \u00b7 Source. USFDA.Read more",
+        "url": "https://medicaldevices.icij.org/manufacturers/u-s-food-and-drug-administration-progressive-medical-inc-progressive-medical-inc-997-horan-dr-fenton-mo-63026-2401"
+      }
+    ],
+    "Patterson Dental": [
+      {
+        "title": "Patterson Dental: Dental Supplies, Equipment, Service",
+        "snippet": "Find products to meet all your business needs. New and Featured Products. Check out the newest offerings from Patterson Dental.",
+        "url": "https://www.pattersondental.com/"
+      },
+      {
+        "title": "Patterson Dental Canada: Dental Supplies, Equipment ...",
+        "snippet": "1205, Henri-Bourassa W. Montr\u00e9al, QC H3M 3E6. 1.800.240.4604. Privacy Policy Returns. \u00a9 2026 Patterson Dental Supply, Inc. All rights reserved. Our websites ...",
+        "url": "https://www.pattersondental.com/en-CA"
+      },
+      {
+        "title": "PATTERSON DENTAL SUPPLY - Updated May 2026",
+        "snippet": "More info about Patterson Dental Supply ; 5087 Commercial Cir. Concord, CA 94520. Directions ; (925) 603-6350. Call Now ; Visit Website. http://pattersondental.com.",
+        "url": "https://www.yelp.com/biz/patterson-dental-supply-concord"
+      }
+    ],
+    "American Medical Service Co.": [
+      {
+        "title": "Tarik Omari - American medical service co.",
+        "snippet": "9 years of Electronic R&Doing 26 years Biomedical engineering \u00b7 Experience: American medical service co. \u00b7 Education: Tel Aviv University \u00b7 Location ...",
+        "url": "https://www.linkedin.com/in/tarik-omari-63b6b7132"
+      },
+      {
+        "title": "Ams - Overview, News & Similar companies",
+        "snippet": "Is this data correct? Popular SearchesAmsAmerican Medical Service CoSIC Code 50,504NAICS Code 42,423Show more. ZoomInfo banner showing AI-driven GTM tools and ...",
+        "url": "https://www.zoominfo.com/c/ams/482381565"
+      },
+      {
+        "title": "Vendors that have been notified for Bid IFB-080-C026812-JM",
+        "snippet": "CA. Aug 15,. 2020. 3:11:10. AM PDT. American Medical Service Co. omary@dslextreme.com. Tarik Omari. 8188945919. CA. Aug 15,. 2020. 1:05:15. AM ...Read more",
+        "url": "https://cpo.oc.gov/sites/cpo/files/2022-07/HeavyEquipmentRentals_Proof%20of%20Publication.pdf"
+      }
+    ],
+    "Sharp Electronics Corporation": [
+      {
+        "title": "Sharp Electronics Corporation",
+        "snippet": "Sharp Electronics Corporation. Inspired technology for homes and businesses. Meeting in a conference room with people viewing a video conference and ...Read more",
+        "url": "https://www.sharpusa.com/"
+      },
+      {
+        "title": "Contact Information | Electronic Components / Display ...",
+        "snippet": "SHARP ELECTRONICS CORPORATION , DEVICE DIVISION (SECD) California. Address\uff1a1701 Junction Ct, Suite 200, San Jose, CA 95112; Phone\uff1a+1-408-452-6400 ...Read more",
+        "url": "https://global.sharp/products/device/support/call/index.html"
+      },
+      {
+        "title": "Sharp Electronics Corporation USA",
+        "snippet": "Sharp Electronics Corporation (SEC) is a wholly owned US subsidiary of Sharp Corporation - a Japan-based company known worldwide for its unique one-of-a-kind ...Read more",
+        "url": "https://www.linkedin.com/company/sharp-electronics-corporation-usa"
+      }
+    ],
+    "Dental Health Products, Inc.": [
+      {
+        "title": "Locations",
+        "snippet": "... Address *. City *. State *. Select state ... Receive $25 Off your next online order just for signing up. Subscribe. \u00a9 2026 Dental Health Products, Inc ...Read more",
+        "url": "https://www.dhpsupply.com/about/locations/!ut/p/z0/04_Sj9CPykssy0xPLMnMz0vMAfIjo8zivT0sjQw93A18LEL9DAwczcyDfIKDXA38DQ31C7IdFQGXbhif/"
+      },
+      {
+        "title": "Contact Us About Dental Supplies & Equipment",
+        "snippet": "... address (such as info@, sales@, etc.) Smart ... Receive $25 Off your next online order just for signing up. Subscribe. \u00a9 2026 Dental Health Products, Inc ...Read more",
+        "url": "https://www.dhpsupply.com/contact-us"
+      },
+      {
+        "title": "DHP: Dental Supplies, Equipment and Practice Solutions",
+        "snippet": "... Address *. City *. State *. Select state ... Receive $25 Off your next online order just for signing up. Subscribe. \u00a9 2026 Dental Health Products, Inc ...Read more",
+        "url": "https://www.dhpsupply.com/"
+      }
+    ],
+    "Chester Public Utilities District": [
+      {
+        "title": "CHESTER PUBLIC UTILITIES DISTRICT",
+        "snippet": "More info about CHESTER PUBLIC UTILITIES DISTRICT \u00b7 Map \u00b7 Chester, CA 96020. Directions \u00b7 (530) 258-2171. Call Now \u00b7 Hours. What time does CHESTER PUBLIC UTILITIES ...Read more",
+        "url": "https://www.yelp.com/biz/chester-public-utilities-district-chester"
+      },
+      {
+        "title": "Chester Public Utilities District - Home",
+        "snippet": "Chester Public Utilities District, Chester, CA. Contractor.",
+        "url": "https://www.facebook.com/194913237995178/"
+      },
+      {
+        "title": "CHESTER PUBLIC UTILITIES DISTRICT, Chester, CA 96020, US",
+        "snippet": "Get more information for CHESTER PUBLIC UTILITIES DISTRICT in Chester, CA. See reviews, map, get the address, and find directions.",
+        "url": "https://www.mapquest.com/us/california/chester-public-utilities-district-378185882"
+      }
+    ]
+  },
+  "address_overlaps": []
+}

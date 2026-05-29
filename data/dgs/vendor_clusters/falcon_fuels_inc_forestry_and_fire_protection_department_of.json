@@ -1,0 +1,51 @@
+{
+  "anchor_vendor": "Falcon Fuels Inc",
+  "buyer": "Forestry and Fire Protection, Department of",
+  "threshold": 4999,
+  "co_vendors": [
+    {
+      "vendor": "Shasta County Fire Department",
+      "po_count": 2,
+      "total_value": 9839.61,
+      "min_amount": 4910.64,
+      "max_amount": 4928.97
+    }
+  ],
+  "enrichment": {
+    "Falcon Fuels Inc": [
+      {
+        "title": "Falcon Fuels",
+        "snippet": "7300 Alondra Boulevard,. Paramount, CA, 90723,. United States. (562) 272-4226. Hours. Mon 8am - 5pm. Tue 8am - 5pm. Wed 8am - 5pm. Thu 8am - 5pm. Fri 8am - 5pm.Read more",
+        "url": "https://www.falconfuelsinc.com/"
+      },
+      {
+        "title": "Falcon Fuels Inc.",
+        "snippet": "Falcon Fuels Inc.'s cover photo. Falcon Fuels Inc. Oil and Gas. Paramount, California 56 followers. Follow \u00b7 Report this company; Close menu.Read more",
+        "url": "https://www.linkedin.com/company/falcon-fuels"
+      },
+      {
+        "title": "Contact",
+        "snippet": "... supplier of energy products throughout the Western United States. Located at 7300 Alondra Boulevard Suite 204, Paramount, CA 90723. Call Now (562) 272-4226.",
+        "url": "https://www.falconfuelsinc.com/contact"
+      }
+    ],
+    "Shasta County Fire Department": [
+      {
+        "title": "Shasta County Fire",
+        "snippet": "Shasta County Fire Department Welcome to the Shasta County Fire Department website ... Address. Shasta County Fire Department \u200b\u200b\u200b\u200b\u200b\u200b\u200b875 Cypress AvenueRead more",
+        "url": "https://www.shastacounty.gov/fire"
+      },
+      {
+        "title": "CAL FIRE Shasta-Trinity Unit/Shasta County Fire Department",
+        "snippet": "The Shasta County Fire Department operates two fire- rescue boats that provide emergency services across Lake Shasta. These boats respond to a wide variety of ...Read more",
+        "url": "https://www.facebook.com/CALFIRESHU/"
+      },
+      {
+        "title": "Contact Fire Department",
+        "snippet": "Address. Shasta County Fire Department \u200b\u200b\u200b\u200b\u200b\u200b\u200b875 Cypress Avenue Redding, CA 96001. Home \u00b7 Sitemap \u00b7 Disclaimers \u00b7 Web Mail \u00b7 Staff Login. 1450 Court St, ...Read more",
+        "url": "https://www.shastacounty.gov/fire/page/contact-fire-department"
+      }
+    ]
+  },
+  "address_overlaps": []
+}

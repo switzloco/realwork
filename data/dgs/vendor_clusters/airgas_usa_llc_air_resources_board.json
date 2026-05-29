@@ -1,0 +1,252 @@
+{
+  "anchor_vendor": "Airgas USA LLC",
+  "buyer": "Air Resources Board",
+  "threshold": 4999,
+  "co_vendors": [
+    {
+      "vendor": "Harris Industrial Gases",
+      "po_count": 5,
+      "total_value": 24795.28,
+      "min_amount": 4920.0,
+      "max_amount": 4992.0
+    },
+    {
+      "vendor": "Unknown",
+      "po_count": 4,
+      "total_value": 19699.0,
+      "min_amount": 4900.0,
+      "max_amount": 4999.0
+    },
+    {
+      "vendor": "Certified Building Services",
+      "po_count": 4,
+      "total_value": 19896.0,
+      "min_amount": 4920.0,
+      "max_amount": 4992.0
+    },
+    {
+      "vendor": "The Regents of the University of California, Los Angeles",
+      "po_count": 3,
+      "total_value": 14970.0,
+      "min_amount": 4990.0,
+      "max_amount": 4990.0
+    },
+    {
+      "vendor": "PROVISTA SOFTWARE INTL INC",
+      "po_count": 2,
+      "total_value": 9844.44,
+      "min_amount": 4922.22,
+      "max_amount": 4922.22
+    },
+    {
+      "vendor": "SCOTT-MARRIN, INC.",
+      "po_count": 2,
+      "total_value": 9998.0,
+      "min_amount": 4999.0,
+      "max_amount": 4999.0
+    },
+    {
+      "vendor": "Collaborative for High Performance Schools",
+      "po_count": 2,
+      "total_value": 9998.0,
+      "min_amount": 4999.0,
+      "max_amount": 4999.0
+    },
+    {
+      "vendor": "Tara Zargofsky",
+      "po_count": 2,
+      "total_value": 9900.0,
+      "min_amount": 4950.0,
+      "max_amount": 4950.0
+    },
+    {
+      "vendor": "Southern California Association of Governments",
+      "po_count": 2,
+      "total_value": 9899.0,
+      "min_amount": 4900.0,
+      "max_amount": 4999.0
+    },
+    {
+      "vendor": "Measurement Technology Laboratories",
+      "po_count": 2,
+      "total_value": 9800.0,
+      "min_amount": 4900.0,
+      "max_amount": 4900.0
+    },
+    {
+      "vendor": "Design coders",
+      "po_count": 2,
+      "total_value": 9900.0,
+      "min_amount": 4950.0,
+      "max_amount": 4950.0
+    },
+    {
+      "vendor": "Sandoval Towing",
+      "po_count": 2,
+      "total_value": 9998.0,
+      "min_amount": 4999.0,
+      "max_amount": 4999.0
+    },
+    {
+      "vendor": "Regents of the University of California, Berkeley",
+      "po_count": 2,
+      "total_value": 9998.0,
+      "min_amount": 4999.0,
+      "max_amount": 4999.0
+    },
+    {
+      "vendor": "Sierra Pacific Fleet Service",
+      "po_count": 2,
+      "total_value": 9998.0,
+      "min_amount": 4999.0,
+      "max_amount": 4999.0
+    },
+    {
+      "vendor": "Shades of Green",
+      "po_count": 2,
+      "total_value": 9998.0,
+      "min_amount": 4999.0,
+      "max_amount": 4999.0
+    },
+    {
+      "vendor": "J&K Court Reporting LLC",
+      "po_count": 2,
+      "total_value": 9998.0,
+      "min_amount": 4999.0,
+      "max_amount": 4999.0
+    },
+    {
+      "vendor": "Nature America, Inc.",
+      "po_count": 2,
+      "total_value": 9998.0,
+      "min_amount": 4999.0,
+      "max_amount": 4999.0
+    },
+    {
+      "vendor": "Praxair Distribution, Inc",
+      "po_count": 2,
+      "total_value": 9998.0,
+      "min_amount": 4999.0,
+      "max_amount": 4999.0
+    },
+    {
+      "vendor": "Corona Motor Sports",
+      "po_count": 2,
+      "total_value": 9998.0,
+      "min_amount": 4999.0,
+      "max_amount": 4999.0
+    },
+    {
+      "vendor": "Cintas",
+      "po_count": 2,
+      "total_value": 9998.0,
+      "min_amount": 4999.0,
+      "max_amount": 4999.0
+    }
+  ],
+  "enrichment": {
+    "Airgas USA LLC": [
+      {
+        "title": "Airgas USA, LLC | BBB Business Profile",
+        "snippet": "Overview. Airgas USA, LLC. PO Box 93500. Long Beach, CA 90809-3500. View ...Read more",
+        "url": "https://www.bbb.org/us/ca/long-beach/profile/medical-gas/airgas-usa-llc-1296-53002974/addressId/510228"
+      },
+      {
+        "title": "bso/external/vendor/vendorProfileAddressInfo.sda (vendorId ...",
+        "snippet": "Vendor Profile - Airgas USA LLC. Organization Information, Address, Contracts. Address Information. Name, Address Type ... pasadena, CA 91109. US Email: joseph ...Read more",
+        "url": "https://epro.sbcounty.gov/bso/external/vendor/vendorProfileAddressInfo.sdo?external=true&vendorId=00004568"
+      },
+      {
+        "title": "Airgas USA, LLC - Northern California & Nevada Region",
+        "snippet": "Industrial gases. Airgas USA, LLC - Northern California & Nevada Region is located in Fremont, CA and is a supplier of Industrial Gases.",
+        "url": "https://www.industrynet.com/listing/3802076/airgas-usa-llc-northern-california-nevada-region"
+      }
+    ],
+    "Harris Industrial Gases": [
+      {
+        "title": "Harris Industrial Gases",
+        "snippet": "With four convenient locations across California and Nevada, Harris Industrial Gases is always close by to support your needs. ... Auburn, California. Click ...Read more",
+        "url": "https://harrisgas.com/"
+      },
+      {
+        "title": "Harris Industrial Gases - Propane",
+        "snippet": "8475 Auburn Blvd. Citrus Heights, CA 95610. Directions \u00b7 (916) 725-2168. Call Now \u00b7 Payment methods. Does Harris Industrial Gases take credit cards? Yes, Harris ...Read more",
+        "url": "https://www.yelp.com/biz/harris-industrial-gases-citrus-heights-3"
+      },
+      {
+        "title": "Contact info. - Harris Industrial Gases",
+        "snippet": "Auburn, California. Address 140 Elm Avenue Auburn, California 95603. Phone (530) 885-1971. Hours M-F ... Copyright \u00a9 2026 Harris Industrial Gases. Balloon Up.Read more",
+        "url": "https://harrisgas.com/our-contacts/"
+      }
+    ],
+    "Unknown": [
+      {
+        "title": "Rule 7.52. Service of notice when recipient's address ...",
+        "snippet": "Service of notice when recipient's address unknown. (a) Declaration of diligent search. Petitioner must file a declaration describing efforts made to locate ...Read more",
+        "url": "https://courts.ca.gov/cms/rules/index/seven/rule7_52"
+      },
+      {
+        "title": "Substituted Service, Publication & Unknown Residence",
+        "snippet": "If the party's residence address is unknown, service may be made by delivering the notice or papers to the clerk of the court.Read more",
+        "url": "https://sdlawlibrary.libguides.com/c.php?g=1290794&p=9477579"
+      },
+      {
+        "title": "How do you serve someone whose address is unknown?",
+        "snippet": "Unfortunately, 'Get a Lawyer' is the only real option here. There are ways to serve someone who's address is unknown, but they have to be done ...Read more",
+        "url": "https://www.reddit.com/r/legaladvice/comments/36vnc5/how_do_you_serve_someone_whose_address_is_unknown/"
+      }
+    ],
+    "Certified Building Services": [
+      {
+        "title": "Certified Building Services",
+        "snippet": "Certified Building Services. CBS Certified Building ServicesCBS Certified Building ServicesCBS Certified Building Services ... Property Address. Frequency.Read more",
+        "url": "https://cbsfacilitiesservices.com/"
+      },
+      {
+        "title": "John Celaya - CEO at Certified Building Services",
+        "snippet": "John Celaya. CEO at Certified Building Services. Certified Building Services. Covina, California, United States. 167 ...Read more",
+        "url": "https://www.linkedin.com/in/john-celaya-3416a316"
+      },
+      {
+        "title": "Certified Building Services Inc | Apopka, FL",
+        "snippet": "Certified Building Services Inc serves the Apopka, FL area and specializes in Demolition, Interior Specialties, Doors and Frames, Finish Carpentry.Read more",
+        "url": "https://www.procore.com/network/p/certified-building-services-inc-apopka"
+      }
+    ],
+    "The Regents of the University of California, Los Angeles": [
+      {
+        "title": "PR Award #: S336S220050 Organization Name: The ...",
+        "snippet": "Organization Name: The Regents of the University of California, Los Angeles. Address: 10889 Wilshire Boulevard, Suite 700, Los Angeles, CA 91325. Program ...Read more",
+        "url": "https://www.ed.gov/sites/ed/files/2023/09/S336S220050-UCLA-Abstract.pdf"
+      },
+      {
+        "title": "The Regents of the University of California, Los Angeles",
+        "snippet": "The Regents of the University of California, Los Angeles \u00b7 Article \u00b7 Talk.Read more",
+        "url": "https://en.wikipedia.org/wiki/The_Regents_of_the_University_of_California%2C_Los_Angeles?redirect=no"
+      },
+      {
+        "title": "Cashiering & Payment Information",
+        "snippet": "Electronic Fund Transfers (EFTs). Payee (Bank Account Name): The Regents of the University of California, Los Angeles; Institution Address ...Read more",
+        "url": "https://ocga.research.ucla.edu/cashiering-payment-info/"
+      }
+    ],
+    "PROVISTA SOFTWARE INTL INC": [
+      {
+        "title": "CAMMNET | OCTA",
+        "snippet": "Company Name: PROVISTA SOFTWARE INTL INC Contact: MARSHALL STUKES III Address: 40087 MISSION BLVD, #301, FREMONT, CA 94539. Phone: (510) 7941884. Email ...",
+        "url": "https://cammnet.octa.net/procurements/planholders-list-report/Default.aspx?solnum=61159&print=1"
+      },
+      {
+        "title": "Vendor Sales FY18 4th Quarter",
+        "snippet": "... PROVISTA SOFTWARE INTL, INC, 3, 9, $22,645.70, 0, 0, $0.00, 0, 0, $0.00, 0, 0, $0.00, 3, 9 ... CALIFORNIA PACIFIC LABORATORY,, 6, 6, $4,225.89, 11, 12, $4,831.63 ...Read more",
+        "url": "https://vsc.gsa.gov/drupal/files/asalesfy18.xls"
+      },
+      {
+        "title": "Solicitation Notice",
+        "snippet": "Provista Software Intl Inc. CA. Classification 2021-05-24 15:52:59 smita.gautam@provista.com. Bid Notification. ProWorks Corporation. OR.Read more",
+        "url": "https://psabuy.org/portals/0/Contracts/21-203/2.%20Advertisement.pdf"
+      }
+    ]
+  },
+  "address_overlaps": []
+}
