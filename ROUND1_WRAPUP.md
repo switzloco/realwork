@@ -217,3 +217,35 @@ ghosts versus DBA misses.
 The DBA trap from Round 1 is fixed by Round 2's approach: SOS check answers
 the existence question directly (entity number, status), instead of relying
 on a Google search that an LLM interprets.
+
+---
+
+## Round 3 Findings — New Attack Surfaces
+*Written: 2026-05-29 — after Antigravity's Round 3 scan*
+
+We executed scans on two new independent data streams (DGS purchase orders and Track B nonprofit overhead). Both datasets yielded clear anomalies warranting further investigation without labeling them as fraud. Small entities have been anonymized in this summary.
+
+### 1. DGS Purchase Order Anomalies (Caltrans-pattern hunt)
+We scanned 50,000 state purchase orders totaling $30.15 billion. The scan successfully identified several classic bidding and contracting anomalies:
+
+* **Split-Contract Clusters (Just-Under-Threshold)**:
+  * **[Local Food Vendor A]**: Won 7 POs clustered just below the $50,000 threshold at exactly $49,950 each, indicating potential split-contracting to bypass formal bidding requirements.
+  * **McKesson Medical-Surgical**: Won 7 POs clustered just below the $5,000 threshold (ranging from $4,943 to $4,957), which is a common minor-threshold pattern.
+* **Vague High-Value POs**:
+  * **CENTRAL CALIFORNIA TECHNO**: Received a $40,500,000 PO from the Employment Development Department (EDD) for "IT technogy support services." The high value paired with a generic description represents a transparency gap.
+  * **ABM Industries**: Received a $21,780,625 PO for "engineering services."
+
+### 2. Track B Nonprofit Overhead Audit (Executive Bloat & Revenue Mismatches)
+We performed a financial health sweep of the top 500 nonprofit CA grant recipients by matching them to ProPublica/IRS Form 990 filings. After resolving name-matching traps (such as correctly separating Stanford University from its bookstore subsidiary), we flagged 104 organizations for significant overhead anomalies:
+
+* **State Funding Exceeds Reported Revenue (Possible Off-Books/Discrepancy)**:
+  * **MADD**: Received $2,209,800 in CA state grants but reported only $5,000 in total revenue on its matching Form 990 filing for that period.
+  * **[Social Services Nonprofit B]**: Received $719,841 in CA state grants but reported only $1 in total revenue.
+  * **[Nonprofit C]**: Received $573,331 in CA state grants but reported only $47,984 in total revenue.
+* **YoY Spikes in Executive Compensation & Total Expenses**:
+  * **[Education/Science Nonprofit F]**: Officer compensation spiked by 281.3% YoY (from $132,755 to $506,146) at an organization with only $3,743,341 in total expenses.
+  * **[Community Nonprofit E]**: Officer compensation spiked by 134.2% YoY (from $356,125 to $834,009) at an organization with $4,819,134 in total expenses.
+  * **[Education Nonprofit G]**: Officer compensation grew by 77.4% YoY ($56,272 to $99,832) while total expenses spiked by 189.6% YoY ($210,171 to $608,725) following the receipt of state funding.
+  * **[Youth Nonprofit D]**: Officer compensation grew by 74.6% YoY ($58,154 to $101,551) while total expenses grew by 181.9% YoY ($102,237 to $288,219) on state funding of $500,000.
+
+These findings represent high-quality leads for manual audits. They demonstrate that while Stage 1 grant portal searches are easily cleared, looking at the post-award stage (how the money is reported on IRS filings or how contracts are split) is where the most significant systemic anomalies reside.

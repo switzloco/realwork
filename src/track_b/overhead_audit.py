@@ -245,7 +245,33 @@ def score_org(filings: list[dict], state_funding: float) -> dict:
                     "value": growth,
                     "threshold": FLAG_YOY_MGMT_GROWTH,
                     "note": f"Mgmt overhead grew {growth*100:.1f}% YoY "
-                            f"(${prev_mgmt:,.0f} → ${curr_mgmt:,.0f})",
+                            f"(${prev_mgmt:,.0f} -> ${curr_mgmt:,.0f})",
+                })
+
+        # YoY spike in officer compensation
+        prev_officer = prev.get("officer_comp_total") or 0
+        curr_officer = latest.get("officer_comp_total") or 0
+        if prev_officer > 50000:
+            officer_growth = (curr_officer - prev_officer) / prev_officer
+            if officer_growth > 0.40:
+                flags.append({
+                    "type": "OFFICER_COMP_YOY_SPIKE",
+                    "value": officer_growth,
+                    "note": f"Officer compensation grew {officer_growth*100:.1f}% YoY "
+                            f"(${prev_officer:,.0f} -> ${curr_officer:,.0f})",
+                })
+
+        # YoY spike in total expenses
+        prev_exp = prev.get("total_expenses") or 0
+        curr_exp = latest.get("total_expenses") or 0
+        if prev_exp > 100000:
+            exp_growth = (curr_exp - prev_exp) / prev_exp
+            if exp_growth > 0.50:
+                flags.append({
+                    "type": "TOTAL_EXPENSES_YOY_SPIKE",
+                    "value": exp_growth,
+                    "note": f"Total expenses grew {exp_growth*100:.1f}% YoY "
+                            f"(${prev_exp:,.0f} -> ${curr_exp:,.0f})",
                 })
 
     # 5. State funding ≫ reported revenue (possible off-books pass-through)
@@ -334,7 +360,7 @@ def run(args):
             tag = score["verdict"]
             if tag.startswith("FLAGGED"):
                 flagged_count += 1
-            alert = "  ⚠️" if tag.startswith("FLAGGED") else ""
+            alert = "  (!)" if tag.startswith("FLAGGED") else ""
             safe = name.encode("ascii", "ignore").decode("ascii")
             print(f"[{i}/{len(recipients)}] {safe[:40]:40s} -> {tag}{alert}")
 
@@ -343,7 +369,7 @@ def run(args):
                 _write_results(results)
 
     except KeyboardInterrupt:
-        print("\n⚠️  Interrupted — saving partial results")
+        print("\n[!] Interrupted — saving partial results")
     finally:
         save_org_index(org_index)
         _write_results(results)
@@ -366,7 +392,7 @@ def run(args):
 
 
 def _write_results(results: list):
-    with open(RESULTS_PATH, "w") as f:
+    with open(RESULTS_PATH, "w", encoding="utf-8") as f:
         json.dump({"count": len(results), "entities": results}, f, indent=2,
                   default=str)
 
@@ -387,10 +413,12 @@ def _write_report(results: list):
             mr = r.get("latest_mgmt_ratio")
             oc = r.get("latest_officer_comp") or 0
             flag_types = ", ".join(f["type"] for f in r.get("flags", []))
+            pr_str = f"{pr*100:.1f}%" if pr is not None else "?"
+            mr_str = f"{mr*100:.1f}%" if mr is not None else "?"
             lines.append(f"| {r['name'][:40]} | ${r['total_state_grants']:,.0f} "
                          f"| {r.get('latest_year','?')} "
-                         f"| {pr*100:.1f}% if pr else '?' "
-                         f"| {mr*100:.1f}% if mr else '?' "
+                         f"| {pr_str} "
+                         f"| {mr_str} "
                          f"| ${oc:,.0f} | {flag_types} |")
 
     other = [r for r in flagged if r.get("verdict") != "FLAGGED_HIGH"]
@@ -404,7 +432,7 @@ def _write_report(results: list):
                 lines.append(f"- **{f['type']}**: {f['note']}")
             lines.append("")
 
-    with open(REPORT_PATH, "w") as f:
+    with open(REPORT_PATH, "w", encoding="utf-8") as f:
         f.write("\n".join(lines))
 
 
