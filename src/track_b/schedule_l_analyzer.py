@@ -88,31 +88,55 @@ def load_high_priority(top_n: int = 20) -> list[dict]:
 
 
 def fetch_pdf(url: str, bd_client) -> bytes | None:
-    if bd_client:
-        # Web Unlocker
-        from src.bright_data.client import ENDPOINT, UNLOCKER_ZONE
-        try:
-            bd_client._check_budget(bd_client.UNLOCKER_COST)
-            r = bd_client.session.post(ENDPOINT, json={
-                "zone": UNLOCKER_ZONE,
-                "url": url,
-                "format": "raw",
-            }, timeout=120)
-            bd_client.spent += bd_client.UNLOCKER_COST
-            bd_client._log({"type": "pdf_fetch", "url": url,
-                            "status": r.status_code, "size": len(r.content),
-                            "cost": bd_client.UNLOCKER_COST})
-            return r.content if r.ok else None
-        except Exception as e:
-            print(f"  PDF fetch failed: {e}")
+    """Try direct fetch first (PDF URLs from ProPublica are usually open);
+    fall back to Web Unlocker only if direct fails or returns non-PDF."""
+    import requests
+
+    # Try direct first — ProPublica PDF storage usually doesn't block
+    try:
+        r = requests.get(url, timeout=60, allow_redirects=True,
+                         headers={"User-Agent": "realwork-audit/1.0"})
+        if r.ok and r.content[:4] == b"%PDF":
+            return r.content
+        if r.ok:
+            # We got something but it's not a PDF — log and try Bright Data
+            print(f"    direct fetch returned {len(r.content)} bytes "
+                  f"starting {r.content[:8]!r} (not PDF)")
+    except Exception as e:
+        print(f"    direct fetch failed: {e}")
+
+    if not bd_client:
+        return None
+
+    # Web Unlocker fallback
+    from src.bright_data.client import ENDPOINT, UNLOCKER_ZONE
+    try:
+        bd_client._check_budget(bd_client.UNLOCKER_COST)
+        r = bd_client.session.post(ENDPOINT, json={
+            "zone": UNLOCKER_ZONE,
+            "url": url,
+            "format": "raw",
+        }, timeout=120)
+        bd_client.spent += bd_client.UNLOCKER_COST
+        bd_client._log({"type": "pdf_fetch", "url": url,
+                        "status": r.status_code, "size": len(r.content),
+                        "cost": bd_client.UNLOCKER_COST})
+        if not r.ok:
+            print(f"    BD fetch HTTP {r.status_code}")
             return None
-    else:
-        import requests
-        try:
-            r = requests.get(url, timeout=60)
-            return r.content if r.ok else None
-        except Exception:
-            return None
+        # Verify we actually got PDF bytes
+        if r.content[:4] == b"%PDF":
+            return r.content
+        # Web Unlocker sometimes wraps PDFs in HTML for download links
+        body = r.content
+        if b"%PDF" in body:
+            pdf_start = body.index(b"%PDF")
+            return body[pdf_start:]
+        print(f"    BD returned {len(body)} bytes, not PDF, starting {body[:80]!r}")
+        return None
+    except Exception as e:
+        print(f"    BD fetch failed: {e}")
+        return None
 
 
 def extract_text(pdf_bytes: bytes) -> str:
@@ -131,7 +155,7 @@ def extract_text(pdf_bytes: bytes) -> str:
 
 def analyze_text(text: str, org_name: str) -> dict:
     if not text:
-        return {"status": "NO_TEXT"}
+        return {"verdict": "NO_TEXT", "score": 0}
 
     text_lower = text.lower()
 
