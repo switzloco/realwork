@@ -2,7 +2,12 @@
 *.db
 data/*.csv
 data/*.json
+data/dgs/
+data/track_b/
+data/bright_data/
 logs/
 __pycache__/
 *.pyc
 .DS_Store
+scratch_*.py
+search_*.py

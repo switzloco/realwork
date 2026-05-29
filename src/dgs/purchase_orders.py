@@ -78,22 +78,46 @@ def fetch_from_api(limit: int = 50000) -> pd.DataFrame:
 
 def normalize(df: pd.DataFrame) -> pd.DataFrame:
     col_map = {}
+    # First pass: try to get exact/best matches
     for c in df.columns:
         cl = c.lower().strip()
-        if "supplier" in cl or "vendor" in cl or "payee" in cl:
+        if cl == "supplier name":
             col_map[c] = "vendor"
-        elif "purchaser" in cl or "buyer" in cl or "department" in cl:
+        elif cl == "department name":
             col_map[c] = "buyer"
+        elif cl == "total price":
+            col_map[c] = "amount"
+        elif cl == "item description":
+            col_map[c] = "description"
+        elif cl == "purchase order number":
+            col_map[c] = "po_id"
+        elif cl == "purchase date":
+            col_map[c] = "date"
+
+    # Second pass: fallback fuzzy matching, ensuring uniqueness
+    for c in df.columns:
+        if c in col_map:
+            continue
+        cl = c.lower().strip()
+        if "supplier" in cl or "vendor" in cl or "payee" in cl:
+            if "vendor" not in col_map.values():
+                col_map[c] = "vendor"
+        elif "purchaser" in cl or "buyer" in cl or "department" in cl:
+            if "buyer" not in col_map.values():
+                col_map[c] = "buyer"
         elif "amount" in cl or "total" in cl:
             if "amount" not in col_map.values():
                 col_map[c] = "amount"
         elif "description" in cl or "item" in cl or "purpose" in cl:
-            col_map[c] = "description"
+            if "description" not in col_map.values():
+                col_map[c] = "description"
         elif "po" in cl and ("number" in cl or "id" in cl):
-            col_map[c] = "po_id"
+            if "po_id" not in col_map.values():
+                col_map[c] = "po_id"
         elif "date" in cl:
             if "date" not in col_map.values():
                 col_map[c] = "date"
+
     df = df.rename(columns=col_map)
     if "amount" in df.columns:
         df["amount"] = pd.to_numeric(
@@ -189,7 +213,7 @@ def find_anomalies(df: pd.DataFrame) -> dict:
     if "description" in df.columns:
         df["desc_lower"] = df["description"].astype(str).str.lower()
         vague = df[df["desc_lower"].apply(
-            lambda d: any(t in d for t in VAGUE_DESCRIPTION_TERMS) and len(d) < 60
+            lambda d: isinstance(d, str) and any(t in d for t in VAGUE_DESCRIPTION_TERMS) and len(d) < 60
         )]
         if "amount" in vague.columns:
             vague = vague[vague["amount"] >= 25_000]

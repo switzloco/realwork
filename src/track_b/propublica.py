@@ -89,21 +89,46 @@ class ProPublicaClient:
         results = self.search(name)
         if not results:
             return None
+        
+        import re
         name_norm = name.lower().strip()
+        input_tokens = set(re.findall(r'\b\w+\b', name_norm))
+        if not input_tokens:
+            return None
+
+        # Subsidiary words to penalize to avoid matching secondary entities
+        subsidiary_words = {
+            "bookstore", "club", "association", "assn", "auxiliary", "aux", 
+            "fellowship", "ministry", "benefits", "trust", "foundation", 
+            "alumni", "students", "womens", "mens", "sports", "athletic",
+            "fund", "center", "institute", "hospital", "clinic", "department", "dept"
+        }
 
         def score(r):
             r_name = (r.get("name") or "").lower().strip()
-            s = 0.0
             if r_name == name_norm:
-                s += 1.0
-            elif name_norm in r_name or r_name in name_norm:
-                s += 0.6
-            if (r.get("state") or "").upper() == state:
+                return 2.0  # Perfect exact match
+            
+            candidate_tokens = set(re.findall(r'\b\w+\b', r_name))
+            if not candidate_tokens:
+                return 0.0
+                
+            overlap = len(input_tokens.intersection(candidate_tokens)) / len(input_tokens)
+            s = overlap
+            
+            # State match bonus
+            if (r.get("state") or "").upper() == state.upper():
                 s += 0.3
+                
+            # Subsidiary penalty
+            has_sub = any(w in subsidiary_words for w in candidate_tokens)
+            if has_sub:
+                s -= 0.4
+                
             return s
 
         best = max(results, key=score)
-        return best if score(best) >= 0.6 else None
+        return best if score(best) >= 0.5 else None
 
 
 def extract_financials(filing: dict) -> dict:
@@ -121,15 +146,17 @@ def extract_financials(filing: dict) -> dict:
 
 def compute_ratios(fin: dict) -> dict:
     """The four ratios that tell the story."""
-    total_exp = fin.get("total_expenses") or 0
-    prog = fin.get("program_expenses") or 0
-    mgmt = fin.get("mgmt_general_expenses") or 0
-    fund = fin.get("fundraising_expenses") or 0
-    officer = fin.get("officer_comp_total") or 0
-    revenue = fin.get("total_revenue") or 0
+    total_exp = fin.get("total_expenses")
+    prog = fin.get("program_expenses")
+    mgmt = fin.get("mgmt_general_expenses")
+    fund = fin.get("fundraising_expenses")
+    officer = fin.get("officer_comp_total")
+    revenue = fin.get("total_revenue")
 
     def safe_div(n, d):
-        return round(n / d, 4) if d and d > 0 else None
+        if n is None or d is None or d <= 0:
+            return None
+        return round(n / d, 4)
 
     return {
         "program_expense_ratio": safe_div(prog, total_exp),
