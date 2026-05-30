@@ -21,8 +21,9 @@
         </div>
         <div class="nav-links">
             <a href="#audit">The Gap</a>
-            <a href="#lead">Lead Case</a>
-            <a href="#patterns">Patterns</a>
+            <a href="#lead">DGS Patterns</a>
+            <a href="#patterns">Nonprofit Patterns</a>
+            <a href="#dossier">Dossier</a>
             <a href="#methodology">Methodology</a>
         </div>
     </nav>
@@ -276,6 +277,48 @@
 
         <p style="text-align: center; margin-top: 2rem; color: rgba(255,255,255,0.7); max-width: 800px; margin-left: auto; margin-right: auto;">
             <strong>30 more validated anomalies</strong> are in <code>data/track_b/validated_report.md</code> in the repo. Every flag references a public 990 filing. The pipeline that surfaced them is reproducible.
+        </p>
+    </section>
+
+    <section id="dossier" class="section">
+        <div class="section-header">
+            <h2>What a Complete <span class="accent-text">Dossier</span> Looks Like</h2>
+            <p>The patterns the tool surfaces are screening signals. Converting one into an actionable lead means writing a tight, cited, defensible dossier that an oversight body can act on. This is the artifact the State Auditor's confidential channel actually wants — not a webpage, not a tweet, a single document where every claim ties to a public record. We wrote one as a worked example.</p>
+        </div>
+
+        <div class="case-card glass" style="border-color: rgba(80,180,255,0.4);">
+            <div class="case-header">
+                <span class="tag warning">METHODOLOGY DEMONSTRATION — ANOMALY WARRANTING REVIEW</span>
+                <span class="amount">$834K vs $500K</span>
+            </div>
+            <h3>Trybe, Inc. — Worked Dossier</h3>
+            <p class="grant-type">Officer compensation reported on Form 990 exceeds the entire state grant by approximately 67%</p>
+
+            <div class="evidence-list">
+                <div class="evidence-item warning">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
+                    <span><strong>$834,009</strong> in officer compensation reported on Form 990 (tax year 2023)</span>
+                </div>
+                <div class="evidence-item warning">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
+                    <span><strong>$500,000</strong> in California state grants received in the same fiscal year</span>
+                </div>
+                <div class="evidence-item warning">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
+                    <span><strong>Both Gemini 2.5 Pro and GPT-4o</strong> (via AI/ML API) independently flagged this pattern</span>
+                </div>
+                <div class="evidence-item success">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                    <span>Dossier lists 4 charitable explanations that must be ruled out before any further claim</span>
+                </div>
+            </div>
+            <p class="summary">
+                The complete dossier — at <code>data/dossiers/DOSSIER_trybe_inc.md</code> in the repo — names the entity, cites every claim to a public record, lists the four charitable explanations that the State Auditor's subpoena power could rule out (multi-year grant amortization, fiscal sponsorship, comparable-position salary justification, board-approval process), and recommends the specific oversight channel: submission to the California State Auditor's confidential hotline using one of three pre-drafted tip letter templates we shipped (<code>STATE_AUDITOR_TIP_TEMPLATES.md</code>). This is what depth looks like.
+            </p>
+        </div>
+
+        <p style="text-align: center; margin-top: 2rem; color: rgba(255,255,255,0.7); max-width: 760px; margin-left: auto; margin-right: auto;">
+            <strong>The honest answer to "did you find fraud":</strong> we found patterns that warrant review by an entity with subpoena authority. The State Auditor's office is exactly that entity. The dossier above is the artifact you hand to them. <a href="#" style="color: rgba(80,180,255,0.85);">Read the full <code>WHAT_DEPTH_LOOKS_LIKE.md</code></a> in the repo for the 9-step methodology that converts an aggregate-pattern flag into a State Auditor-ready dossier.
         </p>
     </section>
 
