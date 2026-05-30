@@ -139,16 +139,21 @@ Three parallel tracks:
 |------|------------|
 | `ZOOM_OUT.md` | Honest inventory: what survived scrutiny, what didn't |
 | `PITCH_PREP.md` | Single-doc team briefing, NotebookLM-ready |
+| `WHAT_DEPTH_LOOKS_LIKE.md` | 9-step methodology for the depth-first version of this work |
+| `STATE_AUDITOR_TIP_TEMPLATES.md` | Three pre-drafted tip letter templates for the State Auditor |
 | `accountability_audit.md` | The $36.5B systemic finding output |
 | `data/track_b/validated_report.md` | The 36 HIGH PRIORITY validated nonprofit cases |
 | `data/dgs/split_contract_report.md` | The DGS threshold-edge analysis |
 | `data/dgs/fire_window_context.md` | Honest re-evaluation of the Panini Time pattern under wildfire context |
+| `data/dossiers/DOSSIER_trybe_inc.md` | A worked example of a State Auditor-ready single-entity dossier |
 | `src/audit/disbursement_audit.py` | Reproduces the $36.5B finding |
 | `src/dgs/*.py` | DGS analysis pipeline |
 | `src/track_b/*.py` | Nonprofit analysis pipeline |
+| `src/counties/county_po_scanner.py` | Generalization to local-government data (SF, LA County, Sacramento, San Jose) |
 | `src/bright_data/*.py` | Bright Data integration layer |
 | `src/ensemble/second_opinion.py` | AI/ML API cross-model validator |
 | `ui/index.html` | Public-facing demo site |
+| `ui/submit-a-tip.html` | Pre-drafted State Auditor tip templates for the public |
 
 ---
 
