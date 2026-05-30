@@ -1,0 +1,14 @@
+{
+  "name": "Finish First Academy",
+  "facts_sent": "Organization: Finish First Academy\nEIN: 815199729\nTotal California state grants received: $4,750,157\nLatest Form 990 year: 2023\nLatest year total revenue: $556,090\nLatest year total expenses: $608,725\nLatest year officer compensation: $99,832\n\nFlags raised by our pipeline:\n  - HIGH_OFFICER_COMP_RATIO: 16.4% of expenses to officer comp\n  - OFFICER_COMP_YOY_SPIKE: Officer compensation grew 77.4% YoY ($56,272 -> $99,832)\n  - TOTAL_EXPENSES_YOY_SPIKE: Total expenses grew 189.6% YoY ($210,171 -> $608,725)\n  - STATE_FUNDING_EXCEEDS_REPORTED_REVENUE: Received $4,750,157 in CA grants but reports $556,090 total revenue on Form 990",
+  "second_opinion": {
+    "verdict": "AGREES_WARRANTS_INVESTIGATION",
+    "confidence": 0.9,
+    "key_reasoning": "The discrepancy between the state grants received and the reported revenue suggests potential misreporting or misallocation of funds. Additionally, the significant spikes in officer compensation and total expenses raise concerns about financial management and potential misuse of funds.",
+    "missing_evidence": [
+      "Detailed breakdown of grant usage",
+      "Explanation for revenue discrepancy",
+      "Justification for officer compensation increase"
+    ]
+  }
+}

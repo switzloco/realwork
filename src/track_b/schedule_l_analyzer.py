@@ -203,7 +203,7 @@ def analyze_text(text: str, org_name: str) -> dict:
     name_pattern = re.compile(
         r"\b([A-Z][a-z]+\s+[A-Z]\.?\s*[A-Z][a-z]+)\b",
     )
-    officer_names_found = list(set(name_pattern.findall(text))[:20])
+    officer_names_found = list(set(name_pattern.findall(text)))[:20]
 
     # Verdict
     score = 0

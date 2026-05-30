@@ -1,0 +1,14 @@
+{
+  "name": "Center for Future Global Leaders",
+  "facts_sent": "Organization: Center for Future Global Leaders\nEIN: 204140314\nTotal California state grants received: $1,762,500\nLatest Form 990 year: 2023\nLatest year total revenue: $1,023,145\nLatest year total expenses: $1,267,864\nLatest year officer compensation: $0\n\nFlags raised by our pipeline:\n  - STATE_FUNDING_EXCEEDS_REPORTED_REVENUE: Received $1,762,500 in CA grants but reports $1,023,145 total revenue on Form 990",
+  "second_opinion": {
+    "verdict": "AGREES_WARRANTS_INVESTIGATION",
+    "confidence": 0.9,
+    "key_reasoning": "The discrepancy between the state grants received and the reported total revenue suggests potential misreporting or misallocation of funds, which is a red flag for financial mismanagement or fraud.",
+    "missing_evidence": [
+      "Detailed breakdown of revenue sources",
+      "State grant agreements and terms",
+      "Bank statements or financial records corroborating revenue figures"
+    ]
+  }
+}

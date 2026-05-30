@@ -188,7 +188,7 @@ def main():
 
     if not AIMLAPI_KEY:
         print("AIMLAPI_KEY not set in .env")
-        print("Get from event page → Technology Partners → AI/ML API → Claim Coupon")
+        print("Get from event page -> Technology Partners -> AI/ML API -> Claim Coupon")
         return
 
     print(f"Cross-model second opinion using {args.model}")

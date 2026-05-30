@@ -1,0 +1,13 @@
+{
+  "vendor": "McKesson Medical - Surgical Minnesota Su",
+  "facts_sent": "Vendor: McKesson Medical - Surgical Minnesota Su\nThreshold our pipeline flagged: $4,999\nPattern verdict: STRONG_SPLIT_CONTRACT_PATTERN\nJust-under-threshold POs: 28\nJust-under-threshold dollar total: $138,990\nLifetime PO value with this state: $19,149,005\nSingle-buyer concentration: 93%\nDate span: 983 days\nMax POs in any 7-day window: 2\nSuspicion factors detected:\n  - single buyer issued >=75% of near-threshold POs\n  - same description used 6+ times\n  - 28 POs in the just-under band\nTop buyer: Correctional Health Care Services (26 POs)\nMost common description: \"medical supplies\" (6x)",
+  "second_opinion": {
+    "verdict": "AGREES_WARRANTS_INVESTIGATION",
+    "confidence": 0.9,
+    "key_reasoning": "The pattern of 28 just-under-threshold purchase orders, with a high concentration of these orders from a single buyer and repeated use of the same description, strongly suggests an attempt to circumvent procurement rules, indicative of split contracting.",
+    "missing_evidence": [
+      "Detailed breakdown of items in each PO",
+      "Justification for each PO from Correctional Health Care Services"
+    ]
+  }
+}

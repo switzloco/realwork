@@ -1,0 +1,117 @@
+{
+  "model_used": "gpt-4o",
+  "results": [
+    {
+      "type": "track_b",
+      "name": "Finish First Academy",
+      "verdict": "AGREES_WARRANTS_INVESTIGATION",
+      "confidence": 0.9,
+      "reasoning": "The discrepancy between the state grants received and the reported revenue suggests potential misreporting or misallocation of funds. Additionally, the significant spikes in officer compensation and total expenses raise concerns about financial management and potential misuse of funds."
+    },
+    {
+      "type": "track_b",
+      "name": "Mariposa Women and Family Center",
+      "verdict": "AGREES_WARRANTS_INVESTIGATION",
+      "confidence": 0.9,
+      "reasoning": "The discrepancy between the reported total revenue and the state grants received suggests potential misreporting or misallocation of funds. Additionally, the high officer compensation ratio raises concerns about financial management and priorities."
+    },
+    {
+      "type": "track_b",
+      "name": "Land Together",
+      "verdict": "AGREES_WARRANTS_INVESTIGATION",
+      "confidence": 0.9,
+      "reasoning": "The discrepancy between the state grants received and the reported total revenue suggests potential misreporting or misallocation of funds. Additionally, the high officer compensation relative to expenses and its significant year-over-year increase raises concerns about financial management and potential misuse of funds."
+    },
+    {
+      "type": "track_b",
+      "name": "Restorative Partners Inc.",
+      "verdict": "AGREES_WARRANTS_INVESTIGATION",
+      "confidence": 0.9,
+      "reasoning": "The discrepancy between the state grants received and the reported total revenue suggests potential misreporting or misallocation of funds. Additionally, the significant year-over-year spike in expenses without a corresponding increase in revenue or clear explanation raises concerns about financial management and transparency."
+    },
+    {
+      "type": "track_b",
+      "name": "Operation New Hope",
+      "verdict": "AGREES_WARRANTS_INVESTIGATION",
+      "confidence": 0.9,
+      "reasoning": "The discrepancy between the reported total revenue and the state grants received suggests potential misreporting or misallocation of funds. Additionally, the significant year-over-year spike in expenses without a corresponding increase in revenue or explanation raises concerns about financial management or potential misuse of funds."
+    },
+    {
+      "type": "track_b",
+      "name": "Family Dynamics Resource Center",
+      "verdict": "AGREES_WARRANTS_INVESTIGATION",
+      "confidence": 0.9,
+      "reasoning": "The organization reports significantly lower total revenue than the state grants received, suggesting potential misreporting or misallocation of funds."
+    },
+    {
+      "type": "track_b",
+      "name": "Center for Future Global Leaders",
+      "verdict": "AGREES_WARRANTS_INVESTIGATION",
+      "confidence": 0.9,
+      "reasoning": "The discrepancy between the state grants received and the reported total revenue suggests potential misreporting or misallocation of funds, which is a red flag for financial mismanagement or fraud."
+    },
+    {
+      "type": "track_b",
+      "name": "Veterans Transition Center of California",
+      "verdict": "AGREES_WARRANTS_INVESTIGATION",
+      "confidence": 0.9,
+      "reasoning": "The officer compensation is unusually high relative to the organization's total expenses, and the year-over-year increase is significant without clear justification. This pattern is consistent with potential misuse of funds."
+    },
+    {
+      "type": "track_b",
+      "name": "ManifestWorks",
+      "verdict": "AGREES_WARRANTS_INVESTIGATION",
+      "confidence": 0.9,
+      "reasoning": "The discrepancy between the state grants received and the reported total revenue suggests potential misreporting or misallocation of funds. Additionally, the high officer compensation ratio raises concerns about financial management practices."
+    },
+    {
+      "type": "track_b",
+      "name": "Peer Voices United",
+      "verdict": "AGREES_WARRANTS_INVESTIGATION",
+      "confidence": 0.9,
+      "reasoning": "The discrepancy between the reported total revenue and the state grants received suggests potential misreporting or misuse of funds. Additionally, the high officer compensation ratio raises concerns about financial management and potential self-dealing."
+    },
+    {
+      "type": "dgs",
+      "name": "Airgas USA LLC",
+      "verdict": "AGREES_WARRANTS_INVESTIGATION",
+      "confidence": 0.85,
+      "reasoning": "The pattern of multiple just-under-threshold purchase orders, high single-buyer concentration, and repeated descriptions suggests potential contract splitting to avoid procurement thresholds."
+    },
+    {
+      "type": "dgs",
+      "name": "Falcon Fuels Inc",
+      "verdict": "AGREES_WARRANTS_INVESTIGATION",
+      "confidence": 0.9,
+      "reasoning": "The pattern of 13 purchase orders just under the threshold, high single-buyer concentration, and repeated use of the same description suggests potential contract splitting to avoid procurement scrutiny."
+    },
+    {
+      "type": "dgs",
+      "name": "McKesson Medical - Surgical Minnesota Su",
+      "verdict": "AGREES_WARRANTS_INVESTIGATION",
+      "confidence": 0.9,
+      "reasoning": "The pattern of 28 just-under-threshold purchase orders, with a high concentration of these orders from a single buyer and repeated use of the same description, strongly suggests an attempt to circumvent procurement rules, indicative of split contracting."
+    },
+    {
+      "type": "dgs",
+      "name": "Panini Time",
+      "verdict": "AGREES_WARRANTS_INVESTIGATION",
+      "confidence": 0.9,
+      "reasoning": "The pattern of issuing multiple just-under-threshold purchase orders, all concentrated with a single buyer, suggests potential contract splitting to avoid procurement regulations. The high number of POs in a short time frame further supports this suspicion."
+    },
+    {
+      "type": "dgs",
+      "name": "Prison Industry Authority",
+      "verdict": "AGREES_WARRANTS_INVESTIGATION",
+      "confidence": 0.85,
+      "reasoning": "The pattern of multiple just-under-threshold purchase orders, particularly with repeated descriptions and a concentration of orders from a single buyer, suggests potential contract splitting to avoid procurement thresholds."
+    },
+    {
+      "type": "dgs",
+      "name": "Progressive Medical, Inc.",
+      "verdict": "AGREES_WARRANTS_INVESTIGATION",
+      "confidence": 0.9,
+      "reasoning": "The pattern of issuing multiple purchase orders just below the threshold within a short time span, all from a single buyer, suggests an attempt to circumvent procurement rules. The repeated use of the same description further supports the suspicion of split contracts."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "vendor": "Prison Industry Authority",
+  "facts_sent": "Vendor: Prison Industry Authority\nThreshold our pipeline flagged: $4,999\nPattern verdict: STRONG_SPLIT_CONTRACT_PATTERN\nJust-under-threshold POs: 18\nJust-under-threshold dollar total: $89,196\nLifetime PO value with this state: $159,583,238\nSingle-buyer concentration: 28%\nDate span: 974 days\nMax POs in any 7-day window: 3\nSuspicion factors detected:\n  - 3 POs in a single 7-day window\n  - same description used 3+ times\n  - 18 POs in the just-under band\nTop buyer: Correctional Health Care Services (5 POs)\nMost common description: \"stacking chairs with arms\" (3x)",
+  "second_opinion": {
+    "verdict": "AGREES_WARRANTS_INVESTIGATION",
+    "confidence": 0.85,
+    "key_reasoning": "The pattern of multiple just-under-threshold purchase orders, particularly with repeated descriptions and a concentration of orders from a single buyer, suggests potential contract splitting to avoid procurement thresholds.",
+    "missing_evidence": [
+      "Detailed justification for each PO",
+      "Comparison with similar vendors' PO patterns"
+    ]
+  }
+}

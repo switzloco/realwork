@@ -1,0 +1,14 @@
+{
+  "name": "ManifestWorks",
+  "facts_sent": "Organization: ManifestWorks\nEIN: 475485332\nTotal California state grants received: $1,594,818\nLatest Form 990 year: 2023\nLatest year total revenue: $967,364\nLatest year total expenses: $842,348\nLatest year officer compensation: $177,207\n\nFlags raised by our pipeline:\n  - HIGH_OFFICER_COMP_RATIO: 21.0% of expenses to officer comp\n  - STATE_FUNDING_EXCEEDS_REPORTED_REVENUE: Received $1,594,818 in CA grants but reports $967,364 total revenue on Form 990",
+  "second_opinion": {
+    "verdict": "AGREES_WARRANTS_INVESTIGATION",
+    "confidence": 0.9,
+    "key_reasoning": "The discrepancy between the state grants received and the reported total revenue suggests potential misreporting or misallocation of funds. Additionally, the high officer compensation ratio raises concerns about financial management practices.",
+    "missing_evidence": [
+      "Detailed breakdown of revenue sources",
+      "Explanation for revenue discrepancy",
+      "Justification for officer compensation level"
+    ]
+  }
+}

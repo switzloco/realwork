@@ -1,0 +1,14 @@
+{
+  "name": "Veterans Transition Center of California",
+  "facts_sent": "Organization: Veterans Transition Center of California\nEIN: 770431413\nTotal California state grants received: $1,634,722\nLatest Form 990 year: 2023\nLatest year total revenue: $5,342,481\nLatest year total expenses: $4,772,475\nLatest year officer compensation: $722,477\n\nFlags raised by our pipeline:\n  - HIGH_OFFICER_COMP_SMALL_ORG: $722,477 officer comp at an org with $4,772,475 in total expenses\n  - HIGH_OFFICER_COMP_RATIO: 15.1% of expenses to officer comp\n  - OFFICER_COMP_YOY_SPIKE: Officer compensation grew 227.2% YoY ($220,829 -> $722,477)",
+  "second_opinion": {
+    "verdict": "AGREES_WARRANTS_INVESTIGATION",
+    "confidence": 0.9,
+    "key_reasoning": "The officer compensation is unusually high relative to the organization's total expenses, and the year-over-year increase is significant without clear justification. This pattern is consistent with potential misuse of funds.",
+    "missing_evidence": [
+      "Justification for officer compensation increase",
+      "Board meeting minutes approving compensation",
+      "Comparison with industry standards for similar organizations"
+    ]
+  }
+}

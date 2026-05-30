@@ -1,0 +1,14 @@
+{
+  "name": "Land Together",
+  "facts_sent": "Organization: Land Together\nEIN: 463998218\nTotal California state grants received: $4,456,234\nLatest Form 990 year: 2022\nLatest year total revenue: $1,928,947\nLatest year total expenses: $1,341,084\nLatest year officer compensation: $338,329\n\nFlags raised by our pipeline:\n  - HIGH_OFFICER_COMP_SMALL_ORG: $338,329 officer comp at an org with $1,341,084 in total expenses\n  - HIGH_OFFICER_COMP_RATIO: 25.2% of expenses to officer comp\n  - OFFICER_COMP_YOY_SPIKE: Officer compensation grew 55.0% YoY ($218,324 -> $338,329)\n  - STATE_FUNDING_EXCEEDS_REPORTED_REVENUE: Received $4,456,234 in CA grants but reports $1,928,947 total revenue on Form 990",
+  "second_opinion": {
+    "verdict": "AGREES_WARRANTS_INVESTIGATION",
+    "confidence": 0.9,
+    "key_reasoning": "The discrepancy between the state grants received and the reported total revenue suggests potential misreporting or misallocation of funds. Additionally, the high officer compensation relative to expenses and its significant year-over-year increase raises concerns about financial management and potential misuse of funds.",
+    "missing_evidence": [
+      "Detailed breakdown of revenue sources",
+      "Justification for officer compensation increase",
+      "Audit reports or financial statements"
+    ]
+  }
+}
