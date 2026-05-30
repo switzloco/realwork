@@ -53,6 +53,8 @@ import argparse
 import json
 import os
 import re
+import threading
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 from typing import Optional
 
@@ -276,26 +278,21 @@ def run(dataset_url: str = "", manifest: str = "", pdf_dir: str = "",
     records: list[InvoiceRecord] = []
     before_after: list[dict] = []
     ok, failed = 0, 0
+    budget_stop = False
 
-    for i, doc in enumerate(docs, 1):
+    def process_doc(i, doc):
         title = doc.get("title", f"doc_{i}")
         try:
             pdf = fetch_pdf(doc, client)
         except BudgetExceeded as e:
-            print(f"\n! Budget stop: {e}")
-            break
+            return i, title, None, None, f"Budget stop: {e}"
         if not pdf:
-            print(f"  [{i}] {title[:50]} — fetch failed")
-            failed += 1
-            continue
-
+            return i, title, None, None, "fetch failed"
         try:
             raw = extract_with_gemini(pdf, model)
         except Exception as e:
-            print(f"  [{i}] {title[:50]} — extract error: {e}")
-            failed += 1
-            continue
-
+            return i, title, None, None, f"extract error: {e}"
+        
         rec = InvoiceRecord(
             source_title=title,
             source_url=doc.get("url", doc.get("path", "")),
@@ -305,19 +302,37 @@ def run(dataset_url: str = "", manifest: str = "", pdf_dir: str = "",
                 "deliverables", "confidence", "extraction_notes")
                if raw.get(k) is not None},
         )
-        records.append(rec)
-        before_after.append({
-            "title": title,
-            "source": rec.source_url,
-            "size_kb": round(len(pdf) / 1024, 1),
-            "structured": rec.model_dump(),
-        })
-        amt = f"${rec.billed_amount:,.2f}" if rec.billed_amount else "?"
-        print(f"  [{i}] {title[:45]:45} -> {rec.vendor or '?'} | {amt} "
-              f"| {rec.confidence}")
-        ok += 1
+        return i, title, rec, pdf, None
+
+    with ThreadPoolExecutor(max_workers=3) as pool:
+        futures = {pool.submit(process_doc, i, doc): doc for i, doc in enumerate(docs, 1)}
+        for future in as_completed(futures):
+            i, title, rec, pdf, err = future.result()
+            if err:
+                if "Budget stop" in err:
+                    print(f"\n! {err}")
+                    budget_stop = True
+                else:
+                    print(f"  [{i}] {title[:50]} — {err}")
+                    failed += 1
+                continue
+            
+            records.append(rec)
+            before_after.append({
+                "title": title,
+                "source": rec.source_url,
+                "size_kb": round(len(pdf) / 1024, 1),
+                "structured": rec.model_dump(),
+            })
+            amt = f"${rec.billed_amount:,.2f}" if rec.billed_amount else "?"
+            print(f"  [{i}] {title[:45]:45} -> {rec.vendor or '?'} | {amt} | {rec.confidence}")
+            ok += 1
 
     # write outputs
+    # Sort records back into original order by sorting by source_title (or just letting them be unordered)
+    records.sort(key=lambda r: r.source_title)
+    before_after.sort(key=lambda d: d["title"])
+    
     ledger_path = OUT_DIR / "ledger.json"
     ledger_path.write_text(json.dumps([r.model_dump() for r in records], indent=2))
     _write_before_after(before_after)
