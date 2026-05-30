@@ -28,7 +28,13 @@ You are evaluating the following extracted invoice record:
 
 Use your Google Search grounding tool to look up the vendor (e.g. news about fraud, their typical size, leadership) and the standard costs for the stated deliverables (e.g. typical cost of a case manager or 'Access to Care' physical patch in LA County).
 
-Identify any Red Flags (e.g. unverified/vague deliverables like "Other", suspiciously round numbers, massive dollar amounts that don't match typical provider size, duplicate months, or high administrative costs).
+Go beyond the obvious known issues (like vague deliverables or round numbers). Look for NOVEL and SUBTLE fraud indicators. Specifically:
+- **Address & Shell Companies:** Cross-reference the vendor's billing address using Google Search. Is it a residential home, a virtual office, or a UPS store? Does the vendor appear to be a newly formed LLC billing millions?
+- **Mismatched Services:** Does the vendor's actual business (e.g., real estate, consulting) mismatch the clinical/homeless services they are billing for?
+- **Impossible Ratios & Temporal Anomalies:** Are there impossibly high staff-to-client ratios? Is a massive amount of service billed in a highly condensed or impossible timeframe?
+- **Pricing Outliers:** Compare the billed unit rates against standard LA County or Medicare/Medicaid reimbursement rates using Google Search. Are they overbilling by 500%+?
+
+Identify any Red Flags that fit these novel categories or other deep anomalies.
 
 Return a single JSON object with EXACTLY this schema (do not wrap in markdown):
 {{
