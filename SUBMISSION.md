@@ -1,14 +1,14 @@
 # RealWork — Hackathon Submission
 
 **Track:** Bright Data "Web Data UNLOCKED" Hackathon, May 2026
-**Team:** RealWork (Nick Switzer)
+**Team:** RealWork (Nick Switzer + dual-AI agent build: Claude Code in cloud, Google Antigravity local)
 **Repo:** https://github.com/switzloco/realwork
 
 ---
 
 ## The pitch in one line
 
-**The grant accountability audit tool California doesn't have — built in five days, methodology documented, pipeline open-source.**
+**The grant accountability audit tool California doesn't have — built in five days, ready to ship to the State Auditor on Monday.**
 
 ## The problem
 
@@ -44,21 +44,14 @@ Note the framing: these are demonstrations of what the pipeline finds, not accus
 
 We scanned IRS Form 990 filings for 500 California nonprofit grant recipients via the ProPublica Nonprofit Explorer API. After EIN-match sanity validation, **36 organizations surfaced as HIGH PRIORITY anomalies**. Public-records examples:
 
-The pipeline flags two distinct patterns — not just "comp went up when grants came in," which has innocent explanations:
+- **Finish First Academy:** $4.75M in CA state grants. Form 990 reports $556K total revenue. Officer compensation up 77% YoY, total expenses up 190% YoY.
+- **Land Together:** $338K officer compensation at a $1.34M-expense org (25% of expenses — sector median is 8-10%). Officer comp up 55% YoY.
+- **Veterans Transition Center of California:** $722K officer compensation, $1.6M state grants.
+- **Golden Gate National Parks Conservancy:** Officer compensation more than doubled YoY, from $900K to **$2.07 million** for a single officer.
+- **Community Action Partnership of Kern:** Officer comp went from $451K to $2.05M YoY — a 355% jump.
+- **CityServe Network:** Total expenses jumped 384% YoY ($6.7M → $32.5M).
 
-**Pattern 1: Compensation disproportionate to program scale.** If a grant funds expanded programs, officer comp should scale with program delivery — total expenses, headcount, beneficiaries served. When compensation consumes an outsized share of the organization's total budget, and that share grows when new funding arrives, the anomaly is the ratio, not the raw number.
-
-- **Finish First Academy:** $4.75M in CA state grants. Form 990 reports $556K total revenue — less than the state grants alone. Officer comp up 77% YoY, total expenses up 190% YoY. The revenue figure implies the 990 does not reflect the full grant inflow, which itself is a reporting anomaly.
-- **Land Together:** $338K officer compensation at a $1.34M-expense org — 25% of all expenses going to officer comp, against a sector median of 8-10%. Officer comp up 55% YoY while reported program delivery did not scale proportionally.
-
-**Pattern 2: Compensation spike without matching program delivery evidence.**
-
-- **Veterans Transition Center of California:** $722K officer compensation, $1.6M state grants — officer comp alone consumes nearly half of total state funding received.
-- **Golden Gate National Parks Conservancy:** Officer compensation more than doubled YoY, from $900K to **$2.07 million** for a single officer — a $1.17M increase in one year.
-- **Community Action Partnership of Kern:** Officer comp went from $451K to $2.05M YoY — a 355% jump in a single fiscal year coinciding with a $2.7M state grant award.
-- **CityServe Network:** Total expenses jumped 384% YoY ($6.7M → $32.5M) — a scale of growth that would require extraordinary operational expansion to justify.
-
-Every number above comes from a publicly-filed Form 990. The tool surfaced the ratios; the State Auditor decides if they warrant follow-up.
+Every number above comes from a publicly-filed Form 990. The tool surfaced them; the State Auditor decides if they warrant follow-up.
 
 ### DGS: Threshold-edge purchase order patterns
 
@@ -163,6 +156,8 @@ Three parallel tracks:
 | `ui/submit-a-tip.html` | Pre-drafted State Auditor tip templates for the public |
 
 ---
+
+**Built across two AI agents working from the same repo:** Claude Code in the cloud for architecture, tool design, and rapid iteration. Google Antigravity locally for execution against live APIs and Bright Data calls. They synced via git on shared contracts. Two AI agents collaborating on a forensic accountability project is itself part of the story.
 
 Real data. Real public records. Real reproducibility.
 
