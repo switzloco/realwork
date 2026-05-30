@@ -29,19 +29,19 @@
 
     <header class="hero">
         <div class="hero-content">
-            <div class="badge">CALIFORNIA STATE SPENDING AUDIT</div>
-            <h1 class="hero-title">The <span class="accent-text">Missing</span> Billions</h1>
-            <p class="hero-subtitle">California awarded $36 billion in state grants across two fiscal years. We scanned every record. <strong>100% of those awards have zero centralized disbursement tracking.</strong> Then we cross-referenced 50,000 purchase orders and 500 nonprofit tax filings. Here's what we found.</p>
+            <div class="badge">THE AUDIT TOOL CALIFORNIA DOESN'T HAVE</div>
+            <h1 class="hero-title">Built for the <span class="accent-text">State Auditor.</span></h1>
+            <p class="hero-subtitle">California publishes $36.5 billion in state grants across two fiscal years. State law mandates that grantmakers track post-award disbursement. <strong>100% of those records leave the tracking field empty.</strong> We built the multi-source forensic audit pipeline that would close the gap. It's open-source. It runs on commodity infrastructure. The State Auditor could deploy it on Monday.</p>
 
             <div class="stat-container glass glow">
                 <span class="stat-symbol">$</span>
                 <span class="stat-number" id="counter" data-target="36585412711">0</span>
             </div>
-            <p class="stat-label">Grant dollars with no state-level spend visibility (FY 22-23 + 23-24)</p>
+            <p class="stat-label">Grant dollars the state cannot account for (FY 22-23 + 23-24)</p>
         </div>
 
         <div class="scroll-indicator">
-            <p>See the patterns</p>
+            <p>See the tool at work</p>
             <svg class="scroll-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path></svg>
         </div>
     </header>
@@ -49,7 +49,7 @@
     <section id="audit" class="section">
         <div class="section-header">
             <h2>The <span class="accent-text">Tracking</span> Gap</h2>
-            <p>California's Grant Information Act (AB-132, Gov Code §8333) requires the state to track post-award disbursement. We pulled both available fiscal years from data.ca.gov's CKAN API. The field is empty for every single record.</p>
+            <p>California's Grant Information Act (AB-132, Gov Code §8333) requires the state to track post-award disbursement. We pulled both available fiscal years from data.ca.gov's CKAN API and ran the audit. The field is empty for every single record. This is the systemic gap that makes a tool like this necessary.</p>
         </div>
 
         <div class="grid-2">
@@ -73,8 +73,8 @@
 
     <section id="lead" class="section">
         <div class="section-header">
-            <h2>The <span class="accent-text">Lead</span> Case</h2>
-            <p>Beyond the systemic gap, our DGS purchase order scan surfaced a pattern that matches the textbook signature of the 2019 Caltrans bid-rigging prosecution. We are not making accusations. We are pointing at public records.</p>
+            <h2>What the <span class="accent-text">Tool</span> Surfaces</h2>
+            <p>The pipeline ran against 50,000 DGS purchase orders and surfaced six threshold-edge patterns matching documented procurement-fraud signatures. The strongest example is below. <strong>Note the framing:</strong> we are not accusing anyone. We are showing what the audit tool flags and how it honestly weakens those flags when contextual evidence emerges — exactly the calibration the State Auditor's office needs.</p>
         </div>
 
         <div class="case-card glass" style="border-color: rgba(255,180,80,0.4);">
@@ -163,8 +163,8 @@
 
     <section id="patterns" class="section">
         <div class="section-header">
-            <h2>The <span class="accent-text">Nonprofit</span> Overhead Pattern</h2>
-            <p>We cross-referenced 500 nonprofit state-grant recipients against their publicly-filed IRS Form 990 returns via ProPublica. 36 organizations survived sanity-check validation with significant financial anomalies. Every number below comes from a publicly available 990 filing.</p>
+            <h2>What the <span class="accent-text">Tool</span> Surfaces — Nonprofit Track</h2>
+            <p>The pipeline cross-referenced 500 California nonprofit state-grant recipients against their publicly-filed IRS Form 990 returns via ProPublica. EIN-match sanity validation dropped wrong-EIN false positives (a tiny dormant local chapter being matched against a national org's name). 36 organizations survived as HIGH PRIORITY anomalies. Every number below comes from a public 990 filing. The State Auditor's office decides what warrants follow-up — the pipeline just makes the queue tractable.</p>
         </div>
 
         <div class="grid-2 case-studies">
@@ -281,8 +281,8 @@
 
     <section id="methodology" class="section">
         <div class="section-header">
-            <h2>The <span class="accent-text">Pipeline</span></h2>
-            <p>A multi-agent forensic audit pipeline. ETL → analysis → external verification → synthesis, with budget controls, caching, and a hard kill switch. Built with Bright Data, Gemini, and ProPublica.</p>
+            <h2>How the <span class="accent-text">Tool</span> Works</h2>
+            <p>A six-stage forensic audit pipeline. ETL → heuristic flagging → external verification → primary LLM synthesis → cross-model ensemble validation → transparent reporting. Built with Bright Data, Gemini, AI/ML API, and ProPublica. Hard budget cap, JSONL cost ledger, dead-end log, reproducible end-to-end.</p>
         </div>
 
         <div class="methodology-card glass">
@@ -327,17 +327,30 @@
                 <li>✕ &nbsp; We do not claim any individual entity has acted illegally</li>
                 <li>✕ &nbsp; We do not use "fraud" as a conclusion — only as a pattern label</li>
                 <li>✓ &nbsp; We surface patterns present in public records</li>
-                <li>✓ &nbsp; We frame every finding as "anomaly warranting investigation"</li>
+                <li>✓ &nbsp; We frame every finding as "warrants investigation by oversight bodies"</li>
                 <li>✓ &nbsp; We publish the methodology so anyone can verify or extend it</li>
             </ul>
             <p style="text-align: center; margin-top: 1.5rem; color: rgba(255,255,255,0.7);">
-                The path to actual recovery is the California False Claims Act qui tam process (file under seal before public disclosure). Our role is to surface candidates, not to make legal determinations.
+                The path from "anomaly warranting investigation" to confirmed fraud runs through the State Auditor, the DOJ Procurement Collusion Strike Force, and the courts — not through a hackathon submission. Our role is to ship the tool that surfaces candidates and reduces the cost of investigation.
+            </p>
+        </div>
+
+        <div class="methodology-card glass" style="margin-top: 2rem;">
+            <h2>Dual-Use <span class="accent-text">Disclosure</span></h2>
+            <p style="text-align: left; max-width: 720px; margin: 1rem auto; line-height: 1.8; color: rgba(255,255,255,0.85);">
+                This tool documents patterns that fraud detection systems flag. Those patterns are derived from publicly available sources: the California State Contracting Manual, the filings in the 2019 Caltrans procurement-fraud prosecution, the State Auditor's published risk frameworks, and academic fraud-detection literature. They are well-known to fraud examiners.
+            </p>
+            <p style="text-align: left; max-width: 720px; margin: 1rem auto; line-height: 1.8; color: rgba(255,255,255,0.85);">
+                <strong>Publishing detection methodology supports oversight; it does not create new evasion opportunities.</strong> The defender's advantage is that detection systems cross-reference many signals simultaneously — evading all of them is harder than evading any one.
+            </p>
+            <p style="text-align: left; max-width: 720px; margin: 1rem auto; line-height: 1.8; color: rgba(255,255,255,0.85);">
+                <strong>This tool is intended for use by oversight bodies</strong> — the California State Auditor, the DOJ Procurement Collusion Strike Force, qui tam attorneys, accountability journalists, and other entities whose mandate is public integrity. It is not intended for use by parties who would game procurement.
             </p>
         </div>
     </section>
 
     <footer>
-        <p>RealWork — Built during the Bright Data "Web Data UNLOCKED" Hackathon, May 2026. Real data. Real public records. Real accountability.</p>
+        <p>RealWork — Built during the Bright Data "Web Data UNLOCKED" Hackathon, May 2026.<br>The tool is the deliverable. California can deploy it on Monday.</p>
     </footer>
 
     <script src="script.js"></script>
