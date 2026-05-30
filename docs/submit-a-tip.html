@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RealWork — Submit a Tip to the California State Auditor</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .tip-page { max-width: 880px; margin: 0 auto; padding: 4rem 2rem; }
+        .tip-page h1 { font-family: 'Outfit', sans-serif; font-weight: 900; font-size: 3rem; line-height: 1.1; }
+        .tip-page h2 { font-family: 'Outfit', sans-serif; font-weight: 700; margin-top: 2.5rem; }
+        .tip-page h3 { font-family: 'Outfit', sans-serif; font-weight: 700; margin-top: 2rem; color: rgba(255,255,255,0.9); }
+        .tip-page p, .tip-page li { color: rgba(255,255,255,0.85); line-height: 1.7; }
+        .tip-card { padding: 2rem; margin-top: 1.5rem; }
+        .tip-card pre {
+            white-space: pre-wrap;
+            background: rgba(0,0,0,0.4);
+            border: 1px solid rgba(255,255,255,0.08);
+            padding: 1.5rem;
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.92rem;
+            line-height: 1.55;
+            color: rgba(220,230,255,0.92);
+            margin-top: 1rem;
+        }
+        .channel-box {
+            padding: 1.25rem 1.5rem;
+            border-radius: 8px;
+            background: rgba(80,180,255,0.08);
+            border: 1px solid rgba(80,180,255,0.3);
+            margin-top: 1.5rem;
+        }
+        .warning-box {
+            padding: 1.25rem 1.5rem;
+            border-radius: 8px;
+            background: rgba(255,180,80,0.06);
+            border: 1px solid rgba(255,180,80,0.3);
+            margin-top: 1.5rem;
+        }
+        .back-link { display: inline-block; margin-bottom: 2rem; color: rgba(255,255,255,0.7); text-decoration: none; }
+        .back-link:hover { color: rgba(255,255,255,1); }
+    </style>
+</head>
+<body>
+    <div class="grain-overlay"></div>
+
+    <div class="tip-page">
+        <a href="index.html" class="back-link">← Back to RealWork</a>
+
+        <h1>Submit a Tip to the<br><span class="accent-text">California State Auditor</span></h1>
+        <p style="font-size: 1.15rem; margin-top: 1.5rem;">If you reviewed our findings and believe one of them warrants formal review, the California State Auditor's confidential whistleblower hotline is the right channel. Below are pre-drafted templates for the three pattern types our pipeline surfaces. Edit the bracketed fields. Confirm the facts. Submit through the channels listed below.</p>
+
+        <div class="channel-box">
+            <h3 style="margin-top: 0;">Submission Channels</h3>
+            <ul style="list-style: none; padding: 0; line-height: 2;">
+                <li><strong>Hotline:</strong> <a href="tel:8009525665" style="color:#7cb9ff;">800-952-5665</a></li>
+                <li><strong>Web Form:</strong> <a href="https://www.auditor.ca.gov/hotline" target="_blank" style="color:#7cb9ff;">auditor.ca.gov/hotline</a></li>
+                <li><strong>Email:</strong> <a href="mailto:hotline@auditor.ca.gov" style="color:#7cb9ff;">hotline@auditor.ca.gov</a></li>
+                <li><strong>Mail:</strong> California State Auditor, Investigations, 621 Capitol Mall, Suite 1200, Sacramento, CA 95814</li>
+            </ul>
+            <p style="margin-top: 1rem; margin-bottom: 0; font-size: 0.95rem; color: rgba(255,255,255,0.75);">Submissions are confidential under California Government Code § 8547.5. Whistleblower retaliation protections apply.</p>
+        </div>
+
+        <div class="warning-box">
+            <strong>⚠ Before submitting any tip that may be False Claims Act-actionable:</strong> consult a qui tam attorney first. Public disclosure before qui tam filing under seal can affect standing. Initial consultations are free and confidential. CA Bar Lawyer Referral or Taxpayers Against Fraud Education Fund are starting points.
+        </div>
+
+        <h2>Template 1 — Nonprofit Financial Pattern</h2>
+        <p>Use when our Track B pipeline flagged a nonprofit for high officer compensation, YoY compensation spike, or state-funding-versus-reported-revenue discrepancy.</p>
+        <div class="case-card glass tip-card">
+<pre>Re: Form 990 anomalies — [ORGANIZATION NAME], EIN [XX-XXXXXXX]
+
+To the State Auditor:
+
+I am submitting public-records analysis suggesting that [ORGANIZATION
+NAME] (EIN [XX-XXXXXXX], based in [CITY, CA]) warrants review. The
+organization received approximately $[STATE GRANT TOTAL] in California
+state grants during fiscal year [YEAR] from [STATE AGENCY OR PROGRAM].
+
+Public IRS Form 990 filings for the same period show patterns warranting
+follow-up:
+
+1. Officer compensation: $[OFFICER COMP TOTAL] paid to one officer at an
+   organization reporting total expenses of $[TOTAL EXPENSES]. That ratio
+   ([X]% of expenses to one officer) is substantially above the sector
+   median of 8-10% reported by CharityNavigator and GuideStar.
+
+2. Year-over-year change: Officer compensation grew [X]% from the prior
+   fiscal year ($[PRIOR] -> $[CURRENT]) during the same period the
+   organization received state grants.
+
+3. State funding vs. reported revenue: The state's published grant award
+   database shows $[STATE GRANT TOTAL] in CA grants during a year for
+   which the organization reports total revenue of $[REPORTED REVENUE]
+   on Form 990. The discrepancy may be explained by multi-year
+   disbursement, fiscal sponsorship, or restricted-grant accounting —
+   but it warrants confirmation.
+
+Public records cited:
+- Form 990 (Tax Year [YEAR]): projects.propublica.org/nonprofits/[EIN]
+- CA Grants Portal: data.ca.gov/dataset/california-grants-portal
+- Methodology and data: github.com/switzloco/realwork
+
+I am not making a legal determination of fraud. I am surfacing a pattern
+present in public records that I believe warrants review by an entity
+with subpoena authority. I am happy to provide additional underlying
+data on request.
+
+Sincerely,
+[YOUR NAME]
+[CONTACT]</pre>
+        </div>
+
+        <h2>Template 2 — Procurement Threshold-Edge Pattern</h2>
+        <p>Use when our DGS pipeline flagged a vendor or buyer for repeating just-under-threshold purchase orders (the pattern signature from the 2019 Caltrans prosecution).</p>
+        <div class="case-card glass tip-card">
+<pre>Re: Repeated threshold-edge purchase orders — [VENDOR NAME] / [STATE AGENCY]
+
+To the State Auditor:
+
+I am submitting public-records analysis suggesting that a pattern of
+state purchase orders to [VENDOR NAME] from [STATE AGENCY] warrants
+review. The pattern was identified through automated analysis of the
+DGS Purchase Order public dataset.
+
+The pattern:
+- [N] purchase orders to [VENDOR NAME] at amounts of exactly $[THRESHOLD-1]
+  each (totaling $[TOTAL])
+- [N] of those POs issued by a single procurement officer within a
+  [N]-day window
+- $[THRESHOLD-1] is exactly $[GAP] below the [STATE AGENCY]'s
+  competitive-bidding threshold of $[THRESHOLD], above which formal
+  bid solicitation is required under Public Contract Code §§ 10301-10340
+- No subcontractors disclosed on any PO
+
+Charitable explanations to rule out:
+- Emergency procurement. [If applicable: "The window coincides with
+  [EVENT, e.g., wildfire response]. Expedited procurement rules may
+  apply. However, emergency procurement is expected to produce
+  variable PO amounts sized to actual operational need, not identical-
+  amount POs across a window when underlying need varied substantially."]
+- Recurring supply relationship. A single ongoing vendor relationship
+  typically produces POs at varied amounts reflecting actual purchase
+  quantities, not identical sums repeating across multiple separate POs.
+
+The factual pattern matches the bid-splitting signature documented in
+the 2019 federal prosecution of three Caltrans procurement officials
+(USA v. Yong, Miller, Opp — 49 to 78 month sentences, $3M restitution).
+
+Public records cited:
+- DGS Purchase Order data: data.ca.gov/dataset/purchase-order-data
+- Specific PO numbers: [LIST]
+- Methodology: github.com/switzloco/realwork
+
+I am not alleging fraud. I am identifying a procurement pattern matching
+documented fraud signatures and asking that your office determine
+whether the underlying decisions complied with State Contracting Manual
+provisions on threshold-edge purchasing.
+
+Sincerely,
+[YOUR NAME]
+[CONTACT]</pre>
+        </div>
+
+        <h2>Template 3 — Systemic Compliance Gap</h2>
+        <p>Use to report the $36.5B null-disbursement-tracking finding as a systemic AB-132 compliance issue (not specific to any one entity).</p>
+        <div class="case-card glass tip-card">
+<pre>Re: Systemic compliance gap — AB-132 post-award disbursement tracking
+
+To the State Auditor:
+
+I am writing to report a systemic data-integrity issue, not a specific
+entity finding. The Grant Information Act of 2018 (AB-2252, codified at
+Government Code §§ 8333-8334.1) and AB-132 require grantmaking state
+agencies to track post-award disbursement of state grants. This data is
+required to be published on the California Open Data Portal.
+
+The finding: We pulled both available fiscal years (FY 2022-23 and FY
+2023-24) from data.ca.gov's CKAN API. Of 26,907 grant records totaling
+$36,585,412,711 in awards, the totalAwardUsed field is empty on 100% of
+records. No grantmaker has reported post-award disbursement under the
+statutorily-required schema.
+
+The implication is that the state currently has no centralized record
+of whether any of $36.5 billion in awarded grants was actually spent as
+awarded. This affects oversight at every level — your office, the
+legislature, journalists, and any qui tam attorney evaluating cases
+under the California False Claims Act.
+
+Public records / reproduction:
+- CKAN resource (FY 22-23): 86870d5c-e9fa-46f5-8f86-2a9893662ce1
+- CKAN resource (FY 23-24): 018f3523-652d-4197-a4a8-a055bfd1544f
+- Pull script: github.com/switzloco/realwork/blob/main/src/audit/disbursement_audit.py
+
+I would welcome any guidance on whether this gap is known to your
+office, whether the responsible agencies have been issued findings, and
+whether AB-132 compliance is on your current high-risk audit list.
+
+Sincerely,
+[YOUR NAME]
+[CONTACT]</pre>
+        </div>
+
+        <h2>Before You Send</h2>
+        <ul style="line-height: 2;">
+            <li>Read the qui tam guidance. If the pattern may be CA False Claims Act-actionable, consult a qui tam attorney first.</li>
+            <li>Cite only public records.</li>
+            <li>Frame as "warrants investigation," not as "is fraud."</li>
+            <li>Provide reproducible methodology. Link the repo.</li>
+            <li>Save a timestamped copy of what you sent.</li>
+        </ul>
+
+        <h2>What Happens After You Submit</h2>
+        <ul style="line-height: 2;">
+            <li>The State Auditor's office acknowledges receipt within ~5 business days.</li>
+            <li>Investigations of Improper Activities (I-series reports) typically take 3-12 months when accepted.</li>
+            <li>Findings appear in the State Auditor's semi-annual I-series reports — <a href="https://www.auditor.ca.gov/reports" target="_blank" style="color: #7cb9ff;">auditor.ca.gov/reports</a>.</li>
+            <li>Some tips are referred to other agencies (DOJ, FPPC, etc.) depending on jurisdiction.</li>
+            <li>You will generally not be told the disposition of your specific tip beyond receipt confirmation.</li>
+        </ul>
+
+        <p style="margin-top: 3rem; padding-top: 2rem; border-top: 1px solid rgba(255,255,255,0.1); color: rgba(255,255,255,0.6); font-size: 0.9rem;">
+            <em>Templates derived from public sources including California Government Code, State Contracting Manual, and prior State Auditor I-series reports. Not legal advice. Consult a qui tam attorney before submitting tips that may be False Claims Act-actionable.</em>
+        </p>
+    </div>
+</body>
+</html>
