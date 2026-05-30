@@ -79,6 +79,18 @@ A state-level deployment would:
 
 The Caltrans bid-rigging case (USA v. Yong, Miller, Opp, 2019 — 49-78 month sentences, $3M restitution) was caught by a whistleblower, not by data analysis. There was no continuous data-analysis pipeline that would have caught it. We built one.
 
+## The honest disappointment
+
+We want to say this directly: **we did not find smoking-gun fraud, and that's frustrating to us.** We spent five days, $50 of Bright Data credits, and most of a week of intense AI-assisted investigation, and we cleared 100% of our Round 1 individual fraud hypotheses. Our strongest single lead — the Panini Time threshold-edge pattern — substantially weakened when wildfire context emerged. Our 36 nonprofit anomalies are all defensible as worth investigating, but every single one has a plausible non-fraud explanation that we could not rule out from public records alone.
+
+This is either:
+
+- **The methodology working correctly.** The easy fraud doesn't survive cross-source validation. Pattern matching plus charitable explanations equals "warrants investigation," not "confirmed fraud." That's what an honest pipeline should output.
+- **The dataset is wrong.** The state's grant-award database is the most-audited slice of state spending. Real fraud lives downstream — in disbursement, in local-government procurement, in behavioral health billing, in federal pass-through funds the state forwarded without auditing. We didn't scan those.
+- **Both.** Most likely both.
+
+A more experienced investigator with subpoena power, three more weeks, and access to the State Auditor's confidential tip line would probably take one or two of our HIGH PRIORITY findings and convert them to actual cases. We can't do that in a hackathon. We're saying so plainly because the project is more credible if we name the gap than if we paper over it.
+
 ## The Bright Data integration
 
 Bright Data is the foundation, not a bolt-on. Without it the pipeline does not work, because the state's own databases block ordinary scrapers.
