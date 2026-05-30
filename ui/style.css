@@ -524,6 +524,24 @@ footer {
     box-shadow: 0 5px 15px rgba(0,0,0,0.3);
 }
 
+/* Built-with tech badges */
+.tech-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    font-size: 0.8rem;
+    color: rgba(255,255,255,0.75);
+    text-decoration: none;
+    border: 1px solid rgba(255,255,255,0.1);
+    transition: border-color 0.2s, color 0.2s;
+}
+.tech-badge:hover {
+    border-color: rgba(80,180,255,0.4);
+    color: rgba(255,255,255,0.95);
+}
+
 /* Live pulse indicator */
 .live-pulse {
     display: inline-block;
