@@ -1,0 +1,14 @@
+{
+  "vendor": "Panini Time",
+  "facts_sent": "Vendor: Panini Time\nThreshold our pipeline flagged: $49,999\nPattern verdict: STRONG_SPLIT_CONTRACT_PATTERN\nJust-under-threshold POs: 12\nJust-under-threshold dollar total: $599,300\nLifetime PO value with this state: $2,879,872\nSingle-buyer concentration: 100%\nDate span: 719 days\nMax POs in any 7-day window: 4\nSuspicion factors detected:\n  - single buyer issued >=75% of near-threshold POs\n  - 4 POs in a single 7-day window\n  - 12 POs in the just-under band\nTop buyer: Forestry and Fire Protection, Department of (12 POs)\nMost common description: \"prepared sack lunches for fire fighters for the robbers fire\" (2x)",
+  "second_opinion": {
+    "verdict": "AGREES_WARRANTS_INVESTIGATION",
+    "confidence": 0.9,
+    "key_reasoning": "The pattern of issuing multiple just-under-threshold purchase orders, all concentrated with a single buyer, suggests potential contract splitting to avoid procurement regulations. The high number of POs in a short time frame further supports this suspicion.",
+    "missing_evidence": [
+      "Detailed breakdown of each PO",
+      "Justification for each PO's threshold",
+      "Comparison with similar vendor contracts"
+    ]
+  }
+}

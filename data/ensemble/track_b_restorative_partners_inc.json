@@ -1,0 +1,14 @@
+{
+  "name": "Restorative Partners Inc.",
+  "facts_sent": "Organization: Restorative Partners Inc.\nEIN: 474825349\nTotal California state grants received: $4,410,000\nLatest Form 990 year: 2023\nLatest year total revenue: $2,023,670\nLatest year total expenses: $2,261,450\nLatest year officer compensation: $87,551\n\nFlags raised by our pipeline:\n  - TOTAL_EXPENSES_YOY_SPIKE: Total expenses grew 52.2% YoY ($1,486,226 -> $2,261,450)\n  - STATE_FUNDING_EXCEEDS_REPORTED_REVENUE: Received $4,410,000 in CA grants but reports $2,023,670 total revenue on Form 990",
+  "second_opinion": {
+    "verdict": "AGREES_WARRANTS_INVESTIGATION",
+    "confidence": 0.9,
+    "key_reasoning": "The discrepancy between the state grants received and the reported total revenue suggests potential misreporting or misallocation of funds. Additionally, the significant year-over-year spike in expenses without a corresponding increase in revenue or clear explanation raises concerns about financial management and transparency.",
+    "missing_evidence": [
+      "Detailed breakdown of grant usage",
+      "Explanation for expense increase",
+      "Audit reports or financial statements"
+    ]
+  }
+}

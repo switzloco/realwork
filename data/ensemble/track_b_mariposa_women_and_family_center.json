@@ -1,0 +1,14 @@
+{
+  "name": "Mariposa Women and Family Center",
+  "facts_sent": "Organization: Mariposa Women and Family Center\nEIN: 953626580\nTotal California state grants received: $4,500,000\nLatest Form 990 year: 2023\nLatest year total revenue: $2,399,909\nLatest year total expenses: $2,271,142\nLatest year officer compensation: $258,009\n\nFlags raised by our pipeline:\n  - HIGH_OFFICER_COMP_RATIO: 11.4% of expenses to officer comp\n  - STATE_FUNDING_EXCEEDS_REPORTED_REVENUE: Received $4,500,000 in CA grants but reports $2,399,909 total revenue on Form 990",
+  "second_opinion": {
+    "verdict": "AGREES_WARRANTS_INVESTIGATION",
+    "confidence": 0.9,
+    "key_reasoning": "The discrepancy between the reported total revenue and the state grants received suggests potential misreporting or misallocation of funds. Additionally, the high officer compensation ratio raises concerns about financial management and priorities.",
+    "missing_evidence": [
+      "Detailed breakdown of grant usage",
+      "Explanation for revenue discrepancy",
+      "Comparison with prior years' financials"
+    ]
+  }
+}

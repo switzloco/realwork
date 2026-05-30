@@ -1,0 +1,14 @@
+{
+  "vendor": "Falcon Fuels Inc",
+  "facts_sent": "Vendor: Falcon Fuels Inc\nThreshold our pipeline flagged: $4,999\nPattern verdict: STRONG_SPLIT_CONTRACT_PATTERN\nJust-under-threshold POs: 13\nJust-under-threshold dollar total: $64,489\nLifetime PO value with this state: $113,343,318\nSingle-buyer concentration: 85%\nDate span: 1060 days\nMax POs in any 7-day window: 2\nSuspicion factors detected:\n  - single buyer issued >=75% of near-threshold POs\n  - same description used 3+ times\n  - 13 POs in the just-under band\nTop buyer: Forestry and Fire Protection, Department of (11 POs)\nMost common description: \"fuel for dept vehicles\" (3x)",
+  "second_opinion": {
+    "verdict": "AGREES_WARRANTS_INVESTIGATION",
+    "confidence": 0.9,
+    "key_reasoning": "The pattern of 13 purchase orders just under the threshold, high single-buyer concentration, and repeated use of the same description suggests potential contract splitting to avoid procurement scrutiny.",
+    "missing_evidence": [
+      "Detailed breakdown of each PO",
+      "Justification for each PO from the buyer",
+      "Comparison with other vendors' PO patterns"
+    ]
+  }
+}

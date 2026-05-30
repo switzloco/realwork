@@ -1,0 +1,13 @@
+{
+  "vendor": "Airgas USA LLC",
+  "facts_sent": "Vendor: Airgas USA LLC\nThreshold our pipeline flagged: $4,999\nPattern verdict: STRONG_SPLIT_CONTRACT_PATTERN\nJust-under-threshold POs: 6\nJust-under-threshold dollar total: $29,855\nLifetime PO value with this state: $2,323,216\nSingle-buyer concentration: 50%\nDate span: 658 days\nMax POs in any 7-day window: 3\nSuspicion factors detected:\n  - 3 POs in a single 7-day window\n  - same description used 3+ times\n  - 6 POs in the just-under band\nTop buyer: Air Resources Board (3 POs)\nMost common description: \"cylinder rental\" (3x)",
+  "second_opinion": {
+    "verdict": "AGREES_WARRANTS_INVESTIGATION",
+    "confidence": 0.85,
+    "key_reasoning": "The pattern of multiple just-under-threshold purchase orders, high single-buyer concentration, and repeated descriptions suggests potential contract splitting to avoid procurement thresholds.",
+    "missing_evidence": [
+      "Justification for multiple small POs",
+      "Comparison with similar vendor transactions"
+    ]
+  }
+}

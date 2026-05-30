@@ -1,0 +1,13 @@
+{
+  "vendor": "Progressive Medical, Inc.",
+  "facts_sent": "Vendor: Progressive Medical, Inc.\nThreshold our pipeline flagged: $4,999\nPattern verdict: STRONG_SPLIT_CONTRACT_PATTERN\nJust-under-threshold POs: 3\nJust-under-threshold dollar total: $14,997\nLifetime PO value with this state: $707,207\nSingle-buyer concentration: 100%\nDate span: 3 days\nMax POs in any 7-day window: 3\nSuspicion factors detected:\n  - single buyer issued >=75% of near-threshold POs\n  - 3 POs in a single 7-day window\n  - same description used 3+ times\nTop buyer: Correctional Health Care Services (3 POs)\nMost common description: \"negative pressure wound therapy rental\" (3x)",
+  "second_opinion": {
+    "verdict": "AGREES_WARRANTS_INVESTIGATION",
+    "confidence": 0.9,
+    "key_reasoning": "The pattern of issuing multiple purchase orders just below the threshold within a short time span, all from a single buyer, suggests an attempt to circumvent procurement rules. The repeated use of the same description further supports the suspicion of split contracts.",
+    "missing_evidence": [
+      "Vendor's explanation for multiple POs",
+      "Procurement officer's justification for splitting orders"
+    ]
+  }
+}

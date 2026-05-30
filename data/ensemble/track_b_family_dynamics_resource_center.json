@@ -1,0 +1,13 @@
+{
+  "name": "Family Dynamics Resource Center",
+  "facts_sent": "Organization: Family Dynamics Resource Center\nEIN: 900633321\nTotal California state grants received: $2,167,204\nLatest Form 990 year: 2023\nLatest year total revenue: $835,190\nLatest year total expenses: $1,172,907\nLatest year officer compensation: $0\n\nFlags raised by our pipeline:\n  - STATE_FUNDING_EXCEEDS_REPORTED_REVENUE: Received $2,167,204 in CA grants but reports $835,190 total revenue on Form 990",
+  "second_opinion": {
+    "verdict": "AGREES_WARRANTS_INVESTIGATION",
+    "confidence": 0.9,
+    "key_reasoning": "The organization reports significantly lower total revenue than the state grants received, suggesting potential misreporting or misallocation of funds.",
+    "missing_evidence": [
+      "Detailed breakdown of grant usage",
+      "Explanation for discrepancy in reported revenue"
+    ]
+  }
+}

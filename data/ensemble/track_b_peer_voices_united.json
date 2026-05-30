@@ -1,0 +1,14 @@
+{
+  "name": "Peer Voices United",
+  "facts_sent": "Organization: Peer Voices United\nEIN: 873791488\nTotal California state grants received: $1,266,002\nLatest Form 990 year: 2023\nLatest year total revenue: $253,116\nLatest year total expenses: $253,321\nLatest year officer compensation: $117,497\n\nFlags raised by our pipeline:\n  - HIGH_OFFICER_COMP_RATIO: 46.4% of expenses to officer comp\n  - STATE_FUNDING_EXCEEDS_REPORTED_REVENUE: Received $1,266,002 in CA grants but reports $253,116 total revenue on Form 990",
+  "second_opinion": {
+    "verdict": "AGREES_WARRANTS_INVESTIGATION",
+    "confidence": 0.9,
+    "key_reasoning": "The discrepancy between the reported total revenue and the state grants received suggests potential misreporting or misuse of funds. Additionally, the high officer compensation ratio raises concerns about financial management and potential self-dealing.",
+    "missing_evidence": [
+      "Detailed breakdown of grant expenditures",
+      "Explanation for revenue discrepancy",
+      "Board meeting minutes approving officer compensation"
+    ]
+  }
+}
