@@ -96,7 +96,7 @@ class BrightDataClient:
         if render_js:
             payload["render"] = True
         try:
-            r = self.session.post(ENDPOINT, json=payload, timeout=60)
+            r = self.session.post(ENDPOINT, json=payload, timeout=180)
             self.spent += self.UNLOCKER_COST
             self._log({"type": "unlock", "url": url, "status": r.status_code,
                        "size": len(r.content), "cost": self.UNLOCKER_COST})
