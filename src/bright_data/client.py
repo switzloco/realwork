@@ -110,5 +110,31 @@ class BrightDataClient:
             self._log({"type": "unlock", "url": url, "error": str(e), "cost": 0})
             return {"url": url, "status": -1, "html": None, "error": str(e)}
 
+    def fetch_bytes(self, url: str, render_js: bool = False) -> dict:
+        """Like unlock(), but returns the raw response *bytes* — for binary
+        targets such as PDFs where r.text would corrupt the payload.
+
+        Used by the LA Alliance invoice extractor to pull scanned-PDF invoices
+        through the Unlocker before handing them to a multimodal LLM.
+        """
+        self._check_budget(self.UNLOCKER_COST)
+        payload = {"zone": UNLOCKER_ZONE, "url": url, "format": "raw"}
+        if render_js:
+            payload["render"] = True
+        try:
+            r = self.session.post(ENDPOINT, json=payload, timeout=120)
+            self.spent += self.UNLOCKER_COST
+            self._log({"type": "fetch_bytes", "url": url, "status": r.status_code,
+                       "size": len(r.content), "cost": self.UNLOCKER_COST})
+            return {
+                "url": url,
+                "status": r.status_code,
+                "content": r.content if r.ok else None,
+                "error": None if r.ok else r.text[:500],
+            }
+        except Exception as e:
+            self._log({"type": "fetch_bytes", "url": url, "error": str(e), "cost": 0})
+            return {"url": url, "status": -1, "content": None, "error": str(e)}
+
     def report(self) -> str:
         return f"[{self.label}] spent ${self.spent:.3f} of ${self.budget_cap:.2f} cap"
