@@ -524,6 +524,27 @@ footer {
     box-shadow: 0 5px 15px rgba(0,0,0,0.3);
 }
 
+/* Live pulse indicator */
+.live-pulse {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: rgba(80, 255, 180, 0.9);
+    box-shadow: 0 0 8px rgba(80, 255, 180, 0.6);
+    animation: pulse-green 1.8s ease-in-out infinite;
+}
+
+@keyframes pulse-green {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50%       { opacity: 0.4; transform: scale(0.7); }
+}
+
+/* Ledger table hover */
+#ledger-tbody tr:hover {
+    background: rgba(255,255,255,0.04);
+}
+
 /* Animation Classes for JS */
 .fade-up {
     opacity: 0;

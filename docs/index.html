@@ -20,10 +20,10 @@
             <span class="logo-text">REAL<span class="accent-text">WORK</span></span>
         </div>
         <div class="nav-links">
+            <a href="#alliance" style="color: rgba(80,255,180,0.9);">● LA Alliance Live</a>
             <a href="#audit">The Gap</a>
             <a href="#lead">DGS Patterns</a>
             <a href="#patterns">Nonprofit Patterns</a>
-            <a href="#dossier">Dossier</a>
             <a href="#methodology">Methodology</a>
             <a href="submit-a-tip.html" style="color: rgba(80,180,255,0.85);">Submit a Tip</a>
         </div>
@@ -47,6 +47,90 @@
             <svg class="scroll-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path></svg>
         </div>
     </header>
+
+    <section id="alliance" class="section">
+        <div class="section-header">
+            <h2>The <span class="accent-text">PDF Black Hole</span> — Live</h2>
+            <p>LA County publishes 1,652 homeless-service provider invoices as scanned PDFs under the LA Alliance settlement. They're public record — but completely unqueryable. No CSV. No API. An auditor who wants to know what Del Amo Hospital billed last month has to open PDFs one by one. We built a pipeline to fix that, and it's running right now.</p>
+        </div>
+
+        <!-- Live counter — fetches ledger.json from GitHub, updates as pipeline runs -->
+        <div class="glass" style="padding: 2rem; border-radius: 16px; text-align: center; margin-bottom: 2rem; border: 1px solid rgba(80,255,180,0.25);">
+            <div style="display: flex; align-items: center; justify-content: center; gap: 0.5rem; margin-bottom: 1.25rem;">
+                <span class="live-pulse"></span>
+                <span style="font-size: 0.8rem; letter-spacing: 0.12em; color: rgba(80,255,180,0.9); text-transform: uppercase; font-weight: 600;">Pipeline running — dataset growing</span>
+            </div>
+            <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1.5rem; max-width: 680px; margin: 0 auto;">
+                <div>
+                    <div class="stat-number" id="alliance-docs" style="font-size: 2.8rem;">—</div>
+                    <div style="font-size: 0.8rem; color: rgba(255,255,255,0.55); margin-top: 0.25rem;">invoices extracted</div>
+                </div>
+                <div>
+                    <div class="stat-number" id="alliance-dollars" style="font-size: 2.8rem;">—</div>
+                    <div style="font-size: 0.8rem; color: rgba(255,255,255,0.55); margin-top: 0.25rem;">in billing structured</div>
+                </div>
+                <div>
+                    <div class="stat-number" id="alliance-providers" style="font-size: 2.8rem;">—</div>
+                    <div style="font-size: 0.8rem; color: rgba(255,255,255,0.55); margin-top: 0.25rem;">distinct providers</div>
+                </div>
+            </div>
+            <p style="margin-top: 1.25rem; color: rgba(255,255,255,0.45); font-size: 0.8rem;">of 1,652 total documents · <a href="https://github.com/switzloco/realwork/blob/main/data/la_alliance/ledger.json" target="_blank" style="color: rgba(80,180,255,0.7);">ledger.json on GitHub ↗</a></p>
+        </div>
+
+        <!-- Before / After showcase -->
+        <h3 style="text-align:center; font-family:'Outfit',sans-serif; font-weight:700; margin-bottom:1.5rem; color:rgba(255,255,255,0.85);">Before &amp; After — real invoices, real extractions</h3>
+        <div class="grid-2" style="margin-bottom:2rem;">
+            <div class="card glass" style="border-color:rgba(255,100,100,0.3);">
+                <div class="card-icon red">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+                </div>
+                <h3>Before</h3>
+                <p style="font-family: monospace; font-size: 0.8rem; color: rgba(255,255,255,0.45); line-height: 1.7;">LAFH_SupportiveServices_Oct2024.pdf<br>1.8 MB · 64 pages · scanned<br><br>[unreadable billing summary grid]<br>[handwritten corrections]<br>[rotated signature page]<br><br>→ to query: open manually</p>
+            </div>
+            <div class="card glass" style="border-color:rgba(80,255,180,0.3);">
+                <div class="card-icon" style="background: rgba(80,255,180,0.15); color: rgba(80,255,180,0.9);">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                </div>
+                <h3>After — Gemini 2.5 Flash, 11 seconds</h3>
+                <pre style="font-size:0.72rem; color:rgba(80,255,180,0.85); text-align:left; overflow:auto; line-height:1.6; margin:0;">{
+  "vendor": "LA Family Housing (LAFH)",
+  "invoice_date": "2024-11-01",
+  "billed_amount": 491538.75,
+  "deliverables": [
+    "D7", "PHK (D7)",
+    "SAM", "D7 Flex",
+    "DHS", "MHSA"
+  ],
+  "confidence": "high"
+}</pre>
+            </div>
+        </div>
+
+        <!-- Live records table — populated from GitHub ledger.json -->
+        <div class="glass" style="padding: 1.5rem; border-radius: 16px; overflow-x: auto;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1rem;">
+                <h4 style="font-family:'Outfit',sans-serif; margin:0;">Latest extractions</h4>
+                <span id="ledger-updated" style="font-size:0.75rem; color:rgba(255,255,255,0.4);"></span>
+            </div>
+            <table id="ledger-table" style="width:100%; border-collapse:collapse; font-size:0.82rem;">
+                <thead>
+                    <tr style="color:rgba(255,255,255,0.4); border-bottom:1px solid rgba(255,255,255,0.1);">
+                        <th style="text-align:left; padding:0.5rem 0.75rem; font-weight:500;">Provider</th>
+                        <th style="text-align:left; padding:0.5rem 0.75rem; font-weight:500;">Date</th>
+                        <th style="text-align:right; padding:0.5rem 0.75rem; font-weight:500;">Billed</th>
+                        <th style="text-align:left; padding:0.5rem 0.75rem; font-weight:500;">Confidence</th>
+                    </tr>
+                </thead>
+                <tbody id="ledger-tbody">
+                    <tr><td colspan="4" style="text-align:center; padding:1.5rem; color:rgba(255,255,255,0.35);">Loading…</td></tr>
+                </tbody>
+            </table>
+            <p style="margin-top:1rem; font-size:0.75rem; color:rgba(255,255,255,0.35); text-align:center;">
+                Extracted from publicly-available LA County invoices · pipeline running continuously ·
+                <a href="https://github.com/switzloco/realwork" target="_blank" style="color:rgba(80,180,255,0.6);">full dataset on GitHub ↗</a>
+            </p>
+        </div>
+    </section>
 
     <section id="audit" class="section">
         <div class="section-header">
