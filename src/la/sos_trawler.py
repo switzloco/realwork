@@ -13,11 +13,11 @@ Design notes
   tracking and the JSONL ledger are shared with the rest of the project.
 * Resumable: processed vendor keys are checkpointed to data/la/trawl_done.txt,
   so a re-run skips what's already in the graph. Safe to Ctrl-C.
-* Budget-aware: respects BudgetExceeded from the client. "Uncapped" just means
-  pass a large --budget; the ledger still records every cent.
+* Budget-aware: respects BudgetExceeded from the client. Default --budget is
+  $250 (the hackathon credit balance); the ledger records every cent regardless.
 
 Run:
-    python -m src.la.sos_trawler --limit 2000 --budget 100000
+    python -m src.la.sos_trawler --limit 2000 --budget 250
 
 CA SoS note: bizfileonline is a single-page app backed by a JSON search API.
 Web Unlocker with render returns the rendered payload; parse_ca_bizfile handles
@@ -83,7 +83,7 @@ def parse_response(resp: dict, vendor_name: str) -> list[dict]:
     return records
 
 
-def trawl(limit: int = 2000, budget: float = 100_000.0,
+def trawl(limit: int = 2000, budget: float = 250.0,
           db_path: str = "graph.db", sleep: float = 0.3) -> dict:
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     master = load_master()
@@ -133,8 +133,8 @@ def trawl(limit: int = 2000, budget: float = 100_000.0,
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--limit", type=int, default=2000, help="max vendors this run")
-    ap.add_argument("--budget", type=float, default=100_000.0,
-                    help="Bright Data spend cap (uncapped = large number)")
+    ap.add_argument("--budget", type=float, default=250.0,
+                    help="Bright Data spend cap in $ (your hackathon credit balance)")
     ap.add_argument("--db", default="graph.db")
     ap.add_argument("--sleep", type=float, default=0.3)
     args = ap.parse_args()
