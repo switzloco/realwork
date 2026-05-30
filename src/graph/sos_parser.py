@@ -1,5 +1,5 @@
 """
-Parsers that turn raw Secretary-of-State responses into the flat record shape
+Parsers that turn raw registry responses into the flat record shape
 graph_store.ingest_sos_record() expects:
 
     {
@@ -11,10 +11,14 @@ graph_store.ingest_sos_record() expects:
         "source_state": "CA" | "TX",
     }
 
-CA's bizfileonline.sos.ca.gov is a single-page app backed by a JSON search API,
-so the trawler usually hands us parsed JSON. TX (and CA HTML fallbacks) are
-regex-scraped. Both paths normalize into the same dict so the graph layer never
-has to know which state a record came from.
+Sources supported:
+  - CA bizfileonline JSON (parse_ca_bizfile)
+  - OpenCorporates HTML — search page (parse_opencorporates_search) +
+    detail page (parse_opencorporates_detail)
+  - TX SOSDirect / generic HTML fallback (parse_html_fallback)
+
+CA SoS is blocked by Bright Data's government-site policy; OpenCorporates
+mirrors the same registry data and is the primary Phase 3 source.
 """
 
 from __future__ import annotations
@@ -115,6 +119,77 @@ def _address(h: dict) -> str:
         ]
         return _clean(" ".join(p for p in parts if p))
     return ""
+
+
+# ---- OpenCorporates HTML ---------------------------------------------------
+# Two-step: search page gives us the detail URL; detail page gives us fields.
+# OC is server-rendered — no render_js needed, plain Web Unlocker works.
+
+_OC_DETAIL_LINK = re.compile(r'href="(/companies/us_ca/[A-Z0-9]+)"', re.IGNORECASE)
+_OC_DT_DD = re.compile(
+    r"<dt[^>]*>\s*(.*?)\s*</dt>\s*<dd[^>]*>\s*(.*?)\s*</dd>",
+    re.DOTALL | re.IGNORECASE,
+)
+_OC_OFFICER_LINK = re.compile(
+    r'href="/officers/[^"]*"[^>]*>\s*([^<]{2,80}?)\s*</a>',
+    re.IGNORECASE,
+)
+
+
+def parse_opencorporates_search(html: str) -> str | None:
+    """Return the first CA company detail path (/companies/us_ca/CXXXXXX) from
+    an OpenCorporates search results page, or None if no match."""
+    m = _OC_DETAIL_LINK.search(html)
+    return m.group(1) if m else None
+
+
+def parse_opencorporates_detail(html: str, vendor_name: str = "") -> list[dict]:
+    """Parse an OpenCorporates company detail page into a flat registry record.
+
+    Pulls dt/dd attribute pairs for incorporation date, agent name, and
+    registered address; extracts officer names from the officers section.
+    """
+    rec: dict = {
+        "vendor_name": vendor_name,
+        "incorporation_date": "",
+        "registered_agent": "",
+        "principal_officers": [],
+        "address": "",
+        "source_state": "CA",
+    }
+
+    for raw_dt, raw_dd in _OC_DT_DD.findall(html):
+        label = _clean(raw_dt).lower()
+        value = _clean(raw_dd)
+        if not value or len(value) < 2:
+            continue
+        if "incorporation date" in label or "formation date" in label:
+            rec["incorporation_date"] = value
+        elif "agent name" in label:
+            rec["registered_agent"] = value
+        elif "registered address" in label and not rec["address"]:
+            rec["address"] = value
+        elif "principal address" in label and not rec["address"]:
+            rec["address"] = value
+
+    # company name from <h1> if caller didn't supply one
+    if not rec["vendor_name"]:
+        m = re.search(r"<h1[^>]*>\s*([^<]{3,100}?)\s*</h1>", html, re.IGNORECASE)
+        if m:
+            rec["vendor_name"] = _clean(m.group(1))
+
+    # officers live inside a section/div whose id contains "officers"
+    off_m = re.search(
+        r'id=["\']officers["\'].*?(?=\sid=["\']|\Z)',
+        html, re.DOTALL | re.IGNORECASE,
+    )
+    if off_m:
+        for m in _OC_OFFICER_LINK.finditer(off_m.group(0)):
+            name = _clean(m.group(1))
+            if name:
+                rec["principal_officers"].append(name)
+
+    return [rec] if rec["vendor_name"] else []
 
 
 # ---- TX / generic HTML fallback --------------------------------------------
