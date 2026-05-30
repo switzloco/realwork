@@ -29,6 +29,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import time
 from pathlib import Path
 from urllib.parse import quote
@@ -100,13 +101,39 @@ def trawl(limit: int = 2000, budget: float = 250.0,
     for i, v in enumerate(todo, 1):
         name = v["vendor_name"]
         try:
-            resp = client.unlock(build_search_url(name), render_js=True)
+            request_payload = {
+                "zone": os.environ.get("BRIGHT_DATA_UNLOCKER_ZONE", "realwork_unlocker"),
+                "url": CA_API_URL,
+                "method": "POST",
+                "format": "raw",
+                "body": json.dumps({"SEARCH_ENTITIES": {"APP_QUERY": name}}),
+                "headers": {
+                    "Content-Type": "application/json",
+                    "Accept": "application/json",
+                },
+            }
+            client._check_budget(client.UNLOCKER_COST)
+            r = client.session.post("https://api.brightdata.com/request", json=request_payload, timeout=60)
+            client.spent += client.UNLOCKER_COST
+            
+            if r.status_code == 200:
+                try:
+                    payload = r.json()
+                except json.JSONDecodeError:
+                    payload = r.text
+                records = parse_response({"html": payload, "status": 200}, name) if isinstance(payload, str) else sos_parser.parse_ca_bizfile(payload)
+            else:
+                records = []
+                resp = {"status": r.status_code}
         except BudgetExceeded as e:
             print(f"\n! Budget stop: {e}")
             break
+        except Exception as e:
+            print(f"\n! Request error: {e}")
+            records = []
+            resp = {"status": 500}
 
-        if resp.get("status") == 200:
-            records = parse_response(resp, name)
+        if records:
             for rec in records:
                 if not rec.get("vendor_name"):
                     rec["vendor_name"] = name
