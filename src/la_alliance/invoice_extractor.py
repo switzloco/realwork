@@ -57,6 +57,9 @@ import threading
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 from typing import Optional
+from dotenv import load_dotenv
+
+load_dotenv()
 
 import requests
 from pydantic import BaseModel, Field, field_validator
@@ -159,7 +162,13 @@ def discover_documents(dataset_url: str = "", manifest: str = "",
 
     if manifest:
         rows = json.loads(Path(manifest).read_text())
-        return rows[:limit]
+        out = []
+        for row in rows:
+            url = row.get("sds_published_url") or row.get("url")
+            title = row.get("sds_title") or row.get("title")
+            if url:
+                out.append({"title": title, "url": url})
+        return out[:limit]
 
     if dataset_url:
         r = requests.get(dataset_url, params={"$limit": limit}, timeout=60)
@@ -186,15 +195,17 @@ def fetch_pdf(doc: dict, client: Optional[BrightDataClient]) -> Optional[bytes]:
     url = doc.get("url")
     if not url:
         return None
-    if client is None:
-        # no Bright Data creds — try a plain GET (works for open S3 buckets)
+    if client is None or "lacounty.gov" in url:
+        # no Bright Data creds or it's a known permissive host — try a plain GET
         try:
-            r = requests.get(url, timeout=60)
+            r = requests.get(url, headers={'User-Agent': 'Mozilla/5.0'}, timeout=60)
             return r.content if r.ok else None
         except Exception:
             return None
 
     resp = client.fetch_bytes(url)
+    if resp.get("status") != 200:
+        print(f"fetch fail {resp.get('status')}")
     return resp.get("content") if resp.get("status") == 200 else None
 
 

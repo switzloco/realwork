@@ -118,7 +118,7 @@ def run(budget: float = 15.0, emit_json: bool = False) -> dict:
 
         organic = res.get("organic") or []
         print(f"  [{i:02}/{len(SERP_QUERIES)}] {q[:70]}")
-        print(f"         → {len(organic)} results  |  {client.report()}")
+        print(f"         -> {len(organic)} results  |  {client.report()}")
 
         for r in organic[:5]:
             serp_hits.append({
@@ -138,7 +138,7 @@ def run(budget: float = 15.0, emit_json: bool = False) -> dict:
     interesting = list(dict.fromkeys(interesting))[:12]  # cap at 12 fetches
 
     if interesting:
-        print(f"\n  Fetching {len(interesting)} high-signal URL(s)…")
+        print(f"\n  Fetching {len(interesting)} high-signal URL(s)...")
         for url in interesting:
             if url in already_fetched:
                 continue
@@ -152,10 +152,10 @@ def run(budget: float = 15.0, emit_json: bool = False) -> dict:
             if resp.get("status") == 200 and resp.get("html"):
                 summary = _summarize_html(resp["html"])
                 fetched_pages.append({"url": url, "summary": summary})
-                print(f"    ✓ {url[:70]}")
-                print(f"      {summary[:120]}…")
+                print(f"    [OK] {url[:70]}")
+                print(f"      {summary[:120]}...")
             else:
-                print(f"    ✗ {url[:70]}  ({resp.get('status')} / {resp.get('error','')[:60]})")
+                print(f"    [ERR] {url[:70]}  ({resp.get('status')} / {(resp.get('error') or '')[:60]})")
             time.sleep(0.4)
 
     # ── Write outputs ────────────────────────────────────────────────────────
@@ -166,12 +166,12 @@ def run(budget: float = 15.0, emit_json: bool = False) -> dict:
         "spend": client.spent,
     }
 
-    (OUT_DIR / "raw_results.json").write_text(json.dumps(out, indent=2))
+    (OUT_DIR / "raw_results.json").write_text(json.dumps(out, indent=2), encoding="utf-8")
     _write_digest(serp_hits, fetched_pages)
 
     print(f"\n{client.report()}")
-    print(f"Raw results  → {OUT_DIR}/raw_results.json")
-    print(f"Digest       → {OUT_DIR}/digest.md")
+    print(f"Raw results  -> {OUT_DIR}/raw_results.json")
+    print(f"Digest       -> {OUT_DIR}/digest.md")
 
     if emit_json:
         print(json.dumps(out, indent=2))
@@ -208,7 +208,7 @@ def _write_digest(serp_hits: list[dict], fetched_pages: list[dict]):
             lines.append(p["summary"][:600])
             lines.append("")
 
-    (OUT_DIR / "digest.md").write_text("\n".join(lines))
+    (OUT_DIR / "digest.md").write_text("\n".join(lines), encoding="utf-8")
 
 
 if __name__ == "__main__":
