@@ -5982,3 +5982,263 @@ Right: the normalized ledger row our agent extracted autonomously.
 | Deliverables | PART-TIME NURSE PRACTIONER; MENTAL HEALTH THERAPIST; MEDICAL TOTAL; 29.386% EMPLOYEE BENEFITS; 11.1% ADMINISTRATIVE COSTS; MEDICAL PURCHASED SERVICES; 693L ADMINISTRATIVE COSTS; 210B MEDICAL COSTS; 6101 MEDICAL PURCHASED SERVICES |
 | Confidence | medium |
 | Notes | Vendor name is not present or is unreadable due to redaction. Only month and year are determinable for invoice_date. |
+
+## The People Concern - FRAC - Dec. 2023.pdf
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1159852_ThePeopleConcern-FRAC-Dec.2023.pdf`  ·  258.9 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | THE PEOPLE CONCERN |
+| Invoice date | 2024-01-19 |
+| Billed amount | $35386.00 |
+| Deliverables | Salaries; Workers' Compensation; S.U.I.; Health Insurance; Fica / Medicare; 403b ER Match; Staff Parking; Janitorial & Cleaning; Copier & Postage - Lease; Office Supplies; Insurance/Liability; Repair & Maintenance; Storage & Other; Telephone / Internet; Utilities; Trash Removal Services; Administrative Overhead |
+| Confidence | high |
+| Notes | — |
+
+## Exodus Recovery - Dec. 2023.pdf
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1159841_ExodusRecovery-Dec.2023.pdf`  ·  1439.8 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Exodus Recovery, Inc |
+| Invoice date | 2024-01-17 |
+| Billed amount | $71876.87 |
+| Deliverables | Program Manager; CM Housing - Team 1; CM SUD - Team; LVN Team 1; RN, Team 2 Position is per diem (3 days a wk); Community Worker - Team 1; Program Support Staff Team 1; Mental Health Clinician - Team 1; CM Housing - Team 2; Community Worker - Team 2; NP; MD; Client Expenses; Equipment Lease; Office Supplies, Postage, Printing; Staff Mileage/Parking; Telephone/Communications/Utilities; Program Supplies; Liability Insurance; Vehicle Maintenance & Insurance; Vehicle Lease; Office Space Lease |
+| Confidence | high |
+| Notes | The total billed amount on page 1 and page 2 is 71,876.87. The total on page 7 footer is 71,876.89. The explicitly labeled 'AMOUNT REQUESTED' and 'INVOICE AMOUNT' from pages 1 and 2 were used. |
+
+## The People Concern - EWH - Dec. 2023.pdf
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1159851_ThePeopleConcern-EWH-Dec.2023.pdf`  ·  350.6 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | The People Concern |
+| Invoice date | 2024-01-18 |
+| Billed amount | $56418.22 |
+| Deliverables | Assistant Director; Program Manager; Outreach Case Manager; Senior Case Manager; Administrative/Data; Workers' Compensation; S.U.I.; Health Insurance; Difference Card; Fica / Medicare; Client Exp-Linen Service; Incentives; Recruitment Placement Costs; Program Supplies; Staff Parking; Gas/Oil/Repairs -Vehicles; Insurance; Memberships, Dues, Subscripti Training; Computer Maintenance Telecommunications; Computer Maintenance & Rep Telecommunications; Telephone / Internet; Small Equipment Computer (Laptops); Security; Facility Costs-Repair, Maintenance, Janitorial and Utilities; Miscellaneous; Psychiatry; Purchasing Medical Services; Leases; Administrative Overhead |
+| Confidence | high |
+| Notes | — |
+
+## The People Concern - C3 - Dec. 2023.pdf
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1159850_ThePeopleConcern-C3-Dec.2023.pdf`  ·  381.2 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | THE PEOPLE CONCERN |
+| Invoice date | 2024-01-19 |
+| Billed amount | $148171.84 |
+| Deliverables | Salaries; Workers' Compensation; S.U.I.; Health Insurance; Difference Card; Fica / Medicare; 403b ER Match; Client Personal/Med. Exp.; Client Expense; Client Exp-Food; Client Exp-Transportation; Staff Parking; Janitorial & Cleaning; Subcontractor Expense; Contract Labor; Consultant; Vehicle Leasing; Gas/Oil/Repairs -Vehicles; Office Supplies; Insurance/Liability; Repair & Maintenance; Storage & Other; Telephone / Internet; Utilities; Trash Removal Services; Mileage-Local; Memberships, Dues, Subscriptions; Administrative Overhead |
+| Confidence | high |
+| Notes | — |
+
+## The People Concern C3 Nov.2023.pdf
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1160008_ThePeopleConcern-C3-Nov.2023.pdf`  ·  360.2 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | THE PEOPLE CONCERN |
+| Invoice date | 2023-12-26 |
+| Billed amount | $159099.33 |
+| Deliverables | Salaries; Workers' Compensation; S.U.I.; Health Insurance; Difference Card; Fica / Medicare; 403b ER Match; Client Personal/Med. Exp.; Client Expense; Motel Vouchers; Client Exp-Food; Client Exp-Transportation; Staff Parking; Janitorial & Cleaning; Subcontractor Expense; Contract Labor; Consultant; Vehicle Leasing; Gas/Oil/Repairs -Vehicles; Recruiting & Job Ads; Program Supplies; Office Supplies; Repair & Maintenance; Storage & Other; Telephone / Internet; Utilities; Trash Removal Services; Property Tax; Memberships,Dues,Subscriptions; Administrative Overhead |
+| Confidence | high |
+| Notes | Invoice date extracted from 'DATE SUBMITTED' on page 1, which aligns with the signature date. Deliverables are extracted from the aggregated 'Expense' section on the Profit & Loss statement (page 6) as these represent the summarized line-item services/deliverables for the billing period. |
+
+## The People Concern - Dec. 2023
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1159270_WO49Dec2023.pdf`  ·  9038.4 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | The People Concern |
+| Invoice date | 2024-01-24 |
+| Billed amount | $139255.01 |
+| Deliverables | ICMS - Street-Based Engagement; PERSONNEL; SERVICES & SUPPLIES (ONGOING); CONTRACTOR (VENDOR); LEASE; ADMINISTRATIVE OVERHEAD/COSTS @ 10% |
+| Confidence | high |
+| Notes | Invoice date extracted from 'DATE SUBMITTED' on page 1. The categories 'SERVICES & SUPPLIES (ONGOING)' and 'CONTRACTOR (VENDOR)' on page 2 appear to be OCR errors of Roman numerals 'II.' and 'III.' respectively, but extracted as stated. |
+
+##  LA Family Housing City Expansion Nov.2023.pdf
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1160001_LAFamilyHousing-CityExpansion-Nov.2023.pdf`  ·  694.2 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | LA Family Housing |
+| Invoice date | 12/18/23 |
+| Billed amount | $36042.18 |
+| Deliverables | Personnel Services (Director of Engagement); Personnel Services (Assistant Director of Outreach); Personnel Services (Outreach Manager MDT 3, City/County Expansion); Personnel Services (Outreach Manager MDT 5, City/County Expansion); Personnel Services (Case Manager - Mental Health Specialist City/County 1/ Weekend); Personnel Services (Case Manager - Mental Health Specialist City/County 2); Personnel Services (Case Manager - Substance Abuse Specialist City/County 1/ Weekend); Personnel Services (Case Manager - Substance Abuse Specialist City/County 2); Personnel Services (Case Manager - Outreach Specialist City/County 1); Personnel Services (Case Manager - Outreach Specialist City/County 2); Personnel Services (Case Manager - Peer Specialist City/County 1); Personnel Services (Case Manager - Peer Specialist City/County 2); Personnel Services (Outreach Program Assistant); Personnel Services (Data Coordinator); Employee Benefits @ 35%; Client Expenses; Program Supplies; Office Supplies, Postage, Printing; Staff Training / Development; Telephone / Communications / IT; Utilities; Professional / Liability Insurance; Vehicle Gas / Maintenance / Insurance / Staff Mileage; Subcontractor (NEVHC); Lease (Vehicle); Lease (Office Space); Administrative Overhead/Costs (10%) |
+| Confidence | high |
+| Notes | — |
+
+## Homeless Healthcare LA - Nov. 2023.pdf
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1159856_HomelessHealthcareLA-Nov.2023.pdf`  ·  109.1 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | — |
+| Invoice date | NOV 2023 |
+| Billed amount | $84097.83 |
+| Deliverables | PART-TIME NURSE PRACTIONER; MENTAL HEALTH THERAPIST; 29.386% EMPLOYEE BENEFITS; 11.1% ADMINISTRATIVE COSTS; MEDICAL PURCHASED SERVICES; 11.1% ADMINISTRATIVE COSTS; 693L ADMINISTRATIVE COSTS; 210B MEDICAL COSTS; 6101 MEDICAL PURCHASED SERVICES |
+| Confidence | medium |
+| Notes | Vendor name is missing or unidentifiable. Invoice date is partially present (month and year only), not a full ISO date. |
+
+##  LA Family Housing MH Nov.2023.pdf
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1160004_LAFamilyHousing-MH-Nov.2023.pdf`  ·  698.1 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | LA Family Housing |
+| Invoice date | 2023-12-18 |
+| Billed amount | $159679.49 |
+| Deliverables | 50130 - Wages, Programs; 50230 - Wages, Programs - Overtime; 50310 - Employer, OASDI; 50320 - Employer, Medicare; 50330 - Employer, CA SUI; 50410 - Employer Health Insurance Contribution; 50420 - Employer Dental Insurance; 50430 - Employer Life Insurance; 50440 - Employer Vision Insurance; 50500 - Employer Retirement; 50600 - Workers Comp; 51110 - Staff Training; 51310 - Office Supplies; 51312 - Postage & Shipping; 51401 - Vehicle, Fuel; 51402 - Vehicle, Insurance; 51501 - Insurance, Directors & Officer; 51502 - Insurance, General Liability; 61300 - Rent Storage/Parking Facilities; 62100 - Water, Electricity & Gas; 62200 - Telephone & Communications; 66100 - Computer & Software Expense; 66300 - Postage Meter Expense; 81010 - Client Meals & Food; 81050 - Client Needs; 81180 - Client: Program Vehicle Lease; 82000 - Subcontractors; 83100 - Indirect Cost Allocation; Admin |
+| Confidence | high |
+| Notes | The sum of 'Sum of Measure H' column line items ($159,679.50) on page 3 differs by $0.01 from the stated 'Total, Billed' for 'Sum of Measure H' ($159,679.49) on page 3. The billed_amount is taken from the stated total on the invoice summary (Page 1, F.7 and Page 3 'Total, Billed'). |
+
+## Homeless Healthcare LA - City - Nov. 2023.pdf
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1159855_HomelessHealthcareLA-City-Nov.2023.pdf`  ·  129.6 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | — |
+| Invoice date | NOV 2023 |
+| Billed amount | $42933.56 |
+| Deliverables | REGISTERED NURSE; MENTAL HEALTH THERAPIST; MEDICAL TOTAL; EMPLOYEE BENEFITS; 11.1% ADMINISTRATIVE COSTS; MEDICAL PURCHASED SERVICES; 693L ADMINISTRATIVE COSTS; 210B MEDICAL COSTS; 6101 MEDICAL PURCHASED SERVICES |
+| Confidence | high |
+| Notes | Vendor name is not present on the document. |
+
+## The People Concern - FRAC - Nov. 2023.pdf
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1159848_ThePeopleConcern-FRAC-Nov.2023.pdf`  ·  233.9 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | THE PEOPLE CONCERN |
+| Invoice date | 2023-12-26 |
+| Billed amount | $30091.16 |
+| Deliverables | Wellness Coordinator; Client Service Specialist; Facilities and Maintenance Engineer II; Safety and Engagement Specialist; Workers' Compensation; S.U.I.; Health Insurance; Difference Card; Fica / Medicare; 403b ER Match; Office Supplies; Art Supplies; Program Supplies; Computer - Small Eq Office Supplies; Staff Parking; Staff Local Mileage; Travel; General Libility Insurance; Facility Costs - Janitorial and Cleaning (includes supplies); Personal Protective Facility Costs - Janitorial and Cleaning (includes supplies); Storage & Other Facility Costs - Janitorial and Cleaning (includes supplies); Maintenance - Facilit Facility Costs - Janitorial and Cleaning (includes supplies); Laundry Machine - L Facility Costs - Janitorial and Cleaning (includes supplies); Trash Removal Servi Facility Costs - Janitorial and Cleaning (includes supplies); Repair & Maintenanc Facility Costs - Janitorial and Cleaning (includes supplies); Utilities Facility Costs - Janitorial and Cleaning (includes supplies); Telephone Services/ Communications; Memberships, Dues, Telephone Services/ Communications; Computer and IT Sur IT Network, Equipment and Supplies; Copier & Postage - LIT Network, Equipment and Supplies; Computer Maintenan IT Network, Equipment and Supplies; ADMINISTRATIVE COSTS - 10% |
+| Confidence | high |
+| Notes | — |
+
+## The People Concern - HFH - Nov. 2023.pdf
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1159849_ThePeopleConcern-HFH-Nov.2023.pdf`  ·  317.5 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | The People Concern |
+| Invoice date | 2023-12-26 |
+| Billed amount | $51601.62 |
+| Deliverables | Assistant Director (Personnel); Program Manager (Personnel); Outreach Case Manager (Personnel); Senior Case Manager (Personnel); Team Lead/Case Manager (Personnel); Administrative/Data (Personnel); EMPLOYEE BENEFITS @ 20%; Client/Member Expenses; Recruitment Placement Costs; Program/Office Supplies; Staff Parking; Vehicle Costs: insurance, maintenance, janitorial and utilities; General Liability Insurance; Training; Telecommunications: Cellphone Services/telephone, Internet etc.; Small Equipment: Computer/Laptops, printers etc.; Security; Facility Costs-Repair, Maintenance, Janitorial and Utilities; Psychiatry Consultant; Medical Services - LA Christian Health Center; Administrative Overhead; Vehicle Lease |
+| Confidence | high |
+| Notes | The invoice_date is extracted from 'DATE SUBMITTED: 12/26/23' on page 1, which represents the submission date for the 'CLAIM PERIOD (MO./YR): November 2023'. The deliverables list is compiled from 'BUDGETED LINE ITEM' descriptions on page 2, which provides a comprehensive list of services and categories for the billed amount. |
+
+## Exodus Recovery - Nov. 2023.pdf
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1159842_ExodusRecovery-Nov.2023.pdf`  ·  345.9 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Exodus Recovery, Inc |
+| Invoice date | 2023-12-12 |
+| Billed amount | $49128.28 |
+| Deliverables | Program Manager; CM Housing - Team 1; CM SUD-Team; LVN, Team 1; RN, Team 2 Position is per diem (3 days a wk); Community Worker- Team 1; Program Support Staff - Team 1; Mental Health Clinician- Team 1; CM Housing- Team 2; Community Worker- Team 2; NP; MD; EMPLOYEE BENEFITS 25.00%; Client Expenses; Equipment Lease; Office Supplies, Postage, Printing; Staff Mileage/Parking; Telephone/Communications/Utilities; Program Supplies; Liability Insurance; Vehicle Maintenance & Insurance; Vehicle; Office Space; ADMINISTRATIVE OVERHEAD/COSTS @ 10% |
+| Confidence | high |
+| Notes | Invoice date was extracted from the 'DATE SUBMITTED' field (B.8 on page 1) as an explicit 'Invoice Date' field was not present, but this date aligns with the 'CLAIM PERIOD' (B.6 on page 1) and overall document context. |
+
+##  LA Family Housing MH Oct.2023.pdf
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1160005_LAFamilyHousing-MH-Oct.2023.pdf`  ·  818.8 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | LA Family Housing |
+| Invoice date | 2023-11-28 |
+| Billed amount | $14258.11 |
+| Deliverables | Director of Engagement; Assistant Director of Outreach; Outreach Manager MDT 1; Outreach Manager MDT 2, Public Spaces; Outreach Manager MDT 3, City/County Expansion; Outreach Manager MDT 4, MDT CD 2; Outreach Manager MDT 5, City/County Expansion; Case Manager - Mental Health Specialist MDT 1; Case Manager - Mental Health Specialist MDT 2; Case Manager - Mental Health Specialist MDT 3; Case Manager - Mental Health Specialist MDT 4; Case Manager - Mental Health Specialist MDT 5/Weekend; Case Manager - Substance Abuse Specialist MDT 1; Case Manager - Substance Abuse Specialist MDT 2; Case Manager - Substance Abuse Specialist MDT 3; Case Manager - Substance Abuse Specialist MDT 4; Case Manager - Substance Abuse Specialist MDT 5 (Weekend / Wed -; Case Manager - Outreach Specialist MDT 1; Case Manager - Outreach Specialist MDT 2; Case Manager - Outreach Specialist MDT 3; Case Manager - Outreach Specialist MDT 4; Case Manager - Outreach Specialist MDT 5 (Weekend / Wed-Sun); Case Manager - Peer Specialist MDT 1; Case Manager - Peer Specialist MDT 2; Case Manager - Peer Specialist MDT 3; Case Manager - Peer Specialist MDT 4; Case Manager - Peer Specialist MDT 5 (Weekend / Wed - Sun); Outreach Specialist - Public Spaces PS 1; Outreach Program Assistant; Data Coordinator; Employee Benefits @ 35%; Client Expenses; Program Supplies; Office Supplies, Postage, Printing; Staff Training / Development; Telephone / Communications / IT; Utilities; Professional / Liability Insurance; Vehicle Gas / Maintenance / Insurance / Staff Mileage; NEVHC; Vehicle; Office Space; Administrative Overhead |
+| Confidence | high |
+| Notes | The invoice date '11/28/23' was taken from 'DATE SUBMITTED' on page 1, which represents the submission date of this invoice. The 'billed_amount' is the 'AMOUNT REQUESTED' and 'INVOICE AMOUNT' of $14,258.11, before any applied credit. Deliverables are extracted as specific line-item services/roles and not general section headers, as listed on page 2 under sections I, II, III, IV, and Administrative Overhead/Costs. |
+
+##  LA Family Housing City Expansion Oct. 2023.pdf
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1160002_LAFamilyHousing-CityExpansion-Oct.2023.pdf`  ·  682.8 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | LA Family Housing |
+| Invoice date | 11/28/23 |
+| Billed amount | $13431.59 |
+| Deliverables | 51102 Social Events & Enhancements; 51110 - Staff Training; 51190 - Personnel Expenses - Other; 51310 - Office Supplies; 51501 - Insurance, Directors & Officers; 51502 - Insurance, General Liability; 62200 - Telephone & Communications; 66100 - Computer & Software Expense; 81050 Client Needs; 81180 - Client: Program Vehicle Lease; Admin |
+| Confidence | high |
+| Notes | Vendor name found in section B of Page 1. Invoice date found in section F.8 of Page 1. Billed amount found in section F.7 of Page 1 and confirmed by 'Grand Total Sum of Expansion' on Page 3. Deliverables are derived from the 'Sum of Expansion' column on Page 3, representing the specific items contributing to the billed amount. |
+
+## The People Concern - HFH - Oct. 2023.pdf
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1159846_ThePeopleConcern-HFH-Oct.2023.pdf`  ·  413.3 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | The People Concern |
+| Invoice date | 2023-11-22 |
+| Billed amount | $50779.22 |
+| Deliverables | ICMS - (Field-based Services); STREET-BASED ENGAGEMENT; SERVICES-ML; Every Women Housed (EWH) Initiative; Assistant Director; Program Manager; Outreach Case Manager; Senior Case Manager; Administrative/Data; EMPLOYEE BENEFITS @ 20%; Client/Member Expenses; Recruitment Placement Costs; Program/Office Supplies; Staff Parking; Vehicle Costs: insurance, maintenance, janitorial and utilities; General Liability Insurance; Telecommunications: Cellphone Services/telephone, Internet etc.; Small Equipment: Computer/Laptops, printers etc.; Facility Costs-Repair, Maintenance, Janitorial and Utilities; Psychiatry Consultant; Medical Services - LA Christian Health Center; Administrative Overhead; Vehicle Lease |
+| Confidence | high |
+| Notes | — |
+
+## Homeless Healthcare LA - Oct. 2023.pdf
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1159854_HomelessHealthcareLA-Oct.2023.pdf`  ·  54528.6 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | — |
+| Invoice date | — |
+| Billed amount | — |
+| Deliverables | — |
+| Confidence | low |
+| Notes | PDF exceeds inline limit; use Gemini File API |
+
+## Homeless Healthcare LA - City - Oct. 2023.pdf
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1159853_HomelessHealthcareLA-City-Oct.2023.pdf`  ·  56965.0 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | — |
+| Invoice date | — |
+| Billed amount | — |
+| Deliverables | — |
+| Confidence | low |
+| Notes | PDF exceeds inline limit; use Gemini File API |
+
+## Exodus Recovery - Oct. 2023.pdf
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1159843_ExodusRecovery-Oct.2023.pdf`  ·  929.5 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Exodus Recovery, Inc |
+| Invoice date | 2023-11-10 |
+| Billed amount | $46867.16 |
+| Deliverables | Program Manager; CM Housing - Team 1; CM SUD-Team; LVN, Team 1; RN, Team 2 Position is per diem (3 days a wk); Community Worker- Team 1; Program Support Staff - Team 1; Mental Health Clinician- Team 1; CM Housing- Team 2; Community Worker- Team 2; NP; MD; EMPLOYEE BENEFITS; Client Expenses; Equipment Lease; Office Supplies, Postage, Printing; Staff Mileage/Parking; Telephone/Communications/Utilities; Program Supplies; Liability Insurance; Vehicle Maintenance & Insurance; Vehicle; Office Space; Administrative Overhead/Costs @ 10% |
+| Confidence | high |
+| Notes | The 'DATE SUBMITTED' on page 1 is printed as '11/10/13'. However, the document was 'RECEIVED By e512613 at 12:57 pm, Nov 15, 2023', and the 'CLAIM PERIOD' is '10'23' (October 2023). Based on these contextual clues, the year for the submission date is inferred to be 2023, not 2013, to provide a determinable ISO date. The total billed amount is consistent across multiple sections of the document. |
+
+## The People Concern - C3 - Oct. 2023.pdf
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1159844_ThePeopleConcern-C3-Oct.2023.pdf`  ·  463.7 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | THE PEOPLE CONCERN |
+| Invoice date | 2023-11-21 |
+| Billed amount | $153256.63 |
+| Deliverables | Salaries; Workers' Compensation; Health Insurance; Difference Card; Fica / Medicare; 403b ER Match; Client Personal/Med. Exp.; Client Expense; Incentives; Client Exp-Art Supplies&Expen; Client Exp-Food; Client Exp-Transportation; Client Exp-Hygiene Products; Client Exp-Essential Furnishing; Staff Parking; Subcontractor Expense; Contract Labor; Consultant; Vehicle Leasing; Gas/Oil/Repairs -Vehicles; Recruiting & Job Ads; Program Supplies; Office Supplies; Insurance/Liability; Repair & Maintenance; Storage & Other; Telephone / Internet; Utilities; Trash Removal Services; Staff Support; Employee Appreciation Fund; Administrative Overhead |
+| Confidence | high |
+| Notes | — |
