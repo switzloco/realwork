@@ -2602,3 +2602,263 @@ Right: the normalized ledger row our agent extracted autonomously.
 | Deliverables | New Slot Cost; Vacant Slot Cost; Occupied Slot Cost |
 | Confidence | high |
 | Notes | — |
+
+## KYCC - Jul 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1177425_KYCC-ICMS-Jul2024.pdf`  ·  2181.2 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Koreatown Youth and Community Center (KYCC) |
+| Invoice date | 2024-08-08 |
+| Billed amount | $81075.00 |
+| Deliverables | D7 services (Housing/Service Slots); D7 Flex services (Housing/Service Slots); MHSA services (Housing/Service Slots) |
+| Confidence | high |
+| Notes | Invoice date extracted from 'DATE SUBMITTED'. Deliverables are categorized by 'Fund' types from the 'BILLING SUMMARY' which details 'Vacant Slot Cost' and 'Occupied Slot Cost' for each category. |
+
+## VOALA - ICMS - Apr 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1187891_VOALA-ICMS-Apr2024.pdf`  ·  1954.5 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Volunteers of America |
+| Invoice date | 2024-05-06 |
+| Billed amount | $105750.00 |
+| Deliverables | ARPA/FHSP Slot Costs; D7 Slot Costs; DHS Slot Costs; HDAP Slot Costs; HDAP (D7) Slot Costs; HDAP (GR) Slot Costs; MHSA Slot Costs; PHK (D7) Slot Costs |
+| Confidence | high |
+| Notes | The 'billed_amount' is taken from 'AMOUNT REQUESTED' on page 1 and confirmed by 'Total Cost' in the 'BILLING SUMMARY' on page 25. The 'deliverables' are derived from the 'Fund' categories and their associated 'Slot Costs' in the 'BILLING SUMMARY' on page 25, as these represent the line-item services being billed. The 'invoice_date' is taken from 'DATE SUBMITTED' on page 1. |
+
+## Venice community Housing - ICMS - Apr 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1187890_VenicecommunityHousing-ICMS-Apr2024.pdf`  ·  2328.6 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Venice Community Housing |
+| Invoice date | 2024-05-06 |
+| Billed amount | $88350.00 |
+| Deliverables | D7; DHS; MHSA; PHK (D7) |
+| Confidence | high |
+| Notes | Invoice date extracted from 'DATE SUBMITTED'. Deliverables are derived from the 'Fund' categories listed in the 'BILLING SUMMARY' on page 20, as these represent the aggregated services billed. |
+
+## WCA - ICMS - Apr 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1187892_WCA-ICMS-Apr2024.pdf`  ·  11798.2 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Weingart Center Association |
+| Invoice date | 2024-05-01 |
+| Billed amount | $207450.00 |
+| Deliverables | ICMS costs under Work Order 395-HFH-ICMS; D7 Fund Slot Costs; D7 Flex Fund Slot Costs; DHS Fund Slot Costs |
+| Confidence | high |
+| Notes | The 'invoice_date' is extracted from 'DATE SUBMITTED' on page 1. The 'billed_amount' reflects the 'AMOUNT REQUESTED' on page 1 and 'TOTAL Cost' from the 'BILLING SUMMARY' on page 37 ($207,450.00), which is the gross amount before disallowed costs ($900.00) were applied, as opposed to the 'net pay' ($206,550.00). The deliverables are based on the description of 'ICMS costs' on page 38 and the breakdown by 'Fund' (D7, D7 Flex, DHS) for 'Slot Costs' in the 'BILLING SUMMARY' on page 37. |
+
+## TPC - ICMS - Apr 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1187889_TPC-ICMS-Apr2024.pdf`  ·  1172.9 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | The People Concern |
+| Invoice date | 2024-05-06 |
+| Billed amount | $1399600.00 |
+| Deliverables | ARPA; ARPA/FHSP; D7; DHS; SAM; D7 Flex; EWH; HDAP; HDAP (D7); HFMH (D7); Housing for Healthy CA; MHSA; PHK (D7) |
+| Confidence | high |
+| Notes | Invoice date extracted from 'DATE SUBMITTED' on page 1, as it represents the submission date of this report. The billed amount is confirmed by 'AMOUNT REQUESTED' on page 1 and 'Total Cost' in the 'BILLING SUMMARY' on page 188. Deliverables are extracted from the 'Fund' column in the 'BILLING SUMMARY' on page 188. |
+
+## The Center In Hollywood - ICMS - Apr 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1187888_TheCenterInHollywood-ICMS-Apr2024.pdf`  ·  1610.3 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | The Center in Hollywood |
+| Invoice date | 2024-05-02 |
+| Billed amount | $130050.00 |
+| Deliverables | D7 Vacant Slot Cost; D7 Occupied Slot Cost; DHS Vacant Slot Cost; DHS Occupied Slot Cost; SAM Occupied Slot Cost |
+| Confidence | high |
+| Notes | — |
+
+## Step Up on Second - ICMS - Apr 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1187887_StepUponSecond-ICMS-Apr2024.pdf`  ·  965.8 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Step Up on Second |
+| Invoice date | 2024-05-14 |
+| Billed amount | $516375.00 |
+| Deliverables | ARPA; ARPA/FHSP; D7; DHS; SAM; Housing for Healthy CA; D7 Flex; HFMH (D7); MHSA; SRAP |
+| Confidence | high |
+| Notes | The billed amount is the 'AMOUNT REQUESTED' before 'applied disallowed costs' were deducted. The 'Deliverables' are derived from the 'Fund' categories in the 'BILLING SUMMARY' table on page 93. |
+
+## SSG.HOPICS.P180 - ICMS - Apr 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1187885_SSG.HOPICS.P180-ICMS-Apr2024.pdf`  ·  484.6 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | SSG/HOPICS/Project180 |
+| Invoice date | 2024-05-07 |
+| Billed amount | $299100.00 |
+| Deliverables | ARPA; ARPA/FHSP; D7; DHS; SAM; D7 Flex; DHSP (D7); HDAP; HDAP (D7); HFMH (D7); Housing for Healthy CA; MHSA |
+| Confidence | high |
+| Notes | — |
+
+## SJC - ICMS - Apr 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1187883_SJC-ICMS-Apr2024.pdf`  ·  507.9 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | St. Joseph's Center |
+| Invoice date | 2024-05-02 |
+| Billed amount | $423575.00 |
+| Deliverables | ARPA; D7; ARPA/FHSP; Housing for Healthy CA; SAM; D7 Flex; DHS; HDAP (D7); HFMH (D7); MHSA; PHK (D7) |
+| Confidence | high |
+| Notes | — |
+
+## SFVCMHC - ICMS - Apr 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1187882_SFVCMHC-ICMS-Apr2024.pdf`  ·  710.8 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | San Fernando Valley Community Mental Health Center (SFVCMHC) |
+| Invoice date | 2024-05-13 |
+| Billed amount | $88350.00 |
+| Deliverables | D7 Slots; DCFS/HSSP Slots; HFMH (D7) Slots |
+| Confidence | high |
+| Notes | The billed_amount of 88350.00 is taken from 'AMOUNT REQUESTED' on page 1 and is confirmed by the 'TOTAL Cost' in the 'BILLING SUMMARY' on page 19. The document also mentions 'applied disallowed costs $22,800.00' and 'net pay $65,550.00', but the request is for the total billed amount, which is the higher figure before disallowances. Deliverables are identified from the 'BILLING SUMMARY' on page 19, detailing costs by fund type (D7, DCFS/HSSP, HFMH (D7)) which correspond to different categories of 'slots' (new, vacant, occupied) detailed throughout the report. |
+
+## Penny Lane - ICMS - Apr 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1187881_PennyLane-ICMS-Apr2024.pdf`  ·  9620.8 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Penny Lane |
+| Invoice date | 2024-05-08 |
+| Billed amount | $115500.00 |
+| Deliverables | D7 project services; D7 Flex project services; MHSA project services |
+| Confidence | high |
+| Notes | — |
+
+## LSTEP - ICMS - Apr 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1187879_LSTEP-ICMS-Apr2024.pdf`  ·  526.9 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Life Skills Training and Educational Programs |
+| Invoice date | 2024-05-06 |
+| Billed amount | $145200.00 |
+| Deliverables | ARPA/FHSP; D7; DHS; HFMH (D7); MHSA |
+| Confidence | high |
+| Notes | — |
+
+## PATH - ICMS - Apr 2024.pdf
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1187880_PATH-ICMS-Apr2024.pdf`  ·  1297.5 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | PATH |
+| Invoice date | 2024-05-09 |
+| Billed amount | $829175.00 |
+| Deliverables | ARPA; ARPA/FHSP; D7; D7 Flex; DHS; SAM; HDAP (D7); HFMH (D7); Housing for Healthy CA; MHSA; PHK (D7); SRAP |
+| Confidence | high |
+| Notes | The document includes a 'NOTIFICATION OF PAYMENT RECOVERY DUE TO DISALLOWED COSTS' on page 142, indicating a disallowance of $20,850 from the total requested, which will be deducted from a *next* submitted ICMS invoice. The 'billed_amount' extracted reflects the 'AMOUNT REQUESTED' on page 1 and the 'Total Cost' in the 'BILLING SUMMARY' on page 141, which is the total amount billed *prior* to this disallowance being applied to the current invoice. |
+
+## KYCC - ICMS - Apr 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1187876_KYCC-ICMS-Apr2024.pdf`  ·  1301.9 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Koreatown Youth and Community Center (KYCC) |
+| Invoice date | 2024-05-13 |
+| Billed amount | $96150.00 |
+| Deliverables | D7; D7 Flex; MHSA |
+| Confidence | high |
+| Notes | — |
+
+## LINC - ICMS - Apr 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1187878_LINC-ICMS-Apr2024.pdf`  ·  795.6 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | LINC |
+| Invoice date | 2024-05-06 |
+| Billed amount | $246000.00 |
+| Deliverables | ARPA/FHSP Slot Costs (Occupied and Vacant); D7 Slot Costs (Occupied and Vacant); DHS Slot Costs (Occupied); D7 Flex Slot Costs (Occupied); Housing for Healthy CA Slot Costs (Occupied and Vacant); MHSA Slot Costs (Occupied) |
+| Confidence | high |
+| Notes | Invoice date extracted from 'DATE SUBMITTED'. Billed amount confirmed from 'AMOUNT REQUESTED' and 'TOTAL' in billing summary. Deliverables are derived from the 'BILLING SUMMARY' table on page 49, representing various slot costs by fund type for Housing for Health services and ICMS. |
+
+## LAFH - ICMS - Apr 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1187877_LAFH-ICMS-Apr2024.pdf`  ·  792.8 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | LA Family Housing (LAFH) |
+| Invoice date | 2024-05-03 |
+| Billed amount | $406200.00 |
+| Deliverables | Vacant Slots; Occupied Slots |
+| Confidence | medium |
+| Notes | The 'DATE SUBMITTED: 5/3/21' on page 1 appears to be an error, as other dates such as 'CLAIM PERIOD: 04 / 2024' and the preparer's signature date '5/3/24' (Nicholas Kimble) indicate a 2024 date. The `invoice_date` is extracted from the preparer's signature date (Nicholas Kimble's signature on page 1), as it represents the date the report was signed by the vendor's representative. Deliverables are identified as the categories that contribute to the total billed amount: 'Vacant Slots' and 'Occupied Slots', as shown in the 'BILLING SUMMARY' on page 58 and detailed in the respective sections. Other slot categories ('Invalid Slots', 'New Slots', 'Reserved Slots') and 'Staffing' show zero cost in their respective summary totals. |
+
+## Housing Works - ICMS - Apr 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1187875_HousingWorks-ICMS-Apr2024.pdf`  ·  893.6 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Housing Works (HW) |
+| Invoice date | 2024-05-15 |
+| Billed amount | $205050.00 |
+| Deliverables | ARPA/FHSP; D7; DHS; D7 Flex; ARPA; DHSP (D7); HFMH (D7); Housing for Healthy CA; MHSA |
+| Confidence | high |
+| Notes | The billed_amount is taken from 'AMOUNT REQUESTED' and confirmed by the 'TOTAL Cost' in the Billing Summary. The invoice also notes 'applied disallowed costs' and 'net pay', but these are not the total billed amount. The invoice_date is taken from 'DATE SUBMITTED' on page 1, as there is no explicit 'Invoice Date' field, but this is the date the document was created and submitted by the vendor. Deliverables are derived from the 'Fund' categories listed in the 'BILLING SUMMARY' section on page 33, as these represent the breakdown of services provided. |
+
+## HHCLA - ICMS - Apr 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1187874_HHCLA-ICMS-Apr2024.pdf`  ·  8027.1 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Homeless Healthcare Los Angeles (HHCLA) |
+| Invoice date | 2024-05-10 |
+| Billed amount | $198375.00 |
+| Deliverables | ARPA/FHSP; D7; SAM; D7 Flex; DHS; MHSA; SRAP |
+| Confidence | high |
+| Notes | Invoice date '5/10/24' interpreted as 2024-05-10. Deliverables are identified from the 'Fund' categories in the 'BILLING SUMMARY' table on page 43. |
+
+## Heritage Clinic - ICMS - Apr 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1187873_HeritageClinic-ICMS-Apr2024.pdf`  ·  5723.3 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Heritage Clinic |
+| Invoice date | 2024-05-10 |
+| Billed amount | $170925.00 |
+| Deliverables | ARPA; D7; PHK (D7); MHSA; SRAP |
+| Confidence | high |
+| Notes | The billed amount is taken from 'AMOUNT REQUESTED' on the first page, which matches the 'Total Cost' in the 'BILLING SUMMARY' on page 35. This is the total billed before any 'applied disallowed costs' ($450.00) mentioned in 'AGENCY COMMENTS' on page 1 and the 'Disallowed Cost Amount' on page 37. Deliverables are identified from the 'Fund' types listed in the 'BILLING SUMMARY' on page 35, which categorize the various slots being billed. |
+
+## Exodus - ICMS - Apr 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1187872_Exodus-ICMS-Apr2024.pdf`  ·  401.7 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Exodus |
+| Invoice date | 2024-05-02 |
+| Billed amount | $281625.00 |
+| Deliverables | ARPA; ARPA/FHSP; D7; D7 Flex; DHS; HFMH (D7); PHK (D7); SRAP |
+| Confidence | high |
+| Notes | None |
