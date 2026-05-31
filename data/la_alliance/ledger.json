@@ -19580,5 +19580,317 @@
     "confidence": "low",
     "extraction_notes": "Invoice date is not a specific YYYY-MM-DD, only a month and year range ('October 2023') is present in the document title, and individual service dates are listed in a column. No single overall invoice date is available. The 'billed_amount' could not be determined as the 'Total Charge' column values are all unreadable ('SS').",
     "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Tarzana Treatment Centers Inc. - Recovery Bridge Housing - Oct. 2023",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1162129_OCT2023-TARZANATREATMENTCENTERSINC.-RecoveryBridgeHousing.pdf",
+    "vendor": "TARZANA TREATMENT CENTERS INC.",
+    "invoice_date": "2023-10-31",
+    "billed_amount": 20460.0,
+    "deliverables": [
+      "Recovery Bridge Housing (H2034)"
+    ],
+    "confidence": "high",
+    "extraction_notes": "The document is a detailed ledger for services provided in October 2023. The 'invoice_date' is inferred as the last day of the month the services cover (October 2023) based on the document's header. The 'billed_amount' is calculated by summing the 'Total Disbursed' for all line items. There are 12 unique locations, each with 31 daily entries for October, and each entry shows a disbursement of $55. Therefore, 12 locations * 31 days * $55 = $20,460.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Social Model Recovery Systems Inc. - Recovery Bridge Housing - Oct. 2023",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1162128_OCT2023-SOCIALMODELRECOVERYSYSTEMSINC.-RecoveryBridgeHousing.pdf",
+    "vendor": "SOCIAL MODEL RECOVERY SYSTEMS INC.",
+    "invoice_date": null,
+    "billed_amount": null,
+    "deliverables": [
+      "Recovery Bridge Housing (H2034)"
+    ],
+    "confidence": "medium",
+    "extraction_notes": "Invoice date is a billing period 'October 2023' rather than a specific date. No single total billed amount is present; only per-line-item charges are listed.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "So Cal Alcohol and Drug Programs Inc. - Residential - Oct. 2023",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1162127_OCT2023-SOCALALCOHOLANDDRUGPROGRAMSINC.-Residental.pdf",
+    "vendor": "SO CAL ALCOHOL AND DRUG PROGRAMS INC.",
+    "invoice_date": "October 2023",
+    "billed_amount": 80387.13,
+    "deliverables": [
+      "Behavioral Health; Long Term Residential (H0019:U3:HD)"
+    ],
+    "confidence": "high",
+    "extraction_notes": "The invoice_date 'October 2023' is provided as printed, as a specific YYYY-MM-DD date for the entire document was not determinable. The billed_amount was calculated by summing all individual 'Total Charge' line items across all pages: (166 items * 213.48) + (185 items * 242.97) = 35437.68 + 44949.45 = 80387.13. The deliverables were consistent across all line items.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Safe Refuge - Recovery Bridge Housing - Oct. 2023",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1162126_OCT2023-SAFEREFUGE-RecoveryBridgeHousing.pdf",
+    "vendor": "SAFE REFUGE",
+    "invoice_date": "2023-10-31",
+    "billed_amount": 95700.0,
+    "deliverables": [
+      "Recovery Bridge Housing (H2034)"
+    ],
+    "confidence": "high",
+    "extraction_notes": "Invoice date inferred as the last day of the billing period (October 2023) as no specific invoice date was present. The total billed amount was calculated by summing 1740 individual line items, each with a total charge of $55.00.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Sadler Healthcare Inc. - Residential - Oct. 2023",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1162125_OCT2023-SADLERHEALTHCAREINC.-Residental.pdf",
+    "vendor": "SADLER HEALTHCARE INC.",
+    "invoice_date": "October 2023",
+    "billed_amount": null,
+    "deliverables": [
+      "Behavioral Health, Long Term Residential (HDDU9 L1)"
+    ],
+    "confidence": "medium",
+    "extraction_notes": "Invoice date refers to the billing period 'October 2023' rather than a specific issuance date. Total billed amount is not explicitly stated as a sum on the document; only individual line item charges are present. Returning null as per instructions not to infer or calculate.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "LA Centers for Alcohol and Drug Abuse - Recovery Bridge Housing - Oct. 2023",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1162123_OCT2023-LACENTERSFORALCOHOLANDDRUGABUSE-RecoveryBridgeHousing.pdf",
+    "vendor": "LA CENTERS FOR ALCOHOL AND DRUG ABUSE",
+    "invoice_date": null,
+    "billed_amount": null,
+    "deliverables": [
+      "Recovery Bridge Housing (H2034)"
+    ],
+    "confidence": "medium",
+    "extraction_notes": "Invoice date is not explicitly stated for the entire document; 'October 2023' refers to the service period. Billed amount is not stated as this is a partial document (page 25 of an unknown total).",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Lake Hughes Recovery - Residential - Oct. 2023",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1162124_OCT2023-LAKEHUGHESRECOVERY-Residental.pdf",
+    "vendor": "LAKE HUGHES RECOVERY",
+    "invoice_date": null,
+    "billed_amount": 243513.65,
+    "deliverables": [
+      "Residential -Alcohol and/or Drug Service (H0019:U1:HA)",
+      "Behavioral Health, Long Term Residential (H0019:U1)",
+      "Residential -Alcohol and/or Drug Service (H0019:U3:HA)",
+      "Behavioral Health, Long Term Residential (H0019:U3)",
+      "Subacute Detox Residential (H0019:LTF)",
+      "Subacute Detox Residential (H0019:LTF:HA)"
+    ],
+    "confidence": "high",
+    "extraction_notes": "The document indicates a billing period of 'OCTOBER 2023', but a specific invoice date (day) is not determinable from the text, so 'invoice_date' is returned as null. The billed_amount was calculated by summing all 'Total Charge' line items across all 21 pages of the document.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Healthright 360. - Recovery Bridge Housing - Oct. 2023",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1162120_OCT2023-HEALTHRIGHT360-RecoveryBridgeHousing.pdf",
+    "vendor": "HEALTHRIGHT 360",
+    "invoice_date": null,
+    "billed_amount": null,
+    "deliverables": [
+      "Recovery Bridge Housing (H2034)"
+    ],
+    "confidence": "medium",
+    "extraction_notes": "The document is a detailed service report listing individual services rendered during October 2023, not a single invoice with a distinct invoice date or a consolidated total billed amount. Therefore, 'invoice_date' and 'billed_amount' are returned as null as they are not explicitly stated on the document. The date 10/31/2023 mentioned in the overview is an extract generation date, not an invoice date.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "House of Hope Foundation - Recovery Bridge Housing - Oct. 2023",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1162121_OCT2023-HOUSEOFHOPEFOUNDATIONINC.-RecoveryBridgeHousing.pdf",
+    "vendor": "HOUSE OF HOPE FOUNDATION INC.",
+    "invoice_date": null,
+    "billed_amount": 4840.0,
+    "deliverables": [
+      "Recovery Bridge Housing (H2034)"
+    ],
+    "confidence": "medium",
+    "extraction_notes": "The provided text is OCR for page 3 of a multi-page document. An overall 'invoice_date' for the entire billing document is not present in the provided OCR text; only 'Date of Service' for individual line items (all in October 2023) are available. The billed_amount is calculated by summing the 'Total Billed' for all 88 line items on this page (88 * $55.00).",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Fred Brown's Recovery Services Inc. - Residential - Oct. 2023",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1162118_OCT2023-FREDBROWN_SRECOVERYSERVICESINC.-Residental.pdf",
+    "vendor": "FRED BROWN'S RECOVERY SERVICES INC.",
+    "invoice_date": null,
+    "billed_amount": null,
+    "deliverables": [
+      "Behavioral Health, Long Term Residential (HDDS U1)"
+    ],
+    "confidence": "medium",
+    "extraction_notes": "The document is a detailed report rather than a summary invoice. A single 'invoice_date' is not present, though 'October 2023' is indicated as the reporting period. A single 'billed_amount' (grand total) is not present; only line-item 'Total Charge' values are listed.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "JWCH Institute Inc. - Recovery Bridge Housing - Oct. 2023",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1162122_OCT2023-JWCHINSTITUTEINC.-RecoveryBridgeHousing.pdf",
+    "vendor": "JWCW INSTITUTE INC.",
+    "invoice_date": null,
+    "billed_amount": null,
+    "deliverables": [
+      "Recovery Bridge Housing (H2034)",
+      "Recovery Bridge Housing (H2034-HS)",
+      "Recovery Bridge Housing (H2034-PG)",
+      "Recovery Bridge Housing (H2034-C)"
+    ],
+    "confidence": "medium",
+    "extraction_notes": "invoice_date is null because no single 'Invoice Date' field is present on the document. 'October 2023' is in the title, referring to the service period, and 'March 2024' is stated as the extraction date in the overview, but neither is an explicit invoice date nor formatted as YYYY-MM-DD with a specific day. billed_amount is null because there is no explicit 'Total Billed Amount' or 'Grand Total' field stated on the document. Individual line item charges are present, but no overall sum.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Grandview Foundation Inc. - Recovery Bridge Housing - Oct. 2023",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1162119_OCT2023-GRANDVIEWFOUNDATIONINC.-RecoveryBridgeHousing.pdf",
+    "vendor": "GRANDVIEW FOUNDATION INC.",
+    "invoice_date": null,
+    "billed_amount": 3465.0,
+    "deliverables": [
+      "Recovery Bridge Housing (H2034)"
+    ],
+    "confidence": "medium",
+    "extraction_notes": "A single 'invoice_date' is not explicitly stated on the document. The document is a report titled 'Recovery Bridge Housing - Recovery Bridge Housing October 2023', and lists individual service entries with specific 'Date Entered' values, primarily within October 2023. These 'Date Entered' values represent service dates rather than a single invoice date. The billed_amount was calculated by summing the 'Total Billed Amount' for all 63 line items ($55.00 each).",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Exodus Recovery Inc. - Recovery Bridge Housing - Oct. 2023",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1162116_OCT2023-EXODUSRECOVERYINC-RecoveryBridgeHousing.pdf",
+    "vendor": "EXODUS RECOVERY INC",
+    "invoice_date": null,
+    "billed_amount": null,
+    "deliverables": [
+      "Recovery Bridge Housing (H2034)"
+    ],
+    "confidence": "medium",
+    "extraction_notes": "invoice_date is not present as a single date; the document specifies 'October 2023' as a summary period and lists individual 'Date of Service' entries. billed_amount is not present as a grand total; the document lists individual charges per service date without a summed total for the entire document.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Fred Brown's Recovery Services Inc. - Recovery Bridge Housing - Oct. 2023",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1162117_OCT2023-FREDBROWN_SRECOVERYSERVICESINC.-RecoveryBridgeHousing.pdf",
+    "vendor": "FRED BROWN'S RECOVERY SERVICES INC.",
+    "invoice_date": "October 2023",
+    "billed_amount": 41855.0,
+    "deliverables": [
+      "Recovery Bridge Housing (H2034)"
+    ],
+    "confidence": "high",
+    "extraction_notes": "The document is a detailed service log/report covering the month of October 2023, rather than a single invoice with a specific invoice date. 'October 2023' is used for invoice_date to represent the billing period indicated in the report header. The billed_amount is calculated by summing all 'Total Charge' line items (761 lines * $55.00/line).",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "WCA - Sep 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1190094_WCA-Sep2024.pdf",
+    "vendor": "Weingart Center Association",
+    "invoice_date": "2024-09-12",
+    "billed_amount": null,
+    "deliverables": [
+      "ICMS costs for Permanent Supportive Housing Edition enrollments for August 2024 service month"
+    ],
+    "confidence": "high",
+    "extraction_notes": "This document is a 'Notification of Payment Recovery' from Los Angeles County to the vendor (Weingart Center Association), not an invoice from the vendor to the county. The 'billed_amount' field is null because the document does not state a total amount billed by the vendor; instead, it states an amount ($13,972.50) that DHS is recovering due to disallowed costs.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "VOALA - Sep 2024.pdf",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1190093_VOALA-Sep2024.pdf",
+    "vendor": "Volunteers of America",
+    "invoice_date": "2024-10-02",
+    "billed_amount": 115440.0,
+    "deliverables": [
+      "ARPA",
+      "ARPA/FHSP",
+      "CFCI 2",
+      "D7",
+      "DHS",
+      "HDAP",
+      "HDAP (D7)",
+      "HDAP (GR)",
+      "MHSA"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "The Center in Hollywood - Sep 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1190090_TheCenterinHollywood-Sep2024.pdf",
+    "vendor": "The Center in Hollywood",
+    "invoice_date": "2024-10-01",
+    "billed_amount": 144813.75,
+    "deliverables": [
+      "Vacant Slot Cost - D7",
+      "Occupied Slot Cost - D7",
+      "Vacant Slot Cost - DHS",
+      "Occupied Slot Cost - DHS",
+      "Vacant Slot Cost - SAM",
+      "Occupied Slot Cost - SAM"
+    ],
+    "confidence": "high",
+    "extraction_notes": "All requested fields are clearly stated. The deliverables are extracted from the 'BILLING SUMMARY' on page 29, which consolidates costs by Fund (D7, DHS, SAM) and slot status (Vacant/Occupied). Detailed individual slot and staff listings were not treated as separate line items for the final deliverable list, as their costs are aggregated into these summary categories.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Step up on Second - Sep 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1190089_StepuponSecond-Sep2024.pdf",
+    "vendor": "Step Up on Second",
+    "invoice_date": "2024-10-03",
+    "billed_amount": 577476.25,
+    "deliverables": [
+      "ARPA",
+      "ARPA/FHSP",
+      "D7",
+      "DHS",
+      "SAM",
+      "Housing for Healthy CA",
+      "D7 Flex",
+      "HFMH (D7)",
+      "MHSA",
+      "SRAP"
+    ],
+    "confidence": "high",
+    "extraction_notes": "The invoice date was extracted from 'DATE SUBMITTED'. Deliverables were extracted from the 'BILLING SUMMARY' section on page 101, which categorizes the services/programs being billed.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "The People Concern - Sep 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1190091_ThePeopleConcern-Sep2024.pdf",
+    "vendor": "The People Concern",
+    "invoice_date": "2024-10-03",
+    "billed_amount": 1662743.75,
+    "deliverables": [
+      "ARPA",
+      "ARPA/FHSP",
+      "D7",
+      "DHS",
+      "SAM",
+      "D7 Flex",
+      "EWH",
+      "HDAP",
+      "HDAP (D7)",
+      "HFMH (D7)",
+      "Housing for Healthy CA",
+      "MHSA",
+      "PHK (D7)"
+    ],
+    "confidence": "high",
+    "extraction_notes": "Invoice date extracted from 'DATE SUBMITTED' on page 1. Deliverables are derived from the 'Fund' categories listed in the 'BILLING SUMMARY' table on page 198, representing the high-level services billed.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "ST JOSEPH CENTER - Sep 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1190088_STJOSEPHCENTER-Sep2024.pdf",
+    "vendor": "St. Joseph's Center",
+    "invoice_date": "2024-10-09",
+    "billed_amount": 501385.0,
+    "deliverables": [
+      "ARPA",
+      "D7",
+      "ARPA/FHSP",
+      "Housing for Healthy CA",
+      "SAM",
+      "D7 Flex",
+      "DHS",
+      "HDAP (D7)",
+      "HFMH (D7)",
+      "MHSA",
+      "PHK (D7)"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
   }
 ]
