@@ -3512,3 +3512,263 @@ Right: the normalized ledger row our agent extracted autonomously.
 | Deliverables | Recovery Bridge Housing (H2034) |
 | Confidence | high |
 | Notes | The document is a data export for monitoring/invoicing for 'June 2025', not a traditional invoice. An explicit 'invoice date' is not present; instead, 'Date of Service' dates are listed for individual items, and a 'Date of data extraction, 09/04/2025' is mentioned in the overview. |
+
+## Fred Browns Recovery Services Inc. - Residential - June 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1192655_FredBrownsRecoveryServicesInc.-Residential-June2025.pdf`  ·  226.9 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | FRED BROWN'S RECOVERY SERVICES INC. |
+| Invoice date | June 2025 |
+| Billed amount | $35221.15 |
+| Deliverables | Behavioral Health Long Term Residential (H0019:U3); Behavioral Health Long Term Residential (H0019:U1) |
+| Confidence | high |
+| Notes | The document provides a billing period ('June 2025') rather than a specific single invoice date. The billed_amount is calculated by summing all line items in the 'Total Charge' column. |
+
+## Grandview Foundation Inc. - Recovery Bridge Housing - June 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1192657_GrandviewFoundationInc.-RecoveryBridgeHousing-June2025.pdf`  ·  238.0 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | GRANDVIEW FOUNDATION, INC. |
+| Invoice date | — |
+| Billed amount | $259413.50 |
+| Deliverables | Recovery Bridge Housing (H0034) |
+| Confidence | high |
+| Notes | The document is a detailed billing report for the period of June 2023, not a single invoice with a specific invoice date. The 'billed_amount' is calculated by summing the 'Total Delivered' amount ($86.50) for all 2999 line items listed in the report (2999 * $86.50 = $259,413.50). |
+
+## Fred Browns Recovery Services Inc. - Recovery Bridge Housing - June 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1192654_FredBrownsRecoveryServicesInc.-RecoveryBridgeHousing-June2025.pdf`  ·  361.3 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | FRED BROWN'S RECOVERY SERVICES INC. |
+| Invoice date | — |
+| Billed amount | $60137.00 |
+| Deliverables | Recovery Bridge Housing (H2034) |
+| Confidence | medium |
+| Notes | A specific 'invoice_date' for the entire billing document is not present. The document title indicates 'June 2025' as the service period and a 'Date of data extraction: 09/04/2023'. Neither is an invoice date. The billed_amount was calculated by summing the 'Total Charged' column for all line items. There are 994 line items, each with a 'Total Charged' of $60.50, resulting in a total of 994 * 60.50 = 60137.0. |
+
+## Divine Healthcare Services Inc. - Recovery Bridge Housing - June 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1192652_DivineHealthcareServicesInc.-RecoveryBridgeHousing-June2025.pdf`  ·  256.5 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | DIVINE HEALTHCARE SERVICES, INC. |
+| Invoice date | — |
+| Billed amount | — |
+| Deliverables | Recovery Bridge Housing (H2034) |
+| Confidence | low |
+| Notes | The document is a data extract/summary of services, not a traditional invoice. A single 'invoice_date' for the entire document is not present; instead, multiple 'Date of Service' entries are listed. A single 'billed_amount' (total for the document) is not explicitly stated; only line-item 'Total Charge' values are provided. |
+
+## Exodus Recovery Inc. - Recovery Bridge Housing - June 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1192653_ExodusRecoveryInc.-RecoveryBridgeHousing-June2025.pdf`  ·  233.8 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | EXODUS RECOVERY INC |
+| Invoice date | June 2025 |
+| Billed amount | $9256.50 |
+| Deliverables | Recovery Bridge Housing (H2034) |
+| Confidence | high |
+| Notes | Invoice date is provided as a month and year ('June 2025') rather than a specific day. The attached file consists of 3 identical images, which has been interpreted as a single page repeated. The total billed amount is calculated from 153 line items found on this single page. |
+
+## Cri-Help Inc. - Recovery Bridge Housing - June 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1192651_Cri-HelpInc.-RecoveryBridgeHousing-June2025.pdf`  ·  235.1 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | CR-HELP, INC. |
+| Invoice date | June 2023 |
+| Billed amount | — |
+| Deliverables | Recovery Bridge Housing (H0034) |
+| Confidence | medium |
+| Notes | Invoice date 'June 2023' was extracted from the document header, as no specific day was provided for ISO YYYY-MM-DD format and no dedicated 'Invoice Date' field exists. Billed amount is null as no grand total for the entire document was explicitly stated; only per-line item 'Total Charged' values are present. |
+
+## Beit Tshuvah - Recovery Bridge Housing - June 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1192650_BeitTshuvah-RecoveryBridgeHousing-June2025.pdf`  ·  225.3 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | BETT ToluVAHI |
+| Invoice date | — |
+| Billed amount | — |
+| Deliverables | Recovery Bridge Housing (RHSS34) |
+| Confidence | high |
+| Notes | invoice_date is null because no specific invoice generation date is present; 'June 2025' is identified as the service period. billed_amount is null because no grand total is explicitly stated on the document; only individual line-item charges are present. |
+
+## ERC - Jun 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1191467_ERC-Jun2025.pdf`  ·  261.8 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Brilliant Corners |
+| Invoice date | June 2025 |
+| Billed amount | — |
+| Deliverables | PNI - Personal Needs and Incidentals; ERC - Enhanced Services; BC Subsidy; ERC Rent Subsidy In Arrears |
+| Confidence | medium |
+| Notes | The vendor, Brilliant Corners, is identified in the overview as the entity from which the billing reconciliation documents are received by DMH. The invoice_date, 'June 2025', is taken from the document title, representing the billing period rather than a specific date. No single 'total billed amount' is explicitly stated on the document, so it is returned as null. Deliverables are extracted from the unique values in the 'Subsidy Type' column. |
+
+## Landmark Invoice May 2025 SNF-STP
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1202158_LandmarkInvoiceMay2025SNF-STP.pdf`  ·  1393.7 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Landmark Medical Services Inc. |
+| Invoice date | 2025-06-10 |
+| Billed amount | $614718.34 |
+| Deliverables | Category I - Access to Care; Category II - Physical Patch; Category III - Behavorial Patch; Category IV - Other; PATCHES; RETRO SOC 02.2025 |
+| Confidence | high |
+| Notes | Vendor name derived from 'MAKE CHECK PAYABLE TO' field on page 3, which is more explicit for billing, despite 'PROVIDER NAME Landmark Med Ctr' on page 1. 'invoice_date' is interpreted as the date of certification/finalization of the request (6/10/25) as no explicit 'invoice date' field exists, and the claim period is stated as 'May-25'. Deliverables are a combination of specific service categories from page 3 and other distinct line items ('PATCHES', 'RETRO SOC 02.2025'). The 'AMOUNT CLAIMED' on page 1 is understood to be the sum of the service categories from page 3, so the categories are listed instead of the umbrella 'AMOUNT CLAIMED'. |
+
+## The People Concern 4 - May 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201861_ThePeopleConcern4-May2025.pdf`  ·  1221.9 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | THE PEOPLE CONCERN |
+| Invoice date | 2025-06-25 |
+| Billed amount | $32369.10 |
+| Deliverables | Team Lead; Client Service Specialist; Facilities and Maintenance Engineer II; Safety and Engagement Specialist; EMPLOYEE BENEFITS; Client Support Funds; Program/Office Supplies; Staff Parking; Staff Local Mileage; General Liability Insurance; Facity Costs - Repair, Maintenance, Janitorial, rent and utilities; Telephone Services/Communications/Internet Services; IT Network, Equipment rental and Supplies; Administrative Overhead; Office Space; Equipment Lease/Copier Lease; Equipment/Furniture Purchase (One Time); IT Software and Set-up (One Time); Vehicle Lease (including One Time) |
+| Confidence | high |
+| Notes | — |
+
+## The People Concern 3 - May 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201860_ThePeopleConcern3-May2025.pdf`  ·  5326.6 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | The People Concern |
+| Invoice date | 2025-06-24 |
+| Billed amount | $53608.84 |
+| Deliverables | Personnel Costs (Salaries & Employee Benefits); Services & Supplies; Contractor/Vendor Services; Administrative Overhead/Costs; Other Costs Excluded from De Minimis Rate (Vehicle Lease) |
+| Confidence | high |
+| Notes | The billed_amount is explicitly stated as 'AMOUNT REQUESTED' on page 1, 'INVOICE AMOUNT' on page 2, and 'Total Current Month' on page 4 as 53,608.84. A 'Total Expense' of 53,952.92 is noted on page 5, but page 4 indicates this variance is 'due to rounding/unbillable exp', so the amount explicitly stated for the invoice was used. The invoice date 'DATE SUBMITTED' from page 1 was used. |
+
+## The People Concern - May 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201858_ThePeopleConcern-May2025.pdf`  ·  2399.0 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | The People Concern |
+| Invoice date | 2025-07-17 |
+| Billed amount | $252131.81 |
+| Deliverables | Salaries; Workers' Compensation; S.U.I.; Health Insurance; Fica / Medicare; 403b ER Match; Client Personal/Med. Exp.; Client Expense; Client Incentives; Professional Development; Client Exp-Food; Client Exp-Transportation; Client Exp-Move-In; Client Exp-Rental App Fees; Client Exp-Security Deposits; Client Exp-First Month'S Rent; Client Exp-Essential Furnishing; Client Exp-Rental Assistance; IT Supplies; Staff Parking; Consultant; Computer - Small Equip Purchase; Copier & Postage - Lease; Vehicle Leasing; Gas/Vehicles; Repairs & Maintenance Vehicles; Recruiting & Job Ads; Bank Charges; Subcontracts; Program Supplies; Office Supplies; Insurance - Liability; Repair & Maintenance; Rent Expense; Telephone / Internet; Mileage-Local; Training; Licenses & Fees; Administrative Overhead |
+| Confidence | high |
+| Notes | Invoice date extracted from 'DATE SUBMITTED'. Deliverables are derived from the 'Expense' line items listed in the 'Profit and Loss' section on page 5, which provides a consolidated summary of services/deliverables. |
+
+## The People Concern 2 - May 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201859_ThePeopleConcern2-May2025.pdf`  ·  1364.2 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | The People Concern |
+| Invoice date | 2025-07-15 |
+| Billed amount | $87056.88 |
+| Deliverables | Senior Director; Director; Assistant Director; Administrative Assistant; Program Manager; Mental Health Team Lead; Case Manager - Substance Use; Case Manager; Psychiatrist; EMPLOYEE BENEFITS @; Client Support Funds; Recruitment Placement Costs; Program Office Supplies; Staff Parking; Staff Mileage; Vehicle Costs - Insurance, Maintenance, Gas, etc.; General Liability Insurance; Training Related Costs (Fees, dues etc.); Telecommunications: Cellphone Services/telephone, Internet etc.; Facility Costs - Repair, maintenance, Janitorial, and utilities; Medical Supplies; Medical Subcontractor (Vendor) - LA Christian Health Centers; Administrative Overhead 10% - TPC (July-September); Administrative Overhead 15% for (OCT); Administrative Overhead 15%-TPC (November-June); Subcontractor (1); Subcontractor (2); Office furniture; Small Equipment - computer/laptops, printers etc.; IT Software and Set-up (One Time); Equipment/Furniture Purchase (One Time); Office Space; Equipment Lease; Vehicle Lease (including One Time) |
+| Confidence | high |
+| Notes | Invoice date extracted from the 'DATE SUBMITTED' field (F.8) on Page 1, as this indicates the submission date for this specific claim period. Deliverables were extracted as unique 'BUDGETED LINE ITEM' descriptions from the detailed expense breakdown on Page 2 of the Monthly Invoice. |
+
+## The Center in Hollywood - May 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201857_TheCenterinHollywood-May2025.pdf`  ·  292.3 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | The Center in Hollywood |
+| Invoice date | 2025-06-17 |
+| Billed amount | $35740.06 |
+| Deliverables | Program Manager, Clinical; Case Manager, ICMS; Generalist; Substance Use Specialist; Peer Advocate; Director of Programs; Clinical Director; Program Coordinator; Parking and Mileage; Training/Staff Development; Client Expenses; Program Supplies; Office Supplies and Expenses; Telephone/Communications; Professional/Liability Insurance; Medical Vendor; Administrative Overhead; Space Costs |
+| Confidence | high |
+| Notes | — |
+
+## St. Joseph Center - May 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201856_St.JosephCenter-May2025.pdf`  ·  2031.7 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | St. Joseph Center - SPA 5 |
+| Invoice date | 2025-06-13 |
+| Billed amount | $209516.49 |
+| Deliverables | Total Personnel; EMPLOYEE BENEFITS @ 21.75%; Client/Member Expenses; Equipment Lease, Maint/Repair; Training/Staff Development; Program/Office Supplies, Postage, Printing; Staff Mileage/Parking; Telephone/Communications/Utilities; Other Operating (Building, Security, etc.); General Liability and Harassment Insurance; Vehicle Maintenance & Insurance; Administrative Overhead; Office Space; Equipment Lease; Equipment/Furniture Purchase (One Time); Vehicle Lease (including One Time) |
+| Confidence | high |
+| Notes | The billed_amount on page 17 is stated as $209,516.48, while on pages 2 and 3, it is stated as $209,516.49. The amount from pages 2 and 3 (the Monthly Invoice form) was used as the primary value. The specific line item 'Purchasing Medical Supplies' and 'IT Software and Set-up (One Time)' from page 3 were omitted from deliverables as their 'EXPENDED THIS MONTH' value was $0.00. |
+
+## Special Services of Groups Inc. 2 - May 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201855_SpecialServicesofGroupsInc.2-May2025.pdf`  ·  2370.8 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Special Services for Groups, Inc. |
+| Invoice date | 2025-06-11 |
+| Billed amount | $110105.18 |
+| Deliverables | Program Manager; Program Supervisor; Data Specialist II; Lead Outreach Case Manager; Outreach Case Manager; Peer Case Manager; Mental Health Outreach; SUD Counselor; Outreach Nurse; Program Specialist; Fleet Coordinator; Client Support Services; Senior Manager for Mental Health; EMPLOYEE BENEFITS; Client/Member Expenses; Training/Staff Development; Program Supplies; Office Supplies, Postage; Staff Mileage/Parking; Telephone/Communications/Utilities; Vehicle Maintenance (Fuel, repairs, maintenance); Purchasing Ancillary Services; SUBCONTRACTORS (Maximum $25,000 per subcontractor); Administrative Overhead; SUBCONTRACTORS IN EXCESS OF $25,000; Office Space; Equipment Lease; Equipment/Furniture Purchase (One Time); IT Software and Set-up (One Time); Vehicle Lease (including One Time) |
+| Confidence | high |
+| Notes | — |
+
+## Exodus LA USC CRTP - Jun 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1195320_ExodusLAUSCCRTP-Jun2025.pdf`  ·  619.1 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | 19MK EXODUS CRTP AT LAC-USC |
+| Invoice date | — |
+| Billed amount | $328059.68 |
+| Deliverables | CRISIS RESIDENTIAL ADULT 18-64 NON-MC; GRP MEDS TRNG SUPRT GROUP NON-MC; 134 LIFE SUPPORT; MEDS TRNG SUPRT NON-MC; CRISIS RESIDENTIAL ADULT 18-64; GRP MEDS TRNG SUPRT GROUP; MED PLAN DEVELOPMENT AND RECORD REVIEW |
+| Confidence | high |
+| Notes | A single 'invoice_date' is not present as this document is a multi-page compilation of claims for the month of June 2025. The document states it is accurate as of September 15, 2025, but this refers to the data compilation date, not an invoice date. |
+
+## Special Services of Groups Inc. - May 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201854_SpecialServicesofGroupsInc.-May2025.pdf`  ·  3710.0 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Special Group for Groups - SPA 6 |
+| Invoice date | 2025-06-12 |
+| Billed amount | $430382.29 |
+| Deliverables | Personnel, FTE and Wages; Employee Benefits; Services & Supplies (Ongoing); Contractuals |
+| Confidence | high |
+| Notes | — |
+
+## Mental Health America of Los Angeles 2 - May 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201853_MentalHealthAmericaofLosAngeles2-May2025.pdf`  ·  2400.0 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Mental Health of America of Los Angeles (SPA 8) |
+| Invoice date | 2025-06-18 |
+| Billed amount | $239256.82 |
+| Deliverables | I. PERSONNEL; II. SERVICES & SUPPLIES (ONGOING); III. Consultants/Vendors; IV. SUBCONTRACTORS (Maximum $25,000 per subcontractor); V. ADMINISTRATIVE OVERHEAD/COSTS @ 15%; VII. OTHER COSTS EXCLUDED FROM DE MINMS RATE |
+| Confidence | high |
+| Notes | Invoice date inferred from 'DATE SUBMITTED' and consistent 'Total Billing for May 2025' and 'Wednesday, June 18, 2025' next to authorized signature, as no explicit 'Invoice Date' field was present. Deliverables are the main service categories from page 2 of the invoice. |
+
+## Mental Health America of Los Angeles - May 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201852_MentalHealthAmericaofLosAngeles-May2025.pdf`  ·  4374.1 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Mental Health America of Los Angeles SPA 8 |
+| Invoice date | 2025-06-18 |
+| Billed amount | $149627.62 |
+| Deliverables | ICMS + Street Based Engagement; I. PERSONNEL TITLE AND % FTE; II. SERVICES & SUPPLIES (ONGOING); IV. SUBCONTRACTORS; V. ADMINISTRATIVE OVERHEAD/COSTS; VII. OTHER COSTS EXCLUDED FROM DE MINIMIS RATE |
+| Confidence | high |
+| Notes | — |
