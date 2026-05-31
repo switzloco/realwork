@@ -27133,5 +27133,555 @@
     "confidence": "high",
     "extraction_notes": "Invoice date was determined from the authorization date 'Friday, December 1, 2023'. 'Recuperative Care' was chosen as the specific deliverable, as it is the program type directly tied to the calculated billed amount on page 2, rather than the broader 'Interim Housing -IHS' service category on page 1.",
     "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Weingart Center Association - Dec. 2023.pdf",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1159768_WeingartCenterAssociation-Dec.2023.pdf",
+    "vendor": "Weingart Center Association",
+    "invoice_date": "2023-12-15",
+    "billed_amount": 878199.0,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Stabilization"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "PATH Cares - Dec. 2023.pdf",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1159733_PATHCares-Dec.2023.pdf",
+    "vendor": "PATH Cares",
+    "invoice_date": "2023-12-04",
+    "billed_amount": 65472.0,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Stabilization"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "The People Concern (TPC) - Dec. 2023.pdf",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1159726_ThePeopleConcern_TPC_-Dec.2023.pdf",
+    "vendor": "The People Concern",
+    "invoice_date": "2023-12-01",
+    "billed_amount": 121620.75,
+    "deliverables": [
+      "Stabilization",
+      "Enhanced Services Beds (ESB)"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "JWCH Institute Inc. - Nov. 2023 (2).pdf",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1159804_JWCHInstituteInc.-Nov.2023_2_.pdf",
+    "vendor": "JWCH Institute Inc.",
+    "invoice_date": "2023-10-31",
+    "billed_amount": 246000.0,
+    "deliverables": [
+      "Recuperative Care"
+    ],
+    "confidence": "high",
+    "extraction_notes": "All fields clearly identified from the document.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Home At Last The Lotus - Nov. 2023.pdf",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1159797_HomeAtLastTheLotus-Nov.2023.pdf",
+    "vendor": "Home At Last The Lotus",
+    "invoice_date": "2023-11-06",
+    "billed_amount": 285600.0,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Stabilization"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "JWCH Institute Inc. - Nov. 2023 (1).pdf",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1159801_JWCHInstituteInc.-Nov.2023_1_.pdf",
+    "vendor": "JWCH Institute Inc.",
+    "invoice_date": "2023-10-31",
+    "billed_amount": 207450.0,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Recuperative Care"
+    ],
+    "confidence": "high",
+    "extraction_notes": "All requested fields were clearly stated on the document.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Union Station Homeless Services (USHS) - Nov. 2023.pdf",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1159792_UnionStationHomelessServices_USHS_-Nov.2023.pdf",
+    "vendor": "Union Station Homeless Services (USHS)",
+    "invoice_date": "2023-11-06",
+    "billed_amount": 39000.0,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Stabilization"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "SRO Housing - Nov. 2023.pdf",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1159788_SROHousing-Nov.2023.pdf",
+    "vendor": "SRO Housing",
+    "invoice_date": "2023-11-01",
+    "billed_amount": 111600.0,
+    "deliverables": [
+      "Stabilization"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Salvation Army (SAL) - Nov. 2023.pdf",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1159785_SalvationArmy_SAL_-Nov.2023.pdf",
+    "vendor": "Salvation Army (SAL)",
+    "invoice_date": "2023-10-31",
+    "billed_amount": 80640.0,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Stabilization"
+    ],
+    "confidence": "high",
+    "extraction_notes": "The invoice date is taken from the 'AUTHORIZED SIGNATURE' date. The 'DATE INVOICE RECEIVED' shows '11/2/2073', which appears to be a typo in the year and is a processing date, not the invoice creation date itself.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "National Health Foundation (NHF) - Nov. 2023.pdf",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1159783_NationalHealthFoundation_NHF_-Nov.2023.pdf",
+    "vendor": "National Health Foundation (NHF)",
+    "invoice_date": "2023-10-30",
+    "billed_amount": 147960.0,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Recuperative Care"
+    ],
+    "confidence": "high",
+    "extraction_notes": "The invoice date was determined from the date next to the authorized signature. All other requested values were clearly present in the document.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "LA Family Housing (LAFH) - Nov. 2023.pdf",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1159780_LAFamilyHousing_LAFH_-Nov.2023.pdf",
+    "vendor": "LA Family Housing (LAFH)",
+    "invoice_date": "2023-11-01",
+    "billed_amount": 144600.0,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Stabilization"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "First to Serve (FTS) - Nov. 2023.pdf",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1159777_FirsttoServe_FTS_-Nov.2023.pdf",
+    "vendor": "First to Serve (FTS)",
+    "invoice_date": "2023-11-01",
+    "billed_amount": 600060.0,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Stabilization services"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Exodus - Nov. 2023.pdf",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1159774_Exodus-Nov.2023.pdf",
+    "vendor": "Exodus",
+    "invoice_date": "2023-11-01",
+    "billed_amount": 243000.0,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Recuperative Care"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Illumination Foundation (IF) - Nov. 2023.pdf",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1159766_IlluminationFoundation_IF_-Nov.2023.pdf",
+    "vendor": "Illumination Foundation (IF)",
+    "invoice_date": "2023-11-01",
+    "billed_amount": 272160.0,
+    "deliverables": [
+      "Recuperative Care"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Exodus Recovery, Inc. - Nov. 2023.pdf",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1159772_ExodusRecovery_Inc.-Nov.2023.pdf",
+    "vendor": "Exodus Recovery, Inc.",
+    "invoice_date": "2023-07-12",
+    "billed_amount": 1217760.0,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Stabilization/Recuperative Care"
+    ],
+    "confidence": "high",
+    "extraction_notes": "Invoice date is derived from the 'prepared by' date, as a dedicated 'invoice date' field was not present. The stated claim period is Nov-2023.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Weingart Center Association - Nov. 2023.pdf",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1159769_WeingartCenterAssociation-Nov.2023.pdf",
+    "vendor": "Weingart Center Association",
+    "invoice_date": "2023-11-01",
+    "billed_amount": 916650.0,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Stabilization"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "PATH Cares - Nov. 2023.pdf",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1159734_PATHCares-Nov.2023.pdf",
+    "vendor": "PATH Cares",
+    "invoice_date": "2023-11-02",
+    "billed_amount": 63360.0,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Stabilization"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "The People Concern (TPC) - Nov. 2023.pdf",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1159725_ThePeopleConcern_TPC_-Nov.2023.pdf",
+    "vendor": "The People Concern (TPC)",
+    "invoice_date": "2023-11-01",
+    "billed_amount": 117697.5,
+    "deliverables": [
+      "Stabilization",
+      "Enhanced Services Beds (ESB)"
+    ],
+    "confidence": "high",
+    "extraction_notes": "Invoice date extracted from the date next to the Authorized Signature, which is consistent with the 'CLAIM PERIOD (MO./YR)' of Nov-2023 and the invoice number '11-2023'.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Weigart Center Association - IH - Oct 2023",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1186676_WeigartCenterAssoication-IH-Oct2023.pdf",
+    "vendor": "Weingart Center Association",
+    "invoice_date": "2023-10-05",
+    "billed_amount": 947205.0,
+    "deliverables": [
+      "Stabilization"
+    ],
+    "confidence": "high",
+    "extraction_notes": "Page 1's 'SERVICE CATEGORY' field was unreadable/blank. 'Stabilization' was extracted from the 'PROGRAM TYPE' column on page 2.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "The People Concern - IH - Oct 2023",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1186674_ThePeopleConcern-IH-Oct2023.pdf",
+    "vendor": "The People Concern (TPC)",
+    "invoice_date": "2023-10-04",
+    "billed_amount": 121620.75,
+    "deliverables": [
+      "Stabilization",
+      "Enhanced Services Beds (ESB)"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Union Station Homeless Services - IH - Oct 2023",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1186675_UnionStationHomessServices-IH-Oct2023.pdf",
+    "vendor": "Union Station Homeless Services (USHS)",
+    "invoice_date": "2023-10-02",
+    "billed_amount": 40300.0,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Stabilization"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "SRO Housing - IH - Oct 2023",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1186673_SROHousing-IH-Oct2023.pdf",
+    "vendor": "SRO Housing",
+    "invoice_date": "2023-10-02",
+    "billed_amount": 115320.0,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Stabilization"
+    ],
+    "confidence": "high",
+    "extraction_notes": "None.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "PATH Cares - IH - Oct 2023",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1186671_PATHCares-IH-Oct2023.pdf",
+    "vendor": "PATH Cares",
+    "invoice_date": "2023-10-01",
+    "billed_amount": 65472.0,
+    "deliverables": [
+      "Stabilization"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Salvation Army - IH - Oct 2023",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1186672_SalvationArmy-IH-Oct2023.pdf",
+    "vendor": "Salvation Army (SAL)",
+    "invoice_date": "2023-09-29",
+    "billed_amount": 83328.0,
+    "deliverables": [
+      "Stabilization"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "National Health Foundation - IH - Oct 2023",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1186670_NationalHealthFoundation-IH-Oct2023.pdf",
+    "vendor": "National Health Foundation (NHF)",
+    "invoice_date": "2023-10-02",
+    "billed_amount": 152892.0,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Recuperative Care"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "JWCH Institute 2 - IH - Oct 2023",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1186668_JWCHInstitute2-IH-Oct2023.pdf",
+    "vendor": "JWCH Institute Inc.",
+    "invoice_date": "2023-10-02",
+    "billed_amount": 214365.0,
+    "deliverables": [
+      "Recuperative Care"
+    ],
+    "confidence": "high",
+    "extraction_notes": "None",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "LAFH - IH - Oct 2023",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1186669_LAFH-IH-Oct2023.pdf",
+    "vendor": "LA Family Housing (LAFH)",
+    "invoice_date": "2023-10-01",
+    "billed_amount": 149420.0,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Stabilization"
+    ],
+    "confidence": "medium",
+    "extraction_notes": "Invoice date was determined from 'CLAIM PERIOD (MO./YR): Oct-2023'. The first day of the month was inferred to form the YYYY-MM-DD format. Deliverables combine the 'SERVICE CATEGORY' and unique 'PROGRAM TYPE' entries.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Illumination Foundation - IH - Oct 2023.pdf",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1186666_IlluminationFoundation-IH-Oct2023.pdf",
+    "vendor": "Illumination Foundation (IF)",
+    "invoice_date": "2023-10-03",
+    "billed_amount": 281232.0,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Recuperative Care"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "JWCH Institute - IH - Oct 2023",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1186667_JWCHInstitute-IH-Oct2023.pdf",
+    "vendor": "JWCH Institute Inc.",
+    "invoice_date": "2023-10-02",
+    "billed_amount": 254200.0,
+    "deliverables": [
+      "Recuperative Care"
+    ],
+    "confidence": "high",
+    "extraction_notes": "Invoice date chosen as the date of authorization/signature (Monday, October 2, 2023), as it is the most specific creation date on the document. The claim period is Oct-2023.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Exodus - IH - Oct 2023",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1186660_Exodus-IH-Oct2023.pdf",
+    "vendor": "Exodus",
+    "invoice_date": "2023-10-01",
+    "billed_amount": 251100.0,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Recuperative Care"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "JWCH Institute Inc. - Oct. 2023 (2).pdf",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1159805_JWCHInstituteInc.-Oct.2023_2_.pdf",
+    "vendor": "JWCH Institute Inc.",
+    "invoice_date": "2023-10-02",
+    "billed_amount": 254200.0,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Recuperative Care"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "JWCH Institute Inc. - Oct. 2023 (1).pdf",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1159802_JWCHInstituteInc.-Oct.2023_1_.pdf",
+    "vendor": "JWCH Institute Inc.",
+    "invoice_date": "2023-10-02",
+    "billed_amount": 214365.0,
+    "deliverables": [
+      "Recuperative Care"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Exodus Recovery Inc - IH - Oct 2023.pdf",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1186661_ExodusRecoveryInc-IH-Oct2023.pdf",
+    "vendor": "Exodus Recovery, Inc.",
+    "invoice_date": "2023-09-12",
+    "billed_amount": 1258352.0,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Stabilization/Recuperative Care"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Home At Last The Lotus - Oct. 2023.pdf",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1159798_HomeAtLastTheLotus-Oct.2023.pdf",
+    "vendor": "Home At Last The Lotus",
+    "invoice_date": "2023-10-02",
+    "billed_amount": 295120.0,
+    "deliverables": [
+      "Stabilization"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Union Station Homeless Services (USHS) - Oct. 2023.pdf",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1159793_UnionStationHomelessServices_USHS_-Oct.2023.pdf",
+    "vendor": "Union Station Homeless Services (USHS)",
+    "invoice_date": "2023-10-02",
+    "billed_amount": 40300.0,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Stabilization"
+    ],
+    "confidence": "high",
+    "extraction_notes": "Invoice date extracted from the 'DATE' field next to the authorized signature, which typically indicates the invoice creation date.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "SRO Housing - Oct. 2023.pdf",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1159789_SROHousing-Oct.2023.pdf",
+    "vendor": "SRO Housing",
+    "invoice_date": "2023-10-02",
+    "billed_amount": 115320.0,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Stabilization"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Salvation Army (SAL) - Oct. 2023.pdf",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1159786_SalvationArmy_SAL_-Oct.2023.pdf",
+    "vendor": "Salvation Army (SAL)",
+    "invoice_date": "2023-09-29",
+    "billed_amount": 83328.0,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Stabilization"
+    ],
+    "confidence": "high",
+    "extraction_notes": "The invoice date was taken from the date next to the Authorized Signature on page 1, as this represents the date the invoice was signed/issued. 'Interim Housing -IHS' from page 1 and 'Stabilization' from page 2 both describe the services provided and are included as deliverables.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "National Health Foundation (NHF) - Oct. 2023.pdf",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1159784_NationalHealthFoundation_NHF_-Oct.2023.pdf",
+    "vendor": "National Health Foundation (NHF)",
+    "invoice_date": "2023-10-02",
+    "billed_amount": 152892.0,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Recuperative Care"
+    ],
+    "confidence": "high",
+    "extraction_notes": "The invoice date was determined from the 'DATE' field next to the authorized signature (10/2/23), which is the most direct indication of the invoice creation date. Other dates present include the 'RECEIVED' stamp (Oct 04, 2023) and 'CLAIM PERIOD' (Oct-2023), but these refer to processing or period rather than the invoice date itself.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "LA Family Housing (LAFH) - Oct. 2023.pdf",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1159781_LAFamilyHousing_LAFH_-Oct.2023.pdf",
+    "vendor": "LA Family Housing (LAFH)",
+    "invoice_date": "2023-10-02",
+    "billed_amount": 149420.0,
+    "deliverables": [
+      "Stabilization",
+      "Stabilization"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Exodus - Oct. 2023.pdf",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1159775_Exodus-Oct.2023.pdf",
+    "vendor": "Exodus",
+    "invoice_date": "2023-10-01",
+    "billed_amount": 251100.0,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Recuperative Care"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
   }
 ]
