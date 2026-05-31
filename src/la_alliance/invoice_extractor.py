@@ -291,8 +291,24 @@ def run(dataset_url: str = "", manifest: str = "", pdf_dir: str = "",
     ok, failed = 0, 0
     budget_stop = False
 
+    ledger_path = OUT_DIR / "ledger.json"
+    existing_titles = set()
+    if ledger_path.exists():
+        try:
+            existing_data = json.loads(ledger_path.read_text())
+            for row in existing_data:
+                existing_titles.add(row.get("source_title"))
+                # Also restore them to the current run so we don't lose them on save
+                records.append(InvoiceRecord(**row))
+                ok += 1
+        except Exception as e:
+            print(f"Failed to load existing ledger: {e}")
+
     def process_doc(i, doc):
         title = doc.get("title", f"doc_{i}")
+        if title in existing_titles:
+            return i, title, None, None, "skipped_cached"
+
         try:
             pdf = fetch_pdf(doc, client)
         except BudgetExceeded as e:
@@ -320,7 +336,9 @@ def run(dataset_url: str = "", manifest: str = "", pdf_dir: str = "",
         for future in as_completed(futures):
             i, title, rec, pdf, err = future.result()
             if err:
-                if "Budget stop" in err:
+                if err == "skipped_cached":
+                    pass # Silently skip
+                elif "Budget stop" in err:
                     print(f"\n! {err}")
                     budget_stop = True
                 else:
@@ -338,6 +356,12 @@ def run(dataset_url: str = "", manifest: str = "", pdf_dir: str = "",
             amt = f"${rec.billed_amount:,.2f}" if rec.billed_amount else "?"
             print(f"  [{i}] {title[:45]:45} -> {rec.vendor or '?'} | {amt} | {rec.confidence}")
             ok += 1
+
+            # Intermittent save for live updates
+            if ok % 20 == 0:
+                ledger_path = OUT_DIR / "ledger.json"
+                ledger_path.write_text(json.dumps([r.model_dump() for r in records], indent=2))
+                _write_before_after(before_after)
 
     # write outputs
     # Sort records back into original order by sorting by source_title (or just letting them be unordered)
