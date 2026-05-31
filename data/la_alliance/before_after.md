@@ -785,6 +785,7 @@ Right: the normalized ledger row our agent extracted autonomously.
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
 ## Healthright 360 - Recovery Bridge Housing - Feb. 2024
 
@@ -4945,6 +4946,8 @@ Right: the normalized ledger row our agent extracted autonomously.
 | Deliverables | 46 Beds |
 | Confidence | high |
 | Notes | The invoice date was determined from the '9/11/24' date associated with signatures on page 1. Page 2 also shows '09-06-24' for a signature date, but the latest date on the main billing summary (page 1) was chosen as the invoice date. The deliverable '46 Beds' is explicitly stated as the line item on page 1. |
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======

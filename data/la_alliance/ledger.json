@@ -18773,6 +18773,7 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   },
   {
     "source_title": "Healthright 360 - Recovery Bridge Housing - Feb. 2024",
@@ -24263,6 +24264,8 @@
     "confidence": "high",
     "extraction_notes": "The invoice date was determined from the '9/11/24' date associated with signatures on page 1. Page 2 also shows '09-06-24' for a signature date, but the latest date on the main billing summary (page 1) was chosen as the invoice date. The deliverable '46 Beds' is explicitly stated as the line item on page 1.",
     "extractor": "gemini-2.5-flash"
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
