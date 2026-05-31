@@ -18770,6 +18770,7 @@
     "confidence": "high",
     "extraction_notes": "The document is a multi-page report detailing services, not a single invoice. The 'invoice_date' refers to the period the report covers and cannot be formatted as YYYY-MM-DD. Pages 3, 5, and 8 were not provided in the OCR transcriptions and therefore their data could not be extracted or included in the total billed amount. The billed amount is a summation of 'Total Charge' line items from the available OCR pages. Services span across February of 2024, 2023, and 2022, with daily rates of $55.00 in 2024 and $50.00 in 2023 and 2022.",
     "extractor": "gemini-2.5-flash"
+<<<<<<< Updated upstream
   },
   {
     "source_title": "Healthright 360 - Recovery Bridge Housing - Feb. 2024",
@@ -19311,5 +19312,7 @@
     "confidence": "medium",
     "extraction_notes": "The vendor name is stated on page 1 and page 8. The invoice date 'December 2023' is taken from the document title on page 8 as no specific ISO YYYY-MM-DD invoice date is present. The deliverables 'Recovery Bridge Housing (H2034)' are extracted from the 'Service Type' column on pages 8-14. The billed amount is calculated by counting the number of 'Recovery Bridge Housing (H2034)' service lines on pages 8-14 (total 289 lines) and multiplying by the unit charge of 55, which is consistently shown under 'Total Charge' on pages 15-21. The number of lines in the 'Total Charge' section (408 lines) is different from the number of service lines (289 lines), which reduces confidence in directly summing the 'Total Charge' column without explicit context linking it to the specific 'December 2023' services. The billed amount is derived from the explicit service entries and the explicit unit charge.",
     "extractor": "gemini-2.5-flash"
+=======
+>>>>>>> Stashed changes
   }
 ]
