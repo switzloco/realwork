@@ -6242,3 +6242,523 @@ Right: the normalized ledger row our agent extracted autonomously.
 | Deliverables | Salaries; Workers' Compensation; Health Insurance; Difference Card; Fica / Medicare; 403b ER Match; Client Personal/Med. Exp.; Client Expense; Incentives; Client Exp-Art Supplies&Expen; Client Exp-Food; Client Exp-Transportation; Client Exp-Hygiene Products; Client Exp-Essential Furnishing; Staff Parking; Subcontractor Expense; Contract Labor; Consultant; Vehicle Leasing; Gas/Oil/Repairs -Vehicles; Recruiting & Job Ads; Program Supplies; Office Supplies; Insurance/Liability; Repair & Maintenance; Storage & Other; Telephone / Internet; Utilities; Trash Removal Services; Staff Support; Employee Appreciation Fund; Administrative Overhead |
 | Confidence | high |
 | Notes | — |
+
+## The People Concern - FRAC - Oct. 2023.pdf
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1159845_ThePeopleConcern-FRAC-Oct.2023.pdf`  ·  270.9 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | THE PEOPLE CONCERN |
+| Invoice date | 2023-11-20 |
+| Billed amount | $30083.44 |
+| Deliverables | Wellness Coordinator; Lead Client Services Specialist; Client Service Specialist; Client Service Specialist; Facilities and Maintenance Engineer II; Safety and Engagement Specialist; EMPLOYEE BENEFITS @ 20%; Program/Office Supplies; Staff Parking; Staff Local Mileage; General Liability Insurance; Facility Costs- Repair, Maintenance, Janitorial, Rent and Utilities; Telephone Services/Communications/Internet Services; IT Network, Equipment rental and Supplies; Administrative Overhead |
+| Confidence | high |
+| Notes | The invoice date was taken from the 'DATE SUBMITTED' field (Page 1, Item 8) and confirmed by the 'AUTHORIZED SIGNATURE' date (Page 1, Item I). Deliverables are extracted as line items from the 'BUDGETED LINE ITEM' column on Page 2 with 'EXPENDED THIS MONTH' values. A minor discrepancy was noted for 'Staff Local Mileage' on Page 2 (66.16) versus no monthly cost on Page 3, and for the sum of components within 'Facility Costs- Repair, Maintenance, Janitorial, Rent and Utilities' on Page 3 compared to the single line item total on Page 2. However, the overall category totals on Page 2 sum correctly to the 'billed_amount'. |
+
+## NHF - Feb 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1187664_NHFFeb24.pdf`  ·  369.6 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | National Health Foundation (NHF) |
+| Invoice date | 2024-02-05 |
+| Billed amount | $143028.00 |
+| Deliverables | Interim Housing -IHS; Recuperative Care (NHF-Reno Motel) |
+| Confidence | high |
+| Notes | — |
+
+## HHH Rancho Los Amigos - Feb 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1187655_HHHRanchoLosAmigosFeb24.pdf`  ·  187.3 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Hollidays Helping Hands, Inc. |
+| Invoice date | 2024-02-01 |
+| Billed amount | $275500.00 |
+| Deliverables | Interim Housing -IHS; Recuperative Care |
+| Confidence | high |
+| Notes | — |
+
+## First To Serve - Feb 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1187651_FirstToServeFeb24.pdf`  ·  199.6 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | First to Serve (FTS) |
+| Invoice date | 2024-02-01 |
+| Billed amount | $580058.00 |
+| Deliverables | Interim Housing -IHS; Stabilization - First To Serve (FTS) - 32ND Street; Stabilization - First To Serve (FTS) - Coronado; Stabilization - First To Serve (FTS) - Mid-City; Stabilization - First To Serve (FTS) - Vernon |
+| Confidence | high |
+| Notes | — |
+
+## Whittier Area First Day Coalition - Jan. 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1162075_WhittierAreaFirstDayCoalition-Jan.2024.pdf`  ·  859.4 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Whittier Area First Day Coalition |
+| Invoice date | 2024-01-02 |
+| Billed amount | $200880.00 |
+| Deliverables | Interim Housing -IHS; Stabilization |
+| Confidence | high |
+| Notes | — |
+
+## Exodus Recovery Inc - Oct. 2023
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1159271_WO66Oct2023.pdf`  ·  525.9 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Exodus Recovery, Inc |
+| Invoice date | 11/10/13 |
+| Billed amount | $46867.16 |
+| Deliverables | ICMS - Street-Based Engagement; Program Manager; CM Housing -Team 1; CM SUD-Team; LVN, Team 1; RN, Team 2 Position is per diem (3 days a wk); Community Worker- Team 1; Program Support Staff - Team 1; Mental Health Clinician- Team 1; CM Housing-Team 2; Community Worker- Team 2; NP; MD; EMPLOYEE BENEFITS; Client Expenses; Equipment Lease; Office Supplies, Postage, Printing; Staff Mileage/Parking; Telephone/Communications/Utilities; Program Supplies; Liability Insurance; Vehicle Maintenance & Insurance; Vehicle (Lease); Office Space (Lease); Administrative Overhead/Costs @ 10% |
+| Confidence | medium |
+| Notes | The 'invoice_date' was extracted from 'DATE SUBMITTED' on Page 1 as '11/10/13'. This date appears outdated given the 'AGENCY INVOICE NO.' (10-2023-WO#66) and 'CLAIM PERIOD' (Oct-23), suggesting a billing period of October 2023. Other dates present include 'DATE INVOICE RECEIVED: 11/29/2023' and a report generation date '11/09/23 Accrual Basis' on Page 4. Following the instruction to extract 'as printed' if an ISO format is not determinable from an explicit 'invoice date', the 'DATE SUBMITTED' was used, despite the discrepancy. |
+
+## Union Station Homeless Services (USHS) - Jan. 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1162073_UnionStationHomelessServices_USHS_-Jan.2024.pdf`  ·  117.6 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Union Station Homeless Services (USHS) |
+| Invoice date | 2024-01-01 |
+| Billed amount | $40300.00 |
+| Deliverables | Stabilization |
+| Confidence | high |
+| Notes | Invoice date inferred from 'DATE' next to authorized signature. Deliverable 'Stabilization' is taken from the program type line item with corresponding amount breakdown. |
+
+## The People Concern (TPC) - Jan. 2024 (2)
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1162072_ThePeopleConcern_TPC_-Jan.2024_2_.pdf`  ·  260.0 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | The People Concern (TPC) |
+| Invoice date | 2024-01-02 |
+| Billed amount | $218448.32 |
+| Deliverables | Interim Housing -IHS; Recuperative Care |
+| Confidence | high |
+| Notes | — |
+
+## The People Concern (TPC) - Jan. 2024 (1)
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1162071_ThePeopleConcern_TPC_-Jan.2024_1_.pdf`  ·  260.0 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | The People Concern (TPC) |
+| Invoice date | 2024-01-02 |
+| Billed amount | $121620.75 |
+| Deliverables | Stabilization; Enhanced Services Beds (ESB) |
+| Confidence | high |
+| Notes | — |
+
+## Weingart Center Association, Inc. - Jan. 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1162074_WeingartCenterAssociation_Inc.-Jan.2024.pdf`  ·  2929.7 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Weingart Center Association, Inc. |
+| Invoice date | 2024-03-22 |
+| Billed amount | $1762.79 |
+| Deliverables | IHS - Interim Housing Services; Interim Housing Services - Stabilization Services; Start-up/FFE cost |
+| Confidence | high |
+| Notes | Invoice date extracted from 'DATE SUBMITTED' on Page 1. The 'CLAIM PERIOD' refers to the period of service (January 2024), not the invoice submission date. The billed amount is clearly stated on Page 1 as 'AMOUNT REQUESTED' and confirmed on Page 2 as 'INVOICE AMOUNT' for 'EXPENDED THIS MONTH'. Deliverables include the general service category, specific type of service, and the line-item cost that constitutes the billed amount for the month. Pages 3 and 4 detail general ledger activities, but their grand total does not match the 'billed_amount' on the main invoice pages (1 and 2), so they were not used for the specific deliverables of this invoice amount. |
+
+## SRO Housing - Jan. 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1162070_SROHousing-Jan.2024.pdf`  ·  289.4 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | SRO Housing |
+| Invoice date | 2024-01-02 |
+| Billed amount | $115320.00 |
+| Deliverables | Stabilization |
+| Confidence | high |
+| Notes | — |
+
+## Serenity Recuperative Care Inc - Jan. 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1162068_SerenityRecuperativeCareInc-Jan.2024.pdf`  ·  124.6 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Serenity Recuperative Care Inc |
+| Invoice date | 2024-01-02 |
+| Billed amount | $81840.00 |
+| Deliverables | Stabilization |
+| Confidence | high |
+| Notes | — |
+
+## San Fernando Valley Community Health Center (SFVCMHC) - Jan. 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1162066_SanFernandoValleyCommunityHealthCenter_SFVCMHC_-Jan.2024.pdf`  ·  167.5 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | San Fernando Valley Community Health Center (SFVCMHC) |
+| Invoice date | 2024-01-10 |
+| Billed amount | $117800.00 |
+| Deliverables | Interim Housing -IHS; Stabilization |
+| Confidence | high |
+| Notes | — |
+
+## Serenity Recuperative Care (SRC) - Jan. 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1162067_SerenityRecuperativeCare_SRC_-Jan.2024.pdf`  ·  125.7 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Serenity Recuperative Care (SRC) |
+| Invoice date | 2024-01-02 |
+| Billed amount | $477679.00 |
+| Deliverables | Interim Housing -IHS - Stabilization |
+| Confidence | high |
+| Notes | — |
+
+## Salvation Army (SAL) - Jan. 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1162065_SalvationArmy_SAL_-Jan.2024.pdf`  ·  925.8 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Salvation Army (SAL) |
+| Invoice date | 2023-12-29 |
+| Billed amount | $83328.00 |
+| Deliverables | Interim Housing -IHS; Stabilization |
+| Confidence | high |
+| Notes | — |
+
+## PATH Cares - Jan. 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1162064_PATHCares-Jan.2024.pdf`  ·  136.3 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | PATH Cares |
+| Invoice date | 2024-01-09 |
+| Billed amount | $65472.00 |
+| Deliverables | Interim Housing -IHS; Stabilization |
+| Confidence | high |
+| Notes | — |
+
+## National Health Foundation (NHF) - Jan. 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1162063_NationalHealthFoundation_NHF_-Jan.2024.pdf`  ·  370.2 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | National Health Foundation (NHF) |
+| Invoice date | 2023-12-18 |
+| Billed amount | $152892.00 |
+| Deliverables | Interim Housing -IHS; Recuperative Care |
+| Confidence | high |
+| Notes | — |
+
+## LA Family Housing (LAFH) - Jan. 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1162062_LAFamilyHousing_LAFH_-Jan.2024.pdf`  ·  614.9 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | LA Family Housing (LAFH) |
+| Invoice date | 2024-01-08 |
+| Billed amount | $149420.00 |
+| Deliverables | Stabilization; Stabilization |
+| Confidence | high |
+| Notes | — |
+
+## JWCH Institute Inc. - Jan. 2024 (3)
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1162060_JWCHInstituteInc.-Jan.2024_3_.pdf`  ·  330.6 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | JWCH Institute Inc. |
+| Invoice date | 2023-01-02 |
+| Billed amount | $254200.00 |
+| Deliverables | Interim Housing - IHS; Recuperative Care |
+| Confidence | high |
+| Notes | — |
+
+## JWCH Institute Inc. - Jan. 2024 (2)
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1162059_JWCHInstituteInc.-Jan.2024_2_.pdf`  ·  330.6 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | JWCH Institute Inc. |
+| Invoice date | 2024-01-02 |
+| Billed amount | $594518.00 |
+| Deliverables | Interim Housing -IHS; Recuperative Care |
+| Confidence | high |
+| Notes | — |
+
+## JWCH Institute Inc. - Jan. 2024 (1)
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1162058_JWCHInstituteInc.-Jan.2024_1_.pdf`  ·  330.4 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | JWCH Institute Inc. |
+| Invoice date | 2024-01-02 |
+| Billed amount | $214365.00 |
+| Deliverables | Interim Housing -IHS; Recuperative Care |
+| Confidence | high |
+| Notes | — |
+
+## Illumination Foundation (IF) - Jan. 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1162057_IlluminationFoundation_IF_-Jan.2024.pdf`  ·  135.1 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Illumination Foundation (IF) |
+| Invoice date | 2024-01-03 |
+| Billed amount | $281232.00 |
+| Deliverables | Recuperative Care |
+| Confidence | high |
+| Notes | — |
+
+## Hollidays Helping Hands, Inc. - Jan. 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1162055_HollidaysHelpingHands_Inc.-Jan.2024.pdf`  ·  136.0 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Hollidays Helping Hands, Inc. |
+| Invoice date | 2024-01-02 |
+| Billed amount | $294500.00 |
+| Deliverables | Recuperative Care |
+| Confidence | high |
+| Notes | — |
+
+## Home At Last The Lotus - Jan. 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1162056_HomeAtLastTheLotus-Jan.2024.pdf`  ·  168.5 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Home At Last The Lotus |
+| Invoice date | 2024-01-08 |
+| Billed amount | $295120.00 |
+| Deliverables | Interim Housing -IHS; Stabilization |
+| Confidence | high |
+| Notes | Invoice date derived from the signature date of the preparer (Josef Adran), which is the most specific date on the document related to its creation/attestation. 'Interim Housing -IHS' is from 'SERVICE CATEGORY' and 'Stabilization' is from 'PROGRAM TYPE', both representing deliverables. |
+
+## Hollidays Helping Hands (HHH) - Jan. 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1162054_HollidaysHelpingHands_HHH_-Jan.2024.pdf`  ·  136.3 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Hollidays Helping Hands (HHH) |
+| Invoice date | 2024-01-02 |
+| Billed amount | $275032.00 |
+| Deliverables | Interim Housing - IHS; Stabilization (53 units @ $104 for 31 days); Stabilization (20 units @ $168 for 31 days) |
+| Confidence | high |
+| Notes | — |
+
+## Harbor Interfaith Services - Jan. 2024 (2)
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1162053_HarborInterfaithServices-Jan.2024_2_.pdf`  ·  474.2 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Harbor Interfaith Services |
+| Invoice date | 2024-01-02 |
+| Billed amount | $100440.00 |
+| Deliverables | Interim Housing -IHS; Stabilization |
+| Confidence | high |
+| Notes | — |
+
+## Harbor Interfaith Services - Jan. 2024 (1)
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1162052_HarborInterfaithServices-Jan.2024_1_.pdf`  ·  470.3 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Harbor Interfaith Services |
+| Invoice date | 2024-01-02 |
+| Billed amount | $72285.80 |
+| Deliverables | Stabilization |
+| Confidence | high |
+| Notes | — |
+
+## First to Serve (FTS) - Jan. 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1162051_FirsttoServe_FTS_-Jan.2024.pdf`  ·  112.6 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | First to Serve (FTS) |
+| Invoice date | 2024-01-01 |
+| Billed amount | $620062.00 |
+| Deliverables | Interim Housing -IHS; Stabilization Services |
+| Confidence | high |
+| Notes | Invoice date derived from the date next to the Authorized Signature, which is 'Monday, January 1, 2024'. |
+
+## Exodus Recovery, Inc. - Jan. 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1162050_ExodusRecovery_Inc.-Jan.2024.pdf`  ·  483.0 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Exodus Recovery, Inc. |
+| Invoice date | 2023-12-07 |
+| Billed amount | $1258352.00 |
+| Deliverables | Interim Housing -IHS; Stabilzation/Recuperative Care |
+| Confidence | high |
+| Notes | — |
+
+## Exodus - Jan. 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1162048_Exodus-Jan.2024.pdf`  ·  119.7 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Exodus |
+| Invoice date | 2024-01-03 |
+| Billed amount | $251100.00 |
+| Deliverables | Recuperative Care |
+| Confidence | high |
+| Notes | — |
+
+## JWCH Institute Inc. - Dec. 2023 (2).pdf
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1159803_JWCHInstituteInc.-Dec.2023_2_.pdf`  ·  2317.7 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | JWCH Institute Inc. |
+| Invoice date | 2023-12-01 |
+| Billed amount | $254200.00 |
+| Deliverables | Interim Housing -IHS; Recuperative Care |
+| Confidence | high |
+| Notes | Invoice date extracted from the 'AUTHORIZED SIGNATURE' date, which matches the claim period. |
+
+## Home At Last The Lotus - Dec. 2023.pdf
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1159796_HomeAtLastTheLotus-Dec.2023.pdf`  ·  153.3 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Home At Last The Lotus |
+| Invoice date | 2023-11-30 |
+| Billed amount | $295120.00 |
+| Deliverables | Interim Housing -IHS; Stabilization |
+| Confidence | high |
+| Notes | — |
+
+## JWCH Institute Inc. - Dec. 2023 (1).pdf
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1159800_JWCHInstituteInc.-Dec.2023_1_.pdf`  ·  2173.6 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | JWCH Institute Inc. |
+| Invoice date | 2023-12-01 |
+| Billed amount | $214365.00 |
+| Deliverables | Recuperative Care - JWCH-Enhanced Services Program (ESP) |
+| Confidence | high |
+| Notes | — |
+
+## SRO Housing - Dec. 2023.pdf
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1159787_SROHousing-Dec.2023.pdf`  ·  268.4 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | SRO Housing |
+| Invoice date | 2023-12-01 |
+| Billed amount | $115320.00 |
+| Deliverables | Interim Housing -IHS; Stabilization |
+| Confidence | high |
+| Notes | Invoice date extracted from the date associated with the authorized signature, as no explicit 'invoice date' field was present. Deliverables include both the 'Service Category' and the more specific 'Program Type' detailed in the invoice table. |
+
+## Union Station Homeless Services (USHS) - Dec. 2023.pdf
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1159791_UnionStationHomelessServices_USHS_-Dec.2023.pdf`  ·  398.6 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Union Station Homeless Services (USHS) |
+| Invoice date | 2023-12-12 |
+| Billed amount | $40300.00 |
+| Deliverables | Interim Housing -IHS; Stabilization |
+| Confidence | high |
+| Notes | The invoice date was derived from the authorized signature date and the invoice received date, which aligns with the stated claim period. |
+
+## National Health Foundation (NHF) - Dec. 2023.pdf
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1159782_NationalHealthFoundation_NHF_-Dec.2023.pdf`  ·  1366.0 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | National Health Foundation (NHF) |
+| Invoice date | 2023-11-28 |
+| Billed amount | $152892.00 |
+| Deliverables | Interim Housing -IHS; Recuperative Care |
+| Confidence | high |
+| Notes | — |
+
+## Exodus Recovery, Inc. - Dec. 2023.pdf
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1159771_ExodusRecovery_Inc.-Dec.2023.pdf`  ·  102.3 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Exodus Recovery, Inc. |
+| Invoice date | 2023-11-09 |
+| Billed amount | $1258352.00 |
+| Deliverables | Interim Housing -IHS (Stabilization/Recuperative Care) |
+| Confidence | high |
+| Notes | — |
+
+## LA Family Housing (LAFH) - Dec. 2023.pdf
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1159779_LAFamilyHousing_LAFH_-Dec.2023.pdf`  ·  194.4 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | LA Family Housing (LAFH) |
+| Invoice date | Dec-2023 |
+| Billed amount | $149420.00 |
+| Deliverables | Interim Housing -IHS; Stabilization |
+| Confidence | high |
+| Notes | Invoice date is stated as a month and year (Dec-2023) without a specific day. |
+
+## First to Serve (FTS) - Dec. 2023.pdf
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1159776_FirsttoServe_FTS_-Dec.2023.pdf`  ·  136.7 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | First to Serve (FTS) |
+| Invoice date | 2023-12-01 |
+| Billed amount | $620062.00 |
+| Deliverables | Stabilization |
+| Confidence | high |
+| Notes | — |
+
+## Illumination Foundation (IF) - Dec. 2023.pdf
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1159765_IlluminationFoundation_IF_-Dec.2023.pdf`  ·  137.7 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Illumination Foundation (IF) |
+| Invoice date | 2023-12-01 |
+| Billed amount | $281232.00 |
+| Deliverables | Recuperative Care |
+| Confidence | high |
+| Notes | Invoice date was determined from the authorization date 'Friday, December 1, 2023'. 'Recuperative Care' was chosen as the specific deliverable, as it is the program type directly tied to the calculated billed amount on page 2, rather than the broader 'Interim Housing -IHS' service category on page 1. |

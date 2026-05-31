@@ -26544,5 +26544,594 @@
     "confidence": "high",
     "extraction_notes": "",
     "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "The People Concern - FRAC - Oct. 2023.pdf",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1159845_ThePeopleConcern-FRAC-Oct.2023.pdf",
+    "vendor": "THE PEOPLE CONCERN",
+    "invoice_date": "2023-11-20",
+    "billed_amount": 30083.44,
+    "deliverables": [
+      "Wellness Coordinator",
+      "Lead Client Services Specialist",
+      "Client Service Specialist",
+      "Client Service Specialist",
+      "Facilities and Maintenance Engineer II",
+      "Safety and Engagement Specialist",
+      "EMPLOYEE BENEFITS @ 20%",
+      "Program/Office Supplies",
+      "Staff Parking",
+      "Staff Local Mileage",
+      "General Liability Insurance",
+      "Facility Costs- Repair, Maintenance, Janitorial, Rent and Utilities",
+      "Telephone Services/Communications/Internet Services",
+      "IT Network, Equipment rental and Supplies",
+      "Administrative Overhead"
+    ],
+    "confidence": "high",
+    "extraction_notes": "The invoice date was taken from the 'DATE SUBMITTED' field (Page 1, Item 8) and confirmed by the 'AUTHORIZED SIGNATURE' date (Page 1, Item I). Deliverables are extracted as line items from the 'BUDGETED LINE ITEM' column on Page 2 with 'EXPENDED THIS MONTH' values. A minor discrepancy was noted for 'Staff Local Mileage' on Page 2 (66.16) versus no monthly cost on Page 3, and for the sum of components within 'Facility Costs- Repair, Maintenance, Janitorial, Rent and Utilities' on Page 3 compared to the single line item total on Page 2. However, the overall category totals on Page 2 sum correctly to the 'billed_amount'.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "NHF - Feb 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1187664_NHFFeb24.pdf",
+    "vendor": "National Health Foundation (NHF)",
+    "invoice_date": "2024-02-05",
+    "billed_amount": 143028.0,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Recuperative Care (NHF-Reno Motel)"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "HHH Rancho Los Amigos - Feb 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1187655_HHHRanchoLosAmigosFeb24.pdf",
+    "vendor": "Hollidays Helping Hands, Inc.",
+    "invoice_date": "2024-02-01",
+    "billed_amount": 275500.0,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Recuperative Care"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "First To Serve - Feb 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1187651_FirstToServeFeb24.pdf",
+    "vendor": "First to Serve (FTS)",
+    "invoice_date": "2024-02-01",
+    "billed_amount": 580058.0,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Stabilization - First To Serve (FTS) - 32ND Street",
+      "Stabilization - First To Serve (FTS) - Coronado",
+      "Stabilization - First To Serve (FTS) - Mid-City",
+      "Stabilization - First To Serve (FTS) - Vernon"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Whittier Area First Day Coalition - Jan. 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1162075_WhittierAreaFirstDayCoalition-Jan.2024.pdf",
+    "vendor": "Whittier Area First Day Coalition",
+    "invoice_date": "2024-01-02",
+    "billed_amount": 200880.0,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Stabilization"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Exodus Recovery Inc - Oct. 2023",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1159271_WO66Oct2023.pdf",
+    "vendor": "Exodus Recovery, Inc",
+    "invoice_date": "11/10/13",
+    "billed_amount": 46867.16,
+    "deliverables": [
+      "ICMS - Street-Based Engagement",
+      "Program Manager",
+      "CM Housing -Team 1",
+      "CM SUD-Team",
+      "LVN, Team 1",
+      "RN, Team 2 Position is per diem (3 days a wk)",
+      "Community Worker- Team 1",
+      "Program Support Staff - Team 1",
+      "Mental Health Clinician- Team 1",
+      "CM Housing-Team 2",
+      "Community Worker- Team 2",
+      "NP",
+      "MD",
+      "EMPLOYEE BENEFITS",
+      "Client Expenses",
+      "Equipment Lease",
+      "Office Supplies, Postage, Printing",
+      "Staff Mileage/Parking",
+      "Telephone/Communications/Utilities",
+      "Program Supplies",
+      "Liability Insurance",
+      "Vehicle Maintenance & Insurance",
+      "Vehicle (Lease)",
+      "Office Space (Lease)",
+      "Administrative Overhead/Costs @ 10%"
+    ],
+    "confidence": "medium",
+    "extraction_notes": "The 'invoice_date' was extracted from 'DATE SUBMITTED' on Page 1 as '11/10/13'. This date appears outdated given the 'AGENCY INVOICE NO.' (10-2023-WO#66) and 'CLAIM PERIOD' (Oct-23), suggesting a billing period of October 2023. Other dates present include 'DATE INVOICE RECEIVED: 11/29/2023' and a report generation date '11/09/23 Accrual Basis' on Page 4. Following the instruction to extract 'as printed' if an ISO format is not determinable from an explicit 'invoice date', the 'DATE SUBMITTED' was used, despite the discrepancy.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Union Station Homeless Services (USHS) - Jan. 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1162073_UnionStationHomelessServices_USHS_-Jan.2024.pdf",
+    "vendor": "Union Station Homeless Services (USHS)",
+    "invoice_date": "2024-01-01",
+    "billed_amount": 40300.0,
+    "deliverables": [
+      "Stabilization"
+    ],
+    "confidence": "high",
+    "extraction_notes": "Invoice date inferred from 'DATE' next to authorized signature. Deliverable 'Stabilization' is taken from the program type line item with corresponding amount breakdown.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "The People Concern (TPC) - Jan. 2024 (2)",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1162072_ThePeopleConcern_TPC_-Jan.2024_2_.pdf",
+    "vendor": "The People Concern (TPC)",
+    "invoice_date": "2024-01-02",
+    "billed_amount": 218448.32,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Recuperative Care"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "The People Concern (TPC) - Jan. 2024 (1)",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1162071_ThePeopleConcern_TPC_-Jan.2024_1_.pdf",
+    "vendor": "The People Concern (TPC)",
+    "invoice_date": "2024-01-02",
+    "billed_amount": 121620.75,
+    "deliverables": [
+      "Stabilization",
+      "Enhanced Services Beds (ESB)"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Weingart Center Association, Inc. - Jan. 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1162074_WeingartCenterAssociation_Inc.-Jan.2024.pdf",
+    "vendor": "Weingart Center Association, Inc.",
+    "invoice_date": "2024-03-22",
+    "billed_amount": 1762.79,
+    "deliverables": [
+      "IHS - Interim Housing Services",
+      "Interim Housing Services - Stabilization Services",
+      "Start-up/FFE cost"
+    ],
+    "confidence": "high",
+    "extraction_notes": "Invoice date extracted from 'DATE SUBMITTED' on Page 1. The 'CLAIM PERIOD' refers to the period of service (January 2024), not the invoice submission date. The billed amount is clearly stated on Page 1 as 'AMOUNT REQUESTED' and confirmed on Page 2 as 'INVOICE AMOUNT' for 'EXPENDED THIS MONTH'. Deliverables include the general service category, specific type of service, and the line-item cost that constitutes the billed amount for the month. Pages 3 and 4 detail general ledger activities, but their grand total does not match the 'billed_amount' on the main invoice pages (1 and 2), so they were not used for the specific deliverables of this invoice amount.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "SRO Housing - Jan. 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1162070_SROHousing-Jan.2024.pdf",
+    "vendor": "SRO Housing",
+    "invoice_date": "2024-01-02",
+    "billed_amount": 115320.0,
+    "deliverables": [
+      "Stabilization"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Serenity Recuperative Care Inc - Jan. 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1162068_SerenityRecuperativeCareInc-Jan.2024.pdf",
+    "vendor": "Serenity Recuperative Care Inc",
+    "invoice_date": "2024-01-02",
+    "billed_amount": 81840.0,
+    "deliverables": [
+      "Stabilization"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "San Fernando Valley Community Health Center (SFVCMHC) - Jan. 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1162066_SanFernandoValleyCommunityHealthCenter_SFVCMHC_-Jan.2024.pdf",
+    "vendor": "San Fernando Valley Community Health Center (SFVCMHC)",
+    "invoice_date": "2024-01-10",
+    "billed_amount": 117800.0,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Stabilization"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Serenity Recuperative Care (SRC) - Jan. 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1162067_SerenityRecuperativeCare_SRC_-Jan.2024.pdf",
+    "vendor": "Serenity Recuperative Care (SRC)",
+    "invoice_date": "2024-01-02",
+    "billed_amount": 477679.0,
+    "deliverables": [
+      "Interim Housing -IHS - Stabilization"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Salvation Army (SAL) - Jan. 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1162065_SalvationArmy_SAL_-Jan.2024.pdf",
+    "vendor": "Salvation Army (SAL)",
+    "invoice_date": "2023-12-29",
+    "billed_amount": 83328.0,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Stabilization"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "PATH Cares - Jan. 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1162064_PATHCares-Jan.2024.pdf",
+    "vendor": "PATH Cares",
+    "invoice_date": "2024-01-09",
+    "billed_amount": 65472.0,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Stabilization"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "National Health Foundation (NHF) - Jan. 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1162063_NationalHealthFoundation_NHF_-Jan.2024.pdf",
+    "vendor": "National Health Foundation (NHF)",
+    "invoice_date": "2023-12-18",
+    "billed_amount": 152892.0,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Recuperative Care"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "LA Family Housing (LAFH) - Jan. 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1162062_LAFamilyHousing_LAFH_-Jan.2024.pdf",
+    "vendor": "LA Family Housing (LAFH)",
+    "invoice_date": "2024-01-08",
+    "billed_amount": 149420.0,
+    "deliverables": [
+      "Stabilization",
+      "Stabilization"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "JWCH Institute Inc. - Jan. 2024 (3)",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1162060_JWCHInstituteInc.-Jan.2024_3_.pdf",
+    "vendor": "JWCH Institute Inc.",
+    "invoice_date": "2023-01-02",
+    "billed_amount": 254200.0,
+    "deliverables": [
+      "Interim Housing - IHS",
+      "Recuperative Care"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "JWCH Institute Inc. - Jan. 2024 (2)",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1162059_JWCHInstituteInc.-Jan.2024_2_.pdf",
+    "vendor": "JWCH Institute Inc.",
+    "invoice_date": "2024-01-02",
+    "billed_amount": 594518.0,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Recuperative Care"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "JWCH Institute Inc. - Jan. 2024 (1)",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1162058_JWCHInstituteInc.-Jan.2024_1_.pdf",
+    "vendor": "JWCH Institute Inc.",
+    "invoice_date": "2024-01-02",
+    "billed_amount": 214365.0,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Recuperative Care"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Illumination Foundation (IF) - Jan. 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1162057_IlluminationFoundation_IF_-Jan.2024.pdf",
+    "vendor": "Illumination Foundation (IF)",
+    "invoice_date": "2024-01-03",
+    "billed_amount": 281232.0,
+    "deliverables": [
+      "Recuperative Care"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Hollidays Helping Hands, Inc. - Jan. 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1162055_HollidaysHelpingHands_Inc.-Jan.2024.pdf",
+    "vendor": "Hollidays Helping Hands, Inc.",
+    "invoice_date": "2024-01-02",
+    "billed_amount": 294500.0,
+    "deliverables": [
+      "Recuperative Care"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Home At Last The Lotus - Jan. 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1162056_HomeAtLastTheLotus-Jan.2024.pdf",
+    "vendor": "Home At Last The Lotus",
+    "invoice_date": "2024-01-08",
+    "billed_amount": 295120.0,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Stabilization"
+    ],
+    "confidence": "high",
+    "extraction_notes": "Invoice date derived from the signature date of the preparer (Josef Adran), which is the most specific date on the document related to its creation/attestation. 'Interim Housing -IHS' is from 'SERVICE CATEGORY' and 'Stabilization' is from 'PROGRAM TYPE', both representing deliverables.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Hollidays Helping Hands (HHH) - Jan. 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1162054_HollidaysHelpingHands_HHH_-Jan.2024.pdf",
+    "vendor": "Hollidays Helping Hands (HHH)",
+    "invoice_date": "2024-01-02",
+    "billed_amount": 275032.0,
+    "deliverables": [
+      "Interim Housing - IHS",
+      "Stabilization (53 units @ $104 for 31 days)",
+      "Stabilization (20 units @ $168 for 31 days)"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Harbor Interfaith Services - Jan. 2024 (2)",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1162053_HarborInterfaithServices-Jan.2024_2_.pdf",
+    "vendor": "Harbor Interfaith Services",
+    "invoice_date": "2024-01-02",
+    "billed_amount": 100440.0,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Stabilization"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Harbor Interfaith Services - Jan. 2024 (1)",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1162052_HarborInterfaithServices-Jan.2024_1_.pdf",
+    "vendor": "Harbor Interfaith Services",
+    "invoice_date": "2024-01-02",
+    "billed_amount": 72285.8,
+    "deliverables": [
+      "Stabilization"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "First to Serve (FTS) - Jan. 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1162051_FirsttoServe_FTS_-Jan.2024.pdf",
+    "vendor": "First to Serve (FTS)",
+    "invoice_date": "2024-01-01",
+    "billed_amount": 620062.0,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Stabilization Services"
+    ],
+    "confidence": "high",
+    "extraction_notes": "Invoice date derived from the date next to the Authorized Signature, which is 'Monday, January 1, 2024'.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Exodus Recovery, Inc. - Jan. 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1162050_ExodusRecovery_Inc.-Jan.2024.pdf",
+    "vendor": "Exodus Recovery, Inc.",
+    "invoice_date": "2023-12-07",
+    "billed_amount": 1258352.0,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Stabilzation/Recuperative Care"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Exodus - Jan. 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1162048_Exodus-Jan.2024.pdf",
+    "vendor": "Exodus",
+    "invoice_date": "2024-01-03",
+    "billed_amount": 251100.0,
+    "deliverables": [
+      "Recuperative Care"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "JWCH Institute Inc. - Dec. 2023 (2).pdf",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1159803_JWCHInstituteInc.-Dec.2023_2_.pdf",
+    "vendor": "JWCH Institute Inc.",
+    "invoice_date": "2023-12-01",
+    "billed_amount": 254200.0,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Recuperative Care"
+    ],
+    "confidence": "high",
+    "extraction_notes": "Invoice date extracted from the 'AUTHORIZED SIGNATURE' date, which matches the claim period.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Home At Last The Lotus - Dec. 2023.pdf",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1159796_HomeAtLastTheLotus-Dec.2023.pdf",
+    "vendor": "Home At Last The Lotus",
+    "invoice_date": "2023-11-30",
+    "billed_amount": 295120.0,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Stabilization"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "JWCH Institute Inc. - Dec. 2023 (1).pdf",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1159800_JWCHInstituteInc.-Dec.2023_1_.pdf",
+    "vendor": "JWCH Institute Inc.",
+    "invoice_date": "2023-12-01",
+    "billed_amount": 214365.0,
+    "deliverables": [
+      "Recuperative Care - JWCH-Enhanced Services Program (ESP)"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "SRO Housing - Dec. 2023.pdf",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1159787_SROHousing-Dec.2023.pdf",
+    "vendor": "SRO Housing",
+    "invoice_date": "2023-12-01",
+    "billed_amount": 115320.0,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Stabilization"
+    ],
+    "confidence": "high",
+    "extraction_notes": "Invoice date extracted from the date associated with the authorized signature, as no explicit 'invoice date' field was present. Deliverables include both the 'Service Category' and the more specific 'Program Type' detailed in the invoice table.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Union Station Homeless Services (USHS) - Dec. 2023.pdf",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1159791_UnionStationHomelessServices_USHS_-Dec.2023.pdf",
+    "vendor": "Union Station Homeless Services (USHS)",
+    "invoice_date": "2023-12-12",
+    "billed_amount": 40300.0,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Stabilization"
+    ],
+    "confidence": "high",
+    "extraction_notes": "The invoice date was derived from the authorized signature date and the invoice received date, which aligns with the stated claim period.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "National Health Foundation (NHF) - Dec. 2023.pdf",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1159782_NationalHealthFoundation_NHF_-Dec.2023.pdf",
+    "vendor": "National Health Foundation (NHF)",
+    "invoice_date": "2023-11-28",
+    "billed_amount": 152892.0,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Recuperative Care"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Exodus Recovery, Inc. - Dec. 2023.pdf",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1159771_ExodusRecovery_Inc.-Dec.2023.pdf",
+    "vendor": "Exodus Recovery, Inc.",
+    "invoice_date": "2023-11-09",
+    "billed_amount": 1258352.0,
+    "deliverables": [
+      "Interim Housing -IHS (Stabilization/Recuperative Care)"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "LA Family Housing (LAFH) - Dec. 2023.pdf",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1159779_LAFamilyHousing_LAFH_-Dec.2023.pdf",
+    "vendor": "LA Family Housing (LAFH)",
+    "invoice_date": "Dec-2023",
+    "billed_amount": 149420.0,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Stabilization"
+    ],
+    "confidence": "high",
+    "extraction_notes": "Invoice date is stated as a month and year (Dec-2023) without a specific day.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "First to Serve (FTS) - Dec. 2023.pdf",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1159776_FirsttoServe_FTS_-Dec.2023.pdf",
+    "vendor": "First to Serve (FTS)",
+    "invoice_date": "2023-12-01",
+    "billed_amount": 620062.0,
+    "deliverables": [
+      "Stabilization"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Illumination Foundation (IF) - Dec. 2023.pdf",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1159765_IlluminationFoundation_IF_-Dec.2023.pdf",
+    "vendor": "Illumination Foundation (IF)",
+    "invoice_date": "2023-12-01",
+    "billed_amount": 281232.0,
+    "deliverables": [
+      "Recuperative Care"
+    ],
+    "confidence": "high",
+    "extraction_notes": "Invoice date was determined from the authorization date 'Friday, December 1, 2023'. 'Recuperative Care' was chosen as the specific deliverable, as it is the program type directly tied to the calculated billed amount on page 2, rather than the broader 'Interim Housing -IHS' service category on page 1.",
+    "extractor": "gemini-2.5-flash"
   }
 ]
