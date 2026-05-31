@@ -233,7 +233,7 @@ def extract_with_gemini(pdf_bytes: bytes, model: str = GEMINI_MODEL) -> dict:
     resp = gm.generate_content([
         EXTRACTION_PROMPT,
         {"mime_type": "application/pdf", "data": pdf_bytes},
-    ])
+    ], request_options={"timeout": 120})
     return _strip_json(resp.text)
 
 
