@@ -5462,3 +5462,263 @@ Right: the normalized ledger row our agent extracted autonomously.
 | Deliverables | Interim Housing Program (105 days); Interim Housing Program (95 days); Interim Housing Program (75 days); Interim Housing Program (49 days); Interim Housing Program (49 days); Interim Housing Program (25 days); Interim Housing Program (42 days); Interim Housing Program (28 days) |
 | Confidence | medium |
 | Notes | Billed amount is not present on the document. Client names are redacted in the client's name column. |
+
+## Mark Twain Provider Invoice - December 2023.pdf
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1160035_MarkTwainProviderInvoice-December2023.pdf`  ·  135.5 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | The Mark Twain |
+| Invoice date | 2024-01-02 |
+| Billed amount | — |
+| Deliverables | Interim Housing Program |
+| Confidence | high |
+| Notes | Billed amount is not present on the document. Client names are redacted. 'The Mark Twain' is identified as the IHP Site Name and interpreted as the vendor. The invoice date is taken from the 'Date' field next to the signature. |
+
+## Journey to New Horizons Provider Invoice - December 2023.pdf
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1160031_JourneytoNewHorizonsProviderInvoice-December2023.pdf`  ·  141.6 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Journey to New Horizons |
+| Invoice date | 2023-12-01 |
+| Billed amount | — |
+| Deliverables | Interim Housing Program |
+| Confidence | high |
+| Notes | billed_amount is missing. IHP Site Address is redacted. |
+
+## Hollywood Walk of Fame Hotel - Dec. 2023
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1159272_HollywoodWalkofFameHotel-Dec.2023.pdf`  ·  92.8 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Hollywood Walk of Fame Hotel |
+| Invoice date | 2024-01-10 |
+| Billed amount | $102300.00 |
+| Deliverables | 20 Units |
+| Confidence | high |
+| Notes | — |
+
+## Hollywood Walk of Fame Provider Invoice - December 2023.pdf
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1160029_HollywoodWalkofFameProviderInvoice-December2023.pdf`  ·  482.4 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | The Hollywood Walk of Fame Hotel |
+| Invoice date | December, 2023 |
+| Billed amount | — |
+| Deliverables | Interim Housing Program (18 days); Interim Housing Program (31 days); Interim Housing Program (31 days); Interim Housing Program (31 days); Interim Housing Program (31 days); Interim Housing Program (31 days); Interim Housing Program (31 days); Interim Housing Program (31 days); Interim Housing Program (31 days); Interim Housing Program (31 days); Interim Housing Program (31 days); Interim Housing Program (31 days); Interim Housing Program (31 days); Interim Housing Program (31 days); Interim Housing Program (31 days); Interim Housing Program (31 days); Interim Housing Program (31 days); Interim Housing Program (31 days); Interim Housing Program (31 days); Interim Housing Program (31 days); Interim Housing Program (31 days) |
+| Confidence | medium |
+| Notes | Billed amount is missing. Invoice date is provided as 'Month/Year: December, 2023'. For some line items on page 1 (rows 4-7, 9-10), the 'From (Date)' and 'To (Date)' are both '12/31/2023', which mathematically would be 1 day, however, the 'Total Number of Days' column explicitly states '31' for these entries. Extracted the stated 'Total Number of Days'. |
+
+##  Central Star LAC-USC CRTP Dec. 23.pdf
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1161905_CentralStarLAC-USCCRTPDec.23.pdf`  ·  773.6 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | 19KE CENTRAL STAR LAC - USC CRTP |
+| Invoice date | — |
+| Billed amount | $140048.34 |
+| Deliverables | CRISIS RESIDENTIAL ADULT 18-64; LIFE SUPPORT; E&M OP, ESTAB CLT,10-19M VID; TCM; CRISIS RESIDENTIAL ADULT 18-64 NON-MC; E&M OP, ESTAB CLIENT,10MIN (NON MC); TCM NON-MC |
+| Confidence | high |
+| Notes | The document is a claims report for 'December 2023' submitted 'as of 4/24/2024', not a single invoice with a specific invoice date. Therefore, 'invoice_date' is returned as null. The billed_amount was calculated by summing all 'ContractedRate' values across the 20 pages of line items. |
+
+## Pine Lodge Provider Invoice - November 2023.pdf
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1160039_PineLodgeProviderInvoice-November2023.pdf`  ·  38.6 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Pine Lodge |
+| Invoice date | 2023-10-31 |
+| Billed amount | — |
+| Deliverables | INTERIM HOUSING PROGRAM |
+| Confidence | medium |
+| Notes | Billed amount is not present on the document. Vendor inferred from "IHP Site Name". |
+
+## Mark Twain Provider Invoice - November 2023.pdf
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1160036_MarkTwainProviderInvoice-November2023.pdf`  ·  312.2 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | LOS ANGELES COUNTY - DEPARTMENT OF MENTAL HEALTH, COUNTYWIDE HOUSING, EMPLOYMENT & EDUCATION RESOURCE DEVELOPMENT (CHEERD) |
+| Invoice date | 2023-11-30 |
+| Billed amount | — |
+| Deliverables | INTERIM HOUSING PROGRAM |
+| Confidence | medium |
+| Notes | Billed amount is missing from the document. The invoice date is taken from the certification date and the 'To (Date)' for most line items. |
+
+##  Central Star LAC-USC CRTP Nov. 2023.pdf
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1161907_CentralStarLAC-USCCRTPNov.2023.pdf`  ·  569.9 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | 19KE CENTRAL STAR LAC - USC CRTP |
+| Invoice date | — |
+| Billed amount | $90659.77 |
+| Deliverables | CRISIS RESIDENTIAL ADULT 18-64; LIFE SUPPORT; E&M OP, ESTAB CLT,10-19M VID; TCM; CRISIS RESIDENTIAL ADULT 18-64 NON-MC; E&M OP, ESTAB CLIENT,10MIN (NON MC); TCM NON-MC |
+| Confidence | high |
+| Notes | The document is a claims report/spreadsheet covering multiple service dates in November 2023, not a single invoice. Therefore, 'invoice_date' is null as there is no single invoice date. The 'billed_amount' is the sum of all 'ContractedRate' values across all line items in the entire multi-page report. The 'Overview' states the document is '19KE CENTRAL STAR LAC-USC CRTP Claims November 2023 submitted as of 4/24/2024'. |
+
+## Journey to New Horizons Start Up Costs - November 2023.pdf
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1160034_JourneytoNewHorizonsStartUpCosts-November2023.pdf`  ·  86.5 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Special Services For Groups |
+| Invoice date | 2023-11-08 |
+| Billed amount | $120000.00 |
+| Deliverables | Journey To New Horizons Start Up Costs |
+| Confidence | high |
+| Notes | — |
+
+## Journey to New Horizons Provider Invoice - November 2023.pdf
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1160032_JourneytoNewHorizonsProviderInvoice-November2023.pdf`  ·  236.3 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Journey to New Horizons |
+| Invoice date | 2023-12-01 |
+| Billed amount | — |
+| Deliverables | Interim Housing Program Service |
+| Confidence | high |
+| Notes | Billed amount is not present on the document. Client names are redacted. |
+
+## Hollywood Walk of Fame Hotel - Nov. 2023
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1159273_HollywoodWalkofFameHotel-Nov.2023.pdf`  ·  134.8 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Hollywood Walk of Fame Hotel |
+| Invoice date | 2023-12-18 |
+| Billed amount | $36300.00 |
+| Deliverables | Interim Housing Program - 20 Units for 11 Days |
+| Confidence | high |
+| Notes | — |
+
+## Central Star LAC-USC CRTP Oct. 2023.pdf
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1161908_CentralStarLAC-USCCRTPOct.2023.pdf`  ·  154.8 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | 19KE CENTRAL STAR LAC - USC CRTP |
+| Invoice date | — |
+| Billed amount | $629.68 |
+| Deliverables | CRISIS RESIDENTIAL ADULT 18-64; LIFE SUPPORT |
+| Confidence | medium |
+| Notes | The document is a report of claims, not a single invoice. Therefore, a single 'invoice_date' for the entire document, representing when it was issued by the vendor, is not present. The 'submitted as of 4/24/2024' refers to the report generation date, not an invoice date. The 'billed_amount' is calculated by summing the 'ContractedRate' values for the listed services. |
+
+## Pine Lodge Provider Invoice - October 2023.pdf
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1160040_PineLodgeProviderInvoice-October2023.pdf`  ·  38.4 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Pine Lodge |
+| Invoice date | 2023-10-31 |
+| Billed amount | — |
+| Deliverables | Interim Housing Program for 41 days from 2023-09-18 to 2023-10-31; Interim Housing Program for 31 days from 2023-09-28 to 2023-10-31; Interim Housing Program for 6 days from 2023-09-28 to 2023-10-04; Interim Housing Program for 13 days from 2023-10-18 to 2023-10-31; Interim Housing Program for 7 days from 2023-10-24 to 2023-10-31 |
+| Confidence | medium |
+| Notes | Billed amount is missing. 'Pine Lodge' is identified as the vendor based on the 'IHP Site Name' field, distinguishing it from the county departments listed. |
+
+## Hollywood Walk of Fame Provider Invoice - November 2023.pdf
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1160030_HollywoodWalkofFameProviderInvoice-November2023.pdf`  ·  305.6 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | The Hollywood Walk of Fame Hotel |
+| Invoice date | November, 2023 |
+| Billed amount | — |
+| Deliverables | Interim Housing Program services for 12 days (11/20/2023 - 12/01/2023); Interim Housing Program services for 12 days (11/20/2023 - 12/01/2023); Interim Housing Program services for 12 days (11/20/2023 - 12/01/2023); Interim Housing Program services for 12 days (11/20/2023 - 12/01/2023); Interim Housing Program services for 12 days (11/20/2023 - 12/01/2023); Interim Housing Program services for 12 days (11/24/2023 - 12/01/2023); Interim Housing Program services for 12 days (11/25/2023 - 12/01/2023); Interim Housing Program services for 12 days (11/20/2023 - 12/01/2023); Interim Housing Program services for 12 days (11/20/2023 - 12/01/2023); Interim Housing Program services for 12 days (11/20/2023 - 12/01/2023) |
+| Confidence | medium |
+| Notes | The invoice_date 'November, 2023' represents the billing period, as the specific invoice issue date field is blank. The total billed amount is not stated on the document. Client names are redacted in the 'Client's Name' column. |
+
+## Mark Twain Provider Invoice - October 2023.pdf
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1160037_MarkTwainProviderInvoice-October2023.pdf`  ·  96.6 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | The Mark Twain |
+| Invoice date | 2023-10-03 |
+| Billed amount | — |
+| Deliverables | fifty seven; fifty seven; fifty seven; fifty seven; fifty six; fifty six; fifty five; fifty five; fifty seven; fifty one; fifty one; fifty seven; seven; forty seven; forty six; forty six; forty five; forty five; forty five; forty four; forty four; forty three; forty; forty; forty; forty; thirty nine; thirty seven; thirty seven; thirty six; thirty six; thirty six; thirty five; 7; 29; 28; 27; 27; 26; 25; 25; 24; 20; 20; 19; 19; 18; 18; 14; 5; 15 |
+| Confidence | high |
+| Notes | Billed amount is not present on the document. The vendor was identified from the 'IHP Site Name' field. Deliverables are extracted from the 'Total Number of Days' column exactly as stated on the document. |
+
+## Journey to New Horizons Provider Invoice - October 2023.pdf
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1160033_JourneytoNewHorizonsProviderInvoice-October2023.pdf`  ·  184.6 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Journey to New Horizons |
+| Invoice date | October/2023 |
+| Billed amount | — |
+| Deliverables | Interim Housing Program Service |
+| Confidence | high |
+| Notes | Billed amount is not present on the document. The invoice date provides a month and year ("October/2023") but no specific day. Deliverables are identified as 'Interim Housing Program Service' based on the invoice title. The document provides a breakdown of days per client for this service, but no specific itemized descriptions beyond the number of days. The total number of days across all listed clients is 1345 days. |
+
+## Exodus Recovery, Inc. - September 2024 Supplemental
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201905_ExodusRecovery_Inc.-September2024Supplemental.pdf`  ·  625.0 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Exodus Recovery, Inc. |
+| Invoice date | 2025-03-28 |
+| Billed amount | $1171.34 |
+| Deliverables | ICMS - Street-Based Engagement; Office Space; Administrative Overhead/Costs @ 10% |
+| Confidence | high |
+| Notes | The invoice_date is derived from the 'DATE SUBMITTED' (Page 1, E8) as no specific 'invoice date' field was present. This document is a 'SUPPLEMENTAL CLAIM' for services provided in the '09'24' (September 2024) claim period. The billed_amount of 1,171.34 is the 'AMOUNT REQUESTED' on the Supplemental Claim form (Page 1, E7) and corresponds to the sum of 'Office Space' and 'Administrative Overhead/Costs @ 10%' under the 'EXPENDED THIS MONTH' column on Page 2. |
+
+## The People Concern - September 2024 Supplemental 2
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201877_ThePeopleConcern-September2024Supplemental2.pdf`  ·  808.1 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | The People Concern |
+| Invoice date | 2025-06-06 |
+| Billed amount | $17506.02 |
+| Deliverables | Client Personal/Med. Exp.; Program Supplies; Staff Parking; Mileage-Local; Gas/ Vehicles; Telephone / Internet; Medical Subontractor (Vendor) - LA Christian Health Centers; Equipment/Furniture Purchase (One Time); ADMINISTRATIVE COSTS - 15% |
+| Confidence | high |
+| Notes | Invoice date is derived from the 'DATE SUBMITTED' field as a specific 'invoice date' field for this supplemental claim was not present. The deliverables are extracted from the 'Budget Linet Item Description' column on page 5, where corresponding values are present in the 'Supplemental Month Costs' column. |
+
+## The People Concern - September 2024 Supplemental 2
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201876_ThePeopleConcern-September2024Supplemental2.pdf`  ·  995.4 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | The People Concern |
+| Invoice date | 2025-03-17 |
+| Billed amount | $928.45 |
+| Deliverables | SEPT 24 PARKING REIMBURSEMENT 09/12-09/20; SEPT 24 PARKING REIMBURSEMENT 09/04-09/30; 09/24/24-10/23/24; -2023 Honda Pilot Sept 2024; SEPT 24 MILEAGE REIMBURSEMENT 09/09 - 09/25; SEPT 24 MILEAGE REIMBURSEMENT 09/03-09/16; SEPT 24 MILEAGE REIMBURSEMENT 09/12-09/20; SEPT 24 MILEAGE REIMBURSEMENT 09/04-09/30; Admin Overhead September 2024 |
+| Confidence | high |
+| Notes | The invoice_date was extracted from the 'DATE SUBMITTED' field on page 1, as it represents the submission date of this specific invoice document. The deliverables are derived from the 'Memo' column of the Supplemental General Ledger on page 4, which details the specific charges for the current billing month, summing to the total billed amount. |
+
+## The People Concern - September 2024 Supplemental
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201869_ThePeopleConcern-September2024Supplemental.pdf`  ·  433.5 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | The People Concern |
+| Invoice date | 2025-03-10 |
+| Billed amount | $649.34 |
+| Deliverables | Recruitment Placement Costs; Staff Parking; Mileage-Local; Administrative Overhead |
+| Confidence | high |
+| Notes | The invoice date refers to the 'DATE SUBMITTED' for this supplemental claim (3/10/25), while the 'CLAIM PERIOD' is Sep-24. |

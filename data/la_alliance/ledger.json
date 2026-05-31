@@ -25040,5 +25040,382 @@
     "confidence": "medium",
     "extraction_notes": "Billed amount is not present on the document. Client names are redacted in the client's name column.",
     "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Mark Twain Provider Invoice - December 2023.pdf",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1160035_MarkTwainProviderInvoice-December2023.pdf",
+    "vendor": "The Mark Twain",
+    "invoice_date": "2024-01-02",
+    "billed_amount": null,
+    "deliverables": [
+      "Interim Housing Program"
+    ],
+    "confidence": "high",
+    "extraction_notes": "Billed amount is not present on the document. Client names are redacted. 'The Mark Twain' is identified as the IHP Site Name and interpreted as the vendor. The invoice date is taken from the 'Date' field next to the signature.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Journey to New Horizons Provider Invoice - December 2023.pdf",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1160031_JourneytoNewHorizonsProviderInvoice-December2023.pdf",
+    "vendor": "Journey to New Horizons",
+    "invoice_date": "2023-12-01",
+    "billed_amount": null,
+    "deliverables": [
+      "Interim Housing Program"
+    ],
+    "confidence": "high",
+    "extraction_notes": "billed_amount is missing. IHP Site Address is redacted.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Hollywood Walk of Fame Hotel - Dec. 2023",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1159272_HollywoodWalkofFameHotel-Dec.2023.pdf",
+    "vendor": "Hollywood Walk of Fame Hotel",
+    "invoice_date": "2024-01-10",
+    "billed_amount": 102300.0,
+    "deliverables": [
+      "20 Units"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Hollywood Walk of Fame Provider Invoice - December 2023.pdf",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1160029_HollywoodWalkofFameProviderInvoice-December2023.pdf",
+    "vendor": "The Hollywood Walk of Fame Hotel",
+    "invoice_date": "December, 2023",
+    "billed_amount": null,
+    "deliverables": [
+      "Interim Housing Program (18 days)",
+      "Interim Housing Program (31 days)",
+      "Interim Housing Program (31 days)",
+      "Interim Housing Program (31 days)",
+      "Interim Housing Program (31 days)",
+      "Interim Housing Program (31 days)",
+      "Interim Housing Program (31 days)",
+      "Interim Housing Program (31 days)",
+      "Interim Housing Program (31 days)",
+      "Interim Housing Program (31 days)",
+      "Interim Housing Program (31 days)",
+      "Interim Housing Program (31 days)",
+      "Interim Housing Program (31 days)",
+      "Interim Housing Program (31 days)",
+      "Interim Housing Program (31 days)",
+      "Interim Housing Program (31 days)",
+      "Interim Housing Program (31 days)",
+      "Interim Housing Program (31 days)",
+      "Interim Housing Program (31 days)",
+      "Interim Housing Program (31 days)",
+      "Interim Housing Program (31 days)"
+    ],
+    "confidence": "medium",
+    "extraction_notes": "Billed amount is missing. Invoice date is provided as 'Month/Year: December, 2023'. For some line items on page 1 (rows 4-7, 9-10), the 'From (Date)' and 'To (Date)' are both '12/31/2023', which mathematically would be 1 day, however, the 'Total Number of Days' column explicitly states '31' for these entries. Extracted the stated 'Total Number of Days'.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": " Central Star LAC-USC CRTP Dec. 23.pdf",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1161905_CentralStarLAC-USCCRTPDec.23.pdf",
+    "vendor": "19KE CENTRAL STAR LAC - USC CRTP",
+    "invoice_date": null,
+    "billed_amount": 140048.34,
+    "deliverables": [
+      "CRISIS RESIDENTIAL ADULT 18-64",
+      "LIFE SUPPORT",
+      "E&M OP, ESTAB CLT,10-19M VID",
+      "TCM",
+      "CRISIS RESIDENTIAL ADULT 18-64 NON-MC",
+      "E&M OP, ESTAB CLIENT,10MIN (NON MC)",
+      "TCM NON-MC"
+    ],
+    "confidence": "high",
+    "extraction_notes": "The document is a claims report for 'December 2023' submitted 'as of 4/24/2024', not a single invoice with a specific invoice date. Therefore, 'invoice_date' is returned as null. The billed_amount was calculated by summing all 'ContractedRate' values across the 20 pages of line items.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Pine Lodge Provider Invoice - November 2023.pdf",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1160039_PineLodgeProviderInvoice-November2023.pdf",
+    "vendor": "Pine Lodge",
+    "invoice_date": "2023-10-31",
+    "billed_amount": null,
+    "deliverables": [
+      "INTERIM HOUSING PROGRAM"
+    ],
+    "confidence": "medium",
+    "extraction_notes": "Billed amount is not present on the document. Vendor inferred from \"IHP Site Name\".",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Mark Twain Provider Invoice - November 2023.pdf",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1160036_MarkTwainProviderInvoice-November2023.pdf",
+    "vendor": "LOS ANGELES COUNTY - DEPARTMENT OF MENTAL HEALTH, COUNTYWIDE HOUSING, EMPLOYMENT & EDUCATION RESOURCE DEVELOPMENT (CHEERD)",
+    "invoice_date": "2023-11-30",
+    "billed_amount": null,
+    "deliverables": [
+      "INTERIM HOUSING PROGRAM"
+    ],
+    "confidence": "medium",
+    "extraction_notes": "Billed amount is missing from the document. The invoice date is taken from the certification date and the 'To (Date)' for most line items.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": " Central Star LAC-USC CRTP Nov. 2023.pdf",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1161907_CentralStarLAC-USCCRTPNov.2023.pdf",
+    "vendor": "19KE CENTRAL STAR LAC - USC CRTP",
+    "invoice_date": null,
+    "billed_amount": 90659.77,
+    "deliverables": [
+      "CRISIS RESIDENTIAL ADULT 18-64",
+      "LIFE SUPPORT",
+      "E&M OP, ESTAB CLT,10-19M VID",
+      "TCM",
+      "CRISIS RESIDENTIAL ADULT 18-64 NON-MC",
+      "E&M OP, ESTAB CLIENT,10MIN (NON MC)",
+      "TCM NON-MC"
+    ],
+    "confidence": "high",
+    "extraction_notes": "The document is a claims report/spreadsheet covering multiple service dates in November 2023, not a single invoice. Therefore, 'invoice_date' is null as there is no single invoice date. The 'billed_amount' is the sum of all 'ContractedRate' values across all line items in the entire multi-page report. The 'Overview' states the document is '19KE CENTRAL STAR LAC-USC CRTP Claims November 2023 submitted as of 4/24/2024'.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Journey to New Horizons Start Up Costs - November 2023.pdf",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1160034_JourneytoNewHorizonsStartUpCosts-November2023.pdf",
+    "vendor": "Special Services For Groups",
+    "invoice_date": "2023-11-08",
+    "billed_amount": 120000.0,
+    "deliverables": [
+      "Journey To New Horizons Start Up Costs"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Journey to New Horizons Provider Invoice - November 2023.pdf",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1160032_JourneytoNewHorizonsProviderInvoice-November2023.pdf",
+    "vendor": "Journey to New Horizons",
+    "invoice_date": "2023-12-01",
+    "billed_amount": null,
+    "deliverables": [
+      "Interim Housing Program Service"
+    ],
+    "confidence": "high",
+    "extraction_notes": "Billed amount is not present on the document. Client names are redacted.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Hollywood Walk of Fame Hotel - Nov. 2023",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1159273_HollywoodWalkofFameHotel-Nov.2023.pdf",
+    "vendor": "Hollywood Walk of Fame Hotel",
+    "invoice_date": "2023-12-18",
+    "billed_amount": 36300.0,
+    "deliverables": [
+      "Interim Housing Program - 20 Units for 11 Days"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Central Star LAC-USC CRTP Oct. 2023.pdf",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1161908_CentralStarLAC-USCCRTPOct.2023.pdf",
+    "vendor": "19KE CENTRAL STAR LAC - USC CRTP",
+    "invoice_date": null,
+    "billed_amount": 629.68,
+    "deliverables": [
+      "CRISIS RESIDENTIAL ADULT 18-64",
+      "LIFE SUPPORT"
+    ],
+    "confidence": "medium",
+    "extraction_notes": "The document is a report of claims, not a single invoice. Therefore, a single 'invoice_date' for the entire document, representing when it was issued by the vendor, is not present. The 'submitted as of 4/24/2024' refers to the report generation date, not an invoice date. The 'billed_amount' is calculated by summing the 'ContractedRate' values for the listed services.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Pine Lodge Provider Invoice - October 2023.pdf",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1160040_PineLodgeProviderInvoice-October2023.pdf",
+    "vendor": "Pine Lodge",
+    "invoice_date": "2023-10-31",
+    "billed_amount": null,
+    "deliverables": [
+      "Interim Housing Program for 41 days from 2023-09-18 to 2023-10-31",
+      "Interim Housing Program for 31 days from 2023-09-28 to 2023-10-31",
+      "Interim Housing Program for 6 days from 2023-09-28 to 2023-10-04",
+      "Interim Housing Program for 13 days from 2023-10-18 to 2023-10-31",
+      "Interim Housing Program for 7 days from 2023-10-24 to 2023-10-31"
+    ],
+    "confidence": "medium",
+    "extraction_notes": "Billed amount is missing. 'Pine Lodge' is identified as the vendor based on the 'IHP Site Name' field, distinguishing it from the county departments listed.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Hollywood Walk of Fame Provider Invoice - November 2023.pdf",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1160030_HollywoodWalkofFameProviderInvoice-November2023.pdf",
+    "vendor": "The Hollywood Walk of Fame Hotel",
+    "invoice_date": "November, 2023",
+    "billed_amount": null,
+    "deliverables": [
+      "Interim Housing Program services for 12 days (11/20/2023 - 12/01/2023)",
+      "Interim Housing Program services for 12 days (11/20/2023 - 12/01/2023)",
+      "Interim Housing Program services for 12 days (11/20/2023 - 12/01/2023)",
+      "Interim Housing Program services for 12 days (11/20/2023 - 12/01/2023)",
+      "Interim Housing Program services for 12 days (11/20/2023 - 12/01/2023)",
+      "Interim Housing Program services for 12 days (11/24/2023 - 12/01/2023)",
+      "Interim Housing Program services for 12 days (11/25/2023 - 12/01/2023)",
+      "Interim Housing Program services for 12 days (11/20/2023 - 12/01/2023)",
+      "Interim Housing Program services for 12 days (11/20/2023 - 12/01/2023)",
+      "Interim Housing Program services for 12 days (11/20/2023 - 12/01/2023)"
+    ],
+    "confidence": "medium",
+    "extraction_notes": "The invoice_date 'November, 2023' represents the billing period, as the specific invoice issue date field is blank. The total billed amount is not stated on the document. Client names are redacted in the 'Client's Name' column.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Mark Twain Provider Invoice - October 2023.pdf",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1160037_MarkTwainProviderInvoice-October2023.pdf",
+    "vendor": "The Mark Twain",
+    "invoice_date": "2023-10-03",
+    "billed_amount": null,
+    "deliverables": [
+      "fifty seven",
+      "fifty seven",
+      "fifty seven",
+      "fifty seven",
+      "fifty six",
+      "fifty six",
+      "fifty five",
+      "fifty five",
+      "fifty seven",
+      "fifty one",
+      "fifty one",
+      "fifty seven",
+      "seven",
+      "forty seven",
+      "forty six",
+      "forty six",
+      "forty five",
+      "forty five",
+      "forty five",
+      "forty four",
+      "forty four",
+      "forty three",
+      "forty",
+      "forty",
+      "forty",
+      "forty",
+      "thirty nine",
+      "thirty seven",
+      "thirty seven",
+      "thirty six",
+      "thirty six",
+      "thirty six",
+      "thirty five",
+      "7",
+      "29",
+      "28",
+      "27",
+      "27",
+      "26",
+      "25",
+      "25",
+      "24",
+      "20",
+      "20",
+      "19",
+      "19",
+      "18",
+      "18",
+      "14",
+      "5",
+      "15"
+    ],
+    "confidence": "high",
+    "extraction_notes": "Billed amount is not present on the document. The vendor was identified from the 'IHP Site Name' field. Deliverables are extracted from the 'Total Number of Days' column exactly as stated on the document.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Journey to New Horizons Provider Invoice - October 2023.pdf",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1160033_JourneytoNewHorizonsProviderInvoice-October2023.pdf",
+    "vendor": "Journey to New Horizons",
+    "invoice_date": "October/2023",
+    "billed_amount": null,
+    "deliverables": [
+      "Interim Housing Program Service"
+    ],
+    "confidence": "high",
+    "extraction_notes": "Billed amount is not present on the document. The invoice date provides a month and year (\"October/2023\") but no specific day. Deliverables are identified as 'Interim Housing Program Service' based on the invoice title. The document provides a breakdown of days per client for this service, but no specific itemized descriptions beyond the number of days. The total number of days across all listed clients is 1345 days.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Exodus Recovery, Inc. - September 2024 Supplemental",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201905_ExodusRecovery_Inc.-September2024Supplemental.pdf",
+    "vendor": "Exodus Recovery, Inc.",
+    "invoice_date": "2025-03-28",
+    "billed_amount": 1171.34,
+    "deliverables": [
+      "ICMS - Street-Based Engagement",
+      "Office Space",
+      "Administrative Overhead/Costs @ 10%"
+    ],
+    "confidence": "high",
+    "extraction_notes": "The invoice_date is derived from the 'DATE SUBMITTED' (Page 1, E8) as no specific 'invoice date' field was present. This document is a 'SUPPLEMENTAL CLAIM' for services provided in the '09'24' (September 2024) claim period. The billed_amount of 1,171.34 is the 'AMOUNT REQUESTED' on the Supplemental Claim form (Page 1, E7) and corresponds to the sum of 'Office Space' and 'Administrative Overhead/Costs @ 10%' under the 'EXPENDED THIS MONTH' column on Page 2.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "The People Concern - September 2024 Supplemental 2",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201877_ThePeopleConcern-September2024Supplemental2.pdf",
+    "vendor": "The People Concern",
+    "invoice_date": "2025-06-06",
+    "billed_amount": 17506.02,
+    "deliverables": [
+      "Client Personal/Med. Exp.",
+      "Program Supplies",
+      "Staff Parking",
+      "Mileage-Local",
+      "Gas/ Vehicles",
+      "Telephone / Internet",
+      "Medical Subontractor (Vendor) - LA Christian Health Centers",
+      "Equipment/Furniture Purchase (One Time)",
+      "ADMINISTRATIVE COSTS - 15%"
+    ],
+    "confidence": "high",
+    "extraction_notes": "Invoice date is derived from the 'DATE SUBMITTED' field as a specific 'invoice date' field for this supplemental claim was not present. The deliverables are extracted from the 'Budget Linet Item Description' column on page 5, where corresponding values are present in the 'Supplemental Month Costs' column.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "The People Concern - September 2024 Supplemental 2",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201876_ThePeopleConcern-September2024Supplemental2.pdf",
+    "vendor": "The People Concern",
+    "invoice_date": "2025-03-17",
+    "billed_amount": 928.45,
+    "deliverables": [
+      "SEPT 24 PARKING REIMBURSEMENT 09/12-09/20",
+      "SEPT 24 PARKING REIMBURSEMENT 09/04-09/30",
+      "09/24/24-10/23/24",
+      "-2023 Honda Pilot Sept 2024",
+      "SEPT 24 MILEAGE REIMBURSEMENT 09/09 - 09/25",
+      "SEPT 24 MILEAGE REIMBURSEMENT 09/03-09/16",
+      "SEPT 24 MILEAGE REIMBURSEMENT 09/12-09/20",
+      "SEPT 24 MILEAGE REIMBURSEMENT 09/04-09/30",
+      "Admin Overhead September 2024"
+    ],
+    "confidence": "high",
+    "extraction_notes": "The invoice_date was extracted from the 'DATE SUBMITTED' field on page 1, as it represents the submission date of this specific invoice document. The deliverables are derived from the 'Memo' column of the Supplemental General Ledger on page 4, which details the specific charges for the current billing month, summing to the total billed amount.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "The People Concern - September 2024 Supplemental",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201869_ThePeopleConcern-September2024Supplemental.pdf",
+    "vendor": "The People Concern",
+    "invoice_date": "2025-03-10",
+    "billed_amount": 649.34,
+    "deliverables": [
+      "Recruitment Placement Costs",
+      "Staff Parking",
+      "Mileage-Local",
+      "Administrative Overhead"
+    ],
+    "confidence": "high",
+    "extraction_notes": "The invoice date refers to the 'DATE SUBMITTED' for this supplemental claim (3/10/25), while the 'CLAIM PERIOD' is Sep-24.",
+    "extractor": "gemini-2.5-flash"
   }
 ]
