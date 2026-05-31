@@ -17057,5 +17057,44 @@
     "confidence": "high",
     "extraction_notes": "",
     "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "23-1022-S4_caf_6-21-24",
+    "source_url": "data\\la_alliance\\raw\\23-1022-S4_caf_6-21-24.pdf",
+    "vendor": null,
+    "invoice_date": null,
+    "billed_amount": null,
+    "deliverables": [],
+    "confidence": "low",
+    "extraction_notes": "The document provided is an official action record of the Los Angeles City Council, not an invoice or billing document from a homeless-service provider. As such, fields like vendor (billing organization), invoice date, billed amount, and line-item deliverables are not present on this document. The 'Agenda Description' describes the subject of the council action, not services being billed.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "23-1022-S4_caf_04-01-25",
+    "source_url": "data\\la_alliance\\raw\\23-1022-S4_caf_04-01-25.pdf",
+    "vendor": null,
+    "invoice_date": "2025-04-01",
+    "billed_amount": null,
+    "deliverables": [],
+    "confidence": "low",
+    "extraction_notes": "The document is an official Los Angeles City Council action report, not an invoice or billing document from a homeless-service provider. As such, 'vendor', 'billed_amount', and 'deliverables' (as line-item services) are not present.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "ABrighterDay_MHBeds_Oct2024",
+    "source_url": "data\\la_alliance\\raw\\ABrighterDay_MHBeds_Oct2024.pdf",
+    "vendor": "19KU A BRIGHTER DAY - BRANDY HOUSE",
+    "invoice_date": "2024-12-19",
+    "billed_amount": null,
+    "deliverables": [
+      "LIFE SUPPORT",
+      "TRANSITIONAL RESIDENTIAL- ADULT 18-64",
+      "TCM",
+      "ORAL MEDICATION ADMIN",
+      "ADULT RESIDENTIAL-GERIATRIC 65+, NON-MC"
+    ],
+    "confidence": "medium",
+    "extraction_notes": "The document is a claims report for services rendered in October 2024, submitted as of 12/19/2024, not a single invoice. Therefore, a single 'billed_amount' (total) is not explicitly stated on the document and has been returned as null to avoid inference. The 'invoice_date' reflects the document's stated submission date (12/19/2024).",
+    "extractor": "gemini-2.5-flash"
   }
 ]
