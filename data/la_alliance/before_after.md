@@ -5202,3 +5202,263 @@ Right: the normalized ledger row our agent extracted autonomously.
 | Deliverables | CRISIS RESIDENTIAL ADULT 18-64; LIFE SUPPORT; ORAL MEDICATION ADMIN; E&M OP, ESTAB CLT, 40-54M VID; TCM; CRISIS RESIDENTIAL ADULT 18-64 NON-MC; ORAL MEDICATION ADMIN (NON MC); E&M OP, ESTAB CLIENT, 40+MIN (NON MC); TCM NON-MC; MEDS TRNG SUPRT NON-MC; MED PLAN DEVELOPMENT AND RECORD REVIE |
 | Confidence | high |
 | Notes | The vendor name was extracted from the document title. The invoice_date was taken as the 'submitted as of' date from the document title, as no singular invoice date was explicitly stated for the entire claims summary. The billed_amount was calculated by summing the 'ContractedRate' column across all entries on all pages, as no total billed amount was explicitly stated on the document. |
+
+## Valley Star LAC-USC CRTP - Feb 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1170525_ValleyStarLAC-USCCRTP-Feb2024.pdf`  ·  697.6 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | 19KP VALLEY STAR LAC-USC CRTP |
+| Invoice date | 2024-07-20 |
+| Billed amount | $2400.00 |
+| Deliverables | LIFE SUPPORT |
+| Confidence | high |
+| Notes | The document is a claims summary for services rendered in February 2024, submitted on 2024-07-20. The 'invoice_date' is set to the submission date of the claims summary. The 'billed_amount' is the sum of the 'ContractedRate' for all 20 listed services. |
+
+## SSG Mark Twain - Feb. 2024 (1 of 2)
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1162081_SSGMarkTwain-Feb.20241of2.pdf`  ·  82.8 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Special Services For Groups |
+| Invoice date | — |
+| Billed amount | $341040.00 |
+| Deliverables | 56 Beds - The Mark Twain |
+| Confidence | high |
+| Notes | The invoice_date is not explicitly stated. "Month/Year : February 2024" refers to the service period. The dates "3/12/24" are likely signature/approval dates, not the invoice date itself. |
+
+## Central Star LAC-USC CRTP - Feb.2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1164718_CentralStarLAC-USCCRTP-Feb.2024.pdf`  ·  1035.3 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | 19KE CENTRAL STAR LAC - USC CRTP |
+| Invoice date | — |
+| Billed amount | — |
+| Deliverables | CRISIS RESIDENTIAL ADULT 18-64; E&M OP, ESTAB CLT, 40-54M VID; LIFE SUPPORT; ORAL MEDICATION ADMIN; CRISIS RESIDENTIAL ADULT 18-64 NON-MC; ORAL MEDICATION ADMIN (NON MC); E&M OP, ESTAB CLIENT, 40+MIN (NON MC); TCM NON-MC; TCM; MED PLAN DEVELOPMENT AND RECORD REVIE |
+| Confidence | high |
+| Notes | Invoice date is not explicitly stated as a single date; the document is a claims report for 'February 2024'. Total billed amount is not stated; only line-item contracted rates are present. As per instructions, values not explicitly present are returned as null. |
+
+## SSG JTNH + Pine Lodge - Feb. 2024 (1 of 2)
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1162079_SSGJTNH_PineLodge-Feb.20241of2.pdf`  ·  88.6 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Special Services For Groups |
+| Invoice date | 2024-03-12 |
+| Billed amount | $281010.00 |
+| Deliverables | 40 Beds - Journey To New Horizons; 15 Beds - Pine Lodge |
+| Confidence | high |
+| Notes | — |
+
+## Pine Lodge - Feb. 2024 (2 of2)
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1162041_PineLodge-Feb.2024.pdf`  ·  180.2 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Pine Lodge |
+| Invoice date | 2024-02-29 |
+| Billed amount | — |
+| Deliverables | Interim Housing Program for 164 days; Interim Housing Program for 154 days; Interim Housing Program for 108 days; Interim Housing Program for 101 days; Interim Housing Program for 77 days; Interim Housing Program for 36 days; Interim Housing Program for 31 days; Interim Housing Program for 25 days; Interim Housing Program for 9 days |
+| Confidence | high |
+| Notes | Billed amount is not present on the document. Client names are redacted. |
+
+## Hollywood Walk of Fame Hotel - Feb. 2024 (1 of 2)
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1162077_HollywoodWalkofFameHotel-Feb.20241of2.pdf`  ·  85.8 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Hollywood Walk of Fame Hotel |
+| Invoice date | 2024-03-12 |
+| Billed amount | $95700.00 |
+| Deliverables | 20 Units |
+| Confidence | high |
+| Notes | Invoice date derived from the earliest signature date as no explicit 'invoice date' field was present. The 'Month/Year: February 2024' indicates the service period for the invoice, not a specific invoice issuance date. The billing address was redacted on the document. |
+
+## Mark Twain - Feb. 2024 (2 of2)
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1162039_MarkTwain-Feb.2024.pdf`  ·  230.9 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | The Mark Twain |
+| Invoice date | 2024-03-01 |
+| Billed amount | — |
+| Deliverables | Interim Housing Program |
+| Confidence | high |
+| Notes | Billed amount is not stated on the document. The 'Month/Year: 02/2024' at the top right indicates the service period, not the invoice date. The invoice date is taken from the 'Date' field next to the signature. There is a potential OCR error on page 2, line 16 for 'From (Date)' showing '9/25/1934', but it is extracted as stated on the document. |
+
+## Journey to New Horizons - Feb. 2024 (2 of2)
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1162037_JourneytoNewHorizons-Feb.2024.pdf`  ·  203.2 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Journey to New Horizons |
+| Invoice date | 2024-01-31 |
+| Billed amount | — |
+| Deliverables | Interim Housing from 8/7/2023 to 2/29/24 (206 days); Interim Housing from 8/10/2023 to 2/29/24 (204 days); Interim Housing from 8/14/2023 to 2/29/24 (200 days); Interim Housing from 8/21/2023 to 2/29/24 (193 days); Interim Housing from 8/22/2023 to 2/29/24 (192 days); Interim Housing from 8/24/2023 to 2/29/24 (190 days); Interim Housing from 8/30/2023 to 2/29/24 (184 days); Interim Housing from 8/31/2023 to 2/29/24 (183 days); Interim Housing from 8/31/2023 to 2/29/24 (183 days); Interim Housing from 9/13/2023 to 2/29/24 (170 days); Interim Housing from 9/11/2023 to 2/29/24 (172 days); Interim Housing from 11/9/2023 to 2/29/24 (112 days); Interim Housing from 11/9/2023 to 2/29/24 (112 days); Interim Housing from 9/28/2023 to 2/29/24 (154 days); Interim Housing from 10/3/2023 to 2/29/24 (149 days); Interim Housing from 10/3/2023 to 2/29/24 (149 days); Interim Housing from 10/6/2023 to 2/29/24 (146 days); Interim Housing from 10/11/2023 to 2/29/24 (141 days); Interim Housing from 10/17/2023 to 2/29/24 (135 days); Interim Housing from 10/18/2023 to 2/29/24 (134 days); Interim Housing from 10/31/2023 to 2/29/24 (121 days); Interim Housing from 11/27/2023 to 2/29/24 (94 days); Interim Housing from 11/14/2023 to 2/29/24 (107 days); Interim Housing from 11/28/2023 to 2/29/24 (94 days); Interim Housing from 11/29/2023 to 2/29/24 (93 days); Interim Housing from 12/11/2023 to 2/29/24 (81 days); Interim Housing from 12/18/2023 to 2/29/24 (74 days); Interim Housing from 12/20/2023 to 2/29/24 (72 days); Interim Housing from 12/28/2023 to 2/29/24 (64 days); Interim Housing from 12/28/2023 to 2/29/24 (64 days); Interim Housing from 1/2/2024 to 2/29/24 (59 days); Interim Housing from 1/8/2024 to 2/29/24 (53 days); Interim Housing from 1/18/2024 to 2/29/24 (43 days); Interim Housing from 1/22/2024 to 2/29/24 (39 days); Interim Housing from 1/30/2024 to 2/29/24 (31 days); Interim Housing from 2/12/2024 to 2/29/24 (18 days); Interim Housing from 2/13/2024 to 2/29/24 (17 days); Interim Housing from 2/21/2024 to 2/29/24 (9 days); Interim Housing from 2/28/2024 to 2/29/24 (2 days); Interim Housing from 2/8/2024 to 2/26/24 (19 days) |
+| Confidence | high |
+| Notes | Billed amount is not present on the document. Client names in the table are redacted. |
+
+## Hollywood Walk of Fame - Feb. 2024 (2 of2)
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1162035_HollywoodWalkofFame-Feb.2024.pdf`  ·  202.7 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | The Hollywood Walk of Fame Hotel |
+| Invoice date | February, 2024 |
+| Billed amount | — |
+| Deliverables | Interim Housing Program |
+| Confidence | high |
+| Notes | The invoice date is provided as month and year only, without a specific day. The total billed amount is not present on the document; only the number of days of service for each client is provided. Client names are redacted. The document indicates a total of 580 days of Interim Housing Program services were provided across all listed clients for the period of February 2024 (19 instances of 29 days, 1 instance of 6 days, and 1 instance of 23 days). |
+
+## Valley Star Olive View UCLA CRTP - Jan 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1170536_ValleyStarOliveViewUCLACRTP-Jan2024.pdf`  ·  746.8 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | 19KO VALLEY STAR OLIVE VIEW UCLA CRTP |
+| Invoice date | 2024-07-20 |
+| Billed amount | $108195.60 |
+| Deliverables | CRISIS RESIDENTIAL ADULT 18-64; LIFE SUPPORT; E&M OP, ESTAB CLT,10-19M VID; MED PLAN DEVELOPMENT AND RECORD REVIE; ORAL MEDICATION ADMIN; E&M OP, ESTAB CLT, 20-29M VID; E&M OP, ESTAB CLT, 40-54M VID |
+| Confidence | high |
+| Notes | The invoice_date is extracted from the 'submitted as of' date in the document header, as this document is a claims report for January 2024 rather than a single invoice with a specific issue date. The billed_amount is the sum of all 'ContractedRate' entries across all pages of the document. |
+
+## SSG JTNH + Pine Lodge - Jan. 2024 (1 of 2)
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1162080_SSGJTNH_PineLodge-Jan.20241of2.pdf`  ·  88.5 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Special Services For Groups |
+| Invoice date | 2024-02-13 |
+| Billed amount | $300390.00 |
+| Deliverables | 40 Beds - Journey To New Horizons; 15 Beds - Pine Lodge |
+| Confidence | high |
+| Notes | Billing Address is redacted and therefore missing. The invoice date is taken from the signature dates (2/13/24) as no explicit 'Invoice Date' field is present and 'Month/Year: January 2024' indicates the billing period. |
+
+## SSG Mark Twain - Jan. 2024 (1 of 2)
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1162076_SSGMarkTwain-Jan.20241of2.pdf`  ·  82.3 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Special Services For Groups |
+| Invoice date | 2024-02-13 |
+| Billed amount | $364560.00 |
+| Deliverables | 56 Beds - The Mark Twain |
+| Confidence | high |
+| Notes | — |
+
+## Mark Twain - Jan. 2024 (2 of2)
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1162040_MarkTwain-Jan.2024.pdf`  ·  230.3 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | The Mark Twain |
+| Invoice date | 2024-01-31 |
+| Billed amount | — |
+| Deliverables | Interim Housing Program for Client #1: from 9/6/2023 to 1/31/24 (147 days); Interim Housing Program for Client #2: from 9/6/2023 to 1/31/24 (147 days); Interim Housing Program for Client #3: from 9/6/2023 to 1/31/24 (147 days); Interim Housing Program for Client #4: from 9/6/2023 to 1/31/24 (147 days); Interim Housing Program for Client #5: from 9/7/2023 to 1/31/24 (146 days); Interim Housing Program for Client #6: from 9/12/2023 to 1/31/24 (141 days); Interim Housing Program for Client #7: from 9/12/2023 to 1/31/24 (141 days); Interim Housing Program for Client #8: from 9/12/2023 to 1/31/24 (141 days); Interim Housing Program for Client #9: from 9/19/2023 to 1/31/24 (134 days); Interim Housing Program for Client #10: from 9/19/2023 to 1/31/24 (134 days); Interim Housing Program for Client #11: from 9/20/2023 to 1/31/24 (133 days); Interim Housing Program for Client #12: from 9/20/2023 to 1/31/24 (133 days); Interim Housing Program for Client #13: from 9/21/2023 to 1/31/24 (132 days); Interim Housing Program for Client #14: from 9/21/2023 to 1/31/24 (132 days); Interim Housing Program for Client #15: from 9/22/2023 to 1/31/24 (131 days); Interim Housing Program for Client #16: from 9/25/1934 to 1/31/24 (128 days); Interim Housing Program for Client #17: from 9/25/2023 to 1/31/24 (128 days); Interim Housing Program for Client #18: from 9/26/2023 to 1/5/24 (101 days); Interim Housing Program for Client #19: from 9/27/2023 to 1/31/24 (126 days); Interim Housing Program for Client #20: from 9/28/2023 to 1/31/24 (125 days); Interim Housing Program for Client #21: from 9/29/2023 to 1/31/24 (124 days); Interim Housing Program for Client #22: from 9/29/2023 to 1/25/24 (118 days); Interim Housing Program for Client #23: from 9/29/2023 to 1/31/24 (124 days); Interim Housing Program for Client #24: from 10/2/2023 to 1/31/24 (121 days); Interim Housing Program for Client #25: from 10/3/2023 to 1/31/24 (120 days); Interim Housing Program for Client #26: from 10/4/2023 to 1/31/24 (119 days); Interim Housing Program for Client #27: from 10/4/2023 to 1/31/24 (119 days); Interim Housing Program for Client #28: from 10/5/2023 to 1/24/24 (111 days); Interim Housing Program for Client #29: from 10/6/2023 to 1/31/24 (117 days); Interim Housing Program for Client #30: from 10/6/2023 to 1/31/24 (117 days); Interim Housing Program for Client #31: from 10/7/2023 to 1/31/24 (116 days); Interim Housing Program for Client #32: from 10/11/2023 to 1/31/24 (112 days); Interim Housing Program for Client #33: from 10/11/2023 to 1/31/24 (112 days); Interim Housing Program for Client #34: from 10/12/2023 to 1/31/24 (111 days); Interim Housing Program for Client #35: from 10/13/2023 to 1/31/24 (110 days); Interim Housing Program for Client #36: from 10/17/2023 to 1/31/24 (106 days); Interim Housing Program for Client #37: from 10/27/2023 to 1/31/24 (96 days); Interim Housing Program for Client #38: from 11/2/2023 to 1/31/24 (90 days); Interim Housing Program for Client #39: from 11/9/2023 to 1/31/24 (83 days); Interim Housing Program for Client #40: from 11/15/2023 to 1/31/24 (77 days); Interim Housing Program for Client #41: from 11/15/2023 to 1/31/24 (77 days); Interim Housing Program for Client #42: from 11/16/2023 to 1/31/24 (76 days); Interim Housing Program for Client #43: from 11/17/2023 to 1/31/24 (75 days); Interim Housing Program for Client #44: from 11/22/2023 to 1/31/24 (70 days); Interim Housing Program for Client #45: from 12/1/2023 to 1/15/2024 (45 days); Interim Housing Program for Client #46: from 12/1/2023 to 1/31/24 (61 days); Interim Housing Program for Client #47: from 12/6/2023 to 1/31/24 (56 days); Interim Housing Program for Client #48: from 12/9/2023 to 1/31/24 (53 days); Interim Housing Program for Client #49: from 12/21/2023 to 1/31/24 (41 days); Interim Housing Program for Client #50: from 12/21/2023 to 1/31/24 (41 days); Interim Housing Program for Client #51: from 12/21/2023 to 1/31/24 (41 days); Interim Housing Program for Client #52: from 1/5/2024 to 1/25/2024 (20 days); Interim Housing Program for Client #53: from 1/11/2024 to 1/25/2024 (14 days); Interim Housing Program for Client #54: from 1/16/2024 to 1/31/24 (25 days); Interim Housing Program for Client #55: from 1/18/2024 (readmit) to 1/31/24 (23 days); Interim Housing Program for Client #56: from 1/22/2024 to 1/31/24 (19 days); Interim Housing Program for Client #57: from 1/31/2024 to 1/31/2024 (0 days) |
+| Confidence | high |
+| Notes | Billed amount is not present on the document. Client names are redacted. Line 16 has a 'From (Date)' of '9/25/1934' which appears to be an anomaly or OCR error, but was extracted as printed. |
+
+## Journey to New Horizons - Jan. 2024 (2 of2)
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1162038_JourneytoNewHorizons-Jan.2024.pdf`  ·  199.9 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Journey to New Horizons |
+| Invoice date | 2024-01-31 |
+| Billed amount | — |
+| Deliverables | Interim Housing Program |
+| Confidence | medium |
+| Notes | Billed amount is missing. The invoice date was derived from the date next to the signature line, as '24-Jan' was too ambiguous. Deliverables are generalized as 'Interim Housing Program' because no specific line-item descriptions with associated prices are present, only client stay durations. |
+
+## Pine Lodge - Jan. 2024 (2 of2)
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1162034_PineLodge-Jan.2024.pdf`  ·  160.5 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Pine Lodge |
+| Invoice date | 2024-01-31 |
+| Billed amount | — |
+| Deliverables | Interim Housing Program for 137 days from 9/18/2023 to 1/31/2024; Interim Housing Program for 126 days from 9/28/2023 to 1/31/2024; Interim Housing Program for 104 days from 10/18/2023 to 1/29/2024; Interim Housing Program for 80 days from 11/13/2023 to 1/31/2024; Interim Housing Program for 73 days from 11/20/2023 to 1/31/2024; Interim Housing Program for 49 days from 12/14/2023 to 1/31/2024; Interim Housing Program for 9 days from 1/24/2024 to 1/31/2024; Interim Housing Program for 3 days from 1/29/2024 to 1/31/2024; Interim Housing Program for 1 day from 1/31/2024 to 1/31/2024 |
+| Confidence | high |
+| Notes | billed_amount is missing from the document. |
+
+## Hollywood Walk of Fame - Jan. 2024 (2 of2)
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1162036_HollywoodWalkofFame-Jan.2024.pdf`  ·  179.2 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | The Hollywood Walk of Fame Hotel |
+| Invoice date | Jan-24 |
+| Billed amount | — |
+| Deliverables | Interim Housing Program for Client 1 (Page 1): 1/1/2024 - 1/10/24 (10 Days); Interim Housing Program for Client 2 (Page 1): 1/1/2024 - 1/31/24 (31 Days); Interim Housing Program for Client 3 (Page 1): 1/1/2024 - 1/19/24 (19 Days); Interim Housing Program for Client 4 (Page 1): 1/1/2024 - 1/31/24 (31 Days); Interim Housing Program for Client 5 (Page 1): 1/1/2024 - 1/31/24 (31 Days); Interim Housing Program for Client 6 (Page 1): 1/1/2024 - 1/31/24 (31 Days); Interim Housing Program for Client 7 (Page 1): 1/1/2024 - 1/31/24 (31 Days); Interim Housing Program for Client 8 (Page 1): 1/1/2024 - 1/31/24 (31 Days); Interim Housing Program for Client 9 (Page 1): 1/1/2024 - 1/31/1202 (31 Days); Interim Housing Program for Client 10 (Page 1): 1/1/2024 - 1/31/24 (31 Days); Interim Housing Program for Client 1 (Page 2): 1/1/2024 - 1/31/24 (31 Days); Interim Housing Program for Client 2 (Page 2): 1/1/2024 - 1/31/24 (31 Days); Interim Housing Program for Client 3 (Page 2): 1/1/2024 - 1/31/24 (31 Days); Interim Housing Program for Client 4 (Page 2): 1/1/2024 - 1/31/24 (31 Days); Interim Housing Program for Client 5 (Page 2): 1/1/2024 - 1/31/24 (31 Days); Interim Housing Program for Client 6 (Page 2): 1/1/2024 - 1/31/24 (31 Days); Interim Housing Program for Client 7 (Page 2): 1/1/2024 - 1/31/24 (31 Days); Interim Housing Program for Client 8 (Page 2): 1/1/2024 - 1/31/24 (31 Days); Interim Housing Program for Client 9 (Page 2): 1/1/2024 - 1/31/24 (31 Days); Interim Housing Program for Client 10 (Page 2): 1/1/2024 - 1/31/24 (31 Days) |
+| Confidence | high |
+| Notes | Billed amount is not present on the document. Client names are redacted. The 'To (Date)' for Client 9 on Page 1 shows '1/31/1202', which appears to be a typo for '1/31/2024', but was extracted as stated. Client entries are identified by their row number and the page they appear on to distinguish them, as numbering restarts on page 2. |
+
+## Valley Star Olive View UCLA CRTP - Dec 2023
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1170537_ValleyStarOliveViewUCLACRTP-Dec2023.pdf`  ·  718.2 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | 19KO VALLEY STAR OLIVE VIEW UCLA CRTP |
+| Invoice date | — |
+| Billed amount | $40092.23 |
+| Deliverables | CRISIS RESIDENTIAL ADULT 18-64; LIFE SUPPORT; E&M OP, ESTAB CLT, 10-19M VID; MED PLAN DEVELOPMENT AND RECORD REVIE |
+| Confidence | high |
+| Notes | The document is a claims summary for services rendered in December 2023, not a single invoice with a single issue date. Therefore, a single 'invoice_date' is not present. The 'billed_amount' is the sum of all 'ContractedRate' line items across all pages of the claims summary. |
+
+## Central Star LAC-USC CRTP Jan. 2024 .pdf
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1161906_CentralStarLAC-USCCRTPJan.2024.pdf`  ·  783.1 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | 19KE CENTRAL STAR LAC - USC CRTP |
+| Invoice date | 2024-05-14 |
+| Billed amount | — |
+| Deliverables | CRISIS RESIDENTIAL ADULT 18-64; LIFE SUPPORT; E&M OP, ESTAB CLT,10-19M VID; CRISIS RESIDENTIAL ADULT 18-64 NON-MC; TCM; E&M OP, ESTAB CLIENT,15-24MIN (NON MC); E&M OP, ESTAB CLIENT,40+MIN (NON MC); TCM NON-MC; E&M OP, ESTAB CLIENT,10MIN (NON MC); E&M OP, ESTAB CLT,20-29M VID |
+| Confidence | medium |
+| Notes | The document is a claims summary, not a single invoice with an explicit total billed amount, so 'billed_amount' is null. The 'invoice_date' is extracted from the 'submitted as of' date in the document title, as it represents the report's generation date, which is the closest equivalent to an invoice date for this summary. |
+
+## Star View Rancho Los Amigos - CRTP - Jan 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1170524_StarViewRanchoLosAmigos-CRTP-Jan2024.pdf`  ·  725.5 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | 19JM STAR VIEW RANCHO LOS AMIGOS CRTP |
+| Invoice date | 2024-07-20 |
+| Billed amount | $69622.21 |
+| Deliverables | CRISIS RESIDENTIAL ADULT 18-64; MED PLAN DEVELOPMENT AND RECORD REVIE; E&M OP, ESTAB CLT,40-54M VID; LIFE SUPPORT; CRISIS RESIDENTIAL ADULT 18-64 NON-MC; E&M OP, ESTAB CLT,20-29M VID |
+| Confidence | high |
+| Notes | All requested fields were clearly present and extracted directly from the document. The 'invoice_date' is taken as the submission date '7/20/2024' mentioned in the document title, as it represents the date the claims document was generated/submitted. |
+
+## Pine Lodge Provider Invoice - December 2023.pdf
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1160038_PineLodgeProviderInvoice-December2023.pdf`  ·  38.5 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Pine Lodge |
+| Invoice date | 2023-12-31 |
+| Billed amount | — |
+| Deliverables | Interim Housing Program (105 days); Interim Housing Program (95 days); Interim Housing Program (75 days); Interim Housing Program (49 days); Interim Housing Program (49 days); Interim Housing Program (25 days); Interim Housing Program (42 days); Interim Housing Program (28 days) |
+| Confidence | medium |
+| Notes | Billed amount is not present on the document. Client names are redacted in the client's name column. |
