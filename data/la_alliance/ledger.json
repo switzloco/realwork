@@ -6801,5 +6801,364 @@
     "confidence": "high",
     "extraction_notes": "",
     "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Brilliant Corners - PSH - June 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201496_BrilliantCorners-PSH-June2025.pdf",
+    "vendor": "Brilliant Corners (ICMS/RRH/ERC)",
+    "invoice_date": "2025-07-14",
+    "billed_amount": 182073.75,
+    "deliverables": [
+      "ARPA",
+      "ARPA/FHSP",
+      "PHK (D7)",
+      "D7",
+      "Homesafe",
+      "CFCI 1",
+      "DHS",
+      "HFMH (D7)"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "A Community of Friends - PSH - June 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201494_ACommunityofFriends-PSH-June2025.pdf",
+    "vendor": "A Community of Friends",
+    "invoice_date": "2025-07-07",
+    "billed_amount": 301443.75,
+    "deliverables": [
+      "D7",
+      "D7 Flex",
+      "MHSA",
+      "PHK (D7)"
+    ],
+    "confidence": "high",
+    "extraction_notes": "Invoice date extracted from 'DATE SUBMITTED' and 'DATE INVOICE RECIEVED'. Billed amount extracted from 'AMOUNT REQUESTED' on page 1 and confirmed by 'Total Cost' in the 'BILLING SUMMARY' on page 56. Deliverables are identified as the fund categories listed in the 'BILLING SUMMARY' on page 56, representing the services provided.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "American Family Housing - PSH - June 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201495_AmericanFamilyHousing-PSH-June2025.pdf",
+    "vendor": "American Family Housing",
+    "invoice_date": "07/02/2025",
+    "billed_amount": 77280.0,
+    "deliverables": [
+      "Vacant Slot Cost",
+      "Occupied Slot Cost"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "VIP Community Mental Health Center, Inc. - PSH - June 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201492_VIPCommunityMentalHealthCenter_Inc.-PSH-June2025.pdf",
+    "vendor": "VIP Community Mental Health Center, INC.",
+    "invoice_date": "2025-07-15",
+    "billed_amount": 25357.5,
+    "deliverables": [
+      "Occupied Slots (Single Adult High Acuity)"
+    ],
+    "confidence": "high",
+    "extraction_notes": "Deliverables are summarized from the 'OCCUPIED SLOTS' section (pages 8-10) and 'BILLING SUMMARY' (page 11), which details 49 'Single Adult High Acuity' slots contributing to the total billed amount.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Weingart Center Association - PSH - June 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201493_WeingartCenterAssociation-PSH-June2025.pdf",
+    "vendor": "Weingart Center Association",
+    "invoice_date": "2025-07-09",
+    "billed_amount": 266807.5,
+    "deliverables": [
+      "ICMS costs billed under Work Order 395-HFH-ICMS",
+      "New Slot Cost (D7)",
+      "Vacant Slot Cost (D7)",
+      "Occupied Slot Cost (D7)",
+      "Occupied Slot Cost (PHK (D7))"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Venice Community Housing - PSH - June 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201491_VeniceCommunityHousing-PSH-June2025.pdf",
+    "vendor": "Venice Community Housing",
+    "invoice_date": "2025-06-10",
+    "billed_amount": 104993.75,
+    "deliverables": [
+      "D7 slots",
+      "DHS slots",
+      "MHSA slots",
+      "PHK (D7) slots"
+    ],
+    "confidence": "high",
+    "extraction_notes": "The invoice date was extracted from 'DATE SUBMITTED'. Deliverables are derived from the 'Fund' categories in the 'BILLING SUMMARY' on page 22, which represent aggregated costs for various types of slots (New, Vacant, Occupied).",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "The People Concern - PSH - June 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201490_ThePeopleConcern-PSH-June2025.pdf",
+    "vendor": null,
+    "invoice_date": null,
+    "billed_amount": null,
+    "deliverables": [],
+    "confidence": "low",
+    "extraction_notes": "PDF exceeds inline limit; use Gemini File API",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "The Center in Hollywood - PSH - June 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201489_TheCenterinHollywood-PSH-June2025.pdf",
+    "vendor": "The Center in Hollywood",
+    "invoice_date": "2025-07-01",
+    "billed_amount": 148091.25,
+    "deliverables": [
+      "Staffing",
+      "D7 Fund Services",
+      "DHS Fund Services",
+      "SAM Fund Services"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Step Up on Second - PSH - June 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201488_StepUponSecond-PSH-June2025.pdf",
+    "vendor": "Step Up on Second",
+    "invoice_date": "2025-07-02",
+    "billed_amount": 630657.5,
+    "deliverables": [
+      "ARPA",
+      "D7",
+      "ARPA/FHSP",
+      "DHS",
+      "SAM",
+      "Housing for Healthy CA",
+      "D7 Flex",
+      "HFMH (D7)",
+      "MHSA",
+      "SRAP"
+    ],
+    "confidence": "high",
+    "extraction_notes": "Invoice date and total billed amount are clearly stated on page 1 and confirmed by the summary table on page 108. Deliverables are extracted from the 'Fund' categories in the 'BILLING SUMMARY' table on page 108, as this document is a detailed report rather than a traditional line-item invoice.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Single Room Occupancy Housing - PSH - June 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201485_SingleRoomOccupancyHousing-PSH-June2025.pdf",
+    "vendor": "SRO Housing",
+    "invoice_date": "2025-07-03",
+    "billed_amount": 336995.0,
+    "deliverables": [
+      "D7",
+      "DHS",
+      "CFCI 2",
+      "Housing for Healthy CA",
+      "ARPA/FHSP",
+      "D7 Flex",
+      "MHSA"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "St. Joseph's Center - PSH - June 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201487_St.Joseph_sCenter-PSH-June2025.pdf",
+    "vendor": "St. Joseph's Center",
+    "invoice_date": "2025-07-01",
+    "billed_amount": 550790.0,
+    "deliverables": [
+      "ARPA",
+      "D7",
+      "D7 Flex",
+      "ARPA/FHSP",
+      "Housing for Healthy CA",
+      "SAM",
+      "DHS",
+      "HDAP (D7)",
+      "HFMH (D7)",
+      "MHSA",
+      "PHK (D7)"
+    ],
+    "confidence": "high",
+    "extraction_notes": "The invoice date was extracted from 'DATE SUBMITTED' on page 1. The billed amount is explicitly stated as 'AMOUNT REQUESTED' on page 1 and confirmed by the 'TOTAL' in the 'BILLING SUMMARY' on page 91. The deliverables are the categories listed in the 'BILLING SUMMARY' on page 91. Pages 92-95 contain notifications of payment recovery due to disallowed costs for May 2025 ($517.50) and June 2025 ($1,293.75). These are stated as future deductions by Los Angeles County from the agency's 'next submitted ICMS invoice' and are not included in the 'billed_amount' of this specific invoice.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "SSG HOPICS Project 180 - PSH - June 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201486_SSGHOPICSProject180-PSH-June2025.pdf",
+    "vendor": "SSG/HOPICS/Project180",
+    "invoice_date": "2025-07-07",
+    "billed_amount": 580982.5,
+    "deliverables": [
+      "ARPA",
+      "ARPA/FHSP",
+      "D7",
+      "DHS",
+      "SAM",
+      "D7 Flex",
+      "DHSP (D7)",
+      "ERF-PTH",
+      "HDAP",
+      "HDAP (D7)",
+      "HFMH (D7)",
+      "Housing for Healthy CA",
+      "MHSA",
+      "PHK (D7)"
+    ],
+    "confidence": "high",
+    "extraction_notes": "The vendor name was extracted from 'AGENCY NAME' on page 5. The invoice date was extracted from 'DATE SUBMITTED' on page 5. The billed amount was extracted from 'AMOUNT REQUESTED' on page 5 and verified against the 'Total Cost' in the 'BILLING SUMMARY' on page 96. Deliverables are the 'Fund' categories listed in the 'BILLING SUMMARY' on page 96. Pages 1 and 3 are notifications of payment recovery from Los Angeles County, referencing deductions applied to this invoice, rather than the invoice itself.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "PATH - PSH - June 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201483_PATH-PSH-June2025.pdf",
+    "vendor": "PATH",
+    "invoice_date": "2025-07-03",
+    "billed_amount": 1107795.0,
+    "deliverables": [
+      "ARPA",
+      "ARPA/FHSP",
+      "D7",
+      "D7 Flex",
+      "DHS",
+      "SAM",
+      "MA-PTH",
+      "ERF-PTH",
+      "HDAP (D7)",
+      "HFMH (D7)",
+      "Housing for Healthy CA",
+      "MHSA",
+      "PHK (D7)",
+      "SRAP"
+    ],
+    "confidence": "high",
+    "extraction_notes": "Invoice date extracted from 'DATE INVOICE RECEIVED'. Billed amount extracted from 'AMOUNT REQUESTED'. Deliverables extracted from the 'Fund' column in the 'BILLING SUMMARY' table on the last page, representing categories of services/slots.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Mental Health America LB - PSH - June 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201482_MentalHealthAmericaLB-PSH-June2025.pdf",
+    "vendor": "Mental Health America (MHA), Long Beach",
+    "invoice_date": "2025-07-07",
+    "billed_amount": 265477.5,
+    "deliverables": [
+      "ARPA/FHSP",
+      "D7",
+      "DHS",
+      "SAM",
+      "Housing for Healthy CA",
+      "D7 Flex",
+      "DCFS/HSSP",
+      "HFMH (D7)",
+      "MHSA"
+    ],
+    "confidence": "high",
+    "extraction_notes": "Invoice date derived from 'DATE SUBMITTED' and 'DATE INVOICE RECIEVED' fields on page 1, as this document is an invoice report.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Penny Lane - PSH - June 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201484_PennyLane-PSH-June2025.pdf",
+    "vendor": "Penny Lane",
+    "invoice_date": "2025-07-10",
+    "billed_amount": 114195.0,
+    "deliverables": [
+      "D7 Vacant Slots",
+      "D7 Occupied Slots",
+      "D7 Flex Vacant Slots",
+      "D7 Flex Occupied Slots",
+      "MHSA Vacant Slots",
+      "MHSA Occupied Slots"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "LINC - PSH - June 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201481_LINC-PSH-June2025.pdf",
+    "vendor": "LINC",
+    "invoice_date": "2025-07-09",
+    "billed_amount": 382432.5,
+    "deliverables": [
+      "ARPA/FHSP",
+      "D7",
+      "MHSA",
+      "D7 Flex",
+      "Housing for Healthy CA",
+      "PHK (D7)"
+    ],
+    "confidence": "high",
+    "extraction_notes": "The document also includes a 'NOTIFICATION OF PAYMENT RECOVERY DUE TO DISALLOWED COSTS' totaling $1,552.50 for May 2025. This amount represents a recovery by Los Angeles County for disallowed costs, not a service LINC is billing for in this invoice. The 'billed_amount' and 'deliverables' reflect the 'AMOUNT REQUESTED' and the categories from the 'BILLING SUMMARY' on the last page of the report, which total the requested amount.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Life Skills Training and Educational Programs - PSH - June 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201480_LifeSkillsTrainingandEducationalPrograms-PSH-June2025.pdf",
+    "vendor": "Life Skills Training and Educational Programs",
+    "invoice_date": "2025-07-07",
+    "billed_amount": 298108.75,
+    "deliverables": [
+      "CFCI 2",
+      "D7",
+      "ARPA/FHSP",
+      "DHS",
+      "HFMH (D7)",
+      "MHSA"
+    ],
+    "confidence": "high",
+    "extraction_notes": "The year for 'invoice_date' was inferred to be 2025 based on other dates on the document (e.g., the 'RECEIVED' stamp 'Jul 21, 2025'). Deliverables are listed as the 'Fund' categories from the 'BILLING SUMMARY' table on page 52, as these represent the distinct line-items for which costs are aggregated in this report.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "LA Family Housing - PSH - June 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201479_LAFamilyHousing-PSH-June2025.pdf",
+    "vendor": "LA Family Housing (LAFH)",
+    "invoice_date": "2025-07-02",
+    "billed_amount": 594033.75,
+    "deliverables": [
+      "D7",
+      "PHK (D7)",
+      "SAM",
+      "D7 Flex",
+      "DHS",
+      "MHSA"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Jenessse Center Inc. - PSH - June 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201477_JenessseCenterInc.-PSH-June2025.pdf",
+    "vendor": "Jenesse Center, Inc.",
+    "invoice_date": "7/11/2025",
+    "billed_amount": 24322.5,
+    "deliverables": [
+      "Vacant Slot Costs",
+      "Occupied Slot Costs"
+    ],
+    "confidence": "high",
+    "extraction_notes": "The invoice date is taken from the 'DATE SUBMITTED' field as the document is an 'HFH Project Invoice Report'. Deliverables are listed as categories in the 'BILLING SUMMARY' section.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Koreatown Youth and Community Center - PSH - June 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201478_KoreatownYouthandCommunityCenter-PSH-June2025.pdf",
+    "vendor": "Koreatown Youth and Community Center (KYCC)",
+    "invoice_date": "7/3/2025",
+    "billed_amount": 84180.0,
+    "deliverables": [
+      "ICMS services for permanent supportive housing slots (D7, D7 Flex, MHSA funded)"
+    ],
+    "confidence": "high",
+    "extraction_notes": "The billed_amount of $84,180.00 is taken from 'AMOUNT REQUESTED' on Page 1 and confirmed by the 'TOTAL Cost' in the BILLING SUMMARY on Page 22. The document also notes a deduction of $517.50 for disallowed costs, resulting in a 'Total Inv amount AR' of $83,662.50, but the prompt asks for the total billed amount, which is the higher value before recovery. The deliverables are identified from references to 'ICMS costs billed under Work Order 095-HFH-ICMS', the 'Housing for Health Division', 'Permanent Supportive Housing Edition', and the billing summary categorizing costs by 'Fund' (D7, D7 Flex, MHSA) and 'Slot Cost' (Vacant and Occupied).",
+    "extractor": "gemini-2.5-flash"
   }
 ]
