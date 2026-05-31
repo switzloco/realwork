@@ -782,6 +782,7 @@ Right: the normalized ledger row our agent extracted autonomously.
 | Deliverables | Recovery Bridge Housing (H2034) |
 | Confidence | high |
 | Notes | The document is a multi-page report detailing services, not a single invoice. The 'invoice_date' refers to the period the report covers and cannot be formatted as YYYY-MM-DD. Pages 3, 5, and 8 were not provided in the OCR transcriptions and therefore their data could not be extracted or included in the total billed amount. The billed amount is a summation of 'Total Charge' line items from the available OCR pages. Services span across February of 2024, 2023, and 2022, with daily rates of $55.00 in 2024 and $50.00 in 2023 and 2022. |
+<<<<<<< Updated upstream
 
 ## Healthright 360 - Recovery Bridge Housing - Feb. 2024
 
@@ -4942,3 +4943,5 @@ Right: the normalized ledger row our agent extracted autonomously.
 | Deliverables | 46 Beds |
 | Confidence | high |
 | Notes | The invoice date was determined from the '9/11/24' date associated with signatures on page 1. Page 2 also shows '09-06-24' for a signature date, but the latest date on the main billing summary (page 1) was chosen as the invoice date. The deliverable '46 Beds' is explicitly stated as the line item on page 1. |
+=======
+>>>>>>> Stashed changes
