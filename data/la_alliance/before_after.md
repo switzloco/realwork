@@ -2212,3 +2212,263 @@ Right: the normalized ledger row our agent extracted autonomously.
 | Deliverables | Recovery Bridge Housing (H2034) |
 | Confidence | high |
 | Notes | The document lists multiple service dates (July 2024) and refers to a 'July 2025' period in its header, but no single 'invoice date' for the entire report is explicitly stated. No grand total 'billed_amount' for all line items is present on the document; only individual line item charges are listed. |
+
+## Divine Healthcare Services Inc. - Recovery Bridge Housing - July 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1200919_DivineHealthcareServicesInc.-RecoveryBridgeHousing-July2025.pdf`  ·  250.7 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | DIVINE HEALTHCARE SERVICES, INC. |
+| Invoice date | — |
+| Billed amount | — |
+| Deliverables | Recovery Bridge Housing (RBHSH) |
+| Confidence | high |
+| Notes | The document is a detailed transaction log rather than a summary invoice. A single 'invoice_date' and total 'billed_amount' are not present; only individual service dates and charges are listed. 'Recovery Bridge Housing (RBHSH)' is taken from the 'Service Type' column. |
+
+## Cri-Help Inc. - Recovery Bridge Housing - July 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1200918_Cri-HelpInc.-RecoveryBridgeHousing-July2025.pdf`  ·  238.1 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | CRI-HELP, INC. |
+| Invoice date | — |
+| Billed amount | $10466.50 |
+| Deliverables | Recovery Bridge Housing (H2034) |
+| Confidence | high |
+| Notes | invoice_date is not present as a single date. The document is a service report summarizing services rendered from July 1, 2024, through July 27, 2024. The header 'July 2025' is inconsistent with the service dates of July 2024. The billed_amount was calculated by summing all 'Total Delivered' line items (173 lines * $60.50). |
+
+## Beit Tshuvah - Recovery Bridge Housing - July 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1200917_BeitTshuvah-RecoveryBridgeHousing-July2025.pdf`  ·  218.1 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Belt Tuvok |
+| Invoice date | — |
+| Billed amount | $7381.00 |
+| Deliverables | Recovery Bridge Housing |
+| Confidence | medium |
+| Notes | Invoice date could not be determined in ISO YYYY-MM-DD format as the document only specifies 'July 2025' as the billing period, and inferring a specific day is forbidden by instructions. The total billed amount was calculated by summing 122 line items, each for $60.50. |
+
+## Landmark Invoice Jun 2025 SNF-STP
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1202156_LandmarkInvoiceJun2025SNF-STP.pdf`  ·  612.2 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Landmark Medical Services Inc. |
+| Invoice date | — |
+| Billed amount | $604978.73 |
+| Deliverables | Access to Care; RETRO SOC PAYMENT; Physical Patch; Behavioral Patch |
+| Confidence | high |
+| Notes | Invoice date not explicitly stated on the document. The date 7/30/2025 is an approval date, not the invoice date. |
+
+## Exodus Recovery Inc. - June 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201552_ExodusRecoveryInc.-June2025.pdf`  ·  508.3 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Exodus Recovery, Inc |
+| Invoice date | 2025-07-16 |
+| Billed amount | $46871.13 |
+| Deliverables | ICMS - Street-Based Engagement; Program Manager; CM Housing - City/County Team; CM SUD - City/County Team; LVN - City/County Team; Community Worker - City/CountyTeam; Mental Health Clinician/Team Lead - City/CountyTeam; Client/Member Expenses; Program Supplies |
+| Confidence | medium |
+| Notes | Invoice date was extracted from 'DATE SUBMITTED' on page 1, item 8, as no explicit 'Invoice Date' field was present. Deliverables include the overarching service category, specified personnel roles (as they represent the provision of professional staff services), and direct client/program expense line items, as other line items were primarily operational costs. |
+
+## Programs Downey CRTP - Jul 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1195317_ProgramsDowneyCRTP-Jul2025.pdf`  ·  620.5 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | 19LG CRT PROGRAMS DOWNEY |
+| Invoice date | — |
+| Billed amount | $138138.83 |
+| Deliverables | CRISIS RESIDENTIAL ADULT 18-64; ORAL MEDICATION ADMIN; E&M OP, NEW CLIENT, 60+MIN; TCM; E&M OP, ESTAB CLIENT, 15-24MIN; E&M OP, ESTAB CLIENT, 10MIN |
+| Confidence | high |
+| Notes | The document states 'Claims for July 2025' which indicates the billing period, not a specific invoice date in YYYY-MM-DD format. Therefore, 'invoice_date' is returned as null. The 'billed_amount' was calculated by summing all 'ContractedRate' values from the entire document, as no single total amount was provided. |
+
+## The People Concern 4 - June 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201550_ThePeopleConcern4-June2025.pdf`  ·  801.1 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | THE PEOPLE CONCERN |
+| Invoice date | 2025-07-31 |
+| Billed amount | $29579.86 |
+| Deliverables | ICMS - Street-Based Engagement; Salaries; Workers' Compensation; Health Insurance; Fica / Medicare; 403b ER Match; Client Expense; Copier & Postage - Lease; Office Supplies; Insurance - Liability; Repair & Maintenance; Telephone / Internet; Utilities; Trash Removal Services; Mileage-Local; Technology Licenses & Subscript; Memberships, Dues, Subscriptions; Administrative Overhead |
+| Confidence | high |
+| Notes | The invoice date was determined from the 'DATE SUBMITTED' field, as a specific 'invoice date' label was not present. The overall service category 'ICMS - Street-Based Engagement' was taken from page 1, and detailed deliverables were extracted from the 'Expense' section on page 4, which provided a comprehensive summary of billed items. |
+
+## The People Concern 5 - June 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201551_ThePeopleConcern5-June2025.pdf`  ·  3048.0 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | THE PEOPLE CONCERN |
+| Invoice date | 2025-06-30 |
+| Billed amount | $220014.49 |
+| Deliverables | Salaries; Workers' Compensation; S.U.I.; Health Insurance; Fica / Medicare; 403b ER Match; Client Personal/Med. Exp.; Client Expense; Professional Development; Client Exp-Food; Client Exp-Gift Cards; Computer Maintenance & Repair; Furniture; Staff Parking; Subcontractor Expense; Vehicle Leasing; Gas/Vehicles; Recruiting & Job Ads; Program Supplies; Office Supplies; Insurance - Liability; Repair & Maintenance; Storage & Other; Telephone / Internet; Utilities; Trash Removal Services; Mileage-Local; Training; Travel; Technology Licenses & Subscript; Memberships, Dues, Subscriptions; Administrative Overhead |
+| Confidence | high |
+| Notes | Invoice date was determined from the 'CLAIM PERIOD (MO./YR): Jun-25' on page 1 and 'Invoice Month: Jun-25' on page 4, interpreted as the end of the month for a monthly invoice (2025-06-30). Deliverables were extracted from the 'Profit & Loss' statement on page 6, which lists the expense categories contributing to the total billed amount. |
+
+## The People Concern 3 - June 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201549_ThePeopleConcern3-June2025.pdf`  ·  953.7 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | The People Concern |
+| Invoice date | 2025-07-30 |
+| Billed amount | $56487.06 |
+| Deliverables | Assistant Director; Outreach Case Manager; Administrative/Data; Facilities and Maintenance Engin; Staff Psychiatrist; Workers' Compensation; S.U.I.; Health Insurance; 403b ER Match; Fica / Medicare; Client/Member Expenses; Recruitment Placement Costs; Program Supplies; Staff Parking; Insurance - Liability; Training; Memberships, Dues, Subscript Training; Technology Licenses & Subs Telecommunications; Telephone / Internet; Facility Costs-Repair, Maintenance, Janitorial and Utilities; Purchasing Medical Services; ADMINISTRATIVE COSTS - 15% |
+| Confidence | high |
+| Notes | Invoice date was taken from 'DATE SUBMITTED' (F.8) on page 1, which aligns with 'DATE INVOICE RECEIVED' (L) on page 1. Deliverables were extracted from the 'Budget Line Item Description' column on page 3 for items with 'Current Month Costs' greater than zero. |
+
+## The People Concern 2 - June 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201548_ThePeopleConcern2-June2025.pdf`  ·  3940.7 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | The People Concern |
+| Invoice date | 2025-07-25 |
+| Billed amount | $107183.55 |
+| Deliverables | Salaries; Workers' Compensation; S.U.I.; Health Insurance; Fica / Medicare; 403b ER Match; Client Personal/Med. Exp.; Client Expense; Client Incentives; Client Motel Vouchers; Client Exp-Food; Client Exp-Transportation; Client Exp-Essential Furnishing; Client Exp-Gift Cards; Staff Parking; Subcontractor Expense; Copier & Postage - Lease; Vehicle Leasing; Gas/Vehicles; Program Supplies; Office Supplies; Survival Supplies; Insurance - Liability; Rent Expense; Telephone / Internet; Mileage-Local; Technology Licenses & Subscript; Memberships, Dues, Subscriptions; Administrative Overhead |
+| Confidence | high |
+| Notes | — |
+
+## The Center in Hollywood - June 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201546_TheCenterinHollywood-June2025.pdf`  ·  295.2 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | The Center in Hollywood |
+| Invoice date | 2025-07-15 |
+| Billed amount | $21574.07 |
+| Deliverables | Program Manager, Clinical; Case Manager, ICMS; Generalist; Substance Use Specialist; Peer Advocate; Director of Programs; Clinical Director; Program Coordinator; Employee Benefits; Parking and Mileage; Training/Staff Development; Client Expenses; Program Supplies; Office Supplies and Expenses; Telephone/Communications; Professional/Liability Insurance; Medical Vendor; Administrative Overhead; Space Costs |
+| Confidence | high |
+| Notes | — |
+
+## The People Concern - June 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201547_ThePeopleConcern-June2025.pdf`  ·  2423.9 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | The People Concern |
+| Invoice date | 2025-08-06 |
+| Billed amount | $282036.53 |
+| Deliverables | ICMS - Street-Based Engagement |
+| Confidence | high |
+| Notes | Invoice date taken from 'DATE SUBMITTED' and the date next to 'AUTHORIZED SIGNATURE'. 'ICMS - Street-Based Engagement' is identified as the primary service/deliverable from the 'SERVICE CATEGORY' field. The detailed items on subsequent pages are categorized as expense types incurred to deliver this service, rather than distinct line-item services/deliverables themselves. |
+
+## Special Services of Groups Inc. 2 - June 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201544_SpecialServicesofGroupsInc.2-June2025.pdf`  ·  1205.6 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Special Services for Groups, Inc. |
+| Invoice date | 2025-06-30 |
+| Billed amount | $95619.46 |
+| Deliverables | I. PERSONNEL TITLE AND % FTE; Program Manager; Program Supervisor; Data Specialist II; Lead Outreach Case Manager; Outreach Case Manager; Peer Case Manager; Mental Health Outreach; SUD Counselor; Outreach Nurse; Program Specialist; Fleet Coordinator; Client Support Services; Senior Manager for Mental Health; EMPLOYEE BENEFITS @ 27%; II. SERVICES & SUPPLIES (ONGOING); Client/Member Expenses; Training/Staff Development; Program Supplies; Office Supplies, Postage; Staff Mileage/Parking; Telephone/Communications/Utilities; Vehicle Maintenance (Fuel, repairs, maintenance); Purchasing Ancillary Services; III. SUBCONTRACTORS; Subcontractor (1) N/A; Subcontractor (2) N/A; Subcontractor (3) N/A; IV. ADMINISTRATIVE; Administrative Overhead; V. SUBCONTRACTORS IN EXCESS OF $25,000; Subcontractor (1) N/A; Subcontractor (2) N/A; Subcontractor (3) N/A; VI. OTHER COSTS EXCLUDED FROM DE MINIMIS RATE; Office Space; Equipment Lease; Equipment/Furniture Purchase (One Time); IT Software and Set-up (One Time); Vehicle Lease (including One Time) |
+| Confidence | high |
+| Notes | All requested fields were present and clearly readable on the document. |
+
+## St. Joseph Center - June 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201545_St.JosephCenter-June2025.pdf`  ·  5189.3 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | St. Joseph Center |
+| Invoice date | 2025-06-30 |
+| Billed amount | $172128.25 |
+| Deliverables | Personnel (including staff salaries and employee benefits); Services & Supplies (Ongoing); Subcontractors; Vendor - Venice Family Clinic; Administrative Overhead/Costs; Other Costs Excluded From De Minimis Rate |
+| Confidence | high |
+| Notes | The document is a Monthly Invoice from St. Joseph Center to Los Angeles County. The invoice date is taken from the 'DATE SUBMITTED' on page 2. The billed amount is explicitly stated as 'AMOUNT REQUESTED' on page 2 and 'INVOICE AMOUNT' on page 3. Page 14's MTD Summary also confirms 'Total Billed: $172,128.25' from 'Total EXPENSES: $173,406.10' with a 'Not Billed' variance of $1,277.85. Deliverables are extracted from the main line item categories on page 3, which is the detailed monthly invoice. |
+
+## Mental Health America of Los Angeles - June 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201541_MentalHealthAmericaofLosAngeles-June2025.pdf`  ·  1727.2 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Mental Health America of Los Angeles SPA 8 |
+| Invoice date | 2025-06-27 |
+| Billed amount | $28956.04 |
+| Deliverables | ICMS - Street Based Engagement; Intensive Case Management Services; Personnel; Employee Benefits; Services & Supplies (Ongoing); Subcontractors; Administrative Overhead/Costs; Other Costs Excluded from De Minimis Rate |
+| Confidence | high |
+| Notes | Invoice date derived from 'DATE SUBMITTED' and 'DATE' by authorized signature on Page 1, both stating June 27, 2025. Deliverables are a combination of the overall service categories from Page 1 and Page 2, and the main cost breakdown categories from Page 2. |
+
+## Mental Health America of Los Angeles 2 - June 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201542_MentalHealthAmericaofLosAngeles2-June2025.pdf`  ·  1795.1 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Mental Health of America of Los Angeles (SPA 8) |
+| Invoice date | 2025-06-27 |
+| Billed amount | $117872.27 |
+| Deliverables | Chief Service Officer South County; Senior Director of Outreach Services/Street Based Medicine; Assistant Director/Nursing Director; Clinical Supervisor, Licensed; Program Manager; Field Based Program Manager, ASW (Sat to Wed); Generalist Outreach Worker-Public Spaces; Outreach Specialist - MSW-Sat to Wed; Outreach Specialist - MSW; Outreach Specialist, LVN; Outreach Specialist, RN; Outreach Specialist, LVN/LPT (not hiring); Outreach Specialist-Substance Abuse; Outreach Specialist-Substance Abuse - Sat to Wed; Outreach Specialist Sat to Wed; Outreach Specialist; Senior Director of Evaluation & Compliance; Quality Assurance/Quality Improvement position; Quality Assurance Data Entry Specialist; Accounting Staff; Client Expenses; Insurance; Program Supplies; Office Supplies, Postage, Printing (Business Card); Staff Mileage/Parking; Staff Recruitment/Training/Development; Telephone/Communications; Vehicle Maintenance and Gas; Utilities/Alarm System; Repair & Maintenance; Property taxes and Depreciation; Equipment; Medical Oversight/Consultation - Bartz-Altadonna; Administrative Overhead |
+| Confidence | high |
+| Notes | Invoice date extracted from 'DATE SUBMITTED' on Page 1. Billed amount extracted from 'AMOUNT REQUESTED' on Page 1 and confirmed by 'Total Billing for Jun 2025' on Page 6. Deliverables are derived from the 'BUDGETED LINE ITEM' section on Page 2, excluding subtotals. |
+
+## Special Services of Groups Inc. - June 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201543_SpecialServicesofGroupsInc.-June2025.pdf`  ·  4336.9 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Special Group for Groups - SPA 6 |
+| Invoice date | 2025-06-30 |
+| Billed amount | $997329.06 |
+| Deliverables | Personnel; Employee Benefits; Client/Member Expenses; Training/Staff Development; Program Supplies; Office Supplies, Postage; Staff Mileage/Parking; Telephone/Communications/Utilities; Vehicle Maintenance (Fuel, repairs, maintenance); Auxiliary Services; Administrative Overhead; Office Space; Phone and Office Equipment; Equipment/Furniture Purchase (One Time); IT Software and Set-up (One Time); Vehicle Lease (including One Time) |
+| Confidence | high |
+| Notes | All requested fields were clearly present on the document. Line items for 'Vendors', 'Subcontractors', and 'Subcontractors in Excess of $25,000' on page 2 showed no expended amounts for this month and were therefore not included in the deliverables list as actual billed services for this period. |
+
+## Hope of the Valley Rescue Mission (CD3) - June 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201538_HopeoftheValleyRescueMission_CD3_-June2025.pdf`  ·  209.5 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Hope of the Valley Rescue Mission |
+| Invoice date | 2025-07-24 |
+| Billed amount | $55115.43 |
+| Deliverables | I. PERSONNEL TITLE AND % FTE; II. SERVICES & SUPPLIES (ONGOING); III. LEASE; ADMINISTRATIVE OVERHEAD/COSTS @ 15% |
+| Confidence | high |
+| Notes | — |
+
+## LA Family Housing Corporation - June 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201539_LAFamilyHousingCorporation-June2025.pdf`  ·  1677.5 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | LA Family Housing Corporation - Expansion |
+| Invoice date | 2025-07-16 |
+| Billed amount | $103993.29 |
+| Deliverables | Director of Engagement; Assistant Director of Outreach; Outreach Manager MDT 3, City County Expansion; Outreach Manager MDT 5, City/County Expansion; Case Manager - Mental Health Specialist City/County 1/Weekend; Case Manager - Mental Health Specialist City/County 2; Case Manager-Substance Abuse Specialist City/County 1/Weekend; Case Manager-Substance Abuse Specialist City/County 2; Case Manager-Outreach Specialist City/County1/Weekend; Case Manager - Outreach Specialist City/County 2; Case Manager-Peer Specialist City/County 1/Weekend C; Case Manager - Peer Specialist City/County 2; Outreach Program Assistant; Data Coordinator; Employee Benefits @ 27%; Client/Member Expenses; Training/Staff Development; Program Supplies; Office Supplies, Postage; Professional/Liability Insurance; Telephone/Communications; Vehicle Maintenance (Fuel, repairs, maintenance); NEVHC (Medical Services); Office Space; Equipment Lease |
+| Confidence | high |
+| Notes | — |
+
+## LA Family Housing Corporation 2 - June 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201540_LAFamilyHousingCorporation2-June2025.pdf`  ·  2198.2 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Los Angeles Family Housing Corporation |
+| Invoice date | 2025-07-16 |
+| Billed amount | $229841.54 |
+| Deliverables | ICMS - Street-Based Engagement; LAFH SPA 2 - Measure H; Case Manager - Street Engagement; Case Manager - Mental Health Specialist MDT 1; Case Manager - Mental Health Specialist MDT 2; Case Manager - Mental Health Specialist MDT 3; Case Manager - Mental Health Specialist MDT 4; Case Manager - Mental Health Specialist MDT 5; Case Manager - Mental Health Specialist MDT 1 (Weekend); Case Manager - Substance Abuse Specialist MDT 1; Case Manager - Substance Abuse Specialist MDT 2; Case Manager - Substance Abuse Specialist MDT 3; Case Manager - Substance Abuse Specialist MDT 4; Case Manager - Substance Abuse Specialist MDT 5 (Weekend); Case Manager - Outreach Specialist 1; Case Manager - Outreach Specialist 2; Case Manager - Outreach Specialist 3; Case Manager - Outreach Specialist 4; Case Manager - Outreach Specialist 5 (Weekend); Case Manager - Peer Specialist MDT 1; Case Manager - Peer Specialist MDT 2; Case Manager - Peer Specialist MDT 3; Case Manager - Peer Specialist MDT 4; Case Manager - Peer Specialist MDT 5 (Weekend/Sun); Case Manager - Peer Specialist MDT 1 (Weekend/Sun); Direct Program Assistant; Office Assistant; Program Director; CoC Contract and Grant; CoC Senior Admin; EMPLOYEE BENEFITS @ 27%; Client Needs; Subcontractors; Indirect Cost Allocation |
+| Confidence | high |
+| Notes | Invoice date converted to ISO YYYY-MM-DD. Deliverables include both the high-level service category and program name from page 1, and detailed line-item services/deliverables with expended amounts from the table on page 2. |
