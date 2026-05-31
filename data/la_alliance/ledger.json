@@ -6151,5 +6151,655 @@
     "confidence": "high",
     "extraction_notes": "Invoice date converted to ISO YYYY-MM-DD. Deliverables include both the high-level service category and program name from page 1, and detailed line-item services/deliverables with expended amounts from the table on page 2.",
     "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Hope of the Valley Rescue Mission - June 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201537_HopeoftheValleyRescueMission-June2025.pdf",
+    "vendor": "Hope of the Valley Rescue Mission",
+    "invoice_date": "2025-08-06",
+    "billed_amount": 108003.41,
+    "deliverables": [
+      "Outreach Program Manager and Clinical Case Manager",
+      "SUD Outreach Counselor",
+      "Outreach Peer Specialist",
+      "Case Manager",
+      "EMPLOYEE BENEFITS @ 26.876374%",
+      "Client Expenses",
+      "Program Supplies",
+      "Office Supplies, Postage, Printing",
+      "Staff Training / Development",
+      "Field Telephone / Communications",
+      "Vehicle Gas / Maintenance / Insurance",
+      "Administrative Overhead",
+      "Vehicle",
+      "Office Space",
+      "Computer Software & Hardware"
+    ],
+    "confidence": "high",
+    "extraction_notes": "Vendor name, invoice date, and billed amount were clearly stated and consistent across page 1 and page 2. Deliverables were extracted from the 'BUDGETED LINE ITEM' column on page 2.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Homeless Health Los Angeles 2 - June 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201536_HomelessHealthLosAngeles2-June2025.pdf",
+    "vendor": "Homeless Health Los Angeles",
+    "invoice_date": "2025-07-31",
+    "billed_amount": 50891.4,
+    "deliverables": [
+      "Peer Specialist MDT3",
+      "Substance Use Specialist MDT3",
+      "RN IMDT3",
+      "Team Lead MDT3",
+      "Director of Outreach/Director of Outreach MDT3",
+      "Mental Health Therapist MDT3",
+      "Case Manager MDT3",
+      "Employee Benefits @34.8125%",
+      "Facility Maintenance",
+      "Vehicle Maintenance",
+      "Telephone",
+      "Program Supplies",
+      "Office Supplies",
+      "Utilities",
+      "Liability Insurance",
+      "Client Expenses & LYFT",
+      "Parking and Mileage",
+      "Misc Fees",
+      "Depreciation",
+      "Office space",
+      "Copier Lease",
+      "Payroll Fees",
+      "Administrative Overhead"
+    ],
+    "confidence": "high",
+    "extraction_notes": "All requested fields were clearly present. Deliverables were extracted from line items with values in the 'THIS MONTH' column on page 2 of the invoice.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Weingart Center Association - IH - June 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201534_WeingartCenterAssociation-IH-June2025.pdf",
+    "vendor": "Weingart Center Association",
+    "invoice_date": "2025-06-02",
+    "billed_amount": 766170.0,
+    "deliverables": [
+      "Stabilization",
+      "Enhanced Services Beds (E"
+    ],
+    "confidence": "high",
+    "extraction_notes": "Invoice date taken from the signature date 'Monday, June 2, 2025', which aligns with the claim period of Jun-2025. Deliverables are extracted from the 'PROGRAM TYPE' line items on page 2.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Homeless Health Los Angeles - June 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201535_HomelessHealthLosAngeles-June2025.pdf",
+    "vendor": "Homeless Health Los Angeles",
+    "invoice_date": "2025-07-31",
+    "billed_amount": 88750.71,
+    "deliverables": [
+      "TOTAL PERSONNEL",
+      "Facility Maintenance",
+      "Client Transportation - Lease of 1 Van and Maintenance",
+      "Telephone",
+      "Program Supplies",
+      "Office Supplies",
+      "Utilities",
+      "Liability Insurance",
+      "Client Expenses",
+      "Emergency Housing",
+      "Staff Training",
+      "Parking and Mileage",
+      "Recruitment - TB Testing for existing staff",
+      "Misc Fees",
+      "Depreciation",
+      "Office space",
+      "Copier Lease",
+      "Vehicle Lease",
+      "Ben Jarvis",
+      "Payroll Fees",
+      "Dr. Partovi - Med Purchased Services",
+      "Administrative Overhead"
+    ],
+    "confidence": "high",
+    "extraction_notes": "Invoice date derived from 'DATE SUBMITTED'. Deliverables are extracted from the line-item categories in the 'MONTHLY INVOICE' detail on page 2. Individual personnel roles are summarized under 'TOTAL PERSONNEL'.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "The People Concern (TPC) 2 - IH - June 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201532_ThePeopleConcern_TPC_2-IH-June2025.pdf",
+    "vendor": "The People Concern (TPC)",
+    "invoice_date": "2025-06-03",
+    "billed_amount": 211401.6,
+    "deliverables": [
+      "Recuperative Care"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "The People Concern (TPC) - IH - June 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201531_ThePeopleConcern_TPC_-IH-June2025.pdf",
+    "vendor": "The People Concern (TPC)",
+    "invoice_date": "2025-06-03",
+    "billed_amount": 130350.0,
+    "deliverables": [
+      "Stabilization",
+      "Enhanced Services Beds (ESB)"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Union Station Homeless Services (USHS) - IH - June 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201533_UnionStationHomelessServices_USHS_-IH-June2025.pdf",
+    "vendor": "Union Station Homeless Services (USHS)",
+    "invoice_date": null,
+    "billed_amount": 69600.0,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Stabilization"
+    ],
+    "confidence": "medium",
+    "extraction_notes": "Invoice date field is not explicitly present. The document contains a signature date (Monday, June 2, 2025) and an invoice received date (06/05/2025), but no specific 'Invoice Date'. The invoice number and claim period refer to '06-2025' or 'Jun-2025', indicating the month and year of the billing period, not a specific invoice creation date.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "St. Joseph Center - IH - June 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201530_St.JosephCenter-IH-June2025.pdf",
+    "vendor": "St. Joseph Center",
+    "invoice_date": "2025-06-02",
+    "billed_amount": 54990.0,
+    "deliverables": [
+      "Stabilization"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Serenity Recuperative Care Inc. 2 - IH - June 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201528_SerenityRecuperativeCareInc.2-IH-June2025.pdf",
+    "vendor": "Serenity Recuperative Care (SRC)",
+    "invoice_date": "2025-05-27",
+    "billed_amount": 442920.0,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Stabilization SRC (#of BI 24)",
+      "Stabilization SRC (#of BI 38)",
+      "Stabilization SRC (#of BI 20)"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "SRO Housing - IH - June 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201529_SROHousing-IH-June2025.pdf",
+    "vendor": "SRO Housing",
+    "invoice_date": "2025-06-02",
+    "billed_amount": 160200.0,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Stabilization"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Serenity Recuperative Care Inc. - IH - June 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201527_SerenityRecuperativeCareInc.-IH-June2025.pdf",
+    "vendor": "Serenity Recuperative Care Inc",
+    "invoice_date": "2025-05-27",
+    "billed_amount": 79200.0,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Stabilization"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Salvation Army (SAL) - IH - June 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201525_SalvationArmy_SAL_-IH-June2025.pdf",
+    "vendor": "Salvation Army (SAL)",
+    "invoice_date": "2025-05-30",
+    "billed_amount": 84672.0,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Stabilization"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "PATH Cares - IH - June 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201524_PATHCares-IH-June2025.pdf",
+    "vendor": "PATH Cares",
+    "invoice_date": "2025-06-03",
+    "billed_amount": 128160.0,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Stabilization"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "San Fernando Valley Community Health Center (SFVCMHC) - IH - June 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201526_SanFernandoValleyCommunityHealthCenter_SFVCMHC_-IH-June2025.pdf",
+    "vendor": "San Fernando Valley Community Health Center (SFVCMHC)",
+    "invoice_date": null,
+    "billed_amount": 132240.0,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Stabilization",
+      "Stabilization"
+    ],
+    "confidence": "high",
+    "extraction_notes": "The exact day for 'invoice_date' (YYYY-MM-DD) is not explicitly stated on the document. The claim period is stated as 'Jun-2025' and the invoice number prefix is '06-2025'.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "LA Global Care - IH - June 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201523_LAGlobalCare-IH-June2025.pdf",
+    "vendor": "LA Global Care",
+    "invoice_date": "2025-06-02",
+    "billed_amount": 87000.0,
+    "deliverables": [
+      "Stabilization"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "JWCH Institute Inc. 4 - IH - June 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201521_JWCHInstituteInc.4-IH-June2025.pdf",
+    "vendor": "JWCH Institute Inc.",
+    "invoice_date": "2025-05-30",
+    "billed_amount": 246000.0,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Recuperative Care"
+    ],
+    "confidence": "high",
+    "extraction_notes": "Invoice date is taken from the document's signing date (May 30, 2025), which precedes the claim period (June 2025) indicated in the invoice number and claim period field. Deliverables include both the broad 'SERVICE CATEGORY' from page 1 and the specific 'PROGRAM TYPE' line item from page 2.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "LA Family Housing (LAFH) - IH - June 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201522_LAFamilyHousing_LAFH_-IH-June2025.pdf",
+    "vendor": "LA Family Housing (LAFH)",
+    "invoice_date": "2025-06-01",
+    "billed_amount": 78765.0,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Stabilization"
+    ],
+    "confidence": "high",
+    "extraction_notes": "The billed_amount of 78765.00 is explicitly stated as the 'AMOUNT REQUESTED' and clarified by the note: 'Original invoice amount $80,100 - $1,335 (credit memo) = $78,765'. The invoice_date is taken from the 'DATE' next to the authorized signature. Deliverables include the general 'SERVICE CATEGORY' and the more specific 'PROGRAM TYPE' from the table.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "JWCH Institute Inc. 3 - IH - June 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201520_JWCHInstituteInc.3-IH-June2025.pdf",
+    "vendor": "JWCH Institute Inc.",
+    "invoice_date": "2025-05-30",
+    "billed_amount": 504000.0,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Recuperative Care"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "JWCH Institute Inc. - IH - June 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201518_JWCHInstituteInc.-IH-June2025.pdf",
+    "vendor": "JWCH Institute Inc.",
+    "invoice_date": "2025-05-30",
+    "billed_amount": 207450.0,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Recuperative Care"
+    ],
+    "confidence": "high",
+    "extraction_notes": "Invoice date extracted from the date next to the Authorized Signature. Deliverables include both 'SERVICE CATEGORY' and 'PROGRAM TYPE' as listed on the document.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Illumination Foundation (IF) 2 - IH - June 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201517_IlluminationFoundation_IF_2-IH-June2025.pdf",
+    "vendor": "Illumination Foundation (IF)",
+    "invoice_date": "2025-06-01",
+    "billed_amount": 382500.0,
+    "deliverables": [
+      "Recuperative Care"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "JWCH Institute Inc. 2 - IH - June 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201519_JWCHInstituteInc.2-IH-June2025.pdf",
+    "vendor": "JWCH Institute Inc.",
+    "invoice_date": "2025-05-30",
+    "billed_amount": 575340.0,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Recuperative Care"
+    ],
+    "confidence": "high",
+    "extraction_notes": "The invoice date is inferred from the signature date, as no explicit 'invoice issue date' was present in YYYY-MM-DD format. The claim period is Jun-2025. Deliverables include both the service category from page 1 and the program type from the line item table on page 2.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Illumination Foundation (IF) - IH - June 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201516_IlluminationFoundation_IF_-IH-June2025.pdf",
+    "vendor": "Illumination Foundation (IF)",
+    "invoice_date": "2025-06-01",
+    "billed_amount": 254880.0,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Recuperative Care"
+    ],
+    "confidence": "high",
+    "extraction_notes": "Invoice date derived from the 'Sunday, June 1, 2025' signature date, which aligns with the 'Jun-2025' claim period and '06-2025' invoice number prefix. Deliverables extracted from 'SERVICE CATEGORY' and 'PROGRAM TYPE' fields.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Holidays Helping Hands Inc. (HHH) 2 - IH - June 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201515_HolidaysHelpingHandsInc._HHH_2-IH-June2025.pdf",
+    "vendor": "Hollidays Helping Hands (HHH)",
+    "invoice_date": "2025-05-27",
+    "billed_amount": 266160.0,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Stabilization",
+      "Stabilization"
+    ],
+    "confidence": "high",
+    "extraction_notes": "Invoice date is extracted from the date next to the authorized signature. The 'DATE INVOICE RECEIVED' is also present but represents the date the county received the invoice. Deliverables include both the general 'SERVICE CATEGORY' and the two distinct 'PROGRAM TYPE' line items as stated in the detailed table.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Holidays Helping Hands Inc. (HHH) - IH - June 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201514_HolidaysHelpingHandsInc._HHH_-IH-June2025.pdf",
+    "vendor": "Hollidays Helping Hands, Inc.",
+    "invoice_date": "2025-05-27",
+    "billed_amount": 265500.0,
+    "deliverables": [
+      "Interim Housing - IHS",
+      "Recuperative Care (30 beds x $177.00/bed/day x 50 days)"
+    ],
+    "confidence": "high",
+    "extraction_notes": "The invoice date was derived from the explicit authorization date 'Tuesday, May 27, 2025'. The document also indicates a 'CLAIM PERIOD' of 'Jun-2025', which is the service period.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "HealthRight360 (HR360) Prototypes - IH - June 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201513_HealthRight360_HR360_Prototypes-IH-June2025.pdf",
+    "vendor": "HealthRight360 (HR360)- Prototypes",
+    "invoice_date": "2025-07-01",
+    "billed_amount": 66557.4,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Stabilization"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Harbor Interfaith Services 2 - IH - June 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201512_HarborInterfaithServices2-IH-June2025.pdf",
+    "vendor": "Harbor Interfaith Services",
+    "invoice_date": "2025-06-03",
+    "billed_amount": 139200.0,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Stabilization"
+    ],
+    "confidence": "high",
+    "extraction_notes": "The date 'Thursday, June 2, 2005' next to the authorized signature on page 1 appears to be a template placeholder or an error given the claim period of Jun-2025 and invoice received date of 06/03/2025. 'DATE INVOICE RECEIVED: 06/03/2025' was used as the most appropriate invoice date.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "First To Serve (FTS) - IH - June 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201509_FirstToServe_FTS_-IH-June2025.pdf",
+    "vendor": "First to Serve",
+    "invoice_date": "2025-06-01",
+    "billed_amount": 618420.0,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Stabilization"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Harbor Interfaith Services - IH - June 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201511_HarborInterfaithServices-IH-June2025.pdf",
+    "vendor": "Harbor Interfaith Services",
+    "invoice_date": "2025-06-02",
+    "billed_amount": 73134.0,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Stabilization"
+    ],
+    "confidence": "high",
+    "extraction_notes": "Invoice date taken from the 'DATE' field next to the authorized signature, which is 'Monday, June 2, 2025'. This aligns with the 'CLAIM PERIOD' of 'Jun-2025' and 'INVOICE NO.: 06-2025'.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Fair Opportunity for Change - IH - June 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201508_FairOpportunityforChange-IH-June2025.pdf",
+    "vendor": "Fair Opportunity for Change",
+    "invoice_date": "2025-06-02",
+    "billed_amount": 226200.0,
+    "deliverables": [
+      "Stabilization",
+      "Stabilization"
+    ],
+    "confidence": "high",
+    "extraction_notes": "Invoice date derived from the signature date and confirmed by the 'Date Invoice Received'.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Exodus Recovery Inc. - IH - June 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201507_ExodusRecoveryInc.-IH-June2025.pdf",
+    "vendor": "Exodus Recovery, Inc.",
+    "invoice_date": "2025-05-12",
+    "billed_amount": 1207182.0,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Stabilzation/Recuperative Care"
+    ],
+    "confidence": "high",
+    "extraction_notes": "Invoice date taken from the 'DATE' field next to the authorized signature. The deliverables were extracted from 'SERVICE CATEGORY' on page 1 and 'PROGRAM TYPE' on page 2, as both describe the services provided.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Exodus - IH - June 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201506_Exodus-IH-June2025.pdf",
+    "vendor": "Exodus",
+    "invoice_date": "2025-06-02",
+    "billed_amount": 243000.0,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Recuperative Care"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Calilfornia Care Centers, Inc. - IH - June 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201505_CalilforniaCareCenters_Inc.-IH-June2025.pdf",
+    "vendor": "California Care Centers, Inc.",
+    "invoice_date": "2025-05-30",
+    "billed_amount": 113850.0,
+    "deliverables": [
+      "Interim Housing -PRTS",
+      "Stabilization"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Whittier Area First Day Coalition - IH - June 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201504_WhittierAreaFirstDayCoalition-IH-June2025.pdf",
+    "vendor": "Whittier Area First Day Coalition",
+    "invoice_date": "2025-06-02",
+    "billed_amount": 213600.0,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Stabilization"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Housing Works - PSH - June 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201503_HousingWorks-PSH-June2025.pdf",
+    "vendor": "Housing Works (HW)",
+    "invoice_date": "2025-07-15",
+    "billed_amount": 326220.0,
+    "deliverables": [
+      "SUPPORTIVE HOUSING SVCS",
+      "ICMS costs",
+      "ARPA/FHSP Program Services",
+      "D7 Program Services",
+      "DHS Program Services",
+      "D7 Flex Program Services",
+      "DHSP (D7) Program Services",
+      "HFMH (D7) Program Services",
+      "Housing for Healthy CA Program Services",
+      "MHSA Program Services"
+    ],
+    "confidence": "high",
+    "extraction_notes": "The listed deliverables combine explicit service descriptions (Supportive Housing Svcs, ICMS costs) with the program categories from the 'BILLING SUMMARY' (Page 46) which represent the distinct types of services/programs being billed for.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Homeless Healthcare LA - PSH - June 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201502_HomelessHealthcareLA-PSH-June2025.pdf",
+    "vendor": "Homeless Healthcare Los Angeles (HHCLA)",
+    "invoice_date": "2025-07-24",
+    "billed_amount": 223732.5,
+    "deliverables": [
+      "ARPA/FHSP",
+      "D7",
+      "SAM",
+      "D7 Flex",
+      "DHS",
+      "MHSA",
+      "SRAP"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Heritage Clinic - PSH - June 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201501_HeritageClinic-PSH-June2025.pdf",
+    "vendor": "Heritage Clinic",
+    "invoice_date": "7/10/25",
+    "billed_amount": 333011.25,
+    "deliverables": [
+      "ARPA",
+      "ERF-PTH",
+      "CFCI 2",
+      "D7",
+      "D7 Flex",
+      "PHK (D7)",
+      "MHSA",
+      "SRAP"
+    ],
+    "confidence": "high",
+    "extraction_notes": "Invoice date taken from 'DATE SUBMITTED' on page 1, which appears to be the invoice issue date. Deliverables are identified from the 'Fund' categories listed in the 'BILLING SUMMARY' on page 55, representing the distinct billed service types.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Exodus - PSH - June 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201500_Exodus-PSH-June2025.pdf",
+    "vendor": "Exodus",
+    "invoice_date": "2025-07-01",
+    "billed_amount": 328698.75,
+    "deliverables": [
+      "ARPA",
+      "ARPA/FHSP",
+      "CFCI 2",
+      "D7",
+      "D7 Flex",
+      "DHS",
+      "HFMH (D7)",
+      "PHK (D7)",
+      "SRAP"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Coalition for Responsible Community - PSH - June 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201498_CoalitionforResponsibleCommunity-PSH-June2025.pdf",
+    "vendor": "CRCD Coalition for Responsible Community",
+    "invoice_date": "2025-07-01",
+    "billed_amount": 334908.75,
+    "deliverables": [
+      "ARPA",
+      "CFCI 2",
+      "D7",
+      "D7 Flex",
+      "MHSA",
+      "SRAP"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Downtown Womens Center - PSH - June 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201499_DowntownWomensCenter-PSH-June2025.pdf",
+    "vendor": "Downtown Women's Center",
+    "invoice_date": "7/10/2025",
+    "billed_amount": 122992.5,
+    "deliverables": [
+      "ARPA Vacant Slot Cost",
+      "ARPA Occupied Slot Cost",
+      "D7 Vacant Slot Cost",
+      "D7 Occupied Slot Cost",
+      "DHS Occupied Slot Cost",
+      "SAM Occupied Slot Cost",
+      "MHSA Vacant Slot Cost",
+      "MHSA Occupied Slot Cost"
+    ],
+    "confidence": "high",
+    "extraction_notes": "The document includes additional pages regarding notification of payment recovery for disallowed costs in May and June 2025, which are not part of the billed amount requested in this invoice. 'New Slot Cost' and 'Reserved Slot Cost' had zero values in the billing summary and are thus not included in deliverables.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Century Villages at Cabrillo - PSH - June 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201497_CenturyVillagesatCabrillo-PSH-June2025.pdf",
+    "vendor": "Century Villages at Cabrillo",
+    "invoice_date": "2025-07-10",
+    "billed_amount": 61151.25,
+    "deliverables": [
+      "Vacant Slot Costs",
+      "Occupied Slot Costs"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
   }
 ]

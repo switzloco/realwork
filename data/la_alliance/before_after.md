@@ -2472,3 +2472,523 @@ Right: the normalized ledger row our agent extracted autonomously.
 | Deliverables | ICMS - Street-Based Engagement; LAFH SPA 2 - Measure H; Case Manager - Street Engagement; Case Manager - Mental Health Specialist MDT 1; Case Manager - Mental Health Specialist MDT 2; Case Manager - Mental Health Specialist MDT 3; Case Manager - Mental Health Specialist MDT 4; Case Manager - Mental Health Specialist MDT 5; Case Manager - Mental Health Specialist MDT 1 (Weekend); Case Manager - Substance Abuse Specialist MDT 1; Case Manager - Substance Abuse Specialist MDT 2; Case Manager - Substance Abuse Specialist MDT 3; Case Manager - Substance Abuse Specialist MDT 4; Case Manager - Substance Abuse Specialist MDT 5 (Weekend); Case Manager - Outreach Specialist 1; Case Manager - Outreach Specialist 2; Case Manager - Outreach Specialist 3; Case Manager - Outreach Specialist 4; Case Manager - Outreach Specialist 5 (Weekend); Case Manager - Peer Specialist MDT 1; Case Manager - Peer Specialist MDT 2; Case Manager - Peer Specialist MDT 3; Case Manager - Peer Specialist MDT 4; Case Manager - Peer Specialist MDT 5 (Weekend/Sun); Case Manager - Peer Specialist MDT 1 (Weekend/Sun); Direct Program Assistant; Office Assistant; Program Director; CoC Contract and Grant; CoC Senior Admin; EMPLOYEE BENEFITS @ 27%; Client Needs; Subcontractors; Indirect Cost Allocation |
 | Confidence | high |
 | Notes | Invoice date converted to ISO YYYY-MM-DD. Deliverables include both the high-level service category and program name from page 1, and detailed line-item services/deliverables with expended amounts from the table on page 2. |
+
+## Hope of the Valley Rescue Mission - June 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201537_HopeoftheValleyRescueMission-June2025.pdf`  ·  266.3 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Hope of the Valley Rescue Mission |
+| Invoice date | 2025-08-06 |
+| Billed amount | $108003.41 |
+| Deliverables | Outreach Program Manager and Clinical Case Manager; SUD Outreach Counselor; Outreach Peer Specialist; Case Manager; EMPLOYEE BENEFITS @ 26.876374%; Client Expenses; Program Supplies; Office Supplies, Postage, Printing; Staff Training / Development; Field Telephone / Communications; Vehicle Gas / Maintenance / Insurance; Administrative Overhead; Vehicle; Office Space; Computer Software & Hardware |
+| Confidence | high |
+| Notes | Vendor name, invoice date, and billed amount were clearly stated and consistent across page 1 and page 2. Deliverables were extracted from the 'BUDGETED LINE ITEM' column on page 2. |
+
+## Homeless Health Los Angeles 2 - June 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201536_HomelessHealthLosAngeles2-June2025.pdf`  ·  5810.6 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Homeless Health Los Angeles |
+| Invoice date | 2025-07-31 |
+| Billed amount | $50891.40 |
+| Deliverables | Peer Specialist MDT3; Substance Use Specialist MDT3; RN IMDT3; Team Lead MDT3; Director of Outreach/Director of Outreach MDT3; Mental Health Therapist MDT3; Case Manager MDT3; Employee Benefits @34.8125%; Facility Maintenance; Vehicle Maintenance; Telephone; Program Supplies; Office Supplies; Utilities; Liability Insurance; Client Expenses & LYFT; Parking and Mileage; Misc Fees; Depreciation; Office space; Copier Lease; Payroll Fees; Administrative Overhead |
+| Confidence | high |
+| Notes | All requested fields were clearly present. Deliverables were extracted from line items with values in the 'THIS MONTH' column on page 2 of the invoice. |
+
+## Weingart Center Association - IH - June 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201534_WeingartCenterAssociation-IH-June2025.pdf`  ·  1069.0 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Weingart Center Association |
+| Invoice date | 2025-06-02 |
+| Billed amount | $766170.00 |
+| Deliverables | Stabilization; Enhanced Services Beds (E |
+| Confidence | high |
+| Notes | Invoice date taken from the signature date 'Monday, June 2, 2025', which aligns with the claim period of Jun-2025. Deliverables are extracted from the 'PROGRAM TYPE' line items on page 2. |
+
+## Homeless Health Los Angeles - June 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201535_HomelessHealthLosAngeles-June2025.pdf`  ·  4633.2 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Homeless Health Los Angeles |
+| Invoice date | 2025-07-31 |
+| Billed amount | $88750.71 |
+| Deliverables | TOTAL PERSONNEL; Facility Maintenance; Client Transportation - Lease of 1 Van and Maintenance; Telephone; Program Supplies; Office Supplies; Utilities; Liability Insurance; Client Expenses; Emergency Housing; Staff Training; Parking and Mileage; Recruitment - TB Testing for existing staff; Misc Fees; Depreciation; Office space; Copier Lease; Vehicle Lease; Ben Jarvis; Payroll Fees; Dr. Partovi - Med Purchased Services; Administrative Overhead |
+| Confidence | high |
+| Notes | Invoice date derived from 'DATE SUBMITTED'. Deliverables are extracted from the line-item categories in the 'MONTHLY INVOICE' detail on page 2. Individual personnel roles are summarized under 'TOTAL PERSONNEL'. |
+
+## The People Concern (TPC) 2 - IH - June 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201532_ThePeopleConcern_TPC_2-IH-June2025.pdf`  ·  171.6 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | The People Concern (TPC) |
+| Invoice date | 2025-06-03 |
+| Billed amount | $211401.60 |
+| Deliverables | Recuperative Care |
+| Confidence | high |
+| Notes | — |
+
+## The People Concern (TPC) - IH - June 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201531_ThePeopleConcern_TPC_-IH-June2025.pdf`  ·  171.7 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | The People Concern (TPC) |
+| Invoice date | 2025-06-03 |
+| Billed amount | $130350.00 |
+| Deliverables | Stabilization; Enhanced Services Beds (ESB) |
+| Confidence | high |
+| Notes | — |
+
+## Union Station Homeless Services (USHS) - IH - June 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201533_UnionStationHomelessServices_USHS_-IH-June2025.pdf`  ·  155.7 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Union Station Homeless Services (USHS) |
+| Invoice date | — |
+| Billed amount | $69600.00 |
+| Deliverables | Interim Housing -IHS; Stabilization |
+| Confidence | medium |
+| Notes | Invoice date field is not explicitly present. The document contains a signature date (Monday, June 2, 2025) and an invoice received date (06/05/2025), but no specific 'Invoice Date'. The invoice number and claim period refer to '06-2025' or 'Jun-2025', indicating the month and year of the billing period, not a specific invoice creation date. |
+
+## St. Joseph Center - IH - June 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201530_St.JosephCenter-IH-June2025.pdf`  ·  211.6 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | St. Joseph Center |
+| Invoice date | 2025-06-02 |
+| Billed amount | $54990.00 |
+| Deliverables | Stabilization |
+| Confidence | high |
+| Notes | — |
+
+## Serenity Recuperative Care Inc. 2 - IH - June 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201528_SerenityRecuperativeCareInc.2-IH-June2025.pdf`  ·  118.1 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Serenity Recuperative Care (SRC) |
+| Invoice date | 2025-05-27 |
+| Billed amount | $442920.00 |
+| Deliverables | Interim Housing -IHS; Stabilization SRC (#of BI 24); Stabilization SRC (#of BI 38); Stabilization SRC (#of BI 20) |
+| Confidence | high |
+| Notes | — |
+
+## SRO Housing - IH - June 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201529_SROHousing-IH-June2025.pdf`  ·  228.6 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | SRO Housing |
+| Invoice date | 2025-06-02 |
+| Billed amount | $160200.00 |
+| Deliverables | Interim Housing -IHS; Stabilization |
+| Confidence | high |
+| Notes | — |
+
+## Serenity Recuperative Care Inc. - IH - June 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201527_SerenityRecuperativeCareInc.-IH-June2025.pdf`  ·  115.6 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Serenity Recuperative Care Inc |
+| Invoice date | 2025-05-27 |
+| Billed amount | $79200.00 |
+| Deliverables | Interim Housing -IHS; Stabilization |
+| Confidence | high |
+| Notes | — |
+
+## Salvation Army (SAL) - IH - June 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201525_SalvationArmy_SAL_-IH-June2025.pdf`  ·  927.2 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Salvation Army (SAL) |
+| Invoice date | 2025-05-30 |
+| Billed amount | $84672.00 |
+| Deliverables | Interim Housing -IHS; Stabilization |
+| Confidence | high |
+| Notes | — |
+
+## PATH Cares - IH - June 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201524_PATHCares-IH-June2025.pdf`  ·  163.0 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | PATH Cares |
+| Invoice date | 2025-06-03 |
+| Billed amount | $128160.00 |
+| Deliverables | Interim Housing -IHS; Stabilization |
+| Confidence | high |
+| Notes | — |
+
+## San Fernando Valley Community Health Center (SFVCMHC) - IH - June 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201526_SanFernandoValleyCommunityHealthCenter_SFVCMHC_-IH-June2025.pdf`  ·  149.1 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | San Fernando Valley Community Health Center (SFVCMHC) |
+| Invoice date | — |
+| Billed amount | $132240.00 |
+| Deliverables | Interim Housing -IHS; Stabilization; Stabilization |
+| Confidence | high |
+| Notes | The exact day for 'invoice_date' (YYYY-MM-DD) is not explicitly stated on the document. The claim period is stated as 'Jun-2025' and the invoice number prefix is '06-2025'. |
+
+## LA Global Care - IH - June 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201523_LAGlobalCare-IH-June2025.pdf`  ·  465.2 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | LA Global Care |
+| Invoice date | 2025-06-02 |
+| Billed amount | $87000.00 |
+| Deliverables | Stabilization |
+| Confidence | high |
+| Notes | — |
+
+## JWCH Institute Inc. 4 - IH - June 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201521_JWCHInstituteInc.4-IH-June2025.pdf`  ·  377.4 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | JWCH Institute Inc. |
+| Invoice date | 2025-05-30 |
+| Billed amount | $246000.00 |
+| Deliverables | Interim Housing -IHS; Recuperative Care |
+| Confidence | high |
+| Notes | Invoice date is taken from the document's signing date (May 30, 2025), which precedes the claim period (June 2025) indicated in the invoice number and claim period field. Deliverables include both the broad 'SERVICE CATEGORY' from page 1 and the specific 'PROGRAM TYPE' line item from page 2. |
+
+## LA Family Housing (LAFH) - IH - June 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201522_LAFamilyHousing_LAFH_-IH-June2025.pdf`  ·  653.9 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | LA Family Housing (LAFH) |
+| Invoice date | 2025-06-01 |
+| Billed amount | $78765.00 |
+| Deliverables | Interim Housing -IHS; Stabilization |
+| Confidence | high |
+| Notes | The billed_amount of 78765.00 is explicitly stated as the 'AMOUNT REQUESTED' and clarified by the note: 'Original invoice amount $80,100 - $1,335 (credit memo) = $78,765'. The invoice_date is taken from the 'DATE' next to the authorized signature. Deliverables include the general 'SERVICE CATEGORY' and the more specific 'PROGRAM TYPE' from the table. |
+
+## JWCH Institute Inc. 3 - IH - June 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201520_JWCHInstituteInc.3-IH-June2025.pdf`  ·  371.4 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | JWCH Institute Inc. |
+| Invoice date | 2025-05-30 |
+| Billed amount | $504000.00 |
+| Deliverables | Interim Housing -IHS; Recuperative Care |
+| Confidence | high |
+| Notes | — |
+
+## JWCH Institute Inc. - IH - June 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201518_JWCHInstituteInc.-IH-June2025.pdf`  ·  373.1 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | JWCH Institute Inc. |
+| Invoice date | 2025-05-30 |
+| Billed amount | $207450.00 |
+| Deliverables | Interim Housing -IHS; Recuperative Care |
+| Confidence | high |
+| Notes | Invoice date extracted from the date next to the Authorized Signature. Deliverables include both 'SERVICE CATEGORY' and 'PROGRAM TYPE' as listed on the document. |
+
+## Illumination Foundation (IF) 2 - IH - June 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201517_IlluminationFoundation_IF_2-IH-June2025.pdf`  ·  150.3 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Illumination Foundation (IF) |
+| Invoice date | 2025-06-01 |
+| Billed amount | $382500.00 |
+| Deliverables | Recuperative Care |
+| Confidence | high |
+| Notes | — |
+
+## JWCH Institute Inc. 2 - IH - June 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201519_JWCHInstituteInc.2-IH-June2025.pdf`  ·  372.3 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | JWCH Institute Inc. |
+| Invoice date | 2025-05-30 |
+| Billed amount | $575340.00 |
+| Deliverables | Interim Housing -IHS; Recuperative Care |
+| Confidence | high |
+| Notes | The invoice date is inferred from the signature date, as no explicit 'invoice issue date' was present in YYYY-MM-DD format. The claim period is Jun-2025. Deliverables include both the service category from page 1 and the program type from the line item table on page 2. |
+
+## Illumination Foundation (IF) - IH - June 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201516_IlluminationFoundation_IF_-IH-June2025.pdf`  ·  149.1 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Illumination Foundation (IF) |
+| Invoice date | 2025-06-01 |
+| Billed amount | $254880.00 |
+| Deliverables | Interim Housing -IHS; Recuperative Care |
+| Confidence | high |
+| Notes | Invoice date derived from the 'Sunday, June 1, 2025' signature date, which aligns with the 'Jun-2025' claim period and '06-2025' invoice number prefix. Deliverables extracted from 'SERVICE CATEGORY' and 'PROGRAM TYPE' fields. |
+
+## Holidays Helping Hands Inc. (HHH) 2 - IH - June 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201515_HolidaysHelpingHandsInc._HHH_2-IH-June2025.pdf`  ·  116.3 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Hollidays Helping Hands (HHH) |
+| Invoice date | 2025-05-27 |
+| Billed amount | $266160.00 |
+| Deliverables | Interim Housing -IHS; Stabilization; Stabilization |
+| Confidence | high |
+| Notes | Invoice date is extracted from the date next to the authorized signature. The 'DATE INVOICE RECEIVED' is also present but represents the date the county received the invoice. Deliverables include both the general 'SERVICE CATEGORY' and the two distinct 'PROGRAM TYPE' line items as stated in the detailed table. |
+
+## Holidays Helping Hands Inc. (HHH) - IH - June 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201514_HolidaysHelpingHandsInc._HHH_-IH-June2025.pdf`  ·  113.5 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Hollidays Helping Hands, Inc. |
+| Invoice date | 2025-05-27 |
+| Billed amount | $265500.00 |
+| Deliverables | Interim Housing - IHS; Recuperative Care (30 beds x $177.00/bed/day x 50 days) |
+| Confidence | high |
+| Notes | The invoice date was derived from the explicit authorization date 'Tuesday, May 27, 2025'. The document also indicates a 'CLAIM PERIOD' of 'Jun-2025', which is the service period. |
+
+## HealthRight360 (HR360) Prototypes - IH - June 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201513_HealthRight360_HR360_Prototypes-IH-June2025.pdf`  ·  849.7 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | HealthRight360 (HR360)- Prototypes |
+| Invoice date | 2025-07-01 |
+| Billed amount | $66557.40 |
+| Deliverables | Interim Housing -IHS; Stabilization |
+| Confidence | high |
+| Notes | — |
+
+## Harbor Interfaith Services 2 - IH - June 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201512_HarborInterfaithServices2-IH-June2025.pdf`  ·  550.9 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Harbor Interfaith Services |
+| Invoice date | 2025-06-03 |
+| Billed amount | $139200.00 |
+| Deliverables | Interim Housing -IHS; Stabilization |
+| Confidence | high |
+| Notes | The date 'Thursday, June 2, 2005' next to the authorized signature on page 1 appears to be a template placeholder or an error given the claim period of Jun-2025 and invoice received date of 06/03/2025. 'DATE INVOICE RECEIVED: 06/03/2025' was used as the most appropriate invoice date. |
+
+## First To Serve (FTS) - IH - June 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201509_FirstToServe_FTS_-IH-June2025.pdf`  ·  165.6 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | First to Serve |
+| Invoice date | 2025-06-01 |
+| Billed amount | $618420.00 |
+| Deliverables | Interim Housing -IHS; Stabilization |
+| Confidence | high |
+| Notes | — |
+
+## Harbor Interfaith Services - IH - June 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201511_HarborInterfaithServices-IH-June2025.pdf`  ·  1202.9 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Harbor Interfaith Services |
+| Invoice date | 2025-06-02 |
+| Billed amount | $73134.00 |
+| Deliverables | Interim Housing -IHS; Stabilization |
+| Confidence | high |
+| Notes | Invoice date taken from the 'DATE' field next to the authorized signature, which is 'Monday, June 2, 2025'. This aligns with the 'CLAIM PERIOD' of 'Jun-2025' and 'INVOICE NO.: 06-2025'. |
+
+## Fair Opportunity for Change - IH - June 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201508_FairOpportunityforChange-IH-June2025.pdf`  ·  176.4 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Fair Opportunity for Change |
+| Invoice date | 2025-06-02 |
+| Billed amount | $226200.00 |
+| Deliverables | Stabilization; Stabilization |
+| Confidence | high |
+| Notes | Invoice date derived from the signature date and confirmed by the 'Date Invoice Received'. |
+
+## Exodus Recovery Inc. - IH - June 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201507_ExodusRecoveryInc.-IH-June2025.pdf`  ·  403.7 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Exodus Recovery, Inc. |
+| Invoice date | 2025-05-12 |
+| Billed amount | $1207182.00 |
+| Deliverables | Interim Housing -IHS; Stabilzation/Recuperative Care |
+| Confidence | high |
+| Notes | Invoice date taken from the 'DATE' field next to the authorized signature. The deliverables were extracted from 'SERVICE CATEGORY' on page 1 and 'PROGRAM TYPE' on page 2, as both describe the services provided. |
+
+## Exodus - IH - June 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201506_Exodus-IH-June2025.pdf`  ·  286.2 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Exodus |
+| Invoice date | 2025-06-02 |
+| Billed amount | $243000.00 |
+| Deliverables | Interim Housing -IHS; Recuperative Care |
+| Confidence | high |
+| Notes | — |
+
+## Calilfornia Care Centers, Inc. - IH - June 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201505_CalilforniaCareCenters_Inc.-IH-June2025.pdf`  ·  1674.3 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | California Care Centers, Inc. |
+| Invoice date | 2025-05-30 |
+| Billed amount | $113850.00 |
+| Deliverables | Interim Housing -PRTS; Stabilization |
+| Confidence | high |
+| Notes | — |
+
+## Whittier Area First Day Coalition - IH - June 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201504_WhittierAreaFirstDayCoalition-IH-June2025.pdf`  ·  313.0 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Whittier Area First Day Coalition |
+| Invoice date | 2025-06-02 |
+| Billed amount | $213600.00 |
+| Deliverables | Interim Housing -IHS; Stabilization |
+| Confidence | high |
+| Notes | — |
+
+## Housing Works - PSH - June 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201503_HousingWorks-PSH-June2025.pdf`  ·  3705.3 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Housing Works (HW) |
+| Invoice date | 2025-07-15 |
+| Billed amount | $326220.00 |
+| Deliverables | SUPPORTIVE HOUSING SVCS; ICMS costs; ARPA/FHSP Program Services; D7 Program Services; DHS Program Services; D7 Flex Program Services; DHSP (D7) Program Services; HFMH (D7) Program Services; Housing for Healthy CA Program Services; MHSA Program Services |
+| Confidence | high |
+| Notes | The listed deliverables combine explicit service descriptions (Supportive Housing Svcs, ICMS costs) with the program categories from the 'BILLING SUMMARY' (Page 46) which represent the distinct types of services/programs being billed for. |
+
+## Homeless Healthcare LA - PSH - June 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201502_HomelessHealthcareLA-PSH-June2025.pdf`  ·  9956.1 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Homeless Healthcare Los Angeles (HHCLA) |
+| Invoice date | 2025-07-24 |
+| Billed amount | $223732.50 |
+| Deliverables | ARPA/FHSP; D7; SAM; D7 Flex; DHS; MHSA; SRAP |
+| Confidence | high |
+| Notes | — |
+
+## Heritage Clinic - PSH - June 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201501_HeritageClinic-PSH-June2025.pdf`  ·  6325.7 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Heritage Clinic |
+| Invoice date | 7/10/25 |
+| Billed amount | $333011.25 |
+| Deliverables | ARPA; ERF-PTH; CFCI 2; D7; D7 Flex; PHK (D7); MHSA; SRAP |
+| Confidence | high |
+| Notes | Invoice date taken from 'DATE SUBMITTED' on page 1, which appears to be the invoice issue date. Deliverables are identified from the 'Fund' categories listed in the 'BILLING SUMMARY' on page 55, representing the distinct billed service types. |
+
+## Exodus - PSH - June 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201500_Exodus-PSH-June2025.pdf`  ·  1271.5 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Exodus |
+| Invoice date | 2025-07-01 |
+| Billed amount | $328698.75 |
+| Deliverables | ARPA; ARPA/FHSP; CFCI 2; D7; D7 Flex; DHS; HFMH (D7); PHK (D7); SRAP |
+| Confidence | high |
+| Notes | — |
+
+## Coalition for Responsible Community - PSH - June 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201498_CoalitionforResponsibleCommunity-PSH-June2025.pdf`  ·  1093.3 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | CRCD Coalition for Responsible Community |
+| Invoice date | 2025-07-01 |
+| Billed amount | $334908.75 |
+| Deliverables | ARPA; CFCI 2; D7; D7 Flex; MHSA; SRAP |
+| Confidence | high |
+| Notes | — |
+
+## Downtown Womens Center - PSH - June 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201499_DowntownWomensCenter-PSH-June2025.pdf`  ·  1261.2 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Downtown Women's Center |
+| Invoice date | 7/10/2025 |
+| Billed amount | $122992.50 |
+| Deliverables | ARPA Vacant Slot Cost; ARPA Occupied Slot Cost; D7 Vacant Slot Cost; D7 Occupied Slot Cost; DHS Occupied Slot Cost; SAM Occupied Slot Cost; MHSA Vacant Slot Cost; MHSA Occupied Slot Cost |
+| Confidence | high |
+| Notes | The document includes additional pages regarding notification of payment recovery for disallowed costs in May and June 2025, which are not part of the billed amount requested in this invoice. 'New Slot Cost' and 'Reserved Slot Cost' had zero values in the billing summary and are thus not included in deliverables. |
+
+## Century Villages at Cabrillo - PSH - June 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201497_CenturyVillagesatCabrillo-PSH-June2025.pdf`  ·  387.2 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Century Villages at Cabrillo |
+| Invoice date | 2025-07-10 |
+| Billed amount | $61151.25 |
+| Deliverables | Vacant Slot Costs; Occupied Slot Costs |
+| Confidence | high |
+| Notes | — |
