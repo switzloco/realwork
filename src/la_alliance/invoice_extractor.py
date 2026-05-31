@@ -334,7 +334,13 @@ def run(dataset_url: str = "", manifest: str = "", pdf_dir: str = "",
     with ThreadPoolExecutor(max_workers=3) as pool:
         futures = {pool.submit(process_doc, i, doc): doc for i, doc in enumerate(docs, 1)}
         for future in as_completed(futures):
-            i, title, rec, pdf, err = future.result()
+            try:
+                i, title, rec, pdf, err = future.result(timeout=120)
+            except Exception as e:
+                print(f"  [Task Timeout or Error] — {e}")
+                failed += 1
+                continue
+
             if err:
                 if err == "skipped_cached":
                     pass # Silently skip
