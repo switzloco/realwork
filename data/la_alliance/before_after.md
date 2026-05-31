@@ -1692,3 +1692,263 @@ Right: the normalized ledger row our agent extracted autonomously.
 | Deliverables | ARPA; ARPA/FHSP; D7; DHS; SAM; D7 Flex; DHSP (D7); ERF-PTH; MA-PTH; HDAP; HDAP (D7); HFMH (D7); Housing for Healthy CA; MHSA; PHK (D7) |
 | Confidence | high |
 | Notes | — |
+
+## Single Room Occupancy Housing - PSH - July 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201347_SingleRoomOccupancyHousing-PSH-July2025.pdf`  ·  598.8 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | SRO Housing |
+| Invoice date | 2025-08-05 |
+| Billed amount | $344843.75 |
+| Deliverables | D7; DHS; CFCI 2; Housing for Healthy CA; ARPA/FHSP; D7 Flex; MHSA |
+| Confidence | high |
+| Notes | Invoice date is interpreted from the 'DATE SUBMITTED' field on page 1 as no explicit 'Invoice Date' field is present. This date is consistent with the 'CLAIM PERIOD' of 07/2025. Deliverables are extracted from the 'Fund' categories in the 'BILLING SUMMARY' table on page 65. |
+
+## Mental Health America LB - PSH - July 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201344_MentalHealthAmericaLB-PSH-July2025.pdf`  ·  575.6 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Mental Health America (MHA), Long Beach |
+| Invoice date | 8/4/2025 |
+| Billed amount | $264960.00 |
+| Deliverables | ARPA/FHSP; D7; DHS; SAM; Housing for Healthy CA; D7 Flex; DCFS/HSSP; HFMH (D7); MHSA |
+| Confidence | high |
+| Notes | — |
+
+## Penny Lane - PSH - July 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201346_PennyLane-PSH-July2025.pdf`  ·  5351.1 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Penny Lane |
+| Invoice date | 2025-08-15 |
+| Billed amount | $112901.25 |
+| Deliverables | D7; D7 Flex; MHSA |
+| Confidence | high |
+| Notes | — |
+
+## PATH - PSH - July 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201345_PATH-PSH-July2025.pdf`  ·  1035.2 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | PATH |
+| Invoice date | 2025-08-05 |
+| Billed amount | $1184113.75 |
+| Deliverables | ARPA; ARPA/FHSP; D7; CFCI 2; D7 Flex; DHS; SAM; MA-PTH; ERF-PTH; HDAP (D7); HFMH (D7); Housing for Healthy CA; MHSA; PHK (D7); SRAP |
+| Confidence | high |
+| Notes | None. |
+
+## Life Skills Training and Educational Programs - PSH - July 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201342_LifeSkillsTrainingandEducationalPrograms-PSH-July2025.pdf`  ·  1123.8 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Life Skills Training and Educational Programs |
+| Invoice date | 2025-08-07 |
+| Billed amount | $349242.50 |
+| Deliverables | CFCI 2; D7; DHS; HFMH (D7); MHSA |
+| Confidence | high |
+| Notes | — |
+
+## LINC - PSH - July 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201343_LINC-PSH-July2025.pdf`  ·  942.8 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | LINC |
+| Invoice date | 2025-08-04 |
+| Billed amount | $380190.00 |
+| Deliverables | ARPA/FHSP; D7; D7 Flex; Housing for Healthy CA; MHSA; PHK (D7) |
+| Confidence | high |
+| Notes | Invoice date taken from 'DATE SUBMITTED' and 'DATE INVOICE RECIEVED' on page 1. Deliverables extracted from 'BILLING SUMMARY' Fund categories on page 65. Billed amount confirmed from 'AMOUNT REQUESTED' on page 1 and 'TOTAL' 'Total Cost' in 'BILLING SUMMARY' on page 65. |
+
+## Jenessse Center Inc. - PSH - July 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201339_JenessseCenterInc.-PSH-July2025.pdf`  ·  2327.2 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Jenesse Center, Inc. |
+| Invoice date | 2025-08-13 |
+| Billed amount | $24495.00 |
+| Deliverables | Vacant Slots; Occupied Slots |
+| Confidence | high |
+| Notes | — |
+
+## LA Family Housing - PSH - July 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201341_LAFamilyHousing-PSH-July2025.pdf`  ·  3678.7 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | LA Family Housing (LAFH) |
+| Invoice date | 2025-08-04 |
+| Billed amount | $595850.00 |
+| Deliverables | New Slot Cost; Vacant Slot Cost; Occupied Slot Cost |
+| Confidence | high |
+| Notes | — |
+
+## Koreatown Youth and Community Center - PSH - July 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201340_KoreatownYouthandCommunityCenter-PSH-July2025.pdf`  ·  1230.2 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Koreatown Youth and Community Center (KYCC) |
+| Invoice date | 2025-08-07 |
+| Billed amount | $83835.00 |
+| Deliverables | D7; D7 Flex; MHSA |
+| Confidence | high |
+| Notes | — |
+
+## Housing Works - PSH - July 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201338_HousingWorks-PSH-July2025.pdf`  ·  3313.5 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Housing Works (HW) |
+| Invoice date | 2025-08-15 |
+| Billed amount | $350466.25 |
+| Deliverables | ARPA/FHSP: $11,385.00; D7: $272,065.00; DHS: $30,015.00; D7 Flex: $11,126.25; DHSP (D7): $1,293.75; HFMH (D7): $9,056.25; Housing for Healthy CA: $7,245.00; MHSA: $8,280.00 |
+| Confidence | high |
+| Notes | All requested fields were clearly present in the document. |
+
+## Homeless Healthcare LA - PSH - July 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201337_HomelessHealthcareLA-PSH-July2025.pdf`  ·  14348.7 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Homeless Healthcare Los Angeles (HHCLA) |
+| Invoice date | 2025-08-12 |
+| Billed amount | $222180.00 |
+| Deliverables | ARPA/FHSP; D7; SAM; D7 Flex; DHS; MHSA; SRAP |
+| Confidence | high |
+| Notes | — |
+
+## Heritage Clinic - PSH - July 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201336_HeritageClinic-PSH-July2025.pdf`  ·  10688.9 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Heritage Clinic |
+| Invoice date | 2025-08-15 |
+| Billed amount | $331200.00 |
+| Deliverables | ARPA; ERF-PTH; CFCI 2; D7; D7 Flex; PHK (D7); MHSA; SRAP |
+| Confidence | high |
+| Notes | Invoice date extracted from 'DATE SUBMITTED'. Deliverables are listed as 'Fund' categories in the 'BILLING SUMMARY' which represent different service types. |
+
+## Exodus - PSH - July 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201335_Exodus-PSH-July2025.pdf`  ·  1222.4 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Exodus |
+| Invoice date | 2025-08-01 |
+| Billed amount | $332062.50 |
+| Deliverables | ARPA; ARPA/FHSP; CFCI 2; D7; D7 Flex; DHS; HFMH (D7); PHK (D7); SRAP |
+| Confidence | high |
+| Notes | All requested fields were clearly present and readable on the document. |
+
+## Downtown Womens Center - PSH - July 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201334_DowntownWomensCenter-PSH-July2025.pdf`  ·  751.3 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Downtown Women's Center |
+| Invoice date | 2025-08-27 |
+| Billed amount | $176097.50 |
+| Deliverables | ARPA Slots; D7 Slots; DHS Slots; SAM Slots; MHSA Slots |
+| Confidence | high |
+| Notes | — |
+
+## Coalition for Responsible Community - PSH - July 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201333_CoalitionforResponsibleCommunity-PSH-July2025.pdf`  ·  1015.4 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | CRCD Coalition for Responsible Community |
+| Invoice date | 2025-08-06 |
+| Billed amount | $348811.25 |
+| Deliverables | ARPA; CFCI 2; D7; D7 Flex; MHSA; SRAP |
+| Confidence | high |
+| Notes | Deliverables are extracted from the 'BILLING SUMMARY' section on the last page, listing the fund categories. |
+
+## TLC Room and Board - IH - July 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1200985_TLCRoomandBoard-July2025-Redacted.pdf`  ·  347.2 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | TLC Room and Board |
+| Invoice date | 2025-08-12 |
+| Billed amount | $25132.32 |
+| Deliverables | Base Rate; LVN or Equivalent |
+| Confidence | high |
+| Notes | — |
+
+## Testimonial Whittier - IH - July 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1200984_TestimonialWhittier-July2025-Redacted.pdf`  ·  2096.6 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Testimonial Community Love Center |
+| Invoice date | 2025-08-07 |
+| Billed amount | $457162.27 |
+| Deliverables | Base Rate; Housing Navigation; MH Clinician; LVN or Equivalent |
+| Confidence | high |
+| Notes | Invoice date extracted from the date next to the billing coordinator and program manager signatures. Deliverables are the unique service categories found across all detailed site claim summaries. |
+
+## TDD - IH - July 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1200983_TDD-July2025-Redacted.pdf`  ·  613.5 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | TDD Supportive Living, Inc. |
+| Invoice date | 2025-07-31 |
+| Billed amount | $109840.44 |
+| Deliverables | 99th Street Project (Single Beds); 99th Street Project (Double Beds); Base Rate; Housing Navigation; LVN or Equivalent |
+| Confidence | high |
+| Notes | Invoice date inferred as the last day of the 'Billing Month/Year: July 2025' period, as services predominantly extend to 7/31/2025, and this allows for ISO YYYY-MM-DD formatting. 'TDD Supportive Living, Inc.' was chosen as the vendor name as it appears consistently as 'Provider Name' on detail pages (e.g., pages 2, 3, 4), while '99th Street Project' is specifically identified as a 'Site Name' on detail pages and also appears as a line-item deliverable category on the cover sheet. |
+
+## SSG JTNH, Pine Lodge & Mark Twain - IH - July 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1200982_SSGJTNH_PineLodge_MarkTwain-July2025-Redacted.pdf`  ·  1029.9 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Special Service For Groups |
+| Invoice date | 2025-08-14 |
+| Billed amount | $848514.64 |
+| Deliverables | Base Rate; Housing Navigation; MH Clinician; LVN or Equivalent |
+| Confidence | high |
+| Notes | The invoice date is taken from the signature date '8/14/2025' on the cover sheet, which is the most specific date on the document related to its creation/issuance, rather than the billed period 'July 2025'. Deliverables for 'Journey to Wellness' and 'Cedar Lodge' are not detailed as their claim amounts are listed as 'N/A' on the cover sheet and their detailed pages are blank, per the document's own statement. |
+
+## Hollywood Walk of Fame - IH - July 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1200981_HollywoodWalkofFame-July2025-Redacted.pdf`  ·  1095.3 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Hollywood Walk of Fame Hotel |
+| Invoice date | 2025-08-11 |
+| Billed amount | $319962.16 |
+| Deliverables | 49 Beds |
+| Confidence | high |
+| Notes | The invoice date is taken from the 'Date' fields next to the Billing Coordinator and Program Manager signatures on page 1, both stating 8/11/2025. The date '08-5-25' on page 2 appears to be a certification date for the detail page. The single line item '49 Beds' on page 1 is supported by the detailed breakdown of client stays on page 2, covering the month of July 2025. |
