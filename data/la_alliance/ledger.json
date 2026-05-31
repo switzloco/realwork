@@ -7160,5 +7160,302 @@
     "confidence": "high",
     "extraction_notes": "The billed_amount of $84,180.00 is taken from 'AMOUNT REQUESTED' on Page 1 and confirmed by the 'TOTAL Cost' in the BILLING SUMMARY on Page 22. The document also notes a deduction of $517.50 for disallowed costs, resulting in a 'Total Inv amount AR' of $83,662.50, but the prompt asks for the total billed amount, which is the higher value before recovery. The deliverables are identified from references to 'ICMS costs billed under Work Order 095-HFH-ICMS', the 'Housing for Health Division', 'Permanent Supportive Housing Edition', and the billing summary categorizing costs by 'Fund' (D7, D7 Flex, MHSA) and 'Slot Cost' (Vacant and Occupied).",
     "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "TLC Room and Board - Jun 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1195337_TLCRoomandBoard-June2025-Redacted.pdf",
+    "vendor": "TLC Room and Board",
+    "invoice_date": "2025-07-10",
+    "billed_amount": 27328.8,
+    "deliverables": [
+      "Base Rate",
+      "Housing Navigation",
+      "LVN or Equivalent",
+      "MH Clinician"
+    ],
+    "confidence": "high",
+    "extraction_notes": "The invoice date was determined from the signature date on the cover sheet, 7/10/2025, as it represents the approval/issuance date for the payment invoice. June 2025 is the billing month/period.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Testimonial Whittier - Jun 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1195336_TestimonialWhittier-June2025-Redact.pdf",
+    "vendor": "Testimonial Community Love Center",
+    "invoice_date": "2025-07-08",
+    "billed_amount": 442415.1,
+    "deliverables": [
+      "Base Rate",
+      "Housing Navigation",
+      "MH Clinician",
+      "LVN or Equivalent"
+    ],
+    "confidence": "high",
+    "extraction_notes": "Invoice date was taken from the signature date on the cover sheet, as a specific 'invoice date' field was not provided. The billing period for services is June 2025.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "SSG Mark Twain - Jun 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1195334_SSGMarkTwain-June2025-Redacted.pdf",
+    "vendor": "Special Service For Groups",
+    "invoice_date": "2025-07-10",
+    "billed_amount": 352800.0,
+    "deliverables": [
+      "56 Beds - Mark Twain"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "TDD Supportive Living - Jun 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1195335_TDDSupportiveLiving-June2025-Redacted.pdf",
+    "vendor": "TDD Supportive Living, Inc.",
+    "invoice_date": "2025-07-10",
+    "billed_amount": 108608.4,
+    "deliverables": [
+      "99th Street Project (Single Beds)",
+      "99th Street Project (Double Beds)",
+      "Base Rate",
+      "Housing Navigation",
+      "MH Clinician",
+      "LVN or Equivalent"
+    ],
+    "confidence": "high",
+    "extraction_notes": "The invoice date of 2025-07-10 was chosen as it is the latest approval date listed on the cover sheet (Page 1). Deliverables include both the project site categories and the detailed service line items listed within those categories.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "SSG Journey to New Horizons and Pine Lodge - Jun 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1195333_SSGJourneytoNewHorizonsandPineLodge-June2025-Redacted.pdf",
+    "vendor": "Special Service For Groups",
+    "invoice_date": "2025-07-10",
+    "billed_amount": 290250.0,
+    "deliverables": [
+      "40 Beds - Journey to New Horizons",
+      "15 Beds - Pine Lodge"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Hollywood Walk of Fame - Jun 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1195332_HollywoodWalkofFame-June2025-Redacted.pdf",
+    "vendor": "Hollywood Walk of Fame Hotel",
+    "invoice_date": "2025-07-16",
+    "billed_amount": 309640.8,
+    "deliverables": [
+      "49 Beds"
+    ],
+    "confidence": "high",
+    "extraction_notes": "Invoice date was chosen as 2025-07-16, which appears twice next to signature lines on page 1, representing the issuance or approval date. This was preferred over the service period 'June 2025' or the less clear handwritten date '07-2-25' on page 2. The vendor name 'Hollywood Walk of Fame Hotel' was taken from the 'Make check payable to' field on page 1, consistent with 'The Holllywood Walk of Fame' on page 2 (correcting the minor typo).",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Encompass Housing - Jun 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1195330_EncompassHousing-June2025-Redacted.pdf",
+    "vendor": "Encompass Housing - Hatfield Interim Housing",
+    "invoice_date": "2025-07-10",
+    "billed_amount": 77155.2,
+    "deliverables": [
+      "Base Rate",
+      "Housing Navigation",
+      "MH Clinician",
+      "LVN or Equivalent"
+    ],
+    "confidence": "high",
+    "extraction_notes": "The invoice date was determined from the 'Date' fields next to signatures on page 1 (7/10/2025). A conflicting date '7/2/2085' was present next to a signature on page 3, which is likely a typo given the billing month/year of June 2025. The date from page 1 was chosen as it appeared twice and aligns with the billing period.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Chances 4 Change - Jun 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1195329_Chances4Change-June2025-Redacted.pdf",
+    "vendor": "Chances 4 Change, Inc.",
+    "invoice_date": "2025-07-10",
+    "billed_amount": 71283.9,
+    "deliverables": [
+      "Base Rate",
+      "Housing Navigation",
+      "MH Clinician",
+      "LVN or Equivalent"
+    ],
+    "confidence": "high",
+    "extraction_notes": "Vendor name found as 'Chances 4 Change' on pages 1 & 2, and 'Chances 4 Change, Inc.' on page 3; chose the more complete name 'Chances 4 Change, Inc.'. Multiple dates are present: 7/2/2025 (page 3 signature) and 7/10/2025 (page 1 signatures). Chose 7/10/2025 as it appears on the cover sheet and represents a later approval/submission date for the complete invoice package.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Building Bridges - Jun 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1195328_BuildingBridges-June2025-Redacted.pdf",
+    "vendor": "Building Bridges Consultant",
+    "invoice_date": "2025-07-10",
+    "billed_amount": 18261.6,
+    "deliverables": [
+      "Base Rate",
+      "Housing Navigation",
+      "LVN or Equivalent"
+    ],
+    "confidence": "high",
+    "extraction_notes": "The vendor name is stated as \"Building Bridges Consultant\" on pages 1 and 2. Page 3 states \"Building Bridges Consultant and Resources\". \"Building Bridges Consultant\" was chosen as the primary vendor name. The invoice date was determined from the latest signature date (7/10/2025) on page 1, distinct from the 'Billing Month/Year' (June 2025) which indicates the service period.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "The Beacon House Association of San Pedro - Recovery Bridge Housing - June 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1192668_TheBeaconHouseAssociationofSanPedro-RecoveryBridgeHousing-June2025.pdf",
+    "vendor": "THE BEACON HOUSE ASSC OF SAN PEDRO",
+    "invoice_date": null,
+    "billed_amount": 35695.0,
+    "deliverables": [
+      "Recovery Bridge Housing (H2034)"
+    ],
+    "confidence": "high",
+    "extraction_notes": "A specific 'invoice_date' field was not found on the document. The document title indicates 'June 2025' as a billing period, and individual service dates range from June 1, 2025 to June 30, 2025. The billed amount was calculated by summing the 'Total Charge' column for all 590 line items across all 10 pages (590 * $60.50).",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Programs Downey CRTP - Jun 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1195318_ProgramsDowneyCRTP-Jun2025.pdf",
+    "vendor": "19LG CRT PROGRAMS DOWNEY",
+    "invoice_date": null,
+    "billed_amount": 190540.74,
+    "deliverables": [
+      "CRISIS RESIDENTIAL ADULT 18-64",
+      "LIFE SUPPORT",
+      "ORAL MEDICATION ADMIN",
+      "E&M OP, ESTAB CLIENT, 25-39MIN",
+      "E&M OP, ESTAB CLIENT, 10MIN",
+      "TCM",
+      "CRISIS RESIDENTIAL ADULT 18-64 NON-MC",
+      "ORAL MEDICATION ADMIN (NON MC)",
+      "E&M OP, NEW CLIENT, 60+MIN (NON MC)",
+      "TCM NON-MC",
+      "E&M OP, ESTAB CLIENT, 10MIN (NON MC)",
+      "E&M OP, NEW CLIENT, 60+MIN"
+    ],
+    "confidence": "high",
+    "extraction_notes": "The document is a data extract of services billed, not a single invoice. Therefore, a single 'invoice_date' is not present. Individual service dates are provided per line item. The 'billed_amount' is the sum of all 'ContractedBilled' values across all pages.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Tarzana Treatment Centers Inc. - Recovery Bridge Housing - June 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1192667_TarzanaTreatmentCentersInc.-RecoveryBridgeHousing-June2025.pdf",
+    "vendor": "TARZANA TREATMENT CENTERS, INC.",
+    "invoice_date": null,
+    "billed_amount": 61710.0,
+    "deliverables": [
+      "Recovery Bridge Housing (H2034)"
+    ],
+    "confidence": "high",
+    "extraction_notes": "The document is a data extract/report of services provided, not a traditional invoice. A single 'invoice_date' is not present on the document. The 'billed_amount' was calculated by summing the 'Total Delivered' amount ($60.50) for all 1020 line items across the 20 pages of the document (1020 * 60.50 = 61710.00), as no grand total was explicitly stated.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Social Model Recovery Systems Inc. - Recovery Bridge Housing - June 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1192665_SocialModelRecoverySystemsInc.-RecoveryBridgeHousing-June2025.pdf",
+    "vendor": "SOCIAL MODEL RECOVERY SYSTEMS, INC.",
+    "invoice_date": null,
+    "billed_amount": null,
+    "deliverables": [
+      "Recovery Bridge Housing (H2034)"
+    ],
+    "confidence": "low",
+    "extraction_notes": "The document is a detailed report of services provided, not a single summarized invoice. A specific 'invoice date' and a 'total billed amount' are not present on the document. The document covers services for 'June 2025' as indicated in the header. Each line item shows a charge of $60.50 for 'Recovery Bridge Housing (H2034)'. Summing these individual charges for a 'total billed amount' would be an inference, which is explicitly disallowed.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Southern CA Alcohol and Drug Programs Inc. - Residential - June 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1192666_SouthernCAAlcoholandDrugProgramsInc.-Residential-June2025.pdf",
+    "vendor": "SO CAL ALCOHOL AND DRUG PROGRAMS, INC.",
+    "invoice_date": null,
+    "billed_amount": 8461.55,
+    "deliverables": [
+      "Behavioral Health Long Term Residential (H0019:U3:HD)",
+      "Behavioral Health Long Term Residential (H0019:U1:HD)"
+    ],
+    "confidence": "high",
+    "extraction_notes": "The provided OCR text is only for page 5 of a multi-page document. The billed_amount has been calculated solely from the line items present on this page. No single invoice date was identified; 'June 2025' in the document header appears to represent a service period rather than an invoice date.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Safe Refuge - Recovery Bridge Housing - June 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1192664_SafeRefuge-RecoveryBridgeHousing-June2025.pdf",
+    "vendor": "SAFE REFUGE",
+    "invoice_date": "June 2025",
+    "billed_amount": 61226.0,
+    "deliverables": [
+      "Recovery Bridge Housing (H2034)"
+    ],
+    "confidence": "high",
+    "extraction_notes": "Invoice date represents the billing period as stated in the document header. The total billed amount was calculated by summing all individual 'Total Charge' line items across all pages (1012 lines * $60.50 per line).",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Sadler Healthcare Inc. - Residential - June 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1192662_SadlerHealthcareInc.-Residential-June2025.pdf",
+    "vendor": "SADLER HEALTHCARE INC.",
+    "invoice_date": null,
+    "billed_amount": null,
+    "deliverables": [
+      "Behavioral Health Long Term Residential (H0019:U3)"
+    ],
+    "confidence": "medium",
+    "extraction_notes": "invoice_date is not present; 'June 2025' in the header refers to the billing period, not an invoice issue date. billed_amount (grand total) is not present and cannot be inferred by summing individual line items as per instructions to only extract what is stated on the document.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "LA Centers for Alcohol and Drug Abuse - Recovery Bridge Housing - June 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1192661_LACentersforAlcoholandDrugAbuse-RecoveryBridgeHousing-June2025.pdf",
+    "vendor": "LA CENTERS FOR ALCOHOL AND DRUG ABUSE",
+    "invoice_date": null,
+    "billed_amount": null,
+    "deliverables": [
+      "Recovery Bridge Housing (H2034)",
+      "Recovery Bridge Housing (H2034-C)",
+      "Recovery Bridge Housing (H2034:HD)"
+    ],
+    "confidence": "low",
+    "extraction_notes": "No explicit 'Invoice Date' field found; the header 'June 2025' indicates the reporting period for services, not an invoice issuance date. No explicit 'Total Billed', 'Total Amount Due', or 'Grand Total' found; summing individual line items would be an inference, which is disallowed.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "House of Hope Foundation Inc. - Recovery Bridge Housing - June 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1192659_HouseofHopeFoundationInc.-RecoveryBridgeHousing-June2025.pdf",
+    "vendor": "HOUSE OF HOPE FOUNDATION INC.",
+    "invoice_date": null,
+    "billed_amount": 21019.5,
+    "deliverables": [
+      "Recovery Bridge Housing (FH2334)"
+    ],
+    "confidence": "high",
+    "extraction_notes": "The document is a data export/report covering services from June 2023, extracted on 07/04/2023, rather than a traditional single invoice. Therefore, a single 'invoice_date' is not present. The 'billed_amount' was calculated by summing the 'Total Charge' column (243 rows * $86.50/row).",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Jwch Institute Inc. - Recovery Bridge Housing - June 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1192660_JwchInstituteInc.-RecoveryBridgeHousing-June2025.pdf",
+    "vendor": "JARCH INSTITUTE, INC.",
+    "invoice_date": null,
+    "billed_amount": 93770.0,
+    "deliverables": [
+      "Recovery Bridge Housing (H0034)",
+      "Recovery Bridge Housing (H0034-C)",
+      "Recovery Bridge Housing (H0034-HO)",
+      "Recovery Bridge Housing (H0034-MD)"
+    ],
+    "confidence": "medium",
+    "extraction_notes": "Invoice date is null because the document is a detailed service report covering a period, not a single invoice with a specific invoice date. The date '09/04/2023' at the top is a report generation date, not an invoice date. Billed amount was calculated by summing all values in the 'Total Charge' column across all pages of the detailed service report, as this document functions as a multi-line billing statement for the services rendered.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Healthright 360 - Recovery Bridge Housing - June 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1192658_Healthright360-RecoveryBridgeHousing-June2025.pdf",
+    "vendor": "HEALTHRIGHT 360",
+    "invoice_date": null,
+    "billed_amount": 37026.0,
+    "deliverables": [
+      "Recovery Bridge Housing (H2034)"
+    ],
+    "confidence": "high",
+    "extraction_notes": "The document is a data export for monitoring/invoicing for 'June 2025', not a traditional invoice. An explicit 'invoice date' is not present; instead, 'Date of Service' dates are listed for individual items, and a 'Date of data extraction, 09/04/2025' is mentioned in the overview.",
+    "extractor": "gemini-2.5-flash"
   }
 ]
