@@ -23241,5 +23241,374 @@
     "confidence": "high",
     "extraction_notes": "Deliverables are categorized by fund types (D7, DHS, SAM) which encompass new, vacant, and occupied slots, as summarized on page 27. The total billed amount matches the 'AMOUNT REQUESTED' on page 1 and the 'Total Cost' in the 'BILLING SUMMARY' on page 27.",
     "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Step Up on Second - ICMS - Oct 2023",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1186618_StepUponSecond-ICMS-Oct2023.pdf",
+    "vendor": "Step Up on Second",
+    "invoice_date": "2023-11-06",
+    "billed_amount": 491475.0,
+    "deliverables": [
+      "ARPA",
+      "ARPA/FHSP",
+      "DHS",
+      "SAM",
+      "Housing for Healthy CA",
+      "D7 Flex",
+      "D7",
+      "HFMH (D7)",
+      "MHSA",
+      "SRAP"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "St Joseph's Center - ICMS - Oct 2023",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1186617_StJoseph_sCenter-ICMS-Oct2023.pdf",
+    "vendor": "St. Joseph's Center",
+    "invoice_date": "11/1/2023",
+    "billed_amount": 390150.0,
+    "deliverables": [
+      "ARPA",
+      "D7",
+      "Housing for Healthy CA",
+      "SAM",
+      "D7 Flex",
+      "DHS",
+      "HDAP (D7)",
+      "HFMH (D7)",
+      "MHSA",
+      "PHK (D7)"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "SSG HOPICS Project 180 - ICMS - Oct 2023",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1186616_SSGHOPICSProject180-ICMS-Oct2023.pdf",
+    "vendor": "SSG/HOPICS/Project180",
+    "invoice_date": "2023-11-06",
+    "billed_amount": 297750.0,
+    "deliverables": [
+      "ARPA",
+      "ARPA/FHSP",
+      "D7",
+      "DHS",
+      "SAM",
+      "D7 Flex",
+      "DHSP (D7)",
+      "HDAP",
+      "HDAP (D7)",
+      "HFMH (D7)",
+      "Housing for Healthy CA",
+      "MHSA"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "SFVCMH - ICMS - Oct 2023",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1186614_SFVCMH-ICMS-Oct2023.pdf",
+    "vendor": "San Fernando Valley Community Mental Health Center (SFVCMHC)",
+    "invoice_date": "2023-10-04",
+    "billed_amount": 36450.0,
+    "deliverables": [
+      "D7 Fund slots",
+      "DCFS/HSSP Fund slots",
+      "HFMH (D7) Fund slots"
+    ],
+    "confidence": "high",
+    "extraction_notes": "The invoice date is taken from the 'DATE SUBMITTED' on page 1, which aligns with the report run date in the footer. The deliverables are interpreted from the 'Fund' categories in the 'BILLING SUMMARY' on page 11, as these represent the aggregated services (slots) being billed.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Penny Lane - ICMS - Oct 2023",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1186613_PennyLane-ICMS-Oct2023.pdf",
+    "vendor": "Penny Lane",
+    "invoice_date": "2023-11-14",
+    "billed_amount": 119400.0,
+    "deliverables": [
+      "D7",
+      "D7 Flex",
+      "MHSA"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "PATH - ICMS - Oct 2023",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1186612_PATH-ICMS-Oct2023.pdf",
+    "vendor": "PATH",
+    "invoice_date": "2023-11-07",
+    "billed_amount": 727800.0,
+    "deliverables": [
+      "ARPA",
+      "ARPA/FHSP",
+      "D7",
+      "D7 Flex",
+      "DHS",
+      "SAM",
+      "HDAP (D7)",
+      "HFMH (D7)",
+      "Housing for Healthy CA",
+      "MHSA",
+      "PHK (D7)"
+    ],
+    "confidence": "high",
+    "extraction_notes": "Deliverables are interpreted as the 'Fund' categories from the 'BILLING SUMMARY' on page 128, as this report does not contain traditional service line items but rather aggregated project/fund types.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "LINC - ICMS - Oct 2023",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1186611_LINC-ICMS-Oct2023.pdf",
+    "vendor": "LINC",
+    "invoice_date": "2023-11-07",
+    "billed_amount": 246150.0,
+    "deliverables": [
+      "ARPA/FHSP",
+      "D7",
+      "DHS",
+      "D7 Flex",
+      "Housing for Healthy CA",
+      "MHSA"
+    ],
+    "confidence": "high",
+    "extraction_notes": "Invoice date extracted from 'DATE INVOICE RECIEVED' field on page 1. Deliverables are identified from the 'Fund' column in the 'BILLING SUMMARY' table on page 50, representing distinct service categories.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Life Skills Training and Educational Programs - ICMS - Oct 2023",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1186610_LifeSkillsTrainingandEducationalPrograms-ICMS-Oct2023.pdf",
+    "vendor": "Life Skills Training and Educational Programs",
+    "invoice_date": "2023-11-07",
+    "billed_amount": 144825.0,
+    "deliverables": [
+      "ARPA/FHSP",
+      "D7",
+      "DHS",
+      "HFMH (D7)",
+      "MHSA"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "KYCC - ICMS - Oct 2023",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1186608_KYCC-ICMS-Oct2023.pdf",
+    "vendor": "Koreatown Youth and Community Center (KYCC)",
+    "invoice_date": "10/6/23",
+    "billed_amount": 74550.0,
+    "deliverables": [
+      "D7 slots",
+      "D7 Flex slots",
+      "MHSA slots"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "LAFH - ICMS - Oct 2023",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1186609_LAFH-ICMS-Oct2023.pdf",
+    "vendor": "LA Family Housing (LAFH)",
+    "invoice_date": "2023-11-16",
+    "billed_amount": 362825.0,
+    "deliverables": [
+      "D7 New Slot Cost",
+      "D7 Vacant Slot Cost",
+      "D7 Occupied Slot Cost",
+      "SAM Occupied Slot Cost",
+      "D7 Flex Vacant Slot Cost",
+      "D7 Flex Occupied Slot Cost",
+      "DHS Vacant Slot Cost",
+      "DHS Occupied Slot Cost",
+      "MHSA Vacant Slot Cost",
+      "MHSA Occupied Slot Cost"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Housing Works - ICMS - Oct 2023",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1186607_HousingWorks-ICMS-Oct2023.pdf",
+    "vendor": "Housing Works (HW)",
+    "invoice_date": "2023-11-15",
+    "billed_amount": 201000.0,
+    "deliverables": [
+      "ARPA/FHSP",
+      "D7",
+      "DHS",
+      "D7 Flex",
+      "DHSP (D7)",
+      "HFMH (D7)",
+      "Housing for Healthy CA",
+      "MHSA"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Heritage Clinic - ICMS - Oct 2023",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1186605_HeritageClinic-ICMS-Oct2023.pdf",
+    "vendor": "Heritage Clinic",
+    "invoice_date": "2023-11-13",
+    "billed_amount": 145725.0,
+    "deliverables": [
+      "ARPA",
+      "D7",
+      "PHK (D7)",
+      "MHSA",
+      "SRAP"
+    ],
+    "confidence": "high",
+    "extraction_notes": "Vendor, invoice date, and billed amount were extracted from page 1 and confirmed by page 32. Deliverables were extracted from the 'Fund' column in the 'BILLING SUMMARY' table on page 32.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Exodus - ICMS - Oct 2023",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1186599_Exodus-ICMS-Oct2023.pdf",
+    "vendor": "Exodus",
+    "invoice_date": "2023-11-29",
+    "billed_amount": 245025.0,
+    "deliverables": [
+      "ARPA",
+      "ARPA/FHSP",
+      "D7",
+      "D7 Flex",
+      "DHS",
+      "HFMH (D7)",
+      "PHK (D7)"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "HHCLA - ICMS - Oct 2023",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1186606_HHCLA-ICMS-Oct2023.pdf",
+    "vendor": "Homeless Healthcare Los Angeles (HHCLA)",
+    "invoice_date": "2023-11-08",
+    "billed_amount": 198800.0,
+    "deliverables": [
+      "ARPA/FHSP slots",
+      "D7 slots",
+      "SAM slots",
+      "D7 Flex slots",
+      "DHS slots",
+      "MHSA slots",
+      "SRAP slots"
+    ],
+    "confidence": "high",
+    "extraction_notes": "Deliverables are extracted from the 'Fund' categories in the Billing Summary, representing different types of program slots being billed for, as this report itemizes costs by these categories.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Downtown Women's Center - ICMS - Oct 2023",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1186598_DowntownWomen_sCenter-ICMS-Oct2023.pdf",
+    "vendor": "Downtown Women's Center",
+    "invoice_date": "2023-11-17",
+    "billed_amount": 125550.0,
+    "deliverables": [
+      "ARPA",
+      "ARPA/FHSP",
+      "D7",
+      "DHS",
+      "SAM",
+      "MHSA"
+    ],
+    "confidence": "medium",
+    "extraction_notes": "Invoice date inferred from the date next to the authorized signature, as no explicit 'invoice date' field was found. Deliverables are identified as the 'Fund' categories from the billing summary, which represent distinct billing categories.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "CRCD - ICMS - Oct 2023",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1186597_CRCD-ICMS-Oct2023.pdf",
+    "vendor": "CRCD Coalition for Responsible Community",
+    "invoice_date": "2023-11-03",
+    "billed_amount": 175400.0,
+    "deliverables": [
+      "ARPA",
+      "Housing for Healthy CA",
+      "D7 Flex",
+      "D7",
+      "MHSA"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "American Family Housing - ICMS - Oct 2023",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1186596_AmericanFamilyHousing-ICMS-Oct2023.pdf",
+    "vendor": "American Family Housing",
+    "invoice_date": "2023-11-02",
+    "billed_amount": 80325.0,
+    "deliverables": [
+      "Services related to ARPA/FHSP Fund slots",
+      "Services related to D7 Fund slots"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "A Community of Friends - ICMS - Oct 2023",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1186595_ACommunityofFriends-ICMS-Oct2023.pdf",
+    "vendor": "A Community of Friends",
+    "invoice_date": "11/6/2023",
+    "billed_amount": 165750.0,
+    "deliverables": [
+      "D7",
+      "D7 Flex",
+      "MHSA"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Heritage Clinic - Oct. 2023",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1162180_HeritageClinic-Oct.2023.pdf",
+    "vendor": "Heritage Clinic",
+    "invoice_date": "2023-11-13",
+    "billed_amount": 145725.0,
+    "deliverables": [
+      "ARPA",
+      "D7",
+      "PHK (D7)",
+      "MHSA",
+      "SRAP"
+    ],
+    "confidence": "high",
+    "extraction_notes": "Deliverables are extracted from the 'BILLING SUMMARY' section, listed by 'Fund'.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Volunteers of America - Oct. 2023",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1162177_VolunteersofAmerica-Oct.2023.pdf",
+    "vendor": "Volunteers of America",
+    "invoice_date": "2023-11-03",
+    "billed_amount": 107250.0,
+    "deliverables": [
+      "ARPA/FHSP",
+      "D7",
+      "DHS",
+      "HDAP",
+      "HDAP (D7)",
+      "HDAP (GR)",
+      "MHSA",
+      "PHK (D7)"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
   }
 ]

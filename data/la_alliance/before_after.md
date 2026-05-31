@@ -4162,3 +4162,263 @@ Right: the normalized ledger row our agent extracted autonomously.
 | Deliverables | D7 slots; DHS slots; SAM slots |
 | Confidence | high |
 | Notes | Deliverables are categorized by fund types (D7, DHS, SAM) which encompass new, vacant, and occupied slots, as summarized on page 27. The total billed amount matches the 'AMOUNT REQUESTED' on page 1 and the 'Total Cost' in the 'BILLING SUMMARY' on page 27. |
+
+## Step Up on Second - ICMS - Oct 2023
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1186618_StepUponSecond-ICMS-Oct2023.pdf`  ·  3441.9 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Step Up on Second |
+| Invoice date | 2023-11-06 |
+| Billed amount | $491475.00 |
+| Deliverables | ARPA; ARPA/FHSP; DHS; SAM; Housing for Healthy CA; D7 Flex; D7; HFMH (D7); MHSA; SRAP |
+| Confidence | high |
+| Notes | — |
+
+## St Joseph's Center - ICMS - Oct 2023
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1186617_StJoseph_sCenter-ICMS-Oct2023.pdf`  ·  2066.9 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | St. Joseph's Center |
+| Invoice date | 11/1/2023 |
+| Billed amount | $390150.00 |
+| Deliverables | ARPA; D7; Housing for Healthy CA; SAM; D7 Flex; DHS; HDAP (D7); HFMH (D7); MHSA; PHK (D7) |
+| Confidence | high |
+| Notes | — |
+
+## SSG HOPICS Project 180 - ICMS - Oct 2023
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1186616_SSGHOPICSProject180-ICMS-Oct2023.pdf`  ·  3110.6 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | SSG/HOPICS/Project180 |
+| Invoice date | 2023-11-06 |
+| Billed amount | $297750.00 |
+| Deliverables | ARPA; ARPA/FHSP; D7; DHS; SAM; D7 Flex; DHSP (D7); HDAP; HDAP (D7); HFMH (D7); Housing for Healthy CA; MHSA |
+| Confidence | high |
+| Notes | — |
+
+## SFVCMH - ICMS - Oct 2023
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1186614_SFVCMH-ICMS-Oct2023.pdf`  ·  194.8 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | San Fernando Valley Community Mental Health Center (SFVCMHC) |
+| Invoice date | 2023-10-04 |
+| Billed amount | $36450.00 |
+| Deliverables | D7 Fund slots; DCFS/HSSP Fund slots; HFMH (D7) Fund slots |
+| Confidence | high |
+| Notes | The invoice date is taken from the 'DATE SUBMITTED' on page 1, which aligns with the report run date in the footer. The deliverables are interpreted from the 'Fund' categories in the 'BILLING SUMMARY' on page 11, as these represent the aggregated services (slots) being billed. |
+
+## Penny Lane - ICMS - Oct 2023
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1186613_PennyLane-ICMS-Oct2023.pdf`  ·  16926.5 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Penny Lane |
+| Invoice date | 2023-11-14 |
+| Billed amount | $119400.00 |
+| Deliverables | D7; D7 Flex; MHSA |
+| Confidence | high |
+| Notes | — |
+
+## PATH - ICMS - Oct 2023
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1186612_PATH-ICMS-Oct2023.pdf`  ·  3706.0 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | PATH |
+| Invoice date | 2023-11-07 |
+| Billed amount | $727800.00 |
+| Deliverables | ARPA; ARPA/FHSP; D7; D7 Flex; DHS; SAM; HDAP (D7); HFMH (D7); Housing for Healthy CA; MHSA; PHK (D7) |
+| Confidence | high |
+| Notes | Deliverables are interpreted as the 'Fund' categories from the 'BILLING SUMMARY' on page 128, as this report does not contain traditional service line items but rather aggregated project/fund types. |
+
+## LINC - ICMS - Oct 2023
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1186611_LINC-ICMS-Oct2023.pdf`  ·  2461.7 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | LINC |
+| Invoice date | 2023-11-07 |
+| Billed amount | $246150.00 |
+| Deliverables | ARPA/FHSP; D7; DHS; D7 Flex; Housing for Healthy CA; MHSA |
+| Confidence | high |
+| Notes | Invoice date extracted from 'DATE INVOICE RECIEVED' field on page 1. Deliverables are identified from the 'Fund' column in the 'BILLING SUMMARY' table on page 50, representing distinct service categories. |
+
+## Life Skills Training and Educational Programs - ICMS - Oct 2023
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1186610_LifeSkillsTrainingandEducationalPrograms-ICMS-Oct2023.pdf`  ·  1658.0 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Life Skills Training and Educational Programs |
+| Invoice date | 2023-11-07 |
+| Billed amount | $144825.00 |
+| Deliverables | ARPA/FHSP; D7; DHS; HFMH (D7); MHSA |
+| Confidence | high |
+| Notes | — |
+
+## KYCC - ICMS - Oct 2023
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1186608_KYCC-ICMS-Oct2023.pdf`  ·  1069.5 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Koreatown Youth and Community Center (KYCC) |
+| Invoice date | 10/6/23 |
+| Billed amount | $74550.00 |
+| Deliverables | D7 slots; D7 Flex slots; MHSA slots |
+| Confidence | high |
+| Notes | — |
+
+## LAFH - ICMS - Oct 2023
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1186609_LAFH-ICMS-Oct2023.pdf`  ·  4304.1 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | LA Family Housing (LAFH) |
+| Invoice date | 2023-11-16 |
+| Billed amount | $362825.00 |
+| Deliverables | D7 New Slot Cost; D7 Vacant Slot Cost; D7 Occupied Slot Cost; SAM Occupied Slot Cost; D7 Flex Vacant Slot Cost; D7 Flex Occupied Slot Cost; DHS Vacant Slot Cost; DHS Occupied Slot Cost; MHSA Vacant Slot Cost; MHSA Occupied Slot Cost |
+| Confidence | high |
+| Notes | — |
+
+## Housing Works - ICMS - Oct 2023
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1186607_HousingWorks-ICMS-Oct2023.pdf`  ·  3550.4 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Housing Works (HW) |
+| Invoice date | 2023-11-15 |
+| Billed amount | $201000.00 |
+| Deliverables | ARPA/FHSP; D7; DHS; D7 Flex; DHSP (D7); HFMH (D7); Housing for Healthy CA; MHSA |
+| Confidence | high |
+| Notes | — |
+
+## Heritage Clinic - ICMS - Oct 2023
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1186605_HeritageClinic-ICMS-Oct2023.pdf`  ·  5588.4 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Heritage Clinic |
+| Invoice date | 2023-11-13 |
+| Billed amount | $145725.00 |
+| Deliverables | ARPA; D7; PHK (D7); MHSA; SRAP |
+| Confidence | high |
+| Notes | Vendor, invoice date, and billed amount were extracted from page 1 and confirmed by page 32. Deliverables were extracted from the 'Fund' column in the 'BILLING SUMMARY' table on page 32. |
+
+## Exodus - ICMS - Oct 2023
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1186599_Exodus-ICMS-Oct2023.pdf`  ·  496.1 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Exodus |
+| Invoice date | 2023-11-29 |
+| Billed amount | $245025.00 |
+| Deliverables | ARPA; ARPA/FHSP; D7; D7 Flex; DHS; HFMH (D7); PHK (D7) |
+| Confidence | high |
+| Notes | — |
+
+## HHCLA - ICMS - Oct 2023
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1186606_HHCLA-ICMS-Oct2023.pdf`  ·  15245.3 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Homeless Healthcare Los Angeles (HHCLA) |
+| Invoice date | 2023-11-08 |
+| Billed amount | $198800.00 |
+| Deliverables | ARPA/FHSP slots; D7 slots; SAM slots; D7 Flex slots; DHS slots; MHSA slots; SRAP slots |
+| Confidence | high |
+| Notes | Deliverables are extracted from the 'Fund' categories in the Billing Summary, representing different types of program slots being billed for, as this report itemizes costs by these categories. |
+
+## Downtown Women's Center - ICMS - Oct 2023
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1186598_DowntownWomen_sCenter-ICMS-Oct2023.pdf`  ·  347.8 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Downtown Women's Center |
+| Invoice date | 2023-11-17 |
+| Billed amount | $125550.00 |
+| Deliverables | ARPA; ARPA/FHSP; D7; DHS; SAM; MHSA |
+| Confidence | medium |
+| Notes | Invoice date inferred from the date next to the authorized signature, as no explicit 'invoice date' field was found. Deliverables are identified as the 'Fund' categories from the billing summary, which represent distinct billing categories. |
+
+## CRCD - ICMS - Oct 2023
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1186597_CRCD-ICMS-Oct2023.pdf`  ·  2122.9 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | CRCD Coalition for Responsible Community |
+| Invoice date | 2023-11-03 |
+| Billed amount | $175400.00 |
+| Deliverables | ARPA; Housing for Healthy CA; D7 Flex; D7; MHSA |
+| Confidence | high |
+| Notes | — |
+
+## American Family Housing - ICMS - Oct 2023
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1186596_AmericanFamilyHousing-ICMS-Oct2023.pdf`  ·  648.0 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | American Family Housing |
+| Invoice date | 2023-11-02 |
+| Billed amount | $80325.00 |
+| Deliverables | Services related to ARPA/FHSP Fund slots; Services related to D7 Fund slots |
+| Confidence | high |
+| Notes | — |
+
+## A Community of Friends - ICMS - Oct 2023
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1186595_ACommunityofFriends-ICMS-Oct2023.pdf`  ·  1813.5 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | A Community of Friends |
+| Invoice date | 11/6/2023 |
+| Billed amount | $165750.00 |
+| Deliverables | D7; D7 Flex; MHSA |
+| Confidence | high |
+| Notes | — |
+
+## Heritage Clinic - Oct. 2023
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1162180_HeritageClinic-Oct.2023.pdf`  ·  4481.6 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Heritage Clinic |
+| Invoice date | 2023-11-13 |
+| Billed amount | $145725.00 |
+| Deliverables | ARPA; D7; PHK (D7); MHSA; SRAP |
+| Confidence | high |
+| Notes | Deliverables are extracted from the 'BILLING SUMMARY' section, listed by 'Fund'. |
+
+## Volunteers of America - Oct. 2023
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1162177_VolunteersofAmerica-Oct.2023.pdf`  ·  1702.4 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Volunteers of America |
+| Invoice date | 2023-11-03 |
+| Billed amount | $107250.00 |
+| Deliverables | ARPA/FHSP; D7; DHS; HDAP; HDAP (D7); HDAP (GR); MHSA; PHK (D7) |
+| Confidence | high |
+| Notes | — |
