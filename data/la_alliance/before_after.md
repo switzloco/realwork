@@ -652,3 +652,263 @@ Right: the normalized ledger row our agent extracted autonomously.
 | Deliverables | Recovery Bridge Housing (H0034) |
 | Confidence | high |
 | Notes | Invoice date is not explicitly stated as a single date; a billing period of 'August 2025' and '8/1/2025 - 8/31/2025' is indicated. The total billed amount is not provided as a single sum; only individual line-item charges are present. |
+
+## Tarzana Treatment Centers Inc. - Recovery Bridge Housing - August 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1200955_TarzanaTreatmentCentersInc.-RecoveryBridgeHousing-August2025.pdf`  ·  380.8 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | TARZANA TREATMENT CENTERS, INC. |
+| Invoice date | — |
+| Billed amount | — |
+| Deliverables | Recovery Bridge Housing (H2034) |
+| Confidence | low |
+| Notes | The document provided is a detail page (Page 20 of an unknown total) from a billing report for August 2025, not a summary invoice. A single 'invoice_date' for the entire report is not present. The 'billed_amount' (total billed) for the entire billing period (August 2025) is not present on this page, and cannot be determined from this partial document. |
+
+## ERC - August 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201031_ERC-August2025.pdf`  ·  232.0 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Brilliant Corners |
+| Invoice date | August 2025 |
+| Billed amount | $1154343.44 |
+| Deliverables | PNI - Personal Needs and Incidentals; ERC - Enhanced Services; BC Subsidy; ERC Rent Subsidy In Arrears |
+| Confidence | high |
+| Notes | Invoice date 'August 2025' is a billing period as stated in the document title, not a specific ISO YYYY-MM-DD date. Billed amount is the sum of all numeric values in the 'Debit' column across all pages of the document. Vendor name is extracted from the 'OVERVIEW' section which identifies 'Brilliant Corners' as the fiscal intermediary responsible for payments and the source of this billing data. |
+
+## Social Model Recovery Systems Inc. - Recovery Bridge Housing - August 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1200953_SocialModelRecoverySystemsInc.-RecoveryBridgeHousing-August2025.pdf`  ·  283.7 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | SOCIAL MODEL RECOVERY SYSTEMS, INC. |
+| Invoice date | — |
+| Billed amount | — |
+| Deliverables | Recovery Bridge Housing (H2034) |
+| Confidence | low |
+| Notes | Invoice date is null because the document is a detailed service report for the period of August 2025, not a single invoice with a specific issue date. Billed amount is null because the document lists individual charges but does not provide a grand total or sum for the page/document. |
+
+## Sadler Healthcare Inc. - Residential - August 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1200951_SadlerHealthcareInc.-Residential-August2025.pdf`  ·  347.0 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | SADLER HEALTHCARE INC. |
+| Invoice date | — |
+| Billed amount | — |
+| Deliverables | Long Term Residential Day Rate (H0019:U3) |
+| Confidence | medium |
+| Notes | A specific single invoice date and a total billed amount for the entire document are not explicitly stated. The document appears to be a detailed list of claims for services rendered in August 2025. |
+
+## Safe Refuge - Recovery Bridge Housing - August 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1200952_SafeRefuge-RecoveryBridgeHousing-August2025.pdf`  ·  302.1 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | SAFE REFUGE |
+| Invoice date | August 2025 |
+| Billed amount | — |
+| Deliverables | Recovery Bridge Housing (H2034) |
+| Confidence | medium |
+| Notes | No specific invoice date is present; 'August 2025' is the billing period as stated in the document title. No grand total billed amount is explicitly stated on the document. |
+
+## Southern CA Alcohol and Drug Programs Inc. - Residential - August 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1200954_SouthernCAAlcoholandDrugProgramsInc.-Residential-August2025.pdf`  ·  251.6 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | SO CAL ALCOHOL AND DRUG PROGRAMS, INC. |
+| Invoice date | August 2025 |
+| Billed amount | $131491.56 |
+| Deliverables | Residential addiction program, subacute detoxification (H( Approved; Long Term Residential Day Rate (H0019:U3:HD) |
+| Confidence | high |
+| Notes | The document is a multi-page spreadsheet extract summarizing services, not a traditional single invoice. A single invoice date (YYYY-MM-DD) is not explicitly stated. The 'invoice_date' is derived from the 'August 2025' period mentioned in the document header, representing the month of service as printed. |
+
+## Jwch Institute Inc. - Recovery Bridge Housing - August 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1200949_JwchInstituteInc.-RecoveryBridgeHousing-August2025.pdf`  ·  275.0 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | JWCH INSTITUTE, INC. |
+| Invoice date | — |
+| Billed amount | — |
+| Deliverables | Recovery Bridge Housing (H2034); Recovery Bridge Housing (H2034-C) |
+| Confidence | medium |
+| Notes | The document is a detailed service record or data export, not a summary invoice. A single 'invoice_date' and 'billed_amount' (total due) are not explicitly stated on the document. The header indicates 'Invoice Data Subject to Change - August 2025', which likely refers to the service period, and 'date of data extraction, 12/11/2023', which is when the report was generated, not an invoice date. No grand total or overall 'billed_amount' is present. |
+
+## LA Centers for Alcohol and Drug Abuse - Recovery Bridge Housing - August 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1200950_LACentersforAlcoholandDrugAbuse-RecoveryBridgeHousing-August2025.pdf`  ·  434.2 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | LA CENTERS FOR ALCOHOL AND DRUG ABUSE |
+| Invoice date | — |
+| Billed amount | — |
+| Deliverables | Recovery Bridge Housing (H0034); Recovery Bridge Housing (H0034-C1) |
+| Confidence | medium |
+| Notes | Invoice date is not explicitly stated as a single date. The document title mentions 'August 2023' which indicates the service period, and a 'Date of the data extraction, 1/17/2023' is mentioned in the overview, but neither serves as an invoice date. Total billed amount is not explicitly stated as a sum on the document; only individual line-item charges are listed. |
+
+## House of Hope Foundation Inc. - Recovery Bridge Housing - August 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1200948_HouseofHopeFoundationInc.-RecoveryBridgeHousing-August2025.pdf`  ·  242.1 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | HOUSE OF HOPE FOUNDATION INC. |
+| Invoice date | — |
+| Billed amount | $14984.00 |
+| Deliverables | Recovery Bridge Housing (H2034) |
+| Confidence | high |
+| Notes | A specific 'invoice date' is not present. The document is an 'extract of data processed from an invoicing system' for the billing period 'August 2025'. The extraction date is stated as 12/17/2023, which precedes the service dates (August 2025). As no single invoice issuance date is stated, the field is returned as null. The billed_amount is calculated by summing 248 individual line items of $60.50 each. |
+
+## Healthright 360 - Recovery Bridge Housing - August 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1200947_Healthright360-RecoveryBridgeHousing-August2025.pdf`  ·  257.4 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | HEALTHRIGHT 360 |
+| Invoice date | August 2023 |
+| Billed amount | $18032.00 |
+| Deliverables | Recovery Bridge Housing (H0034) |
+| Confidence | high |
+| Notes | The document is a spreadsheet for expenditures for a reporting period rather than a traditional invoice with a single invoice date. The 'invoice_date' field reflects the reporting period specified in the document title. The 'billed_amount' is the sum of all 'Total Charge' line items (224 entries * $80.50). |
+
+## Grandview Foundation Inc. - Recovery Bridge Housing - August 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1200946_GrandviewFoundationInc.-RecoveryBridgeHousing-August2025.pdf`  ·  238.4 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | GRANDVIEW FOUNDATION, INC. |
+| Invoice date | 2025-08-31 |
+| Billed amount | $14157.00 |
+| Deliverables | Recovery Bridge Housing (H2034) |
+| Confidence | high |
+| Notes | The invoice date is inferred as the last day of the stated billing period, 'August 2025', because a specific invoice issue date is not present. The total billed amount is calculated by multiplying the consistent per-unit charge of $60.50 by the counted 234 line items across all pages. |
+
+## Fred Browns Recovery Services Inc. - Recovery Bridge Housing - August 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1200944_FredBrownsRecoveryServicesInc.-RecoveryBridgeHousing-August2025.pdf`  ·  367.8 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | FRED BROWN'S RECOVERY SERVICES INC. |
+| Invoice date | — |
+| Billed amount | — |
+| Deliverables | Recovery Bridge Housing (H0034) |
+| Confidence | medium |
+| Notes | The document is identified as a 'Billing Report' for 'August 2025', not a traditional invoice. Therefore, a specific single invoice date (YYYY-MM-DD) and a grand total billed amount for the entire document are not present. Each line item lists a 'Total Charge' of $86.50. |
+
+## Fred Browns Recovery Services Inc. - Residential - August 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1200945_FredBrownsRecoveryServicesInc.-Residential-August2025.pdf`  ·  234.2 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | FRED BROWN'S RECOVERY SERVICES INC. |
+| Invoice date | 2025-08-31 |
+| Billed amount | $104744.62 |
+| Deliverables | Long Term Residential Day Rate (H0019:U1); Long Term Residential Day Rate (H0019:U2) |
+| Confidence | high |
+| Notes | The document is a detailed billing report for August 2025, not a single invoice with a specific invoice date. The 'invoice_date' is set to the last day of the reporting month based on the header 'August 2025'. Two distinct service codes (H0019:U1 and H0019:U2) were identified in the deliverables. |
+
+## Divine Healthcare Services Inc. - Recovery Bridge Housing - August 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1200942_DivineHealthcareServicesInc.-RecoveryBridgeHousing-August2025.pdf`  ·  250.6 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | DIVINE HEALTHCARE SERVICES, INC. |
+| Invoice date | — |
+| Billed amount | $19360.00 |
+| Deliverables | Recovery Bridge Housing (H2034) |
+| Confidence | high |
+| Notes | The invoice date is not explicitly stated as a single issue date for the entire document. The document header refers to "August 2025" as the billing period, and the "Date of Service" column shows dates within August 2025. The total billed amount was calculated by summing the "Total Charge" ($60.50) for all 320 line items listed across all 5 pages, as no grand total was present on the document. |
+
+## Cri-Help Inc. - Recovery Bridge Housing - August 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1200941_Cri-HelpInc.-RecoveryBridgeHousing-August2025.pdf`  ·  220.6 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | CRI-HELP, INC. |
+| Invoice date | 2025-08-31 |
+| Billed amount | $10214.50 |
+| Deliverables | Recovery Bridge Housing (H2034) |
+| Confidence | high |
+| Notes | The document is a detailed service report for a monthly period (August 2025), not a single-page invoice with a distinct 'invoice date' and 'total amount' field. The invoice date is inferred as the end date of the service period. The billed amount is the sum of all 'Total Delivered' amounts ($60.50 per line item) across all 169 entries in the document. |
+
+## Clare Matrix - Residential - August 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1200939_ClareMatrix-Residential-August2025.pdf`  ·  224.0 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | CLARE MATRIX |
+| Invoice date | — |
+| Billed amount | $93193.38 |
+| Deliverables | Residential addiction program, subacute detoxification (H( Approved |
+| Confidence | medium |
+| Notes | The document is titled 'SAPC Matrix - August 2025' and described as a 'data extract' rather than a traditional invoice, so a specific 'invoice date' is not present. The 'Data extraction' date of '12/17/2021' is when the report was run, not the invoice date. The billed amount was calculated by summing the 'Total Charge' ($419.79) for each of the 222 line items, as no grand total was explicitly provided on the document. |
+
+## Exodus Recovery Inc. - Recovery Bridge Housing - August 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1200943_ExodusRecoveryInc.-RecoveryBridgeHousing-August2025.pdf`  ·  241.1 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | EXODUS RECOVERY INC |
+| Invoice date | 2025-08-31 |
+| Billed amount | $1028.50 |
+| Deliverables | Recovery Bridge Housing (H2034) |
+| Confidence | medium |
+| Notes | The attached file consists of four identical images, which appear to be a screenshot of the first page of a larger report, and a separate block of OCR text labeled 'OCR for page 4'. The invoice_date '2025-08-31' is inferred from the visible document title 'EXODUS Recovery Bridge Housing - August 2025' (indicating the billing period) and the latest service date present in the 'OCR for page 4' block. The billed_amount is calculated by summing the 'Total Charge' of $60.50 for each of the 17 line items explicitly provided in the 'OCR for page 4' text block. These lines represent services from 8/1/2025 to 8/11/2025 and 8/26/2025 to 8/31/2025. This approach was taken as the OCR text was the only explicit machine-readable data provided for individual transactions, adhering to the instruction to extract ONLY what is stated. There is an inconsistency where the repeated image (acting as 'page 1') visibly shows multiple entries for the same dates (e.g., 8/1/2025), while the 'OCR for page 4' lists only one entry per date for the overlapping period (8/1/2025 - 8/5/2025). Without a complete and unambiguous OCR for the entire document, the total billed amount for all services beyond the explicitly provided 'OCR for page 4' lines cannot be determined or inferred. |
+
+## Beit Tshuvah - Recovery Bridge Housing - August 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1200938_BeitTshuvah-RecoveryBridgeHousing-August2025.pdf`  ·  224.1 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | BEIT TSHUVAH |
+| Invoice date | 2025-08-31 |
+| Billed amount | $19620.00 |
+| Deliverables | Recovery Bridge Housing (H2034) |
+| Confidence | medium |
+| Notes | Invoice date inferred as the end of the billing period 'August 2025' from the document title. Billed amount is the sum of all 'Total Delivered' line items (324 items x $60.50), as no explicit grand total was provided on the document. |
+
+## Landmark Invoice Jul 2025 SNF-STP
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1202155_LandmarkInvoiceJul2025SNF-STP.pdf`  ·  643.0 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Landmark Medical Services, Inc. |
+| Invoice date | 2025-08-27 |
+| Billed amount | $630801.56 |
+| Deliverables | Category I - Access to Care; Category II - Physical Patch; Category III - Behavorial Patch; Category IV - Other |
+| Confidence | medium |
+| Notes | Invoice date inferred from the latest approval date ('8/27/2025') as no explicit 'invoice date' field was present. Deliverables are extracted from the stated categories on the detail page (OCR page 3) as the individual line-item details within those categories are mostly unreadable in the scanned image. |
+
+## Homeless Health Los Angeles 2 - July 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201409_HomelessHealthLosAngeles2-July2025.pdf`  ·  4983.4 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Homeless Health Los Angeles |
+| Invoice date | 2025-09-03 |
+| Billed amount | $54721.67 |
+| Deliverables | Peer Specialist; Substance Use Specialist; RNI; Team Lead MDT3; Director of Outreach/Director of; Mental Health Therapist; Case Manager; Employee Benefits @ 32.00%; Facility Maintenance; Vehicle Maintenance; Telephone; One-time Cell Phone & Laptop Purchases; Program Supplies; Office Suppiles; Utilities; Llability Insurance; Client Expenses; Emergency Housing; Staff Training; Parking and Mileage; Recruitment - Advertisement for positions; Miscellaneous Fees; Depreciation; Payroll Fees; Administrative Overhead/Costs @ 10,9%; Office space; Copier Lease; Vehicle Lease |
+| Confidence | high |
+| Notes | Vendor name ('AGENCY NAME') and billed amount ('AMOUNT REQUESTED' / 'INVOICE AMOUNT') are clearly stated on page 1 and corroborated on page 2. The invoice date ('DATE SUBMITTED') is taken from page 1. Deliverables are extracted from the 'BUDGETED LINE ITEM' column on page 2, listing the specific line items as stated. |
