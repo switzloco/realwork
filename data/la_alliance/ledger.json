@@ -22849,5 +22849,397 @@
     "confidence": "high",
     "extraction_notes": "",
     "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "LINC - Nov. 2023",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1162109_LINC-Nov.2023.pdf",
+    "vendor": "LINC",
+    "invoice_date": "2023-12-05",
+    "billed_amount": 245925.0,
+    "deliverables": [
+      "ARPA/FHSP",
+      "D7",
+      "DHS",
+      "D7 Flex",
+      "Housing for Healthy CA",
+      "MHSA"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Homeless Healthcare Los Angeles (HHCLA) - Nov. 2023",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1162105_HomelessHealthcareLosAngeles_HHCLA_-Nov.2023.pdf",
+    "vendor": "Homeless Healthcare Los Angeles (HHCLA)",
+    "invoice_date": "2023-12-12",
+    "billed_amount": 196800.0,
+    "deliverables": [
+      "ARPA/FHSP",
+      "D7",
+      "SAM",
+      "D7 Flex",
+      "DHS",
+      "MHSA",
+      "SRAP"
+    ],
+    "confidence": "high",
+    "extraction_notes": "All requested information was clearly stated and consistent across the document, particularly the total billed amount matching the billing summary.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Koreatown Youth and Community Center (KYCC) - Nov. 2023",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1162099_KoreatownYouthandCommunityCenter_KYCC_-Nov.2023.pdf",
+    "vendor": "Koreatown Youth and Community Center (KYCC)",
+    "invoice_date": "2023-12-06",
+    "billed_amount": 74550.0,
+    "deliverables": [
+      "D7",
+      "D7 Flex",
+      "MHSA"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Venice Community Housing - Nov. 2023",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1162095_VeniceCommunityHousing-Nov.2023.pdf",
+    "vendor": "Venice Community Housing",
+    "invoice_date": "2023-12-07",
+    "billed_amount": 74175.0,
+    "deliverables": [
+      "D7 - Vacant Slot",
+      "D7 - Occupied Slot",
+      "DHS - Vacant Slot",
+      "DHS - Occupied Slot",
+      "MHSA - Occupied Slot",
+      "PHK (D7) - New Slot",
+      "PHK (D7) - Vacant Slot",
+      "PHK (D7) - Occupied Slot"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "CRCD - Coalition for Responsible Community Development - Nov. 2023",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1162031_CRCD-CoalitionforResponsibleCommunityDevelopment-Nov.2023.pdf",
+    "vendor": "CRCD - Coalition for Responsible Community",
+    "invoice_date": "2023-12-01",
+    "billed_amount": 166500.0,
+    "deliverables": [
+      "ARPA",
+      "D7",
+      "D7 Flex",
+      "MHSA"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Penny Lane - Nov. 2023",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1162087_PennyLane-Nov.2023.pdf",
+    "vendor": "Penny Lane",
+    "invoice_date": "2023-12-05",
+    "billed_amount": 119400.0,
+    "deliverables": [
+      "D7 Vacant Slot Cost",
+      "D7 Occupied Slot Cost",
+      "D7 Flex Occupied Slot Cost",
+      "MHSA Occupied Slot Cost"
+    ],
+    "confidence": "high",
+    "extraction_notes": "All values clearly stated and consistent across the document. The invoice date was taken from 'DATE SUBMITTED' on page 1. Deliverables are derived from the 'BILLING SUMMARY' on page 24, detailing costs by fund type and slot status.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Housing Works (HW) - Nov. 2023",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1161940_HousingWorks_HW_-Nov.2023.pdf",
+    "vendor": "Housing Works",
+    "invoice_date": "2023-12-15",
+    "billed_amount": 201675.0,
+    "deliverables": [
+      "ARPA/FHSP",
+      "D7",
+      "DHS",
+      "D7 Flex",
+      "DHSP (D7)",
+      "HFMH (D7)",
+      "Housing for Healthy CA",
+      "MHSA"
+    ],
+    "confidence": "high",
+    "extraction_notes": "Invoice date extracted from 'DATE SUBMITTED' on page 1. The document also includes a 'NOTIFICATION OF PAYMENT RECOVERY' dated 'November 20, 2023' on page 35, but the submission date of the invoice report itself is 12/15/2023. Deliverables are derived from the 'Fund' categories in the 'BILLING SUMMARY' table on page 34.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "American Family Housing - Nov. 2023",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1159823_AmericanFamilyHousing-Nov.2023.pdf",
+    "vendor": "American Family Housing",
+    "invoice_date": "2023-12-01",
+    "billed_amount": 80175.0,
+    "deliverables": [
+      "Vacant Slot Cost",
+      "Occupied Slot Cost"
+    ],
+    "confidence": "high",
+    "extraction_notes": "Invoice date extracted from 'DATE SUBMITTED'. Deliverables extracted from the high-level categories in the 'BILLING SUMMARY' table on page 19, which represent the components of the total billed amount.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "San Fernando Valley Community Mental Health - Nov. 2023.pdf",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1159833_SanFernandoValleyCommunityMentalHealth-Nov.2023.pdf",
+    "vendor": "San Fernando Valley Community Mental Health Center (SFVCMHC)",
+    "invoice_date": "2023-12-04",
+    "billed_amount": 65725.0,
+    "deliverables": [
+      "Intensive Case Management Services (ICMS) for Housing for Health",
+      "New Slots",
+      "Vacant Slots",
+      "Occupied Slots"
+    ],
+    "confidence": "high",
+    "extraction_notes": "The invoice_date was determined from the 'DATE SUBMITTED' field (12-4-23) on page 1, representing the date the report was generated/submitted, rather than the 'CLAIM PERIOD' (11 / 2023) which refers to the service month.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Step Up on Second - Nov. 2023.pdf",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1159830_StepUponSecond-Nov.2023.pdf",
+    "vendor": "Step Up on Second",
+    "invoice_date": "2023-12-04",
+    "billed_amount": 501200.0,
+    "deliverables": [
+      "Case Manager",
+      "Life Skills Coordinator",
+      "ICMS-SERVICE COORD",
+      "ICMS Life Skills Coordinator I",
+      "SUOS Scattered 4 (SRAP)",
+      "SUOS (HFMH)",
+      "SUOS 5th Street (D7 Flex)",
+      "SUOS EHV (ARPA/EHV)",
+      "SUOS EHV (D7)",
+      "SUOS HUD VASH CCM HACLA (D7)",
+      "SUOS HUD VASH CCM LACDA (D7)",
+      "SUOS Scattered 1 (D7)",
+      "SUOS Scattered 2 (D7)",
+      "SUOS Scattered 3 (ARPA)",
+      "SUOS Scattered 5 (ARPA/FHSP)",
+      "SUOS Step Up On 3rd (D7)",
+      "SUOS Stepping Up LA County TBRA (D7)",
+      "SUOS Stepping Up Pasadena TBRA (D7)",
+      "SUOS Tammy (D7 Flex)",
+      "SUOS 26th Street (D7 Flex)",
+      "SUOS Daniel's Village (MHSA)",
+      "SUOS DMH HACLA TBSH (D7)",
+      "SUOS Step Up On 3rd DMH (D7)",
+      "SUOS Step Up On Broadway (D7)",
+      "SUOS Step Up on Colorado (DHS)",
+      "SUOS Step Up On Vine (MHSA)"
+    ],
+    "confidence": "high",
+    "extraction_notes": "Invoice date taken from 'DATE SUBMITTED'. Billed amount confirmed by 'AMOUNT REQUESTED' on page 1 and 'TOTAL Cost' in 'BILLING SUMMARY' on page 91. Deliverables extracted from 'STAFFING' job titles and distinct 'Project' names listed in 'NEW SLOTS', 'VACANT SLOTS', and 'OCCUPIED SLOTS' sections, then de-duplicated.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Exodus - Nov. 2023.pdf",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1159817_Exodus-Nov.2023.pdf",
+    "vendor": "Exodus",
+    "invoice_date": "2023-01-02",
+    "billed_amount": 244575.0,
+    "deliverables": [
+      "Exodus Culver City (PHK)",
+      "Exodus EHV (ARPA/EHV)",
+      "Exodus EHV (D7)",
+      "Exodus Hope on Broadway (ARPA/FHSP)",
+      "Exodus New Carver (D7 Flex)",
+      "Exodus New Carver (D7)",
+      "Exodus New Carver (DHS)",
+      "Exodus Produce Apartments (D7 Flex)",
+      "Exodus Produce Apartments (D7)",
+      "Exodus Scattered 1 (D7)",
+      "Exodus Scattered 2 (D7)",
+      "Exodus Scattered 3 DMH (D7)",
+      "Exodus Scattered 4 (ARPA/FHSP)",
+      "Exodus SPA 4 (HFMH)",
+      "Exodus SPA 6 (HFMH)",
+      "Exodus SPA 8 (HFMH)",
+      "Exodus Studio 6 (PHK)"
+    ],
+    "confidence": "high",
+    "extraction_notes": "All requested fields were clearly present and readable on the document.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "A Community of Friends - Nov. 2023",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1159820_ACommunityofFriends-Nov.2023.pdf",
+    "vendor": "A Community of Friends",
+    "invoice_date": "2023-12-07",
+    "billed_amount": 165300.0,
+    "deliverables": [
+      "D7",
+      "D7 Flex",
+      "MHSA"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Downtown Women's Center - Nov. 2023.pdf",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1159811_DowntownWomen_sCenter-Nov.2023.pdf",
+    "vendor": "Downtown Women's Center",
+    "invoice_date": "2023-12-08",
+    "billed_amount": 122175.0,
+    "deliverables": [
+      "ARPA Slots",
+      "D7 Slots",
+      "DHS Slots",
+      "SAM Slots",
+      "MHSA Slots"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "St. Joseph's Center - Nov. 2023.pdf",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1159814_St.Joseph_sCenter-Nov.2023.pdf",
+    "vendor": "St. Joseph's Center",
+    "invoice_date": "2023-12-11",
+    "billed_amount": 389325.0,
+    "deliverables": [
+      "ARPA",
+      "D7",
+      "Housing for Healthy CA",
+      "SAM",
+      "D7 Flex",
+      "DHS",
+      "HDAP (D7)",
+      "HFMH (D7)",
+      "MHSA",
+      "PHK (D7)"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Volunteers of America - ICMS - Oct 2023",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1186622_VolunteersofAmerica-ICMS-Oct2023.pdf",
+    "vendor": "Volunteers of America",
+    "invoice_date": "2023-11-03",
+    "billed_amount": 107250.0,
+    "deliverables": [
+      "ARPA/FHSP",
+      "D7",
+      "DHS",
+      "HDAP",
+      "HDAP (D7)",
+      "HDAP (GR)",
+      "MHSA",
+      "PHK (D7)"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Weingart Center Association - ICMS - Oct 2023",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1186623_WeingartCenterAssociation-ICMS-Oct2023.pdf",
+    "vendor": "Weingart Center Association",
+    "invoice_date": "2023-11-06",
+    "billed_amount": 139275.0,
+    "deliverables": [
+      "D7 Slots",
+      "D7 Flex Slots",
+      "DHS Slots"
+    ],
+    "confidence": "high",
+    "extraction_notes": "Deliverables are derived from the 'BILLING SUMMARY' on page 32, representing the total cost for each funding category ('D7', 'D7 Flex', 'DHS') which are described throughout the document as billing for 'slots'.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "LA Family Housing (LAFH) - Nov. 2023.pdf",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1159807_LAFamilyHousing_LAFH_-Nov.2023.pdf",
+    "vendor": "LA Family Housing (LAFH)",
+    "invoice_date": "2023-05-12",
+    "billed_amount": 391200.0,
+    "deliverables": [
+      "SAM",
+      "PHK (D7)",
+      "LA Care-Flex (D7)",
+      "LA Care-Referred (D7)",
+      "D7 Flex",
+      "DHS",
+      "D7",
+      "MHSA"
+    ],
+    "confidence": "medium",
+    "extraction_notes": "There were conflicting dates and billed amounts across the multiple cover pages of the document. Page 1 shows 'DATE SUBMITTED: 5/12/23' and 'AMOUNT REQUESTED: $391,200.00'. Page 72, which is a near-duplicate cover, shows 'DATE SUBMITTED: 12/15/2022' and 'AMOUNT REQUESTED: $389,400.00'. The 'BILLING SUMMARY' on page 70 consistently reports a 'TOTAL Cost' of '$391,200.00', which aligns with the amount requested on page 1. Therefore, the invoice_date from page 1 ('5/12/23') and the billed_amount of 391200.00 (matching page 1 and page 70) were selected. The deliverables are extracted from the 'Fund' column in the 'BILLING SUMMARY' table on page 70, as these represent the summarized categories of services/programs billed for.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Venice Community Housing - ICMS - Oct 2023",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1186621_VeniceCommunityHousing-ICMS-Oct2023.pdf",
+    "vendor": "Venice Community Housing",
+    "invoice_date": "2023-11-10",
+    "billed_amount": 53450.0,
+    "deliverables": [
+      "New Slot Cost (D7)",
+      "Vacant Slot Cost (D7)",
+      "Occupied Slot Cost (D7)",
+      "New Slot Cost (DHS)",
+      "Vacant Slot Cost (DHS)",
+      "Occupied Slot Cost (DHS)",
+      "New Slot Cost (MHSA)",
+      "Vacant Slot Cost (MHSA)",
+      "Occupied Slot Cost (MHSA)",
+      "New Slot Cost (PHK (D7))",
+      "Vacant Slot Cost (PHK (D7))",
+      "Occupied Slot Cost (PHK (D7))"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "The People Concern - ICMS - Oct 2023",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1186620_ThePeopleConcern-ICMS-Oct2023.pdf",
+    "vendor": "The People Concern",
+    "invoice_date": "2023-11-02",
+    "billed_amount": 1260900.0,
+    "deliverables": [
+      "ARPA",
+      "ARPA/FHSP",
+      "D7",
+      "DHS",
+      "EWH",
+      "HDAP",
+      "HDAP (D7)",
+      "HFHMH (D7)",
+      "MHSA",
+      "PHK (D7)",
+      "Housing for Healthy CA"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "The Center in Hollywood - ICMS - Oct 2023",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1186619_TheCenterinHollywood-ICMS-Oct2023.pdf",
+    "vendor": "The Center in Hollywood",
+    "invoice_date": "2023-11-01",
+    "billed_amount": 130350.0,
+    "deliverables": [
+      "D7 slots",
+      "DHS slots",
+      "SAM slots"
+    ],
+    "confidence": "high",
+    "extraction_notes": "Deliverables are categorized by fund types (D7, DHS, SAM) which encompass new, vacant, and occupied slots, as summarized on page 27. The total billed amount matches the 'AMOUNT REQUESTED' on page 1 and the 'Total Cost' in the 'BILLING SUMMARY' on page 27.",
+    "extractor": "gemini-2.5-flash"
   }
 ]
