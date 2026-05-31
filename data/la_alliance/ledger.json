@@ -21704,5 +21704,398 @@
     "confidence": "high",
     "extraction_notes": "Invoice date inferred from 'DATE SUBMITTED' and 'DATE INVOICE RECIEVED' fields on page 1. Billed amount derived from 'AMOUNT REQUESTED' on page 1, which matches 'Total Cost' in the 'BILLING SUMMARY' on page 25. 'Net pay' was identified as a post-disallowance amount and not used for total billed. Deliverables are derived from the 'Fund' categories listed in the 'BILLING SUMMARY' on page 25.",
     "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "HW - ICMS - Mar 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1186912_WO067HWMar24__Redacted.pdf",
+    "vendor": "Housing Works (HW)",
+    "invoice_date": "2024-04-16",
+    "billed_amount": 205050.0,
+    "deliverables": [
+      "ARPA/FHSP Slots",
+      "D7 Slots",
+      "DHS Slots",
+      "D7 Flex Slots",
+      "ARPA Slots",
+      "DHSP (D7) Slots",
+      "HFMH (D7) Slots",
+      "Housing for Healthy CA Slots",
+      "MHSA Slots"
+    ],
+    "confidence": "high",
+    "extraction_notes": "The billed_amount is taken from 'AMOUNT REQUESTED' on page 1 and confirmed by 'TOTAL Cost' in the 'BILLING SUMMARY' on page 33. The 'net pay' mentioned in agency comments reflects a deduction for disallowed costs, not the original billed amount. Deliverables are summarized by the 'Fund' categories from the 'BILLING SUMMARY' table on page 33, as these represent the distinct service categories with associated total costs.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "SJC - ICMS - Mar 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1186910_WO023SJCMar24__Redacted.pdf",
+    "vendor": "St. Joseph's Center",
+    "invoice_date": "2024-04-04",
+    "billed_amount": 422950.0,
+    "deliverables": [
+      "ARPA",
+      "D7",
+      "ARPA/FHSP",
+      "Housing for Healthy CA",
+      "SAM",
+      "D7 Flex",
+      "DHS",
+      "HDAP (D7)",
+      "HFMH (D7)",
+      "MHSA",
+      "PHK (D7)"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "SRO Housing - ICMS - Mar 2024 - ICMS - Mar 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1186908_WO021SROHousingMar24__Redacted.pdf",
+    "vendor": "SRO Housing",
+    "invoice_date": "2024-04-05",
+    "billed_amount": 308625.0,
+    "deliverables": [
+      "New Slot Costs",
+      "Vacant Slot Costs",
+      "Occupied Slot Costs"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "SSG HOPICS P180 - ICMS - Mar 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1186909_WO022SSG.HOPICS.P180Mar24__Redacted.pdf",
+    "vendor": "SSG/HOPICS/Project180",
+    "invoice_date": "2024-04-05",
+    "billed_amount": 299025.0,
+    "deliverables": [
+      "ARPA slots",
+      "ARPA/FHSP slots",
+      "D7 slots",
+      "DHS slots",
+      "SAM slots",
+      "D7 Flex slots",
+      "DHSP (D7) slots",
+      "HDAP slots",
+      "HDAP (D7) slots",
+      "HFMH (D7) slots",
+      "Housing for Healthy CA slots",
+      "MHSA slots"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "DWC - ICMS - Mar 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1186906_WO018DWCMar24__Redacted.pdf",
+    "vendor": "Downtown Women's Center",
+    "invoice_date": "2024-04-24",
+    "billed_amount": 114150.0,
+    "deliverables": [
+      "ARPA services",
+      "D7 services",
+      "DHS services",
+      "SAM services",
+      "MHSA services"
+    ],
+    "confidence": "high",
+    "extraction_notes": "The invoice date is taken from 'DATE SUBMITTED' on page 1, which also matches 'DATE INVOICE RECIEVED'. The billed amount is 'AMOUNT REQUESTED' from page 1, which matches 'TOTAL Cost' in the 'BILLING SUMMARY' on page 17. The deliverables are the line items from the 'BILLING SUMMARY' on page 17, representing services billed under different fund categories.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "VOALA - ICMS - Jan 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1186707_VOALA-ICMS-Jan2024.pdf",
+    "vendor": "Volunteers of America",
+    "invoice_date": "2024-02-06",
+    "billed_amount": 105750.0,
+    "deliverables": [
+      "ARPA/FHSP",
+      "D7",
+      "DHS",
+      "HDAP",
+      "HDAP (D7)",
+      "HDAP (GR)",
+      "MHSA",
+      "PHK (D7)"
+    ],
+    "confidence": "high",
+    "extraction_notes": "none",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "LAFH - ICMS - Mar 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1186899_WO012LAFHMar24__Redacted.pdf",
+    "vendor": "LA Family Housing (LAFH)",
+    "invoice_date": "2024-04-04",
+    "billed_amount": 420500.0,
+    "deliverables": [
+      "D7 - New Slot Cost",
+      "D7 - Vacant Slot Cost",
+      "D7 - Occupied Slot Cost",
+      "PHK (D7) - Occupied Slot Cost",
+      "SAM - Occupied Slot Cost",
+      "D7 Flex - Vacant Slot Cost",
+      "D7 Flex - Occupied Slot Cost",
+      "DHS - Vacant Slot Cost",
+      "DHS - Occupied Slot Cost",
+      "MHSA - Occupied Slot Cost"
+    ],
+    "confidence": "high",
+    "extraction_notes": "Invoice date inferred from 'DATE SUBMITTED' and 'DATE INVOICE RECIEVED' fields on page 1. Deliverables are extracted from the 'BILLING SUMMARY' table on page 59, combining the 'Fund' and 'Slot Cost' categories as presented.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "WCA - ICMS - Jan 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1186709_WCA-ICMS-Jan2024.pdf",
+    "vendor": "Weingart Center Association",
+    "invoice_date": "2024-02-01",
+    "billed_amount": 232800.0,
+    "deliverables": [
+      "Intensive Case Management Services (ICMS) - New Slots",
+      "Intensive Case Management Services (ICMS) - Vacant Slots",
+      "Intensive Case Management Services (ICMS) - Occupied Slots"
+    ],
+    "confidence": "high",
+    "extraction_notes": "The invoice date was extracted from 'DATE SUBMITTED'. The billed amount was extracted from 'AMOUNT REQUESTED' and verified with the 'Total Cost' in the Billing Summary. Deliverables were identified from the document title 'HFH Project Invoice Report', the mention of 'ICMS' throughout, and the billing categories 'New Slots', 'Vacant Slots', and 'Occupied Slots'.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Venice Community Housing - ICMS - Jan 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1186705_VeniceCommunityHousing-ICMS-Jan2024.pdf",
+    "vendor": "Venice Community Housing",
+    "invoice_date": "2024-02-14",
+    "billed_amount": 70275.0,
+    "deliverables": [
+      "D7 - Vacant Slots",
+      "D7 - Occupied Slots",
+      "DHS - Vacant Slots",
+      "DHS - Occupied Slots",
+      "MHSA - Occupied Slots",
+      "PHK (D7) - Vacant Slots",
+      "PHK (D7) - Occupied Slots"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "The People Concern - ICMS - Jan 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1186704_ThePeopleConcern-ICMS-Jan2024.pdf",
+    "vendor": "The People Concern",
+    "invoice_date": "2024-02-06",
+    "billed_amount": 1309175.0,
+    "deliverables": [
+      "ARPA",
+      "ARPA/FHSP",
+      "D7",
+      "DHS",
+      "SAM",
+      "Housing for Healthy CA",
+      "D7 Flex",
+      "EWH",
+      "HDAP",
+      "HDAP (D7)",
+      "HFMH (D7)",
+      "MHSA",
+      "PHK (D7)"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "The Center of Hollywood - ICMS - Jan 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1186703_TheCenterofHollywood-ICMS-Jan2024.pdf",
+    "vendor": "The Center in Hollywood",
+    "invoice_date": "2024-02-01",
+    "billed_amount": 130050.0,
+    "deliverables": [
+      "Vacant Slot Cost",
+      "Occupied Slot Cost"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "STEP UP ON SECOND - ICMS - Jan 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1186702_STEPUPONSECOND-ICMS-Jan2024.pdf",
+    "vendor": "Step Up on Second",
+    "invoice_date": "2024-02-02",
+    "billed_amount": 495675.0,
+    "deliverables": [
+      "ARPA: $18,900.00",
+      "ARPA/FHSP: $2,700.00",
+      "D7: $327,525.00",
+      "DHS: $26,625.00",
+      "SAM: $5,400.00",
+      "Housing for Healthy CA: $450.00",
+      "D7 Flex: $41,625.00",
+      "HFMH (D7): $14,400.00",
+      "MHSA: $17,550.00",
+      "SRAP: $40,500.00"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "ST Josephs - ICMS - Jan 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1186701_STJosephs-ICMS-Jan2024.pdf",
+    "vendor": "St. Joseph's Center",
+    "invoice_date": "2024-02-02",
+    "billed_amount": 392250.0,
+    "deliverables": [
+      "ARPA",
+      "D7",
+      "ARPA/FHSP",
+      "Housing for Healthy CA",
+      "SAM",
+      "D7 Flex",
+      "DHS",
+      "HDAP (D7)",
+      "HFMH (D7)",
+      "MHSA",
+      "PHK (D7)"
+    ],
+    "confidence": "high",
+    "extraction_notes": "Vendor and invoice date extracted from Page 1. Billed amount is the 'AMOUNT REQUESTED' from Page 1, which matches the 'Total Cost' in the 'BILLING SUMMARY' on Page 74. Deliverables are the 'Fund' types listed in the 'BILLING SUMMARY' table on Page 74.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "SSG HOPICS - ICMS - Jan 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1186698_SSGHOPICS-ICMS-Jan2024.pdf",
+    "vendor": "SSG/HOPICS/Project180",
+    "invoice_date": "2024-02-05",
+    "billed_amount": 298575.0,
+    "deliverables": [
+      "ARPA",
+      "ARPA/FHSP",
+      "D7",
+      "DHS",
+      "SAM",
+      "D7 Flex",
+      "DHSP (D7)",
+      "HDAP",
+      "HDAP (D7)",
+      "HFMH (D7)",
+      "Housing for Healthy CA",
+      "MHSA"
+    ],
+    "confidence": "high",
+    "extraction_notes": "The \"billed_amount\" is taken from \"AMOUNT REQUESTED\" on page 1 and confirmed by \"Total Cost\" in the billing summary on page 65. The document also states an \"applied disallowed costs\" and a \"net pay\" after these costs, but the \"AMOUNT REQUESTED\" represents the total billed prior to these adjustments. The invoice date is taken from \"DATE SUBMITTED\" on page 1.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "SRO HOUSING - ICMS - Jan 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1186697_SROHOUSING-ICMS-Jan2024.pdf",
+    "vendor": "SRO Housing",
+    "invoice_date": "2024-02-06",
+    "billed_amount": 299400.0,
+    "deliverables": [
+      "Housing Services (D7 Fund)",
+      "Housing Services (D7 Flex Fund)",
+      "Housing Services (DHS Fund)",
+      "Housing Services (MHSA Fund)"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "SFVCMHC - ICMS - Jan 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1186694_SFVCMHC-ICMS-Jan2024.pdf",
+    "vendor": "San Fernando Valley Community Mental Health Center (SFVCMHC)",
+    "invoice_date": "2024-02-13",
+    "billed_amount": 93550.0,
+    "deliverables": [
+      "D7 - New Slot Cost",
+      "D7 - Vacant Slot Cost",
+      "D7 - Occupied Slot Cost",
+      "DCFS/HSSP - Vacant Slot Cost",
+      "DCFS/HSSP - Occupied Slot Cost",
+      "HFMH (D7) - Vacant Slot Cost",
+      "HFMH (D7) - Occupied Slot Cost"
+    ],
+    "confidence": "high",
+    "extraction_notes": "The billed_amount is taken from 'AMOUNT REQUESTED' on page 1 and confirmed by 'TOTAL Cost' in the 'BILLING SUMMARY' on page 20. The 'applied disallowed costs' and 'net pay' figures mentioned on page 1 and the notification letter on page 21 refer to a payment recovery to be deducted from a *future* invoice, not a reduction in the billed amount of this specific invoice. Deliverables are extracted from the 'BILLING SUMMARY' table on page 20, listing fund types combined with non-zero slot costs as stated line-items.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "PATH - ICMS - Jan 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1186692_PATH-ICMS-Jan2024.pdf",
+    "vendor": "PATH",
+    "invoice_date": "2024-02-13",
+    "billed_amount": 772725.0,
+    "deliverables": [
+      "ARPA",
+      "ARPA/FHSP",
+      "D7",
+      "D7 Flex",
+      "DHS",
+      "SAM",
+      "HDAP (D7)",
+      "HFMH (D7)",
+      "Housing for Healthy CA",
+      "MHSA",
+      "PHK (D7)",
+      "SRAP"
+    ],
+    "confidence": "high",
+    "extraction_notes": "Invoice date was extracted from 'DATE INVOICE RECIEVED' which appeared to be the most relevant date for the overall invoice submission. Total billed amount is consistent across the first page summary and the billing summary table.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Penny Lane - ICMS - Jan 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1186693_PennyLane-ICMS-Jan2024.pdf",
+    "vendor": "Penny Lane",
+    "invoice_date": "2024-02-05",
+    "billed_amount": 118050.0,
+    "deliverables": [
+      "Fund D7 services",
+      "Fund D7 Flex services",
+      "Fund MHSA services"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "LST&E - ICMS - Jan 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1186691_LST_E-ICMS-Jan2024.pdf",
+    "vendor": "Life Skills Training and Educational Programs",
+    "invoice_date": "2024-02-08",
+    "billed_amount": 144975.0,
+    "deliverables": [
+      "Intensive Case Management Services (ICMS) - ARPA/FHSP Fund",
+      "Intensive Case Management Services (ICMS) - D7 Fund",
+      "Intensive Case Management Services (ICMS) - DHS Fund",
+      "Intensive Case Management Services (ICMS) - HFMH (D7) Fund",
+      "Intensive Case Management Services (ICMS) - MHSA Fund"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "LINC - ICMS - Jan 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1186690_LINC-ICMS-Jan2024.pdf",
+    "vendor": "LINC",
+    "invoice_date": "2024-02-07",
+    "billed_amount": 245700.0,
+    "deliverables": [
+      "ARPA/FHSP",
+      "D7",
+      "DHS",
+      "D7 Flex",
+      "Housing for Healthy CA",
+      "MHSA"
+    ],
+    "confidence": "high",
+    "extraction_notes": "The invoice shows an 'AMOUNT REQUESTED' of $245,700.00 and a 'Total Cost' of $245,700.00 in the billing summary. There is a separate note regarding 'applied disallowed costs $450.00' resulting in 'net pay $245,250.00'. The disallowed costs are explicitly stated as a 'payment recovery' for a previous service month, to be recovered via deduction from the current invoice, therefore the billed amount for this invoice is the original total requested.",
+    "extractor": "gemini-2.5-flash"
   }
 ]
