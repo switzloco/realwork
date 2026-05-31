@@ -522,3 +522,263 @@ Right: the normalized ledger row our agent extracted autonomously.
 | Deliverables | STAFFING; VACANT SLOTS; OCCUPIED SLOTS |
 | Confidence | high |
 | Notes | All requested fields were clearly identifiable on the document. |
+
+## The People Concern - PSH - May 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201714_ThePeopleConcern-PSH-May2025.pdf`  ·  19826.4 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | — |
+| Invoice date | — |
+| Billed amount | — |
+| Deliverables | — |
+| Confidence | low |
+| Notes | PDF exceeds inline limit; use Gemini File API |
+
+## The Center in Hollywood - PSH - May 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201713_TheCenterinHollywood-PSH-May2025.pdf`  ·  424.7 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | The Center in Hollywood |
+| Invoice date | 2025-06-02 |
+| Billed amount | $148091.25 |
+| Deliverables | D7 New Slot Cost; D7 Vacant Slot Cost; D7 Occupied Slot Cost; DHS New Slot Cost; DHS Vacant Slot Cost; DHS Occupied Slot Cost; SAM New Slot Cost; SAM Vacant Slot Cost; SAM Occupied Slot Cost |
+| Confidence | high |
+| Notes | — |
+
+## Weingart Center Association - PSH - May 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201717_WeingartCenterAssociation-PSH-May2025.pdf`  ·  12445.6 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Weingart Center Association |
+| Invoice date | 2025-06-03 |
+| Billed amount | $258330.00 |
+| Deliverables | New Slots; Vacant Slots; Occupied Slots |
+| Confidence | high |
+| Notes | The document contains a notification of payment recovery for a disallowed cost of $22,252.50 (May 12, 2025, for April 2025 service month), and a separate invoice (dated June 3, 2025) which lists an 'AMOUNT REQUESTED' of $258,330.00. The 'billed_amount' is extracted from the 'AMOUNT REQUESTED' on the invoice portion of the document, which is also confirmed by the 'Total Cost' in the 'BILLING SUMMARY' on the final page. The 'invoice_date' is taken from the 'DATE SUBMITTED' on the invoice form (Page 3). Deliverables are extracted from the categories in the 'BILLING SUMMARY' (Page 43). |
+
+## Step Up On Second - PSH - May 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201712_StepUpOnSecond-PSH-May2025.pdf`  ·  2677.8 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Step Up on Second |
+| Invoice date | 2025-06-03 |
+| Billed amount | $604267.50 |
+| Deliverables | ARPA; ARPA/FHSP; D7; DHS; SAM; Housing for Healthy CA; D7 Flex; HFMH (D7); MHSA; SRAP |
+| Confidence | high |
+| Notes | Invoice date taken from 'DATE SUBMITTED' and 'DATE INVOICE RECEIVED' on page 1, which aligns with the report generation date in the footer, rather than the cover letter date of May 12, 2025 on page 104. |
+
+## St. Joseph's Center - PSH - May 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201711_St.Joseph_sCenter-PSH-May2025.pdf`  ·  989.9 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | St. Joseph's Center |
+| Invoice date | 2025-06-04 |
+| Billed amount | $526297.50 |
+| Deliverables | ARPA; D7; ARPA/FHSP; Housing for Healthy CA; SAM; D7 Flex; DHS; HDAP (D7); HFMH (D7); MHSA; PHK (D7) |
+| Confidence | high |
+| Notes | The billed_amount is taken from 'AMOUNT REQUESTED' on page 1 and confirmed by 'TOTAL' under 'Total Cost' in the 'BILLING SUMMARY' on page 86. The deliverables are the 'Fund' categories listed in the 'BILLING SUMMARY' on page 86, representing the high-level services billed. Page 87 describes disallowed costs, which affect the net pay but not the total billed amount, as per the prompt's request for 'total billed'. |
+
+## SSG HOPICS Project 180 - PSH - May 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201710_SSGHOPICSProject180-PSH-May2025.pdf`  ·  1429.6 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | SSG/HOPICS/Project180 |
+| Invoice date | 2025-06-06 |
+| Billed amount | $574872.50 |
+| Deliverables | ARPA; ARPA/FHSP; D7; DHS; SAM; D7 Flex; DHSP (D7); ERF-PTH; HDAP; HDAP (D7); HFMH (D7); Housing for Healthy CA; MHSA; PHK (D7) |
+| Confidence | high |
+| Notes | Invoice date extracted from 'DATE SUBMITTED'. Deliverables are the 'Fund' categories listed in the 'BILLING SUMMARY' on page 93. |
+
+## Penny Lane - PSH - May 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201708_PennyLane-PSH-May2025.pdf`  ·  2881.8 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Penny Lane |
+| Invoice date | 06-09-2025 |
+| Billed amount | $113677.50 |
+| Deliverables | D7; D7 Flex; MHSA |
+| Confidence | high |
+| Notes | Invoice date extracted from 'DATE SUBMITTED'. Deliverables are listed as the main service categories in the 'BILLING SUMMARY' on the last page. |
+
+## Single Room Occupancy Housing - PSH - May 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201709_SingleRoomOccupancyHousing-PSH-May2025.pdf`  ·  3434.4 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | SRO Housing |
+| Invoice date | 2025-06-04 |
+| Billed amount | $326048.75 |
+| Deliverables | Permanent Supportive Housing; D7; DHS; CFCI 2; Housing for Healthy CA; D7 Flex; MHSA |
+| Confidence | high |
+| Notes | The document is a 'Notification of Payment Recovery' for disallowed costs from April 2025, but it includes an 'HFH Project Invoice Report'. The 'vendor' was identified from the Agency Name. The 'invoice_date' was taken from the 'DATE SUBMITTED' field on Page 3, which corresponds to the report generation date. The 'billed_amount' was taken from 'AMOUNT REQUESTED' on Page 3 and confirmed by the 'Total Cost' in the Billing Summary on Page 66. 'Deliverables' include the overarching service mentioned on Page 1 and the 'Fund' categories from the Billing Summary table on Page 66. |
+
+## PATH - PSH - May 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201707_PATH-PSH-May2025.pdf`  ·  2020.3 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | PATH |
+| Invoice date | 2025-06-05 |
+| Billed amount | $1125813.75 |
+| Deliverables | ARPA; ARPA/FHSP; D7; D7 Flex; DHS; SAM; ERF-PTH; HDAP (D7); HFMH (D7); Housing for Healthy CA; MHSA; PHK (D7); SRAP |
+| Confidence | high |
+| Notes | The invoice date is extracted from the 'DATE SUBMITTED' field on page 2, as a specific 'Invoice Date' field is not explicitly labeled. The date 'May 12, 2025' on page 1 pertains to the accompanying notification letter, not the invoice report itself. |
+
+## Mental Health America LB - PSH - May 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201706_MentalHealthAmericaLB-PSH-May2025.pdf`  ·  1114.3 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Mental Health America (MHA), Long Beach |
+| Invoice date | 2025-06-06 |
+| Billed amount | $266771.25 |
+| Deliverables | ARPA/FHSP; D7; DHS; SAM; Housing for Healthy CA; D7 Flex; DCFS/HSSP; HFMH (D7); MHSA |
+| Confidence | high |
+| Notes | The 'billed_amount' matches the 'AMOUNT REQUESTED' on the cover page and the 'TOTAL Total Cost' in the billing summary. The 'invoice_date' is taken from 'DATE SUBMITTED'. The 'deliverables' are extracted from the 'Fund' column in the 'BILLING SUMMARY' table. The document includes a 'NOTIFICATION OF PAYMENT RECOVERY DUE TO DISALLOWED COSTS' of $517.50, but it states this will be recovered via deduction from a *next submitted* invoice, therefore it is not included in the 'billed_amount' for this specific invoice. |
+
+## LINC - PSH - May 202
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201705_LINC-PSH-May2025.pdf`  ·  1600.0 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | LINC |
+| Invoice date | 2025-06-05 |
+| Billed amount | $383295.00 |
+| Deliverables | ARPA/FHSP; D7; D7 Flex; Housing for Healthy CA; MHSA; PHK (D7) |
+| Confidence | high |
+| Notes | — |
+
+## Life Skills Training and Educational Programs - PSH - May 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201704_LifeSkillsTrainingandEducationalPrograms-PSH-May2025.pdf`  ·  1311.9 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Life Skills Training and Educational Programs |
+| Invoice date | 2025-06-12 |
+| Billed amount | $274737.50 |
+| Deliverables | CFCI 2; D7; ARPA/FHSP; DHS; HFMH (D7); MHSA |
+| Confidence | high |
+| Notes | Invoice date extracted from 'DATE SUBMITTED'. Deliverables extracted from 'Fund' categories in the 'BILLING SUMMARY' on page 49, as these represent distinct billing components. |
+
+## Koreatown Youth and Community Center - PSH - May 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201702_KoreatownYouthandCommunityCenter-PSH-May2025.pdf`  ·  1222.4 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Koreatown Youth and Community Center (KYCC) |
+| Invoice date | 2025-06-05 |
+| Billed amount | $83403.75 |
+| Deliverables | D7 Vacant Slot Cost; D7 Occupied Slot Cost; D7 Flex Vacant Slot Cost; D7 Flex Occupied Slot Cost; MHSA Occupied Slot Cost |
+| Confidence | high |
+| Notes | — |
+
+## LA Family Housing - PSH - May 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201703_LAFamilyHousing-PSH-May2025.pdf`  ·  4040.9 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | LA Family Housing (LAFH) |
+| Invoice date | 2025-06-02 |
+| Billed amount | $539283.75 |
+| Deliverables | New Slot Cost; Vacant Slot Cost; Occupied Slot Cost |
+| Confidence | high |
+| Notes | The year for 'invoice_date' (6/2/25) was inferred as 2025 based on other dates on the document (e.g., 'Jun 03, 2025'). Deliverables are extracted from the 'BILLING SUMMARY' section which lists components of the 'Total Cost' matching the 'AMOUNT REQUESTED'. |
+
+## Jenesse Center Inc. - PSH - May 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201701_JenesseCenterInc.-PSH-May2025.pdf`  ·  2297.6 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Jenesse Center, Inc. |
+| Invoice date | 2025-06-04 |
+| Billed amount | $24322.50 |
+| Deliverables | Occupied Single Adult High Acuity Slots; Occupied Family High Acuity Slots |
+| Confidence | high |
+| Notes | — |
+
+## Homeless Healthcare LA - PSH - May 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201699_HomelessHealthcareLA-PSH-May2025.pdf`  ·  1325.2 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Homeless Healthcare Los Angeles (HHCLA) |
+| Invoice date | 2025-06-12 |
+| Billed amount | $227613.75 |
+| Deliverables | ARPA/FHSP; D7; SAM; D7 Flex; DHS; MHSA; SRAP |
+| Confidence | high |
+| Notes | — |
+
+## Housing Works - PSH - May 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201700_HousingWorks-PSH-May2025.pdf`  ·  4922.2 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Housing Works (HW) |
+| Invoice date | 2025-06-17 |
+| Billed amount | $301443.75 |
+| Deliverables | ARPA/FHSP; D7; DHS; D7 Flex; DHSP (D7); HFMH (D7); Housing for Healthy CA; MHSA |
+| Confidence | high |
+| Notes | — |
+
+## Exodus - PSH - May 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201697_Exodus-PSH-May2025.pdf`  ·  1403.0 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Exodus |
+| Invoice date | 2025-06-02 |
+| Billed amount | $330768.75 |
+| Deliverables | ARPA; ARPA/FHSP; CFCI 2; D7; D7 Flex; DHS; HFMH (D7); PHK (D7); SRAP |
+| Confidence | high |
+| Notes | — |
+
+## Heritage Clinic - PSH - May 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201698_HeritageClinic-PSH-May2025.pdf`  ·  10813.2 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Heritage Clinic |
+| Invoice date | 2025-06-09 |
+| Billed amount | $335340.00 |
+| Deliverables | ARPA; ERF-PTH; CFCI 2; D7; PHK (D7); MHSA; SRAP |
+| Confidence | high |
+| Notes | — |
+
+## Brilliant Corners - PSH - May 2025
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1201696_BrilliantCorners-PSH-May2025.pdf`  ·  664.8 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Brilliant Corners |
+| Invoice date | 2025-06-10 |
+| Billed amount | $182505.00 |
+| Deliverables | ARPA; ARPA/FHSP; PHK (D7); D7; Homesafe; CFCI 1; DHS; HFMH (D7) |
+| Confidence | high |
+| Notes | The invoice date is extracted from 'DATE SUBMITTED' and 'DATE INVOICE RECIEVED' which are consistent. Deliverables are extracted from the 'Fund' categories in the 'BILLING SUMMARY' table on page 32, as these represent the line-item services/programs being billed for. |

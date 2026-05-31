@@ -8651,5 +8651,384 @@
     "confidence": "high",
     "extraction_notes": "All requested fields were clearly identifiable on the document.",
     "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "The People Concern - PSH - May 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201714_ThePeopleConcern-PSH-May2025.pdf",
+    "vendor": null,
+    "invoice_date": null,
+    "billed_amount": null,
+    "deliverables": [],
+    "confidence": "low",
+    "extraction_notes": "PDF exceeds inline limit; use Gemini File API",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "The Center in Hollywood - PSH - May 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201713_TheCenterinHollywood-PSH-May2025.pdf",
+    "vendor": "The Center in Hollywood",
+    "invoice_date": "2025-06-02",
+    "billed_amount": 148091.25,
+    "deliverables": [
+      "D7 New Slot Cost",
+      "D7 Vacant Slot Cost",
+      "D7 Occupied Slot Cost",
+      "DHS New Slot Cost",
+      "DHS Vacant Slot Cost",
+      "DHS Occupied Slot Cost",
+      "SAM New Slot Cost",
+      "SAM Vacant Slot Cost",
+      "SAM Occupied Slot Cost"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Weingart Center Association - PSH - May 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201717_WeingartCenterAssociation-PSH-May2025.pdf",
+    "vendor": "Weingart Center Association",
+    "invoice_date": "2025-06-03",
+    "billed_amount": 258330.0,
+    "deliverables": [
+      "New Slots",
+      "Vacant Slots",
+      "Occupied Slots"
+    ],
+    "confidence": "high",
+    "extraction_notes": "The document contains a notification of payment recovery for a disallowed cost of $22,252.50 (May 12, 2025, for April 2025 service month), and a separate invoice (dated June 3, 2025) which lists an 'AMOUNT REQUESTED' of $258,330.00. The 'billed_amount' is extracted from the 'AMOUNT REQUESTED' on the invoice portion of the document, which is also confirmed by the 'Total Cost' in the 'BILLING SUMMARY' on the final page. The 'invoice_date' is taken from the 'DATE SUBMITTED' on the invoice form (Page 3). Deliverables are extracted from the categories in the 'BILLING SUMMARY' (Page 43).",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Step Up On Second - PSH - May 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201712_StepUpOnSecond-PSH-May2025.pdf",
+    "vendor": "Step Up on Second",
+    "invoice_date": "2025-06-03",
+    "billed_amount": 604267.5,
+    "deliverables": [
+      "ARPA",
+      "ARPA/FHSP",
+      "D7",
+      "DHS",
+      "SAM",
+      "Housing for Healthy CA",
+      "D7 Flex",
+      "HFMH (D7)",
+      "MHSA",
+      "SRAP"
+    ],
+    "confidence": "high",
+    "extraction_notes": "Invoice date taken from 'DATE SUBMITTED' and 'DATE INVOICE RECEIVED' on page 1, which aligns with the report generation date in the footer, rather than the cover letter date of May 12, 2025 on page 104.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "St. Joseph's Center - PSH - May 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201711_St.Joseph_sCenter-PSH-May2025.pdf",
+    "vendor": "St. Joseph's Center",
+    "invoice_date": "2025-06-04",
+    "billed_amount": 526297.5,
+    "deliverables": [
+      "ARPA",
+      "D7",
+      "ARPA/FHSP",
+      "Housing for Healthy CA",
+      "SAM",
+      "D7 Flex",
+      "DHS",
+      "HDAP (D7)",
+      "HFMH (D7)",
+      "MHSA",
+      "PHK (D7)"
+    ],
+    "confidence": "high",
+    "extraction_notes": "The billed_amount is taken from 'AMOUNT REQUESTED' on page 1 and confirmed by 'TOTAL' under 'Total Cost' in the 'BILLING SUMMARY' on page 86. The deliverables are the 'Fund' categories listed in the 'BILLING SUMMARY' on page 86, representing the high-level services billed. Page 87 describes disallowed costs, which affect the net pay but not the total billed amount, as per the prompt's request for 'total billed'.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "SSG HOPICS Project 180 - PSH - May 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201710_SSGHOPICSProject180-PSH-May2025.pdf",
+    "vendor": "SSG/HOPICS/Project180",
+    "invoice_date": "2025-06-06",
+    "billed_amount": 574872.5,
+    "deliverables": [
+      "ARPA",
+      "ARPA/FHSP",
+      "D7",
+      "DHS",
+      "SAM",
+      "D7 Flex",
+      "DHSP (D7)",
+      "ERF-PTH",
+      "HDAP",
+      "HDAP (D7)",
+      "HFMH (D7)",
+      "Housing for Healthy CA",
+      "MHSA",
+      "PHK (D7)"
+    ],
+    "confidence": "high",
+    "extraction_notes": "Invoice date extracted from 'DATE SUBMITTED'. Deliverables are the 'Fund' categories listed in the 'BILLING SUMMARY' on page 93.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Penny Lane - PSH - May 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201708_PennyLane-PSH-May2025.pdf",
+    "vendor": "Penny Lane",
+    "invoice_date": "06-09-2025",
+    "billed_amount": 113677.5,
+    "deliverables": [
+      "D7",
+      "D7 Flex",
+      "MHSA"
+    ],
+    "confidence": "high",
+    "extraction_notes": "Invoice date extracted from 'DATE SUBMITTED'. Deliverables are listed as the main service categories in the 'BILLING SUMMARY' on the last page.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Single Room Occupancy Housing - PSH - May 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201709_SingleRoomOccupancyHousing-PSH-May2025.pdf",
+    "vendor": "SRO Housing",
+    "invoice_date": "2025-06-04",
+    "billed_amount": 326048.75,
+    "deliverables": [
+      "Permanent Supportive Housing",
+      "D7",
+      "DHS",
+      "CFCI 2",
+      "Housing for Healthy CA",
+      "D7 Flex",
+      "MHSA"
+    ],
+    "confidence": "high",
+    "extraction_notes": "The document is a 'Notification of Payment Recovery' for disallowed costs from April 2025, but it includes an 'HFH Project Invoice Report'. The 'vendor' was identified from the Agency Name. The 'invoice_date' was taken from the 'DATE SUBMITTED' field on Page 3, which corresponds to the report generation date. The 'billed_amount' was taken from 'AMOUNT REQUESTED' on Page 3 and confirmed by the 'Total Cost' in the Billing Summary on Page 66. 'Deliverables' include the overarching service mentioned on Page 1 and the 'Fund' categories from the Billing Summary table on Page 66.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "PATH - PSH - May 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201707_PATH-PSH-May2025.pdf",
+    "vendor": "PATH",
+    "invoice_date": "2025-06-05",
+    "billed_amount": 1125813.75,
+    "deliverables": [
+      "ARPA",
+      "ARPA/FHSP",
+      "D7",
+      "D7 Flex",
+      "DHS",
+      "SAM",
+      "ERF-PTH",
+      "HDAP (D7)",
+      "HFMH (D7)",
+      "Housing for Healthy CA",
+      "MHSA",
+      "PHK (D7)",
+      "SRAP"
+    ],
+    "confidence": "high",
+    "extraction_notes": "The invoice date is extracted from the 'DATE SUBMITTED' field on page 2, as a specific 'Invoice Date' field is not explicitly labeled. The date 'May 12, 2025' on page 1 pertains to the accompanying notification letter, not the invoice report itself.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Mental Health America LB - PSH - May 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201706_MentalHealthAmericaLB-PSH-May2025.pdf",
+    "vendor": "Mental Health America (MHA), Long Beach",
+    "invoice_date": "2025-06-06",
+    "billed_amount": 266771.25,
+    "deliverables": [
+      "ARPA/FHSP",
+      "D7",
+      "DHS",
+      "SAM",
+      "Housing for Healthy CA",
+      "D7 Flex",
+      "DCFS/HSSP",
+      "HFMH (D7)",
+      "MHSA"
+    ],
+    "confidence": "high",
+    "extraction_notes": "The 'billed_amount' matches the 'AMOUNT REQUESTED' on the cover page and the 'TOTAL Total Cost' in the billing summary. The 'invoice_date' is taken from 'DATE SUBMITTED'. The 'deliverables' are extracted from the 'Fund' column in the 'BILLING SUMMARY' table. The document includes a 'NOTIFICATION OF PAYMENT RECOVERY DUE TO DISALLOWED COSTS' of $517.50, but it states this will be recovered via deduction from a *next submitted* invoice, therefore it is not included in the 'billed_amount' for this specific invoice.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "LINC - PSH - May 202",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201705_LINC-PSH-May2025.pdf",
+    "vendor": "LINC",
+    "invoice_date": "2025-06-05",
+    "billed_amount": 383295.0,
+    "deliverables": [
+      "ARPA/FHSP",
+      "D7",
+      "D7 Flex",
+      "Housing for Healthy CA",
+      "MHSA",
+      "PHK (D7)"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Life Skills Training and Educational Programs - PSH - May 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201704_LifeSkillsTrainingandEducationalPrograms-PSH-May2025.pdf",
+    "vendor": "Life Skills Training and Educational Programs",
+    "invoice_date": "2025-06-12",
+    "billed_amount": 274737.5,
+    "deliverables": [
+      "CFCI 2",
+      "D7",
+      "ARPA/FHSP",
+      "DHS",
+      "HFMH (D7)",
+      "MHSA"
+    ],
+    "confidence": "high",
+    "extraction_notes": "Invoice date extracted from 'DATE SUBMITTED'. Deliverables extracted from 'Fund' categories in the 'BILLING SUMMARY' on page 49, as these represent distinct billing components.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Koreatown Youth and Community Center - PSH - May 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201702_KoreatownYouthandCommunityCenter-PSH-May2025.pdf",
+    "vendor": "Koreatown Youth and Community Center (KYCC)",
+    "invoice_date": "2025-06-05",
+    "billed_amount": 83403.75,
+    "deliverables": [
+      "D7 Vacant Slot Cost",
+      "D7 Occupied Slot Cost",
+      "D7 Flex Vacant Slot Cost",
+      "D7 Flex Occupied Slot Cost",
+      "MHSA Occupied Slot Cost"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "LA Family Housing - PSH - May 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201703_LAFamilyHousing-PSH-May2025.pdf",
+    "vendor": "LA Family Housing (LAFH)",
+    "invoice_date": "2025-06-02",
+    "billed_amount": 539283.75,
+    "deliverables": [
+      "New Slot Cost",
+      "Vacant Slot Cost",
+      "Occupied Slot Cost"
+    ],
+    "confidence": "high",
+    "extraction_notes": "The year for 'invoice_date' (6/2/25) was inferred as 2025 based on other dates on the document (e.g., 'Jun 03, 2025'). Deliverables are extracted from the 'BILLING SUMMARY' section which lists components of the 'Total Cost' matching the 'AMOUNT REQUESTED'.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Jenesse Center Inc. - PSH - May 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201701_JenesseCenterInc.-PSH-May2025.pdf",
+    "vendor": "Jenesse Center, Inc.",
+    "invoice_date": "2025-06-04",
+    "billed_amount": 24322.5,
+    "deliverables": [
+      "Occupied Single Adult High Acuity Slots",
+      "Occupied Family High Acuity Slots"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Homeless Healthcare LA - PSH - May 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201699_HomelessHealthcareLA-PSH-May2025.pdf",
+    "vendor": "Homeless Healthcare Los Angeles (HHCLA)",
+    "invoice_date": "2025-06-12",
+    "billed_amount": 227613.75,
+    "deliverables": [
+      "ARPA/FHSP",
+      "D7",
+      "SAM",
+      "D7 Flex",
+      "DHS",
+      "MHSA",
+      "SRAP"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Housing Works - PSH - May 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201700_HousingWorks-PSH-May2025.pdf",
+    "vendor": "Housing Works (HW)",
+    "invoice_date": "2025-06-17",
+    "billed_amount": 301443.75,
+    "deliverables": [
+      "ARPA/FHSP",
+      "D7",
+      "DHS",
+      "D7 Flex",
+      "DHSP (D7)",
+      "HFMH (D7)",
+      "Housing for Healthy CA",
+      "MHSA"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Exodus - PSH - May 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201697_Exodus-PSH-May2025.pdf",
+    "vendor": "Exodus",
+    "invoice_date": "2025-06-02",
+    "billed_amount": 330768.75,
+    "deliverables": [
+      "ARPA",
+      "ARPA/FHSP",
+      "CFCI 2",
+      "D7",
+      "D7 Flex",
+      "DHS",
+      "HFMH (D7)",
+      "PHK (D7)",
+      "SRAP"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Heritage Clinic - PSH - May 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201698_HeritageClinic-PSH-May2025.pdf",
+    "vendor": "Heritage Clinic",
+    "invoice_date": "2025-06-09",
+    "billed_amount": 335340.0,
+    "deliverables": [
+      "ARPA",
+      "ERF-PTH",
+      "CFCI 2",
+      "D7",
+      "PHK (D7)",
+      "MHSA",
+      "SRAP"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Brilliant Corners - PSH - May 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201696_BrilliantCorners-PSH-May2025.pdf",
+    "vendor": "Brilliant Corners",
+    "invoice_date": "2025-06-10",
+    "billed_amount": 182505.0,
+    "deliverables": [
+      "ARPA",
+      "ARPA/FHSP",
+      "PHK (D7)",
+      "D7",
+      "Homesafe",
+      "CFCI 1",
+      "DHS",
+      "HFMH (D7)"
+    ],
+    "confidence": "high",
+    "extraction_notes": "The invoice date is extracted from 'DATE SUBMITTED' and 'DATE INVOICE RECIEVED' which are consistent. Deliverables are extracted from the 'Fund' categories in the 'BILLING SUMMARY' table on page 32, as these represent the line-item services/programs being billed for.",
+    "extractor": "gemini-2.5-flash"
   }
 ]
