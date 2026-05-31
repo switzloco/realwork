@@ -4422,3 +4422,523 @@ Right: the normalized ledger row our agent extracted autonomously.
 | Deliverables | ARPA/FHSP; D7; DHS; HDAP; HDAP (D7); HDAP (GR); MHSA; PHK (D7) |
 | Confidence | high |
 | Notes | — |
+
+## SRO Housing - Oct. 2023
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1162172_SROHousing-Oct.2023.pdf`  ·  456.4 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | SRO Housing |
+| Invoice date | 2023-11-03 |
+| Billed amount | $304050.00 |
+| Deliverables | D7 Flex; D7; DHS; MHSA |
+| Confidence | high |
+| Notes | Vendor name and invoice date extracted from page 1. Billed amount confirmed on page 1 ('AMOUNT REQUESTED') and page 71 ('Total Cost' in Billing Summary). Deliverables extracted from the 'Fund' column in the 'BILLING SUMMARY' table on page 71. |
+
+## Weingart Center Association - Oct. 2023
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1162168_WeingartCenterAssociation-Oct.2023.pdf`  ·  3289.8 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Weingart Center Association |
+| Invoice date | 2023-11-06 |
+| Billed amount | $139275.00 |
+| Deliverables | Vacant Slot Cost (D7); Occupied Slot Cost (D7); Vacant Slot Cost (D7 Flex); Occupied Slot Cost (D7 Flex); Vacant Slot Cost (DHS); Occupied Slot Cost (DHS) |
+| Confidence | high |
+| Notes | The invoice date is extracted from 'DATE SUBMITTED' on page 1, as no explicit 'invoice date' field was present. The deliverables are derived from the 'BILLING SUMMARY' section on page 32, which itemizes the total cost by fund and slot type (Vacant/Occupied). |
+
+## Life Skills Training and Educational Programs - Oct. 2023
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1162111_LifeSkillsTrainingandEducationalPrograms-Oct.2023.pdf`  ·  867.6 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Life Skills Training and Educational Programs |
+| Invoice date | 2023-11-07 |
+| Billed amount | $144825.00 |
+| Deliverables | ARPA/FHSP; D7; DHS; HFMH (D7); MHSA |
+| Confidence | high |
+| Notes | — |
+
+## The Center in Hollywood - Oct. 2023
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1162143_TheCenterinHollywood-Oct.2023.pdf`  ·  4409.9 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | The Center in Hollywood |
+| Invoice date | 2023-11-01 |
+| Billed amount | $130350.00 |
+| Deliverables | The Center CoC DMH (DHS); The Center EHV (D7); The Center FHSP TBV (D7); The Center LACDA HCV 2021 (D7); The Center (D7); The Center Scattered 1 (D7); The Center CoC (D7); The Center CoC (DHS); The Center CoC DMH (D7); The Center Scattered 2 (DHS); The Center TBSH (D7); The Center TBSH DMH (D7) |
+| Confidence | high |
+| Notes | The entry "The Center (D7)" under VACANT SLOTS on page 14 appears to have a blacked-out section, but the OCR output for that line item as a 'Project' is "The Center (D7)". This has been extracted as stated by OCR without inferring the redacted content. |
+
+## LINC - Oct. 2023
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1162108_LINC-Oct.2023.pdf`  ·  2711.9 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | LINC |
+| Invoice date | 11/07/2023 |
+| Billed amount | $246150.00 |
+| Deliverables | ARPA/FHSP ($22,500.00); D7 ($187,125.00); DHS ($450.00); D7 Flex ($9,225.00); Housing for Healthy CA ($19,800.00); MHSA ($7,050.00) |
+| Confidence | high |
+| Notes | The 'DATE SUBMITTED' field on the top section of page 1 is blank, but '11/7/2023' is provided as the date for the authorized signature, which is used for the invoice_date. The summary on page 50 provides a clear breakdown of deliverables by fund and their total cost. |
+
+## Homeless Healthcare Los Angeles (HHCLA) - Oct. 2023
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1162104_HomelessHealthcareLosAngeles_HHCLA_-Oct.2023.pdf`  ·  2890.2 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Homeless Healthcare Los Angeles (HHCLA) |
+| Invoice date | 2023-11-08 |
+| Billed amount | $198800.00 |
+| Deliverables | ARPA/FHSP; D7; SAM; D7 Flex; DHS; MHSA; SRAP |
+| Confidence | high |
+| Notes | All requested fields were clearly found on the document. |
+
+## Koreatown Youth and Community Center (KYCC) - Oct. 2023
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1162098_KoreatownYouthandCommunityCenter_KYCC_-Oct.2023.pdf`  ·  3159.1 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Koreatown Youth and Community Center (KYCC) |
+| Invoice date | 2023-10-06 |
+| Billed amount | $74550.00 |
+| Deliverables | D7; D7 Flex; MHSA |
+| Confidence | high |
+| Notes | Invoice date taken from 'DATE SUBMITTED'. Billed amount taken from 'AMOUNT REQUESTED' and confirmed by 'TOTAL' in the Billing Summary. Deliverables are derived from the 'Fund' categories in the 'BILLING SUMMARY' section on the last page, representing services by fund type. |
+
+## Venice Community Housing - Oct. 2023
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1162093_VeniceCommunityHousing-Oct.2023.pdf`  ·  5215.3 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Venice Community Housing |
+| Invoice date | 2023-11-10 |
+| Billed amount | $53450.00 |
+| Deliverables | D7 slots; DHS slots; MHSA slots; PHK (D7) slots |
+| Confidence | high |
+| Notes | — |
+
+## Penny Lane - Oct. 2023
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1162086_PennyLane-Oct.2023.pdf`  ·  1996.5 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Penny Lane |
+| Invoice date | 2023-11-14 |
+| Billed amount | $119400.00 |
+| Deliverables | D7; D7 Flex; MHSA |
+| Confidence | high |
+| Notes | The invoice date is derived from 'DATE SUBMITTED' and 'DATE INVOICE RECIEVED' which both state 11/14/23. The deliverables are extracted from the 'BILLING SUMMARY' section on page 24, listing the fund types (D7, D7 Flex, MHSA) as the top-level categories of billed services ('slots') with their corresponding costs that sum up to the total billed amount. |
+
+##  Housing Works (HW) - Oct. 2023
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1161939_HousingWorks_HW_-Oct.2023.pdf`  ·  263.8 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Housing Works (HW) |
+| Invoice date | 2023-11-15 |
+| Billed amount | $201000.00 |
+| Deliverables | ARPA/FHSP; D7; DHS; D7 Flex; DHSP (D7); HFMH (D7); Housing for Healthy CA; MHSA |
+| Confidence | high |
+| Notes | All requested fields were clearly stated on the document. |
+
+## CRCD - Coalition for Responsible Community Development - Oct. 2023
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1162030_CRCD-CoalitionforResponsibleCommunityDevelopment-Oct.2023.pdf`  ·  1798.2 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | CRCD - Coalition for Responsible Community Development |
+| Invoice date | 2023-11-03 |
+| Billed amount | $175400.00 |
+| Deliverables | ARPA; Housing for Healthy CA; D7 Flex; D7; MHSA |
+| Confidence | high |
+| Notes | Invoice date extracted from 'DATE SUBMITTED'. Billed amount confirmed by 'AMOUNT REQUESTED' on page 1 and 'Total Cost' in the 'BILLING SUMMARY' on page 34. Deliverables represent the categories listed in the 'BILLING SUMMARY' section on page 34. |
+
+## San Fernando Valley Community Mental Health - Oct. 2023.pdf
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1159834_SanFernandoValleyCommunityMentalHealth-Oct.2023.pdf`  ·  167.3 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | San Fernando Valley Community Mental Health Center (SFVCMHC) |
+| Invoice date | 2023-10-04 |
+| Billed amount | $36450.00 |
+| Deliverables | SFVCMHC (HFMH); SFVCMHC DMH (HFMH); SFVCMHC EHV (D7); SFVCMHC FUP TAY FYI (DCFS/HSSP); SFVCMHC Scattered 1 (D7) |
+| Confidence | high |
+| Notes | — |
+
+## Step Up on Second - Oct. 2023.pdf
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1159831_StepUponSecond-Oct.2023.pdf`  ·  410.1 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Step Up on Second |
+| Invoice date | 2023-11-06 |
+| Billed amount | $491475.00 |
+| Deliverables | ARPA; ARPA/FHSP; DHS; SAM; Housing for Healthy CA; D7 Flex; D7; HFMH (D7); MHSA; SRAP |
+| Confidence | high |
+| Notes | All requested fields were clearly present on the document. Vendor and invoice date were found on page 1. Billed amount was found on page 1 and confirmed by the total on page 90. Deliverables were extracted from the 'BILLING SUMMARY' section on page 90, representing the different fund categories. |
+
+## American Family Housing - Oct. 2023
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1159824_AmericanFamilyHousing-Oct.2023.pdf`  ·  169.5 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | American Family Housing |
+| Invoice date | 11/02/2023 |
+| Billed amount | $80325.00 |
+| Deliverables | American Family Housing FUP (D7); American Family Housing Scattered 1 (D7); American Family Housing Scattered 2 (D7); American Family Housing Scattered 3 (ARPA/FHSP); American Family Housing EHV (D7); American Family Housing Isla De Los Angeles (D7) |
+| Confidence | high |
+| Notes | — |
+
+## A Community of Friends - Oct. 2023
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1159821_ACommunityofFriends-Oct.2023.pdf`  ·  271.4 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | A Community of Friends |
+| Invoice date | 2023-11-06 |
+| Billed amount | $165750.00 |
+| Deliverables | D7 Fund; D7 Flex Fund; MHSA Fund |
+| Confidence | high |
+| Notes | — |
+
+## St. Joseph's Center - Oct. 2023.pdf
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1159815_St.Joseph_sCenter-Oct.2023.pdf`  ·  386.0 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | St. Joseph's Center |
+| Invoice date | 2023-11-01 |
+| Billed amount | $390150.00 |
+| Deliverables | ARPA; D7; Housing for Healthy CA; SAM; D7 Flex; DHS; HDAP (D7); HFMH (D7); MHSA; PHK (D7) |
+| Confidence | high |
+| Notes | — |
+
+## Exodus - Oct. 2023.pdf
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1159818_Exodus-Oct.2023.pdf`  ·  326.6 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Exodus |
+| Invoice date | 2023-11-29 |
+| Billed amount | $245025.00 |
+| Deliverables | ARPA; ARPA/FHSP; D7; D7 Flex; DHS; HFMH (D7); PHK (D7) |
+| Confidence | high |
+| Notes | Invoice date derived from 'DATE SUBMITTED' and 'DATE INVOICE RECIEVED'. The total billed amount is consistent across the 'AMOUNT REQUESTED' field on page 1 and the 'TOTAL' in the 'BILLING SUMMARY' on page 47. Deliverables are extracted from the 'Fund' column of the 'BILLING SUMMARY' on page 47, as these represent the high-level program categories for the reported slot costs. Staffing details were present (pages 2-20) but not itemized with specific billed amounts in the summary for extraction as separate deliverables. |
+
+## Downtown Women's Center - Oct. 2023.pdf
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1159812_DowntownWomen_sCenter-Oct.2023.pdf`  ·  292.0 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Downtown Women's Center |
+| Invoice date | 11/8/2023 |
+| Billed amount | $125550.00 |
+| Deliverables | DWC EHV (ARPA/EHV); DWC EHV (D7); DWC Scattered 1 (D7); DWC Scattered 2 (D7); DWC Scattered 3 DMH HACLA CoC (D7); DWC Scattered 4 (ARPA/FHSP); DWC DMH HACLA TBSH (D7); DWC Project Home (MHSA) |
+| Confidence | high |
+| Notes | All requested fields were clearly present in the document. |
+
+## ERC - Oct 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1177028_ERC-Oct.2024.pdf`  ·  233.7 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | — |
+| Invoice date | — |
+| Billed amount | — |
+| Deliverables | — |
+| Confidence | low |
+| Notes | The document provided is a multi-entry billing report detailing transactions for numerous vendors and services, not a single invoice. Therefore, specific fields like vendor, invoice date, billed amount, and deliverables cannot be extracted as singular values for a single invoice. |
+
+## LA Family Housing (LAFH) - Oct. 2023.pdf
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1159808_LAFamilyHousing_LAFH_-Oct.2023.pdf`  ·  322.2 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | LA Family Housing (LAFH) |
+| Invoice date | 2023-11-16 |
+| Billed amount | $362825.00 |
+| Deliverables | New Slots; Vacant Slots; Occupied Slots |
+| Confidence | high |
+| Notes | Invoice date extracted from 'DATE SUBMITTED'. Deliverables are derived from the 'BILLING SUMMARY' totals for New, Vacant, and Occupied slots, as these are the categories contributing to the total billed amount. |
+
+## Mark Twain - Oct 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1177027_MarkTwain-October2024.pdf`  ·  311.8 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Special Services For Groups |
+| Invoice date | 2024-11-18 |
+| Billed amount | $364560.00 |
+| Deliverables | 56 Beds - Mark Twain |
+| Confidence | high |
+| Notes | Invoice date is taken from the latest approval signature date on the main summary page (11/18/2024), as no explicit 'Invoice Date' field was present. 'Month/Year: October 2024' refers to the service period covered by the invoice. |
+
+## Journey to New Horizons & Pine Lodge - Oct 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1177026_JourneytoNewHorizons_PineLodge-October2024.pdf`  ·  384.4 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Special Services For Groups |
+| Invoice date | 2024-11-18 |
+| Billed amount | $509237.00 |
+| Deliverables | 22 Beds - Journey to Wellness; 23 Beds - Cedar Lodge; 40 Beds - Journey to New Horizons; 15 Beds - Pine Lodge |
+| Confidence | high |
+| Notes | Invoice date extracted from the signature/approval date, as no explicit 'Invoice Date' field was present. The billing period is stated as 'October 2024'. |
+
+## Hollywood Walk of Fame - Oct 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1177025_HollywoodWalkofFame-October2024.pdf`  ·  922.1 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Hollywood Walk of Fame Hotel |
+| Invoice date | 2024-11-14 |
+| Billed amount | $300372.64 |
+| Deliverables | 46 Beds |
+| Confidence | high |
+| Notes | The invoice date was chosen as 11/14/24, which appears on the summary page next to approval signatures. Another date, 11/7/24, appears on the detailed client list page next to a certification signature. The invoice period is October 2024. The stated deliverable on the summary page is '46 Beds', while the detailed list on page 2 contains 48 client entries. |
+
+## Mark Twain - April 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1168369_TMTIHPInvoice-April2024.pdf`  ·  263.5 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Special Services For Groups |
+| Invoice date | 2024-05-14 |
+| Billed amount | $352800.00 |
+| Deliverables | 56 Beds - The Mark Twain |
+| Confidence | high |
+| Notes | — |
+
+## ERC Vendors - May 2024.pdf
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1168371_ERC-May2024.pdf`  ·  460.8 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | — |
+| Invoice date | — |
+| Billed amount | — |
+| Deliverables | BC Subsidy; ERC - Enhanced Services; PNI - Personal Needs and Incidentals |
+| Confidence | low |
+| Notes | The provided document is a multi-page billing detail report for May 2024, not a single invoice. It lists numerous vendors, client IDs, amounts, and service types across many line items. Therefore, a single 'vendor', 'invoice_date', or 'billed_amount' representing the entire document as a singular invoice is not explicitly stated and would require aggregation or inference, which is prohibited by the instructions. The 'deliverables' are extracted as the unique service types explicitly stated in the 'ERC Subsidy Type' column. |
+
+## Mark Twain - May 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1168368_MarkTwain-May2024.pdf`  ·  276.2 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Special Services For Groups |
+| Invoice date | 2024-06-10 |
+| Billed amount | $364560.00 |
+| Deliverables | 56 Beds - The Mark Twain |
+| Confidence | high |
+| Notes | Invoice date taken from the 'Payment Invoice' page (page 1). The Month/Year 'May 2024' indicates the service period, not the invoice date. The billing address is redacted on the document. |
+
+## Journey to New Horizons & Pine Lodge - April 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1168367_JTNH_PineLodgeIHPInvoice-April2024.pdf`  ·  438.0 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Special Services For Groups |
+| Invoice date | 2024-05-14 |
+| Billed amount | $290700.00 |
+| Deliverables | 40 Beds - Journey to New Horizons; 15 Beds - Pine Lodge |
+| Confidence | high |
+| Notes | — |
+
+## Journey to New Horizons & Pine Lodge - May 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1168366_JourneytoNewHorizons_PineLodge-May2024.pdf`  ·  280.4 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Special Services For Groups |
+| Invoice date | 2024-06-10 |
+| Billed amount | $300390.00 |
+| Deliverables | 40 Beds - Journey to New Horizons; 15 Beds - Pine Lodge |
+| Confidence | high |
+| Notes | Invoice date selected as the approval date (6/10/2024) from page 1, as 'May 2024' indicates the service period rather than a specific invoice date. |
+
+## Hollywood Walk of Fame - April 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1168365_HWOFIHPInvoice-April2024.pdf`  ·  3268.9 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Hollywood Walk of Fame Hotel |
+| Invoice date | 2024-05-24 |
+| Billed amount | $174900.00 |
+| Deliverables | 30 Beds; 40 Beds |
+| Confidence | high |
+| Notes | Invoice date '5/24/24' was taken from the H2.0 Payment Invoice (Page 1) next to the billing coordinator and program manager signatures. Supporting detail pages (Pages 2-5) contain a certification date of '05/03/2024', which is earlier and less likely to be the primary invoice date for the payment request. Deliverables are extracted from the 'Number of Beds/Units' column on the H2.0 Payment Invoice summary page (Page 1). |
+
+## A Brighter Day - Brandy House - September 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1183489_ABrighterDay-BrandyHouse-September2024.pdf`  ·  515.8 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | 19KU A BRIGHTER DAY - BRANDY HOUSE |
+| Invoice date | 2024-12-19 |
+| Billed amount | — |
+| Deliverables | TRANSITIONAL RESIDENTIAL- ADULT 18-64; LIFE SUPPORT; TCM; ORAL MEDICATION ADMIN; ADULT RESIDENTIAL-GERIATRIC 65+, NON-MC |
+| Confidence | high |
+| Notes | billed_amount is null because the document is a claims report listing individual line items with 'ContractedRate' values, but no overall 'total billed' amount for the entire document is provided. |
+
+## Hollywood Walk of Fame Hotel - May 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1168364_HollywoodWalkofFame-May2024.pdf`  ·  803.6 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Hollywood Walk of Fame Hotel |
+| Invoice date | 2024-06-03 |
+| Billed amount | $233740.00 |
+| Deliverables | 40 Beds - Interim Housing Program |
+| Confidence | high |
+| Notes | — |
+
+## Central Star LAC-USC CRTP - September 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1183484_CentralStarLAC-USCCRTP-September2024.pdf`  ·  466.5 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | 19KE CENTRAL STAR LAC - USC CRTP |
+| Invoice date | — |
+| Billed amount | $19567.46 |
+| Deliverables | CRISIS RESIDENTIAL ADULT 18-64; LIFE SUPPORT; ORAL MEDICATION ADMIN; E&M OP, ESTAB CLT, 20-29M VID; E&M OP, ESTAB CLT, 40-54M VID; E&M OP, ESTAB CLT, 10-19M VID; E&M OP, ESTAB CLT, 30-39M VID |
+| Confidence | high |
+| Notes | The document is a claims report for a period (September 2024), not a single invoice. The document title indicates it was 'submitted as of 12/19/2024', but this is a submission date for the report, not a specific invoice date. Therefore, 'invoice_date' is returned as null. |
+
+## ERC - Sep 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1177029_ERC-Sep2024.pdf`  ·  230.6 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Brilliant Corners |
+| Invoice date | — |
+| Billed amount | — |
+| Deliverables | BC Subsidy; ERC - Enhanced Services; PNI - Personal Needs and Incidentals; Rent Repayments |
+| Confidence | medium |
+| Notes | The document is a multi-page billing details report for September 2024, not a single invoice. Brilliant Corners is identified as the fiscal intermediary providing this data to Los Angeles County (DMH) from the 'OVERVIEW' section. A specific 'invoice_date' for the entire document is not stated, only individual 'Posted Date' for transactions. A total 'billed_amount' for the entire document is not provided; the document lists individual 'Debit' and 'Credit' amounts for each transaction. |
+
+## Central Star LAC-USC CRTP - Sept 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1183483_CentralStarLAC-USCCRTP-Sept2024.pdf`  ·  756.1 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | 19KP VALLEY STAR LAC-USC CRTP |
+| Invoice date | 2024-12-19 |
+| Billed amount | — |
+| Deliverables | CRISIS RESIDENTIAL ADULT 18-64; LIFE SUPPORT; E&M OP, ESTAB CLT, 40-54M VID; ORAL MEDICATION ADMIN; E&M OP, ESTAB CLT,30-39M VID; E&M OP, ESTAB CLT, 20-29M VID; E&M OP, ESTAB CLT, 10-19M VID; CRISIS RESIDENTIAL ADULT 18-64 NON-MC; E&M OP, ESTAB CLIENT, 10MIN (NON MC); E&M OP, ESTAB CLIENT, 15-24MIN (NON MC) |
+| Confidence | medium |
+| Notes | This document is a multi-page claims report, not a single invoice. Therefore, a single 'billed_amount' for the entire document is not present and has been returned as null. The 'invoice_date' has been extracted from the report's submission date ('submitted as of 12/19/2024') as no explicit invoice date for the report itself is available. All unique 'service_value' entries have been extracted as deliverables. |
+
+## Mark Twain - Sep 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1174639_MarkTwain-September2024.pdf`  ·  307.6 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Special Services For Groups |
+| Invoice date | 2024-10-16 |
+| Billed amount | $352800.00 |
+| Deliverables | 56 Beds - The Mark Twain |
+| Confidence | high |
+| Notes | Billing Address is redacted. The invoice period is September 2024, but 2024-10-16 is used as the invoice date as it's the date of signature/approval. |
+
+## Journey to New Horizons & Pine Lodge - Sep 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1174637_JourneytoNewHorizons_PineLodge-September2024.pdf`  ·  242.0 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Special Services For Groups |
+| Invoice date | 2024-10-16 |
+| Billed amount | $492810.00 |
+| Deliverables | 22 Beds - Journey to Wellness; 23 Beds - Cedar Lodge; 40 Beds - Journey to New Horizons; 15 Beds - Pine Lodge |
+| Confidence | high |
+| Notes | The 'Month/Year' on page 3 header states 'Aug-24', but the service dates in the table on page 3 are for September 2024, consistent with the main invoice period of 'September 2024' on page 1. |
+
+## Mark Twain - Aug 2024.pdf
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1174638_MarkTwain-August2024.pdf`  ·  403.7 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Special Services For Groups |
+| Invoice date | 2024-09-18 |
+| Billed amount | $364560.00 |
+| Deliverables | 56 Beds - The Mark Twain |
+| Confidence | high |
+| Notes | — |
+
+## Journey to New Horizons & Pine Lodge - Aug 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1174636_JourneytoNewHorizons_PineLodge-August2024.pdf`  ·  325.8 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Special Services For Groups |
+| Invoice date | 2024-09-18 |
+| Billed amount | $509237.00 |
+| Deliverables | 22 Beds - Journey to Wellness; 23 Beds - Cedar Lodge; 40 Beds - Journey to New Horizons; 15 Beds - Pine Lodge |
+| Confidence | high |
+| Notes | — |
+
+## Hollywood Walk of Fame - Sep 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1174635_HollywoodWalkofFame-September2024.pdf`  ·  1212.5 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Hollywood Walk of Fame Hotel |
+| Invoice date | 2024-10-08 |
+| Billed amount | $290683.20 |
+| Deliverables | 46 Beds |
+| Confidence | high |
+| Notes | The invoice date was derived from the signature dates (10/8/24 on page 1) as the service period (September 2024) is distinct from the invoice issuance date. The billing address on page 1 is present but fully redacted. |
+
+## Hollywood Walk of Fame - Aug 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1174634_HollywoodWalkofFame-August2024.pdf`  ·  621.8 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Hollywood Walk of Fame Hotel |
+| Invoice date | 2024-09-11 |
+| Billed amount | $300372.64 |
+| Deliverables | 46 Beds |
+| Confidence | high |
+| Notes | The invoice date was determined from the '9/11/24' date associated with signatures on page 1. Page 2 also shows '09-06-24' for a signature date, but the latest date on the main billing summary (page 1) was chosen as the invoice date. The deliverable '46 Beds' is explicitly stated as the line item on page 1. |
