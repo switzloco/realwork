@@ -2559,5 +2559,147 @@
     "confidence": "high",
     "extraction_notes": "The document does not specify a single invoice date, only service dates within a reporting period (September 2025). A total billed amount for the entire document is not provided; only individual line-item charges are listed.",
     "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Illumination Foundation (IF) - IH - August 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201177_IlluminationFoundation_IF_-IH-August2025.pdf",
+    "vendor": "Illumination Foundation (IF)",
+    "invoice_date": "2025-08-01",
+    "billed_amount": 263376.0,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Recuperative Care"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Holidays Helping Hands Inc. (HHH) 2 - IH - August 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201175_HolidaysHelpingHandsInc._HHH_2-IH-August2025.pdf",
+    "vendor": "Hollidays Helping Hands (HHH)",
+    "invoice_date": "2025-07-29",
+    "billed_amount": 259854.09,
+    "deliverables": [
+      "Stabilization",
+      "Stabilization"
+    ],
+    "confidence": "high",
+    "extraction_notes": "No issues.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Home At Last The Lotus - IH - August 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201176_HomeAtLastTheLotus-IH-August2025.pdf",
+    "vendor": "Home At Last The Lotus",
+    "invoice_date": "08-2025",
+    "billed_amount": 398412.0,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Stabilization"
+    ],
+    "confidence": "high",
+    "extraction_notes": "A specific day for the invoice date is not present on the document; the month and year are extracted from the 'INVOICE NO.' and 'CLAIM PERIOD'. Deliverables include both the 'SERVICE CATEGORY' and 'PROGRAM TYPE' as listed.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Holidays Helping Hands Inc. (HHH) - IH - August 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201174_HolidaysHelpingHandsInc._HHH_-IH-August2025.pdf",
+    "vendor": "Hollidays Helping Hands, Inc.",
+    "invoice_date": "2025-08-01",
+    "billed_amount": 274350.0,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Recuperative Care"
+    ],
+    "confidence": "high",
+    "extraction_notes": "The invoice date was determined from the date associated with the authorized signature, 'Friday, August 1, 2025'. Deliverables include both the high-level service category and the specific program type listed in the detailed table.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "HealthRight360 (HR360) Prototypes - IH - August 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201173_HealthRight360_HR360_Prototypes-IH-August2025.pdf",
+    "vendor": "HealthRight360 (HR360)- Prototypes",
+    "invoice_date": "2025-09-05",
+    "billed_amount": 149620.59,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Stabilization"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Harbor Interfaith Services 2 - IH - August 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201172_HarborInterfaithServices2-IH-August2025.pdf",
+    "vendor": "Harbor Interfaith Services",
+    "invoice_date": "2025-08-12",
+    "billed_amount": 167400.0,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Stabilization"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Harbor Interfaith Services - IH - August 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201171_HarborInterfaithServices-IH-August2025.pdf",
+    "vendor": "Harbor Interfaith Services",
+    "invoice_date": "2025-08-01",
+    "billed_amount": 83700.0,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Stabilization"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Fair Opportunity for Change - IH - August 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201169_FairOpportunityforChange-IH-August2025.pdf",
+    "vendor": "Fair Opportunity for Change",
+    "invoice_date": "2025-08-01",
+    "billed_amount": 298220.0,
+    "deliverables": [
+      "Stabilization",
+      "Stabilization"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "First To Serve (FTS) - IH - August 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201170_FirstToServe_FTS_-IH-August2025.pdf",
+    "vendor": "First to Serve (FTS)",
+    "invoice_date": "2025-07-31",
+    "billed_amount": 769203.0,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Stabilization: 35 BE BED, Rate $135.00, 31 DAYS, Total $146,475.00",
+      "Stabilization: 124 BE BED, Rate $108.00, 31 DAYS, Total $415,152.00",
+      "Stabilization: 62 BE BED, Rate $108.00, 31 DAYS, Total $207,576.00"
+    ],
+    "confidence": "high",
+    "extraction_notes": "All requested fields were clearly present and extracted directly from the document.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Exodus - IH - August 2025",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1201167_Exodus-IH-August2025.pdf",
+    "vendor": "Exodus",
+    "invoice_date": "2025-08-01",
+    "billed_amount": 251100.0,
+    "deliverables": [
+      "Interim Housing -IHS",
+      "Psych Recup"
+    ],
+    "confidence": "high",
+    "extraction_notes": "Invoice date extracted from the date next to 'AUTHORIZED SIGNATURE' and converted to YYYY-MM-DD format. The invoice number and claim period also indicate August 2025.",
+    "extractor": "gemini-2.5-flash"
   }
 ]
