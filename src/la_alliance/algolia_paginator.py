@@ -72,6 +72,16 @@ def _headers(app_id: str, key: str) -> dict:
     }
 
 
+def list_indexes(app_id: str, key: str) -> list[str]:
+    """Ask Algolia which indexes this App ID exposes (needs listIndexes ACL on
+    the search key — most public search keys have it). Returns index names."""
+    url = f"https://{app_id}.algolia.net/1/indexes"
+    r = requests.get(url, headers=_headers(app_id, key), timeout=30)
+    r.raise_for_status()
+    items = r.json().get("items", [])
+    return [it.get("name", "") for it in items if it.get("name")]
+
+
 def _query(app_id: str, key: str, index: str, body: dict) -> dict:
     url = _endpoint(app_id).format(index=index)
     r = requests.post(url, headers=_headers(app_id, key), json=body, timeout=60)
@@ -141,12 +151,36 @@ def run(app_id: str = "", key: str = "", index: str = "",
             "Use the read-only SEARCH key only."
         )
 
-    if not (app_id and key and index):
+    if not (app_id and key):
         raise SystemExit(
-            "Need ALGOLIA_APP_ID, ALGOLIA_SEARCH_KEY, ALGOLIA_INDEX_NAME "
-            "(env or --app-id/--key/--index). Grab them from the browser "
-            "Network tab on any search request at the alliance-invoicing portal."
+            "Need at least ALGOLIA_APP_ID and ALGOLIA_SEARCH_KEY "
+            "(env or --app-id/--key). The index name can be auto-discovered."
         )
+
+    # If the index name wasn't supplied, ask Algolia what's available.
+    if not index:
+        print("No index name given — asking Algolia what this App ID exposes...")
+        try:
+            names = list_indexes(app_id, key)
+        except Exception as e:
+            raise SystemExit(
+                f"Could not list indexes ({e}). Grab ALGOLIA_INDEX_NAME from the "
+                "browser Network tab: it's the /indexes/<THIS>/query path segment."
+            )
+        if not names:
+            raise SystemExit("Algolia returned no indexes for this key.")
+        if len(names) == 1:
+            index = names[0]
+            print(f"  one index found -> using '{index}'")
+        else:
+            print(f"  {len(names)} indexes found:")
+            for n in names:
+                print(f"    - {n}")
+            raise SystemExit(
+                "Multiple indexes — set ALGOLIA_INDEX_NAME (or --index) to the one "
+                "backing the alliance-invoicing search (likely the one with "
+                "'alliance', 'invoic', or 'sds' in the name)."
+            )
 
     print("=== Algolia facet-split paginator ===")
     print(f"App: {app_id} | Index: {index} | Facet: {FACET}\n")
