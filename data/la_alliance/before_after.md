@@ -262,8 +262,6 @@ Right: the normalized ledger row our agent extracted autonomously.
 | Deliverables | Recovery Bridge Housing (H2034) |
 | Confidence | high |
 | Notes | The document is a detailed statement for the month of May 2024, but a specific 'invoice_date' for the entire document is not present, so it is returned as null. The billing period spans from 2024-05-01 to 2024-05-31. The billed_amount was calculated by summing the 'Total Amount' for all 459 line items ($55.00 each). |
-<<<<<<< Updated upstream
-=======
 
 ## EXODUS RECOVERY INC - RECOVERY BRIDGE HOUSING- MAY 2024
 
@@ -784,7 +782,263 @@ Right: the normalized ledger row our agent extracted autonomously.
 | Deliverables | Recovery Bridge Housing (H2034) |
 | Confidence | high |
 | Notes | The document is a multi-page report detailing services, not a single invoice. The 'invoice_date' refers to the period the report covers and cannot be formatted as YYYY-MM-DD. Pages 3, 5, and 8 were not provided in the OCR transcriptions and therefore their data could not be extracted or included in the total billed amount. The billed amount is a summation of 'Total Charge' line items from the available OCR pages. Services span across February of 2024, 2023, and 2022, with daily rates of $55.00 in 2024 and $50.00 in 2023 and 2022. |
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+
+## Healthright 360 - Recovery Bridge Housing - Feb. 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1165569_Healthright360-RecoveryBridgeHousing-Feb.2024.pdf`  ·  1604.5 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | HEALTHRIGHT 360 |
+| Invoice date | — |
+| Billed amount | $39095.00 |
+| Deliverables | Recovery Bridge Housing (H2034) |
+| Confidence | high |
+| Notes | The document is a report of services rendered for multiple periods (February 2024 and February 2023), not a single invoice with one invoice date. 'February 2024' is stated as a general period at the top, but line items cover both 2023 and 2024. Therefore, 'invoice_date' is set to null. The 'billed_amount' is the sum of all 'Total Disbursed' line items across all pages (519 lines at $55.00 and 211 lines at $50.00). |
+
+## Grandview Foundation Inc. - Recovery Bridge Housing - Feb. 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1165568_GrandviewFoundationInc.-RecoveryBridgeHousing-Feb.2024.pdf`  ·  1312.4 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | GRANDVIEW FOUNDATION INC. |
+| Invoice date | — |
+| Billed amount | — |
+| Deliverables | Recovery Bridge Housing (H2034) |
+| Confidence | medium |
+| Notes | The document is a multi-page data extract listing service dates and individual charges, not a single invoice with an overall invoice date or total billed amount. Therefore, 'invoice_date' and 'billed_amount' are null. The earliest service date is 2023-02-01 and the latest is 2024-03-27. The data extraction date is stated as 2024-03-01, but this is not an invoice date. |
+
+## Fred Brown -Residential Services - Feb.2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1165566_FredBrown-ResidentialServices-Feb.2024.pdf`  ·  640.1 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | FRED BROWN'S RECOVERY SERVICES INC. |
+| Invoice date | — |
+| Billed amount | $50347.96 |
+| Deliverables | Behavioral Health; Long Term Residential (H0019:U3); Behavioral Health; Long Term Residential (H0019:U1) |
+| Confidence | high |
+| Notes | The document is a statement of services over a period (February 2024), not a single invoice with a specific invoice date. The 'invoice_date' field is therefore null. The 'billed_amount' is the sum of all 'Total Disbursed' line items across all pages. |
+
+## Fred Brown's Recovery Services Inc. - Recovery Bridge Housing - Feb. 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1165567_FredBrown_sRecoveryServicesInc.-RecoveryBridgeHousing-Feb.2024.pdf`  ·  9199.7 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | FRED BROWN'S RECOVERY SERVICES INC. |
+| Invoice date | — |
+| Billed amount | — |
+| Deliverables | Recovery Bridge Housing (H2034) |
+| Confidence | medium |
+| Notes | The document is a multi-page service report covering a period (February 2024 and February 2023), not a single invoice. Therefore, a single 'invoice_date' and 'billed_amount' for the entire document are not explicitly stated. Summation of line items for a total billed amount is not permitted by instructions. |
+
+## February 2024- Fred Brown- H0019 Residential Services
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1165563_February2024-FredBrown-H0019ResidentialServices.pdf`  ·  640.2 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | FRED BROWN'S RECOVERY SERVICES INC. |
+| Invoice date | — |
+| Billed amount | — |
+| Deliverables | Behavioral Health; Long Term Residential (H0019:U3); Behavioral Health; Long Term Residential (H0019:U1) |
+| Confidence | medium |
+| Notes | No single invoice date is explicitly stated; the document is a report of services over a period. The date '3/26/2024' is stated as a data accuracy date, not an invoice date. No single total billed amount is explicitly stated for the entire document; only line-item 'Total Disbursed' amounts are provided. |
+
+## Exodus Recovery Inc - Recovery Bridge Housing - Feb. 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1165561_ExodusRecoveryInc-RecoveryBridgeHousing-Feb.2024.pdf`  ·  668.6 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | EXODUS RECOVERY INC |
+| Invoice date | — |
+| Billed amount | $29810.00 |
+| Deliverables | Recovery Bridge Housing (H2034) |
+| Confidence | high |
+| Notes | invoice_date is null as the document is a multi-page report detailing services over a period (February 2023 - February 2024), not a single invoice with a specific date. The title 'February 2024' refers to the reporting period. Pages 2 and 3 appear to be duplicate printouts of the data on page 1, repeating the same line items and date ranges. The billed amount is calculated by summing the unique line items found on page 1 only. |
+
+## So Cal Alcohol and Drug Programs - Residential Services - Feb.2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1164742_SoCalAlcoholandDrugPrograms-ResidentialServices-Feb.2024.pdf`  ·  622.8 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | SO CAL ALCOHOL AND DRUG PROGRAMS INC. |
+| Invoice date | — |
+| Billed amount | $52795.43 |
+| Deliverables | Behavioral Health; Long Term Residential (H0019:U1); Behavioral Health; Long Term Residential (H0019:U3); Behavioral Health; Long Term Residential (H0019:U1:HD); Behavioral Health; Long Term Residential (H0019:U3:HD) |
+| Confidence | high |
+| Notes | The document is a service claim report with multiple service dates, not a single invoice with a specific invoice date, therefore 'invoice_date' is null. The 'billed_amount' was calculated by summing all 'Total Disbursed' values across all pages of the document. |
+
+## CRI-Help Inc. - Recovery Bridge Housing - Feb. 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1165560_CRI-HelpInc.-RecoveryBridgeHousing-Feb.2024.pdf`  ·  1463.7 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | CRI-HELP INC. |
+| Invoice date | February 2024 |
+| Billed amount | $15360.00 |
+| Deliverables | Recovery Bridge Housing (H2034) |
+| Confidence | high |
+| Notes | The invoice_date is not a single specific date but a period ("February 2024") as stated in the document header. It is returned as printed as no specific day is determinable. The billed_amount was calculated by summing the "Total Disbursed" for all 285 unique line items across the provided document segments, accounting for overlaps between images. The "Total Disbursed" amount per line item varied between $55.00 (for 2024 services) and $50.00 (for 2023 services) depending on the date of service. |
+
+## Sadler Healthcare Inc. - Residential Services - Feb.2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1164741_SadlerHouse-ResidentialServices-Feb.2024.pdf`  ·  2033.8 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | SADLER HEALTHCARE INC. |
+| Invoice date | — |
+| Billed amount | — |
+| Deliverables | Behavioral Health; Long Term Residential (H0019:U3) |
+| Confidence | medium |
+| Notes | The document is a multi-page report detailing numerous service instances, not a single invoice with a singular invoice date or total billed amount. `invoice_date` is null as no overall invoice date is provided. Dates of service are listed per line item. `billed_amount` is null as no overall total billed amount is provided for the entire document. Line-item charges are provided for each service, but summing them would be an inference, which is not permitted. |
+
+## Lake Huges - Residential Services - Feb.2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1164740_LakeHuges-ResidentialServices-February2024.pdf`  ·  2971.1 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | LAKE HUGHES RECOVERY |
+| Invoice date | — |
+| Billed amount | — |
+| Deliverables | Behavioral Health; Long Term Residential (H0019:U3); Behavioral Health; Long Term Residential (H0019:U1) |
+| Confidence | medium |
+| Notes | Invoice date is null as the document is a data extraction or report showing services over a period, not a single invoice with a specific issue date. Billed amount is null as there is no overall total amount stated on the document; only individual line item charges are present. |
+
+## Volunteers of America - Residential - Jan.2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1165504_VolunteersofAmerica-Residential-Jan.2024.pdf`  ·  2126.0 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | VOLUNTEERS OF AMERICA OF LOS ANGELES |
+| Invoice date | — |
+| Billed amount | — |
+| Deliverables | Behavioral Health; Long Term Residential (H0019:U3); Behavioral Health; Long Term Residential (H0019:U1) |
+| Confidence | high |
+| Notes | No single 'invoice date' is stated on the document; a range of 'Date of Service' entries is provided. No single 'total billed' amount for the entire document is explicitly stated; individual 'Total Charge' and 'Total Disbursed' amounts are listed per service line item. |
+
+## Tarzana Treatment Centers Inc. - Recovery Bridge Housing - Jan. 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1165502_TarzanaTreatmentCentersInc.-RecoveryBridgeHousing-Jan.2024.pdf`  ·  3328.1 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | TARZANA TREATMENT CENTERS INC. |
+| Invoice date | — |
+| Billed amount | $74250.00 |
+| Deliverables | Recovery Bridge Housing (H2034) |
+| Confidence | high |
+| Notes | The document is a detailed report for services rendered during January 2024, not a single invoice with a specific invoice date. Each line item has its own 'Date of Service'. The 'billed_amount' was calculated by summing the 'Total Disbursed' amount for all line items. There are 25 pages, each with 54 line items, totaling 1350 line items. Each line item has a 'Total Disbursed' amount of $55.00, so the total billed amount is 1350 * $55.00 = $74,250.00. |
+
+## Social Model Recovery Systems Inc. - Recovery Bridge Housing - Jan. 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1165499_SocialModelRecoverySystemsInc.-RecoveryBridgeHousing-Jan.2024.pdf`  ·  1383.7 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | SOCIAL MODEL RECOVERY SYSTEMS INC |
+| Invoice date | January 2024 |
+| Billed amount | $75350.00 |
+| Deliverables | Recovery Bridge Housing (H2024) |
+| Confidence | high |
+| Notes | Invoice date represents a reporting period (January 2024) as printed, no specific day is provided. Billed amount calculated by summing all 1370 line items, each at $55.00. |
+
+## Sadler House - Residential Services - Jan.2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1165469_SadlerHouse-ResidentialServices-Jan.2024.pdf`  ·  1936.9 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | SADLER HEALTHCARE INC. |
+| Invoice date | — |
+| Billed amount | — |
+| Deliverables | Behavioral Health; Long Term Residential (H0019:U3) |
+| Confidence | high |
+| Notes | This document appears to be a multi-line service report rather than a single summary invoice. Therefore, a single 'invoice_date' and 'billed_amount' for the entire document are not present. The 'Date of Service' column contains multiple dates (from 2024-01-01 to 2024-01-31). The 'Total Charge' and 'Total Disbursed' are listed per line item, but no overall total is provided. The 'Data Disclaimer' mentions 'accurate as of 3/26/2024', which appears to be a report generation date, not an invoice date. |
+
+## Safe Refuge - Recovery Bridge Housing - Jan. 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1165471_SafeRefuge-RecoveryBridgeHousing-Jan.2024.pdf`  ·  689.2 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | SAFE REFUGE |
+| Invoice date | — |
+| Billed amount | $64900.00 |
+| Deliverables | Recovery Bridge Housing (H2034) |
+| Confidence | high |
+| Notes | The invoice_date is null because no specific date for the invoice itself is present; 'January 2024' in the title refers to the service reporting period. The billed_amount was calculated by summing the 'Total Charged' for all 1180 line items, as no grand total was explicitly stated. |
+
+## LA Centers for Alcohol and Drug Abuse - Recovery Bridge Housing - Jan. 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1165468_LACentersforAlcoholandDrugAbuse-RecoveryBridgeHousing-Jan.2024.pdf`  ·  1652.3 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | LA CENTERS FOR ALCOHOL AND DRUG ABUSE |
+| Invoice date | — |
+| Billed amount | — |
+| Deliverables | Recovery Bridge Housing (H2034) |
+| Confidence | low |
+| Notes | The document is a detailed service log for January 2024, not a single invoice with a specific invoice date. Therefore, 'invoice_date' is null. There is no grand total 'billed_amount' present on the document; only individual line item amounts are listed. Summing these would be an inference, which is explicitly disallowed, so 'billed_amount' is null. |
+
+## JWCH Institute Inc. - Recovery Bridge Housing - Jan. 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1165467_JWCHInstituteInc.-RecoveryBridgeHousing-Jan.2024.pdf`  ·  879.8 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | JWCH INSTITUTE INC. |
+| Invoice date | January 2024 |
+| Billed amount | $8660.00 |
+| Deliverables | Recovery Bridge Housing (HSDX4); Recovery Bridge Housing (HSDX4-HI); Recovery Bridge Housing (HSDX4-PG); Recovery Bridge Housing (HSDX4-H); Recovery Bridge Housing (HSDX4-I); Recovery Bridge Housing (HSDX4-C); Recovery Bridge Housing (HSDX4-G); Recovery Bridge Housing (HSDX4-M); Recovery Bridge Housing (HSDX4-HS) |
+| Confidence | high |
+| Notes | The 'invoice_date' was extracted as 'January 2024' as stated in the header, as no specific invoice day was provided. The 'billed_amount' was calculated by summing all 'Total Charge' line items across all 6 pages of the document. |
+
+## Fred Brown - Residential - Jan.2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1165465_January2024-FredBrown-H0019Residential.pdf`  ·  744.1 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | FRED BROWN'S RECOVERY SERVICES INC. |
+| Invoice date | 2024-03-26 |
+| Billed amount | $63678.45 |
+| Deliverables | Behavioral Health; Long Term Residential (H0019:U1); Behavioral Health; Long Term Residential (H0019:U3) |
+| Confidence | high |
+| Notes | The document is a service report, not a traditional invoice. The 'invoice_date' has been extracted from the 'Data Disclaimer' date (accurate as of) as there is no single invoice date. The 'billed_amount' is the sum of all 'Total Disbursed' line items: (131 * $213.46) + (147 * $242.97). |
+
+##  House of Hope Foundation Inc. - Recovery Bridge Housing - Jan. 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1165463_HouseofHopeFoundationInc.-RecoveryBridgeHousing-Jan.2024.pdf`  ·  670.7 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | HOUSE OF HOPE FOUNDATION INC. |
+| Invoice date | — |
+| Billed amount | $12980.00 |
+| Deliverables | Recovery Bridge Housing (H2034) |
+| Confidence | high |
+| Notes | Invoice date is not explicitly stated as a single date for the entire document; rather, the document details services provided across a range of dates in January 2024, as indicated by the 'January 2024 Recovery Bridge Housing' title and 'Date of Service' column. |
+
+## Healthright 360 - Recovery Bridge Housing - Jan. 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1165462_Healthright360-RecoveryBridgeHousing-Jan.2024.pdf`  ·  673.1 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | HEALTHRIGHT 360 |
+| Invoice date | January 2024 |
+| Billed amount | $23815.00 |
+| Deliverables | Recovery Bridge Housing (H2034) |
+| Confidence | high |
+| Notes | invoice_date: The document is a monthly summary for "January 2024" rather than a single invoice date. Dates of service range from 2024-01-01 to 2024-01-31. "January 2024" is used as it is printed at the top of the document. billed_amount: Calculated by summing the "Total Charge" for all 433 line items across all 5 pages (433 * $55.00). |
