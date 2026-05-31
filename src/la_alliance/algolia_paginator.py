@@ -125,8 +125,21 @@ def fetch_facet(app_id: str, key: str, index: str, value: str) -> list[dict]:
 def run(app_id: str = "", key: str = "", index: str = "",
         merge_dump: bool = True) -> dict:
     app_id = app_id or os.environ.get("ALGOLIA_APP_ID", "")
-    key = key or os.environ.get("ALGOLIA_SEARCH_KEY", "")
-    index = index or os.environ.get("ALGOLIA_INDEX_NAME", "")
+    # Accept either name; this is a READ-only search key by design.
+    key = key or os.environ.get("ALGOLIA_SEARCH_KEY") \
+        or os.environ.get("ALGOLIA_SEARCH_API_KEY", "")
+    index = index or os.environ.get("ALGOLIA_INDEX_NAME") \
+        or os.environ.get("ALGOLIA_INDEX", "")
+
+    # Safety: never operate with a write/admin key. Pagination is read-only;
+    # a write key here would be a needless tamper risk against a public index.
+    write_key = os.environ.get("ALGOLIA_WRITE_API_KEY") \
+        or os.environ.get("ALGOLIA_WRITE_KEY", "")
+    if key and write_key and key == write_key:
+        raise SystemExit(
+            "Refusing to run: the supplied key matches ALGOLIA_WRITE_API_KEY. "
+            "Use the read-only SEARCH key only."
+        )
 
     if not (app_id and key and index):
         raise SystemExit(
