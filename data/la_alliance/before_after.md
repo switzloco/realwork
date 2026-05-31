@@ -3642,3 +3642,263 @@ Right: the normalized ledger row our agent extracted autonomously.
 | Deliverables | D7 - New Slot Cost; D7 - Vacant Slot Cost; D7 - Occupied Slot Cost; D7 Flex - Occupied Slot Cost; MHSA - Occupied Slot Cost |
 | Confidence | high |
 | Notes | — |
+
+## Penny Lane - Dec. 2023
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1162088_PennyLane-Dec.2023.pdf`  ·  22944.1 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | — |
+| Invoice date | — |
+| Billed amount | — |
+| Deliverables | — |
+| Confidence | low |
+| Notes | PDF exceeds inline limit; use Gemini File API |
+
+## Housing Works (HW) - Dec. 2023
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1161941_HousingWorks_HW_-Dec.2023.pdf`  ·  941.6 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Housing Works (HW) |
+| Invoice date | 01/16/2024 |
+| Billed amount | $202425.00 |
+| Deliverables | ARPA/FHSP; D7; DHS; D7 Flex; DHSP (D7); HFMH (D7); Housing for Healthy CA; MHSA |
+| Confidence | high |
+| Notes | Billed amount is the 'AMOUNT REQUESTED' from page 1, which matches the 'Total Cost' in the 'BILLING SUMMARY' on page 33. This is the total amount before accounting for applied disallowed costs. Deliverables are derived from the 'Fund' categories in the 'BILLING SUMMARY' table on page 33, as these are the most granular breakdown of billed services provided within the document. |
+
+## CRCD - Coalition for Responsible Community Development - Dec. 2023
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1162032_CRCD-CoalitionforResponsibleCommunityDevelopment-Dec.2023.pdf`  ·  1883.8 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | CRCD - Coalition for Responsible Community Development |
+| Invoice date | 01/04/2024 |
+| Billed amount | $166500.00 |
+| Deliverables | Staffing; Invalid Slots; New Slots; Reserved Slots; Vacant Slots; Occupied Slots |
+| Confidence | high |
+| Notes | The billed amount is derived from 'AMOUNT REQUESTED' on page 1 and confirmed by the 'TOTAL Total Cost' in the 'BILLING SUMMARY' on page 30. The invoice date is 'DATE SUBMITTED' on page 1, which aligns with the report run date. Deliverables are identified from the major sections of the 'HFH Project Invoice Report' (pages 2-29) which categorize the services being billed. |
+
+## San Fernando Valley Community Mental Health - Dec. 2023.pdf
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1159832_SanFernandoValleyCommunityMentalHealth-Dec.2023.pdf`  ·  608.1 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | San Fernando Valley Community Mental Health Center (SFVCMHC) |
+| Invoice date | 2024-01-25 |
+| Billed amount | $42525.00 |
+| Deliverables | D7; DCFS/HSSP; HFMH (D7) |
+| Confidence | high |
+| Notes | — |
+
+## PATH Dec. 2023.pdf
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1160006_PATH-Dec.2023.pdf`  ·  1243.5 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | PATH |
+| Invoice date | 2024-01-10 |
+| Billed amount | $760050.00 |
+| Deliverables | ARPA; ARPA/FHSP; D7; D7 Flex; DHS; SAM; HDAP (D7); HFMH (D7); Housing for Healthy CA; MHSA; PHK (D7); SRAP |
+| Confidence | high |
+| Notes | Invoice date extracted from 'DATE SUBMITTED' on page 1. Billed amount extracted from 'AMOUNT REQUESTED' on page 1, which matches the 'Total Cost' in the 'BILLING SUMMARY' on page 133. Deliverables are listed as the 'Fund' categories from the 'BILLING SUMMARY' table on page 133, which represent the line-item services/programs being billed. |
+
+## American Family Housing - Dec. 2023
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1159822_AmericanFamilyHousing-Dec.2023.pdf`  ·  210.6 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | American Family Housing |
+| Invoice date | 2024-01-03 |
+| Billed amount | $80175.00 |
+| Deliverables | ARPA/FHSP Vacant Slot Cost; D7 Vacant Slot Cost; D7 Occupied Slot Cost |
+| Confidence | high |
+| Notes | — |
+
+## Step Up on Second - Dec. 2023.pdf
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1159829_StepUponSecond-Dec.2023.pdf`  ·  1186.3 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Step Up on Second |
+| Invoice date | 2024-01-08 |
+| Billed amount | $494475.00 |
+| Deliverables | SUOS (HFMH); SUOS 2nd Street (D7 Flex); SUOS 5th Street (D7 Flex); SUOS EHV (ARPA/EHV); SUOS HUD VASH CCM HACLA (D7); SUOS HUD VASH CCM LACDA (D7); SUOS Scattered 2 (D7); SUOS Scattered 3 (ARPA); SUOS Scattered 4 (SRAP); SUOS Scattered 5 (ARPA/FHSP); SUOS Step Up On 3rd (D7); SUOS Step Up On 3rd DMH (D7); SUOS Step Up On Broadway (D7); SUOS Stepping Up LA County TBRA (D7); SUOS Stepping Up Pasadena TBRA (D7); SUOS Tammy (D7 Flex); SUOS Daniel's Village (MHSA); SUOS DMH HACLA TBSH (D7); SUOS EHV (D7); SUOS Scattered 1 (D7); SUOS Step Up on Colorado (DHS); SUOS Step Up On Vine (MHSA) |
+| Confidence | high |
+| Notes | Vendor name, invoice date, and billed amount are explicitly stated on page 1. The billed amount is taken from 'AMOUNT REQUESTED: $494,475.00' on page 1, which matches the 'TOTAL' 'Total Cost' on page 90. Disallowed costs mentioned on page 1 and in the attached letters (pages 91, 93) are noted as deductions from payment/recoveries, not affecting the 'total billed' amount requested. Deliverables are identified as the unique 'Project' names listed under 'VACANT SLOTS' (pages 46-48) and 'OCCUPIED SLOTS' (pages 49-89), as these represent the line-item services with associated costs before being summarized by Fund on page 90. |
+
+## A Community of Friends - Dec. 2023
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1159819_ACommunityofFriends-Dec.2023.pdf`  ·  358.1 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | A Community of Friends |
+| Invoice date | 2024-01-11 |
+| Billed amount | $167100.00 |
+| Deliverables | New Slots; Vacant Slots; Occupied Slots |
+| Confidence | high |
+| Notes | — |
+
+## Exodus - Dec. 2023.pdf
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1159816_Exodus-Dec.2023.pdf`  ·  562.3 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Exodus |
+| Invoice date | 2024-01-03 |
+| Billed amount | $245250.00 |
+| Deliverables | Staffing; Exodus Culver City (PHK); Exodus EHV (ARPA/EHV); Exodus EHV (D7); Exodus New Carver (D7 Flex); Exodus New Carver (D7); Exodus Produce Apartments (D7 Flex); Exodus Scattered 1 (D7); Exodus Scattered 2 (D7); Exodus Scattered 3 DMH (D7); Exodus Scattered 4 (ARPA/FHSP); Exodus SPA 6 (HFMH); Exodus SPA 8 (HFMH); Exodus Hope on Broadway (ARPA/FHSP); Exodus New Carver (DHS); Exodus Produce Apartments (D7); Exodus SPA 4 (HFMH); Exodus Studio 6 (PHK); Applied disallowed costs |
+| Confidence | high |
+| Notes | — |
+
+## St. Joseph's Center - Dec. 2023.pdf
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1159813_St.Joseph_sCenter-Dec.2023.pdf`  ·  823.0 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | St. Joseph's Center |
+| Invoice date | 2024-01-11 |
+| Billed amount | $391950.00 |
+| Deliverables | ARPA; D7; ARPA/FHSP; Housing for Healthy CA; SAM; D7 Flex; DHS; HDAP (D7); HFMH (D7); MHSA; PHK (D7) |
+| Confidence | high |
+| Notes | The invoice date was taken from 'DATE SUBMITTED'. 'Amount Requested' was used for the billed amount, as it represents the total billed before any disallowed costs. |
+
+## Downtown Women's Center - Dec. 2023.pdf
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1159810_DowntownWomen_sCenter-Dec.2023.pdf`  ·  691.7 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Downtown Women's Center |
+| Invoice date | 2024-01-10 |
+| Billed amount | $121800.00 |
+| Deliverables | Vacant Slot Cost; Occupied Slot Cost |
+| Confidence | high |
+| Notes | — |
+
+## SFV Community Mental Health Dec. 2023
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1159267_122023WO141.pdf`  ·  793.7 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | San Fernando Valley Community Mental Health Center (SFVCMHC) |
+| Invoice date | 2024-01-25 |
+| Billed amount | $42525.00 |
+| Deliverables | Vacant Slots - SFVCMHC (HFMH); Vacant Slots - SFVCMHC EHV (D7); Vacant Slots - SFVCMHC FUP TAY FYI (DCFS/HSSP); Vacant Slots - SFVCMHC Scattered 1 (D7); Vacant Slots - SFVCMHC Welcome Home (D7); Occupied Slots - SFVCMHC (HFMH); Occupied Slots - SFVCMHC DMH (HFMH); Occupied Slots - SFVCMHC EHV (D7); Occupied Slots - SFVCMHC FUP TAY FYI (DCFS/HSSP); Occupied Slots - SFVCMHC Welcome Home (D7) |
+| Confidence | high |
+| Notes | The billed_amount is the 'AMOUNT REQUESTED' ($42,525.00) as stated on page 1 and confirmed by the 'BILLING SUMMARY' total on page 14, before any 'disallowed costs' ($8,925.00) are applied. The invoice_date is the 'DATE SUBMITTED' on page 1. |
+
+## LA Family Housing (LAFH) - Dec. 2023.pdf
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1159806_LAFamilyHousing_LAFH_-Dec.2023.pdf`  ·  760.8 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | LA Family Housing (LAFH) |
+| Invoice date | 2023-01-16 |
+| Billed amount | $361500.00 |
+| Deliverables | Vacant Slot Cost; Occupied Slot Cost |
+| Confidence | medium |
+| Notes | The stated 'DATE SUBMITTED' and 'DATE' for authorized signature on page 1 is '01/16/23', which is inconsistent with the 'CLAIM PERIOD: 12 / 2023' and 'DATE INVOICE RECIEVED: 1/18/2024'. The billed amount reflects the 'AMOUNT REQUESTED' (gross amount) as stated on page 1 and confirmed in the 'BILLING SUMMARY' on page 49, prior to the 'applied disallowed costs' mentioned on page 1. |
+
+## PATH Nov.2023.pdf
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1160007_PATH-Nov.2023.pdf`  ·  711.2 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | PATH |
+| Invoice date | 2023-12-07 |
+| Billed amount | $717975.00 |
+| Deliverables | Intensive Case Management Services (ICMS); ARPA Slot Costs; ARPA/FHSP Slot Costs; D7 Slot Costs; D7 Flex Slot Costs; DHS Slot Costs; SAM Slot Costs; HDAP (D7) Slot Costs; HFMH (D7) Slot Costs; Housing for Healthy CA Slot Costs; MHSA Slot Costs; PHK (D7) Slot Costs |
+| Confidence | high |
+| Notes | — |
+
+## Volunteers of America - Nov. 2023
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1162178_VolunteersofAmerica-Nov.2023.pdf`  ·  2176.6 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Volunteers of America |
+| Invoice date | 2023-12-06 |
+| Billed amount | $105750.00 |
+| Deliverables | ARPA/FHSP; D7; DHS; HDAP; HDAP (D7); HDAP (GR); MHSA; PHK (D7) |
+| Confidence | high |
+| Notes | — |
+
+## SSG HOPICS Project180 - Nov. 2023
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1162175_SSGHOPICSProject180-Nov.2023.pdf`  ·  2558.1 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | SSG/HOPICS/Project180 |
+| Invoice date | 12/07/2023 |
+| Billed amount | $298050.00 |
+| Deliverables | ARPA; ARPA/FHSP; D7; DHS; SAM; D7 Flex; DHSP (D7); HDAP; HDAP (D7); HFMH (D7); Housing for Healthy CA; MHSA |
+| Confidence | high |
+| Notes | — |
+
+## SRO Housing - Nov. 2023
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1162173_SROHousing-Nov.2023.pdf`  ·  843.5 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | SRO Housing |
+| Invoice date | 2023-12-07 |
+| Billed amount | $303150.00 |
+| Deliverables | D7; D7 Flex; DHS; MHSA |
+| Confidence | high |
+| Notes | The invoice date is taken from 'DATE SUBMITTED'. The billed amount is taken from 'AMOUNT REQUESTED' on page 1 and confirmed by 'TOTAL Cost' in the 'BILLING SUMMARY' on page 71. The document also mentions 'applied disallowed costs $10,800.00' and 'net pay $292,350.00', but the total billed is $303,150.00. Deliverables are extracted from the 'Fund' categories in the 'BILLING SUMMARY' table on page 71, representing the categories of services billed. |
+
+## Weingart Center Association - Nov. 2023
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1162169_WeingartCenterAssociation-Nov.2023.pdf`  ·  3339.1 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Weingart Center Association |
+| Invoice date | 2023-12-04 |
+| Billed amount | $138600.00 |
+| Deliverables | D7 Vacant Slot Cost; D7 Occupied Slot Cost; D7 Flex Vacant Slot Cost; D7 Flex Occupied Slot Cost; DHS Vacant Slot Cost; DHS Occupied Slot Cost |
+| Confidence | high |
+| Notes | Invoice date converted to ISO YYYY-MM-DD from 'December 4, 2023'. Deliverables are extracted from the 'BILLING SUMMARY' section on page 31, combining fund types with 'Vacant Slot Cost' and 'Occupied Slot Cost' as line items. |
+
+## Life Skills Training and Educational Programs - Nov. 2023
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1162112_LifeSkillsTrainingandEducationalPrograms-Nov.2023.pdf`  ·  546.0 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Life Skills Training and Educational Programs |
+| Invoice date | 2023-12-07 |
+| Billed amount | $144825.00 |
+| Deliverables | ARPA/FHSP; D7; DHS; HFMH (D7); MHSA |
+| Confidence | high |
+| Notes | The invoice date was chosen as 'DATE SUBMITTED' (12/7/23) as it represents the submission date of this invoice report. Deliverables were extracted from the 'BILLING SUMMARY' on page 34, specifically the 'Fund' categories, as these represent the primary service groupings detailed in the report. |
+
+## The Center in Hollywood - Nov. 2023
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1162145_TheCenterinHollywood-Nov.2023.pdf`  ·  9295.9 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | The Center in Hollywood |
+| Invoice date | 2023-12-05 |
+| Billed amount | $130350.00 |
+| Deliverables | New Slot Cost; Vacant Slot Cost; Occupied Slot Cost |
+| Confidence | high |
+| Notes | — |
