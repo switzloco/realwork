@@ -18770,11 +18770,6 @@
     "confidence": "high",
     "extraction_notes": "The document is a multi-page report detailing services, not a single invoice. The 'invoice_date' refers to the period the report covers and cannot be formatted as YYYY-MM-DD. Pages 3, 5, and 8 were not provided in the OCR transcriptions and therefore their data could not be extracted or included in the total billed amount. The billed amount is a summation of 'Total Charge' line items from the available OCR pages. Services span across February of 2024, 2023, and 2022, with daily rates of $55.00 in 2024 and $50.00 in 2023 and 2022.",
     "extractor": "gemini-2.5-flash"
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
   },
   {
     "source_title": "Healthright 360 - Recovery Bridge Housing - Feb. 2024",
@@ -24265,15 +24260,354 @@
     "confidence": "high",
     "extraction_notes": "The invoice date was determined from the '9/11/24' date associated with signatures on page 1. Page 2 also shows '09-06-24' for a signature date, but the latest date on the main billing summary (page 1) was chosen as the invoice date. The deliverable '46 Beds' is explicitly stated as the line item on page 1.",
     "extractor": "gemini-2.5-flash"
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+  },
+  {
+    "source_title": "VALLEY STAR OLIVE VIEW UCLA - CRTP - Aug 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1174630_VALLEYSTAROLIVEVIEWUCLA-CRTP-Aug2024.pdf",
+    "vendor": "19KO VALLEY STAR OLIVE VIEW UCLA CRTP",
+    "invoice_date": null,
+    "billed_amount": null,
+    "deliverables": [
+      "CRISIS RESIDENTIAL ADULT 18-64 NON-MC",
+      "LIFE SUPPORT",
+      "CRISIS RESIDENTIAL ADULT 18-64",
+      "E&M OP, ESTAB CLT, 40-54M VID",
+      "ORAL MEDICATION ADMIN",
+      "E&M OP, ESTAB CLT, 30-39M VID",
+      "E&M OP, ESTAB CLT, 10-19M VID",
+      "CRISIS RESIDENTIAL GERIATRIC 65 AND OVER",
+      "E&M OP, ESTAB CLIENT,40+MIN (NON MC)",
+      "E&M OP, ESTAB CLIENT, 25-39MIN (NON MC)",
+      "E&M OP, ESTAB CLIENT, 10MIN (NON MC)"
+    ],
+    "confidence": "high",
+    "extraction_notes": "The document is a spreadsheet listing multiple claims, not a single invoice. Therefore, a single 'invoice_date' and 'billed_amount' for the entire document are not present. 'invoice_date' and 'billed_amount' are returned as null as per instructions for missing values. The vendor name is extracted from the consistent 'Facility' column and document title. Deliverables are extracted from the 'service_value' column.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "STAR VIEW RANCHO LOS AMIGOS - CRTP - Aug 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1174626_STARVIEWRANCHOLOSAMIGOS-CRTP-Aug2024.pdf",
+    "vendor": "19JM STAR VIEW RANCHO LOS AMIGOS CRTP",
+    "invoice_date": "2024-10-15",
+    "billed_amount": null,
+    "deliverables": [
+      "CRISIS RESIDENTIAL ADULT 18-64",
+      "LIFE SUPPORT",
+      "ORAL MEDICATION ADMIN",
+      "E&M OP, ESTAB CLT, 40-54M VID",
+      "E&M OP, ESTAB CLT, 20-29M VID",
+      "E&M OP, ESTAB CLT,30-39M VID"
+    ],
+    "confidence": "medium",
+    "extraction_notes": "The document is a claims report, not a single invoice. 'invoice_date' is extracted from the report's submission date (10/15/2024). A single total 'billed_amount' is not explicitly stated on the document, only individual line item rates, thus 'billed_amount' is null as per instructions.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "A BRIGHTER DAY - BRANDY HOUSE - CRTP - Aug 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1174618_ABRIGHTERDAY-BRANDYHOUSE-CRTP-Aug2024.pdf",
+    "vendor": "19KU A BRIGHTER DAY - BRANDY HOUSE",
+    "invoice_date": "2024-10-30",
+    "billed_amount": 121686.56,
+    "deliverables": [
+      "TCM",
+      "TRANSITIONAL RESIDENTIAL- ADULT 18-64",
+      "ORAL MEDICATION ADMIN",
+      "LIFE SUPPORT"
+    ],
+    "confidence": "high",
+    "extraction_notes": "The invoice_date was extracted from the 'submitted as of' date in the header. The billed_amount is the sum of all 'ContractedRate' entries across all 12 pages of the document. Deliverables are unique values from the 'service_value' column.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "VALLEY STAR LAC-USC - CRTP - Jul 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1174629_VALLEYSTARLAC-USC-CRTP-Jul2024.pdf",
+    "vendor": "19KP VALLEY STAR LAC-USC CRTP",
+    "invoice_date": "2024-10-15",
+    "billed_amount": null,
+    "deliverables": [
+      "CRISIS RESIDENTIAL ADULT 18-64",
+      "LIFE SUPPORT",
+      "ORAL MEDICATION ADMIN",
+      "E&M OP, ESTAB CLT,40-54M VID",
+      "CRISIS RESIDENTIAL ADULT 18-64 NON-MC",
+      "E&M OP, ESTAB CLIENT,40+MIN (NON MC)"
+    ],
+    "confidence": "high",
+    "extraction_notes": "Total billed amount is not explicitly stated on the document. The document provides a list of service line items with individual contracted rates, but no grand total or summary amount.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "STAR VIEW RANCHO LOS AMIGOS - CRTP - Jul 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1174627_STARVIEWRANCHOLOSAMIGOS-CRTP-Jul2024.pdf",
+    "vendor": "19JM STAR VIEW RANCHO LOS AMIGOS CRTP",
+    "invoice_date": null,
+    "billed_amount": 155987.64,
+    "deliverables": [
+      "CRISIS RESIDENTIAL ADULT 18-64",
+      "LIFE SUPPORT",
+      "ORAL MEDICATION ADMIN",
+      "E&M OP, ESTAB CLT, 40-54M VID",
+      "CRISIS RESIDENTIAL ADULT 18-64 NON-MC",
+      "ORAL MEDICATION ADMIN (NON MC)"
+    ],
+    "confidence": "high",
+    "extraction_notes": "A single 'invoice_date' is not present on the document; the document provides 'Claims July 2024 submitted as of 10/15/2024' which is a report date, and individual service dates throughout July 2024.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "A BRIGHTER DAY - BRANDY HOUSE - CRTP - Jul 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1174619_ABRIGHTERDAY-BRANDYHOUSE-CRTP-Jul2024.pdf",
+    "vendor": "19KU A BRIGHTER DAY - BRANDY HOUSE",
+    "invoice_date": "2024-10-30",
+    "billed_amount": 157318.09,
+    "deliverables": [
+      "TCM",
+      "TRANSITIONAL RESIDENTIAL- ADULT 18-64",
+      "ORAL MEDICATION ADMIN",
+      "LIFE SUPPORT",
+      "E&M OP, ESTAB CLIENT, 10MIN"
+    ],
+    "confidence": "high",
+    "extraction_notes": "The document is a claims summary for July 2024, stated as submitted on 10/30/2024. This 'as of' date is used as the invoice_date for the entire batch of claims. The billed_amount is calculated by summing all 'ContractedRate' values across all line items in the multi-page document. One instance of '$228.59' in the OCR on page 1 was corrected to '$248.59' based on visual inspection of the original document image, matching other identical line items.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "A BRIGHTER DAY - BRANDY HOUSE - CRTP - Jun 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1174622_ABRIGHTERDAY-BRANDYHOUSE-CRTP-Jun2024.pdf",
+    "vendor": "19KU A BRIGHTER DAY - BRANDY HOUSE",
+    "invoice_date": "2024-10-30",
+    "billed_amount": 121839.82,
+    "deliverables": [
+      "TCM",
+      "ORAL MEDICATION ADMIN",
+      "TRANSITIONAL RESIDENTIAL- ADULT 18-64",
+      "LIFE SUPPORT"
+    ],
+    "confidence": "high",
+    "extraction_notes": "The document is a claims summary, not a single invoice. The 'invoice_date' field has been extracted as the 'submitted as of' date (10/30/2024) from the document header, as a specific single invoice date is not present for the entire compilation of claims.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Star View Rancho Los Amigos - CRTP - June 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1170541_StarViewRanchoLosAmigos-CRTP-June2024.pdf",
+    "vendor": "19JM STAR VIEW RANCHO LOS AMIGOS CRTP",
+    "invoice_date": "2024-08-18",
+    "billed_amount": null,
+    "deliverables": [
+      "CRISIS RESIDENTIAL ADULT 18-64",
+      "LIFE SUPPORT",
+      "ORAL MEDICATION ADMIN",
+      "E&M OP, ESTAB CLT, 40-54M VID",
+      "CRISIS RESIDENTIAL ADULT 18-64 NON-MC",
+      "E&M OP, ESTAB CLIENT, 40+MIN (NON MC)",
+      "ORAL MEDICATION ADMIN (NON MC)",
+      "MED PLAN DEVELOPMENT AND RECORD REVIE"
+    ],
+    "confidence": "medium",
+    "extraction_notes": "The document is a data export of claims, not a traditional invoice. The 'invoice_date' is extracted from the header stating 'Claims June 2024 submitted as of 8/18/2024', using the submission date of the document itself. No explicit 'billed_amount' total is stated on the document, only line item 'ContractedRate' values. Therefore, 'billed_amount' is null as per instructions not to infer or guess.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Central Star LAC-USC CRTP - May 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1170539_CentralStarLAC-USCCRTP-May2024.pdf",
+    "vendor": "19KE CENTRAL STAR LAC-USC CRTP",
+    "invoice_date": "2024-07-20",
+    "billed_amount": null,
+    "deliverables": [
+      "CRISIS RESIDENTIAL ADULT 18-64",
+      "LIFE SUPPORT",
+      "ORAL MEDICATION ADMIN",
+      "E&M OP, ESTAB CLT, 40-54M VID",
+      "MED PLAN DEVELOPMENT AND RECORD REVIE",
+      "CRISIS RESIDENTIAL ADULT 18-64 NON-MC",
+      "ORAL MEDICATION ADMIN (NON MC)",
+      "E&M OP, ESTAB CLIENT, 40+MIN (NON MC)",
+      "TCM NON-MC",
+      "E&M OP, ESTAB CLT,40-54M VID"
+    ],
+    "confidence": "high",
+    "extraction_notes": "billed_amount is null because the document is a claims report listing individual line item rates, not a summarized invoice with a total billed amount. The instruction 'Do not infer, guess, or fill in values that are not present' prevents summing these values. invoice_date is interpreted as the submission date of the claims report as stated in the title, as no singular invoice date is present.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Star View Rancho Los Amigos - CRTP - Apr 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1170543_StarViewRanchoLosAmigos-CRTP-Apr2024.pdf",
+    "vendor": "19JM STAR VIEW RANCHO LOS AMIGOS CRTP",
+    "invoice_date": "2024-07-20",
+    "billed_amount": null,
+    "deliverables": [
+      "CRISIS RESIDENTIAL ADULT 18-64",
+      "LIFE SUPPORT",
+      "TCM",
+      "ORAL MEDICATION ADMIN",
+      "E&M OP, ESTAB CLT, 40-54M VID",
+      "TARGETED CASE MGMT: PHONE",
+      "MED PLAN DEVELOPMENT AND RECORD REVIE",
+      "CRISIS RESIDENTIAL ADULT 18-64 NON-MC",
+      "CRISIS RESIDENTIAL GERIATRIC 65 AND OVER",
+      "ORAL MEDICATION ADMIN (NON MC)",
+      "E&M OP, ESTAB CLIENT, 40+MIN (NON MC)"
+    ],
+    "confidence": "medium",
+    "extraction_notes": "No total billed amount is explicitly stated on the document. The 'invoice_date' is interpreted as the 'submitted as of' date for this claims report, as it covers services from April 2024 rather than being a single invoice with one specific invoice date.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": " A BRIGHTER DAY - BRANDY HOUSE - CRTP - Apr 2024.",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1174617_ABRIGHTERDAY-BRANDYHOUSE-CRTP-Apr2024.pdf",
+    "vendor": "19KU A BRIGHTER DAY - BRANDY HOUSE",
+    "invoice_date": null,
+    "billed_amount": 132121.62,
+    "deliverables": [
+      "E&M OP, ESTAB CLIENT, 25-39MIN",
+      "TCM",
+      "ORAL MEDICATION ADMIN",
+      "TRANSITIONAL RESIDENTIAL- ADULT 18-64",
+      "LIFE SUPPORT"
+    ],
+    "confidence": "high",
+    "extraction_notes": "The document is a claims report for April 2024 services, not a single invoice. Therefore, a single 'invoice_date' for the entire document is not applicable. The 'invoice_date' field is returned as null.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Valley Star Olive View UCLA CRTP - Apr 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1170533_ValleyStarOliveViewUCLACRTP-Apr2024.pdf",
+    "vendor": "19KO VALLEY STAR OLIVE VIEW UCLA CRTP",
+    "invoice_date": "2024-07-20",
+    "billed_amount": null,
+    "deliverables": [
+      "CRISIS RESIDENTIAL ADULT 18-64",
+      "LIFE SUPPORT",
+      "ORAL MEDICATION ADMIN",
+      "E&M OP, ESTAB CLT, 40-54M VID",
+      "MED PLAN DEVELOPMENT AND RECORD REVIE",
+      "TARGETED CASE MANAGEMENT - TELEPSY"
+    ],
+    "confidence": "high",
+    "extraction_notes": "The document is a claims report, not a traditional invoice. The 'invoice_date' is extracted from the header stating 'Claims April 2024 submitted as of 7/20/2024' and confirmed by the disclaimer 'accurate as of July 20, 2024'. No explicit total billed amount is present on the document, so 'billed_amount' is null. Deliverables are unique service values from the 'service_value' column.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Valley Star LAC-USC CRTP - Apr 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1170527_ValleyStarLAC-USCCRTP-Apr2024.pdf",
+    "vendor": "19KP VALLEY STAR LAC-USC CRTP",
+    "invoice_date": "2024-07-20",
+    "billed_amount": 158557.53,
+    "deliverables": [
+      "CRISIS RESIDENTIAL ADULT 18-64",
+      "LIFE SUPPORT",
+      "ORAL MEDICATION ADMIN",
+      "E&M OP, ESTAB CLT, 40-54M VID"
+    ],
+    "confidence": "high",
+    "extraction_notes": "The document is a claims log. The 'invoice_date' is extracted from the document title as the date the claims were submitted. The 'billed_amount' is the sum of all 'ContractedRate' values across all pages. 'Deliverables' are the unique values from the 'service_value' column.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Valley Star LAC-USC CRTP - Mar 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1170526_ValleyStarLAC-USCCRTP-Mar2024.pdf",
+    "vendor": "19KP VALLEY STAR LAC-USC CRTP",
+    "invoice_date": "2024-07-20",
+    "billed_amount": 14492.92,
+    "deliverables": [
+      "LIFE SUPPORT",
+      "ORAL MEDICATION ADMIN"
+    ],
+    "confidence": "high",
+    "extraction_notes": "The invoice date is derived from the 'submitted as of' date in the header, as a specific 'invoice_date' field is not present. The billed_amount is the sum of all 'ContractedRate' values listed in the document's line items across all pages. Deliverables are extracted from the unique 'service_value' entries.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "SSG Mark Twain - March 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1164722_SSGMarkTwainInvoices-March2024.pdf",
+    "vendor": "Special Services For Groups",
+    "invoice_date": "2024-04-08",
+    "billed_amount": 364560.0,
+    "deliverables": [
+      "56 Beds - The Mark Twain"
+    ],
+    "confidence": "high",
+    "extraction_notes": "The document is a multi-page invoice. The vendor name is explicitly stated under 'Make check payable to:'. The invoice date is taken from the date next to the Billing Coordinator's signature on the summary page (Page 1), as it represents the date the invoice was likely finalized and submitted, rather than the billing period (March 2024) or another signature date (2024-03-01) found on the supporting detail pages.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "SSG JTNH + Pine Lodge - March 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1164721_SSGJTNH_PineLodgeInvoices-March2024.pdf",
+    "vendor": "Special Services For Groups",
+    "invoice_date": "2024-04-08",
+    "billed_amount": 300390.0,
+    "deliverables": [
+      "40 Beds - Journey To New Horizons",
+      "15 Beds - Pine Lodge"
+    ],
+    "confidence": "high",
+    "extraction_notes": "The vendor was extracted from the 'Make check payable to' field on page 1. The invoice date was extracted from the signature date '4/8/24' on page 1, as it represents the date the invoice was approved/issued, while 'March 2024' indicates the billing period. The billed amount and deliverables are clearly stated in the summary table on page 1.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Hollywood Walk of Fame Hotel - March 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1164720_HollywoodWalkofFameHotelInvoices-March2024.pdf",
+    "vendor": "Hollywood Walk of Fame Hotel",
+    "invoice_date": "March 2024",
+    "billed_amount": 153450.0,
+    "deliverables": [
+      "30 Units"
+    ],
+    "confidence": "high",
+    "extraction_notes": "Invoice date is provided as 'Month/Year' (March 2024) on the document, not a specific day. There are also later approval/certification dates (e.g., 4/10/24, 3/31/2024) which are not considered the invoice date. The deliverable '30 Units' is extracted directly from the 'Number of Beds/Units' line item.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "SSG Mark Twain - Mar.2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1164716_SSGMarkTwainInvoices-March2024.pdf",
+    "vendor": "Special Services For Groups",
+    "invoice_date": "2024-04-08",
+    "billed_amount": 364560.0,
+    "deliverables": [
+      "56 Beds - The Mark Twain"
+    ],
+    "confidence": "high",
+    "extraction_notes": "Invoice date inferred from the date next to the Billing Coordinator's signature on page 1, as no explicit 'Invoice Date' field was present. 'Month/Year : March 2024' likely refers to the billing period.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Valley Star Olive View UCLA CRTP - Feb 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1170535_ValleyStarOliveViewUCLACRTP-Feb2024.pdf",
+    "vendor": "19KO VALLEY STAR OLIVE VIEW UCLA CRTP",
+    "invoice_date": null,
+    "billed_amount": null,
+    "deliverables": [
+      "CRISIS RESIDENTIAL ADULT 18-64",
+      "LIFE SUPPORT",
+      "ORAL MEDICATION ADMIN",
+      "E&M OP, ESTAB CLT,40-54M VID",
+      "MED PLAN DEVELOPMENT AND RECORD REVIE"
+    ],
+    "confidence": "medium",
+    "extraction_notes": "The document is a claims summary for February 2024, not a single invoice. Therefore, a single 'invoice_date' and 'billed_amount' (total for the entire report) are not present and have been returned as null. 'invoice_date' refers to a single date for the invoice, not a date range of services or a submission date. 'billed_amount' refers to a single total for the invoice, not a sum of individual line items which would require calculation. Deliverables are extracted as unique service values from the 'service_value' column.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Central Star LAC-USC CRTP - March.2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1164719_CentralStarLAC-USCCRTP-March.2024.pdf",
+    "vendor": "19KE CENTRAL STAR LAC-USC CRTP",
+    "invoice_date": "2024-07-07",
+    "billed_amount": 175658.28,
+    "deliverables": [
+      "CRISIS RESIDENTIAL ADULT 18-64",
+      "LIFE SUPPORT",
+      "ORAL MEDICATION ADMIN",
+      "E&M OP, ESTAB CLT, 40-54M VID",
+      "TCM",
+      "CRISIS RESIDENTIAL ADULT 18-64 NON-MC",
+      "ORAL MEDICATION ADMIN (NON MC)",
+      "E&M OP, ESTAB CLIENT, 40+MIN (NON MC)",
+      "TCM NON-MC",
+      "MEDS TRNG SUPRT NON-MC",
+      "MED PLAN DEVELOPMENT AND RECORD REVIE"
+    ],
+    "confidence": "high",
+    "extraction_notes": "The vendor name was extracted from the document title. The invoice_date was taken as the 'submitted as of' date from the document title, as no singular invoice date was explicitly stated for the entire claims summary. The billed_amount was calculated by summing the 'ContractedRate' column across all entries on all pages, as no total billed amount was explicitly stated on the document.",
+    "extractor": "gemini-2.5-flash"
   }
 ]
