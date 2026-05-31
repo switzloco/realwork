@@ -20611,5 +20611,358 @@
     "confidence": "high",
     "extraction_notes": "",
     "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "SRO - Aug 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1183585_REDACTEDSROWO_021Aug24Reviewed.pdf",
+    "vendor": "SRO Housing",
+    "invoice_date": "2024-09-05",
+    "billed_amount": 340860.0,
+    "deliverables": [
+      "D7",
+      "Housing for Healthy CA",
+      "SRAP",
+      "CFCI 2",
+      "D7 Flex",
+      "DHS",
+      "MHSA"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Penny Lane - Aug 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1183584_REDACTEDPennyLaneWO075Aug24Reviewed.pdf",
+    "vendor": "Penny Lane",
+    "invoice_date": "2024-09-05",
+    "billed_amount": 113418.75,
+    "deliverables": [
+      "D7 services",
+      "D7 Flex services",
+      "MHSA services"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "LST and E - Aug 2024 ",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1183582_REDACTEDLSTandEWO_115Aug24Reviewed.pdf",
+    "vendor": "Life Skills Training and Educational Programs",
+    "invoice_date": "2024-09-10",
+    "billed_amount": 208552.5,
+    "deliverables": [
+      "ARPA/FHSP",
+      "D7",
+      "DHS",
+      "HFMH (D7)",
+      "MHSA"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "PATH - Aug 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1183583_REDACTEDPATHWO_113Aug24Reviewed.pdf",
+    "vendor": "PATH",
+    "invoice_date": "2024-09-10",
+    "billed_amount": 934296.25,
+    "deliverables": [
+      "ARPA",
+      "ARPA/FHSP",
+      "D7",
+      "D7 Flex",
+      "DHS",
+      "SAM",
+      "HDAP (D7)",
+      "HFMH (D7)",
+      "Housing for Healthy CA",
+      "MHSA",
+      "PHK (D7)",
+      "SRAP"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "LINC - Aug 24",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1183581_REDACTEDLINCWO_114Aug24Reviewed.pdf",
+    "vendor": "LINC",
+    "invoice_date": "2024-09-03",
+    "billed_amount": 253402.5,
+    "deliverables": [
+      "ARPA/FHSP",
+      "D7",
+      "D7 Flex",
+      "Housing for Healthy CA",
+      "MHSA"
+    ],
+    "confidence": "high",
+    "extraction_notes": "All requested fields were clearly found on the document. Invoice date was converted to ISO YYYY-MM-DD format.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "KYCC - Aug 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1183578_REDACTEDKYCCWO_095Aug24Reviewed.pdf",
+    "vendor": "Koreatown Youth and Community Center (KYCC)",
+    "invoice_date": "2024-09-06",
+    "billed_amount": 82627.5,
+    "deliverables": [
+      "D7",
+      "D7 Flex",
+      "MHSA"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "LAFH - Aug 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1183579_REDACTEDLAFHWO012Aug24Reviewed.pdf",
+    "vendor": "LA Family Housing (LAFH)",
+    "invoice_date": "2024-09-03",
+    "billed_amount": 444618.75,
+    "deliverables": [
+      "New Slot Cost",
+      "Vacant Slot Cost",
+      "Occupied Slot Cost"
+    ],
+    "confidence": "high",
+    "extraction_notes": "Invoice date extracted from 'DATE SUBMITTED'. Deliverables are derived from the cost categories listed in the 'BILLING SUMMARY' that sum up to the total billed amount.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "HHCLA WO - Aug 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1183577_REDACTEDHHCLAWO_104Aug24Reviewed.pdf",
+    "vendor": "Homeless Healthcare Los Angeles (HHCLA)",
+    "invoice_date": "2024-09-09",
+    "billed_amount": 233057.5,
+    "deliverables": [
+      "ARPA/FHSP",
+      "D7",
+      "SAM",
+      "D7 Flex",
+      "DHS",
+      "MHSA",
+      "SRAP"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Exodus - Aug 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1183574_REDACTEDExodusWO_070Aug24Reviewed.pdf",
+    "vendor": "Exodus",
+    "invoice_date": "2024-09-01",
+    "billed_amount": 316537.5,
+    "deliverables": [
+      "ARPA",
+      "ARPA/FHSP",
+      "D7",
+      "D7 Flex",
+      "DHS",
+      "HFMH (D7)",
+      "PHK (D7)",
+      "SRAP"
+    ],
+    "confidence": "high",
+    "extraction_notes": "All requested fields were clearly present on the document. The total billed amount was found on page 1 as 'AMOUNT REQUESTED' and confirmed in the 'BILLING SUMMARY' table on page 55 as 'Total Cost'.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Heritage Clinic - Aug 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1183575_REDACTEDHeritageClinicWO_087Aug24Reviewed.pdf",
+    "vendor": "Heritage Clinic",
+    "invoice_date": "2024-09-03",
+    "billed_amount": 255127.5,
+    "deliverables": [
+      "ARPA",
+      "CFCI 2",
+      "D7",
+      "PHK (D7)",
+      "MHSA",
+      "SRAP"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "CRCD - Aug 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1183573_REDACTEDCRCDWO_076Aug24Reviewed.pdf",
+    "vendor": "CRCD - Coalition for Responsible Community Development",
+    "invoice_date": "2024-08-05",
+    "billed_amount": 223905.0,
+    "deliverables": [
+      "ARPA",
+      "D7",
+      "D7 Flex",
+      "MHSA",
+      "SRAP"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "American Family Housing - Aug 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1183571_REDACTEDAmericanFamilyHousingWO_096Aug24Reviewed.pdf",
+    "vendor": "American Family Housing",
+    "invoice_date": "2024-09-03",
+    "billed_amount": 76417.5,
+    "deliverables": [
+      "Vacant Slots: American Family Housing EHV (D7)",
+      "Vacant Slots: American Family Housing FUP (D7)",
+      "Vacant Slots: American Family Housing Scattered 1 (D7)",
+      "Occupied Slots: American Family Housing EHV (D7)",
+      "Occupied Slots: American Family Housing FUP (D7)",
+      "Occupied Slots: American Family Housing Scattered 1 (D7)",
+      "Occupied Slots: American Family Housing Scattered 2 (D7)",
+      "Occupied Slots: American Family Housing Scattered 3 (ARPA/FHSP)"
+    ],
+    "confidence": "high",
+    "extraction_notes": "All requested fields were clearly present and readable on the document.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": " Housing Works - Jul 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1177434_HousingWorks-ICMS-Jul2024.pdf",
+    "vendor": "Housing Works (HW)",
+    "invoice_date": "08/16/2024",
+    "billed_amount": 208035.0,
+    "deliverables": [
+      "ARPA/FHSP",
+      "D7",
+      "DHS",
+      "D7 Flex",
+      "DHSP (D7)",
+      "HFMH (D7)",
+      "Housing for Healthy CA",
+      "MHSA"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "A Community of Friends - Aug 24 ",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1183570_REDACTEDACommunityofFriendsWO_090Aug24Reviewed.pdf",
+    "vendor": "A Community of Friends",
+    "invoice_date": "2024-09-12",
+    "billed_amount": 187766.25,
+    "deliverables": [
+      "D7",
+      "D7 Flex",
+      "MHSA"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "HHCLA - Jul 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1177432_HHCLA-ICMS-Jul2024.pdf",
+    "vendor": "Homeless Healthcare Los Angeles (HHCLA)",
+    "invoice_date": "2024-08-12",
+    "billed_amount": 223646.25,
+    "deliverables": [
+      "ARPA/FHSP",
+      "D7",
+      "SAM",
+      "D7 Flex",
+      "DHS",
+      "MHSA",
+      "SRAP"
+    ],
+    "confidence": "high",
+    "extraction_notes": "Invoice date extracted from 'DATE SUBMITTED'. Deliverables are extracted from the 'Fund' categories in the 'BILLING SUMMARY' as they represent distinct service types billed.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Downtown Women Center - Jul 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1177429_DowntownWomenCenter-ICMS-Jul2024.pdf",
+    "vendor": "Downtown Women's Center",
+    "invoice_date": "8/6/2024",
+    "billed_amount": 108330.0,
+    "deliverables": [
+      "ARPA",
+      "D7",
+      "DHS",
+      "SAM",
+      "MHSA"
+    ],
+    "confidence": "high",
+    "extraction_notes": "Deliverables are identified from the 'Fund' categories in the billing summary, which represent distinct housing/service programs. No further detailed descriptions of individual services per fund are provided on the document.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "CRCD - Jul 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1177428_CRCD-ICMS-Jul2024.pdf",
+    "vendor": "CRCD - Coalition for Responsible Community",
+    "invoice_date": "08/05/2024",
+    "billed_amount": 223905.0,
+    "deliverables": [
+      "ARPA: $15,783.75",
+      "D7: $129,978.75",
+      "D7 Flex: $11,126.25",
+      "MHSA: $21,476.25",
+      "SRAP: $45,540.00"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "Heritage Clinic - Jul 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1177431_HeritageClinic-ICMS-Jul2024.pdf",
+    "vendor": "Heritage Clinic",
+    "invoice_date": "2024-08-08",
+    "billed_amount": 254092.5,
+    "deliverables": [
+      "ARPA",
+      "CFCI 2",
+      "D7",
+      "PHK (D7)",
+      "MHSA",
+      "SRAP"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "American Family Housing - Jul 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1177427_AmericanFamilyHousing-ICMS-Jul2024.pdf",
+    "vendor": "American Family Housing",
+    "invoice_date": "2024-08-01",
+    "billed_amount": 78401.25,
+    "deliverables": [
+      "ARPA/FHSP Vacant Slot Costs",
+      "ARPA/FHSP Occupied Slot Costs",
+      "D7 Vacant Slot Costs",
+      "D7 Occupied Slot Costs"
+    ],
+    "confidence": "high",
+    "extraction_notes": "The invoice date is extracted from 'DATE SUBMITTED'. The billed amount is confirmed by 'AMOUNT REQUESTED' and 'BILLING SUMMARY TOTAL Cost'. Deliverables are derived from the aggregate categories and their costs as listed in the 'BILLING SUMMARY' table on page 18, representing the highest-level breakdown of services.",
+    "extractor": "gemini-2.5-flash"
+  },
+  {
+    "source_title": "A Community of Friends - Jul 2024",
+    "source_url": "https://file.lacounty.gov/SDSInter/ceo/asp/1177426_ACommunityofFriends-ICMS-Jul2024.pdf",
+    "vendor": "A Community of Friends",
+    "invoice_date": "8/12/2024",
+    "billed_amount": 188887.5,
+    "deliverables": [
+      "New Slot Cost",
+      "Vacant Slot Cost",
+      "Occupied Slot Cost"
+    ],
+    "confidence": "high",
+    "extraction_notes": "",
+    "extractor": "gemini-2.5-flash"
   }
 ]

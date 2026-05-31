@@ -2342,3 +2342,263 @@ Right: the normalized ledger row our agent extracted autonomously.
 | Deliverables | ARPA; ARPA/FHSP; D7; DHS; SAM; D7 Flex; DHSP (D7); HDAP; HDAP (D7); HFMH (D7); Housing for Healthy CA; MHSA |
 | Confidence | high |
 | Notes | — |
+
+## SRO - Aug 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1183585_REDACTEDSROWO_021Aug24Reviewed.pdf`  ·  762.2 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | SRO Housing |
+| Invoice date | 2024-09-05 |
+| Billed amount | $340860.00 |
+| Deliverables | D7; Housing for Healthy CA; SRAP; CFCI 2; D7 Flex; DHS; MHSA |
+| Confidence | high |
+| Notes | — |
+
+## Penny Lane - Aug 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1183584_REDACTEDPennyLaneWO075Aug24Reviewed.pdf`  ·  3735.0 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Penny Lane |
+| Invoice date | 2024-09-05 |
+| Billed amount | $113418.75 |
+| Deliverables | D7 services; D7 Flex services; MHSA services |
+| Confidence | high |
+| Notes | — |
+
+## LST and E - Aug 2024 
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1183582_REDACTEDLSTandEWO_115Aug24Reviewed.pdf`  ·  757.0 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Life Skills Training and Educational Programs |
+| Invoice date | 2024-09-10 |
+| Billed amount | $208552.50 |
+| Deliverables | ARPA/FHSP; D7; DHS; HFMH (D7); MHSA |
+| Confidence | high |
+| Notes | — |
+
+## PATH - Aug 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1183583_REDACTEDPATHWO_113Aug24Reviewed.pdf`  ·  975.8 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | PATH |
+| Invoice date | 2024-09-10 |
+| Billed amount | $934296.25 |
+| Deliverables | ARPA; ARPA/FHSP; D7; D7 Flex; DHS; SAM; HDAP (D7); HFMH (D7); Housing for Healthy CA; MHSA; PHK (D7); SRAP |
+| Confidence | high |
+| Notes | — |
+
+## LINC - Aug 24
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1183581_REDACTEDLINCWO_114Aug24Reviewed.pdf`  ·  431.6 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | LINC |
+| Invoice date | 2024-09-03 |
+| Billed amount | $253402.50 |
+| Deliverables | ARPA/FHSP; D7; D7 Flex; Housing for Healthy CA; MHSA |
+| Confidence | high |
+| Notes | All requested fields were clearly found on the document. Invoice date was converted to ISO YYYY-MM-DD format. |
+
+## KYCC - Aug 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1183578_REDACTEDKYCCWO_095Aug24Reviewed.pdf`  ·  2094.8 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Koreatown Youth and Community Center (KYCC) |
+| Invoice date | 2024-09-06 |
+| Billed amount | $82627.50 |
+| Deliverables | D7; D7 Flex; MHSA |
+| Confidence | high |
+| Notes | — |
+
+## LAFH - Aug 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1183579_REDACTEDLAFHWO012Aug24Reviewed.pdf`  ·  1964.9 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | LA Family Housing (LAFH) |
+| Invoice date | 2024-09-03 |
+| Billed amount | $444618.75 |
+| Deliverables | New Slot Cost; Vacant Slot Cost; Occupied Slot Cost |
+| Confidence | high |
+| Notes | Invoice date extracted from 'DATE SUBMITTED'. Deliverables are derived from the cost categories listed in the 'BILLING SUMMARY' that sum up to the total billed amount. |
+
+## HHCLA WO - Aug 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1183577_REDACTEDHHCLAWO_104Aug24Reviewed.pdf`  ·  6204.7 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Homeless Healthcare Los Angeles (HHCLA) |
+| Invoice date | 2024-09-09 |
+| Billed amount | $233057.50 |
+| Deliverables | ARPA/FHSP; D7; SAM; D7 Flex; DHS; MHSA; SRAP |
+| Confidence | high |
+| Notes | — |
+
+## Exodus - Aug 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1183574_REDACTEDExodusWO_070Aug24Reviewed.pdf`  ·  421.8 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Exodus |
+| Invoice date | 2024-09-01 |
+| Billed amount | $316537.50 |
+| Deliverables | ARPA; ARPA/FHSP; D7; D7 Flex; DHS; HFMH (D7); PHK (D7); SRAP |
+| Confidence | high |
+| Notes | All requested fields were clearly present on the document. The total billed amount was found on page 1 as 'AMOUNT REQUESTED' and confirmed in the 'BILLING SUMMARY' table on page 55 as 'Total Cost'. |
+
+## Heritage Clinic - Aug 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1183575_REDACTEDHeritageClinicWO_087Aug24Reviewed.pdf`  ·  12892.3 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Heritage Clinic |
+| Invoice date | 2024-09-03 |
+| Billed amount | $255127.50 |
+| Deliverables | ARPA; CFCI 2; D7; PHK (D7); MHSA; SRAP |
+| Confidence | high |
+| Notes | — |
+
+## CRCD - Aug 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1183573_REDACTEDCRCDWO_076Aug24Reviewed.pdf`  ·  430.2 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | CRCD - Coalition for Responsible Community Development |
+| Invoice date | 2024-08-05 |
+| Billed amount | $223905.00 |
+| Deliverables | ARPA; D7; D7 Flex; MHSA; SRAP |
+| Confidence | high |
+| Notes | — |
+
+## American Family Housing - Aug 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1183571_REDACTEDAmericanFamilyHousingWO_096Aug24Reviewed.pdf`  ·  163.9 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | American Family Housing |
+| Invoice date | 2024-09-03 |
+| Billed amount | $76417.50 |
+| Deliverables | Vacant Slots: American Family Housing EHV (D7); Vacant Slots: American Family Housing FUP (D7); Vacant Slots: American Family Housing Scattered 1 (D7); Occupied Slots: American Family Housing EHV (D7); Occupied Slots: American Family Housing FUP (D7); Occupied Slots: American Family Housing Scattered 1 (D7); Occupied Slots: American Family Housing Scattered 2 (D7); Occupied Slots: American Family Housing Scattered 3 (ARPA/FHSP) |
+| Confidence | high |
+| Notes | All requested fields were clearly present and readable on the document. |
+
+##  Housing Works - Jul 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1177434_HousingWorks-ICMS-Jul2024.pdf`  ·  378.0 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Housing Works (HW) |
+| Invoice date | 08/16/2024 |
+| Billed amount | $208035.00 |
+| Deliverables | ARPA/FHSP; D7; DHS; D7 Flex; DHSP (D7); HFMH (D7); Housing for Healthy CA; MHSA |
+| Confidence | high |
+| Notes | — |
+
+## A Community of Friends - Aug 24 
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1183570_REDACTEDACommunityofFriendsWO_090Aug24Reviewed.pdf`  ·  509.7 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | A Community of Friends |
+| Invoice date | 2024-09-12 |
+| Billed amount | $187766.25 |
+| Deliverables | D7; D7 Flex; MHSA |
+| Confidence | high |
+| Notes | — |
+
+## HHCLA - Jul 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1177432_HHCLA-ICMS-Jul2024.pdf`  ·  6187.8 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Homeless Healthcare Los Angeles (HHCLA) |
+| Invoice date | 2024-08-12 |
+| Billed amount | $223646.25 |
+| Deliverables | ARPA/FHSP; D7; SAM; D7 Flex; DHS; MHSA; SRAP |
+| Confidence | high |
+| Notes | Invoice date extracted from 'DATE SUBMITTED'. Deliverables are extracted from the 'Fund' categories in the 'BILLING SUMMARY' as they represent distinct service types billed. |
+
+## Downtown Women Center - Jul 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1177429_DowntownWomenCenter-ICMS-Jul2024.pdf`  ·  214.1 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Downtown Women's Center |
+| Invoice date | 8/6/2024 |
+| Billed amount | $108330.00 |
+| Deliverables | ARPA; D7; DHS; SAM; MHSA |
+| Confidence | high |
+| Notes | Deliverables are identified from the 'Fund' categories in the billing summary, which represent distinct housing/service programs. No further detailed descriptions of individual services per fund are provided on the document. |
+
+## CRCD - Jul 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1177428_CRCD-ICMS-Jul2024.pdf`  ·  247.4 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | CRCD - Coalition for Responsible Community |
+| Invoice date | 08/05/2024 |
+| Billed amount | $223905.00 |
+| Deliverables | ARPA: $15,783.75; D7: $129,978.75; D7 Flex: $11,126.25; MHSA: $21,476.25; SRAP: $45,540.00 |
+| Confidence | high |
+| Notes | — |
+
+## Heritage Clinic - Jul 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1177431_HeritageClinic-ICMS-Jul2024.pdf`  ·  12210.7 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | Heritage Clinic |
+| Invoice date | 2024-08-08 |
+| Billed amount | $254092.50 |
+| Deliverables | ARPA; CFCI 2; D7; PHK (D7); MHSA; SRAP |
+| Confidence | high |
+| Notes | — |
+
+## American Family Housing - Jul 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1177427_AmericanFamilyHousing-ICMS-Jul2024.pdf`  ·  165.6 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | American Family Housing |
+| Invoice date | 2024-08-01 |
+| Billed amount | $78401.25 |
+| Deliverables | ARPA/FHSP Vacant Slot Costs; ARPA/FHSP Occupied Slot Costs; D7 Vacant Slot Costs; D7 Occupied Slot Costs |
+| Confidence | high |
+| Notes | The invoice date is extracted from 'DATE SUBMITTED'. The billed amount is confirmed by 'AMOUNT REQUESTED' and 'BILLING SUMMARY TOTAL Cost'. Deliverables are derived from the aggregate categories and their costs as listed in the 'BILLING SUMMARY' table on page 18, representing the highest-level breakdown of services. |
+
+## A Community of Friends - Jul 2024
+
+**Source:** `https://file.lacounty.gov/SDSInter/ceo/asp/1177426_ACommunityofFriends-ICMS-Jul2024.pdf`  ·  545.4 KB scanned PDF
+
+| Field | Extracted value |
+|-------|-----------------|
+| Vendor | A Community of Friends |
+| Invoice date | 8/12/2024 |
+| Billed amount | $188887.50 |
+| Deliverables | New Slot Cost; Vacant Slot Cost; Occupied Slot Cost |
+| Confidence | high |
+| Notes | — |
