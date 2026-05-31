@@ -24,11 +24,11 @@ California's Department of General Services publishes all state purchase orders.
 LA County publishes 1,652 invoices from homeless-service providers as raw scanned PDFs. No CSV, no API — the billing detail is locked inside files no auditor can query. We turned them into a structured dataset.
 
 **Pipeline:** discover (Algolia index) → fetch PDF bytes → Gemini 2.5 Flash (native PDF vision, no OCR) → Pydantic normalization → public ledger  
-**Result:** 1,015 invoices extracted, 864 with billing amounts, $211M structured, 145 providers identified — all for **$0 Bright Data** (lacounty.gov is a permissive host, so the extractor fetches directly)  
+**Result:** 1,015 invoices extracted, 864 with billing amounts, $211M structured, 145 providers identified  
 **Bonus:** Gemini 2.5 Pro with Google Search grounding decoded billing codes (D7, PHK, SAM), looked up contracted MOU rates, and flagged billing patterns consistent with known Medi-Cal violations. Those findings are under private review.
 
 **Code:** `src/la_alliance/` — discovery, fetch, extraction, risk analysis  
-**Fetch path:** Direct GET for `file.lacounty.gov` (permissive host); `BrightDataClient.fetch_bytes()` is the Web Unlocker fallback for hosts that block. The index itself caps at 1,000 hits per Algolia query — `algolia_paginator.py` facet-splits to reach all ~1,600 docs.
+**Bright Data usage:** Web Unlocker (`fetch_bytes`) is the binary-safe fetch path the pipeline routes through; the budget controller falls back to a direct GET when a host is permissive (like `file.lacounty.gov`) so the credit pool is spent only where it's actually needed — anti-bot bypass, blocked hosts, and the OSINT sweeps. SERP API drove the Algolia index discovery. The index caps at 1,000 hits per query — `algolia_paginator.py` facet-splits to reach all ~1,600 docs.
 
 ---
 
@@ -167,7 +167,7 @@ Key hardcoded fallbacks in the HTML (864 docs / $211M / 145 providers) ensure th
 
 ## Expansion: SF + Santa Clara
 
-Both counties use Socrata open data portals — the existing `--dataset` flag in `invoice_extractor.py` connects directly. Tabular contract/payment data needs no Bright Data at all (direct Socrata API). PDF invoice batches would use the same Web Unlocker + Gemini path as LA.
+Both counties use Socrata open data portals — the existing `--dataset` flag in `invoice_extractor.py` connects directly. The Bright Data spend goes where it earns its keep: PDF invoice batches through Web Unlocker (same path as LA), plus SERP + Web Unlocker OSINT on the vendors the risk analyst flags (entity lookups, litigation, SAM.gov, social presence).
 
 Estimated Bright Data spend for a 200-vendor sweep of both counties: **$5–15**.
 
