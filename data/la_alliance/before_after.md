@@ -784,4 +784,7 @@ Right: the normalized ledger row our agent extracted autonomously.
 | Deliverables | Recovery Bridge Housing (H2034) |
 | Confidence | high |
 | Notes | The document is a multi-page report detailing services, not a single invoice. The 'invoice_date' refers to the period the report covers and cannot be formatted as YYYY-MM-DD. Pages 3, 5, and 8 were not provided in the OCR transcriptions and therefore their data could not be extracted or included in the total billed amount. The billed amount is a summation of 'Total Charge' line items from the available OCR pages. Services span across February of 2024, 2023, and 2022, with daily rates of $55.00 in 2024 and $50.00 in 2023 and 2022. |
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
