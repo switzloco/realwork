@@ -37,8 +37,15 @@ from pathlib import Path
 
 OUT_DIR = Path("data/la_alliance")
 LEDGER_PATH = OUT_DIR / "ledger.json"
-ASSESSMENTS_PATH = OUT_DIR / "risk_assessments.json"
-DONE_PATH = OUT_DIR / "risk_done.txt"
+
+# Risk-analysis output names real entities alongside asserted violations. That
+# is qui tam / defamation-sensitive material and must NEVER reach the public
+# repo. It is written to a gitignored private directory by design — do not move
+# these paths back under a tracked directory.
+PRIVATE_DIR = Path("data/private/la_alliance")
+PRIVATE_DIR.mkdir(parents=True, exist_ok=True)
+ASSESSMENTS_PATH = PRIVATE_DIR / "risk_assessments.json"
+DONE_PATH = PRIVATE_DIR / "risk_done.txt"
 
 MODEL = "gemini-2.5-pro"
 
@@ -231,7 +238,7 @@ def run(limit: int = 0, sleep: float = 6.0, loop: bool = False):
 
     # write a summary of high/medium findings
     _write_summary(load_assessments())
-    print(f"\nRisk summary → {OUT_DIR}/risk_summary.md")
+    print(f"\nRisk summary → {PRIVATE_DIR}/risk_summary.md")
 
 
 def _write_summary(assessments: list[dict]):
@@ -260,7 +267,7 @@ def _write_summary(assessments: list[dict]):
                     lines.append(f"- [{f.get('severity')}] {f.get('flag')}: {f.get('reasoning','')[:200]}")
                 lines.append("")
 
-    (OUT_DIR / "risk_summary.md").write_text("\n".join(lines))
+    (PRIVATE_DIR / "risk_summary.md").write_text("\n".join(lines))
 
 
 if __name__ == "__main__":

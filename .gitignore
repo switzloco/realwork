@@ -1,5 +1,13 @@
 .env
 *.db
+
+# Risk-analysis output names real entities alongside asserted violations.
+# Qui tam / defamation-sensitive — NEVER commit. Belt-and-suspenders patterns:
+data/private/
+**/risk_assessments.json
+**/risk_summary.md
+**/risk_done.txt
+
 data/*.csv
 data/*.json
 data/dgs/
