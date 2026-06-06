@@ -57,8 +57,9 @@ SUBJECT = {
     "year": "1983",
     "microfiche_handle": "Union 135 / filename 11512",  # city planning index handle
     "building": "Building 4",          # Unit E sits in Building 4 of the complex
-    "unit_plan_type": "B",             # we already hold the "B" floor plan sheet
-    "have_already": "Type B floor plan (Building 4)",
+    "unit_plan_type": "B",             # Unit E is built to the "Plan B" layout type
+    "have_already": "NOTHING — we know the designation (Building 4, Plan B) but "
+                    "hold no drawing. Target = obtain the Plan B sheet for Bldg 4.",
 }
 
 OUTPUT_DIR = Path("data/property")
