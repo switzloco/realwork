@@ -22,7 +22,6 @@
         <div class="nav-links">
             <a href="#alliance" style="color: rgba(80,255,180,0.9);">● LA Alliance Live</a>
             <a href="#audit">The Gap</a>
-            <a href="#lead">DGS Patterns</a>
             <a href="#patterns">Nonprofit Patterns</a>
             <a href="#methodology">Methodology</a>
             <a href="submit-a-tip.html" style="color: rgba(80,180,255,0.85);">Submit a Tip</a>
@@ -166,96 +165,6 @@
         </div>
     </section>
 
-    <section id="lead" class="section">
-        <div class="section-header">
-            <h2>What the <span class="accent-text">Tool</span> Surfaces</h2>
-            <p>The pipeline ran against 50,000 DGS purchase orders and surfaced six threshold-edge patterns matching documented procurement-fraud signatures. The strongest example is below. <strong>Note the framing:</strong> we are not accusing anyone. We are showing what the audit tool flags and how it honestly weakens those flags when contextual evidence emerges — exactly the calibration the State Auditor's office needs.</p>
-        </div>
-
-        <div class="case-card glass" style="border-color: rgba(255,180,80,0.4);">
-            <div class="case-header">
-                <span class="tag warning">THRESHOLD-CEILING PATTERN — CONTEXT-DEPENDENT</span>
-                <span class="amount">$599,300</span>
-            </div>
-            <h3>The $49,950 Pattern</h3>
-            <p class="grant-type">12 purchase orders at exactly $49,950 each — $50 below the competitive-bidding threshold</p>
-
-            <div class="evidence-list">
-                <div class="evidence-item fail">
-                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
-                    <span><strong>All 12 amounts identical to the dollar — $49,950, not approximate</strong></span>
-                </div>
-                <div class="evidence-item fail">
-                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
-                    <span>5 of 6 most recent contracts signed by a single named procurement officer at Cal Fire</span>
-                </div>
-                <div class="evidence-item fail">
-                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
-                    <span>No subcontractors disclosed on any PO (rules out DBE pass-through fraud variant)</span>
-                </div>
-                <div class="evidence-item success">
-                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-                    <span>Charitable context confirmed: Cal Fire was actively battling the King Fire (Aug 14–18) and Dillon Fire (Aug 28+) during this window</span>
-                </div>
-            </div>
-            <p class="summary">
-                <strong>The honest read:</strong> California's State Contracting Manual prohibits "splitting purchases" to evade competitive bidding (Public Contract Code §§ 10301-10340 require formal bidding above $50,000), and the 2019 Caltrans bid-rigging prosecution (USA v. Yong, Miller, Opp — 49-78 month sentences, $3M restitution) was built on a similar fact pattern.
-                <br><br>
-                <strong>However, the dates fall during a real wildfire emergency.</strong> Cal Fire ramped from ~55 personnel on August 14 to ~1,760 personnel at the Dillon Fire's September 5 peak. Multiple food orders to one caterer in tight succession during active fire response is plausible, and emergency procurement has expedited rules.
-                <br><br>
-                <strong>What the fire context does not explain:</strong> why every PO rounded to exactly $49,950. Genuine emergency procurement scales with actual crew size — 256 firefighters needs less than 1,760 does. Identical-amount POs across a span where crew size varied 7× looks more like "use the threshold as a default PO ceiling" than "this is what the food actually cost."
-                <br><br>
-                This is now reframed as a <strong>threshold-ceiling pattern</strong> warranting a State Auditor review of two questions: (1) is exactly $49,950 the default PO size for this procurement officer, regardless of actual need, and (2) what was the per-meal unit cost across the 12 POs. Answering either definitively requires line-item access the public Power BI does not currently expose.
-            </p>
-        </div>
-
-        <div style="margin-top: 2rem;">
-            <h3 style="text-align: center; font-family: 'Outfit', sans-serif; font-weight: 700; margin-bottom: 1.5rem; color: rgba(255,255,255,0.85);">Five more vendors with the same pattern</h3>
-            <div class="grid-2 case-studies">
-
-                <div class="case-card glass">
-                    <div class="case-header">
-                        <span class="tag warning">REPEATED THRESHOLD-EDGE POs</span>
-                        <span class="amount">28 POs</span>
-                    </div>
-                    <h3>McKesson Medical-Surgical</h3>
-                    <p class="grant-type">$4,943-$4,957 to Correctional Health Care Services — 93% buyer concentration</p>
-                    <p class="summary">28 purchase orders clustered just under the $5,000 micro-purchase threshold, 93% to a single buyer, repeating "medical supplies" description. Plausible legitimate explanation: recurring supply orders. The pattern still warrants surface review.</p>
-                </div>
-
-                <div class="case-card glass">
-                    <div class="case-header">
-                        <span class="tag warning">FUEL ORDERS AT THRESHOLD</span>
-                        <span class="amount">13 POs</span>
-                    </div>
-                    <h3>Falcon Fuels Inc</h3>
-                    <p class="grant-type">~$4,999 to Cal Fire (85% concentration) — "fuel for dept vehicles"</p>
-                    <p class="summary">13 fuel purchase orders just under the $5K threshold, same buyer, same description. Could be emergency fuel during fire response, could be the same pattern as Panini Time at smaller dollar amounts. Worth a closer look.</p>
-                </div>
-
-                <div class="case-card glass">
-                    <div class="case-header">
-                        <span class="tag danger">IDENTICAL AMOUNTS IN 3 DAYS</span>
-                        <span class="amount">3 × $4,999</span>
-                    </div>
-                    <h3>Progressive Medical, Inc.</h3>
-                    <p class="grant-type">3 POs at exactly $4,999 within 3 days — single buyer, identical scope</p>
-                    <p class="summary">3 purchase orders at precisely $4,999 issued over a 3-day window, 100% to Correctional Health Care, all with description "negative pressure wound therapy rental." The exact-amount-plus-tight-timing combination is the strongest split-contract signature we found at this threshold.</p>
-                </div>
-
-                <div class="case-card glass">
-                    <div class="case-header">
-                        <span class="tag warning">CYLINDER RENTAL CLUSTER</span>
-                        <span class="amount">6 POs</span>
-                    </div>
-                    <h3>Airgas USA LLC</h3>
-                    <p class="grant-type">6 POs at ~$4,999 to Air Resources Board — "cylinder rental"</p>
-                    <p class="summary">3 contracts in a single 7-day window, all at the threshold edge, same description. Pattern matches but vendor itself is large and reputable — likely benign procurement habit rather than intentional avoidance.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <section id="patterns" class="section">
         <div class="section-header">
             <h2>What the <span class="accent-text">Tool</span> Surfaces — Nonprofit Track</h2>
@@ -269,7 +178,7 @@
                     <span class="tag danger">$4.75M STATE / $556K REVENUE</span>
                     <span class="amount">$4,750,157</span>
                 </div>
-                <h3>Finish First Academy</h3>
+                <h3>NP-01</h3>
                 <p class="grant-type">State grants 8.5× reported total revenue</p>
                 <div class="evidence-list">
                     <div class="evidence-item fail">
@@ -293,7 +202,7 @@
                     <span class="tag danger">$338K OFFICER COMP, 25% OF EXPENSES</span>
                     <span class="amount">$4,456,234</span>
                 </div>
-                <h3>Land Together</h3>
+                <h3>NP-03</h3>
                 <p class="grant-type">$338K officer compensation at a $1.34M-expense organization</p>
                 <div class="evidence-list">
                     <div class="evidence-item fail">
@@ -309,7 +218,7 @@
                         <span>$4.46M in CA grants against $1.93M reported revenue</span>
                     </div>
                 </div>
-                <p class="summary">Sector median for officer compensation as a share of expenses is roughly 8-10%. Land Together's 25% ratio is more than 2.5x sector norm. The org also received $4.46M in state grants while reporting $1.93M total revenue. Multiple flags surviving validation simultaneously is the strongest signal in our Track B audit.</p>
+                <p class="summary">Sector median for officer compensation as a share of expenses is roughly 8-10%. NP-03's 25% ratio is more than 2.5x sector norm. The org also received $4.46M in state grants while reporting $1.93M total revenue. Multiple flags surviving validation simultaneously is the strongest signal in our Track B audit.</p>
             </div>
 
             <div class="case-card glass">
@@ -317,7 +226,7 @@
                     <span class="tag danger">$722K OFFICER COMPENSATION</span>
                     <span class="amount">$1,634,722</span>
                 </div>
-                <h3>Veterans Transition Center of California</h3>
+                <h3>NP-08</h3>
                 <p class="grant-type">$722K officer comp, year-over-year spike, $1.6M state grants</p>
                 <div class="evidence-list">
                     <div class="evidence-item fail">
@@ -337,7 +246,7 @@
                     <span class="tag danger">$2.07M FOR ONE OFFICER</span>
                     <span class="amount">$4,549,765</span>
                 </div>
-                <h3>Golden Gate National Parks Conservancy</h3>
+                <h3>NP-39</h3>
                 <p class="grant-type">Officer compensation more than doubled in one year</p>
                 <div class="evidence-list">
                     <div class="evidence-item fail">
@@ -353,7 +262,7 @@
                     <span class="tag danger">EXPENSES GREW 5×</span>
                     <span class="amount">$2,395,659</span>
                 </div>
-                <h3>CityServe Network</h3>
+                <h3>NP-45</h3>
                 <p class="grant-type">Total expenses jumped 384% YoY ($6.7M → $32.5M)</p>
                 <p class="summary">An organization that spent $6.7 million in one fiscal year and $32.5 million the next. Some growth is plausible — large grants do scale organizations — but a 5× increase in a single year warrants verification of where the money went.</p>
             </div>
@@ -363,7 +272,7 @@
                     <span class="tag danger">+355% OFFICER COMP YoY</span>
                     <span class="amount">$2,725,000</span>
                 </div>
-                <h3>Community Action Partnership of Kern</h3>
+                <h3>NP-44</h3>
                 <p class="grant-type">Officer compensation: $451K → $2.05M YoY</p>
                 <p class="summary">$451,111 to $2,053,022 in officer compensation in a single fiscal year. This is the largest YoY officer-compensation spike in our entire validated dataset. The org received $2.7M in state grants in the same period.</p>
             </div>
@@ -385,7 +294,7 @@
                 <span class="tag warning">METHODOLOGY DEMONSTRATION — ANOMALY WARRANTING REVIEW</span>
                 <span class="amount">$834K vs $500K</span>
             </div>
-            <h3>Trybe, Inc. — Worked Dossier</h3>
+            <h3>NP-23 — Worked Dossier</h3>
             <p class="grant-type">Officer compensation reported on Form 990 exceeds the entire state grant by approximately 67%</p>
 
             <div class="evidence-list">
@@ -407,7 +316,7 @@
                 </div>
             </div>
             <p class="summary">
-                The complete dossier — at <code>data/dossiers/DOSSIER_trybe_inc.md</code> in the repo — names the entity, cites every claim to a public record, lists the four charitable explanations that the State Auditor's subpoena power could rule out (multi-year grant amortization, fiscal sponsorship, comparable-position salary justification, board-approval process), and recommends the specific oversight channel: submission to the California State Auditor's confidential hotline using one of three pre-drafted tip letter templates we shipped (<code>STATE_AUDITOR_TIP_TEMPLATES.md</code>). This is what depth looks like.
+                The complete dossier — at <code>data/dossiers/DOSSIER_NP-23.md</code> in the repo — names the entity, cites every claim to a public record, lists the four charitable explanations that the State Auditor's subpoena power could rule out (multi-year grant amortization, fiscal sponsorship, comparable-position salary justification, board-approval process), and recommends the specific oversight channel: submission to the California State Auditor's confidential hotline using one of three pre-drafted tip letter templates we shipped (<code>STATE_AUDITOR_TIP_TEMPLATES.md</code>). This is what depth looks like.
             </p>
         </div>
 
@@ -443,7 +352,7 @@
                 <div class="method-step">
                     <div class="step-num">3</div>
                     <h4>Bright Data Verification</h4>
-                    <p>Web Unlocker bypasses anti-bot on bizfileonline.sos.ca.gov, CCLD, ProPublica, SAM.gov. SERP API runs 5-variant queries across all flagged entities. Scraping Browser drives the state's public Power BI procurement dashboard — which is where the pipeline surfaced a single named procurement officer signing 5 of 6 just-under-threshold contracts within 17 days. Hard budget cap throughout.</p>
+                    <p>Web Unlocker bypasses anti-bot on bizfileonline.sos.ca.gov, CCLD, ProPublica, SAM.gov. SERP API runs 5-variant queries across all flagged entities. Scraping Browser drives the state's public Power BI procurement dashboard. Hard budget cap throughout.</p>
                 </div>
                 <div class="method-step">
                     <div class="step-num">4</div>

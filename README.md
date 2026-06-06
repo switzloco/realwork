@@ -14,9 +14,9 @@ The original plan was a generic state infrastructure grants scanner ("Ghost Infr
 
 ### 1. DGS Procurement Threshold Analysis
 
-California's Department of General Services publishes all state purchase orders. Filtering for amounts clustered just below competitive-bidding thresholds surfaces a classic fraud pattern: **12 purchase orders to a single vendor at exactly $49,950** (the CA threshold is $50,000), all to Cal Fire, all signed by one procurement officer within a 17-day window during active wildfire operations.
+California's Department of General Services publishes all state purchase orders. Filtering for amounts clustered just below competitive-bidding thresholds surfaces threshold-edge purchase patterns worth a look. The lead candidate we chased — a vendor with repeated purchase orders just under the $50,000 threshold, all to Cal Fire — **was cleared**: the orders all fell during active wildfire emergency response, where supplying fire crews in tight succession is the obvious non-fraud explanation. The tooling stays in the repo as a reusable scanner; the specific finding was dropped.
 
-**Code:** `src/dgs/` — threshold clustering, OSINT sweep, Panini Time vendor investigation  
+**Code:** `src/dgs/` — threshold clustering, OSINT sweep  
 **Bright Data usage:** SERP API (10 queries, vendor discovery) + Web Unlocker (LinkedIn, SAM.gov, OpenCorporates follow-ups)
 
 ### 2. LA Alliance PDF Black Hole
@@ -115,12 +115,8 @@ python -m src.la_alliance.risk_analyst --loop   # continuous post-submission mod
 
 Resumable via `risk_done.txt` checkpoint. Rate-limited to 6s/request (grounding quota).
 
-### `src/dgs/panini_osint.py`
-10-query SERP sweep + targeted Web Unlocker fetches for a suspicious vendor. Writes a redacted `digest.md` (safe to commit) and a full `raw_results.json` (gitignored).
-
-```bash
-python -m src.dgs.panini_osint --budget 10
-```
+### `src/dgs/` OSINT sweep
+10-query SERP sweep + targeted Web Unlocker fetches for a flagged vendor. Writes a redacted `digest.md` (safe to commit) and a full `raw_results.json` (gitignored). Generic tooling — not tied to any specific vendor.
 
 ---
 

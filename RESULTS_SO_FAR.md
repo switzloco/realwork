@@ -85,26 +85,26 @@ verification gaps."
 These survive the wrong-EIN sanity check (officer comp > $0, revenue plausible):
 
 **Massive officer compensation at small orgs:**
-- **Kounkuey Design Initiative** — $892K officer comp + YoY spike, $473K state grants
-- **Trybe, Inc.** — $834K officer comp + YoY spike, $500K state grants
-- **Veterans Transition Center of California** — $722K officer comp + YoY spike,
+- **NP-26** — $892K officer comp + YoY spike, $473K state grants
+- **NP-23** — $834K officer comp + YoY spike, $500K state grants
+- **NP-08** — $722K officer comp + YoY spike,
   $1.6M state grants
-- **Ocean Discovery Institute** — $506K officer comp + YoY spike, $500K state
-- **Enterprise for Youth** — $355K officer comp + YoY spike, $498K state
-- **Project Avary** — $366K officer comp + YoY spike, $423K state
-- **ARTS COUNCIL SANTA CRUZ COUNTY** — $334K officer comp + YoY spike, $320K state
+- **NP-22** — $506K officer comp + YoY spike, $500K state
+- **NP-25** — $355K officer comp + YoY spike, $498K state
+- **NP-27** — $366K officer comp + YoY spike, $423K state
+- **NP-29** — $334K officer comp + YoY spike, $320K state
 
 **Massive YoY spikes correlated with state funding receipt:**
-- **Community Action Partnership of Kern** — officer comp +355% YoY
+- **NP-44** — officer comp +355% YoY
   ($451K → $2.05M), $2.7M state grants
-- **Golden Gate National Parks Conservancy** — officer comp +130% YoY
+- **NP-39** — officer comp +130% YoY
   ($900K → $2.07M!), $4.5M state grants
-- **CityServe Network** — total expenses +384% YoY ($6.7M → $32.5M!),
+- **NP-45** — total expenses +384% YoY ($6.7M → $32.5M!),
   $2.4M state grants
-- **Salmonid Restoration Federation** — total expenses +466% YoY
+- **NP-40** — total expenses +466% YoY
   ($676K → $3.8M), $3.8M state grants
-- **TreePeople** — officer comp +103% YoY ($283K → $573K), $5M state grants
-- **Shasta College Foundation** — total expenses +304% YoY, $1.6M state grants
+- **NP-38** — officer comp +103% YoY ($283K → $573K), $5M state grants
+- **NP-49** — total expenses +304% YoY, $1.6M state grants
 
 ### ⚠️ Likely False Positives (wrong-EIN signature)
 
@@ -112,14 +112,14 @@ These will be dropped by the Round 4 validator (`officer_comp=$0` AND
 `revenue=$0` is the wrong-EIN match signature — we matched a dormant
 chapter, not the real org):
 
-- MADD, Family Dynamics Resource Center, Center for Future Global Leaders,
-  Lake County Land Trust, Stockton Historical Maritime Museum, Marie
-  Harrison Community Foundation, Climate First Replacing Oil & Gas, San
-  Leandro 2050, Black Tech Link, Empower You Edutainment, Morro Coast
-  Audubon Society, Teapot Gardens, St. Joachim, Sikh Cultural Society,
-  Sacramento Zoroastrian Association, Nanaksar Darbar Langar Mata Sahib
-  Kaur Ji, Self Determination Initiative, After Life Initiative,
-  Pathway to Kinship
+- MADD, NP-06, NP-07,
+  NP-11, NP-14, Marie
+  Harrison Community Foundation, NP-20, San
+  Leandro 2050, NP-28, NP-30, Morro Coast
+  Audubon Society, NP-32, NP-33, Sikh Cultural Society,
+  NP-35, Nanaksar Darbar Langar Mata Sahib
+  Kaur Ji, Self Determination Initiative, NP-17,
+  NP-12
 
 These should NOT be named in any public output. They're matching errors,
 not findings.

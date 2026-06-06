@@ -1,6 +1,6 @@
 {
-  "name": "Operation New Hope",
-  "facts_sent": "Organization: Operation New Hope\nEIN: 953655541\nTotal California state grants received: $4,289,089\nLatest Form 990 year: 2023\nLatest year total revenue: $1,314,731\nLatest year total expenses: $1,666,208\nLatest year officer compensation: $65,387\n\nFlags raised by our pipeline:\n  - TOTAL_EXPENSES_YOY_SPIKE: Total expenses grew 87.2% YoY ($890,155 -> $1,666,208)\n  - STATE_FUNDING_EXCEEDS_REPORTED_REVENUE: Received $4,289,089 in CA grants but reports $1,314,731 total revenue on Form 990",
+  "name": "NP-05",
+  "facts_sent": "Organization: NP-05\nEIN: NP-05\nTotal California state grants received: $4,289,089\nLatest Form 990 year: 2023\nLatest year total revenue: $1,314,731\nLatest year total expenses: $1,666,208\nLatest year officer compensation: $65,387\n\nFlags raised by our pipeline:\n  - TOTAL_EXPENSES_YOY_SPIKE: Total expenses grew 87.2% YoY ($890,155 -> $1,666,208)\n  - STATE_FUNDING_EXCEEDS_REPORTED_REVENUE: Received $4,289,089 in CA grants but reports $1,314,731 total revenue on Form 990",
   "second_opinion": {
     "verdict": "AGREES_WARRANTS_INVESTIGATION",
     "confidence": 0.9,

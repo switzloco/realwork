@@ -44,26 +44,14 @@ Note the framing: these are demonstrations of what the pipeline finds, not accus
 
 We scanned IRS Form 990 filings for 500 California nonprofit grant recipients via the ProPublica Nonprofit Explorer API. After EIN-match sanity validation, **36 organizations surfaced as HIGH PRIORITY anomalies**. Public-records examples:
 
-- **Finish First Academy:** $4.75M in CA state grants. Form 990 reports $556K total revenue. Officer compensation up 77% YoY, total expenses up 190% YoY.
-- **Land Together:** $338K officer compensation at a $1.34M-expense org (25% of expenses — sector median is 8-10%). Officer comp up 55% YoY.
-- **Veterans Transition Center of California:** $722K officer compensation, $1.6M state grants.
-- **Golden Gate National Parks Conservancy:** Officer compensation more than doubled YoY, from $900K to **$2.07 million** for a single officer.
-- **Community Action Partnership of Kern:** Officer comp went from $451K to $2.05M YoY — a 355% jump.
-- **CityServe Network:** Total expenses jumped 384% YoY ($6.7M → $32.5M).
+- **NP-01:** $4.75M in CA state grants. Form 990 reports $556K total revenue. Officer compensation up 77% YoY, total expenses up 190% YoY.
+- **NP-03:** $338K officer compensation at a $1.34M-expense org (25% of expenses — sector median is 8-10%). Officer comp up 55% YoY.
+- **NP-08:** $722K officer compensation, $1.6M state grants.
+- **NP-39:** Officer compensation more than doubled YoY, from $900K to **$2.07 million** for a single officer.
+- **NP-44:** Officer comp went from $451K to $2.05M YoY — a 355% jump.
+- **NP-45:** Total expenses jumped 384% YoY ($6.7M → $32.5M).
 
 Every number above comes from a publicly-filed Form 990. The tool surfaced them; the State Auditor decides if they warrant follow-up.
-
-### DGS: Threshold-edge purchase order patterns
-
-We scanned 50,000 purchase orders totaling $30.15 billion. The pipeline surfaced six vendors with statistically anomalous threshold-edge concentration. The strongest:
-
-**Panini Time:** 12 purchase orders at exactly $49,950 — $50 below the state's $50,000 competitive-bidding threshold. 100% concentrated to Cal Fire. A manual Power BI drilldown surfaced that 5 of 6 most recent contracts were signed by a single procurement officer within a 17-day window in August 2025.
-
-**Context that matters:** That window coincides with two real wildfires (King Fire Aug 14-18, Dillon Fire Aug 28+). Cal Fire was actively battling fires that scaled from 256 personnel to 1,760. Emergency procurement is a plausible explanation for the timing and same-buyer concentration. **What it does not explain:** why every PO rounded to exactly $49,950 across a window where actual crew size varied 7×.
-
-The pipeline reframes this from "Caltrans-style bid splitting" (which the fire context partly debunks) to a **threshold-ceiling pattern**: a procurement officer defaulting to the just-under-threshold dollar amount regardless of actual need. That's a softer finding, more defensible, and exactly the kind of pattern the State Auditor's office should periodically scan for.
-
-This is the pipeline working correctly: surface a pattern, validate it, honestly weaken the finding when contextual evidence emerges, ship the calibrated verdict to oversight.
 
 ## Why this is the tool California needs
 
@@ -143,9 +131,7 @@ Three parallel tracks:
 | `STATE_AUDITOR_TIP_TEMPLATES.md` | Three pre-drafted tip letter templates for the State Auditor |
 | `accountability_audit.md` | The $36.5B systemic finding output |
 | `data/track_b/validated_report.md` | The 36 HIGH PRIORITY validated nonprofit cases |
-| `data/dgs/split_contract_report.md` | The DGS threshold-edge analysis |
-| `data/dgs/fire_window_context.md` | Honest re-evaluation of the Panini Time pattern under wildfire context |
-| `data/dossiers/DOSSIER_trybe_inc.md` | A worked example of a State Auditor-ready single-entity dossier |
+| `data/dossiers/DOSSIER_NP-23.md` | A worked example of a State Auditor-ready single-entity dossier |
 | `src/audit/disbursement_audit.py` | Reproduces the $36.5B finding |
 | `src/dgs/*.py` | DGS analysis pipeline |
 | `src/track_b/*.py` | Nonprofit analysis pipeline |

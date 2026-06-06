@@ -384,19 +384,19 @@
       "status": "NO_RESPONSE"
     },
     {
-      "name": "Defy Ventures",
+      "name": "NP-37",
       "amount": 5249999.0,
       "recipient_type": "",
       "status": "NO_RESPONSE"
     },
     {
-      "name": "TreePeople",
+      "name": "NP-38",
       "amount": 4966521.0,
       "recipient_type": "",
       "status": "NO_RESPONSE"
     },
     {
-      "name": "Finish First Academy",
+      "name": "NP-01",
       "amount": 4750157.0,
       "recipient_type": "",
       "status": "NO_RESPONSE"
@@ -408,7 +408,7 @@
       "status": "NO_RESPONSE"
     },
     {
-      "name": "Golden Gate National Parks Conservancy",
+      "name": "NP-39",
       "amount": 4549765.0,
       "recipient_type": "",
       "status": "NO_RESPONSE"
@@ -426,7 +426,7 @@
       "status": "NO_RESPONSE"
     },
     {
-      "name": "Mariposa Women and Family Center",
+      "name": "NP-02",
       "amount": 4500000.0,
       "recipient_type": "",
       "status": "NO_RESPONSE"
@@ -486,13 +486,13 @@
       "status": "NO_RESPONSE"
     },
     {
-      "name": "Land Together",
+      "name": "NP-03",
       "amount": 4456234.0,
       "recipient_type": "",
       "status": "NO_RESPONSE"
     },
     {
-      "name": "Restorative Partners Inc.",
+      "name": "NP-04",
       "amount": 4410000.0,
       "recipient_type": "",
       "status": "NO_RESPONSE"
@@ -510,7 +510,7 @@
       "status": "NO_RESPONSE"
     },
     {
-      "name": "Operation New Hope",
+      "name": "NP-05",
       "amount": 4289089.0,
       "recipient_type": "",
       "status": "NO_RESPONSE"
@@ -540,7 +540,7 @@
       "status": "NO_RESPONSE"
     },
     {
-      "name": "Salmonid Restoration Federation",
+      "name": "NP-40",
       "amount": 3755988.0,
       "recipient_type": "",
       "status": "NO_RESPONSE"
@@ -558,7 +558,7 @@
       "status": "NO_RESPONSE"
     },
     {
-      "name": "South Yuba River Citizens League",
+      "name": "NP-41",
       "amount": 3522011.0,
       "recipient_type": "",
       "status": "NO_RESPONSE"
@@ -570,7 +570,7 @@
       "status": "NO_RESPONSE"
     },
     {
-      "name": "Time for Change Foundation",
+      "name": "NP-42",
       "amount": 3438491.0,
       "recipient_type": "",
       "status": "NO_RESPONSE"
@@ -612,13 +612,13 @@
       "status": "NO_RESPONSE"
     },
     {
-      "name": "Smith River Alliance",
+      "name": "NP-43",
       "amount": 2734659.0,
       "recipient_type": "",
       "status": "NO_RESPONSE"
     },
     {
-      "name": "Community Action Partnership of Kern",
+      "name": "NP-44",
       "amount": 2725000.0,
       "recipient_type": "",
       "status": "NO_RESPONSE"
@@ -660,7 +660,7 @@
       "status": "NO_RESPONSE"
     },
     {
-      "name": "CityServe Network",
+      "name": "NP-45",
       "amount": 2395659.0,
       "recipient_type": "",
       "status": "NO_RESPONSE"
@@ -696,13 +696,13 @@
       "status": "NO_RESPONSE"
     },
     {
-      "name": "Family Dynamics Resource Center",
+      "name": "NP-06",
       "amount": 2167204.0,
       "recipient_type": "",
       "status": "NO_RESPONSE"
     },
     {
-      "name": "Salmon River Restoration Council",
+      "name": "NP-46",
       "amount": 2049991.0,
       "recipient_type": "",
       "status": "NO_RESPONSE"
@@ -750,13 +750,13 @@
       "status": "NO_RESPONSE"
     },
     {
-      "name": "Community Legal Services in East Palo Alto",
+      "name": "NP-47",
       "amount": 1935779.0,
       "recipient_type": "",
       "status": "NO_RESPONSE"
     },
     {
-      "name": "Truckee River Watershed Council",
+      "name": "NP-48",
       "amount": 1889959.0,
       "recipient_type": "",
       "status": "NO_RESPONSE"
@@ -768,7 +768,7 @@
       "status": "NO_RESPONSE"
     },
     {
-      "name": "Center for Future Global Leaders",
+      "name": "NP-07",
       "amount": 1762500.0,
       "recipient_type": "",
       "status": "NO_RESPONSE"
@@ -780,13 +780,13 @@
       "status": "NO_RESPONSE"
     },
     {
-      "name": "Shasta College Foundation",
+      "name": "NP-49",
       "amount": 1647558.0,
       "recipient_type": "",
       "status": "NO_RESPONSE"
     },
     {
-      "name": "Veterans Transition Center of California",
+      "name": "NP-08",
       "amount": 1634722.0,
       "recipient_type": "",
       "status": "NO_RESPONSE"
@@ -804,7 +804,7 @@
       "status": "NO_RESPONSE"
     },
     {
-      "name": "ManifestWorks",
+      "name": "NP-09",
       "amount": 1594818.0,
       "recipient_type": "",
       "status": "NO_RESPONSE"
@@ -846,7 +846,7 @@
       "status": "NO_RESPONSE"
     },
     {
-      "name": "California Emerging Technology Fund",
+      "name": "NP-50",
       "amount": 1372208.0,
       "recipient_type": "",
       "status": "NO_RESPONSE"
@@ -864,13 +864,13 @@
       "status": "NO_RESPONSE"
     },
     {
-      "name": "Peninsula Open Space Trust",
+      "name": "NP-51",
       "amount": 1300415.0,
       "recipient_type": "",
       "status": "NO_RESPONSE"
     },
     {
-      "name": "Peer Voices United",
+      "name": "NP-10",
       "amount": 1266002.0,
       "recipient_type": "",
       "status": "NO_RESPONSE"
@@ -942,7 +942,7 @@
       "status": "NO_RESPONSE"
     },
     {
-      "name": "Lake County Land Trust",
+      "name": "NP-11",
       "amount": 1118867.0,
       "recipient_type": "",
       "status": "NO_RESPONSE"
@@ -960,7 +960,7 @@
       "status": "NO_RESPONSE"
     },
     {
-      "name": "Pathway to Kinship",
+      "name": "NP-12",
       "amount": 1082100.0,
       "recipient_type": "",
       "status": "NO_RESPONSE"
@@ -978,7 +978,7 @@
       "status": "NO_RESPONSE"
     },
     {
-      "name": "LOS ANGELES PERFORMANCE PRACTICE",
+      "name": "NP-13",
       "amount": 1015600.0,
       "recipient_type": "",
       "status": "NO_RESPONSE"
@@ -1026,7 +1026,7 @@
       "status": "NO_RESPONSE"
     },
     {
-      "name": "Save California Salmon",
+      "name": "NP-52",
       "amount": 988680.0,
       "recipient_type": "",
       "status": "NO_RESPONSE"
@@ -1044,7 +1044,7 @@
       "status": "NO_RESPONSE"
     },
     {
-      "name": "Stockton Historical Maritime Museum",
+      "name": "NP-14",
       "amount": 950000.0,
       "recipient_type": "",
       "status": "NO_RESPONSE"
@@ -1086,13 +1086,13 @@
       "status": "NO_RESPONSE"
     },
     {
-      "name": "Unbound Stockton Community School",
+      "name": "NP-53",
       "amount": 900000.0,
       "recipient_type": "",
       "status": "NO_RESPONSE"
     },
     {
-      "name": "Five Keys Schools and Programs",
+      "name": "NP-54",
       "amount": 873686.0,
       "recipient_type": "",
       "status": "NO_RESPONSE"
@@ -1134,7 +1134,7 @@
       "status": "NO_RESPONSE"
     },
     {
-      "name": "ReEvolution",
+      "name": "NP-15",
       "amount": 830716.0,
       "recipient_type": "",
       "status": "NO_RESPONSE"
@@ -1176,7 +1176,7 @@
       "status": "NO_RESPONSE"
     },
     {
-      "name": "League of California Community Foundations",
+      "name": "NP-55",
       "amount": 800000.0,
       "recipient_type": "",
       "status": "NO_RESPONSE"
@@ -1242,19 +1242,19 @@
       "status": "NO_RESPONSE"
     },
     {
-      "name": "Ventana Wilderness Alliance",
+      "name": "NP-56",
       "amount": 731586.0,
       "recipient_type": "",
       "status": "NO_RESPONSE"
     },
     {
-      "name": "Kala Institute",
+      "name": "NP-57",
       "amount": 721250.0,
       "recipient_type": "",
       "status": "NO_RESPONSE"
     },
     {
-      "name": "Prison of Peace",
+      "name": "NP-58",
       "amount": 719844.0,
       "recipient_type": "",
       "status": "NO_RESPONSE"
@@ -1266,7 +1266,7 @@
       "status": "NO_RESPONSE"
     },
     {
-      "name": "Paws For Life K9 Rescue",
+      "name": "NP-59",
       "amount": 719841.0,
       "recipient_type": "",
       "status": "NO_RESPONSE"
@@ -1278,13 +1278,13 @@
       "status": "NO_RESPONSE"
     },
     {
-      "name": "ARTS ORANGE COUNTY",
+      "name": "NP-16",
       "amount": 719250.0,
       "recipient_type": "",
       "status": "NO_RESPONSE"
     },
     {
-      "name": "Envisioning Justice Solutions, Inc",
+      "name": "NP-60",
       "amount": 718064.0,
       "recipient_type": "",
       "status": "NO_RESPONSE"
@@ -1476,7 +1476,7 @@
       "status": "NO_RESPONSE"
     },
     {
-      "name": "Earth Team",
+      "name": "NP-61",
       "amount": 623466.0,
       "recipient_type": "",
       "status": "NO_RESPONSE"
@@ -1518,7 +1518,7 @@
       "status": "NO_RESPONSE"
     },
     {
-      "name": "Klamath River Renewal Corporation",
+      "name": "NP-62",
       "amount": 582915.0,
       "recipient_type": "",
       "status": "NO_RESPONSE"
@@ -1542,7 +1542,7 @@
       "status": "NO_RESPONSE"
     },
     {
-      "name": "After Life Initiative",
+      "name": "NP-17",
       "amount": 573331.0,
       "recipient_type": "",
       "status": "NO_RESPONSE"
@@ -1602,7 +1602,7 @@
       "status": "NO_RESPONSE"
     },
     {
-      "name": "Red Ladder Theatre Company",
+      "name": "NP-63",
       "amount": 540479.0,
       "recipient_type": "",
       "status": "NO_RESPONSE"
@@ -1614,7 +1614,7 @@
       "status": "NO_RESPONSE"
     },
     {
-      "name": "YES Nature to Neighborhoods",
+      "name": "NP-18",
       "amount": 519553.0,
       "recipient_type": "",
       "status": "NO_RESPONSE"
@@ -1704,13 +1704,13 @@
       "status": "NO_RESPONSE"
     },
     {
-      "name": "Marie Harrison Community Foundation Inc.",
+      "name": "NP-19",
       "amount": 500000.0,
       "recipient_type": "",
       "status": "NO_RESPONSE"
     },
     {
-      "name": "Leadership Counsel for Justice and Accountability",
+      "name": "NP-64",
       "amount": 500000.0,
       "recipient_type": "",
       "status": "NO_RESPONSE"
@@ -1740,7 +1740,7 @@
       "status": "NO_RESPONSE"
     },
     {
-      "name": "Climate First Replacing Oil & Gas",
+      "name": "NP-20",
       "amount": 500000.0,
       "recipient_type": "",
       "status": "NO_RESPONSE"
@@ -1770,13 +1770,13 @@
       "status": "NO_RESPONSE"
     },
     {
-      "name": "Restore 180",
+      "name": "NP-21",
       "amount": 500000.0,
       "recipient_type": "",
       "status": "NO_RESPONSE"
     },
     {
-      "name": "Ocean Discovery Institute",
+      "name": "NP-22",
       "amount": 500000.0,
       "recipient_type": "",
       "status": "NO_RESPONSE"
@@ -1812,7 +1812,7 @@
       "status": "NO_RESPONSE"
     },
     {
-      "name": "Newport Bay Naturalist & Friends",
+      "name": "NP-65",
       "amount": 500000.0,
       "recipient_type": "",
       "status": "NO_RESPONSE"
@@ -1830,7 +1830,7 @@
       "status": "NO_RESPONSE"
     },
     {
-      "name": "Trybe, Inc.",
+      "name": "NP-23",
       "amount": 500000.0,
       "recipient_type": "",
       "status": "NO_RESPONSE"
@@ -1842,7 +1842,7 @@
       "status": "NO_RESPONSE"
     },
     {
-      "name": "San Diego Canyonlands, Inc",
+      "name": "NP-66",
       "amount": 500000.0,
       "recipient_type": "",
       "status": "NO_RESPONSE"
@@ -1884,7 +1884,7 @@
       "status": "NO_RESPONSE"
     },
     {
-      "name": "San Leandro 2050",
+      "name": "NP-24",
       "amount": 499990.0,
       "recipient_type": "",
       "status": "NO_RESPONSE"
@@ -1938,7 +1938,7 @@
       "status": "NO_RESPONSE"
     },
     {
-      "name": "Enterprise for Youth",
+      "name": "NP-25",
       "amount": 498429.0,
       "recipient_type": "",
       "status": "NO_RESPONSE"
@@ -1998,7 +1998,7 @@
       "status": "NO_RESPONSE"
     },
     {
-      "name": "Kounkuey Design Initiative",
+      "name": "NP-26",
       "amount": 473107.0,
       "recipient_type": "",
       "status": "NO_RESPONSE"
@@ -2142,7 +2142,7 @@
       "status": "NO_RESPONSE"
     },
     {
-      "name": "Project Avary",
+      "name": "NP-27",
       "amount": 422587.0,
       "recipient_type": "",
       "status": "NO_RESPONSE"
@@ -2448,7 +2448,7 @@
       "status": "NO_RESPONSE"
     },
     {
-      "name": "Black Tech Link",
+      "name": "NP-28",
       "amount": 338264.0,
       "recipient_type": "",
       "status": "NO_RESPONSE"
@@ -2508,7 +2508,7 @@
       "status": "NO_RESPONSE"
     },
     {
-      "name": "ARTS COUNCIL SANTA CRUZ COUNTY",
+      "name": "NP-29",
       "amount": 320250.0,
       "recipient_type": "",
       "status": "NO_RESPONSE"
@@ -2610,7 +2610,7 @@
       "status": "NO_RESPONSE"
     },
     {
-      "name": "Empower You Edutainment",
+      "name": "NP-30",
       "amount": 300000.0,
       "recipient_type": "",
       "status": "NO_RESPONSE"
@@ -2754,7 +2754,7 @@
       "status": "NO_RESPONSE"
     },
     {
-      "name": "Morro Coast Audubon Society",
+      "name": "NP-31",
       "amount": 282442.0,
       "recipient_type": "",
       "status": "NO_RESPONSE"
@@ -2790,7 +2790,7 @@
       "status": "NO_RESPONSE"
     },
     {
-      "name": "Teapot Gardens",
+      "name": "NP-32",
       "amount": 273051.0,
       "recipient_type": "",
       "status": "NO_RESPONSE"
@@ -3114,7 +3114,7 @@
       "status": "NO_RESPONSE"
     },
     {
-      "name": "St. Joachim School - Costa Mesa",
+      "name": "NP-33 School - Costa Mesa",
       "amount": 250000.0,
       "recipient_type": "",
       "status": "NO_RESPONSE"
@@ -3126,7 +3126,7 @@
       "status": "NO_RESPONSE"
     },
     {
-      "name": "St. Joachim",
+      "name": "NP-33",
       "amount": 250000.0,
       "recipient_type": "",
       "status": "NO_RESPONSE"
@@ -3204,7 +3204,7 @@
       "status": "NO_RESPONSE"
     },
     {
-      "name": "Sikh Cultural Society of The High Desert",
+      "name": "NP-34",
       "amount": 250000.0,
       "recipient_type": "",
       "status": "NO_RESPONSE"
@@ -3372,7 +3372,7 @@
       "status": "NO_RESPONSE"
     },
     {
-      "name": "Sacramento Zoroastrian Association",
+      "name": "NP-35",
       "amount": 250000.0,
       "recipient_type": "",
       "status": "NO_RESPONSE"
@@ -3480,7 +3480,7 @@
       "status": "NO_RESPONSE"
     },
     {
-      "name": "Nanaksar Darbar Langar Mata Sahib Kaur Ji Inc.",
+      "name": "NP-36",
       "amount": 250000.0,
       "recipient_type": "",
       "status": "NO_RESPONSE"

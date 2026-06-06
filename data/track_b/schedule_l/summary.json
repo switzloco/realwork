@@ -2,54 +2,54 @@
   "analyzed": 10,
   "summary": [
     {
-      "name": "Mariposa Women and Family Center",
+      "name": "NP-02",
       "verdict": "FETCH_FAIL",
-      "ein": 953626580
+      "ein": NP-02
     },
     {
-      "name": "Land Together",
+      "name": "NP-03",
       "verdict": "FETCH_FAIL",
-      "ein": 463998218
+      "ein": NP-03
     },
     {
-      "name": "Restorative Partners Inc.",
+      "name": "NP-04",
       "verdict": "FETCH_FAIL",
-      "ein": 474825349
+      "ein": NP-04
     },
     {
-      "name": "Operation New Hope",
+      "name": "NP-05",
       "verdict": "FETCH_FAIL",
-      "ein": 953655541
+      "ein": NP-05
     },
     {
-      "name": "Family Dynamics Resource Center",
+      "name": "NP-06",
       "verdict": "FETCH_FAIL",
-      "ein": 900633321
+      "ein": NP-06
     },
     {
-      "name": "Center for Future Global Leaders",
+      "name": "NP-07",
       "verdict": "FETCH_FAIL",
-      "ein": 204140314
+      "ein": NP-07
     },
     {
-      "name": "Veterans Transition Center of California",
+      "name": "NP-08",
       "verdict": "FETCH_FAIL",
-      "ein": 770431413
+      "ein": NP-08
     },
     {
-      "name": "ManifestWorks",
+      "name": "NP-09",
       "verdict": "FETCH_FAIL",
-      "ein": 475485332
+      "ein": NP-09
     },
     {
-      "name": "Peer Voices United",
+      "name": "NP-10",
       "verdict": "FETCH_FAIL",
-      "ein": 873791488
+      "ein": NP-10
     },
     {
-      "name": "Lake County Land Trust",
+      "name": "NP-11",
       "verdict": "FETCH_FAIL",
-      "ein": 680332712
+      "ein": NP-11
     }
   ]
 }

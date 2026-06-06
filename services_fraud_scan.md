@@ -1,4 +1,4 @@
-# Services Fraud Scan — California Grants
+# Services Fraud Scan ï¿½ California Grants
 *Generated: 2026-05-28T16:14 UTC*
 
 ## Dataset Overview
@@ -29,7 +29,7 @@ Top entries by composite risk score:
 | 3 | Joy Trissal | $2,439,800 | Former Norge Cleaners |  |
 | 3 | McBain Associates | $1,752,000 | Rancho Ca?ada Floodplain Resto |  |
 | 3 | BEACHCOM, LLC | $960,213 | ABE'S ARCO |  |
-| 3 | McClelland's Dairy | $750,000 | McClelland’s Dairy Flush-to-Sc |  |
+| 3 | McClelland's Dairy | $750,000 | McClellandï¿½s Dairy Flush-to-Sc |  |
 | 3 | Solo Dairy | $749,995 | Solo Dairy Solid Separation Pr |  |
 | 3 | Flatland Dairy | $749,995 | Flatland Dairy Solid Separatio |  |
 | 3 | MOUSSA MATAR | $541,251 | FORMER CA TARGET #27 |  |
@@ -134,7 +134,7 @@ Top entries by composite risk score:
 | Michael Bartholdy | $272,780 | 8GA24318 |
 
 ## Grants at Program Maximum (252 grants)
-*Recipients who received exactly the maximum allowed — asks for the ceiling.*
+*Recipients who received exactly the maximum allowed ï¿½ asks for the ceiling.*
 
 | Recipient | Amount | Program | Source |
 |-----------|--------|---------|--------|
@@ -143,16 +143,16 @@ Top entries by composite risk score:
 | Mountains Recreation & Conserv | $7,400,000 | Wildfire Resilience Impro | Santa Monica Mountains Co |
 | San Diego, City of | $145,691,810 | Alvarado 2nd Pipeline Ext | State Water Resources Con |
 | Alameda County District Attorn | $2,254,107 | Tobacco Grant Program FY  | Department of Justice (Of |
-| University of California, San  | $1,500,000 | Improving student engagem | Governor’s Office of Land |
-| University of California, Rive | $1,500,000 | Across-the-curriculum AI- | Governor’s Office of Land |
-| University of California, Davi | $1,500,000 | Peer & AI Review + Reflec | Governor’s Office of Land |
-| San Diego State University | $1,500,000 | Equitable AI Alliance: Em | Governor’s Office of Land |
-| University of California, Irvi | $1,500,000 | Enhancing Academic Writin | Governor’s Office of Land |
+| University of California, San  | $1,500,000 | Improving student engagem | Governorï¿½s Office of Land |
+| University of California, Rive | $1,500,000 | Across-the-curriculum AI- | Governorï¿½s Office of Land |
+| University of California, Davi | $1,500,000 | Peer & AI Review + Reflec | Governorï¿½s Office of Land |
+| San Diego State University | $1,500,000 | Equitable AI Alliance: Em | Governorï¿½s Office of Land |
+| University of California, Irvi | $1,500,000 | Enhancing Academic Writin | Governorï¿½s Office of Land |
 | Los Angeles County Metropolita | $231,000,000 | Southeast Gateway Line | CA State Transportation A |
 | Caltrans, Santa Barbara County | $109,020,000 | Santa Barbara U.S. 101 Mu | Transportation Commission |
 | MADD | $750,000 | DUI Awareness and Underag | Department of Alcoholic B |
-| Restore 180 | $500,000 | Natural and Cultural Acce | CA Natural Resources Agen |
-| Ocean Discovery Institute | $500,000 | In-School Programs - Youn | CA Natural Resources Agen |
+| NP-21 | $500,000 | Natural and Cultural Acce | CA Natural Resources Agen |
+| NP-22 | $500,000 | In-School Programs - Youn | CA Natural Resources Agen |
 | Alliance for Community Empower | $500,000 | Explore to Empower | CA Natural Resources Agen |
 | Latitude High School (Educatio | $500,000 | Revisioning Education thr | CA Natural Resources Agen |
 | Social Advocates for Youth, Sa | $500,000 | Youth Unite | CA Natural Resources Agen |
@@ -165,6 +165,6 @@ Top entries by composite risk score:
 | Golden Gate National Parks Con | $500,000 | Crissy Field Center High  | CA Natural Resources Agen |
 | Mono Lake Foundation | $500,000 | Los Angeles-Mono Lake You | CA Natural Resources Agen |
 | San Joaquin County Office of E | $500,000 | Durham Ferry Outdoor Educ | CA Natural Resources Agen |
-| Trybe, Inc. | $500,000 | Trybe Outdoor Adventures | CA Natural Resources Agen |
+| NP-23 | $500,000 | NP-23 Outdoor Adventures | CA Natural Resources Agen |
 | Two Feathers Native American F | $500,000 | Two Feathers Youth Commun | CA Natural Resources Agen |
 | Community Action Partnership o | $500,000 | CAPK Youth Centers Nature | CA Natural Resources Agen |

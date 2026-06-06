@@ -27909,12 +27909,12 @@
   {
     "source_title": "invoice_2",
     "source_url": "data\\la_alliance\\raw\\invoice_2.pdf",
-    "vendor": "Ocean Discovery Institute",
+    "vendor": "NP-22",
     "invoice_date": "2024-12-31",
     "billed_amount": null,
     "deliverables": [],
     "confidence": "low",
-    "extraction_notes": "The document is an Audited Financial Statement for Ocean Discovery Institute for the year ended December 31, 2024, not an invoice or billing document. As such, there is no 'billed_amount' or specific 'deliverables' in the context of a client billing. The 'invoice_date' field is populated with the 'as of' date for the financial statements.",
+    "extraction_notes": "The document is an Audited Financial Statement for NP-22 for the year ended December 31, 2024, not an invoice or billing document. As such, there is no 'billed_amount' or specific 'deliverables' in the context of a client billing. The 'invoice_date' field is populated with the 'as of' date for the financial statements.",
     "extractor": "gemini-2.5-flash"
   },
   {
@@ -27933,7 +27933,7 @@
       "Notes to Financial Statements"
     ],
     "confidence": "medium",
-    "extraction_notes": "The document is an audit report issued by MUNGER & COMPANY, CPAS, not an invoice for their services. The 'billed_amount' for MUNGER & COMPANY, CPAS is not explicitly stated on the document. While 'Professional fees' are listed as an expense of Ocean Discovery Institute on page 6, this is a general category and does not specifically detail the amount billed by MUNGER & COMPANY, CPAS for this audit.",
+    "extraction_notes": "The document is an audit report issued by MUNGER & COMPANY, CPAS, not an invoice for their services. The 'billed_amount' for MUNGER & COMPANY, CPAS is not explicitly stated on the document. While 'Professional fees' are listed as an expense of NP-22 on page 6, this is a general category and does not specifically detail the amount billed by MUNGER & COMPANY, CPAS for this audit.",
     "extractor": "gemini-2.5-flash"
   },
   {

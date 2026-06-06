@@ -7,9 +7,9 @@ The hackathon work went **wide**: three data streams, ~14 scripts, 1,751 entitie
 
 A depth-first investigation starts by picking the entity, not by scanning a database. With what we have today, the three best targets would be:
 
-1. **Trybe Inc.** (EIN [REDACTED IN PUBLIC DOC]) — $834K officer compensation at an organization receiving $500K in CA state grants. The officer comp alone exceeds the entire state grant. That's the single most extreme officer-comp-to-state-grant ratio in our dataset.
-2. **Kounkuey Design Initiative** — $892K officer comp at a $473K-state-grant org. Similar pattern.
-3. **Veterans Transition Center of California** — $722K officer comp, $1.6M state grants, YoY spike. Larger dollar volume than the first two; possibly easier to investigate because of size.
+1. **NP-23.** (EIN [REDACTED IN PUBLIC DOC]) — $834K officer compensation at an organization receiving $500K in CA state grants. The officer comp alone exceeds the entire state grant. That's the single most extreme officer-comp-to-state-grant ratio in our dataset.
+2. **NP-26** — $892K officer comp at a $473K-state-grant org. Similar pattern.
+3. **NP-08** — $722K officer comp, $1.6M state grants, YoY spike. Larger dollar volume than the first two; possibly easier to investigate because of size.
 
 Pick ONE. Go deep.
 
@@ -22,7 +22,7 @@ Before touching the data, learn the actual rules that govern the entity:
 - The state's grant accountability framework. AB-132. Government Code §§ 8333-8334.1. The State Administrative Manual (SAM) sections on grants.
 - The IRS rules on related-party transactions. Form 990 Schedule J and Schedule L disclosure thresholds and definitions.
 
-For Trybe Inc specifically: pull the state grant agreement from the awarding agency (CA Department of [whichever], FOIA if needed). Compare reported expenditures against the agreement's allowable-use clauses.
+For NP-23 specifically: pull the state grant agreement from the awarding agency (CA Department of [whichever], FOIA if needed). Compare reported expenditures against the agreement's allowable-use clauses.
 
 ## Step 3 — Build the entity map
 
@@ -52,7 +52,7 @@ The aggregate metrics our pipeline computes are screening signals, not findings.
 - **Schedule R.** Related organizations. Sister nonprofits, controlled entities, partnerships. The fraud often lives here.
 - **Independent auditor's report.** Attached to larger 990s. Read the management letter if available.
 
-For Trybe Inc: pull the actual 990 PDF, read every page, flag every unusual item with a specific question for the State Auditor or qui tam attorney.
+For NP-23: pull the actual 990 PDF, read every page, flag every unusual item with a specific question for the State Auditor or qui tam attorney.
 
 ## Step 5 — Pull the underlying grant agreement
 
@@ -111,7 +111,7 @@ If qui tam IS the right path, the attorney handles filing under seal. You do not
 
 We did Steps 1, 2 (partially), and 4 (partially) for the 36 HIGH PRIORITY Track B entities at the aggregate-pattern level. We did NOT do Steps 3, 5, 6, 7, 8, or 9 for any single entity to depth.
 
-**Estimated time for a single complete dossier:** 8-12 hours of focused human work, or 2-3 hours of focused AI-assisted work with subpoena-substitute access to FOIA-able documents. We could fit one Trybe Inc dossier in a long evening if we focused.
+**Estimated time for a single complete dossier:** 8-12 hours of focused human work, or 2-3 hours of focused AI-assisted work with subpoena-substitute access to FOIA-able documents. We could fit one NP-23 dossier in a long evening if we focused.
 
 This appendix is the answer to "what would you do with more time." It is also the recommended next step after submission.
 
