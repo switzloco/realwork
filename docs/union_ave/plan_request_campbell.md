@@ -19,37 +19,49 @@ but were not given copies.
 
 ## 1. Email to Campbell Building / Planning (records + duplication)
 
+Polite, specific, and pre-loaded so the clerk can act in one pass: we name the
+exact microfiche frame (file 11512), state the legal basis, and attach the
+owner paperwork up front so nobody has to ask for it.
+
 > **To:** building@campbellca.gov; planning@campbellca.gov
-> **Subject:** Plan duplication request — 137 Union Ave Unit E (microfiche "Union 135" / file 11512)
+> **Subject:** Owner request to copy one microfiche frame — file 11512 (137 Union Ave Unit E, APN 412-14-028)
 >
-> Hello,
+> Hello, and thank you in advance for your help.
 >
-> I am the owner of **137 Union Avenue, Unit E, Campbell, CA 95008** (part of the
-> 135 Union Avenue condominium development, built 1983, architect Michael Moyer /
-> Union Avenue Associates). I am requesting **copies** of:
+> I'm the owner of **137 Union Avenue, Unit E, Campbell, CA 95008**
+> (**APN 412-14-028**, Tract 7304, Bldg 4), and I'm trying to make this as quick
+> as possible on your end. I viewed our building's plans on your digitized
+> microfiche at the counter — they're indexed as **"Union 135," file 11512**. I'd
+> like a copy of **that specific frame** (the Plan B / Building 4 floor and
+> structural sheets), plus, if it's easy to pull at the same time, **any permit
+> on record for alterations to Unit E**.
 >
-> 1. The original 1983 building/architectural plans for the development — your
->    microfiche index lists these under **"Union 135," filename 11512**;
-> 2. Any building permits and associated plan sets for **alterations to Unit E**
->    (any year);
-> 3. The recorded **condominium plan** for the development if held in your files.
+> I know that under **Health & Safety Code §19851** plans can be copied with the
+> owner's permission and the design professional's (or for a common-interest
+> development, the HOA board's). To save a round-trip, I've attached:
 >
-> I understand that under **Health & Safety Code §19851** the city may duplicate
-> plans with (a) the written permission of the licensed professional who signed
-> them — or their successor — and (b) the permission of the current owner, or for
-> a common-interest development, the HOA board. As the **current owner of Unit E**,
-> I am providing my permission, and I can supply HOA board authorization for the
-> common structure. Please send me your **plan-duplication affidavit / indemnity
-> form**, and please initiate the §19851 **certified-letter request to the
-> architect of record (Michael Moyer)** so duplication can proceed; that
-> permission "shall not be unreasonably withheld" under the statute.
+> - my **grant deed** (Doc #22684526) as proof I'm the current owner,
+> - a signed **owner authorization / indemnity** for the copy, and
+> - **HOA board authorization** for the common structure.
 >
-> Purpose: I need to confirm whether a specific post in my unit is load-bearing
-> before any work, and to support a future building permit.
+> If your policy is to release to the owner on the indemnity affidavit, I believe
+> that covers it — please just let me know your copy fee and how you'd like
+> payment. If you also need the architect's permission, I'm happy to have you send
+> the §19851 certified letter to the architect of record (Michael Moyer), and I'll
+> chase his sign-off in parallel so it doesn't hold you up; the statute notes that
+> permission "shall not be unreasonably withheld."
 >
-> Proof of ownership (grant deed / tax bill) attached. Happy to pay copy fees.
+> Purpose is simple: my structural engineer needs to confirm whether one interior
+> post is load-bearing before a small project, and for the eventual permit.
+>
+> Truly appreciate it — happy to come to the counter if that's easier for you.
 > Thank you,
 > Nicholas Switzer — [phone]
+
+*Attach before sending:* grant deed (#22684526), the city's signed affidavit/
+indemnity form (request it first if you don't have the blank), and a one-line
+HOA board authorization. Leading with all three is what turns this from a
+multi-week back-and-forth into a single reply.
 
 **Campbell contacts:** Planning (408) 866-2140 · planning@campbellca.gov ·
 Building Division page: https://campbellca.gov/1458/Building-Division ·
