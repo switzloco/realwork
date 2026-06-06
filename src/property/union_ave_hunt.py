@@ -102,12 +102,21 @@ QUERY_TEMPLATES = [
 # These are landing pages / search entry points worth pulling HTML from so we
 # can read their actual form actions and result links.
 SEED_UNLOCK_TARGETS = [
+    # Architect contact — his site 403s plain fetchers; the Unlocker gets the
+    # HTML so we can scrape a mailto:/email for the 19851 permission letter.
+    ("moyer_site",   "https://www.moyerarchitecture.com/"),
+    ("moyer_contact","https://www.moyerarchitecture.com/contact"),
     ("cab_license",  "https://www.cab.ca.gov/cons/archs/lic_search.shtml"),
     ("assessor",     "https://www.sccassessor.org/index.php/online-services/property-search/real-property"),
     ("recorder",     "https://clerkrecorder.santaclaracounty.gov/services/search-assessor-property-address"),
     ("campbell_recs","https://www.campbellca.gov/1140/Online-Services"),
     ("campbell_docs","https://www.campbellca.gov/206/Documents"),
 ]
+
+# Email harvest — pulled from any unlocked HTML (esp. the Moyer site).
+EMAIL_RE = re.compile(r"[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}")
+EMAIL_JUNK = ("example.com", "sentry.io", "@2x", ".png", ".jpg", "wixpress",
+              "godaddy", "domain.com", "email.com")
 
 # Signals that a retrieved doc/link is likely to BE (or point to) the plans.
 PLAN_TERMS = ["floor plan", "floorplan", "site plan", "elevation", "structural",
@@ -180,13 +189,14 @@ def load_existing() -> dict:
     return {}
 
 
-def write_findings(client, queries_done, links, pulled):
+def write_findings(client, queries_done, links, pulled, emails_found):
     with open(FINDINGS_PATH, "w") as f:
         json.dump({
             "subject": SUBJECT,
             "spent_usd": round(client.spent, 4),
             "budget_cap": client.budget_cap,
             "queries_run": queries_done,
+            "emails_found": sorted(emails_found),
             "links_ranked": sorted(links, key=lambda x: -x["priority"]),
             "documents_pulled": pulled,
             "next_actions": [
@@ -218,6 +228,7 @@ def main():
     done_queries = set(prev.get("queries_run", []))
     ranked_links = prev.get("links_ranked", [])
     pulled = prev.get("documents_pulled", [])
+    emails_found = set(prev.get("emails_found", []))
     seen_urls = {l["url"] for l in ranked_links}
 
     client = BrightDataClient(budget_cap=args.budget, label="union_ave_hunt")
@@ -274,9 +285,13 @@ def main():
                     if r.get("html"):
                         out = OUTPUT_DIR / f"{tag}-{slugify(url)}.html"
                         out.write_text(r["html"], errors="ignore")
-                        pulled.append({"tag": tag, "url": url,
-                                       "saved": str(out), "status": r["status"]})
-                        print(f"[html:{tag}] saved {out.name} | {client.report()}")
+                        hits = {e.lower() for e in EMAIL_RE.findall(r["html"])
+                                if not any(j in e.lower() for j in EMAIL_JUNK)}
+                        emails_found |= hits
+                        pulled.append({"tag": tag, "url": url, "saved": str(out),
+                                       "status": r["status"], "emails": sorted(hits)})
+                        extra = f" | EMAILS: {', '.join(sorted(hits))}" if hits else ""
+                        print(f"[html:{tag}] saved {out.name}{extra} | {client.report()}")
                     else:
                         pulled.append({"tag": tag, "url": url,
                                        "status": r.get("status"), "error": r.get("error")})
@@ -288,9 +303,11 @@ def main():
     except KeyboardInterrupt:
         print("\n[!] Interrupted — saving partial results")
     finally:
-        write_findings(client, queries_done, ranked_links, pulled)
+        write_findings(client, queries_done, ranked_links, pulled, emails_found)
         print(f"\n{'='*64}")
         print(f"UNION AVE HUNT — {client.report()}")
+        if emails_found:
+            print(f"  EMAILS HARVESTED: {', '.join(sorted(emails_found))}")
         print(f"  links ranked:     {len(ranked_links)}")
         print(f"  documents pulled: {len([p for p in pulled if p.get('saved')])}")
         top = sorted(ranked_links, key=lambda x: -x["priority"])[:8]
