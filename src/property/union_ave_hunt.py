@@ -50,6 +50,8 @@ from src.bright_data.client import BrightDataClient, BudgetExceeded
 SUBJECT = {
     "complex_address": "135 Union Avenue, Campbell, CA 95008",
     "unit_address": "137 Union Avenue Unit E, Campbell, CA 95008",
+    "apn": "412-14-028",               # Santa Clara County Assessor parcel number
+    "grant_deed_doc": "22684526",      # 2014 purchase deed (ownership proof for 19851)
     "architect": "Michael Moyer",
     "developer": "Union Avenue Associates",
     "year": "1983",
@@ -67,6 +69,7 @@ FINDINGS_PATH = OUTPUT_DIR / "union_ave_findings.json"
 # (tag, query). Tags drive how hits are scored in classify().
 QUERY_TEMPLATES = [
     # Stage A: identifier resolution (parcel / recorded condo plan)
+    ("parcel",      '"412-14-028" Santa Clara recorder condominium plan'),
     ("parcel",      '"137 Union Avenue" Campbell APN assessor parcel'),
     ("parcel",      '"135 Union Avenue" Campbell condominium plan recorded map'),
     ("condo_plan",  '"Union Avenue" Campbell condominium plan 1983 tract subdivision map'),
