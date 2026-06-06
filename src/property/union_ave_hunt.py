@@ -58,8 +58,15 @@ SUBJECT = {
     "microfiche_handle": "Union 135 / filename 11512",  # city planning index handle
     "building": "Building 4",          # Unit E sits in Building 4 of the complex
     "unit_plan_type": "B",             # Unit E is built to the "Plan B" layout type
-    "have_already": "NOTHING — we know the designation (Building 4, Plan B) but "
-                    "hold no drawing. Target = obtain the Plan B sheet for Bldg 4.",
+    "unit_designation": "137-E",       # per Assessor map: Bldg 4, 2nd floor / mid level
+    "tract": "7304",                   # Tract No. 7304
+    "court_order": "8758946",          # Condominium Plan court order #
+    "assessor_map": "Book 412, Page 14",
+    "have_already": "NOTHING — we know the designation (Bldg 4, Plan B, 137-E) but "
+                    "hold no drawing. Target = the architect's FLOOR/STRUCTURAL "
+                    "sheet for Plan B. NOTE: assessor map + recorded condo plan show "
+                    "unit airspace boundaries only, NOT internal posts — they will "
+                    "not answer whether an interior post is load-bearing.",
 }
 
 OUTPUT_DIR = Path("data/property")
@@ -73,6 +80,7 @@ QUERY_TEMPLATES = [
     ("parcel",      '"412-14-028" Santa Clara recorder condominium plan'),
     ("parcel",      '"137 Union Avenue" Campbell APN assessor parcel'),
     ("parcel",      '"135 Union Avenue" Campbell condominium plan recorded map'),
+    ("condo_plan",  '"Tract 7304" OR "8758946" Campbell condominium plan Union Avenue'),
     ("condo_plan",  '"Union Avenue" Campbell condominium plan 1983 tract subdivision map'),
     ("permits",     '"137 Union" OR "135 Union" Campbell building permit history remodel'),
     ("permits",     'Campbell CA "Unit E" "Union Avenue" remodel alteration permit'),
@@ -150,14 +158,15 @@ def write_findings(client, queries_done, links, pulled):
             "links_ranked": sorted(links, key=lambda x: -x["priority"]),
             "documents_pulled": pulled,
             "next_actions": [
+                "PRIMARY: File Campbell 19851 plan-duplication affidavit for the "
+                "architect's FLOOR/STRUCTURAL sheet — Bldg 4, Plan B, file 11512, "
+                "APN 412-14-028. This is the only doc that shows an interior post.",
                 "Confirm Michael Moyer current firm + CA architect license # "
-                "(needed for the city's 19851 certified letter).",
-                "Pull the recorded condominium plan from the SCC Recorder — it "
-                "may show Unit E structural walls directly.",
-                "File Campbell plan-duplication affidavit citing handle "
-                + SUBJECT["microfiche_handle"] + ".",
-                "Have a licensed structural engineer confirm load-bearing status "
-                "on site (definitive, and required for any permit).",
+                "(needed for the city's 19851 certified letter to him).",
+                "SKIP for the post question: recorded condo plan / assessor map show "
+                "airspace boundaries only, not internal framing.",
+                "PARALLEL: have ProStruct do an exploratory inspection (open ceiling/"
+                "wall) — often the fastest definitive answer, and needed for a permit.",
             ],
         }, f, indent=2)
 
