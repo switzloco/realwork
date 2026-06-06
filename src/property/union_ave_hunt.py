@@ -115,25 +115,57 @@ PLAN_TERMS = ["floor plan", "floorplan", "site plan", "elevation", "structural",
               "condominium plan", "condo plan", "load bearing", "load-bearing"]
 DOC_EXTS = (".pdf", ".tif", ".tiff", ".png", ".jpg", ".jpeg")
 
+# --- Relevance gate --------------------------------------------------------
+# A result is only worth keeping if it actually refers to OUR parcel. Without
+# this, the scorer happily ranks any random PDF that contains the word
+# "structural" or "floor plan" (Cornell soil studies, LA community plans, etc.).
+# Strong tokens are unambiguous to this property; each is worth 5 points.
+STRONG_TOKENS = [
+    "412-14-028", "412 14 028", "41214028",   # APN
+    "137 union", "135 union",                  # street address
+    "tract 7304", "8758946",                   # condo plan / court order
+    "michael moyer", "moyer architect", "union avenue associates",
+]
+MIN_RELEVANCE = 4   # keep only results scoring >= this
+
+
+def subject_relevance(text: str) -> int:
+    """Score how strongly a result ties to THIS parcel. 0 = unrelated junk."""
+    t = text.lower()
+    score = sum(5 for tok in STRONG_TOKENS if tok in t)
+    if "campbell" in t:
+        score += 1
+        # "Union Ave" only counts as on-topic alongside Campbell (avoids labor
+        # unions, Union City, Union Square, etc.)
+        if "union ave" in t or "union avenue" in t:
+            score += 3
+    if "95008" in t:
+        score += 1
+    return score
+
 
 def slugify(s: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-")[:80]
 
 
 def score_link(organic: dict, tag: str) -> dict:
-    """Score a single SERP organic result for how worth-pulling it is."""
-    text = (organic.get("title", "") + " " + organic.get("description", "")).lower()
+    """Score a single SERP organic result. Relevance dominates; doc/plan/gov
+    are only tie-breakers among results that are already on-topic."""
+    text = (organic.get("title", "") + " " + organic.get("description", "")
+            + " " + organic.get("link", "")).lower()
     link = organic.get("link", "")
+    relevance = subject_relevance(text)
     plan_hits = [t for t in PLAN_TERMS if t in text]
     is_doc = link.lower().endswith(DOC_EXTS)
     gov = any(d in link for d in ("santaclara", "campbellca.gov", ".gov", "cab.ca.gov"))
-    # priority: documents and plan-term gov pages first
-    priority = (2 if is_doc else 0) + (2 if plan_hits else 0) + (1 if gov else 0)
+    # relevance is the heavyweight; bonuses only re-order on-topic hits
+    priority = relevance * 10 + (2 if is_doc else 0) + (2 if plan_hits else 0) + (1 if gov else 0)
     return {
         "tag": tag,
         "title": organic.get("title", ""),
         "url": link,
         "snippet": organic.get("description", "")[:300],
+        "relevance": relevance,
         "plan_terms": plan_hits,
         "is_document": is_doc,
         "gov_source": gov,
@@ -197,14 +229,19 @@ def main():
             if query in done_queries:
                 continue
             res = client.serp(query)
+            kept = 0
             for organic in res.get("organic", []):
                 scored = score_link(organic, tag)
+                # RELEVANCE GATE: drop anything not tied to this parcel
+                if scored["relevance"] < MIN_RELEVANCE:
+                    continue
                 if scored["url"] and scored["url"] not in seen_urls:
                     seen_urls.add(scored["url"])
                     ranked_links.append(scored)
+                    kept += 1
             queries_done.append(query)
             print(f"[serp:{tag}] {query[:50]:50s} -> "
-                  f"{len(res.get('organic', []))} hits | {client.report()}")
+                  f"{len(res.get('organic', []))} hits, {kept} on-topic | {client.report()}")
             time.sleep(args.delay)
 
         # --- Stage 2: unlock high-priority pages + the seed gov targets ---
@@ -212,7 +249,7 @@ def main():
             targets = [(t, u) for (t, u) in SEED_UNLOCK_TARGETS] + [
                 (l["tag"], l["url"])
                 for l in sorted(ranked_links, key=lambda x: -x["priority"])
-                if l["priority"] >= 2
+                if l["relevance"] >= MIN_RELEVANCE
             ][:args.top_pull]
 
             done_pull_urls = {p["url"] for p in pulled}

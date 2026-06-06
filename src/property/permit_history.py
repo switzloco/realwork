@@ -75,6 +75,18 @@ SEED_UNLOCK = [
     ("assessor",    "https://www.sccassessor.org/index.php/online-services/property-search/real-property", True),
 ]
 
+# Relevance gate: a candidate page must actually refer to THIS parcel, or the
+# SERP fills up with unrelated permit pages. Strong tokens are unambiguous.
+STRONG_TOKENS = ["412-14-028", "412 14 028", "41214028", "137 union", "135 union"]
+
+
+def is_relevant(text: str) -> bool:
+    t = text.lower()
+    if any(tok in t for tok in STRONG_TOKENS):
+        return True
+    # Campbell + Union Avenue together (avoids Union City / other Union Aves)
+    return "campbell" in t and ("union ave" in t or "union avenue" in t)
+
 # What a permit row tends to contain.
 PERMIT_NUM_RE = re.compile(
     r"\b(?:BLD|PLN|BP|B|ME|PL|EL|PM|MEC|PLM|ELE)?[-/ ]?(?:19|20)?\d{2}[-/]?\d{3,6}\b",
@@ -201,8 +213,12 @@ def main():
                 url = o.get("link", "")
                 if not url or url in seen_urls:
                     continue
+                blob = (o.get("title", "") + " " + o.get("description", "")
+                        + " " + url).lower()
+                # RELEVANCE GATE: must reference this parcel
+                if not is_relevant(blob):
+                    continue
                 seen_urls.add(url)
-                blob = (o.get("title", "") + " " + o.get("description", "")).lower()
                 candidate_urls.append({
                     "url": url,
                     "title": o.get("title", ""),
