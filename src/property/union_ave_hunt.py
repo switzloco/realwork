@@ -54,6 +54,9 @@ SUBJECT = {
     "developer": "Union Avenue Associates",
     "year": "1983",
     "microfiche_handle": "Union 135 / filename 11512",  # city planning index handle
+    "building": "Building 4",          # Unit E sits in Building 4 of the complex
+    "unit_plan_type": "B",             # we already hold the "B" floor plan sheet
+    "have_already": "Type B floor plan (Building 4)",
 }
 
 OUTPUT_DIR = Path("data/property")
@@ -69,6 +72,7 @@ QUERY_TEMPLATES = [
     ("condo_plan",  '"Union Avenue" Campbell condominium plan 1983 tract subdivision map'),
     ("permits",     '"137 Union" OR "135 Union" Campbell building permit history remodel'),
     ("permits",     'Campbell CA "Unit E" "Union Avenue" remodel alteration permit'),
+    ("building4",   '"Union Avenue" Campbell "Building 4" condominium plan structural sheets'),
 
     # Stage B: architect / 19851 permission target
     ("architect",   '"Michael Moyer" architect California license Campbell OR "Palo Alto" OR "Mill Valley"'),
