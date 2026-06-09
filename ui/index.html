@@ -77,14 +77,6 @@
             <p style="margin-top: 1.25rem; color: rgba(255,255,255,0.45); font-size: 0.8rem;">of 1,652 total documents · pipeline running · <a href="https://github.com/switzloco/realwork/blob/main/data/la_alliance/ledger.json" target="_blank" style="color: rgba(80,180,255,0.7);">ledger.json on GitHub ↗</a></p>
         </div>
 
-        <!-- Risk analyst finding callout -->
-        <div class="glass" style="padding: 1.25rem 1.75rem; border-radius: 12px; margin-bottom: 2rem; border: 1px solid rgba(255,180,80,0.35); display:flex; align-items:flex-start; gap:1rem;">
-            <div style="font-size:1.4rem; line-height:1;">⚠️</div>
-            <div>
-                <div style="font-size:0.75rem; letter-spacing:0.1em; color:rgba(255,180,80,0.9); text-transform:uppercase; font-weight:600; margin-bottom:0.35rem;">Risk Analyst Finding</div>
-                <p style="margin:0; color:rgba(255,255,255,0.85); font-size:0.9rem; line-height:1.6;">Gemini 2.5 Pro with Google Search grounding identified billing patterns in the extracted invoices consistent with known Medi-Cal billing violations. <strong>Findings are under private review prior to any disclosure.</strong></p>
-            </div>
-        </div>
 
         <!-- Before / After showcase -->
         <h3 style="text-align:center; font-family:'Outfit',sans-serif; font-weight:700; margin-bottom:1.5rem; color:rgba(255,255,255,0.85);">Before &amp; After — real invoices, real extractions</h3>
@@ -113,6 +105,35 @@
   "confidence": "high"
 }</pre>
             </div>
+        </div>
+
+        <!-- Exodus Audit Quality Finding Showcase -->
+        <h3 style="text-align:center; font-family:'Outfit',sans-serif; font-weight:700; margin-top:2.5rem; margin-bottom:1.5rem; color:rgba(255,255,255,0.85);">Audit Quality & Internal Controls</h3>
+        <div class="case-card glass" style="border-color: rgba(255,180,80,0.4); margin-bottom: 2.5rem;">
+            <div class="case-header">
+                <span class="tag warning">COMMINGLED FUNDS & MISSING UNITS</span>
+                <span class="amount">$334,650</span>
+            </div>
+            <h3>Exodus Recovery (Dec 2024 Invoice)</h3>
+            <p class="grant-type">Single invoice blending 9+ complex funding streams with zero itemization</p>
+
+            <div class="evidence-list">
+                <div class="evidence-item fail">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                    <span><strong>No Unit Counts:</strong> Invoice lists fund codes (ARPA, D7, CFCI) but zero units of service (e.g., bed-nights, client counts, hours).</span>
+                </div>
+                <div class="evidence-item fail">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                    <span><strong>Commingling:</strong> Federal ARPA, State Project Homekey, and County Measure H funds all mashed into a single unitemized bill.</span>
+                </div>
+                <div class="evidence-item fail">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                    <span><strong>"Applied Disallowed Costs":</strong> Unusual line-item deduction for previously identified unallowable costs.</span>
+                </div>
+            </div>
+            <p class="summary">
+                <strong>The honest read:</strong> This is an audit nightmare, not necessarily a False Claims Act violation. Each federal and state funding stream has its own strict compliance rules. By blending them into a single summary invoice with no unit counts or hourly rates, it is mathematically impossible for the county to verify compliance with any individual grant's rules. This surfaces a critical failure in internal controls and invoicing standards, which is exactly the kind of early-warning signal our pipeline flags for county auditors.
+            </p>
         </div>
 
         <!-- Live records table — populated from GitHub ledger.json -->
